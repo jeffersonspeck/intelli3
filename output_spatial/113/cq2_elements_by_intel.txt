@@ -1,0 +1,49 @@
+[Documento] urn:doc:113
+  - miVector: 0.00,0.00,59.92,0.00,12.25,27.83,0.00,0.00
+  - TOP (documento): Spatial (score=0.5992)
+  - Ranking (top 3):
+      • Spatial: 0.5992
+      • Interpersonal: 0.2783
+      • Bodily-Kinesthetic: 0.1225
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: papel cartao dividido
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1225
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: figuras/cartolina
+        • DiscursiveStrategy: estrategia de identificação
+        • Keyword: intelicencia espacial
+        • Keyword: metade
+        • Keyword: varias figuras obtidas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5991
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: cola varias figuras
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2783
+
+
+[Documento — Fragmentos] urn:doc:113
+
+[Fragmento] Preparacao: O papel-cartao e dividido ao meio em duas partes. Em uma das partes o professor cola varias figuras obtidas em revistas ou em Cliparts de computa- dor; na outra metade, essas mesmas figuras, porem incompletas, faltando uma pequena parte. Utilizacao: A tarefa dos alunos sera encontrar a metade de sua figura e formar o par, identificando entre as opcoes existentes, e naturalmente incompletas, a que me- lhor se ajusta a figura original. :r.03-B Intelicencia Espacial
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: papel cartao dividido
+    - Ativações:
+        • score=0.1225, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: figuras/cartolina
+        • DiscursiveStrategy: estrategia de identificação
+        • Keyword: intelicencia espacial
+        • Keyword: metade
+        • Keyword: varias figuras obtidas
+    - Ativações:
+        • score=0.5991, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: cola varias figuras
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.2783, tipo=Secondary

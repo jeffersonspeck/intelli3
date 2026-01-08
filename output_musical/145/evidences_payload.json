@@ -1,0 +1,76 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "identificando diferentes animais",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8029428449472688,
+      "relevance": 0.92573402417962
+    },
+    {
+      "role": "Keyword",
+      "text": "distribuir figuras",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.713686704344813,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "objetos representados",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6873563861009744,
+      "relevance": 0.8082901554404145
+    },
+    {
+      "role": "Keyword",
+      "text": "memoria",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6664913900785296,
+      "relevance": 0.6286701208981001
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "distribuir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.8765112262521589
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "reunir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.7884283246977548
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "desenvolver jogos da memoria",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.6468048359240068
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras duplas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9464594127806563
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "sonorizar clareza cada palavra pronunciada",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

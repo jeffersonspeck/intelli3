@@ -1,0 +1,69 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:147> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:147#frag-000> .
+
+<urn:doc:147#evid-000-00-material-escolar> a onto:Keyword ;
+    rdfs:label "material escolar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:147#evid-000-01-escolar-uso> a onto:Keyword ;
+    rdfs:label "escolar uso"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:147#evid-000-02-fita-pano> a onto:Keyword ;
+    rdfs:label "fita pano"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:147#evid-000-03-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:147#evid-000-04-olhos> a onto:Keyword ;
+    rdfs:label "olhos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:147#evid-000-05-olhos-vendados> a onto:Keyword ;
+    rdfs:label "olhos vendados"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:147#evid-000-06-vender-os-olhos> a onto:DiscursiveStrategy ;
+    rdfs:label "vender os olhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:147#evid-000-07-fita-de-pano-escuro> a onto:ContextObject ;
+    rdfs:label "fita de pano escuro"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:147#evid-000-08-mudar-posio-na-sala> a onto:DiscursiveStrategy ;
+    rdfs:label "mudar posição na sala"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:147#evid-000-09-chamar-por-uma-colega> a onto:DiscursiveStrategy ;
+    rdfs:label "chamar por um(a) colega"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:147#evid-000-10-indicar-sua-posio-na-sala> a onto:DiscursiveStrategy ;
+    rdfs:label "indicar sua posição na sala"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:147#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Deve constar do material escolar de uso pessoal, e intransferivel, uma fita de pano escuro para servir como venda para os olhos. Inumeros outros jogos se utilizam desse recurso. Utilizacao: Um aluno deve ter seus olhos vendados. Os demais colegas mudam sua posicao na sala de aula. O aluno que estiver com os olhos vendados devera chamar por um(a) colega que respondera. A tarefa do aluno sera a de localizar o colega indicando sua posicao na sala. Os alunos se revezam nessa atividade e o registro de seu desempenho devera sempre ser anotado pelo professor. 140"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:147> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:147#evid-000-00-material-escolar>,
+        <urn:doc:147#evid-000-01-escolar-uso>,
+        <urn:doc:147#evid-000-02-fita-pano>,
+        <urn:doc:147#evid-000-03-preparacao>,
+        <urn:doc:147#evid-000-04-olhos>,
+        <urn:doc:147#evid-000-05-olhos-vendados>,
+        <urn:doc:147#evid-000-06-vender-os-olhos>,
+        <urn:doc:147#evid-000-07-fita-de-pano-escuro>,
+        <urn:doc:147#evid-000-08-mudar-posio-na-sala>,
+        <urn:doc:147#evid-000-09-chamar-por-uma-colega>,
+        <urn:doc:147#evid-000-10-indicar-sua-posio-na-sala> .
+

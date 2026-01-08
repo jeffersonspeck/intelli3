@@ -1,0 +1,25 @@
+[Documento] urn:doc:14
+  - miVector: 17.49,0.00,9.90,0.00,47.16,25.46,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4716)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4716
+      • Interpersonal: 0.2546
+      • Linguistic: 0.1749
+
+[Fragmento] Preparacao: Alunos sentados em fila em uma sala de aula. Uma folha de papel em branco para o primeiro aluno de cada fila. Um tema para todas as filas, passado pelo professor. Utilizacao: O aluno transmite a mensagem para o segundo da fila nao repetindo mais de uma vez as palavras pronunciadas. O segundo aluno, orientado a transmitir a mensagem da forma como a entendeu, passa para o terceiro e assim ate o final da fila. Essa trans- missao costuma alterar o sentido da mensagem e, muitas vezes, introduzir elementos novos na comunicacao, possibilitando interessante debate sobre o dominio do universo vocabular por parte dos estudantes, o valor de uma comunicacao por escrito e inume- ros outros elementos da fluencia vocabular e da estrutura gramatical.
+  - Bodily-Kinesthetic (via activation, score=0.4716)
+  - Interpersonal (via activation, score=0.2546)
+  - Linguistic (via activation, score=0.1749)
+  - Spatial (via activation, score=0.0990)
+  - Cinestésico-corporal (via activation, score=0.4716)
+  - Espacial-visual (via activation, score=0.0990)
+  - Interpessoal (via activation, score=0.2546)
+  - Linguística (via activation, score=0.1749)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)

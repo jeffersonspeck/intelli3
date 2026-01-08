@@ -1,0 +1,156 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "inteligencia cinestesico corporal",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.79454529255915,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo sacola surpresa",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7899638351586189,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "espaco aberto",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7840242315755591,
+      "relevance": 0.9597315436241611
+    },
+    {
+      "role": "Keyword",
+      "text": "caracteristicas identificadas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7840242315755591,
+      "relevance": 0.9421140939597316
+    },
+    {
+      "role": "Keyword",
+      "text": "identificadas jogo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7840242315755591,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7362628513834301,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "bolinhas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7180654382610725,
+      "relevance": 0.9790268456375839
+    },
+    {
+      "role": "Keyword",
+      "text": "professor devera esconder",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7149976630474891,
+      "relevance": 0.8515100671140939
+    },
+    {
+      "role": "Keyword",
+      "text": "terreno",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6877141377789606,
+      "relevance": 0.8045302013422819
+    },
+    {
+      "role": "Keyword",
+      "text": "determinado terreno",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6858317819333147,
+      "relevance": 0.8145973154362416
+    },
+    {
+      "role": "Keyword",
+      "text": "ambiente natural",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.6851500067322783,
+      "relevance": 0.7718120805369127
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "esconder",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.837248322147651
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "camuflar",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "distribuir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "bolinhas de vidro",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9790268456375839
+    },
+    {
+      "role": "ContextObject",
+      "text": "terreno",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.8045302013422819
+    },
+    {
+      "role": "ContextObject",
+      "text": "produtos do ambiente natural",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.7818791946308725
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "falar aos alunos sobre a camuflagem e dar exemplo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.7567114093959731
+    },
+    {
+      "role": "ContextObject",
+      "text": "mapa e uma bussola",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.5939597315436241
+    }
+  ]
+}

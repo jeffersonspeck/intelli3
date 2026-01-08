@@ -1,0 +1,132 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "alunos devem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7536255451909438,
+      "relevance": 0.9886706948640483
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos devem descobrir",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.716042811682429,
+      "relevance": 0.7250755287009063
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos devem descobrir",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.716042811682429,
+      "relevance": 0.7250755287009063
+    },
+    {
+      "role": "Keyword",
+      "text": "reunidos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.679474940234503,
+      "relevance": 0.974320241691843
+    },
+    {
+      "role": "Keyword",
+      "text": "devem estar reunidos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6644289134873016,
+      "relevance": 0.9833836858006042
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estratégia de observação e descrição",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estratégia de observação e descrição",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "roupas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.8753776435045317
+    },
+    {
+      "role": "ContextObject",
+      "text": "expressões de cada um",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "aluno retirado da sala",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "aluno retirado da sala",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "características físicas e elementos de seu temperamento",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "características físicas e elementos de seu temperamento",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "automotivação",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "capacidade de administrar as emoções",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estratégia de debate",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

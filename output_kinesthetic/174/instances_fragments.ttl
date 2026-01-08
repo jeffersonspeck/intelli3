@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:174> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:174#frag-000> .
+
+<urn:doc:174#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Cinco a seis pares de caixas plasticas ou embalagens de filmes fotograficos, preenchidas com diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros). Utilizacao: As pecas devem ser espalhadas sobre uma mesa e os alunos devem procu- rar as pecas pares, chocalhando e ouvindo o som produzido. Os alunos podem estar reunidos em duplas e ganha a dupla que obtiver maior numero de acertos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:174> ;
+    dct:type "title_or_abstract" .
+

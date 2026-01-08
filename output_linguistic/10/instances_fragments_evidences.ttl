@@ -1,0 +1,69 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:10> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:10#frag-000> .
+
+<urn:doc:10#evid-000-00-aluno> a onto:Keyword ;
+    rdfs:label "aluno"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:10#evid-000-01-nao> a onto:Keyword ;
+    rdfs:label "nao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-000-02-palavra> a onto:Keyword ;
+    rdfs:label "palavra"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-000-03-palavra-nao> a onto:Keyword ;
+    rdfs:label "palavra nao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-000-04-voce-casado> a onto:Keyword ;
+    rdfs:label "voce casado"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:10#evid-000-05-alternativamente-representante> a onto:Keyword ;
+    rdfs:label "alternativamente representante"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:10#evid-000-06-dialogo> a onto:Keyword ;
+    rdfs:label "dialogo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:10#evid-000-07-verdade> a onto:Keyword ;
+    rdfs:label "verdade"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:10#evid-000-08-estratgia-de-dilogo> a onto:DiscursiveStrategy ;
+    rdfs:label "estratégia de diálogo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-000-09-objeto-do-dilogo-perguntas> a onto:ContextObject ;
+    rdfs:label "objeto do diálogo (perguntas)"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-000-10-objeto-de-controle-tempo> a onto:ContextObject ;
+    rdfs:label "objeto de controle (tempo)"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:10#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Alunos divididos em grupos. Cada grupo escolhe alternativamente um representante. Um aluno fica com a funcao de cronometrar a participacao de cada aluno. Utilizacao: O professor inicia o dialogo com o aluno e deve, atraves de perguntas, induzi-lo a dizer a palavra nao. (Perguntas do tipo: Voce e casado? / E verdade que nasceu na Nigeria, etc.) Os alunos sao informados que nao devem omitir a verdade e que ao inves dessa palavra devem dizer negativo, de forma alguma ou outra expressao correspondente. Cada aluno que mantiver um dialogo dinami- co e em 30 segundos nao disser a palavra nao ganha ponto para sua equipe. 53"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:10> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:10#evid-000-00-aluno>,
+        <urn:doc:10#evid-000-01-nao>,
+        <urn:doc:10#evid-000-02-palavra>,
+        <urn:doc:10#evid-000-03-palavra-nao>,
+        <urn:doc:10#evid-000-04-voce-casado>,
+        <urn:doc:10#evid-000-05-alternativamente-representante>,
+        <urn:doc:10#evid-000-06-dialogo>,
+        <urn:doc:10#evid-000-07-verdade>,
+        <urn:doc:10#evid-000-08-estratgia-de-dilogo>,
+        <urn:doc:10#evid-000-09-objeto-do-dilogo-perguntas>,
+        <urn:doc:10#evid-000-10-objeto-de-controle-tempo> .
+

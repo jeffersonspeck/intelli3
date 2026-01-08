@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:334> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:334#frag-000> .
+
+<urn:doc:334#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma caixa de sapatos com uma abertura, que sera a caixa de correio. Os alunos sao trabalhados para que escrevam suas queixas e seus problemas e de- positem, anonimamente, na caixa de correio. Utilizacao: Periodicamente o professor abre a caixa de correio e le as queixas e os pro- blemas apresentados, colocando em debate eventuais propostas para solucio- na-los. E importante que a atividade se desvie de queixas de natureza material para as de natureza emocional, propiciando um clima de mais agudo auto e he- teroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos e, eventualmente, seus professores EUR funcionarios administrativos da escola. 259"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:334> ;
+    dct:type "title_or_abstract" .
+

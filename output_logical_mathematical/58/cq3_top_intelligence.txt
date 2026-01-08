@@ -1,0 +1,13 @@
+[Documento] urn:doc:58
+  - miVector: 14.61,47.04,17.34,0.00,0.00,21.02,0.00,0.00
+  - TOP (documento): Logical-Mathematical (score=0.4704)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.4704
+      • Interpersonal: 0.2102
+      • Spatial: 0.1734
+
+
+[Documento — Fragmentos] urn:doc:58
+
+[Fragmento] Preparacao: O jogo de domino e um excelente recurso para fixar conceitos sobre sistemas de numeracao. Para torna-lo mais atrativo, o professor pode preparar, em cartolina ou papel-cartao, dominos com formatos de animais ou pessoas. Na verdade o que importa e o numero de pontos que indica as caracteristicas do jogo. Utilizacao: Os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores. (Existe no mercado -- Domino Joaninha, Trimino e outros -- Uki-Uki.)
+  > TOP: Lógico-matemática (score=0.4704, tipo=Primary)

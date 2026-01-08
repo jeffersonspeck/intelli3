@@ -1,0 +1,39 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:57> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:57#frag-000> .
+
+<urn:doc:57#evid-000-00-jogo-utiliza-tampinhas> a onto:Keyword ;
+    rdfs:label "jogo utiliza tampinhas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:57#evid-000-01-vertical-horizontal> a onto:Keyword ;
+    rdfs:label "vertical horizontal"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:57#evid-000-02-agrupar-quantidades-colocando-as> a onto:DiscursiveStrategy ;
+    rdfs:label "agrupar quantidades, colocando-as em uma sequencia vertical ou horizontal, associar ao 'Formas Vazadas'"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:57#evid-000-03-agrupar-quantidades-colocando-as> a onto:DiscursiveStrategy ;
+    rdfs:label "agrupar quantidades, colocando-as em uma sequencia vertical ou horizontal, associar ao 'Formas Vazadas'"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:57#evid-000-04-tampinhas-de-pasta-de-dente-ou-o> a onto:ContextObject ;
+    rdfs:label "tampinhas de pasta de dente (ou outras) coloridas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:57#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo utiliza tampinhas de pasta de dente (ou outras) coloridas. Utilizacao: Os alunos devem agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal. E interessante associar este jogo ao \"Formas Vazadas\", com os alunos colocando diferentes grupos de tampinhas em formas geometricas. As sequencias devem ser repetidas muitas vezes e e im- portante que os conceitos estejam claramente fixados para todos. (Existem no mercado jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:57> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:57#evid-000-00-jogo-utiliza-tampinhas>,
+        <urn:doc:57#evid-000-01-vertical-horizontal>,
+        <urn:doc:57#evid-000-02-agrupar-quantidades-colocando-as>,
+        <urn:doc:57#evid-000-03-agrupar-quantidades-colocando-as>,
+        <urn:doc:57#evid-000-04-tampinhas-de-pasta-de-dente-ou-o> .
+

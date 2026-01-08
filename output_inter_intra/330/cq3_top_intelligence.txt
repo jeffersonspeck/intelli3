@@ -1,0 +1,16 @@
+[Documento] urn:doc:330
+  - miVector: 11.27,0.00,9.08,0.00,8.25,38.43,32.98,0.00
+  - TOP (documento): Interpersonal (score=0.3843)
+  - Ranking (top 3):
+      • Interpersonal: 0.3843
+      • Intrapersonal: 0.3298
+      • Linguistic: 0.1127
+
+
+[Documento — Fragmentos] urn:doc:330
+
+[Fragmento] Preparacao: Uma sala para que os alunos possam estar sentados em circulo. Utilizacao: O professor divide os alunos em grupos de quatro a seis componentes. Passa tantas meias folhas de papel para cada um dos participantes quantos fo- rem os integrantes desse grupo e solicita que no mesmo escrevam um pequeno texto positivo, que explore um dos aspectos realmente bons de cada um dos in- tegrantes do grupo, dobrando depois essa folha. O redator do texto nao deve se identificar. A um sinal do professor, os textos sao abertos e cada aluno deve re- unir todos que a ele se referem. Apos a leitura das mensagens recebidas o pro- tessor desfaz os grupos e, formando um circulo com todos, coloca em discussao as mensagens recebidas e como cada um se coloca diante da circunstancia de considera-las identificadoras ou nao da imagem que faz de si mesmo.
+  > TOP: Interpessoal (score=0.4009, tipo=Primary)
+
+[Fragmento] Se julgar, apos longo processo de alfabetizacao emocional, que o grupo esta suficiente- mente amadurecido pode desenvolver a atividade oposta: "o lado negativo". 256
+  > TOP: Intrapessoal (score=0.6374, tipo=Primary)

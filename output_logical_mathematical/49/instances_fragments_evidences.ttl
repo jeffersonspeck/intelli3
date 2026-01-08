@@ -1,0 +1,49 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:49> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:49#frag-000> .
+
+<urn:doc:49#evid-000-00-diferentes-espessuras> a onto:Keyword ;
+    rdfs:label "diferentes espessuras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-000-01-corda-diferentes> a onto:Keyword ;
+    rdfs:label "corda diferentes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-000-02-comparar-pedacos> a onto:Keyword ;
+    rdfs:label "comparar pedacos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-000-03-comparar-espessuras> a onto:Keyword ;
+    rdfs:label "comparar espessuras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-000-04-tarefa-alunos> a onto:Keyword ;
+    rdfs:label "tarefa alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:49#evid-000-05-comparar-tamanhos> a onto:DiscursiveStrategy ;
+    rdfs:label "comparar tamanhos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:49#evid-000-06-pedacos-de-corda> a onto:ContextObject ;
+    rdfs:label "pedacos de corda"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:49#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Pedacos de corda de diferentes espessuras, lapis e canetas, linhas e las. Utilizacao: A tarefa dos alunos e comparar pedacos de corda de diferentes espessuras c indicar a(s) mais grossa(s) e a mais fina. Tentar estimular a especificacao da uti- lidade das cordas grossas e das linhas. Comparar espessuras e formar conjuntos de objetos grossos e finos. Usar junto com outros jogos. 78"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:49> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:49#evid-000-00-diferentes-espessuras>,
+        <urn:doc:49#evid-000-01-corda-diferentes>,
+        <urn:doc:49#evid-000-02-comparar-pedacos>,
+        <urn:doc:49#evid-000-03-comparar-espessuras>,
+        <urn:doc:49#evid-000-04-tarefa-alunos>,
+        <urn:doc:49#evid-000-05-comparar-tamanhos>,
+        <urn:doc:49#evid-000-06-pedacos-de-corda> .
+

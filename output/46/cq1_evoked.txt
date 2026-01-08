@@ -1,0 +1,25 @@
+[Documento] urn:doc:46
+  - miVector: 11.81,45.81,31.62,0.00,10.76,0.00,0.00,0.00
+  - TOP (documento): Logical-Mathematical (score=0.4581)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.4581
+      • Spatial: 0.3162
+      • Linguistic: 0.1181
+
+[Fragmento] Preparacao: Improvisar um pino em uma base de madeira e diferentes aneis furados que devem ser encaixados. Esses aneis sao de diferentes tamanhos. Utilizacao: Os aneis devem estar espalhados fora do pino e a tarefa dos alunos sera a de encaixa-los, comparando os aneis entre si, identificando os "grandes" e os "pequenos" e formar uma piramide, encaixando os aneis em forma crescente. (Existe no mercado -- Piramide de aneis / Piramide multiforme -- Coluna)
+  - Bodily-Kinesthetic (via activation, score=0.1076)
+  - Linguistic (via activation, score=0.1181)
+  - Logical-Mathematical (via activation, score=0.4581)
+  - Spatial (via activation, score=0.3162)
+  - Cinestésico-corporal (via activation, score=0.1076)
+  - Espacial-visual (via activation, score=0.3162)
+  - Linguística (via activation, score=0.1181)
+  - Lógico-matemática (via activation, score=0.4581)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)

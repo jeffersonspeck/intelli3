@@ -1,0 +1,14 @@
+{
+  "0": {
+    "LinguisticIntelligence": 1.8851669653249012,
+    "SpatialIntelligence": 0.7171875,
+    "BodilyKinestheticIntelligence": 0.6441187500000001
+  },
+  "1": {
+    "LinguisticIntelligence": 4.240474985571177,
+    "BodilyKinestheticIntelligence": 1.9620526007437733,
+    "SpatialIntelligence": 3.7561031844887007,
+    "InterpersonalIntelligence": 1.101143149882904,
+    "IntrapersonalIntelligence": 0.6503395784543327
+  }
+}

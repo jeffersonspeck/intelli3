@@ -1,0 +1,77 @@
+[Documento] urn:doc:104
+  - miVector: 5.83,0.00,18.41,0.00,32.08,32.79,10.89,0.00
+  - TOP (documento): Interpersonal (score=0.3279)
+  - Ranking (top 3):
+      • Interpersonal: 0.3279
+      • Bodily-Kinesthetic: 0.3208
+      • Spatial: 0.1841
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: montar
+        • Keyword: caixas fosforos
+        • Keyword: cortar pedacos
+        • Keyword: pedacos colar
+        • Keyword: usar caixas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3208
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: caixas de fosforos
+        • ContextObject: figura com personagens humanos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1841
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: figura com personagens humanos
+        • DiscursiveStrategy: colocando questoes
+        • Keyword: alunos
+        • Keyword: personagens humanos
+        • Keyword: tarefa
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3279
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: figura personagens
+        • Keyword: formando quebra cabeca
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1089
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: contar historias
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0583
+
+
+[Documento — Fragmentos] urn:doc:104
+
+[Fragmento] Preparacao: Usar caixas de fosforos vazias, uma figura com personagens humanos, de aproximadamente 20 x 20cm, cortar em pedacos e colar sobre as caixas de fos- foros, formando um quebra-cabeca. Utilizacao: A tarefa dos alunos, individualmente ou em grupos, sera a de montar a fi- gura, unindo suas partes coladas nas caixas de fosforos. A tarefa, entretanto, nao se esgota com a montagem do quebra-cabeca. Os alunos devem contar historias que utilizem cenas que caracterizam a anterioridade e a posterioridade da histo- ria criada. A participacao do professor e muito importante, colocando questoes que explorem esses elementos (O que aconteceu depois?... E antes?... Como vai ficar essa historia amanha? etc.).
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: montar
+        • Keyword: caixas fosforos
+        • Keyword: cortar pedacos
+        • Keyword: pedacos colar
+        • Keyword: usar caixas
+    - Ativações:
+        • score=0.3208, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: caixas de fosforos
+        • ContextObject: figura com personagens humanos
+    - Ativações:
+        • score=0.1841, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: figura com personagens humanos
+        • DiscursiveStrategy: colocando questoes
+        • Keyword: alunos
+        • Keyword: personagens humanos
+        • Keyword: tarefa
+    - Ativações:
+        • score=0.3279, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: figura personagens
+        • Keyword: formando quebra cabeca
+    - Ativações:
+        • score=0.1089, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: contar historias
+    - Ativações:
+        • score=0.0583, tipo=Secondary

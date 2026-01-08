@@ -1,0 +1,21 @@
+[Documento] urn:doc:52
+  - miVector: 8.92,38.14,52.94,0.00,0.00,0.00,0.00,0.00
+  - TOP (documento): Spatial (score=0.5294)
+  - Ranking (top 3):
+      • Spatial: 0.5294
+      • Logical-Mathematical: 0.3814
+      • Linguistic: 0.0892
+
+[Fragmento] Preparacao: O jogo e constituido de um tabuleiro com figuras vazadas e pecas que se encaixam nesses espacos, representando animais, como patos, borboletas e outros. Utilizacao: Os alunos devem retirar as pecas do tabuleiro, separar animais diferentes conforme seus conjuntos, comparar tamanhos e indicar os "grandes", "pequenos", e os "medios". Devem depois encaixar as pecas no tabuleiro, observando seus ta- manhos e serem capazes, mais tarde, de executar tarefas como as de encaixar ou retirar do tabuleiro as pecas "medias", "grandes" ou "pequenas". (Existe no mercado -- Tabuleiro de Encaixe -- Uki-Uki.)
+  - Linguistic (via activation, score=0.0892)
+  - Logical-Mathematical (via activation, score=0.3814)
+  - Spatial (via activation, score=0.5294)
+  - Espacial-visual (via activation, score=0.5294)
+  - Linguística (via activation, score=0.0892)
+  - Lógico-matemática (via activation, score=0.3814)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)

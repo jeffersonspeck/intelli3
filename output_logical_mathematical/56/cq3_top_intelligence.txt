@@ -1,0 +1,13 @@
+[Documento] urn:doc:56
+  - miVector: 10.97,33.10,0.00,0.00,43.79,0.00,12.14,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4379)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4379
+      • Logical-Mathematical: 0.3310
+      • Intrapersonal: 0.1214
+
+
+[Documento — Fragmentos] urn:doc:56
+
+[Fragmento] Preparacao: O jogo exige uma preparacao trabalhosa. Com auxilio de um lapis e revistas enrolar tiras de papel de 2cm de largura. Colar a extremidade. Usar canudinhos de refrigerantes como varetas, passando cola para dar maior consistencia. Utilizacao: Utilizar o material como instrumento de contagem, para elaboracao de se- quencias e ainda formacao de conjuntos. Sugerir aos alunos que criem brincadei- ras com o material, explorando seu raciocinio logico.
+  > TOP: Cinestésico-corporal (score=0.4379, tipo=Primary)

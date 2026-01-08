@@ -1,0 +1,21 @@
+[Documento] urn:doc:170
+  - miVector: 40.22,0.00,16.44,0.00,43.34,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4334)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4334
+      • Linguistic: 0.4022
+      • Spatial: 0.1644
+
+[Fragmento] Preparacao: Corda para pular com terminais de madeira, que pode ser adquirida em lojas de brinquedo ou fabricada em casa ou em uma oficina. Comprimento ideal de 2,30m a 2,50m. Utilizacao: O aluno deve aprender a pular corda e progressivamente executar diferen- tes movimentos, saltitando ora com um pe, ora com o outro. (Existe no comercio.)
+  - Bodily-Kinesthetic (via activation, score=0.4334)
+  - Linguistic (via activation, score=0.4022)
+  - Spatial (via activation, score=0.1644)
+  - Cinestésico-corporal (via activation, score=0.4334)
+  - Espacial-visual (via activation, score=0.1644)
+  - Linguística (via activation, score=0.4022)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)

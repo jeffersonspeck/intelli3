@@ -1,0 +1,100 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "folhas papel cartao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8020560610154008,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "lapiseira canetas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7917515275090957,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "canetas hidrograficas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7881736777970254,
+      "relevance": 0.9415781487101669
+    },
+    {
+      "role": "Keyword",
+      "text": "hidrograficas desenhar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7881736777970254,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "argila colorida permitem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7335834072849188,
+      "relevance": 0.8907435508345979
+    },
+    {
+      "role": "Keyword",
+      "text": "massa plastica",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6931134022786626,
+      "relevance": 0.9044006069802731
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "confeccionar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.8110773899848255
+    },
+    {
+      "role": "ContextObject",
+      "text": "peças do jogo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "orientar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "regras do jogo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "eliminar as peças",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "tabuleiro",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9127465857359636
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+[Documento] urn:doc:114
+  - miVector: 12.90,0.00,44.97,0.00,42.14,0.00,0.00,0.00
+  - TOP (documento): Spatial (score=0.4497)
+  - Ranking (top 3):
+      • Spatial: 0.4497
+      • Bodily-Kinesthetic: 0.4214
+      • Linguistic: 0.1290
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: encaixar
+        • DiscursiveStrategy: montar
+        • Keyword: encaixe nesses furos
+        • Keyword: mesmo pode montar
+        • Keyword: placa perfurada
+        • Keyword: preparar placa
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4214
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: figuras
+        • ContextObject: formas na lousa
+        • ContextObject: modelos
+        • ContextObject: pinos
+        • DiscursiveStrategy: reproduzir
+        • Keyword: aluno monte figuras
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4497
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: desenhar
+        • DiscursiveStrategy: solicitar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1290
+
+
+[Documento — Fragmentos] urn:doc:114
+
+[Fragmento] Preparacao: Preparar uma placa perfurada e pecas diferentes para encaixe nesses furos. Em caso de dificuldade, um flanelografo pode substituir a placa perfurada, as- sim como com o mesmo pode-se montar um verdadeiro cenario para que o aluno monte figuras e crie historias. Utilizacao: O aluno, orientado pelo professor, deve montar figuras ou reproduzir mo- delos que explorem linhas verticais, horizontais e formas geometricas. Desenhar formas na lousa e solicitar sua reproducao encaixando os pinos nas placas. Fazer ditados, orientando encaixes (Exemplo: fixar tres pinos brancos um a direita do outro... e assim por diante). (Existe no comercio: Mil Quadros / Glaslite; Feltrin Grow.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: encaixar
+        • DiscursiveStrategy: montar
+        • Keyword: encaixe nesses furos
+        • Keyword: mesmo pode montar
+        • Keyword: placa perfurada
+        • Keyword: preparar placa
+    - Ativações:
+        • score=0.4214, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: figuras
+        • ContextObject: formas na lousa
+        • ContextObject: modelos
+        • ContextObject: pinos
+        • DiscursiveStrategy: reproduzir
+        • Keyword: aluno monte figuras
+    - Ativações:
+        • score=0.4497, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: desenhar
+        • DiscursiveStrategy: solicitar
+    - Ativações:
+        • score=0.1290, tipo=Secondary

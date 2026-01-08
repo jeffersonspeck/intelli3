@@ -1,0 +1,13 @@
+[Documento] urn:doc:11
+  - miVector: 6.23,0.00,7.61,0.00,12.88,55.58,17.70,0.00
+  - TOP (documento): Interpersonal (score=0.5558)
+  - Ranking (top 3):
+      • Interpersonal: 0.5558
+      • Intrapersonal: 0.1770
+      • Bodily-Kinesthetic: 0.1288
+
+
+[Documento — Fragmentos] urn:doc:11
+
+[Fragmento] Preparacao: Alunos divididos em duplas, sentados frente a frente. Um aluno encarrega- do de cronometrar o debate. Utilizacao: O professor deve determinar os dois assuntos do debate, um para cada alu- no. Iniciada a marcacao do tempo, cada participante deve desenvolver seu argu- mento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo e o objetivo de cada aluno e manter a linha de raciocinio de seu tema, atrapalhando o colega. Ganha ponto um dos oponentes, ou os dois, apos o tem- po estabelecido (20 a 30 segundos) que nao "perder o fio" de seu raciocinio.
+  > TOP: Interpessoal (score=0.5558, tipo=Primary)

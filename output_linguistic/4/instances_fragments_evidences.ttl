@@ -1,0 +1,79 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:4> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:4#frag-000> .
+
+<urn:doc:4#evid-000-00-utilizando-gravuras> a onto:Keyword ;
+    rdfs:label "utilizando gravuras"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:4#evid-000-01-gravuras-revistas> a onto:Keyword ;
+    rdfs:label "gravuras revistas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:4#evid-000-02-organizar-colecao> a onto:Keyword ;
+    rdfs:label "organizar colecao"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:4#evid-000-03-jogo-dominos> a onto:Keyword ;
+    rdfs:label "jogo dominos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:4#evid-000-04-jogo-dominos> a onto:Keyword ;
+    rdfs:label "jogo dominos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:4#evid-000-05-mesmo-tamanho> a onto:Keyword ;
+    rdfs:label "mesmo tamanho"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:4#evid-000-06-figuras-combinadas> a onto:Keyword ;
+    rdfs:label "figuras combinadas"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:4#evid-000-07-organizar> a onto:DiscursiveStrategy ;
+    rdfs:label "organizar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:4#evid-000-08-objetos> a onto:ContextObject ;
+    rdfs:label "objetos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:4#evid-000-09-montar> a onto:DiscursiveStrategy ;
+    rdfs:label "montar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:4#evid-000-10-nomear> a onto:DiscursiveStrategy ;
+    rdfs:label "nomear"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:4#evid-000-11-dizer-sua-cor> a onto:DiscursiveStrategy ;
+    rdfs:label "dizer sua cor"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:4#evid-000-12-criar-fatos> a onto:DiscursiveStrategy ;
+    rdfs:label "criar fatos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:4#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Utilizando gravuras de revistas, selecionando-as se possivel com a ajuda das criancas, organizar uma colecao de objetos mais ou menos do mesmo tama- nho, como frutas, brinquedos, transportes ou utensilios diversos. Utilizacao: As pecas devem ser montadas como um Jogo de Dominos (28 pecas com 7 figuras combinadas) e suas regras devem ser seguidas com a crianca nomeando os objetos, dizendo sua cor, ou criando fatos sobre os mesmos. (Existem analogos no comercio)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:4> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:4#evid-000-00-utilizando-gravuras>,
+        <urn:doc:4#evid-000-01-gravuras-revistas>,
+        <urn:doc:4#evid-000-02-organizar-colecao>,
+        <urn:doc:4#evid-000-03-jogo-dominos>,
+        <urn:doc:4#evid-000-04-jogo-dominos>,
+        <urn:doc:4#evid-000-05-mesmo-tamanho>,
+        <urn:doc:4#evid-000-06-figuras-combinadas>,
+        <urn:doc:4#evid-000-07-organizar>,
+        <urn:doc:4#evid-000-08-objetos>,
+        <urn:doc:4#evid-000-09-montar>,
+        <urn:doc:4#evid-000-10-nomear>,
+        <urn:doc:4#evid-000-11-dizer-sua-cor>,
+        <urn:doc:4#evid-000-12-criar-fatos> .
+

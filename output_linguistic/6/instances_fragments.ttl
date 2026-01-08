@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:6#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor deve reunir uma grande variedade de revistas de historias em quadrinhos ou tiras de historias publicadas em jornal. Utilizacao: Com alunos que ainda nao sabem ler, o professor deve estimular o racioci- nio dedutivo, estimulando o aluno a observar as ilustracoes e buscar sentido na historia. Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao que sao obvios para alunos maiores. Por exemplo: que toda leitura se faz da esquerda para a direita e de cima para baixo. Para alunos que fazem a leitura, os gibis sao estimulos para a associacao en- tre os elementos pictoricos da ilustracao e os simbolos graficos das palavras."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:6> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:6#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Inumeros jogos podem ser propostos, apagando-se baloes, sugerindo a coloca- cao em ordem dos quadrinhos antecipadamente desordenados, orientando os alunos para que transformem historias originais por outras de conteudo ligado ao que e aprendido e, finalmente, estimulando os grupos de alunos para que construam seus proprios gibis, criando personagens, desenvolvendo argumen- tos, estabelecendo roteiros e completando a arte final."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:6> ;
+    dct:type "body" .
+
+<urn:doc:6> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:6#frag-000>,
+        <urn:doc:6#frag-001> .
+

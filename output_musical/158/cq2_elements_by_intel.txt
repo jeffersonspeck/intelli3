@@ -1,0 +1,57 @@
+[Documento] urn:doc:158
+  - miVector: 0.00,0.00,0.00,30.22,61.64,0.00,8.14,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.6164)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6164
+      • Musical: 0.3022
+      • Intrapersonal: 0.0814
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos
+        • DiscursiveStrategy: acompanhar
+        • DiscursiveStrategy: identificando essa linguagem a seus movimentos corporais
+        • DiscursiveStrategy: improvisar
+        • Keyword: improvisar
+        • Keyword: movimentos
+        • Keyword: movimentos cinestesicos
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6165
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: movimentos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0814
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos
+        • Keyword: acompanham ritmo
+        • Keyword: associar som
+        • Keyword: ritmo caminhar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3022
+
+
+[Documento — Fragmentos] urn:doc:158
+
+[Fragmento] Preparacao: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples. Utilizacao: Associar o som do instrumento a movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos. Progressiva- mente o aluno deve ir descobrindo todo o sentido de uma "linguagem sonora" e ir identificando essa linguagem a seus movimentos corporais. 146
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos
+        • DiscursiveStrategy: acompanhar
+        • DiscursiveStrategy: identificando essa linguagem a seus movimentos corporais
+        • DiscursiveStrategy: improvisar
+        • Keyword: improvisar
+        • Keyword: movimentos
+        • Keyword: movimentos cinestesicos
+    - Ativações:
+        • score=0.6165, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: movimentos
+    - Ativações:
+        • score=0.0814, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos
+        • Keyword: acompanham ritmo
+        • Keyword: associar som
+        • Keyword: ritmo caminhar
+    - Ativações:
+        • score=0.3022, tipo=Secondary

@@ -1,0 +1,68 @@
+[Documento] urn:doc:156
+  - miVector: 8.78,28.59,0.00,45.96,16.67,0.00,0.00,0.00
+  - TOP (documento): Musical (score=0.4596)
+  - Ranking (top 3):
+      • Musical: 0.4596
+      • Logical-Mathematical: 0.2859
+      • Bodily-Kinesthetic: 0.1667
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: jogo pressupoe
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1667
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: copos de vidro ou garrafas com agua em niveis diferentes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0878
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: descendente tipos
+        • Keyword: permitam seriacao
+        • Keyword: preparacao
+        • Keyword: seriacao ascendente
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2859
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: instrumentos musicais (tamborim, tamborzinho, tambor maior, pratos, campainhas, maracas, chocalhos)
+        • DiscursiveStrategy: tocar, apreciar o som e sua intensidade, classificar o timbre
+        • Keyword: instrumentos musicais
+        • Keyword: musicais permitam
+        • Keyword: tamborim
+        • Keyword: tamborzinho tambor
+        • Keyword: tipos som
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4596
+
+
+[Documento — Fragmentos] urn:doc:156
+
+[Fragmento] Preparacao: O jogo pressupoe a existencia de instrumentos musicais que permitam a se- riacao ascendente ou descendente de tipos do som. Por exemplo: tamborim, tam- borzinho e tambor maior ou inumeros outros (pratos, campainhas, maracas, choca- lhos, etc.). Uma serie de copos de vidro ou garrafas com agua em niveis diferentes pode tambem tornar valida a acao educativa proposta pelo jogo. Utilizacao: Os alunos tocarao os instrumentos, apreciarao o som e sua intensidade, e clas- sificarao o timbre, devendo chegar a uma identificacao tanto em ordem ascenden- te quanto descendente dos sons emitidos, sem estar olhando os instrumentos quan- do de sua percussao. (Existem os instrumentos citados no comercio.) 145
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: jogo pressupoe
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.1667, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: copos de vidro ou garrafas com agua em niveis diferentes
+    - Ativações:
+        • score=0.0878, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: descendente tipos
+        • Keyword: permitam seriacao
+        • Keyword: preparacao
+        • Keyword: seriacao ascendente
+    - Ativações:
+        • score=0.2859, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: instrumentos musicais (tamborim, tamborzinho, tambor maior, pratos, campainhas, maracas, chocalhos)
+        • DiscursiveStrategy: tocar, apreciar o som e sua intensidade, classificar o timbre
+        • Keyword: instrumentos musicais
+        • Keyword: musicais permitam
+        • Keyword: tamborim
+        • Keyword: tamborzinho tambor
+        • Keyword: tipos som
+    - Ativações:
+        • score=0.4596, tipo=Primary

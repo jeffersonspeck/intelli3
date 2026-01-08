@@ -1,0 +1,21 @@
+[Documento] urn:doc:257
+  - miVector: 15.19,0.00,0.00,0.00,67.46,17.35,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.6746)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6746
+      • Interpersonal: 0.1735
+      • Linguistic: 0.1519
+
+[Fragmento] preparacao: Essa atividade e realizada a noite e, portanto, possivel se os alunos forem con- vidados a trazer seus sacos de dormir ou colchonetes e passar uma noite na escola. Em uma excursao a atividade e tambem possivel. Utilizacao: O professor devera estimular os alunos a observar estrelas e desenhar constela- coes, reunindo-se depois para descreve-las. Os alunos nao precisam se preocupar em desenhar ou descrever as constelacoes como se encontram no ceu. O professor pode recriar a ideia dos astronomos do passado, levando seus alunos a inventar "no- vas constelacoes". A noite tambem oferece interessante oportunidade para a identi- ficacao dos pontos cardeais a partir da lua ou das estrelas. 204
+  - Bodily-Kinesthetic (via activation, score=0.6746)
+  - Interpersonal (via activation, score=0.1735)
+  - Linguistic (via activation, score=0.1519)
+  - Cinestésico-corporal (via activation, score=0.6746)
+  - Interpessoal (via activation, score=0.1735)
+  - Linguística (via activation, score=0.1519)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)

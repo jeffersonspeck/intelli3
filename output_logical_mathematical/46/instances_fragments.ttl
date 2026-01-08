@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:46> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:46#frag-000> .
+
+<urn:doc:46#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Improvisar um pino em uma base de madeira e diferentes aneis furados que devem ser encaixados. Esses aneis sao de diferentes tamanhos. Utilizacao: Os aneis devem estar espalhados fora do pino e a tarefa dos alunos sera a de encaixa-los, comparando os aneis entre si, identificando os \"grandes\" e os \"pequenos\" e formar uma piramide, encaixando os aneis em forma crescente. (Existe no mercado -- Piramide de aneis / Piramide multiforme -- Coluna)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:46> ;
+    dct:type "title_or_abstract" .
+

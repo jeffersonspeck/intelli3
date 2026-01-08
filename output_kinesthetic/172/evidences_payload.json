@@ -1,0 +1,124 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "divididas par",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7981060143598965,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "textura diferente",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7937396310719577,
+      "relevance": 0.8829479768786127
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar dez cartelas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.771725447232166,
+      "relevance": 0.9826589595375722
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7492431564006063,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "cartelas pares",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6834941550701369,
+      "relevance": 0.6213872832369942
+    },
+    {
+      "role": "Keyword",
+      "text": "devem procurar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6431669664545685,
+      "relevance": 0.6473988439306358
+    },
+    {
+      "role": "Keyword",
+      "text": "utilizacao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6189387567464428,
+      "relevance": 0.7138728323699421
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Preparar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9826589595375722
+    },
+    {
+      "role": "ContextObject",
+      "text": "cartelas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9638728323699421
+    },
+    {
+      "role": "ContextObject",
+      "text": "par",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.9956647398843931
+    },
+    {
+      "role": "ContextObject",
+      "text": "textura",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.8829479768786127
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Utilizacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.7138728323699421
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "procurar as cartelas pares",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.6387283236994219
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "procurar as cartelas pares",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.6387283236994219
+    },
+    {
+      "role": "ContextObject",
+      "text": "cartelas pares",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.6213872832369942
+    }
+  ]
+}

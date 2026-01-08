@@ -1,0 +1,25 @@
+[Documento] urn:doc:5
+  - miVector: 28.42,0.00,31.53,0.00,13.58,26.47,0.00,0.00
+  - TOP (documento): Spatial (score=0.3153)
+  - Ranking (top 3):
+      • Spatial: 0.3153
+      • Linguistic: 0.2842
+      • Interpersonal: 0.2647
+
+[Fragmento] Preparacao: Cartolina, lapis de cor, tesoura, cola, regua, revistas. Utilizacao: Os alunos sao divididos em dois grupos e cada um deles deve selecionar em revistas diferentes figuras dentro de uma ordem estabelecida pelo professor, colando em cartolina e recortando-as de maneira a formar pequenas cartas de baralho. Iniciado o jogo, cada aluno escolhe uma de suas cartas e mostra ao gru- po adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta. Conseguindo, ganha um ponto e e sua vez de escolhar a carta e propor aos adversarios igual problema. O professor vai regis- trando os pontos na lousa e, em determinado momento, pode passar de duas para tres ou dois montes, um para cada grupo, propondo mais rimas. Caso pre- fira, pode selecionar as cartas e fazer a sua apresentacao. 50
+  - Bodily-Kinesthetic (via activation, score=0.1358)
+  - Interpersonal (via activation, score=0.2647)
+  - Linguistic (via activation, score=0.2842)
+  - Spatial (via activation, score=0.3153)
+  - Cinestésico-corporal (via activation, score=0.1358)
+  - Espacial-visual (via activation, score=0.3153)
+  - Interpessoal (via activation, score=0.2647)
+  - Linguística (via activation, score=0.2842)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)

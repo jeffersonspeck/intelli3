@@ -1,0 +1,33 @@
+[Documento] urn:doc:176
+  - miVector: 7.65,0.00,14.50,7.25,59.52,6.38,4.70,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5952)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5952
+      • Spatial: 0.1450
+      • Linguistic: 0.0765
+
+[Fragmento] Preparacao: Preparar cinco saquinhos de pano nao transparente e deixar um dos lados aberto. Encher os saquinhos com milho, arroz ou feijao e fechar... Utilizacao: Os alunos, divididos em grupo ou integrando equipes, devem pegar as pecas na sequencia de um a cinco, atirando uma para cima e pegando as da mesa. Na primeira jogada, o aluno pega uma, na segunda pega duas pecas de cada vez e assim por diante. Ao errar, cede a vez ao adversario de outra equipe.
+  - Bodily-Kinesthetic (via activation, score=0.5951)
+  - Interpersonal (via activation, score=0.0638)
+  - Intrapersonal (via activation, score=0.0470)
+  - Linguistic (via activation, score=0.0765)
+  - Musical (via activation, score=0.0725)
+  - Spatial (via activation, score=0.1450)
+  - Cinestésico-corporal (via activation, score=0.5951)
+  - Espacial-visual (via activation, score=0.1450)
+  - Interpessoal (via activation, score=0.0638)
+  - Intrapessoal (via activation, score=0.0470)
+  - Linguística (via activation, score=0.0765)
+  - Musical (via activation, score=0.0725)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)
+  - Musical (via element)

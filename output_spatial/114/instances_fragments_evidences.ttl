@@ -1,0 +1,84 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:114> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:114#frag-000> .
+
+<urn:doc:114#evid-000-00-placa-perfurada> a onto:Keyword ;
+    rdfs:label "placa perfurada"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:114#evid-000-01-preparar-placa> a onto:Keyword ;
+    rdfs:label "preparar placa"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:114#evid-000-02-aluno-monte-figuras> a onto:Keyword ;
+    rdfs:label "aluno monte figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:114#evid-000-03-encaixe-nesses-furos> a onto:Keyword ;
+    rdfs:label "encaixe nesses furos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:114#evid-000-04-mesmo-pode-montar> a onto:Keyword ;
+    rdfs:label "mesmo pode montar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:114#evid-000-05-montar> a onto:DiscursiveStrategy ;
+    rdfs:label "montar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:114#evid-000-06-figuras> a onto:ContextObject ;
+    rdfs:label "figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:114#evid-000-07-reproduzir> a onto:DiscursiveStrategy ;
+    rdfs:label "reproduzir"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:114#evid-000-08-modelos> a onto:ContextObject ;
+    rdfs:label "modelos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:114#evid-000-09-encaixar> a onto:DiscursiveStrategy ;
+    rdfs:label "encaixar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:114#evid-000-10-pinos> a onto:ContextObject ;
+    rdfs:label "pinos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:114#evid-000-11-desenhar> a onto:DiscursiveStrategy ;
+    rdfs:label "desenhar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:114#evid-000-12-formas-na-lousa> a onto:ContextObject ;
+    rdfs:label "formas na lousa"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:114#evid-000-13-solicitar> a onto:DiscursiveStrategy ;
+    rdfs:label "solicitar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:114#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar uma placa perfurada e pecas diferentes para encaixe nesses furos. Em caso de dificuldade, um flanelografo pode substituir a placa perfurada, as- sim como com o mesmo pode-se montar um verdadeiro cenario para que o aluno monte figuras e crie historias. Utilizacao: O aluno, orientado pelo professor, deve montar figuras ou reproduzir mo- delos que explorem linhas verticais, horizontais e formas geometricas. Desenhar formas na lousa e solicitar sua reproducao encaixando os pinos nas placas. Fazer ditados, orientando encaixes (Exemplo: fixar tres pinos brancos um a direita do outro... e assim por diante). (Existe no comercio: Mil Quadros / Glaslite; Feltrin Grow.)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:114> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:114#evid-000-00-placa-perfurada>,
+        <urn:doc:114#evid-000-01-preparar-placa>,
+        <urn:doc:114#evid-000-02-aluno-monte-figuras>,
+        <urn:doc:114#evid-000-03-encaixe-nesses-furos>,
+        <urn:doc:114#evid-000-04-mesmo-pode-montar>,
+        <urn:doc:114#evid-000-05-montar>,
+        <urn:doc:114#evid-000-06-figuras>,
+        <urn:doc:114#evid-000-07-reproduzir>,
+        <urn:doc:114#evid-000-08-modelos>,
+        <urn:doc:114#evid-000-09-encaixar>,
+        <urn:doc:114#evid-000-10-pinos>,
+        <urn:doc:114#evid-000-11-desenhar>,
+        <urn:doc:114#evid-000-12-formas-na-lousa>,
+        <urn:doc:114#evid-000-13-solicitar> .
+

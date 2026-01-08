@@ -1,0 +1,84 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "professor devera estimular",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7920832242768764,
+      "relevance": 0.9898255813953488
+    },
+    {
+      "role": "Keyword",
+      "text": "estimular alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7540211894497443,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "elementos natureza",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.7482586030144921,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrirem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7419042936671223,
+      "relevance": 0.9607558139534884
+    },
+    {
+      "role": "Keyword",
+      "text": "relatarem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7419042936671223,
+      "relevance": 0.9491279069767442
+    },
+    {
+      "role": "Keyword",
+      "text": "elementos transforma",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.7169837172318989,
+      "relevance": 0.8175872093023255
+    },
+    {
+      "role": "Keyword",
+      "text": "curiosidade infantil",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.699164614292753,
+      "relevance": 0.7790697674418605
+    },
+    {
+      "role": "Keyword",
+      "text": "desabrochar curiosidade",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6754529735923478,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "elementos da natureza",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.938953488372093
+    },
+    {
+      "role": "ContextObject",
+      "text": "bosque, praça, árvore, tarde de outono ou de inverno, mar, rio, noite",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

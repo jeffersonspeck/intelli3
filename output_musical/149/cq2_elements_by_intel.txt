@@ -1,0 +1,67 @@
+[Documento] urn:doc:149
+  - miVector: 8.77,0.00,12.04,0.00,37.82,29.10,12.26,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.3782)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3782
+      • Interpersonal: 0.2910
+      • Intrapersonal: 0.1226
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: arrumar as cadeiras
+        • DiscursiveStrategy: arrumar uma mesa e outras com garrafas, peças, campainhas e outras peças
+        • DiscursiveStrategy: minimizar o volume de ruido causado
+        • Keyword: pecas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3782
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: garrafas, peças, campainhas e outras peças
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1204
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: vencer a equipe que 'preparar' a sala com menor ruido
+        • Keyword: alunos atuarao
+        • Keyword: equipe
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2910
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1226
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: desenvolver-se variacoes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0877
+
+
+[Documento — Fragmentos] urn:doc:149
+
+[Fragmento] Preparacao: O jogo pressupoe a existencia de uma sala de aula vazia, com as carteiras desordenadas. Utilizacao: O jogo e uma disputa entre duas ou mais equipes em que o professor e eventualmente alguns alunos atuarao como arbitros. A tarefa de cada equipe e arrumar as cadeiras, no menor tempo possivel, com o menor volume de ruido causado. Vence a equipe que "preparar" a sala com menor ruido. E possivel desenvolver-se variacoes, como, por exemplo, a arrumacao de uma mesa e ou- tras com garrafas, pecas, campainhas e outras pecas. 141
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: arrumar as cadeiras
+        • DiscursiveStrategy: arrumar uma mesa e outras com garrafas, peças, campainhas e outras peças
+        • DiscursiveStrategy: minimizar o volume de ruido causado
+        • Keyword: pecas
+    - Ativações:
+        • score=0.3782, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: garrafas, peças, campainhas e outras peças
+    - Ativações:
+        • score=0.1204, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: vencer a equipe que 'preparar' a sala com menor ruido
+        • Keyword: alunos atuarao
+        • Keyword: equipe
+    - Ativações:
+        • score=0.2910, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.1226, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: desenvolver-se variacoes
+    - Ativações:
+        • score=0.0877, tipo=Secondary

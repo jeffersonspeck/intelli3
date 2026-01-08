@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:331> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:331#frag-000> .
+
+<urn:doc:331#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma pequena historia que envolva detalhes e diferentes pessoas. Uma noticia sobre uma briga de transito ou um mal-entendido se presta bem a essa atividade. Utilizacao: O professor solicita que quatro alunos se retirem da sala, mantendo-se em local facil de ser chamados. Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara. Chama um dos alunos que nao ouviu a historia e escolhe alguem do grupo para passar-lhe esse conteudo. Esse aluno ficara encarregado de, diante de todo grupo, contar a histonia a outro ausente que e chamado e assim por diante. As enormes alteracoes ou supressoes que \"transformam\" a historia oniginal constituem excelente experimento para que se abra uma discussao sobre a comunicacao interpessoal."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:331> ;
+    dct:type "title_or_abstract" .
+

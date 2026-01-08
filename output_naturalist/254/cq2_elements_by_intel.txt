@@ -1,0 +1,32 @@
+[Documento] urn:doc:254
+  - miVector: 67.12,0.00,0.00,0.00,0.00,32.88,0.00,0.00
+  - TOP (documento): Linguistic (score=0.6712)
+  - Ranking (top 3):
+      • Linguistic: 0.6712
+      • Interpersonal: 0.3288
+      • Logical-Mathematical: 0.0000
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: estabelecer trocas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3288
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: anotar
+        • DiscursiveStrategy: gravar
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6712
+
+
+[Documento — Fragmentos] urn:doc:254
+
+[Fragmento] Preparacao: O professor procurara reunir varios gravadores e dara uma fita a cada gru- po em uma excursao. Os grupos devem se distanciar uns dos outros e gravar naturais sons anotando suas possiveis origens. Utilizacao: Quando cada grupo trouxer sua fita, estabeleca trocas ce invente jogos para ao local das gravacoes e conferir os sons ao natural.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: estabelecer trocas
+    - Ativações:
+        • score=0.3288, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: anotar
+        • DiscursiveStrategy: gravar
+    - Ativações:
+        • score=0.6712, tipo=Primary

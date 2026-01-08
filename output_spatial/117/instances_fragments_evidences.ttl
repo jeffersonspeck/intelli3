@@ -1,0 +1,83 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:117> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:117#frag-000> .
+
+<urn:doc:117#evid-000-00-opcoes-educacionais> a onto:Keyword ;
+    rdfs:label "opcoes educacionais"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-000-01-finalidade-recreativa> a onto:Keyword ;
+    rdfs:label "finalidade recreativa"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-000-02-criando-inumeras-situacoes> a onto:Keyword ;
+    rdfs:label "criando inumeras situacoes"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:117#evid-000-03-pecas> a onto:Keyword ;
+    rdfs:label "pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:117#evid-000-04-aluno> a onto:Keyword ;
+    rdfs:label "aluno"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-000-05-consequente-verbalizacao> a onto:Keyword ;
+    rdfs:label "consequente verbalizacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:117#evid-000-06-envolvendo-varios-alunos> a onto:Keyword ;
+    rdfs:label "envolvendo varios alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-000-07-estimular> a onto:DiscursiveStrategy ;
+    rdfs:label "estimular"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-000-08-pecas> a onto:ContextObject ;
+    rdfs:label "pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:117#evid-000-09-criar> a onto:DiscursiveStrategy ;
+    rdfs:label "criar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:117#evid-000-10-cenas> a onto:ContextObject ;
+    rdfs:label "cenas"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:117#evid-000-11-reproduzir> a onto:DiscursiveStrategy ;
+    rdfs:label "reproduzir"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:117#evid-000-12-fatos-do-cotidiano> a onto:ContextObject ;
+    rdfs:label "fatos do cotidiano"@pt .
+
+<urn:doc:117#evid-000-13-interatividade-entre-essas-histo> a onto:DiscursiveStrategy ;
+    rdfs:label "interatividade entre essas historias"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo existe no comercio e e muito popular. O importante e dar ao mes- mo, ao lado de sua finalidade recreativa, opcoes educacionais. Isto e possivel, criando inumeras situacoes que envolvam posicionamento das pecas e sua tca- tralizacao com a consequente verbalizacao. Utilizacao: O aluno (individualmente ou em grupo) deve ser estimulado a posicionar pecas (trabalhando nocoes de direita, esquerda, leste, oeste e outras) e tambem criar cenas que reproduzam fatos do cotidiano do aluno ou circunstancias imaginadas. E interessante a interatividade entre essas historias envolvendo va- rios alunos. (Existem no mercado: \"Playmobil\": [Trol] e muitos outros.)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:117> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:117#evid-000-00-opcoes-educacionais>,
+        <urn:doc:117#evid-000-01-finalidade-recreativa>,
+        <urn:doc:117#evid-000-02-criando-inumeras-situacoes>,
+        <urn:doc:117#evid-000-03-pecas>,
+        <urn:doc:117#evid-000-04-aluno>,
+        <urn:doc:117#evid-000-05-consequente-verbalizacao>,
+        <urn:doc:117#evid-000-06-envolvendo-varios-alunos>,
+        <urn:doc:117#evid-000-07-estimular>,
+        <urn:doc:117#evid-000-08-pecas>,
+        <urn:doc:117#evid-000-09-criar>,
+        <urn:doc:117#evid-000-10-cenas>,
+        <urn:doc:117#evid-000-11-reproduzir>,
+        <urn:doc:117#evid-000-12-fatos-do-cotidiano>,
+        <urn:doc:117#evid-000-13-interatividade-entre-essas-histo> .
+

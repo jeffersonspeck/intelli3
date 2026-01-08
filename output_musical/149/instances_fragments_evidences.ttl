@@ -1,0 +1,64 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:149> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:149#frag-000> .
+
+<urn:doc:149#evid-000-00-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:149#evid-000-01-equipe> a onto:Keyword ;
+    rdfs:label "equipe"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:149#evid-000-02-alunos-atuarao> a onto:Keyword ;
+    rdfs:label "alunos atuarao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:149#evid-000-03-pecas> a onto:Keyword ;
+    rdfs:label "pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#evid-000-04-arrumar-as-cadeiras> a onto:DiscursiveStrategy ;
+    rdfs:label "arrumar as cadeiras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#evid-000-05-minimizar-o-volume-de-ruido-caus> a onto:DiscursiveStrategy ;
+    rdfs:label "minimizar o volume de ruido causado"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#evid-000-06-vencer-a-equipe-que-preparar-a-s> a onto:DiscursiveStrategy ;
+    rdfs:label "vencer a equipe que 'preparar' a sala com menor ruido"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:149#evid-000-07-desenvolver-se-variacoes> a onto:DiscursiveStrategy ;
+    rdfs:label "desenvolver-se variacoes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:149#evid-000-08-arrumar-uma-mesa-e-outras-com-ga> a onto:DiscursiveStrategy ;
+    rdfs:label "arrumar uma mesa e outras com garrafas, peças, campainhas e outras peças"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#evid-000-09-garrafas-peas-campainhas-e-outra> a onto:ContextObject ;
+    rdfs:label "garrafas, peças, campainhas e outras peças"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:149#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo pressupoe a existencia de uma sala de aula vazia, com as carteiras desordenadas. Utilizacao: O jogo e uma disputa entre duas ou mais equipes em que o professor e eventualmente alguns alunos atuarao como arbitros. A tarefa de cada equipe e arrumar as cadeiras, no menor tempo possivel, com o menor volume de ruido causado. Vence a equipe que \"preparar\" a sala com menor ruido. E possivel desenvolver-se variacoes, como, por exemplo, a arrumacao de uma mesa e ou- tras com garrafas, pecas, campainhas e outras pecas. 141"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:149> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:149#evid-000-00-preparacao>,
+        <urn:doc:149#evid-000-01-equipe>,
+        <urn:doc:149#evid-000-02-alunos-atuarao>,
+        <urn:doc:149#evid-000-03-pecas>,
+        <urn:doc:149#evid-000-04-arrumar-as-cadeiras>,
+        <urn:doc:149#evid-000-05-minimizar-o-volume-de-ruido-caus>,
+        <urn:doc:149#evid-000-06-vencer-a-equipe-que-preparar-a-s>,
+        <urn:doc:149#evid-000-07-desenvolver-se-variacoes>,
+        <urn:doc:149#evid-000-08-arrumar-uma-mesa-e-outras-com-ga>,
+        <urn:doc:149#evid-000-09-garrafas-peas-campainhas-e-outra> .
+

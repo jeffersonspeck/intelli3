@@ -1,0 +1,38 @@
+[Documento] urn:doc:260
+  - miVector: 43.76,0.00,0.00,0.00,56.24,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5624)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5624
+      • Linguistic: 0.4376
+      • Logical-Mathematical: 0.0000
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: descobrir
+        • Keyword: alunos devem circular
+        • Keyword: circular seguranca
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5624
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: identificar
+        • Keyword: olfato
+        • Keyword: presa
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4376
+
+
+[Documento — Fragmentos] urn:doc:260
+
+[Fragmento] Preparacao: As mesmas condicoes do jogo anterior ou uma sala ampla onde os alunos com olhos vendados possam circular com seguranca. Utilizacao: Os alunos devem circular pela sala com os olhos vendados e descobrir suas "presas" pelo olfato. Um algodao embebido de alcool, perfume, essencia, desodo- rante ou outro produto de odor caracteristico, acondicionado em um copo plastico, pode simbolizar a "presa" que, antes do jogo iniciar, teve esse olfato identificado por todos os alunos. Atividades analogas podem ser feitas tendo os alunos, com os olhos vendados, que identificar sua presa atraves do paladar, apos identificar um e depois descobri-lo entre muitos outros. A mistura de refrigerantes ou sodas, balas e condimentos em pequena proporcao podem constituir-se nos elementos materiais
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: descobrir
+        • Keyword: alunos devem circular
+        • Keyword: circular seguranca
+    - Ativações:
+        • score=0.5624, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: identificar
+        • Keyword: olfato
+        • Keyword: presa
+    - Ativações:
+        • score=0.4376, tipo=Secondary

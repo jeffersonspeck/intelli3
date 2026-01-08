@@ -1,0 +1,74 @@
+[Documento] urn:doc:321
+  - miVector: 0.00,0.00,20.15,0.00,54.32,19.94,5.59,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5432)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5432
+      • Spatial: 0.2015
+      • Interpersonal: 0.1994
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: cabecas
+        • ContextObject: figuras humanas
+        • DiscursiveStrategy: buscar compor pessoas
+        • DiscursiveStrategy: cortar
+        • Keyword: atividade
+        • Keyword: figuras humanas
+        • Keyword: formando conjunto
+        • Keyword: quantidade figuras
+        • Keyword: reunir
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5432
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: cartolina
+        • DiscursiveStrategy: colar
+        • DiscursiveStrategy: reunir
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2015
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: criar situacoes
+        • Keyword: atividade
+        • Keyword: colecao incluir pessoas
+        • Keyword: incluir pessoas diferentes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1994
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: emocoes diferenciadas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0559
+
+
+[Documento — Fragmentos] urn:doc:321
+
+[Fragmento] Preparacao: Reunir uma grande quantidade de figuras humanas, mais ou menos do mesmo tamanho, de revistas, e cola-las em cartolina. Cortar as cabecas forman- do um conjunto a parte. A atividade explora muito mais profundamente o auto e heteroconhecimento quando a colecao incluir pessoas diferentes e diferentes expressoes. Pecas desenhadas cumprem muito bem esses objetivos. Utilizacao: Os alunos devem ser estimulados a criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras) e buscar compor pessoas a partir da uniao das cabecas com as expressoes correspondentes ao seu corpo. A atividade visa estimular a identificacao e a legitimacao das emocoes.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: cabecas
+        • ContextObject: figuras humanas
+        • DiscursiveStrategy: buscar compor pessoas
+        • DiscursiveStrategy: cortar
+        • Keyword: atividade
+        • Keyword: figuras humanas
+        • Keyword: formando conjunto
+        • Keyword: quantidade figuras
+        • Keyword: reunir
+    - Ativações:
+        • score=0.5432, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: cartolina
+        • DiscursiveStrategy: colar
+        • DiscursiveStrategy: reunir
+    - Ativações:
+        • score=0.2015, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: criar situacoes
+        • Keyword: atividade
+        • Keyword: colecao incluir pessoas
+        • Keyword: incluir pessoas diferentes
+    - Ativações:
+        • score=0.1994, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: emocoes diferenciadas
+    - Ativações:
+        • score=0.0559, tipo=Secondary

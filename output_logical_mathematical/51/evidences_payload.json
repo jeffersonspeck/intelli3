@@ -1,0 +1,52 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "alunos devem comparar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6931775049034361,
+      "relevance": 0.8753148614609572
+    },
+    {
+      "role": "Keyword",
+      "text": "tamanho",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6669637528936886,
+      "relevance": 0.9534005037783375
+    },
+    {
+      "role": "Keyword",
+      "text": "maiores",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.638457144224471,
+      "relevance": 0.7884130982367759
+    },
+    {
+      "role": "Keyword",
+      "text": "menores",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.638457144224471,
+      "relevance": 0.7720403022670025
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "comparar tamanhos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "tampas plasticas de tres tamanhos bem diferentes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9848866498740554
+    }
+  ]
+}

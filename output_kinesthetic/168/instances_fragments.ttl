@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:168> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:168#frag-000> .
+
+<urn:doc:168#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Montar um trilho de cerca de 10 a 15cm de largura, apoiado em duas bases de madeira ou tijolos, a cerca de 20cm do chao. Utilizacao: Mostrar aos alunos como proceder e faze-los caminhar sobre o trilho, de frente, depois de costas e de lado. Em etapas mais avancadas, repetir a experien- cia com o aluno, tendo seus olhos vendados. Aproveitar o recurso para que o aluno tambem de saltos. Dividir, posteriormente, o trilho em partes e levar os alunos a saltarem de uma para outra parte. (Existe no comercio -- Trilho [Q.I.].)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:168> ;
+    dct:type "title_or_abstract" .
+

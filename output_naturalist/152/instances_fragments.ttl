@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:152> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:152#frag-000> .
+
+<urn:doc:152#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor devera estimular os alunos a \"descobrirem\" e \"relatarem\" os elementos da natureza. Uma \"excursao programada\" para a visita a um bosque, uma praca, uma arvore, numa tarde de outono ou de inverno, o mar, um rio, a noite c outros elementos transforma-se em envolvente desabrochar da curiosi- dade infantil. Utilizacao: O professor deve trabalhar o espirito de observacao e pesquisa. Na primei- ra vez, ir progressivamente \"descobrindo\" seu encantamento e, aos poucos, es- timular os alunos para que descubram e revelem suas descobertas. Sempre que possivel uma pequena maquina fotografica ou a ajuda do desenho constitui for- te instrumento de registro dessas sensibilidades."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:152> ;
+    dct:type "title_or_abstract" .
+

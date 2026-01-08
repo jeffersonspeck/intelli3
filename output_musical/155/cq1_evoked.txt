@@ -1,0 +1,33 @@
+[Documento] urn:doc:155
+  - miVector: 39.68,27.13,7.54,12.14,5.63,0.00,7.88,0.00
+  - TOP (documento): Linguistic (score=0.3968)
+  - Ranking (top 3):
+      • Linguistic: 0.3968
+      • Logical-Mathematical: 0.2713
+      • Musical: 0.1214
+
+[Fragmento] Preparacao: A equipe de professores deve estimular o uso de diferentes habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar, etc.) e tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes (a dona de casa, por exemplo, classifica os alimentos que compra, analisa a qualidade de cada um, deduz o valor nutritivo e assim por diante). Utilizacao: Essa atividade exploradora das habilidades pode ser completada com o uso de sons e, assim, o emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos, simbolizam meios de explorar o emprego das ha- bilidades em ambito diferente do demonstrado em sala de aula.
+  - Bodily-Kinesthetic (via activation, score=0.0563)
+  - Intrapersonal (via activation, score=0.0788)
+  - Linguistic (via activation, score=0.3968)
+  - Logical-Mathematical (via activation, score=0.2713)
+  - Musical (via activation, score=0.1214)
+  - Spatial (via activation, score=0.0754)
+  - Cinestésico-corporal (via activation, score=0.0563)
+  - Espacial-visual (via activation, score=0.0754)
+  - Intrapessoal (via activation, score=0.0788)
+  - Linguística (via activation, score=0.3968)
+  - Lógico-matemática (via activation, score=0.2713)
+  - Musical (via activation, score=0.1214)
+  - Bodily-Kinesthetic (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)

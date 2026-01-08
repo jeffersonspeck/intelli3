@@ -1,0 +1,100 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "colecionar figuras coloridas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8044291986268003,
+      "relevance": 0.9889705882352942
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7349775242865307,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "formando",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7349775242865307,
+      "relevance": 0.9310661764705882
+    },
+    {
+      "role": "Keyword",
+      "text": "devem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6320161326740429,
+      "relevance": 0.8226102941176471
+    },
+    {
+      "role": "Keyword",
+      "text": "montar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6313045983435221,
+      "relevance": 0.9136029411764706
+    },
+    {
+      "role": "Keyword",
+      "text": "madeira colar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.4555366551626003,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "montar",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9136029411764706
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras coloridas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9788602941176471
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "sortear",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.7738970588235294
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras dos cartoes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.7637867647058824
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "nomear",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "artigo definido e indefinido",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.6461397058823529
+    }
+  ]
+}

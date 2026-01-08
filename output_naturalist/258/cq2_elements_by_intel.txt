@@ -1,0 +1,62 @@
+[Documento] urn:doc:258
+  - miVector: 8.39,0.00,22.51,0.00,55.46,13.64,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5546)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5546
+      • Spatial: 0.2251
+      • Interpersonal: 0.1364
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: circular
+        • DiscursiveStrategy: encontrar alguém
+        • DiscursiveStrategy: procurar a mao
+        • DiscursiveStrategy: segurar a mao
+        • DiscursiveStrategy: tocar levemente
+        • Keyword: alunos devem circular
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5546
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: sala
+        • DiscursiveStrategy: acesa a luz
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2251
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: perceber que nao mais existem sussurros
+        • DiscursiveStrategy: responder a chamada
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1364
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: proury
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0839
+
+
+[Documento — Fragmentos] urn:doc:258
+
+[Fragmento] Preparacao: Sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos. Utilizacao: Os alunos devem circular pela sala escura com extremo cuidado e, encontrando alguem, toca-lo levemente, pronunciando a palavra "Proury". Caso ouca como respos- ta a mesma palavra, continuar circulando e fazendo novos contatos. Ao tocar em al- guem que nao responda ao seu pronunciamento, devera procurar a mao dessa pessoa. Se estiver livre, segura-la e nao mais responder quando tocado. Caso a pessoa que nao respondeu a sua indagacao esteja de maos dadas, caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre. Ao perceber que nao mais exis- tem sussurros pela sala, a luz deve ser acesa. Antes de iniciar o jogo, avisar a um partici- pante para nao responder a chamada, iniciando a formacao da corrente.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: circular
+        • DiscursiveStrategy: encontrar alguém
+        • DiscursiveStrategy: procurar a mao
+        • DiscursiveStrategy: segurar a mao
+        • DiscursiveStrategy: tocar levemente
+        • Keyword: alunos devem circular
+    - Ativações:
+        • score=0.5546, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: sala
+        • DiscursiveStrategy: acesa a luz
+    - Ativações:
+        • score=0.2251, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: perceber que nao mais existem sussurros
+        • DiscursiveStrategy: responder a chamada
+    - Ativações:
+        • score=0.1364, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: proury
+    - Ativações:
+        • score=0.0839, tipo=Secondary

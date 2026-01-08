@@ -1,0 +1,19 @@
+[Documento] urn:doc:333
+  - miVector: 37.30,0.00,3.52,0.00,0.00,25.75,33.43,0.00
+  - TOP (documento): Linguistic (score=0.3730)
+  - Ranking (top 3):
+      • Linguistic: 0.3730
+      • Intrapersonal: 0.3343
+      • Interpersonal: 0.2575
+
+
+[Documento — Fragmentos] urn:doc:333
+
+[Fragmento] Preparacao: A aplicacao de questionarios para avaliar a consciencia emocional do alu- no, desde que analisados criteriosamente, representa excelente recurso para identificar os quadros emocionais existentes na classe. Abaixo, o modelo de al- gumas questoes que poderiam ser formuladas, ajustando-as ao nivel etario e ao universo vocabular do aluno: Questoes: |. Como reage quando ve um amigo ou um adulto perder a calma ce tor- nar-se agressivo? 2. Em situacoes muito tensas, quais costumam ser suas reacoes? 3. Quais circunstancias que o deixam inteiramente "fora de si"? 4. Em quais situacoes vive estados de medo? felicidade? tristeza? esperanca? . Na sua opiniao, qual a diferenca entre alegria e felicidade? tel 6. E capaz de perder horas de sono por causa de alguma grande preocupacao? 7. Consegue falar de seus sentimentos para outras pessoas? (Quais pes- soas? 3.
+  > TOP: Linguística (score=0.6448, tipo=Primary)
+
+[Fragmento] Quais fatos, ocorridos com outras pessoas, o(a) fazem sofrer sincera- mente? 9. Voce se acha uma pessoa muito querida em sua casa? E na escola? 10. Voce seria capaz de matar um animal pequeno, sem qualquer senti- mento? 11. Sei, com clareza, quem cu amo e sei, tambem com clareza, quem me ama? 2.
+  > TOP: Intrapessoal (score=0.4301, tipo=Primary)
+
+[Fragmento] Como voce nao sabe dizer "nao", muitas vezes faz coisas que detesta? a. De zero a dez, a nota que dou para minha timidez e... | | 14. Situacoes que me deixam muito aborrecido sao as que... 15. Toda vez que tenho que tomar importante decisao, sinto... | A. 6. Como voce sc apresenta ao aceitar e manifestar carinho? 258
+  > TOP: Interpessoal (score=0.4252, tipo=Primary)

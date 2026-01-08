@@ -1,0 +1,116 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "improvisar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7609267403137366,
+      "relevance": 0.9849624060150376
+    },
+    {
+      "role": "Keyword",
+      "text": "associar som",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7388651962167548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6911676152230958,
+      "relevance": 0.8220551378446115
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6911676152230958,
+      "relevance": 0.8220551378446115
+    },
+    {
+      "role": "Keyword",
+      "text": "ritmo caminhar",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6749873808027044,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentos cinestesicos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6568216558108664,
+      "relevance": 0.7218045112781954
+    },
+    {
+      "role": "Keyword",
+      "text": "acompanham ritmo",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6425888515494184,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "improvisar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9849624060150376
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "associar",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.8621553884711779
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "acompanhar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5525,
+      "relevance": 0.8220551378446115
+    },
+    {
+      "role": "ContextObject",
+      "text": "movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5525,
+      "relevance": 0.8220551378446115
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "descobrindo todo o sentido de uma 'linguagem sonora'",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "identificando essa linguagem a seus movimentos corporais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.5764411027568923
+    }
+  ]
+}

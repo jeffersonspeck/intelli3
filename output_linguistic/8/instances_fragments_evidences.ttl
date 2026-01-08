@@ -1,0 +1,107 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:8> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:8#frag-000> .
+
+<urn:doc:8#evid-000-00-reunidos-duplas> a onto:Keyword ;
+    rdfs:label "reunidos duplas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:8#evid-000-01-palavras-proibidas> a onto:Keyword ;
+    rdfs:label "palavras proibidas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:8#evid-000-02-desafio-proposto> a onto:Keyword ;
+    rdfs:label "desafio proposto"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:8#evid-000-03-desafio-proposto> a onto:Keyword ;
+    rdfs:label "desafio proposto"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:8#evid-000-04-jogo-levar> a onto:Keyword ;
+    rdfs:label "jogo levar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:8#evid-000-05-construir-mensagem> a onto:Keyword ;
+    rdfs:label "construir mensagem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:8#evid-000-06-usando-algumas-palavras> a onto:Keyword ;
+    rdfs:label "usando algumas palavras"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:8#evid-000-07-tema-proposto> a onto:Keyword ;
+    rdfs:label "tema proposto"@pt .
+
+<urn:doc:8#evid-000-08-proposto-pelo-jogo> a onto:Keyword ;
+    rdfs:label "proposto pelo jogo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:8#evid-000-09-proposto-pelo-jogo> a onto:Keyword ;
+    rdfs:label "proposto pelo jogo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:8#evid-000-10-nao-usando> a onto:Keyword ;
+    rdfs:label "nao usando"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:8#evid-000-11-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:8#evid-000-12-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:8#evid-000-13-trios> a onto:Keyword ;
+    rdfs:label "trios"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:8#evid-000-14-maiores> a onto:Keyword ;
+    rdfs:label "maiores"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:8#evid-000-15-construir> a onto:DiscursiveStrategy ;
+    rdfs:label "construir"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:8#evid-000-16-mensagem> a onto:ContextObject ;
+    rdfs:label "mensagem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:8#evid-000-17-apresentar> a onto:DiscursiveStrategy ;
+    rdfs:label "apresentar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:8#evid-000-18-temas> a onto:ContextObject ;
+    rdfs:label "temas"@pt .
+
+<urn:doc:8#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O desafio proposto pelo jogo e levar os alunos, reunidos em duplas, trios ou grupos maiores, a construir uma mensagem sobre o tema proposto, nao usando algumas palavras proibidas. Utilizacao: O professor idealiza um tema, circunscrito aos conteudos que esta traba- lhando. Exemplo: \"Os estados do clima no Brasil\". Solicita que os alunos escre- vam sobre esse tema, desenvolvendo mensagens corretas, mas nao se utilizando de palavras-chave como clima, chuva, umidade, vento, pressao, calor, inverno, altitu- de, primavera. Os diferentes grupos preparam suas mensagens e devem apresen- ta-las aos demais. O professor ou eventualmente os proprios alunos julgam qua- is sao as respostas mais completas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:8> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:8#evid-000-00-reunidos-duplas>,
+        <urn:doc:8#evid-000-01-palavras-proibidas>,
+        <urn:doc:8#evid-000-02-desafio-proposto>,
+        <urn:doc:8#evid-000-03-desafio-proposto>,
+        <urn:doc:8#evid-000-04-jogo-levar>,
+        <urn:doc:8#evid-000-05-construir-mensagem>,
+        <urn:doc:8#evid-000-06-usando-algumas-palavras>,
+        <urn:doc:8#evid-000-07-tema-proposto>,
+        <urn:doc:8#evid-000-08-proposto-pelo-jogo>,
+        <urn:doc:8#evid-000-09-proposto-pelo-jogo>,
+        <urn:doc:8#evid-000-10-nao-usando>,
+        <urn:doc:8#evid-000-11-preparacao>,
+        <urn:doc:8#evid-000-12-preparacao>,
+        <urn:doc:8#evid-000-13-trios>,
+        <urn:doc:8#evid-000-14-maiores>,
+        <urn:doc:8#evid-000-15-construir>,
+        <urn:doc:8#evid-000-16-mensagem>,
+        <urn:doc:8#evid-000-17-apresentar>,
+        <urn:doc:8#evid-000-18-temas> .
+

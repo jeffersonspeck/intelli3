@@ -1,0 +1,79 @@
+[Documento] urn:doc:11
+  - miVector: 6.23,0.00,7.61,0.00,12.88,55.58,17.70,0.00
+  - TOP (documento): Interpersonal (score=0.5558)
+  - Ranking (top 3):
+      • Interpersonal: 0.5558
+      • Intrapersonal: 0.1770
+      • Bodily-Kinesthetic: 0.1288
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: frente frente
+        • Keyword: sentados frente
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1288
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: tempo
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0761
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: debater
+        • Keyword: aluno
+        • Keyword: aluno encarregado
+        • Keyword: alunos divididos
+        • Keyword: cronometrar debate
+        • Keyword: debate
+        • Keyword: divididos duplas
+        • Keyword: encarregado cronometrar
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5558
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: assuntos do debate
+        • DiscursiveStrategy: manter a linha de raciocinio
+        • Keyword: raciocinio
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1770
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: perguntar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0623
+
+
+[Documento — Fragmentos] urn:doc:11
+
+[Fragmento] Preparacao: Alunos divididos em duplas, sentados frente a frente. Um aluno encarrega- do de cronometrar o debate. Utilizacao: O professor deve determinar os dois assuntos do debate, um para cada alu- no. Iniciada a marcacao do tempo, cada participante deve desenvolver seu argu- mento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo e o objetivo de cada aluno e manter a linha de raciocinio de seu tema, atrapalhando o colega. Ganha ponto um dos oponentes, ou os dois, apos o tem- po estabelecido (20 a 30 segundos) que nao "perder o fio" de seu raciocinio.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: frente frente
+        • Keyword: sentados frente
+    - Ativações:
+        • score=0.1288, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: tempo
+    - Ativações:
+        • score=0.0761, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: debater
+        • Keyword: aluno
+        • Keyword: aluno encarregado
+        • Keyword: alunos divididos
+        • Keyword: cronometrar debate
+        • Keyword: debate
+        • Keyword: divididos duplas
+        • Keyword: encarregado cronometrar
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.5558, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: assuntos do debate
+        • DiscursiveStrategy: manter a linha de raciocinio
+        • Keyword: raciocinio
+    - Ativações:
+        • score=0.1770, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: perguntar
+    - Ativações:
+        • score=0.0623, tipo=Secondary

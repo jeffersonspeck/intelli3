@@ -1,0 +1,153 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:110#evid-000-00-contendo-varios-carros> a onto:Keyword ;
+    rdfs:label "contendo varios carros"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-000-01-carros-combate> a onto:Keyword ;
+    rdfs:label "carros combate"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-000-02-preparar> a onto:Keyword ;
+    rdfs:label "preparar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:110#evid-000-03-preparar> a onto:Keyword ;
+    rdfs:label "preparar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-000-04-pecas> a onto:Keyword ;
+    rdfs:label "pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-000-05-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:110#evid-000-06-rosa-ventos> a onto:Keyword ;
+    rdfs:label "rosa ventos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:110#evid-000-07-rosa-ventos> a onto:Keyword ;
+    rdfs:label "rosa ventos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:110#evid-000-08-soldados> a onto:Keyword ;
+    rdfs:label "soldados"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-000-09-ajuda> a onto:Keyword ;
+    rdfs:label "ajuda"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:110#evid-000-10-preparar> a onto:DiscursiveStrategy ;
+    rdfs:label "preparar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-000-11-exercito> a onto:ContextObject ;
+    rdfs:label "exercito"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-000-12-armar-livremente> a onto:DiscursiveStrategy ;
+    rdfs:label "armar livremente"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:110#evid-000-13-peas> a onto:ContextObject ;
+    rdfs:label "peças"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-000-14-arrumar-a-direita-ou-a-esquerda> a onto:DiscursiveStrategy ;
+    rdfs:label "arrumar a direita ou a esquerda"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:110#evid-000-15-ponto-de-referencia> a onto:ContextObject ;
+    rdfs:label "ponto de referencia"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:110#evid-000-16-classificar-em-fila> a onto:DiscursiveStrategy ;
+    rdfs:label "classificar em fila"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:110#evid-000-17-rosa-dos-ventos> a onto:ContextObject ;
+    rdfs:label "rosa dos ventos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:110#evid-000-18-rosa-dos-ventos> a onto:ContextObject ;
+    rdfs:label "rosa dos ventos"@pt .
+
+<urn:doc:110#evid-000-19-explorar-os-conceitos-de-pontos-> a onto:DiscursiveStrategy ;
+    rdfs:label "explorar os conceitos de pontos cardeais"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:110#evid-000-20-bussola> a onto:ContextObject ;
+    rdfs:label "bussola"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:110#evid-001-00-existem-diferentes-modalidades> a onto:Keyword ;
+    rdfs:label "existem diferentes modalidades"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:110#evid-001-01-existem-diferentes-modalidades> a onto:Keyword ;
+    rdfs:label "existem diferentes modalidades"@pt .
+
+<urn:doc:110#evid-001-02-modalidades-jogos> a onto:Keyword ;
+    rdfs:label "modalidades jogos"@pt .
+
+<urn:doc:110#evid-001-03-jogos-armar> a onto:Keyword ;
+    rdfs:label "jogos armar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-001-04-utilizar> a onto:DiscursiveStrategy ;
+    rdfs:label "utilizar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-001-05-jogos-de-armar> a onto:ContextObject ;
+    rdfs:label "jogos de armar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar com a ajuda dos alunos um \"exercito\" contendo varios carros de combate, soldados e outras pecas. Nao ha qualquer importancia que essas pecas (feitas de papelao ou massa de modelar) sejam semelhantes as reais. Uma alternativa e usar tampinhas coloridas de pasta de dente, conchinhas ou outros objetos que devem assumir suas funcoes segundo o imaginario do aluno. Uma rosa dos ventos desenhada em cartolina e uma bussola para conferir a exatidao dos pontos solicitados. Utilizacao: Os alunos devem armar o exercito livremente e, depois, segundo orien- tacao do professor, arrumar as pecas a direita ou a esquerda de um ponto de referencia, classifica-las em fila, uma alternada a outra e assim por diante. Acrescentar-se uma rosa dos ventos ao jogo permite explorar os conceitos de pontos cardeais, desde que sejam os mesmos aferidos devidamente com uma bussola."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:110> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:110#evid-000-00-contendo-varios-carros>,
+        <urn:doc:110#evid-000-01-carros-combate>,
+        <urn:doc:110#evid-000-02-preparar>,
+        <urn:doc:110#evid-000-03-preparar>,
+        <urn:doc:110#evid-000-04-pecas>,
+        <urn:doc:110#evid-000-05-preparacao>,
+        <urn:doc:110#evid-000-06-rosa-ventos>,
+        <urn:doc:110#evid-000-07-rosa-ventos>,
+        <urn:doc:110#evid-000-08-soldados>,
+        <urn:doc:110#evid-000-09-ajuda>,
+        <urn:doc:110#evid-000-10-preparar>,
+        <urn:doc:110#evid-000-11-exercito>,
+        <urn:doc:110#evid-000-12-armar-livremente>,
+        <urn:doc:110#evid-000-13-peas>,
+        <urn:doc:110#evid-000-14-arrumar-a-direita-ou-a-esquerda>,
+        <urn:doc:110#evid-000-15-ponto-de-referencia>,
+        <urn:doc:110#evid-000-16-classificar-em-fila>,
+        <urn:doc:110#evid-000-17-rosa-dos-ventos>,
+        <urn:doc:110#evid-000-18-rosa-dos-ventos>,
+        <urn:doc:110#evid-000-19-explorar-os-conceitos-de-pontos->,
+        <urn:doc:110#evid-000-20-bussola> .
+
+<urn:doc:110#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "(Existem diferentes modalidades de jogos de armar que podem ser utilizados segundo as propostas sugeridas.)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:110> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:110#evid-001-00-existem-diferentes-modalidades>,
+        <urn:doc:110#evid-001-01-existem-diferentes-modalidades>,
+        <urn:doc:110#evid-001-02-modalidades-jogos>,
+        <urn:doc:110#evid-001-03-jogos-armar>,
+        <urn:doc:110#evid-001-04-utilizar>,
+        <urn:doc:110#evid-001-05-jogos-de-armar> .
+
+<urn:doc:110> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:110#frag-000>,
+        <urn:doc:110#frag-001> .
+

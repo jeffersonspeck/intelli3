@@ -1,0 +1,86 @@
+[Documento] urn:doc:176
+  - miVector: 7.65,0.00,14.50,7.25,59.52,6.38,4.70,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5952)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5952
+      • Spatial: 0.1450
+      • Linguistic: 0.0765
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: pecas
+        • DiscursiveStrategy: atirar uma para cima e pegar as da mesa
+        • DiscursiveStrategy: preparação
+        • Keyword: encher saquinhos
+        • Keyword: pecas
+        • Keyword: pega
+        • Keyword: preparacao
+        • Keyword: preparar cinco saquinhos
+        • Keyword: saquinhos milho
+        • Keyword: saquinhos pano
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5951
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: saquinhos de pano não transparente
+        • ContextObject: sequência de um a cinco
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1450
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: utilização
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0638
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: errar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0470
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: encher
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0765
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: milho, arroz ou feijão
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0725
+
+
+[Documento — Fragmentos] urn:doc:176
+
+[Fragmento] Preparacao: Preparar cinco saquinhos de pano nao transparente e deixar um dos lados aberto. Encher os saquinhos com milho, arroz ou feijao e fechar... Utilizacao: Os alunos, divididos em grupo ou integrando equipes, devem pegar as pecas na sequencia de um a cinco, atirando uma para cima e pegando as da mesa. Na primeira jogada, o aluno pega uma, na segunda pega duas pecas de cada vez e assim por diante. Ao errar, cede a vez ao adversario de outra equipe.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: pecas
+        • DiscursiveStrategy: atirar uma para cima e pegar as da mesa
+        • DiscursiveStrategy: preparação
+        • Keyword: encher saquinhos
+        • Keyword: pecas
+        • Keyword: pega
+        • Keyword: preparacao
+        • Keyword: preparar cinco saquinhos
+        • Keyword: saquinhos milho
+        • Keyword: saquinhos pano
+    - Ativações:
+        • score=0.5951, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: saquinhos de pano não transparente
+        • ContextObject: sequência de um a cinco
+    - Ativações:
+        • score=0.1450, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: utilização
+    - Ativações:
+        • score=0.0638, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • DiscursiveStrategy: errar
+    - Ativações:
+        • score=0.0470, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: encher
+    - Ativações:
+        • score=0.0765, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: milho, arroz ou feijão
+    - Ativações:
+        • score=0.0725, tipo=Secondary

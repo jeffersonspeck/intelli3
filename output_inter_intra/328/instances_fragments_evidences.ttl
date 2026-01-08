@@ -1,0 +1,146 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:328#evid-000-00-contendo-retrato> a onto:Keyword ;
+    rdfs:label "contendo retrato"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:328#evid-000-01-mural> a onto:Keyword ;
+    rdfs:label "mural"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-000-02-figuras-geometricas-sejam> a onto:Keyword ;
+    rdfs:label "figuras geometricas sejam"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-000-03-geometricas-sejam-fixadas> a onto:Keyword ;
+    rdfs:label "geometricas sejam fixadas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-000-04-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-000-05-montar> a onto:DiscursiveStrategy ;
+    rdfs:label "montar"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-000-06-mural> a onto:ContextObject ;
+    rdfs:label "mural"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-000-07-orientar> a onto:DiscursiveStrategy ;
+    rdfs:label "orientar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-000-08-caixa-com-circulos> a onto:ContextObject ;
+    rdfs:label "caixa com circulos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-000-09-escolher> a onto:DiscursiveStrategy ;
+    rdfs:label "escolher"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-000-10-cores-da-caixa> a onto:ContextObject ;
+    rdfs:label "cores da caixa"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:328#evid-001-00-dependendo-grau> a onto:Keyword ;
+    rdfs:label "dependendo grau"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-001-01-independentemente-cor> a onto:Keyword ;
+    rdfs:label "independentemente cor"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-001-02-liberdade-falar> a onto:Keyword ;
+    rdfs:label "liberdade falar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-001-03-ampla-liberdade> a onto:Keyword ;
+    rdfs:label "ampla liberdade"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-001-04-grau-afetividade> a onto:Keyword ;
+    rdfs:label "grau afetividade"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-001-05-estado-emocional> a onto:Keyword ;
+    rdfs:label "estado emocional"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-001-06-estado-emocao> a onto:Keyword ;
+    rdfs:label "estado emocao"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-001-07-falar-nao> a onto:Keyword ;
+    rdfs:label "falar nao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-001-08-professor> a onto:Keyword ;
+    rdfs:label "professor"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-001-09-procura-los> a onto:Keyword ;
+    rdfs:label "procura los"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-001-10-procurar> a onto:DiscursiveStrategy ;
+    rdfs:label "procurar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-001-11-alunos> a onto:ContextObject ;
+    rdfs:label "alunos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-001-12-falar> a onto:DiscursiveStrategy ;
+    rdfs:label "falar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:328#evid-001-13-estado-emocional> a onto:ContextObject ;
+    rdfs:label "estado emocional"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Seria interessante que o professor montasse um mural na sala de aula contendo o retrato de cada um dos alunos c abaixo do mesmo seu nome. Ao lado desse mural uma caixa com inumeros circulos nas cores verde, amarela ec vermelha, com lixas no verso para sua fixacao no mural (caso seja revesti- do de feltro) ou entao taxinhas para que essas figuras geometricas sejam fi- xadas no mural. Utilizacao: Os alunos devem ser orientados a perceber seus estados de cmocao e, todo dia, ao entrar na sala escolham uma das cores da caixa para fixar embaixo de seu nome (verde = estou otimo, feliz, entusiasmado; amarelo = estou com uma sensacao de apatia, indiferenca, conformismo; vermelho = estou muito aborre- cido, chateado, inseguro)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:328> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:328#evid-000-00-contendo-retrato>,
+        <urn:doc:328#evid-000-01-mural>,
+        <urn:doc:328#evid-000-02-figuras-geometricas-sejam>,
+        <urn:doc:328#evid-000-03-geometricas-sejam-fixadas>,
+        <urn:doc:328#evid-000-04-preparacao>,
+        <urn:doc:328#evid-000-05-montar>,
+        <urn:doc:328#evid-000-06-mural>,
+        <urn:doc:328#evid-000-07-orientar>,
+        <urn:doc:328#evid-000-08-caixa-com-circulos>,
+        <urn:doc:328#evid-000-09-escolher>,
+        <urn:doc:328#evid-000-10-cores-da-caixa> .
+
+<urn:doc:328#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "O aluno deve ter ampla liberdade para falar ou nao de seu estado emocional e o professor, dependendo do grau de afetividade com que se relaciona com os alunos, pode procura-los, independentemente da cor colada ao mural, para falar desse estado de emocao. Procurar apenas os \"verme- lhos\" pode atrair uma atencao especial e alunos forjarem situacoes para serem notados. 254"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:328> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:328#evid-001-00-dependendo-grau>,
+        <urn:doc:328#evid-001-01-independentemente-cor>,
+        <urn:doc:328#evid-001-02-liberdade-falar>,
+        <urn:doc:328#evid-001-03-ampla-liberdade>,
+        <urn:doc:328#evid-001-04-grau-afetividade>,
+        <urn:doc:328#evid-001-05-estado-emocional>,
+        <urn:doc:328#evid-001-06-estado-emocao>,
+        <urn:doc:328#evid-001-07-falar-nao>,
+        <urn:doc:328#evid-001-08-professor>,
+        <urn:doc:328#evid-001-09-procura-los>,
+        <urn:doc:328#evid-001-10-procurar>,
+        <urn:doc:328#evid-001-11-alunos>,
+        <urn:doc:328#evid-001-12-falar>,
+        <urn:doc:328#evid-001-13-estado-emocional> .
+
+<urn:doc:328> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:328#frag-000>,
+        <urn:doc:328#frag-001> .
+

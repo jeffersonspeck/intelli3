@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:11> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:11#frag-000> .
+
+<urn:doc:11#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Alunos divididos em duplas, sentados frente a frente. Um aluno encarrega- do de cronometrar o debate. Utilizacao: O professor deve determinar os dois assuntos do debate, um para cada alu- no. Iniciada a marcacao do tempo, cada participante deve desenvolver seu argu- mento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo e o objetivo de cada aluno e manter a linha de raciocinio de seu tema, atrapalhando o colega. Ganha ponto um dos oponentes, ou os dois, apos o tem- po estabelecido (20 a 30 segundos) que nao \"perder o fio\" de seu raciocinio."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:11> ;
+    dct:type "title_or_abstract" .
+

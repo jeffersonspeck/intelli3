@@ -1,0 +1,59 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:170> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:170#frag-000> .
+
+<urn:doc:170#evid-000-00-adquirida-lojas> a onto:Keyword ;
+    rdfs:label "adquirida lojas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:170#evid-000-01-lojas-brinquedo> a onto:Keyword ;
+    rdfs:label "lojas brinquedo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:170#evid-000-02-fabricada-casa> a onto:Keyword ;
+    rdfs:label "fabricada casa"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-000-03-existe-comercio> a onto:Keyword ;
+    rdfs:label "existe comercio"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:170#evid-000-04-pular-corda> a onto:Keyword ;
+    rdfs:label "pular corda"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-000-05-pular-terminais> a onto:Keyword ;
+    rdfs:label "pular terminais"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-000-06-descrever> a onto:DiscursiveStrategy ;
+    rdfs:label "descrever"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:170#evid-000-07-corda-para-pular-com-terminais-d> a onto:ContextObject ;
+    rdfs:label "corda para pular com terminais de madeira"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:170#evid-000-08-corda-para-pular-com-terminais-d> a onto:ContextObject ;
+    rdfs:label "corda para pular com terminais de madeira"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Corda para pular com terminais de madeira, que pode ser adquirida em lojas de brinquedo ou fabricada em casa ou em uma oficina. Comprimento ideal de 2,30m a 2,50m. Utilizacao: O aluno deve aprender a pular corda e progressivamente executar diferen- tes movimentos, saltitando ora com um pe, ora com o outro. (Existe no comercio.)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:170> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:170#evid-000-00-adquirida-lojas>,
+        <urn:doc:170#evid-000-01-lojas-brinquedo>,
+        <urn:doc:170#evid-000-02-fabricada-casa>,
+        <urn:doc:170#evid-000-03-existe-comercio>,
+        <urn:doc:170#evid-000-04-pular-corda>,
+        <urn:doc:170#evid-000-05-pular-terminais>,
+        <urn:doc:170#evid-000-06-descrever>,
+        <urn:doc:170#evid-000-07-corda-para-pular-com-terminais-d>,
+        <urn:doc:170#evid-000-08-corda-para-pular-com-terminais-d> .
+

@@ -1,0 +1,13 @@
+[Documento] urn:doc:174
+  - miVector: 13.66,5.58,17.12,0.00,50.36,5.37,7.91,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5036)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5036
+      • Spatial: 0.1712
+      • Linguistic: 0.1366
+
+
+[Documento — Fragmentos] urn:doc:174
+
+[Fragmento] Preparacao: Cinco a seis pares de caixas plasticas ou embalagens de filmes fotograficos, preenchidas com diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros). Utilizacao: As pecas devem ser espalhadas sobre uma mesa e os alunos devem procu- rar as pecas pares, chocalhando e ouvindo o som produzido. Os alunos podem estar reunidos em duplas e ganha a dupla que obtiver maior numero de acertos.
+  > TOP: Cinestésico-corporal (score=0.5036, tipo=Primary)

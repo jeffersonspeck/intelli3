@@ -1,0 +1,13 @@
+[Documento] urn:doc:149
+  - miVector: 8.77,0.00,12.04,0.00,37.82,29.10,12.26,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.3782)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3782
+      • Interpersonal: 0.2910
+      • Intrapersonal: 0.1226
+
+
+[Documento — Fragmentos] urn:doc:149
+
+[Fragmento] Preparacao: O jogo pressupoe a existencia de uma sala de aula vazia, com as carteiras desordenadas. Utilizacao: O jogo e uma disputa entre duas ou mais equipes em que o professor e eventualmente alguns alunos atuarao como arbitros. A tarefa de cada equipe e arrumar as cadeiras, no menor tempo possivel, com o menor volume de ruido causado. Vence a equipe que "preparar" a sala com menor ruido. E possivel desenvolver-se variacoes, como, por exemplo, a arrumacao de uma mesa e ou- tras com garrafas, pecas, campainhas e outras pecas. 141
+  > TOP: Cinestésico-corporal (score=0.3782, tipo=Primary)

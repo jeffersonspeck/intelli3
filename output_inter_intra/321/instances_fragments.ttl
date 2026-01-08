@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:321> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:321#frag-000> .
+
+<urn:doc:321#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir uma grande quantidade de figuras humanas, mais ou menos do mesmo tamanho, de revistas, e cola-las em cartolina. Cortar as cabecas forman- do um conjunto a parte. A atividade explora muito mais profundamente o auto e heteroconhecimento quando a colecao incluir pessoas diferentes e diferentes expressoes. Pecas desenhadas cumprem muito bem esses objetivos. Utilizacao: Os alunos devem ser estimulados a criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras) e buscar compor pessoas a partir da uniao das cabecas com as expressoes correspondentes ao seu corpo. A atividade visa estimular a identificacao e a legitimacao das emocoes."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:321> ;
+    dct:type "title_or_abstract" .
+

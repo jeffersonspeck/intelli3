@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:262#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: As atividades propostas nao constituem propriamente um jogo. Represen- tam muito mais um apelo para levar o aluno a descobrir o mundo natural e aprender a se encantar com seus movimentos. Remos, vara de pesca, sementes diversas constituem o material adequado. Utilizacao: Os alunos devem estar \"prontos\" para seu envolvimento naturalista. Esse estado de \"prontidao\" significa estar tanto interessado quanto capaz. E tao impor- tante quanto esse estado e a \"prontidao\" do professor delimitada por seus conhe- cimentos e seu entusiasmo."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:262> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:262#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "A improvisacao e sempre uma terrivel imimiga do sucesso e nao importa a atividade que pretende desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas para sentir os movimentos do vento, colher amostras de folhas ou de sementes, caminhar pelas aguas rasas de um re- gato), as excursoes devem ser curtas, planejadas, alegres e voltadas para a cons- trucao do conhecimento c desenvolvimento das habilidades dos alunos. 207"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:262> ;
+    dct:type "body" .
+
+<urn:doc:262> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:262#frag-000>,
+        <urn:doc:262#frag-001> .
+

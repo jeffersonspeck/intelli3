@@ -1,0 +1,174 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "devem confeccionar crachas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7522663551089421,
+      "relevance": 0.9322344322344323
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos devem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.744732151075037,
+      "relevance": 0.9365079365079365
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos devem confeccionar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7392425681013253,
+      "relevance": 0.9365079365079365
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos devem confeccionar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7392425681013253,
+      "relevance": 0.9365079365079365
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos devem circular",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7082750088501927,
+      "relevance": 0.6807081807081807
+    },
+    {
+      "role": "Keyword",
+      "text": "fico contente",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7074535046332572,
+      "relevance": 0.7985347985347986
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "confeccionar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.9285714285714286
+    },
+    {
+      "role": "ContextObject",
+      "text": "crachas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9652014652014652
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "escrever",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "sentencas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.8663003663003663
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "circular",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.6727716727716728
+    },
+    {
+      "role": "ContextObject",
+      "text": "salas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "expressar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "impressão",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "revelar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "aprofundamento interpessoal",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.8448275862068966
+    },
+    {
+      "role": "Keyword",
+      "text": "interpessoal alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estrategia",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.6609195402298851
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "conti-",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.5344827586206897
+    },
+    {
+      "role": "ContextObject",
+      "text": "aprofundamento",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.8448275862068966
+    }
+  ]
+}

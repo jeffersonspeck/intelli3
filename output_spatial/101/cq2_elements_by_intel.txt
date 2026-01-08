@@ -1,0 +1,61 @@
+[Documento] urn:doc:101
+  - miVector: 29.42,0.00,15.65,0.00,15.76,11.81,27.36,0.00
+  - TOP (documento): Linguistic (score=0.2942)
+  - Ranking (top 3):
+      • Linguistic: 0.2942
+      • Intrapersonal: 0.2736
+      • Bodily-Kinesthetic: 0.1576
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1576
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: garrafas plásticas, tampas de potes de creme ou maionese, papel-cartão resistente, circulo pequeno, areia fina colorida, ampulheta
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1565
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: associar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1181
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: tempo, divisões do dia e da noite, pingos, torneira semifechada
+        • Keyword: tempo
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2736
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: garrafas plásticas, tampas de potes de creme ou maionese, papel-cartão resistente, circulo pequeno, areia fina colorida, ampulheta
+        • DiscursiveStrategy: instruir
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.2942
+
+
+[Documento — Fragmentos] urn:doc:101
+
+[Fragmento] Preparacao: Usar duas garrafas plasticas e duas tampas de potes de creme ou maionese ajustadas a abertura das garrafas. Papel-cartao resistente, com um circulo pequeno. Cortar as garrafas no sentido horizontal, unir os gargalos, colocando entre eles um circulo de cartao perfurado. Colocar areia fina, colorida com anilina, formando uma ampulheta (procurar um modelo em uma ilustracao). Utilizacao: Essa ampulheta deve ser usada para marcar o tempo e os alunos devem observar a passagem da areia de uma metade da garrafa para outra, associando esse tempo com atividades que estao desenvolvendo. Leva-los a associar o tempo as divisoes do dia e da noite. Mostrar quantos pingos caem de uma torneira semifechada em um espaco de tempo e outras multiplas atividades. (Existe no comercio -- ampulhetas de vidro podem ser adquiridas em lojas de decoracao.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.1576, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: garrafas plásticas, tampas de potes de creme ou maionese, papel-cartão resistente, circulo pequeno, areia fina colorida, ampulheta
+    - Ativações:
+        • score=0.1565, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: associar
+    - Ativações:
+        • score=0.1181, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: tempo, divisões do dia e da noite, pingos, torneira semifechada
+        • Keyword: tempo
+    - Ativações:
+        • score=0.2736, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: garrafas plásticas, tampas de potes de creme ou maionese, papel-cartão resistente, circulo pequeno, areia fina colorida, ampulheta
+        • DiscursiveStrategy: instruir
+    - Ativações:
+        • score=0.2942, tipo=Primary

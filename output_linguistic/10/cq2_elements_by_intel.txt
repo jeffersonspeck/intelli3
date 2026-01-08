@@ -1,0 +1,62 @@
+[Documento] urn:doc:10
+  - miVector: 46.75,0.00,0.00,0.00,11.39,34.57,7.29,0.00
+  - TOP (documento): Linguistic (score=0.4675)
+  - Ranking (top 3):
+      • Linguistic: 0.4675
+      • Interpersonal: 0.3457
+      • Bodily-Kinesthetic: 0.1139
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: objeto de controle (tempo)
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1139
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: alternativamente representante
+        • Keyword: aluno
+        • Keyword: dialogo
+        • Keyword: voce casado
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3457
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: verdade
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0729
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: objeto do diálogo (perguntas)
+        • DiscursiveStrategy: estratégia de diálogo
+        • Keyword: nao
+        • Keyword: palavra
+        • Keyword: palavra nao
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4675
+
+
+[Documento — Fragmentos] urn:doc:10
+
+[Fragmento] Preparacao: Alunos divididos em grupos. Cada grupo escolhe alternativamente um representante. Um aluno fica com a funcao de cronometrar a participacao de cada aluno. Utilizacao: O professor inicia o dialogo com o aluno e deve, atraves de perguntas, induzi-lo a dizer a palavra nao. (Perguntas do tipo: Voce e casado? / E verdade que nasceu na Nigeria, etc.) Os alunos sao informados que nao devem omitir a verdade e que ao inves dessa palavra devem dizer negativo, de forma alguma ou outra expressao correspondente. Cada aluno que mantiver um dialogo dinami- co e em 30 segundos nao disser a palavra nao ganha ponto para sua equipe. 53
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: objeto de controle (tempo)
+    - Ativações:
+        • score=0.1139, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: alternativamente representante
+        • Keyword: aluno
+        • Keyword: dialogo
+        • Keyword: voce casado
+    - Ativações:
+        • score=0.3457, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: verdade
+    - Ativações:
+        • score=0.0729, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: objeto do diálogo (perguntas)
+        • DiscursiveStrategy: estratégia de diálogo
+        • Keyword: nao
+        • Keyword: palavra
+        • Keyword: palavra nao
+    - Ativações:
+        • score=0.4675, tipo=Primary

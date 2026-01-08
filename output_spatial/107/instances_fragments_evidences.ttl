@@ -1,0 +1,54 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:107> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:107#frag-000> .
+
+<urn:doc:107#evid-000-00-figuras-geometricas> a onto:Keyword ;
+    rdfs:label "figuras geometricas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:107#evid-000-01-desenhar-figuras-geometricas> a onto:Keyword ;
+    rdfs:label "desenhar figuras geometricas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:107#evid-000-02-desenhar-figuras-geometricas> a onto:Keyword ;
+    rdfs:label "desenhar figuras geometricas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:107#evid-000-03-desenhos> a onto:Keyword ;
+    rdfs:label "desenhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:107#evid-000-04-figuras-geometricas-colocadas> a onto:Keyword ;
+    rdfs:label "figuras geometricas colocadas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:107#evid-000-05-estrategia-de-desenho> a onto:DiscursiveStrategy ;
+    rdfs:label "estrategia de desenho"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:107#evid-000-06-objeto-cartolina> a onto:ContextObject ;
+    rdfs:label "objeto cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:107#evid-000-07-objeto-palitos-de-fosforo> a onto:ContextObject ;
+    rdfs:label "objeto palitos de fosforo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:107#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Folhas de cartolina e palitos de fosforo usados. Desenhar figuras geometricas e formas irregulares na cartolina. Todos os desenhos devem ser passiveis de uma reproducao com palitos de fosforo. Utilizacao: A tarefa dos alunos, individualmente, e a de colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas. A experiencia pode ser ampliada com desenhos de casas e outros, progressivamente apresentando maior complexidade. no 1no oo o n Fmatolaensca Fena"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:107> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:107#evid-000-00-figuras-geometricas>,
+        <urn:doc:107#evid-000-01-desenhar-figuras-geometricas>,
+        <urn:doc:107#evid-000-02-desenhar-figuras-geometricas>,
+        <urn:doc:107#evid-000-03-desenhos>,
+        <urn:doc:107#evid-000-04-figuras-geometricas-colocadas>,
+        <urn:doc:107#evid-000-05-estrategia-de-desenho>,
+        <urn:doc:107#evid-000-06-objeto-cartolina>,
+        <urn:doc:107#evid-000-07-objeto-palitos-de-fosforo> .
+

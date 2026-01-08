@@ -1,0 +1,69 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:9> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:9#frag-000> .
+
+<urn:doc:9#evid-000-00-alunos-divididos> a onto:Keyword ;
+    rdfs:label "alunos divididos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:9#evid-000-01-voce-mora> a onto:Keyword ;
+    rdfs:label "voce mora"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:9#evid-000-02-voce-estuda> a onto:Keyword ;
+    rdfs:label "voce estuda"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:9#evid-000-03-aluno> a onto:Keyword ;
+    rdfs:label "aluno"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:9#evid-000-04-perguntas> a onto:Keyword ;
+    rdfs:label "perguntas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:9#evid-000-05-pergunta> a onto:Keyword ;
+    rdfs:label "pergunta"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:9#evid-000-06-estratgia-de-perguntar-e-respond> a onto:DiscursiveStrategy ;
+    rdfs:label "estratégia de perguntar e responder"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:9#evid-000-07-estratgia-de-perguntar-e-respond> a onto:DiscursiveStrategy ;
+    rdfs:label "estratégia de perguntar e responder"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:9#evid-000-08-caixa-com-perguntas> a onto:ContextObject ;
+    rdfs:label "caixa com perguntas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:9#evid-000-09-papel-com-pergunta> a onto:ContextObject ;
+    rdfs:label "papel com pergunta"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:9#evid-000-10-caixa-com-questes> a onto:ContextObject ;
+    rdfs:label "caixa com questões"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:9#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Alunos divididos em dois grupos, sentados em circulos. Em uma caixa, uma serie de papeis com perguntas (Exemplo: Onde voce mora? / Onde voce estuda? Qual sua idade? / Que programa mais gosta na TV? / Voce tem namora- do? / Quem descobriu a America?) e em outra caixa uma seric de questoes que respondem essas perguntas. Utilizacao: Iniciado o jogo, o professor escolhe um aluno que fara uma pergunta em voz alta. Essa pergunta devera, imediatamente, ser respondida pelo aluno do grupo oposto. Caso ocorram duas respostas simultaneas, o grupo das respostas perde um ponto. Apos uma serie de indagacoes e respostas, revezam-se os grupos em suas funcoes de perguntar e de responder."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:9> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:9#evid-000-00-alunos-divididos>,
+        <urn:doc:9#evid-000-01-voce-mora>,
+        <urn:doc:9#evid-000-02-voce-estuda>,
+        <urn:doc:9#evid-000-03-aluno>,
+        <urn:doc:9#evid-000-04-perguntas>,
+        <urn:doc:9#evid-000-05-pergunta>,
+        <urn:doc:9#evid-000-06-estratgia-de-perguntar-e-respond>,
+        <urn:doc:9#evid-000-07-estratgia-de-perguntar-e-respond>,
+        <urn:doc:9#evid-000-08-caixa-com-perguntas>,
+        <urn:doc:9#evid-000-09-papel-com-pergunta>,
+        <urn:doc:9#evid-000-10-caixa-com-questes> .
+

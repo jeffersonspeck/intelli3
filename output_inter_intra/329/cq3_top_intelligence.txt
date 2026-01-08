@@ -1,0 +1,16 @@
+[Documento] urn:doc:329
+  - miVector: 6.33,2.30,25.58,0.00,26.41,39.38,0.00,0.00
+  - TOP (documento): Interpersonal (score=0.3938)
+  - Ranking (top 3):
+      • Interpersonal: 0.3938
+      • Bodily-Kinesthetic: 0.2641
+      • Spatial: 0.2558
+
+
+[Documento — Fragmentos] urn:doc:329
+
+[Fragmento] Preparacao: Uma sala para que os alunos possam se colocar em circulo. Utilizacao: O professor atribuira um numero a cada aluno ate a metade dos compo- nentes. Inicia, depois, a mesma numeracao dos demais, de maneira a existir dois alunos de numero 1, dois de numero 2 e assim por diante. Cada aluno deve observar atentamente seu par por alguns segundos; a um sinal do profes- sor viram-se de costas para o centro do circulo e alteram um detalhe de si mes- mos (por exemplo: solta fio do sapato, tira uma correntinha, etc.). A um sinal do professor voltam a se observar, tentando descobrir qual a alteracao feita. A atividade explora a percepcao e a identidade visual do outro e deve ser repetida varias vezes, observando-se se ha progresso ce, consequentemente, au- mento de dificuldades em se proceder mudanca de detalhes nao notados.
+  > TOP: Interpessoal (score=0.3849, tipo=Primary)
+
+[Fragmento] Uma outra forma e chamar dois alunos para o centro do circulo, procedendo-se a mesma experiencia. -- 255
+  > TOP: Interpessoal (score=0.4006, tipo=Primary)

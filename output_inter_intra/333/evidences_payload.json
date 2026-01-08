@@ -1,0 +1,176 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "aplicacao questionarios",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7843859185235499,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "questionarios avaliar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7843859185235499,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar quadros",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7843859185235499,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "vocabular aluno",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7497228828827877,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "formular",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "questões",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "quais fatos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7875257774259357,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "sofrer sinceramente",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7778923908204681,
+      "relevance": 0.9075342465753424
+    },
+    {
+      "role": "Keyword",
+      "text": "voce",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7148176907314916,
+      "relevance": 0.8664383561643836
+    },
+    {
+      "role": "Keyword",
+      "text": "ocorridos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6943425507713972,
+      "relevance": 0.9777397260273972
+    },
+    {
+      "role": "Keyword",
+      "text": "clareza",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6639409802100361,
+      "relevance": 0.6078767123287672
+    },
+    {
+      "role": "Keyword",
+      "text": "voce acha",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6215422382492019,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tambem clareza",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6012041811782456,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "pergunta",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "fatos, pessoas, casa, escola, animal pequeno",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "fatos, pessoas, casa, escola, animal pequeno",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "voce nao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7588418489189463,
+      "relevance": 0.9921383647798742
+    },
+    {
+      "role": "Keyword",
+      "text": "detesta",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7153343599946613,
+      "relevance": 0.9056603773584906
+    },
+    {
+      "role": "Keyword",
+      "text": "nota dou",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.674541642613303,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estrategia de apresentação",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "objeto da timidez",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

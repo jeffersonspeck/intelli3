@@ -1,0 +1,146 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:332#evid-000-00-branco-distribuida> a onto:Keyword ;
+    rdfs:label "branco distribuida"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-000-01-devera-anotar> a onto:Keyword ;
+    rdfs:label "devera anotar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-000-02-papel-branco> a onto:Keyword ;
+    rdfs:label "papel branco"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-000-03-anotar-alto> a onto:Keyword ;
+    rdfs:label "anotar alto"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-000-04-alunos> a onto:Keyword ;
+    rdfs:label "alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-000-05-folha> a onto:Keyword ;
+    rdfs:label "folha"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-000-06-participantes> a onto:Keyword ;
+    rdfs:label "participantes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-000-07-letra> a onto:Keyword ;
+    rdfs:label "letra"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-000-08-atividade> a onto:Keyword ;
+    rdfs:label "atividade"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-000-09-distribuir> a onto:DiscursiveStrategy ;
+    rdfs:label "distribuir"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-000-10-pedir> a onto:DiscursiveStrategy ;
+    rdfs:label "pedir"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-000-11-conquistar> a onto:DiscursiveStrategy ;
+    rdfs:label "conquistar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:332#evid-000-12-escrever> a onto:DiscursiveStrategy ;
+    rdfs:label "escrever"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-000-13-folha-de-papel-em-branco> a onto:ContextObject ;
+    rdfs:label "folha de papel em branco"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:332#evid-000-14-lapis-ou-caneta> a onto:ContextObject ;
+    rdfs:label "lapis ou caneta"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:332#evid-000-15-lembrar> a onto:DiscursiveStrategy ;
+    rdfs:label "lembrar"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:332#evid-000-16-encerrar> a onto:DiscursiveStrategy ;
+    rdfs:label "encerrar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-000-17-autografos> a onto:ContextObject ;
+    rdfs:label "autografos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:332#evid-001-00-situacao-cria-alternativas> a onto:Keyword ;
+    rdfs:label "situacao cria alternativas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-001-01-perceber-casa> a onto:Keyword ;
+    rdfs:label "perceber casa"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:332#evid-001-02-existe-maior-facilidade> a onto:Keyword ;
+    rdfs:label "existe maior facilidade"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-001-03-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-001-04-discussao> a onto:Keyword ;
+    rdfs:label "discussao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-001-05-estrategia-de-discusso> a onto:DiscursiveStrategy ;
+    rdfs:label "estrategia de discussão"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-001-06-autografos> a onto:ContextObject ;
+    rdfs:label "autografos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:332#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma folha de papel em branco distribuida a cada aluno, que devera anotar ao alto e com letra de forma o seu nome. Lapis ou caneta para todos os participantes. Utilizacao: Os alunos deverao conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes, pedindo que os colegas assimem seus nomes, de forma legivel, em sua folha. Inicia a atividade, lembrando que ao termina-la todos os alunos devem ter suas folhas em maos. Passado o tempo esta- belecido, encerra a atividade e solicita aos alunos que contem os autografos obtidos. Indaga a alguns alunos quantos autografos obtiveram e a outros, quantos autografos deram."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:332> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:332#evid-000-00-branco-distribuida>,
+        <urn:doc:332#evid-000-01-devera-anotar>,
+        <urn:doc:332#evid-000-02-papel-branco>,
+        <urn:doc:332#evid-000-03-anotar-alto>,
+        <urn:doc:332#evid-000-04-alunos>,
+        <urn:doc:332#evid-000-05-folha>,
+        <urn:doc:332#evid-000-06-participantes>,
+        <urn:doc:332#evid-000-07-letra>,
+        <urn:doc:332#evid-000-08-atividade>,
+        <urn:doc:332#evid-000-09-distribuir>,
+        <urn:doc:332#evid-000-10-pedir>,
+        <urn:doc:332#evid-000-11-conquistar>,
+        <urn:doc:332#evid-000-12-escrever>,
+        <urn:doc:332#evid-000-13-folha-de-papel-em-branco>,
+        <urn:doc:332#evid-000-14-lapis-ou-caneta>,
+        <urn:doc:332#evid-000-15-lembrar>,
+        <urn:doc:332#evid-000-16-encerrar>,
+        <urn:doc:332#evid-000-17-autografos> .
+
+<urn:doc:332#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "E perceptivel que existe maior facilidade em se identificar as \"conquistas\" que as \"ofertas\" e essa situacao cria alternativas para uma discussao final sobre dar e receber autografos e perceber em casa, na escola e em outros ambientes se damos mais ou se recebemos mais autografos. 2517"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:332> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:332#evid-001-00-situacao-cria-alternativas>,
+        <urn:doc:332#evid-001-01-perceber-casa>,
+        <urn:doc:332#evid-001-02-existe-maior-facilidade>,
+        <urn:doc:332#evid-001-03-identificar>,
+        <urn:doc:332#evid-001-04-discussao>,
+        <urn:doc:332#evid-001-05-estrategia-de-discusso>,
+        <urn:doc:332#evid-001-06-autografos> .
+
+<urn:doc:332> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:332#frag-000>,
+        <urn:doc:332#frag-001> .
+

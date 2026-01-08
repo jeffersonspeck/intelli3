@@ -1,0 +1,104 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:180> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:180#frag-000> .
+
+<urn:doc:180#evid-000-00-pequeno-armario> a onto:Keyword ;
+    rdfs:label "pequeno armario"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-01-armario-varias> a onto:Keyword ;
+    rdfs:label "armario varias"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-02-varias-portas> a onto:Keyword ;
+    rdfs:label "varias portas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-03-marceneiro> a onto:Keyword ;
+    rdfs:label "marceneiro"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-04-solicitar> a onto:DiscursiveStrategy ;
+    rdfs:label "solicitar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-05-marceneiro> a onto:ContextObject ;
+    rdfs:label "marceneiro"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-06-construir> a onto:DiscursiveStrategy ;
+    rdfs:label "construir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-07-armrio> a onto:ContextObject ;
+    rdfs:label "armário"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:180#evid-000-08-verificar> a onto:DiscursiveStrategy ;
+    rdfs:label "verificar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-09-portas> a onto:ContextObject ;
+    rdfs:label "portas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:180#evid-000-10-utilizar> a onto:DiscursiveStrategy ;
+    rdfs:label "utilizar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-11-chaves> a onto:ContextObject ;
+    rdfs:label "chaves"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:180#evid-000-12-aprender> a onto:DiscursiveStrategy ;
+    rdfs:label "aprender"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:180#evid-000-13-abrir-e-fechar-portas> a onto:ContextObject ;
+    rdfs:label "abrir e fechar portas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-14-guardar-objetos> a onto:DiscursiveStrategy ;
+    rdfs:label "guardar objetos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:180#evid-000-15-compartimentos> a onto:ContextObject ;
+    rdfs:label "compartimentos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:180#evid-000-16-situar-las> a onto:DiscursiveStrategy ;
+    rdfs:label "situar-las"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:180#evid-000-17-orientacao-do-professor> a onto:DiscursiveStrategy ;
+    rdfs:label "orientacao do professor"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:180#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Solicitar o servico de um marceneiro, fazendo um pequeno armario com varias portas e diferentes fechaduras. Havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves. Utilizacao: O aluno deve aprender a abrir e fechar portas, guardar objetos em diferen- tes compartimentos, abrir portas conforme orientacao do professor, situando-as a direita, a esquerda, ao centro e outros. (Existem no comercio: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela].)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:180> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:180#evid-000-00-pequeno-armario>,
+        <urn:doc:180#evid-000-01-armario-varias>,
+        <urn:doc:180#evid-000-02-varias-portas>,
+        <urn:doc:180#evid-000-03-marceneiro>,
+        <urn:doc:180#evid-000-04-solicitar>,
+        <urn:doc:180#evid-000-05-marceneiro>,
+        <urn:doc:180#evid-000-06-construir>,
+        <urn:doc:180#evid-000-07-armrio>,
+        <urn:doc:180#evid-000-08-verificar>,
+        <urn:doc:180#evid-000-09-portas>,
+        <urn:doc:180#evid-000-10-utilizar>,
+        <urn:doc:180#evid-000-11-chaves>,
+        <urn:doc:180#evid-000-12-aprender>,
+        <urn:doc:180#evid-000-13-abrir-e-fechar-portas>,
+        <urn:doc:180#evid-000-14-guardar-objetos>,
+        <urn:doc:180#evid-000-15-compartimentos>,
+        <urn:doc:180#evid-000-16-situar-las>,
+        <urn:doc:180#evid-000-17-orientacao-do-professor> .
+

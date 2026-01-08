@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:158> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:158#frag-000> .
+
+<urn:doc:158#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples. Utilizacao: Associar o som do instrumento a movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos. Progressiva- mente o aluno deve ir descobrindo todo o sentido de uma \"linguagem sonora\" e ir identificando essa linguagem a seus movimentos corporais. 146"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:158> ;
+    dct:type "title_or_abstract" .
+

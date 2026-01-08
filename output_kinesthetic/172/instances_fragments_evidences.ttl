@@ -1,0 +1,89 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:172> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:172#frag-000> .
+
+<urn:doc:172#evid-000-00-divididas-par> a onto:Keyword ;
+    rdfs:label "divididas par"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:172#evid-000-01-textura-diferente> a onto:Keyword ;
+    rdfs:label "textura diferente"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:172#evid-000-02-preparar-dez-cartelas> a onto:Keyword ;
+    rdfs:label "preparar dez cartelas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:172#evid-000-03-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:172#evid-000-04-cartelas-pares> a onto:Keyword ;
+    rdfs:label "cartelas pares"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:172#evid-000-05-devem-procurar> a onto:Keyword ;
+    rdfs:label "devem procurar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:172#evid-000-06-utilizacao> a onto:Keyword ;
+    rdfs:label "utilizacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:172#evid-000-07-preparar> a onto:DiscursiveStrategy ;
+    rdfs:label "Preparar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:172#evid-000-08-cartelas> a onto:ContextObject ;
+    rdfs:label "cartelas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:172#evid-000-09-par> a onto:ContextObject ;
+    rdfs:label "par"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:172#evid-000-10-textura> a onto:ContextObject ;
+    rdfs:label "textura"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:172#evid-000-11-utilizacao> a onto:DiscursiveStrategy ;
+    rdfs:label "Utilizacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:172#evid-000-12-procurar-as-cartelas-pares> a onto:DiscursiveStrategy ;
+    rdfs:label "procurar as cartelas pares"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:172#evid-000-13-procurar-as-cartelas-pares> a onto:DiscursiveStrategy ;
+    rdfs:label "procurar as cartelas pares"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:172#evid-000-14-cartelas-pares> a onto:ContextObject ;
+    rdfs:label "cartelas pares"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:172#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar dez cartelas, divididas em par, cada uma tendo ao fundo uma textura diferente. Algumas podem ser forradas de la, outras de seda, outras ainda de feltro, lixa ou outro material. Utilizacao: Os alunos, com os olhos vendados, devem procurar as cartelas pares. Vence a equipe cujos componentes conseguirem maior numero de pontos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:172> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:172#evid-000-00-divididas-par>,
+        <urn:doc:172#evid-000-01-textura-diferente>,
+        <urn:doc:172#evid-000-02-preparar-dez-cartelas>,
+        <urn:doc:172#evid-000-03-preparacao>,
+        <urn:doc:172#evid-000-04-cartelas-pares>,
+        <urn:doc:172#evid-000-05-devem-procurar>,
+        <urn:doc:172#evid-000-06-utilizacao>,
+        <urn:doc:172#evid-000-07-preparar>,
+        <urn:doc:172#evid-000-08-cartelas>,
+        <urn:doc:172#evid-000-09-par>,
+        <urn:doc:172#evid-000-10-textura>,
+        <urn:doc:172#evid-000-11-utilizacao>,
+        <urn:doc:172#evid-000-12-procurar-as-cartelas-pares>,
+        <urn:doc:172#evid-000-13-procurar-as-cartelas-pares>,
+        <urn:doc:172#evid-000-14-cartelas-pares> .
+

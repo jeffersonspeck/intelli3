@@ -1,0 +1,13 @@
+[Documento] urn:doc:258
+  - miVector: 8.39,0.00,22.51,0.00,55.46,13.64,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5546)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5546
+      • Spatial: 0.2251
+      • Interpersonal: 0.1364
+
+
+[Documento — Fragmentos] urn:doc:258
+
+[Fragmento] Preparacao: Sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos. Utilizacao: Os alunos devem circular pela sala escura com extremo cuidado e, encontrando alguem, toca-lo levemente, pronunciando a palavra "Proury". Caso ouca como respos- ta a mesma palavra, continuar circulando e fazendo novos contatos. Ao tocar em al- guem que nao responda ao seu pronunciamento, devera procurar a mao dessa pessoa. Se estiver livre, segura-la e nao mais responder quando tocado. Caso a pessoa que nao respondeu a sua indagacao esteja de maos dadas, caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre. Ao perceber que nao mais exis- tem sussurros pela sala, a luz deve ser acesa. Antes de iniciar o jogo, avisar a um partici- pante para nao responder a chamada, iniciando a formacao da corrente.
+  > TOP: Cinestésico-corporal (score=0.5546, tipo=Primary)

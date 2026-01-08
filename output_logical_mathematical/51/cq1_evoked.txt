@@ -1,0 +1,21 @@
+[Documento] urn:doc:51
+  - miVector: 16.56,58.73,24.71,0.00,0.00,0.00,0.00,0.00
+  - TOP (documento): Logical-Mathematical (score=0.5873)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.5873
+      • Spatial: 0.2471
+      • Linguistic: 0.1656
+
+[Fragmento] Preparacao: Tampas plasticas de tres tamanhos bem diferentes que serao os "ninhos". Utilizacao: Os alunos devem comparar os tres tamanhos de tampas para identificar as maiores e as menores. O professor deve introduzir o conceito de tamanho "me- dio" e solicitar que os alunos as encontrem. Formar fileiras, ordenando os ninhos segundo seu tamanho. Encaixar em ordem os ninhos menores nos maiores. 79
+  - Linguistic (via activation, score=0.1656)
+  - Logical-Mathematical (via activation, score=0.5874)
+  - Spatial (via activation, score=0.2471)
+  - Espacial-visual (via activation, score=0.2471)
+  - Linguística (via activation, score=0.1656)
+  - Lógico-matemática (via activation, score=0.5874)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)

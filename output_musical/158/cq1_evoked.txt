@@ -1,0 +1,21 @@
+[Documento] urn:doc:158
+  - miVector: 0.00,0.00,0.00,30.22,61.64,0.00,8.14,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.6164)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6164
+      • Musical: 0.3022
+      • Intrapersonal: 0.0814
+
+[Fragmento] Preparacao: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples. Utilizacao: Associar o som do instrumento a movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos. Progressiva- mente o aluno deve ir descobrindo todo o sentido de uma "linguagem sonora" e ir identificando essa linguagem a seus movimentos corporais. 146
+  - Bodily-Kinesthetic (via activation, score=0.6165)
+  - Intrapersonal (via activation, score=0.0814)
+  - Musical (via activation, score=0.3022)
+  - Cinestésico-corporal (via activation, score=0.6165)
+  - Intrapessoal (via activation, score=0.0814)
+  - Musical (via activation, score=0.3022)
+  - Bodily-Kinesthetic (via element)
+  - Intrapersonal (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Intrapessoal (via element)
+  - Musical (via element)

@@ -1,0 +1,109 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:181> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:181#frag-000> .
+
+<urn:doc:181#evid-000-00-usar-panos-coloridos> a onto:Keyword ;
+    rdfs:label "usar panos coloridos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-01-botoes-pressao> a onto:Keyword ;
+    rdfs:label "botoes pressao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-02-diferentes-tamanhos> a onto:Keyword ;
+    rdfs:label "diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-03-botoes-diferentes> a onto:Keyword ;
+    rdfs:label "botoes diferentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-04-ganchos> a onto:Keyword ;
+    rdfs:label "ganchos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-05-coloridos-casas> a onto:Keyword ;
+    rdfs:label "coloridos casas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-06-casas-botoes> a onto:Keyword ;
+    rdfs:label "casas botoes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-07-aluno> a onto:Keyword ;
+    rdfs:label "aluno"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:181#evid-000-08-utilizao> a onto:DiscursiveStrategy ;
+    rdfs:label "utilização"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-09-panos-coloridos> a onto:ContextObject ;
+    rdfs:label "panos coloridos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:181#evid-000-10-casas> a onto:ContextObject ;
+    rdfs:label "casas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:181#evid-000-11-botoes-de-diferentes-tamanhos> a onto:ContextObject ;
+    rdfs:label "botoes de diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-12-botes-de-presso> a onto:ContextObject ;
+    rdfs:label "botões de pressão"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-13-ganchos> a onto:ContextObject ;
+    rdfs:label "ganchos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:181#evid-000-14-tecido> a onto:ContextObject ;
+    rdfs:label "tecido"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:181#evid-000-15-ilhos> a onto:ContextObject ;
+    rdfs:label "ilhos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:181#evid-000-16-dever-abotoar-e-desabotoar-dar-l> a onto:DiscursiveStrategy ;
+    rdfs:label "deverá abotoar e desabotoar, dar laco, enganchar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-17-deve-ser-programada> a onto:DiscursiveStrategy ;
+    rdfs:label "deve ser programada"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:181#evid-000-18-preferivelmente-com-os-olhos-ven> a onto:DiscursiveStrategy ;
+    rdfs:label "preferivelmente com os olhos vendados"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:181#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Usar panos coloridos com casas e botoes de diferentes tamanhos, botoes de pressao, ganchos. O mesmo tecido pode ter casas do tipo ilhos para passar barbante. Venda para os olhos. Utilizacao: O aluno devera abotoar e desabotoar, dar laco, enganchar. Essa atividade deve ser programada e e bom que o aluno nao segure o pano em suas maos para brincadeiras livres, mas que execute a atividade segundo determinacoes do pro- fessor, preferivelmente com os olhos vendados."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:181> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:181#evid-000-00-usar-panos-coloridos>,
+        <urn:doc:181#evid-000-01-botoes-pressao>,
+        <urn:doc:181#evid-000-02-diferentes-tamanhos>,
+        <urn:doc:181#evid-000-03-botoes-diferentes>,
+        <urn:doc:181#evid-000-04-ganchos>,
+        <urn:doc:181#evid-000-05-coloridos-casas>,
+        <urn:doc:181#evid-000-06-casas-botoes>,
+        <urn:doc:181#evid-000-07-aluno>,
+        <urn:doc:181#evid-000-08-utilizao>,
+        <urn:doc:181#evid-000-09-panos-coloridos>,
+        <urn:doc:181#evid-000-10-casas>,
+        <urn:doc:181#evid-000-11-botoes-de-diferentes-tamanhos>,
+        <urn:doc:181#evid-000-12-botes-de-presso>,
+        <urn:doc:181#evid-000-13-ganchos>,
+        <urn:doc:181#evid-000-14-tecido>,
+        <urn:doc:181#evid-000-15-ilhos>,
+        <urn:doc:181#evid-000-16-dever-abotoar-e-desabotoar-dar-l>,
+        <urn:doc:181#evid-000-17-deve-ser-programada>,
+        <urn:doc:181#evid-000-18-preferivelmente-com-os-olhos-ven> .
+

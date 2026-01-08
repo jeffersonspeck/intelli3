@@ -1,0 +1,42 @@
+[Documento] urn:doc:249
+  - miVector: 0.00,0.00,0.00,0.00,38.99,61.01,0.00,0.00
+  - TOP (documento): Interpersonal (score=0.6101)
+  - Ranking (top 3):
+      • Interpersonal: 0.6101
+      • Bodily-Kinesthetic: 0.3899
+      • Linguistic: 0.0000
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: executarem tarefas antecipadamente
+        • Keyword: saltara cercas inexistentes
+        • Keyword: tarefas antecipadamente planejadas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3899
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: alunos
+        • Keyword: indispensavel darmos oportunidade
+        • Keyword: oportunidade alunos
+        • Keyword: professor
+        • Keyword: professor sera
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6101
+
+
+[Documento — Fragmentos] urn:doc:249
+
+[Fragmento] Preparacao: E indispensavel darmos oportunidade aos alunos de executarem tarefas an- tecipadamente planejadas. O professor deve idealizar uma verdadeira gincana de atividades e cumprindo-as deve solicitar aos alunos que o facam. Utilizacao: O professor sera o "mestre" e executara a gincana estabelecida (saltara cer- cas inexistentes, remara por rios imaginarios, procurara tesouros ocultos) e as- sim percorrera interessante caminho estimulando a motricidade e soltando a imaginacao naturalista dos alunos. O sucesso do jogo depende da capacidade do professor em levar o aluno a partilhar dessas "aventuras". 200
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: executarem tarefas antecipadamente
+        • Keyword: saltara cercas inexistentes
+        • Keyword: tarefas antecipadamente planejadas
+    - Ativações:
+        • score=0.3899, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: alunos
+        • Keyword: indispensavel darmos oportunidade
+        • Keyword: oportunidade alunos
+        • Keyword: professor
+        • Keyword: professor sera
+    - Ativações:
+        • score=0.6101, tipo=Primary

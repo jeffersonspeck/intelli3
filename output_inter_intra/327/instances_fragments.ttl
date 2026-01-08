@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:327> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:327#frag-000> .
+
+<urn:doc:327#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Os alunos devem estar reunidos em uma sala, sentados em circulo. Utilizacao: Depois de solicitar que todos os alunos olhem-se e percebam os detalhes nas rou- pas e, sobretudo, nas expressoes de cada um, solicita que todos tenham seus olhos ven- dados. Um aluno, silenciosamente, e retirado da sala pelo professor. A seguir as vendas devem ser tiradas e os alunos devem descobrir quem foi retirado da sala, descrevendo suas caracteristicas fisicas e elementos de seu temperamento, sua automotivacao, capa- cidade de administracao das emocoes e muito mais. Um circulo de debates sobre a im- portancia da atividade no heteroconhecimento deve ser estimulada. 253"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:327> ;
+    dct:type "title_or_abstract" .
+

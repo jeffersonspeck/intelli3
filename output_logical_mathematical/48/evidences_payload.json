@@ -1,0 +1,100 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "selecionar oito garrafas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7749075732659916,
+      "relevance": 0.9873949579831933
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7452566181736089,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "cortar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.722896274592528,
+      "relevance": 0.9474789915966386
+    },
+    {
+      "role": "Keyword",
+      "text": "altura",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.722896274592528,
+      "relevance": 0.9222689075630253
+    },
+    {
+      "role": "Keyword",
+      "text": "formando diferentes composicoes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7162860234061911,
+      "relevance": 0.7373949579831933
+    },
+    {
+      "role": "Keyword",
+      "text": "ordenando fileiras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6742297902607503,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tamanhos quase iguais",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6692668019795258,
+      "relevance": 0.6859243697478992
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "ordenar tamanhos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "ordenar tamanhos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas de plástico",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "agrupando as de tamanhos quase iguais ou diferentes",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.7027310924369747
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "ordenando-as em fileiras",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.6470588235294117
+    }
+  ]
+}

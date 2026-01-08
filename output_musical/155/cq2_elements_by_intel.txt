@@ -1,0 +1,82 @@
+[Documento] urn:doc:155
+  - miVector: 39.68,27.13,7.54,12.14,5.63,0.00,7.88,0.00
+  - TOP (documento): Linguistic (score=0.3968)
+  - Ranking (top 3):
+      • Linguistic: 0.3968
+      • Logical-Mathematical: 0.2713
+      • Musical: 0.1214
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0563
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar)
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0754
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0788
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar)
+        • DiscursiveStrategy: estimular o uso de diferentes habilidades operatorias
+        • DiscursiveStrategy: tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes
+        • Keyword: diferentes habilidades operatorias
+        • Keyword: tornar claro
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3968
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: analisa qualidade
+        • Keyword: classifica alimentos
+        • Keyword: deduz valor
+        • Keyword: diferentes habilidades operatorias
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2713
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: sons
+        • DiscursiveStrategy: emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1214
+
+
+[Documento — Fragmentos] urn:doc:155
+
+[Fragmento] Preparacao: A equipe de professores deve estimular o uso de diferentes habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar, etc.) e tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes (a dona de casa, por exemplo, classifica os alimentos que compra, analisa a qualidade de cada um, deduz o valor nutritivo e assim por diante). Utilizacao: Essa atividade exploradora das habilidades pode ser completada com o uso de sons e, assim, o emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos, simbolizam meios de explorar o emprego das ha- bilidades em ambito diferente do demonstrado em sala de aula.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos
+    - Ativações:
+        • score=0.0563, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar)
+    - Ativações:
+        • score=0.0754, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • DiscursiveStrategy: tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes
+    - Ativações:
+        • score=0.0788, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar)
+        • DiscursiveStrategy: estimular o uso de diferentes habilidades operatorias
+        • DiscursiveStrategy: tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes
+        • Keyword: diferentes habilidades operatorias
+        • Keyword: tornar claro
+    - Ativações:
+        • score=0.3968, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: analisa qualidade
+        • Keyword: classifica alimentos
+        • Keyword: deduz valor
+        • Keyword: diferentes habilidades operatorias
+    - Ativações:
+        • score=0.2713, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: sons
+        • DiscursiveStrategy: emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos
+    - Ativações:
+        • score=0.1214, tipo=Secondary

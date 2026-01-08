@@ -1,0 +1,13 @@
+[Documento] urn:doc:109
+  - miVector: 29.47,0.00,70.53,0.00,0.00,0.00,0.00,0.00
+  - TOP (documento): Spatial (score=0.7053)
+  - Ranking (top 3):
+      • Spatial: 0.7053
+      • Linguistic: 0.2947
+      • Logical-Mathematical: 0.0000
+
+
+[Documento — Fragmentos] urn:doc:109
+
+[Fragmento] Preparacao: Preparar com folhas de papel-cartao e gravuras obtidas em revistas uma serie de retangulos de aproximadamente 5 x 5cm. E importante que nesses retangulos exista uma bolinha, ora a direita, ora a esquerda da ilustracao; em certas situacoes a bolinha aparece acima e, em outras, abaixo da figura. Um tabuleiro de 15x 15cm, tambem desenhado em cartolina. Utilizacao: Os alunos devem colocar seus retangulos no centro, a direita, ou a es- querda do tabuleiro e, respectivamente, acima, abaixo, a esquerda ou a direita. O essencial na atividade e o emprego desses conceitos e seu progressivo domi- nio pelo aluno. Explorar a atividade e mostrar ilustracoes ou situacoes onde ob- jetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor, por exemplo. (Existem no comercio "As abelhas c a flor" e diversos outros.)
+  > TOP: Espacial-visual (score=0.7053, tipo=Primary)

@@ -1,0 +1,74 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:12> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:12#frag-000> .
+
+<urn:doc:12#evid-000-00-colecionar-figuras-coloridas> a onto:Keyword ;
+    rdfs:label "colecionar figuras coloridas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:12#evid-000-01-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:12#evid-000-02-formando> a onto:Keyword ;
+    rdfs:label "formando"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:12#evid-000-03-devem> a onto:Keyword ;
+    rdfs:label "devem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:12#evid-000-04-montar> a onto:Keyword ;
+    rdfs:label "montar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:12#evid-000-05-madeira-colar> a onto:Keyword ;
+    rdfs:label "madeira colar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:12#evid-000-06-montar> a onto:DiscursiveStrategy ;
+    rdfs:label "montar"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:12#evid-000-07-figuras-coloridas> a onto:ContextObject ;
+    rdfs:label "figuras coloridas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:12#evid-000-08-sortear> a onto:DiscursiveStrategy ;
+    rdfs:label "sortear"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:12#evid-000-09-figuras-dos-cartoes> a onto:ContextObject ;
+    rdfs:label "figuras dos cartoes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:12#evid-000-10-nomear> a onto:DiscursiveStrategy ;
+    rdfs:label "nomear"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:12#evid-000-11-artigo-definido-e-indefinido> a onto:ContextObject ;
+    rdfs:label "artigo definido e indefinido"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:12#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras. As demais, repetidas, devem ser coladas cada uma em um cartao. Utilizacao: Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e indefinido para cada item. Exemplo: O abacate verde, uma laranja amarela, etc. (Existem analogos no comercio. Loto Mundo Variado [Coluna]) 54"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:12> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:12#evid-000-00-colecionar-figuras-coloridas>,
+        <urn:doc:12#evid-000-01-preparacao>,
+        <urn:doc:12#evid-000-02-formando>,
+        <urn:doc:12#evid-000-03-devem>,
+        <urn:doc:12#evid-000-04-montar>,
+        <urn:doc:12#evid-000-05-madeira-colar>,
+        <urn:doc:12#evid-000-06-montar>,
+        <urn:doc:12#evid-000-07-figuras-coloridas>,
+        <urn:doc:12#evid-000-08-sortear>,
+        <urn:doc:12#evid-000-09-figuras-dos-cartoes>,
+        <urn:doc:12#evid-000-10-nomear>,
+        <urn:doc:12#evid-000-11-artigo-definido-e-indefinido> .
+

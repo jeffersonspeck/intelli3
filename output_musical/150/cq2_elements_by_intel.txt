@@ -1,0 +1,56 @@
+[Documento] urn:doc:150
+  - miVector: 64.01,12.52,12.79,0.00,10.68,0.00,0.00,0.00
+  - TOP (documento): Linguistic (score=0.6401)
+  - Ranking (top 3):
+      • Linguistic: 0.6401
+      • Spatial: 0.1279
+      • Logical-Mathematical: 0.1252
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: recortar revistas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1068
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: figuras, gravuras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1279
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: recortar, agrupar, identificar
+        • Keyword: cujos nomes apresentam
+        • Keyword: cujos nomes tenham
+        • Keyword: mesma silaba inicial
+        • Keyword: revistas figuras cujos
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6401
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: mesma silaba inicial
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1252
+
+
+[Documento — Fragmentos] urn:doc:150
+
+[Fragmento] Preparacao: Recortar de revistas figuras cujos nomes tenham a mesma terminacao e outras cujos nomes apresentam a mesma silaba inicial (Exemplos: Gato, Rato, Mato, Sapato, ou Bolacha, Bola, Botao, Boliche, ctc.). Incluir outras gravuras que iniciem e terminem com outros fonemas. Utilizacao: Existe uma enorme multiplicidade para o uso do jogo. Os alunos podem, por exemplo, reunir palavras com o mesmo fonema inicial, agrupar outros com a mesma terminacao. O professor pode ir retirando as gravuras de uma caixa e solicitando dos alunos a identificacao do fonema.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: recortar revistas
+    - Ativações:
+        • score=0.1068, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: figuras, gravuras
+    - Ativações:
+        • score=0.1279, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: recortar, agrupar, identificar
+        • Keyword: cujos nomes apresentam
+        • Keyword: cujos nomes tenham
+        • Keyword: mesma silaba inicial
+        • Keyword: revistas figuras cujos
+    - Ativações:
+        • score=0.6401, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: mesma silaba inicial
+    - Ativações:
+        • score=0.1252, tipo=Secondary

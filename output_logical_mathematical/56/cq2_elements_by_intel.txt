@@ -1,0 +1,58 @@
+[Documento] urn:doc:56
+  - miVector: 10.97,33.10,0.00,0.00,43.79,0.00,12.14,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4379)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4379
+      • Logical-Mathematical: 0.3310
+      • Intrapersonal: 0.1214
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: colar extremidade
+        • Keyword: preparacao trabalhosa
+        • Keyword: revistas enrolar tiras
+        • Keyword: usar canudinhos
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4379
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: revistas enrolar tiras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1214
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: enrolar tiras de papel, colar a extremidade, usar canudinhos de refrigerantes como varetas, passando cola para dar maior consistencia, utilizar o material co…
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1097
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: exige preparacao
+        • Keyword: jogo exige
+        • Keyword: utilizar material
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3310
+
+
+[Documento — Fragmentos] urn:doc:56
+
+[Fragmento] Preparacao: O jogo exige uma preparacao trabalhosa. Com auxilio de um lapis e revistas enrolar tiras de papel de 2cm de largura. Colar a extremidade. Usar canudinhos de refrigerantes como varetas, passando cola para dar maior consistencia. Utilizacao: Utilizar o material como instrumento de contagem, para elaboracao de se- quencias e ainda formacao de conjuntos. Sugerir aos alunos que criem brincadei- ras com o material, explorando seu raciocinio logico.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: colar extremidade
+        • Keyword: preparacao trabalhosa
+        • Keyword: revistas enrolar tiras
+        • Keyword: usar canudinhos
+    - Ativações:
+        • score=0.4379, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: revistas enrolar tiras
+    - Ativações:
+        • score=0.1214, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: enrolar tiras de papel, colar a extremidade, usar canudinhos de refrigerantes como varetas, passando cola para dar maior consistencia, utilizar o material co…
+    - Ativações:
+        • score=0.1097, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: exige preparacao
+        • Keyword: jogo exige
+        • Keyword: utilizar material
+    - Ativações:
+        • score=0.3310, tipo=Secondary

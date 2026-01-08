@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:145> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:145#frag-000> .
+
+<urn:doc:145#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor deve colecionar muitos cartoes com 30 figuras duplas coladas, identificando diferentes animais ou objetos. Utilizacao: Distribuir as figuras entre os alunos e faze-los dizer ritmicamente o nome dos objetos representados. Reunir as figuras em um saco plastico, ir tirando e pedindo aos alunos que digam seus nomes, sonorizando com clareza cada pala- vra pronunciada. Em etapas seguintes, desenvolver jogos da memoria com as figuras, estimulando sempre sua verbalizacao e sonorizacao clara. (Existe no comercio \"Jogo da Memoria\"; de diversos fabricantes.) 139"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:145> ;
+    dct:type "title_or_abstract" .
+

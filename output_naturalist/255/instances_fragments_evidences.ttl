@@ -1,0 +1,62 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:255> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:255#frag-000> .
+
+<urn:doc:255#evid-000-00-alunos> a onto:Keyword ;
+    rdfs:label "alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:255#evid-000-01-professor> a onto:Keyword ;
+    rdfs:label "professor"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:255#evid-000-02-pistas> a onto:Keyword ;
+    rdfs:label "pistas"@pt .
+
+<urn:doc:255#evid-000-03-alunos-possam-descobri> a onto:Keyword ;
+    rdfs:label "alunos possam descobri"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:255#evid-000-04-estimule> a onto:Keyword ;
+    rdfs:label "estimule"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:255#evid-000-05-estimular> a onto:DiscursiveStrategy ;
+    rdfs:label "estimular"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:255#evid-000-06-contar-uma-histria> a onto:DiscursiveStrategy ;
+    rdfs:label "contar uma história"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:255#evid-000-07-dar-algumas-pistas> a onto:DiscursiveStrategy ;
+    rdfs:label "dar algumas pistas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:255#evid-000-08-monstro> a onto:ContextObject ;
+    rdfs:label "monstro"@pt .
+
+<urn:doc:255#evid-000-09-rvore-grande-ou-planta-extica> a onto:ContextObject ;
+    rdfs:label "árvore grande ou planta exótica"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:255#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: E indispensavel que o professor \"invente\" um \"monstro\" e que estimule seus alunos para essa cacada. Deve contar, com entusiasmo, uma historia e dar algumas \"pistas\" para que os alunos possam descobri-lo. Utilizacao: Considerando que \"monstro\" e um ser de conformacao extravagante, uma grande arvore, ou uma planta exotica pode ser o monstro. Os alunos nao devem saber quem e o monstro c nem onde fica, mas atraves de algumas pistas sugeridas pelo professor deverao procurar encontra-lo. Essas pistas devem ser explicadas com muitas informacoes naturais que agucem a audicao, a sensibilidade olfativa e curio- sidade dos alunos. O professor devera manter durante todo o tempo o espirito da brincadeira, oferecendo aos alunos varias sugestoes. 203"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:255> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:255#evid-000-00-alunos>,
+        <urn:doc:255#evid-000-01-professor>,
+        <urn:doc:255#evid-000-02-pistas>,
+        <urn:doc:255#evid-000-03-alunos-possam-descobri>,
+        <urn:doc:255#evid-000-04-estimule>,
+        <urn:doc:255#evid-000-05-estimular>,
+        <urn:doc:255#evid-000-06-contar-uma-histria>,
+        <urn:doc:255#evid-000-07-dar-algumas-pistas>,
+        <urn:doc:255#evid-000-08-monstro>,
+        <urn:doc:255#evid-000-09-rvore-grande-ou-planta-extica> .
+

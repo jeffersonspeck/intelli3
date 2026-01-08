@@ -1,0 +1,148 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "pequeno armario",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7769335764967084,
+      "relevance": 0.9411196911196911
+    },
+    {
+      "role": "Keyword",
+      "text": "armario varias",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7769335764967084,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "varias portas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7302485990238535,
+      "relevance": 0.9218146718146718
+    },
+    {
+      "role": "Keyword",
+      "text": "marceneiro",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7046283345596986,
+      "relevance": 0.9633204633204633
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "solicitar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9884169884169884
+    },
+    {
+      "role": "ContextObject",
+      "text": "marceneiro",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9633204633204633
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "construir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "armário",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "verificar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.8638996138996139
+    },
+    {
+      "role": "ContextObject",
+      "text": "portas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.915057915057915
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "utilizar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "chaves",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.7876447876447876
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "aprender",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.7557915057915058
+    },
+    {
+      "role": "ContextObject",
+      "text": "abrir e fechar portas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.7451737451737452
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "guardar objetos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.722972972972973
+    },
+    {
+      "role": "ContextObject",
+      "text": "compartimentos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.694015444015444
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "situar-las",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "orientacao do professor",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.6573359073359073
+    }
+  ]
+}

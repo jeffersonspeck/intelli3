@@ -1,0 +1,124 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "preparacao trabalhosa",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7920494755261724,
+      "relevance": 0.9750859106529209
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo exige",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7848635789472542,
+      "relevance": 0.9879725085910653
+    },
+    {
+      "role": "Keyword",
+      "text": "exige preparacao",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7594389114879169,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "torna necessario colar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7345709857316739,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "torna necessario colar",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7345709857316739,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "necessario colar fitas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7187946598293717,
+      "relevance": 0.947594501718213
+    },
+    {
+      "role": "Keyword",
+      "text": "conjuntos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6984315879222579,
+      "relevance": 0.7276632302405499
+    },
+    {
+      "role": "Keyword",
+      "text": "cartolina formando",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6628948372337624,
+      "relevance": 0.9252577319587629
+    },
+    {
+      "role": "Keyword",
+      "text": "formando circulo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6628948372337624,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "contornos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6411116183171564,
+      "relevance": 0.6494845360824743
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "formar conjuntos com diferentes formas e em etapas posteriores colocar esses conjuntos dentro dos contornos solicitados",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.7336769759450172
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "formar conjuntos com diferentes formas e em etapas posteriores colocar esses conjuntos dentro dos contornos solicitados",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.7336769759450172
+    },
+    {
+      "role": "ContextObject",
+      "text": "fitas em cartolina formando um circulo em uma, um triangulo em outra e um quadrado em uma terceira",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9329896907216495
+    },
+    {
+      "role": "ContextObject",
+      "text": "papel-cartao colorido silhuetas com formas de figuras humanas, frutas e formas geometricas",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.765,
+      "relevance": 0.8367697594501718
+    },
+    {
+      "role": "ContextObject",
+      "text": "contornos solicitados",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.6494845360824743
+    }
+  ]
+}

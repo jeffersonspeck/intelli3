@@ -1,0 +1,92 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "alunos devem circular",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7563795997704875,
+      "relevance": 0.9226327944572749
+    },
+    {
+      "role": "Keyword",
+      "text": "proury",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6929059585591288,
+      "relevance": 0.8504618937644342
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "circular",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9151270207852193
+    },
+    {
+      "role": "ContextObject",
+      "text": "sala",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9930715935334873
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "encontrar alguém",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "tocar levemente",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "responder a chamada",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.5311778290993072
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "procurar a mao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75635103926097
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "segurar a mao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.628175519630485
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "perceber que nao mais existem sussurros",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.6073903002309469
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "acesa a luz",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

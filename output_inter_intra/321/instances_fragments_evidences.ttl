@@ -1,0 +1,99 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:321> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:321#frag-000> .
+
+<urn:doc:321#evid-000-00-figuras-humanas> a onto:Keyword ;
+    rdfs:label "figuras humanas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-01-quantidade-figuras> a onto:Keyword ;
+    rdfs:label "quantidade figuras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-02-reunir> a onto:Keyword ;
+    rdfs:label "reunir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-03-incluir-pessoas-diferentes> a onto:Keyword ;
+    rdfs:label "incluir pessoas diferentes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-000-04-formando-conjunto> a onto:Keyword ;
+    rdfs:label "formando conjunto"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-05-colecao-incluir-pessoas> a onto:Keyword ;
+    rdfs:label "colecao incluir pessoas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-000-06-atividade> a onto:Keyword ;
+    rdfs:label "atividade"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-07-atividade> a onto:Keyword ;
+    rdfs:label "atividade"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-000-08-reunir> a onto:DiscursiveStrategy ;
+    rdfs:label "reunir"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:321#evid-000-09-figuras-humanas> a onto:ContextObject ;
+    rdfs:label "figuras humanas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-10-colar> a onto:DiscursiveStrategy ;
+    rdfs:label "colar"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:321#evid-000-11-cartolina> a onto:ContextObject ;
+    rdfs:label "cartolina"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:321#evid-000-12-cortar> a onto:DiscursiveStrategy ;
+    rdfs:label "cortar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-13-cabecas> a onto:ContextObject ;
+    rdfs:label "cabecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-14-criar-situacoes> a onto:DiscursiveStrategy ;
+    rdfs:label "criar situacoes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-000-15-emocoes-diferenciadas> a onto:ContextObject ;
+    rdfs:label "emocoes diferenciadas"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:321#evid-000-16-buscar-compor-pessoas> a onto:DiscursiveStrategy ;
+    rdfs:label "buscar compor pessoas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir uma grande quantidade de figuras humanas, mais ou menos do mesmo tamanho, de revistas, e cola-las em cartolina. Cortar as cabecas forman- do um conjunto a parte. A atividade explora muito mais profundamente o auto e heteroconhecimento quando a colecao incluir pessoas diferentes e diferentes expressoes. Pecas desenhadas cumprem muito bem esses objetivos. Utilizacao: Os alunos devem ser estimulados a criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras) e buscar compor pessoas a partir da uniao das cabecas com as expressoes correspondentes ao seu corpo. A atividade visa estimular a identificacao e a legitimacao das emocoes."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:321> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:321#evid-000-00-figuras-humanas>,
+        <urn:doc:321#evid-000-01-quantidade-figuras>,
+        <urn:doc:321#evid-000-02-reunir>,
+        <urn:doc:321#evid-000-03-incluir-pessoas-diferentes>,
+        <urn:doc:321#evid-000-04-formando-conjunto>,
+        <urn:doc:321#evid-000-05-colecao-incluir-pessoas>,
+        <urn:doc:321#evid-000-06-atividade>,
+        <urn:doc:321#evid-000-07-atividade>,
+        <urn:doc:321#evid-000-08-reunir>,
+        <urn:doc:321#evid-000-09-figuras-humanas>,
+        <urn:doc:321#evid-000-10-colar>,
+        <urn:doc:321#evid-000-11-cartolina>,
+        <urn:doc:321#evid-000-12-cortar>,
+        <urn:doc:321#evid-000-13-cabecas>,
+        <urn:doc:321#evid-000-14-criar-situacoes>,
+        <urn:doc:321#evid-000-15-emocoes-diferenciadas>,
+        <urn:doc:321#evid-000-16-buscar-compor-pessoas> .
+

@@ -1,0 +1,64 @@
+[Documento] urn:doc:2
+  - miVector: 29.76,0.00,10.25,0.00,53.56,6.43,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5356)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5356
+      • Linguistic: 0.2976
+      • Spatial: 0.1025
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: peças
+        • DiscursiveStrategy: construir
+        • Keyword: construir cartolina
+        • Keyword: desenhar montar
+        • Keyword: estrutura interna
+        • Keyword: montar cartolina
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5355
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: objeto
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1025
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: contar historias
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0643
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: dizer as cores
+        • DiscursiveStrategy: nomear
+        • Keyword: desenhar montar
+        • Keyword: devera nomear
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2976
+
+
+[Documento — Fragmentos] urn:doc:2
+
+[Fragmento] Preparacao: Desenhar ou montar em cartolina uma cozinha, um quarto ou a estrutura interna de uma casa. Construir em cartolina pecas que completem esse aposento, como sofas, camas, mesas, espelhos, armarios, panelas e outros objetos. Utilizacao: Ao receber as pecas do jogo, a crianca devera nomear o objeto, montan- do-o sobre a estrutura. O jogo pode ser desenvolvido em grupo e, nas etapas seguintes, devera no- mear, dizer as cores ou contar historias que envolvam essa montagem.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: peças
+        • DiscursiveStrategy: construir
+        • Keyword: construir cartolina
+        • Keyword: desenhar montar
+        • Keyword: estrutura interna
+        • Keyword: montar cartolina
+    - Ativações:
+        • score=0.5355, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: objeto
+    - Ativações:
+        • score=0.1025, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: contar historias
+    - Ativações:
+        • score=0.0643, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: dizer as cores
+        • DiscursiveStrategy: nomear
+        • Keyword: desenhar montar
+        • Keyword: devera nomear
+    - Ativações:
+        • score=0.2976, tipo=Secondary

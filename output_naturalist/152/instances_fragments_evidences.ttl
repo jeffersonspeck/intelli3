@@ -1,0 +1,60 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:152> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:152#frag-000> .
+
+<urn:doc:152#evid-000-00-professor-devera-estimular> a onto:Keyword ;
+    rdfs:label "professor devera estimular"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:152#evid-000-01-estimular-alunos> a onto:Keyword ;
+    rdfs:label "estimular alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:152#evid-000-02-elementos-natureza> a onto:Keyword ;
+    rdfs:label "elementos natureza"@pt .
+
+<urn:doc:152#evid-000-03-descobrirem> a onto:Keyword ;
+    rdfs:label "descobrirem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:152#evid-000-04-relatarem> a onto:Keyword ;
+    rdfs:label "relatarem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:152#evid-000-05-elementos-transforma> a onto:Keyword ;
+    rdfs:label "elementos transforma"@pt .
+
+<urn:doc:152#evid-000-06-curiosidade-infantil> a onto:Keyword ;
+    rdfs:label "curiosidade infantil"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:152#evid-000-07-desabrochar-curiosidade> a onto:Keyword ;
+    rdfs:label "desabrochar curiosidade"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:152#evid-000-08-elementos-da-natureza> a onto:ContextObject ;
+    rdfs:label "elementos da natureza"@pt .
+
+<urn:doc:152#evid-000-09-bosque-praa-rvore-tarde-de-outon> a onto:ContextObject ;
+    rdfs:label "bosque, praça, árvore, tarde de outono ou de inverno, mar, rio, noite"@pt .
+
+<urn:doc:152#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor devera estimular os alunos a \"descobrirem\" e \"relatarem\" os elementos da natureza. Uma \"excursao programada\" para a visita a um bosque, uma praca, uma arvore, numa tarde de outono ou de inverno, o mar, um rio, a noite c outros elementos transforma-se em envolvente desabrochar da curiosi- dade infantil. Utilizacao: O professor deve trabalhar o espirito de observacao e pesquisa. Na primei- ra vez, ir progressivamente \"descobrindo\" seu encantamento e, aos poucos, es- timular os alunos para que descubram e revelem suas descobertas. Sempre que possivel uma pequena maquina fotografica ou a ajuda do desenho constitui for- te instrumento de registro dessas sensibilidades."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:152> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:152#evid-000-00-professor-devera-estimular>,
+        <urn:doc:152#evid-000-01-estimular-alunos>,
+        <urn:doc:152#evid-000-02-elementos-natureza>,
+        <urn:doc:152#evid-000-03-descobrirem>,
+        <urn:doc:152#evid-000-04-relatarem>,
+        <urn:doc:152#evid-000-05-elementos-transforma>,
+        <urn:doc:152#evid-000-06-curiosidade-infantil>,
+        <urn:doc:152#evid-000-07-desabrochar-curiosidade>,
+        <urn:doc:152#evid-000-08-elementos-da-natureza>,
+        <urn:doc:152#evid-000-09-bosque-praa-rvore-tarde-de-outon> .
+

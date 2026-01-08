@@ -1,0 +1,13 @@
+[Documento] urn:doc:117
+  - miVector: 14.28,0.00,8.18,0.00,17.67,43.49,16.38,0.00
+  - TOP (documento): Interpersonal (score=0.4349)
+  - Ranking (top 3):
+      • Interpersonal: 0.4349
+      • Bodily-Kinesthetic: 0.1767
+      • Intrapersonal: 0.1638
+
+
+[Documento — Fragmentos] urn:doc:117
+
+[Fragmento] Preparacao: O jogo existe no comercio e e muito popular. O importante e dar ao mes- mo, ao lado de sua finalidade recreativa, opcoes educacionais. Isto e possivel, criando inumeras situacoes que envolvam posicionamento das pecas e sua tca- tralizacao com a consequente verbalizacao. Utilizacao: O aluno (individualmente ou em grupo) deve ser estimulado a posicionar pecas (trabalhando nocoes de direita, esquerda, leste, oeste e outras) e tambem criar cenas que reproduzam fatos do cotidiano do aluno ou circunstancias imaginadas. E interessante a interatividade entre essas historias envolvendo va- rios alunos. (Existem no mercado: "Playmobil": [Trol] e muitos outros.)
+  > TOP: Interpessoal (score=0.4349, tipo=Primary)

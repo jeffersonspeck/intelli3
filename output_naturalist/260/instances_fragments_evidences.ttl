@@ -1,0 +1,48 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:260> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:260#frag-000> .
+
+<urn:doc:260#evid-000-00-alunos-devem-circular> a onto:Keyword ;
+    rdfs:label "alunos devem circular"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:260#evid-000-01-circular-seguranca> a onto:Keyword ;
+    rdfs:label "circular seguranca"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:260#evid-000-02-olfato> a onto:Keyword ;
+    rdfs:label "olfato"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:260#evid-000-03-presa> a onto:Keyword ;
+    rdfs:label "presa"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:260#evid-000-04-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:260#evid-000-05-descobrir> a onto:DiscursiveStrategy ;
+    rdfs:label "descobrir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:260#evid-000-06-objetos-de-odor> a onto:ContextObject ;
+    rdfs:label "objetos de odor"@pt .
+
+<urn:doc:260#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: As mesmas condicoes do jogo anterior ou uma sala ampla onde os alunos com olhos vendados possam circular com seguranca. Utilizacao: Os alunos devem circular pela sala com os olhos vendados e descobrir suas \"presas\" pelo olfato. Um algodao embebido de alcool, perfume, essencia, desodo- rante ou outro produto de odor caracteristico, acondicionado em um copo plastico, pode simbolizar a \"presa\" que, antes do jogo iniciar, teve esse olfato identificado por todos os alunos. Atividades analogas podem ser feitas tendo os alunos, com os olhos vendados, que identificar sua presa atraves do paladar, apos identificar um e depois descobri-lo entre muitos outros. A mistura de refrigerantes ou sodas, balas e condimentos em pequena proporcao podem constituir-se nos elementos materiais"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:260> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:260#evid-000-00-alunos-devem-circular>,
+        <urn:doc:260#evid-000-01-circular-seguranca>,
+        <urn:doc:260#evid-000-02-olfato>,
+        <urn:doc:260#evid-000-03-presa>,
+        <urn:doc:260#evid-000-04-identificar>,
+        <urn:doc:260#evid-000-05-descobrir>,
+        <urn:doc:260#evid-000-06-objetos-de-odor> .
+

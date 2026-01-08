@@ -1,0 +1,124 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "construir cubos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8043819152271734,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "funcionem alcas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7982296342302454,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cubos madeira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7964504618945042,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "aluno devera andar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7718461874364173,
+      "relevance": 0.8351409978308026
+    },
+    {
+      "role": "Keyword",
+      "text": "cordas funcionem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7644220256937397,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "segurando cordas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7150444305543162,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ande apoiando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6608478863695508,
+      "relevance": 0.7039045553145336
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "construir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9869848156182213
+    },
+    {
+      "role": "ContextObject",
+      "text": "cubos de madeira",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9718004338394794
+    },
+    {
+      "role": "ContextObject",
+      "text": "cordas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9121475054229935
+    },
+    {
+      "role": "ContextObject",
+      "text": "tamanco",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.8600867678958786
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "utilizar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "pecas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.8047722342733189
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "andar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.8210412147505423
+    },
+    {
+      "role": "ContextObject",
+      "text": "instrumento de percussao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.765,
+      "relevance": 0.616052060737527
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:251> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:251#frag-000> .
+
+<urn:doc:251#evid-000-00-definir-serie> a onto:Keyword ;
+    rdfs:label "definir serie"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:251#evid-000-01-estimular-alunos> a onto:Keyword ;
+    rdfs:label "estimular alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:251#evid-000-02-moram-animais> a onto:Keyword ;
+    rdfs:label "moram animais"@pt .
+
+<urn:doc:251#evid-000-03-alunos-devem-apresentar> a onto:Keyword ;
+    rdfs:label "alunos devem apresentar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:251#evid-000-04-alunos-devem-apresentar> a onto:Keyword ;
+    rdfs:label "alunos devem apresentar"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:251#evid-000-05-pesquisem> a onto:Keyword ;
+    rdfs:label "pesquisem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:251#evid-000-06-bibliograficamente> a onto:Keyword ;
+    rdfs:label "bibliograficamente"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:251#evid-000-07-professor-deve-estimular> a onto:Keyword ;
+    rdfs:label "professor deve estimular"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:251#evid-000-08-professor-estabelecera> a onto:Keyword ;
+    rdfs:label "professor estabelecera"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:251#evid-000-09-recortes-desenhos> a onto:Keyword ;
+    rdfs:label "recortes desenhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:251#evid-000-10-recortes-desenhos> a onto:Keyword ;
+    rdfs:label "recortes desenhos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:251#evid-000-11-casas> a onto:ContextObject ;
+    rdfs:label "casas"@pt .
+
+<urn:doc:251#evid-000-12-animais> a onto:ContextObject ;
+    rdfs:label "animais"@pt .
+
+<urn:doc:251#evid-000-13-fotografias-recortes-e-desenhos> a onto:ContextObject ;
+    rdfs:label "fotografias, recortes e desenhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:251#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor deve estimular os alunos a pensarem sobre as \"casas\" onde mo- ram os animais e, dessa maneira, definir uma serie para que os alunos \"pesquisem\" bibliograficamente, e sempre que possivel, na natureza as \"casas\" dos animais. Utilizacao: O professor estabelecera as regras da pesquisa e os alunos devem apresentar seus trabalhos com fotografias, recortes c desenhos. A casa das formigas, dos passa- ros, dos cupins e outros constituem interessante estimulo a descoberta da natureza. 201"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:251> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:251#evid-000-00-definir-serie>,
+        <urn:doc:251#evid-000-01-estimular-alunos>,
+        <urn:doc:251#evid-000-02-moram-animais>,
+        <urn:doc:251#evid-000-03-alunos-devem-apresentar>,
+        <urn:doc:251#evid-000-04-alunos-devem-apresentar>,
+        <urn:doc:251#evid-000-05-pesquisem>,
+        <urn:doc:251#evid-000-06-bibliograficamente>,
+        <urn:doc:251#evid-000-07-professor-deve-estimular>,
+        <urn:doc:251#evid-000-08-professor-estabelecera>,
+        <urn:doc:251#evid-000-09-recortes-desenhos>,
+        <urn:doc:251#evid-000-10-recortes-desenhos>,
+        <urn:doc:251#evid-000-11-casas>,
+        <urn:doc:251#evid-000-12-animais>,
+        <urn:doc:251#evid-000-13-fotografias-recortes-e-desenhos> .
+

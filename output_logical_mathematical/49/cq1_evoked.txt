@@ -1,0 +1,25 @@
+[Documento] urn:doc:49
+  - miVector: 14.17,53.68,21.15,0.00,0.00,11.00,0.00,0.00
+  - TOP (documento): Logical-Mathematical (score=0.5368)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.5368
+      • Spatial: 0.2115
+      • Linguistic: 0.1417
+
+[Fragmento] Preparacao: Pedacos de corda de diferentes espessuras, lapis e canetas, linhas e las. Utilizacao: A tarefa dos alunos e comparar pedacos de corda de diferentes espessuras c indicar a(s) mais grossa(s) e a mais fina. Tentar estimular a especificacao da uti- lidade das cordas grossas e das linhas. Comparar espessuras e formar conjuntos de objetos grossos e finos. Usar junto com outros jogos. 78
+  - Interpersonal (via activation, score=0.1100)
+  - Linguistic (via activation, score=0.1417)
+  - Logical-Mathematical (via activation, score=0.5368)
+  - Spatial (via activation, score=0.2115)
+  - Espacial-visual (via activation, score=0.2115)
+  - Interpessoal (via activation, score=0.1100)
+  - Linguística (via activation, score=0.1417)
+  - Lógico-matemática (via activation, score=0.5368)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)

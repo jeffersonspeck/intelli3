@@ -1,0 +1,25 @@
+[Documento] urn:doc:259
+  - miVector: 0.00,0.00,22.19,0.00,19.53,38.75,19.53,0.00
+  - TOP (documento): Interpersonal (score=0.3875)
+  - Ranking (top 3):
+      • Interpersonal: 0.3875
+      • Spatial: 0.2219
+      • Bodily-Kinesthetic: 0.1953
+
+[Fragmento] Preparacao: Espaco aberto em um local seguro onde nao existam espinhos, barrancos ou rios profundos, mas que, ao mesmo tempo, possa oferecer bons pontos para escon- derijos. Estabelecer os limites da area onde ocorrera o jogo. Utilizacao: O professor devera explicar aos alunos a vida dos animais na natureza e sua inevitavel condicao de "presas" e "predadores", destacando que quase todo animal e, ao mesmo tempo, presa e predador. As regras seguem, em linhas gerais, as de uma brincadeira de "esconde-esconde". Imciado o jogo, o predador podera tentar achar sua presa e pode ser combinado a emissao de som do predador. O jogo conti- nua ate que todas as presas sejam pegas ou ate que o predador desista de sua busca. E indispensavel que, ao final, professor e alunos troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.
+  - Bodily-Kinesthetic (via activation, score=0.1953)
+  - Interpersonal (via activation, score=0.3875)
+  - Intrapersonal (via activation, score=0.1953)
+  - Spatial (via activation, score=0.2219)
+  - Cinestésico-corporal (via activation, score=0.1953)
+  - Espacial-visual (via activation, score=0.2219)
+  - Interpessoal (via activation, score=0.3875)
+  - Intrapessoal (via activation, score=0.1953)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)

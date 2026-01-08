@@ -1,0 +1,54 @@
+[Documento] urn:doc:250
+  - miVector: 25.86,0.00,14.76,0.00,14.77,44.62,0.00,0.00
+  - TOP (documento): Interpersonal (score=0.4462)
+  - Ranking (top 3):
+      • Interpersonal: 0.4462
+      • Linguistic: 0.2586
+      • Bodily-Kinesthetic: 0.1477
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: facam colecoes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1477
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: mostruarios, referencias bibliograficas, regras essenciais
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1476
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: alunos
+        • Keyword: facam colecoes
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4462
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: mostruarios, referencias bibliograficas, regras essenciais
+        • DiscursiveStrategy: planejar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2586
+
+
+[Documento — Fragmentos] urn:doc:250
+
+[Fragmento] Preparacao: O professor devera estimular que os alunos, divididos em grupos, facam colecoes de produtos naturais, tais como rochas, minerais, folhas, conchas, co- gumelos ou outros produtos. Deve arrumar caixas bem divididas para expor es- sas colecoes e levar os alunos a classificar com criterio os objetos colecionados. Utilizacao: O professor deve, antes de estimular os alunos as colecoes, planejar os mostruarios, as referencias bibliograficas para que possam identificar as pecas encontradas e estabelecer as regras essenciais para a colecao.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: facam colecoes
+    - Ativações:
+        • score=0.1477, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: mostruarios, referencias bibliograficas, regras essenciais
+    - Ativações:
+        • score=0.1476, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: alunos
+        • Keyword: facam colecoes
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.4462, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: mostruarios, referencias bibliograficas, regras essenciais
+        • DiscursiveStrategy: planejar
+    - Ativações:
+        • score=0.2586, tipo=Secondary

@@ -1,0 +1,25 @@
+[Documento] urn:doc:251
+  - miVector: 28.56,0.00,0.00,0.00,27.32,28.04,16.08,0.00
+  - TOP (documento): Linguistic (score=0.2856)
+  - Ranking (top 3):
+      • Linguistic: 0.2856
+      • Interpersonal: 0.2804
+      • Bodily-Kinesthetic: 0.2732
+
+[Fragmento] Preparacao: O professor deve estimular os alunos a pensarem sobre as "casas" onde mo- ram os animais e, dessa maneira, definir uma serie para que os alunos "pesquisem" bibliograficamente, e sempre que possivel, na natureza as "casas" dos animais. Utilizacao: O professor estabelecera as regras da pesquisa e os alunos devem apresentar seus trabalhos com fotografias, recortes c desenhos. A casa das formigas, dos passa- ros, dos cupins e outros constituem interessante estimulo a descoberta da natureza. 201
+  - Bodily-Kinesthetic (via activation, score=0.2732)
+  - Interpersonal (via activation, score=0.2804)
+  - Intrapersonal (via activation, score=0.1608)
+  - Linguistic (via activation, score=0.2856)
+  - Cinestésico-corporal (via activation, score=0.2732)
+  - Interpessoal (via activation, score=0.2804)
+  - Intrapessoal (via activation, score=0.1608)
+  - Linguística (via activation, score=0.2856)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)

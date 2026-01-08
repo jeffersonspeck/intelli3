@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:170> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:170#frag-000> .
+
+<urn:doc:170#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Corda para pular com terminais de madeira, que pode ser adquirida em lojas de brinquedo ou fabricada em casa ou em uma oficina. Comprimento ideal de 2,30m a 2,50m. Utilizacao: O aluno deve aprender a pular corda e progressivamente executar diferen- tes movimentos, saltitando ora com um pe, ora com o outro. (Existe no comercio.)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:170> ;
+    dct:type "title_or_abstract" .
+

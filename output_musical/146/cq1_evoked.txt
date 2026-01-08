@@ -1,0 +1,25 @@
+[Documento] urn:doc:146
+  - miVector: 48.32,8.04,0.00,0.00,35.50,8.15,0.00,0.00
+  - TOP (documento): Linguistic (score=0.4832)
+  - Ranking (top 3):
+      • Linguistic: 0.4832
+      • Bodily-Kinesthetic: 0.3550
+      • Interpersonal: 0.0815
+
+[Fragmento] Preparacao: Reunir copinhos de iogurte (danoninho) e com grampeador e fita colante fazer chocalhos com feijao, milho ou pedrinhas dentro. Utilizacao: Estabelecer associacoes entre as silabas das palavras pronunciadas pelo pro- fessor e o balancar do chocalho pelos alunos, acompanhando o ritmo da pala- vra, procurando dar o mesmo numero de batidas quantas forem as palavras pronunciadas. Ir, progressivamente, aumentando o numero de silabas das pa- lavras e estimular os movimentos com o chocalho. O professor pode ser substi- tuido por alunos que, sorteando figuras, devem pronuncia-las para que os cole- gas movimentem o chocalho ritmicamente.
+  - Bodily-Kinesthetic (via activation, score=0.3550)
+  - Interpersonal (via activation, score=0.0815)
+  - Linguistic (via activation, score=0.4832)
+  - Logical-Mathematical (via activation, score=0.0804)
+  - Cinestésico-corporal (via activation, score=0.3550)
+  - Interpessoal (via activation, score=0.0815)
+  - Linguística (via activation, score=0.4832)
+  - Lógico-matemática (via activation, score=0.0804)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)

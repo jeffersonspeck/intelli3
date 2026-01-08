@@ -1,0 +1,146 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:6#evid-000-00-raciocinio-dedutivo> a onto:Keyword ;
+    rdfs:label "raciocinio dedutivo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-000-01-estimular> a onto:DiscursiveStrategy ;
+    rdfs:label "estimular"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-000-02-revistas-de-histrias-em-quadrinh> a onto:ContextObject ;
+    rdfs:label "revistas de histórias em quadrinhos ou tiras de histórias publicadas em jornal"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:6#evid-000-03-mostrar-os-passos-de-uma-interpr> a onto:DiscursiveStrategy ;
+    rdfs:label "mostrar os passos de uma interpretacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-000-04-iniciar-o-contato-do-aluno-com-e> a onto:DiscursiveStrategy ;
+    rdfs:label "iniciar o contato do aluno com esse material"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:6#evid-001-00-quadrinhos-antecipadamente-desor> a onto:Keyword ;
+    rdfs:label "quadrinhos antecipadamente desordenados"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-001-01-transformem-historias-originais> a onto:Keyword ;
+    rdfs:label "transformem historias originais"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-001-02-criando-personagens> a onto:Keyword ;
+    rdfs:label "criando personagens"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:6#evid-001-03-desenvolvendo-argumentos> a onto:Keyword ;
+    rdfs:label "desenvolvendo argumentos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-001-04-proprios-gibis> a onto:Keyword ;
+    rdfs:label "proprios gibis"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:6#evid-001-05-estabelecendo-roteiros> a onto:Keyword ;
+    rdfs:label "estabelecendo roteiros"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:6#evid-001-06-sugerindo-colocacao> a onto:Keyword ;
+    rdfs:label "sugerindo colocacao"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:6#evid-001-07-colocacao-ordem> a onto:Keyword ;
+    rdfs:label "colocacao ordem"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:6#evid-001-08-ordem-quadrinhos> a onto:Keyword ;
+    rdfs:label "ordem quadrinhos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:6#evid-001-09-propor> a onto:DiscursiveStrategy ;
+    rdfs:label "propor"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-001-10-apagar> a onto:DiscursiveStrategy ;
+    rdfs:label "apagar"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:6#evid-001-11-sugerir> a onto:DiscursiveStrategy ;
+    rdfs:label "sugerir"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-001-12-colocacao-em-ordem-dos-quadrinho> a onto:ContextObject ;
+    rdfs:label "colocacao em ordem dos quadrinhos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:6#evid-001-13-orientar> a onto:DiscursiveStrategy ;
+    rdfs:label "orientar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:6#evid-001-14-transformar> a onto:DiscursiveStrategy ;
+    rdfs:label "transformar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-001-15-por-outras-de-conteudo-ligado-ao> a onto:DiscursiveStrategy ;
+    rdfs:label "por outras de conteudo ligado ao que e aprendido"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:6#evid-001-16-criando-personagens> a onto:DiscursiveStrategy ;
+    rdfs:label "criando personagens"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:6#evid-001-17-desenvolvendo-argumentos> a onto:DiscursiveStrategy ;
+    rdfs:label "desenvolvendo argumentos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-001-18-estabelecendo-roteiros> a onto:DiscursiveStrategy ;
+    rdfs:label "estabelecendo roteiros"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:6#evid-001-19-completando-a-arte-final> a onto:DiscursiveStrategy ;
+    rdfs:label "completando a arte final"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:6#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor deve reunir uma grande variedade de revistas de historias em quadrinhos ou tiras de historias publicadas em jornal. Utilizacao: Com alunos que ainda nao sabem ler, o professor deve estimular o racioci- nio dedutivo, estimulando o aluno a observar as ilustracoes e buscar sentido na historia. Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao que sao obvios para alunos maiores. Por exemplo: que toda leitura se faz da esquerda para a direita e de cima para baixo. Para alunos que fazem a leitura, os gibis sao estimulos para a associacao en- tre os elementos pictoricos da ilustracao e os simbolos graficos das palavras."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:6> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:6#evid-000-00-raciocinio-dedutivo>,
+        <urn:doc:6#evid-000-01-estimular>,
+        <urn:doc:6#evid-000-02-revistas-de-histrias-em-quadrinh>,
+        <urn:doc:6#evid-000-03-mostrar-os-passos-de-uma-interpr>,
+        <urn:doc:6#evid-000-04-iniciar-o-contato-do-aluno-com-e> .
+
+<urn:doc:6#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Inumeros jogos podem ser propostos, apagando-se baloes, sugerindo a coloca- cao em ordem dos quadrinhos antecipadamente desordenados, orientando os alunos para que transformem historias originais por outras de conteudo ligado ao que e aprendido e, finalmente, estimulando os grupos de alunos para que construam seus proprios gibis, criando personagens, desenvolvendo argumen- tos, estabelecendo roteiros e completando a arte final."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:6> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:6#evid-001-00-quadrinhos-antecipadamente-desor>,
+        <urn:doc:6#evid-001-01-transformem-historias-originais>,
+        <urn:doc:6#evid-001-02-criando-personagens>,
+        <urn:doc:6#evid-001-03-desenvolvendo-argumentos>,
+        <urn:doc:6#evid-001-04-proprios-gibis>,
+        <urn:doc:6#evid-001-05-estabelecendo-roteiros>,
+        <urn:doc:6#evid-001-06-sugerindo-colocacao>,
+        <urn:doc:6#evid-001-07-colocacao-ordem>,
+        <urn:doc:6#evid-001-08-ordem-quadrinhos>,
+        <urn:doc:6#evid-001-09-propor>,
+        <urn:doc:6#evid-001-10-apagar>,
+        <urn:doc:6#evid-001-11-sugerir>,
+        <urn:doc:6#evid-001-12-colocacao-em-ordem-dos-quadrinho>,
+        <urn:doc:6#evid-001-13-orientar>,
+        <urn:doc:6#evid-001-14-transformar>,
+        <urn:doc:6#evid-001-15-por-outras-de-conteudo-ligado-ao>,
+        <urn:doc:6#evid-001-16-criando-personagens>,
+        <urn:doc:6#evid-001-17-desenvolvendo-argumentos>,
+        <urn:doc:6#evid-001-18-estabelecendo-roteiros>,
+        <urn:doc:6#evid-001-19-completando-a-arte-final> .
+
+<urn:doc:6> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:6#frag-000>,
+        <urn:doc:6#frag-001> .
+

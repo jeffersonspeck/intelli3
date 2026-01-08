@@ -1,0 +1,94 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:325> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:325#frag-000> .
+
+<urn:doc:325#evid-000-00-envolvam-manifestacoes-corporais> a onto:Keyword ;
+    rdfs:label "envolvam manifestacoes corporais"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:325#evid-000-01-situacoes-emocionais-diversas> a onto:Keyword ;
+    rdfs:label "situacoes emocionais diversas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-02-tambem-situacoes-emocionais> a onto:Keyword ;
+    rdfs:label "tambem situacoes emocionais"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-03-organizar-conjunto> a onto:Keyword ;
+    rdfs:label "organizar conjunto"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:325#evid-000-04-andar-cavalo> a onto:Keyword ;
+    rdfs:label "andar cavalo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:325#evid-000-05-serem-transmitidas> a onto:Keyword ;
+    rdfs:label "serem transmitidas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-06-conjunto-mensagens> a onto:Keyword ;
+    rdfs:label "conjunto mensagens"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:325#evid-000-07-mensagens-serem> a onto:Keyword ;
+    rdfs:label "mensagens serem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:325#evid-000-08-raiva> a onto:Keyword ;
+    rdfs:label "raiva"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-09-alegria> a onto:Keyword ;
+    rdfs:label "alegria"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-10-entusiasmo> a onto:Keyword ;
+    rdfs:label "entusiasmo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-11-organizar> a onto:DiscursiveStrategy ;
+    rdfs:label "organizar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:325#evid-000-12-transmitir> a onto:DiscursiveStrategy ;
+    rdfs:label "transmitir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:325#evid-000-13-sortear> a onto:DiscursiveStrategy ;
+    rdfs:label "sortear"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-14-debater> a onto:DiscursiveStrategy ;
+    rdfs:label "debater"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-15-circulo-de-debates> a onto:ContextObject ;
+    rdfs:label "circulo de debates"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Organizar um conjunto de mensagens para serem transmitidas pelos alunos, que envolvam manifestacoes corporais (por exemplo: andar a cavalo), mas tambem situacoes emocionais diversas (raiva, alegria, entusiasmo, tristeza, etc.). Escrever es- sas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano. Utilizacao: A tarefa dos alunos ao sortear sua mensagem e transmiti-la aos demais, levan- do-os a possivel descoberta, sem o uso da palavra. A atividade tem como principal objetivo a comunicacao interpessoal e, depois de uma primeira experiencia, outras mais complexas podem ir progressivamente sendo propostas. E interessante encer- rar a atividade com um circulo de debates com os alunos sobre as muitas formas de comunicacao e sua importancia no auto e heteroconhecimento."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:325> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:325#evid-000-00-envolvam-manifestacoes-corporais>,
+        <urn:doc:325#evid-000-01-situacoes-emocionais-diversas>,
+        <urn:doc:325#evid-000-02-tambem-situacoes-emocionais>,
+        <urn:doc:325#evid-000-03-organizar-conjunto>,
+        <urn:doc:325#evid-000-04-andar-cavalo>,
+        <urn:doc:325#evid-000-05-serem-transmitidas>,
+        <urn:doc:325#evid-000-06-conjunto-mensagens>,
+        <urn:doc:325#evid-000-07-mensagens-serem>,
+        <urn:doc:325#evid-000-08-raiva>,
+        <urn:doc:325#evid-000-09-alegria>,
+        <urn:doc:325#evid-000-10-entusiasmo>,
+        <urn:doc:325#evid-000-11-organizar>,
+        <urn:doc:325#evid-000-12-transmitir>,
+        <urn:doc:325#evid-000-13-sortear>,
+        <urn:doc:325#evid-000-14-debater>,
+        <urn:doc:325#evid-000-15-circulo-de-debates> .
+

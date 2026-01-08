@@ -1,0 +1,76 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "adquirida lojas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7721277908972172,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "lojas brinquedo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7721277908972172,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "fabricada casa",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7721277908972172,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "existe comercio",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6776761907790622,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pular corda",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6718749368897943,
+      "relevance": 0.6873156342182891
+    },
+    {
+      "role": "Keyword",
+      "text": "pular terminais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6603640004896173,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "descrever",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "corda para pular com terminais de madeira",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9823008849557522
+    },
+    {
+      "role": "ContextObject",
+      "text": "corda para pular com terminais de madeira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9823008849557522
+    }
+  ]
+}

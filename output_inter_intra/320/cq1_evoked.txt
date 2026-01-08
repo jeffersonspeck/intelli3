@@ -1,0 +1,29 @@
+[Documento] urn:doc:320
+  - miVector: 21.82,0.00,8.79,0.00,36.97,13.94,18.48,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.3697)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3697
+      • Linguistic: 0.2182
+      • Intrapersonal: 0.1848
+
+[Fragmento] Preparacao: Desenhar circulos em folhas de papel sulfite e deixar aos alunos lapis, lapis de cera ou canetas hidrocor. Utilizacao: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras, mas faze-lo segundo estados de animo das pessoas, relatados pelo profes- sor (por exemplo: Luciana perdeu um amigo e esta triste, como seria o rosto de Luciana?), c muitas outras situacoes analogas. O objetivo essencial da atividade e levar o aluno a perceber suas proprias emocoes e poder, progressivamente, fazer "leituras" de sentimentos em si mesmo e em outras pessoas. Tr cd E da dk : mm J =. E E a =
+  - Bodily-Kinesthetic (via activation, score=0.3697)
+  - Interpersonal (via activation, score=0.1394)
+  - Intrapersonal (via activation, score=0.1848)
+  - Linguistic (via activation, score=0.2182)
+  - Spatial (via activation, score=0.0879)
+  - Cinestésico-corporal (via activation, score=0.3697)
+  - Espacial-visual (via activation, score=0.0879)
+  - Interpessoal (via activation, score=0.1394)
+  - Intrapessoal (via activation, score=0.1848)
+  - Linguística (via activation, score=0.2182)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)

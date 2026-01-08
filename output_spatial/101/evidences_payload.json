@@ -1,0 +1,60 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "tempo",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7260238792227811,
+      "relevance": 0.7394117647058824
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7224710284543076,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "instruir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas plásticas, tampas de potes de creme ou maionese, papel-cartão resistente, circulo pequeno, areia fina colorida, ampulheta",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas plásticas, tampas de potes de creme ou maionese, papel-cartão resistente, circulo pequeno, areia fina colorida, ampulheta",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "associar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.6435294117647059
+    },
+    {
+      "role": "ContextObject",
+      "text": "tempo, divisões do dia e da noite, pingos, torneira semifechada",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

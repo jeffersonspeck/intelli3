@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:259> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:259#frag-000> .
+
+<urn:doc:259#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Espaco aberto em um local seguro onde nao existam espinhos, barrancos ou rios profundos, mas que, ao mesmo tempo, possa oferecer bons pontos para escon- derijos. Estabelecer os limites da area onde ocorrera o jogo. Utilizacao: O professor devera explicar aos alunos a vida dos animais na natureza e sua inevitavel condicao de \"presas\" e \"predadores\", destacando que quase todo animal e, ao mesmo tempo, presa e predador. As regras seguem, em linhas gerais, as de uma brincadeira de \"esconde-esconde\". Imciado o jogo, o predador podera tentar achar sua presa e pode ser combinado a emissao de som do predador. O jogo conti- nua ate que todas as presas sejam pegas ou ate que o predador desista de sua busca. E indispensavel que, ao final, professor e alunos troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:259> ;
+    dct:type "title_or_abstract" .
+

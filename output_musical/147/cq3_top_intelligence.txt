@@ -1,0 +1,13 @@
+[Documento] urn:doc:147
+  - miVector: 0.00,18.47,0.00,0.00,29.14,26.93,25.47,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.2914)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2914
+      • Interpersonal: 0.2693
+      • Intrapersonal: 0.2547
+
+
+[Documento — Fragmentos] urn:doc:147
+
+[Fragmento] Preparacao: Deve constar do material escolar de uso pessoal, e intransferivel, uma fita de pano escuro para servir como venda para os olhos. Inumeros outros jogos se utilizam desse recurso. Utilizacao: Um aluno deve ter seus olhos vendados. Os demais colegas mudam sua posicao na sala de aula. O aluno que estiver com os olhos vendados devera chamar por um(a) colega que respondera. A tarefa do aluno sera a de localizar o colega indicando sua posicao na sala. Os alunos se revezam nessa atividade e o registro de seu desempenho devera sempre ser anotado pelo professor. 140
+  > TOP: Cinestésico-corporal (score=0.2914, tipo=Primary)

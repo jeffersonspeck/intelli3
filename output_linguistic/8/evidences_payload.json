@@ -1,0 +1,156 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "reunidos duplas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7921011326533074,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "palavras proibidas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.786878795084518,
+      "relevance": 0.8773181169757489
+    },
+    {
+      "role": "Keyword",
+      "text": "desafio proposto",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7819436651563269,
+      "relevance": 0.9900142653352354
+    },
+    {
+      "role": "Keyword",
+      "text": "desafio proposto",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7819436651563269,
+      "relevance": 0.9900142653352354
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo levar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7801327404472608,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "construir mensagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7801327404472608,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "usando algumas palavras",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7801327404472608,
+      "relevance": 0.8880171184022825
+    },
+    {
+      "role": "Keyword",
+      "text": "tema proposto",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.7508908988765589,
+      "relevance": 0.9015691868758916
+    },
+    {
+      "role": "Keyword",
+      "text": "proposto pelo jogo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.748670425354903,
+      "relevance": 0.9843081312410842
+    },
+    {
+      "role": "Keyword",
+      "text": "proposto pelo jogo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.748670425354903,
+      "relevance": 0.9843081312410842
+    },
+    {
+      "role": "Keyword",
+      "text": "nao usando",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7384204074110053,
+      "relevance": 0.890870185449358
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7309529775507495,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7309529775507495,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "trios",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7051745164044694,
+      "relevance": 0.9429386590584878
+    },
+    {
+      "role": "Keyword",
+      "text": "maiores",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7051745164044694,
+      "relevance": 0.9315263908701854
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "construir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.9236804564907275
+    },
+    {
+      "role": "ContextObject",
+      "text": "mensagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.9136947218259629
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "apresentar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "temas",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "alunos sentados",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7620265669564372,
+      "relevance": 0.9920212765957447
+    },
+    {
+      "role": "Keyword",
+      "text": "fila",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7415591082708629,
+      "relevance": 0.9793882978723404
+    },
+    {
+      "role": "Keyword",
+      "text": "aluno",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7289697420977452,
+      "relevance": 0.9920212765957447
+    },
+    {
+      "role": "Keyword",
+      "text": "aluno",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7289697420977452,
+      "relevance": 0.9920212765957447
+    },
+    {
+      "role": "Keyword",
+      "text": "mensagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7039028188073333,
+      "relevance": 0.8623670212765957
+    },
+    {
+      "role": "Keyword",
+      "text": "sentados fila",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6600258014231014,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "aluno transmite",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6553601331531951,
+      "relevance": 0.8743351063829787
+    },
+    {
+      "role": "Keyword",
+      "text": "fila nao repetindo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.649993105583574,
+      "relevance": 0.8444148936170213
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "transmitir a mensagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.7845744680851063
+    },
+    {
+      "role": "ContextObject",
+      "text": "fila, sala de aula, folha de papel em branco, tema, professor",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "fila, sala de aula, folha de papel em branco, tema, professor",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "cubos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7579818301244524,
+      "relevance": 0.9685990338164251
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7547777233598213,
+      "relevance": 0.9794685990338164
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo cubos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7542605705573135,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo cubos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7542605705573135,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cubos madeira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7438718275020139,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "garrafas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7367638745465239,
+      "relevance": 0.9541062801932367
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7316914170615483,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos deverao enfileirar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7194588345549198,
+      "relevance": 0.8526570048309179
+    },
+    {
+      "role": "Keyword",
+      "text": "plastico tamanhos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7085991396739688,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tamanhos bem diferentes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7085991396739688,
+      "relevance": 0.9251207729468599
+    },
+    {
+      "role": "Keyword",
+      "text": "garrafas plastico",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7010858289957619,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes cubos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6936890880379053,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "enfileirar sem regras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "empilhar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "separar as garrafas maiores das menores",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.7149758454106281
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "comparando os tamanhos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.6654589371980677
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "verbalizando os conceitos de 'grande' e de 'pequeno'",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9541062801932367
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas de plastico",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9541062801932367
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas de tamanhos bem diferentes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

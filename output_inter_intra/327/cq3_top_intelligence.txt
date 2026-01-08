@@ -1,0 +1,13 @@
+[Documento] urn:doc:327
+  - miVector: 0.00,0.00,0.00,0.00,20.94,42.02,37.04,0.00
+  - TOP (documento): Interpersonal (score=0.4202)
+  - Ranking (top 3):
+      • Interpersonal: 0.4202
+      • Intrapersonal: 0.3704
+      • Bodily-Kinesthetic: 0.2094
+
+
+[Documento — Fragmentos] urn:doc:327
+
+[Fragmento] Preparacao: Os alunos devem estar reunidos em uma sala, sentados em circulo. Utilizacao: Depois de solicitar que todos os alunos olhem-se e percebam os detalhes nas rou- pas e, sobretudo, nas expressoes de cada um, solicita que todos tenham seus olhos ven- dados. Um aluno, silenciosamente, e retirado da sala pelo professor. A seguir as vendas devem ser tiradas e os alunos devem descobrir quem foi retirado da sala, descrevendo suas caracteristicas fisicas e elementos de seu temperamento, sua automotivacao, capa- cidade de administracao das emocoes e muito mais. Um circulo de debates sobre a im- portancia da atividade no heteroconhecimento deve ser estimulada. 253
+  > TOP: Interpessoal (score=0.4202, tipo=Primary)

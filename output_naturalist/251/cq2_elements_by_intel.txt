@@ -1,0 +1,62 @@
+[Documento] urn:doc:251
+  - miVector: 28.56,0.00,0.00,0.00,27.32,28.04,16.08,0.00
+  - TOP (documento): Linguistic (score=0.2856)
+  - Ranking (top 3):
+      • Linguistic: 0.2856
+      • Interpersonal: 0.2804
+      • Bodily-Kinesthetic: 0.2732
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: fotografias, recortes e desenhos
+        • Keyword: alunos devem apresentar
+        • Keyword: recortes desenhos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2732
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: estimular alunos
+        • Keyword: professor deve estimular
+        • Keyword: professor estabelecera
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2804
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: alunos devem apresentar
+        • Keyword: recortes desenhos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1608
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: bibliograficamente
+        • Keyword: definir serie
+        • Keyword: pesquisem
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.2856
+
+
+[Documento — Fragmentos] urn:doc:251
+
+[Fragmento] Preparacao: O professor deve estimular os alunos a pensarem sobre as "casas" onde mo- ram os animais e, dessa maneira, definir uma serie para que os alunos "pesquisem" bibliograficamente, e sempre que possivel, na natureza as "casas" dos animais. Utilizacao: O professor estabelecera as regras da pesquisa e os alunos devem apresentar seus trabalhos com fotografias, recortes c desenhos. A casa das formigas, dos passa- ros, dos cupins e outros constituem interessante estimulo a descoberta da natureza. 201
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: fotografias, recortes e desenhos
+        • Keyword: alunos devem apresentar
+        • Keyword: recortes desenhos
+    - Ativações:
+        • score=0.2732, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: estimular alunos
+        • Keyword: professor deve estimular
+        • Keyword: professor estabelecera
+    - Ativações:
+        • score=0.2804, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: alunos devem apresentar
+        • Keyword: recortes desenhos
+    - Ativações:
+        • score=0.1608, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: bibliograficamente
+        • Keyword: definir serie
+        • Keyword: pesquisem
+    - Ativações:
+        • score=0.2856, tipo=Primary

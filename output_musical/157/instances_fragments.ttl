@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:157> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:157#frag-000> .
+
+<urn:doc:157#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: A atividade utiliza um xilofone pequeno, que pode ser improvisado com uma caixa de madeira e placas tambem de madeira removiveis. Duas baquetas com pontas arredondadas. Utilizacao: Os alunos devem \"descobrir\" as notas musicais pela audicao dos instru- mentos com a introducao, uma a uma, das placas na superficie da caixa, desenvolvendo a entonacao e a compreensao das diferencas entre cada uma das notas musicais. Em etapas posteriores, as placas podem ir sendo introduzidas duas a duas e assim progressivamente."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:157> ;
+    dct:type "title_or_abstract" .
+

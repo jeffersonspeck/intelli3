@@ -1,0 +1,54 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:113> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:113#frag-000> .
+
+<urn:doc:113#evid-000-00-papel-cartao-dividido> a onto:Keyword ;
+    rdfs:label "papel cartao dividido"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:113#evid-000-01-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:113#evid-000-02-intelicencia-espacial> a onto:Keyword ;
+    rdfs:label "intelicencia espacial"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-000-03-cola-varias-figuras> a onto:Keyword ;
+    rdfs:label "cola varias figuras"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:113#evid-000-04-varias-figuras-obtidas> a onto:Keyword ;
+    rdfs:label "varias figuras obtidas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-000-05-metade> a onto:Keyword ;
+    rdfs:label "metade"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-000-06-estrategia-de-identificao> a onto:DiscursiveStrategy ;
+    rdfs:label "estrategia de identificação"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-000-07-figurascartolina> a onto:ContextObject ;
+    rdfs:label "figuras/cartolina"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O papel-cartao e dividido ao meio em duas partes. Em uma das partes o professor cola varias figuras obtidas em revistas ou em Cliparts de computa- dor; na outra metade, essas mesmas figuras, porem incompletas, faltando uma pequena parte. Utilizacao: A tarefa dos alunos sera encontrar a metade de sua figura e formar o par, identificando entre as opcoes existentes, e naturalmente incompletas, a que me- lhor se ajusta a figura original. :r.03-B Intelicencia Espacial"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:113> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:113#evid-000-00-papel-cartao-dividido>,
+        <urn:doc:113#evid-000-01-preparacao>,
+        <urn:doc:113#evid-000-02-intelicencia-espacial>,
+        <urn:doc:113#evid-000-03-cola-varias-figuras>,
+        <urn:doc:113#evid-000-04-varias-figuras-obtidas>,
+        <urn:doc:113#evid-000-05-metade>,
+        <urn:doc:113#evid-000-06-estrategia-de-identificao>,
+        <urn:doc:113#evid-000-07-figurascartolina> .
+

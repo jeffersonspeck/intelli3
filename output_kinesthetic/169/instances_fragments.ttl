@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:169> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:169#frag-000> .
+
+<urn:doc:169#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Construir com cubos de madeira de pouco mais de 20cm de altura e com cordas que funcionem como alcas, uma especie de tamanco. Utilizacao: O aluno devera andar sobre as pecas, segurando as cordas. Apos o domi- nio de uma primeira fase de equilibrio, fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de per- cussao, andar apenas de lado ou andar de costas. (Existe no comercio -- Toc-Toc [Q. 1.].)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:169> ;
+    dct:type "title_or_abstract" .
+

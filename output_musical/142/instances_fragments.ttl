@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:142#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Nao sao necessarios recursos, mas os alunos devem estar preparados para a importancia da atividade. A saida ao patio para aprender e praticar a audicao nao pode simbolizar uma simples brincadeira, mas uma atividade pedagogica de grande importancia. Utilizacao: Levados ao patio da escola, ou outros locais previamente escolhidos, os alunos sao convidados a permanecer em silencio por alguns instantes (30 segundos no maximo) e ir anotando mentalmente os sons ouvidos. Depois, o professor deve anotar essa diversidade. Em etapas seguintes e importante treinar-se a direcionalidade do som, timbres e intensidade. Gr."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:142> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:142#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "04- A Inteligencia Musical Habilidade Nome Outras estimulacoes Percepcao auditiva O som do surdo Percepcao tatil Preparacao: A escola deve dispor de um surdo, instrumento musical de percussao consti- tuido de um corpo de madeira ou de metal de 40cm x 30cm, recoberto com uma pele animal ou plastica. Um pandeiro surte o mesmo efeito e com um tecido de lona e possivel improvisar-se um surdo. Uma baqueta ou pedaco de pau para a percussao. Utilizacao: Os alunos devem ser estimulados a \"descobrir\" os diferentes tipos de sons que podem ser obtidos do instrumento."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:142> ;
+    dct:type "body" .
+
+<urn:doc:142#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Batidas com a mao aberta, com a mao fechada, com a baqueta, correndo os dedos sobre a pele do instrumento ou batendo com as unhas obtem-se grande variedade de sons que os alunos devem, progressivamente, ir dominando e identificando. O uso da atividade com os alunos com olhos vendados amplia o limite da experiencia. (Existe no comercio, de inumeros fabricantes.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:142> ;
+    dct:type "body" .
+
+<urn:doc:142> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:142#frag-000>,
+        <urn:doc:142#frag-001>,
+        <urn:doc:142#frag-002> .
+

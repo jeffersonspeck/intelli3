@@ -1,0 +1,100 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "fita apresentando sons",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7782972438835515,
+      "relevance": 0.9539568345323741
+    },
+    {
+      "role": "Keyword",
+      "text": "fita apresentando sons",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7782972438835515,
+      "relevance": 0.9539568345323741
+    },
+    {
+      "role": "Keyword",
+      "text": "apresentando sons diferentes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7782972438835515,
+      "relevance": 0.9503597122302159
+    },
+    {
+      "role": "Keyword",
+      "text": "professor dispor",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7523686571676159,
+      "relevance": 0.9827338129496402
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.731971492833797,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "sons metalicos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.706037834491785,
+      "relevance": 0.90431654676259
+    },
+    {
+      "role": "Keyword",
+      "text": "vozes conhecidas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7046530487028769,
+      "relevance": 0.879136690647482
+    },
+    {
+      "role": "Keyword",
+      "text": "trechos musica",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6860841240236464,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ordem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.655277660204046,
+      "relevance": 0.6798561151079137
+    },
+    {
+      "role": "Keyword",
+      "text": "sons ouvidos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6462283188185559,
+      "relevance": 0.7050359712230216
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "memorizar sons ouvidos para relaciona-los na ordem em que forem apresentados",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "sons diferentes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.765,
+      "relevance": 0.9410071942446043
+    }
+  ]
+}

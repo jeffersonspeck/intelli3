@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:176> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:176#frag-000> .
+
+<urn:doc:176#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar cinco saquinhos de pano nao transparente e deixar um dos lados aberto. Encher os saquinhos com milho, arroz ou feijao e fechar... Utilizacao: Os alunos, divididos em grupo ou integrando equipes, devem pegar as pecas na sequencia de um a cinco, atirando uma para cima e pegando as da mesa. Na primeira jogada, o aluno pega uma, na segunda pega duas pecas de cada vez e assim por diante. Ao errar, cede a vez ao adversario de outra equipe."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:176> ;
+    dct:type "title_or_abstract" .
+

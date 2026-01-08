@@ -1,0 +1,21 @@
+[Documento] urn:doc:255
+  - miVector: 12.12,0.00,25.90,0.00,0.00,61.98,0.00,0.00
+  - TOP (documento): Interpersonal (score=0.6198)
+  - Ranking (top 3):
+      • Interpersonal: 0.6198
+      • Spatial: 0.2590
+      • Linguistic: 0.1212
+
+[Fragmento] Preparacao: E indispensavel que o professor "invente" um "monstro" e que estimule seus alunos para essa cacada. Deve contar, com entusiasmo, uma historia e dar algumas "pistas" para que os alunos possam descobri-lo. Utilizacao: Considerando que "monstro" e um ser de conformacao extravagante, uma grande arvore, ou uma planta exotica pode ser o monstro. Os alunos nao devem saber quem e o monstro c nem onde fica, mas atraves de algumas pistas sugeridas pelo professor deverao procurar encontra-lo. Essas pistas devem ser explicadas com muitas informacoes naturais que agucem a audicao, a sensibilidade olfativa e curio- sidade dos alunos. O professor devera manter durante todo o tempo o espirito da brincadeira, oferecendo aos alunos varias sugestoes. 203
+  - Interpersonal (via activation, score=0.6198)
+  - Linguistic (via activation, score=0.1212)
+  - Spatial (via activation, score=0.2590)
+  - Espacial-visual (via activation, score=0.2590)
+  - Interpessoal (via activation, score=0.6198)
+  - Linguística (via activation, score=0.1212)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)

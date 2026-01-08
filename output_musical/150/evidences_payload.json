@@ -1,0 +1,68 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "revistas figuras cujos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8027519472964911,
+      "relevance": 0.9786856127886323
+    },
+    {
+      "role": "Keyword",
+      "text": "recortar revistas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7982520162512333,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mesma silaba inicial",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7797906138779317,
+      "relevance": 0.8996447602131439
+    },
+    {
+      "role": "Keyword",
+      "text": "mesma silaba inicial",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7797906138779317,
+      "relevance": 0.8996447602131439
+    },
+    {
+      "role": "Keyword",
+      "text": "cujos nomes tenham",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7794766497474098,
+      "relevance": 0.9635879218472468
+    },
+    {
+      "role": "Keyword",
+      "text": "cujos nomes apresentam",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7794766497474098,
+      "relevance": 0.9218472468916519
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "recortar, agrupar, identificar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras, gravuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

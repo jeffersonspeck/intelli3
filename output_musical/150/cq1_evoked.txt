@@ -1,0 +1,25 @@
+[Documento] urn:doc:150
+  - miVector: 64.01,12.52,12.79,0.00,10.68,0.00,0.00,0.00
+  - TOP (documento): Linguistic (score=0.6401)
+  - Ranking (top 3):
+      • Linguistic: 0.6401
+      • Spatial: 0.1279
+      • Logical-Mathematical: 0.1252
+
+[Fragmento] Preparacao: Recortar de revistas figuras cujos nomes tenham a mesma terminacao e outras cujos nomes apresentam a mesma silaba inicial (Exemplos: Gato, Rato, Mato, Sapato, ou Bolacha, Bola, Botao, Boliche, ctc.). Incluir outras gravuras que iniciem e terminem com outros fonemas. Utilizacao: Existe uma enorme multiplicidade para o uso do jogo. Os alunos podem, por exemplo, reunir palavras com o mesmo fonema inicial, agrupar outros com a mesma terminacao. O professor pode ir retirando as gravuras de uma caixa e solicitando dos alunos a identificacao do fonema.
+  - Bodily-Kinesthetic (via activation, score=0.1068)
+  - Linguistic (via activation, score=0.6401)
+  - Logical-Mathematical (via activation, score=0.1252)
+  - Spatial (via activation, score=0.1279)
+  - Cinestésico-corporal (via activation, score=0.1068)
+  - Espacial-visual (via activation, score=0.1279)
+  - Linguística (via activation, score=0.6401)
+  - Lógico-matemática (via activation, score=0.1252)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)

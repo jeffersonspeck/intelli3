@@ -1,0 +1,54 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:58> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:58#frag-000> .
+
+<urn:doc:58#evid-000-00-fixar-conceitos> a onto:Keyword ;
+    rdfs:label "fixar conceitos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-000-01-recurso-fixar> a onto:Keyword ;
+    rdfs:label "recurso fixar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-000-02-domino> a onto:Keyword ;
+    rdfs:label "domino"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-000-03-jogo-domino> a onto:Keyword ;
+    rdfs:label "jogo domino"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-000-04-fixar-conceitos> a onto:DiscursiveStrategy ;
+    rdfs:label "fixar conceitos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:58#evid-000-05-jogo-de-domino> a onto:ContextObject ;
+    rdfs:label "jogo de domino"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:58#evid-000-06-tornar-mais-atrativo> a onto:DiscursiveStrategy ;
+    rdfs:label "tornar mais atrativo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:58#evid-000-07-jogar-em-duplas-trios-ou-grupos-> a onto:DiscursiveStrategy ;
+    rdfs:label "jogar em duplas, trios ou grupos maiores"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:58#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo de domino e um excelente recurso para fixar conceitos sobre sistemas de numeracao. Para torna-lo mais atrativo, o professor pode preparar, em cartolina ou papel-cartao, dominos com formatos de animais ou pessoas. Na verdade o que importa e o numero de pontos que indica as caracteristicas do jogo. Utilizacao: Os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores. (Existe no mercado -- Domino Joaninha, Trimino e outros -- Uki-Uki.)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:58> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:58#evid-000-00-fixar-conceitos>,
+        <urn:doc:58#evid-000-01-recurso-fixar>,
+        <urn:doc:58#evid-000-02-domino>,
+        <urn:doc:58#evid-000-03-jogo-domino>,
+        <urn:doc:58#evid-000-04-fixar-conceitos>,
+        <urn:doc:58#evid-000-05-jogo-de-domino>,
+        <urn:doc:58#evid-000-06-tornar-mais-atrativo>,
+        <urn:doc:58#evid-000-07-jogar-em-duplas-trios-ou-grupos-> .
+

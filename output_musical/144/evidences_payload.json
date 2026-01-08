@@ -1,0 +1,92 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "embalagens",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7378636311685018,
+      "relevance": 0.9836182336182336
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7159712693274431,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "pregos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7159712693274431,
+      "relevance": 0.957977207977208
+    },
+    {
+      "role": "Keyword",
+      "text": "pedrinhas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7159712693274431,
+      "relevance": 0.9522792022792023
+    },
+    {
+      "role": "Keyword",
+      "text": "grampos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7159712693274431,
+      "relevance": 0.9444444444444444
+    },
+    {
+      "role": "Keyword",
+      "text": "botoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7159712693274431,
+      "relevance": 0.938034188034188
+    },
+    {
+      "role": "Keyword",
+      "text": "uso",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6253810254112724,
+      "relevance": 0.767094017094017
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6152120184255321,
+      "relevance": 0.8333333333333334
+    },
+    {
+      "role": "Keyword",
+      "text": "embalagem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6122571436886629,
+      "relevance": 0.7058404558404558
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "descobrir conteúdos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "embalagens de filme, pregos, pedrinhas, grampos, botoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

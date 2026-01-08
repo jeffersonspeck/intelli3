@@ -1,0 +1,84 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:153> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:153#frag-000> .
+
+<urn:doc:153#evid-000-00-reunir-improvisar> a onto:Keyword ;
+    rdfs:label "reunir improvisar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:153#evid-000-01-improvisar-serie> a onto:Keyword ;
+    rdfs:label "improvisar serie"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:153#evid-000-02-instrumentos-musicais-simples> a onto:Keyword ;
+    rdfs:label "instrumentos musicais simples"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-03-existem-instrumentos-musicais> a onto:Keyword ;
+    rdfs:label "existem instrumentos musicais"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-04-atabaque> a onto:Keyword ;
+    rdfs:label "atabaque"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-05-surdo> a onto:Keyword ;
+    rdfs:label "surdo"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-06-ganza> a onto:Keyword ;
+    rdfs:label "ganza"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-07-chocalho> a onto:Keyword ;
+    rdfs:label "chocalho"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-08-pandeiro> a onto:Keyword ;
+    rdfs:label "pandeiro"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-09-palavra-lago-corresponde> a onto:Keyword ;
+    rdfs:label "palavra lago corresponde"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:153#evid-000-10-criar-uma-historia> a onto:DiscursiveStrategy ;
+    rdfs:label "criar uma historia"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:153#evid-000-11-instrumentos-musicais-simples-pa> a onto:ContextObject ;
+    rdfs:label "instrumentos musicais simples (pandeiro, atabaque, surdo, ganza, chocalho e outros)"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-12-pronunciar> a onto:DiscursiveStrategy ;
+    rdfs:label "pronunciar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:153#evid-000-13-palavra-bosque-lago> a onto:ContextObject ;
+    rdfs:label "palavra (bosque, lago)"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:153#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir ou improvisar uma serie de instrumentos musicais simples (pan- deiro, atabaque, surdo, ganza, chocalho e outros). Utilizacao: O professor pode criar uma historia simples, onde diferentes elementos da mesma deverao ser substituidos pela emissao de um som; assim ao ler a historia e pronunciar, por exemplo, bosque, o pandeiro deve ser brandido, a palavra lago corresponde ao som do chocalho e assim por diante. Progressivamente a historia pode ir ganhando maior complexidade e participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical. (Existem instrumentos musicais no comercio.)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:153> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:153#evid-000-00-reunir-improvisar>,
+        <urn:doc:153#evid-000-01-improvisar-serie>,
+        <urn:doc:153#evid-000-02-instrumentos-musicais-simples>,
+        <urn:doc:153#evid-000-03-existem-instrumentos-musicais>,
+        <urn:doc:153#evid-000-04-atabaque>,
+        <urn:doc:153#evid-000-05-surdo>,
+        <urn:doc:153#evid-000-06-ganza>,
+        <urn:doc:153#evid-000-07-chocalho>,
+        <urn:doc:153#evid-000-08-pandeiro>,
+        <urn:doc:153#evid-000-09-palavra-lago-corresponde>,
+        <urn:doc:153#evid-000-10-criar-uma-historia>,
+        <urn:doc:153#evid-000-11-instrumentos-musicais-simples-pa>,
+        <urn:doc:153#evid-000-12-pronunciar>,
+        <urn:doc:153#evid-000-13-palavra-bosque-lago> .
+

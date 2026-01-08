@@ -1,0 +1,141 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:329#evid-000-00-alunos-possam> a onto:Keyword ;
+    rdfs:label "alunos possam"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-000-01-numero> a onto:Keyword ;
+    rdfs:label "numero"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:329#evid-000-02-numero> a onto:Keyword ;
+    rdfs:label "numero"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-000-03-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:329#evid-000-04-colocar-circulo> a onto:Keyword ;
+    rdfs:label "colocar circulo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-000-05-aluno-ate> a onto:Keyword ;
+    rdfs:label "aluno ate"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-000-06-professor> a onto:Keyword ;
+    rdfs:label "professor"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-000-07-sinal-professor> a onto:Keyword ;
+    rdfs:label "sinal professor"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-000-08-sala> a onto:Keyword ;
+    rdfs:label "sala"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:329#evid-000-09-metade-componentes> a onto:Keyword ;
+    rdfs:label "metade componentes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:329#evid-000-10-metade-componentes> a onto:Keyword ;
+    rdfs:label "metade componentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-000-11-professor-atribuira> a onto:Keyword ;
+    rdfs:label "professor atribuira"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-000-12-ate-metade> a onto:Keyword ;
+    rdfs:label "ate metade"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:329#evid-000-13-ate-metade> a onto:Keyword ;
+    rdfs:label "ate metade"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-000-14-estratgia-de-organizao-em-circul> a onto:DiscursiveStrategy ;
+    rdfs:label "estratégia de organização em circulo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-000-15-estratgia-de-atribuio-numrica> a onto:DiscursiveStrategy ;
+    rdfs:label "estratégia de atribuição numérica"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:329#evid-000-16-estratgia-de-observao-atenta> a onto:DiscursiveStrategy ;
+    rdfs:label "estratégia de observação atenta"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-000-17-estratgia-de-alterao-visual> a onto:DiscursiveStrategy ;
+    rdfs:label "estratégia de alteração visual"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-000-18-estratgia-de-descobrimento> a onto:DiscursiveStrategy ;
+    rdfs:label "estratégia de descobrimento"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-001-00-centro-circulo> a onto:Keyword ;
+    rdfs:label "centro circulo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:329#evid-001-01-chamar-dois-alunos> a onto:Keyword ;
+    rdfs:label "chamar dois alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-001-02-chamar> a onto:DiscursiveStrategy ;
+    rdfs:label "chamar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-001-03-dois-alunos> a onto:ContextObject ;
+    rdfs:label "dois alunos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-001-04-circulo> a onto:ContextObject ;
+    rdfs:label "circulo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:329#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma sala para que os alunos possam se colocar em circulo. Utilizacao: O professor atribuira um numero a cada aluno ate a metade dos compo- nentes. Inicia, depois, a mesma numeracao dos demais, de maneira a existir dois alunos de numero 1, dois de numero 2 e assim por diante. Cada aluno deve observar atentamente seu par por alguns segundos; a um sinal do profes- sor viram-se de costas para o centro do circulo e alteram um detalhe de si mes- mos (por exemplo: solta fio do sapato, tira uma correntinha, etc.). A um sinal do professor voltam a se observar, tentando descobrir qual a alteracao feita. A atividade explora a percepcao e a identidade visual do outro e deve ser repetida varias vezes, observando-se se ha progresso ce, consequentemente, au- mento de dificuldades em se proceder mudanca de detalhes nao notados."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:329> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:329#evid-000-00-alunos-possam>,
+        <urn:doc:329#evid-000-01-numero>,
+        <urn:doc:329#evid-000-02-numero>,
+        <urn:doc:329#evid-000-03-preparacao>,
+        <urn:doc:329#evid-000-04-colocar-circulo>,
+        <urn:doc:329#evid-000-05-aluno-ate>,
+        <urn:doc:329#evid-000-06-professor>,
+        <urn:doc:329#evid-000-07-sinal-professor>,
+        <urn:doc:329#evid-000-08-sala>,
+        <urn:doc:329#evid-000-09-metade-componentes>,
+        <urn:doc:329#evid-000-10-metade-componentes>,
+        <urn:doc:329#evid-000-11-professor-atribuira>,
+        <urn:doc:329#evid-000-12-ate-metade>,
+        <urn:doc:329#evid-000-13-ate-metade>,
+        <urn:doc:329#evid-000-14-estratgia-de-organizao-em-circul>,
+        <urn:doc:329#evid-000-15-estratgia-de-atribuio-numrica>,
+        <urn:doc:329#evid-000-16-estratgia-de-observao-atenta>,
+        <urn:doc:329#evid-000-17-estratgia-de-alterao-visual>,
+        <urn:doc:329#evid-000-18-estratgia-de-descobrimento> .
+
+<urn:doc:329#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Uma outra forma e chamar dois alunos para o centro do circulo, procedendo-se a mesma experiencia. -- 255"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:329> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:329#evid-001-00-centro-circulo>,
+        <urn:doc:329#evid-001-01-chamar-dois-alunos>,
+        <urn:doc:329#evid-001-02-chamar>,
+        <urn:doc:329#evid-001-03-dois-alunos>,
+        <urn:doc:329#evid-001-04-circulo> .
+
+<urn:doc:329> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:329#frag-000>,
+        <urn:doc:329#frag-001> .
+

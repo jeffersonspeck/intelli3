@@ -1,0 +1,29 @@
+[Documento] urn:doc:101
+  - miVector: 29.42,0.00,15.65,0.00,15.76,11.81,27.36,0.00
+  - TOP (documento): Linguistic (score=0.2942)
+  - Ranking (top 3):
+      • Linguistic: 0.2942
+      • Intrapersonal: 0.2736
+      • Bodily-Kinesthetic: 0.1576
+
+[Fragmento] Preparacao: Usar duas garrafas plasticas e duas tampas de potes de creme ou maionese ajustadas a abertura das garrafas. Papel-cartao resistente, com um circulo pequeno. Cortar as garrafas no sentido horizontal, unir os gargalos, colocando entre eles um circulo de cartao perfurado. Colocar areia fina, colorida com anilina, formando uma ampulheta (procurar um modelo em uma ilustracao). Utilizacao: Essa ampulheta deve ser usada para marcar o tempo e os alunos devem observar a passagem da areia de uma metade da garrafa para outra, associando esse tempo com atividades que estao desenvolvendo. Leva-los a associar o tempo as divisoes do dia e da noite. Mostrar quantos pingos caem de uma torneira semifechada em um espaco de tempo e outras multiplas atividades. (Existe no comercio -- ampulhetas de vidro podem ser adquiridas em lojas de decoracao.)
+  - Bodily-Kinesthetic (via activation, score=0.1576)
+  - Interpersonal (via activation, score=0.1181)
+  - Intrapersonal (via activation, score=0.2736)
+  - Linguistic (via activation, score=0.2942)
+  - Spatial (via activation, score=0.1565)
+  - Cinestésico-corporal (via activation, score=0.1576)
+  - Espacial-visual (via activation, score=0.1565)
+  - Interpessoal (via activation, score=0.1181)
+  - Intrapessoal (via activation, score=0.2736)
+  - Linguística (via activation, score=0.2942)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)

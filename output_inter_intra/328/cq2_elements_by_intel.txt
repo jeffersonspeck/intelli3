@@ -1,0 +1,104 @@
+[Documento] urn:doc:328
+  - miVector: 13.14,0.00,31.79,0.00,0.00,32.59,22.48,0.00
+  - TOP (documento): Interpersonal (score=0.3259)
+  - Ranking (top 3):
+      • Interpersonal: 0.3259
+      • Spatial: 0.3179
+      • Intrapersonal: 0.2248
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: caixa com circulos
+        • ContextObject: mural
+        • DiscursiveStrategy: montar
+        • Keyword: figuras geometricas sejam
+        • Keyword: geometricas sejam fixadas
+        • Keyword: mural
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5624
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: escolher
+        • DiscursiveStrategy: orientar
+        • DiscursiveStrategy: procurar
+        • Keyword: ampla liberdade
+        • Keyword: dependendo grau
+        • Keyword: falar nao
+        • Keyword: grau afetividade
+        • Keyword: liberdade falar
+        • Keyword: procura los
+        • Keyword: professor
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5263
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: alunos
+        • ContextObject: estado emocional
+        • Keyword: estado emocao
+        • Keyword: estado emocional
+        • Keyword: independentemente cor
+        • Keyword: preparacao
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3857
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: cores da caixa
+        • DiscursiveStrategy: falar
+        • Keyword: contendo retrato
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1648
+
+
+[Documento — Fragmentos] urn:doc:328
+
+[Fragmento] Preparacao: Seria interessante que o professor montasse um mural na sala de aula contendo o retrato de cada um dos alunos c abaixo do mesmo seu nome. Ao lado desse mural uma caixa com inumeros circulos nas cores verde, amarela ec vermelha, com lixas no verso para sua fixacao no mural (caso seja revesti- do de feltro) ou entao taxinhas para que essas figuras geometricas sejam fi- xadas no mural. Utilizacao: Os alunos devem ser orientados a perceber seus estados de cmocao e, todo dia, ao entrar na sala escolham uma das cores da caixa para fixar embaixo de seu nome (verde = estou otimo, feliz, entusiasmado; amarelo = estou com uma sensacao de apatia, indiferenca, conformismo; vermelho = estou muito aborre- cido, chateado, inseguro).
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: caixa com circulos
+        • ContextObject: mural
+        • DiscursiveStrategy: montar
+        • Keyword: figuras geometricas sejam
+        • Keyword: geometricas sejam fixadas
+        • Keyword: mural
+    - Ativações:
+        • score=0.5624, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: escolher
+        • DiscursiveStrategy: orientar
+    - Ativações:
+        • score=0.1717, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.1011, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: cores da caixa
+        • Keyword: contendo retrato
+    - Ativações:
+        • score=0.1648, tipo=Secondary
+
+[Fragmento] O aluno deve ter ampla liberdade para falar ou nao de seu estado emocional e o professor, dependendo do grau de afetividade com que se relaciona com os alunos, pode procura-los, independentemente da cor colada ao mural, para falar desse estado de emocao. Procurar apenas os "verme- lhos" pode atrair uma atencao especial e alunos forjarem situacoes para serem notados. 254
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: procurar
+        • Keyword: ampla liberdade
+        • Keyword: dependendo grau
+        • Keyword: falar nao
+        • Keyword: grau afetividade
+        • Keyword: liberdade falar
+        • Keyword: procura los
+        • Keyword: professor
+    - Ativações:
+        • score=0.5263, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: alunos
+        • ContextObject: estado emocional
+        • Keyword: estado emocao
+        • Keyword: estado emocional
+        • Keyword: independentemente cor
+    - Ativações:
+        • score=0.3857, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: falar
+    - Ativações:
+        • score=0.0880, tipo=Secondary

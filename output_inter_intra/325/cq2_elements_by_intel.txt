@@ -1,0 +1,65 @@
+[Documento] urn:doc:325
+  - miVector: 16.51,0.00,0.00,0.00,27.25,56.24,0.00,0.00
+  - TOP (documento): Interpersonal (score=0.5624)
+  - Ranking (top 3):
+      • Interpersonal: 0.5624
+      • Bodily-Kinesthetic: 0.2725
+      • Linguistic: 0.1651
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: organizar
+        • DiscursiveStrategy: transmitir
+        • Keyword: andar cavalo
+        • Keyword: envolvam manifestacoes corporais
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2725
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: circulo de debates
+        • DiscursiveStrategy: debater
+        • DiscursiveStrategy: sortear
+        • Keyword: alegria
+        • Keyword: entusiasmo
+        • Keyword: raiva
+        • Keyword: serem transmitidas
+        • Keyword: situacoes emocionais diversas
+        • Keyword: tambem situacoes emocionais
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5623
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: conjunto mensagens
+        • Keyword: mensagens serem
+        • Keyword: organizar conjunto
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1651
+
+
+[Documento — Fragmentos] urn:doc:325
+
+[Fragmento] Preparacao: Organizar um conjunto de mensagens para serem transmitidas pelos alunos, que envolvam manifestacoes corporais (por exemplo: andar a cavalo), mas tambem situacoes emocionais diversas (raiva, alegria, entusiasmo, tristeza, etc.). Escrever es- sas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano. Utilizacao: A tarefa dos alunos ao sortear sua mensagem e transmiti-la aos demais, levan- do-os a possivel descoberta, sem o uso da palavra. A atividade tem como principal objetivo a comunicacao interpessoal e, depois de uma primeira experiencia, outras mais complexas podem ir progressivamente sendo propostas. E interessante encer- rar a atividade com um circulo de debates com os alunos sobre as muitas formas de comunicacao e sua importancia no auto e heteroconhecimento.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: organizar
+        • DiscursiveStrategy: transmitir
+        • Keyword: andar cavalo
+        • Keyword: envolvam manifestacoes corporais
+    - Ativações:
+        • score=0.2725, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: circulo de debates
+        • DiscursiveStrategy: debater
+        • DiscursiveStrategy: sortear
+        • Keyword: alegria
+        • Keyword: entusiasmo
+        • Keyword: raiva
+        • Keyword: serem transmitidas
+        • Keyword: situacoes emocionais diversas
+        • Keyword: tambem situacoes emocionais
+    - Ativações:
+        • score=0.5623, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: conjunto mensagens
+        • Keyword: mensagens serem
+        • Keyword: organizar conjunto
+    - Ativações:
+        • score=0.1651, tipo=Secondary

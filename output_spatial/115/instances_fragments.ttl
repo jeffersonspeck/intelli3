@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:115> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:115#frag-000> .
+
+<urn:doc:115#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar com arames revestidos de plasticos coloridos (usados como cabos eletricos) uma caixa contendo arames de varias cores em tamanhos variaveis de 10 a 30 cm. Utilizacao: O aluno deve ser estimulado pelo professor a produzir formas geometri- cas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares e uma serie de outras pecas. Deve, em etapas posteriores, relaciona-las contando historias que as envolvam. (Existem diversos jogos de montar cidades e sitios em miniatura. Uma rosa dos ventos amplia o estudo das posicoes e de suas referencias.)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:115> ;
+    dct:type "title_or_abstract" .
+

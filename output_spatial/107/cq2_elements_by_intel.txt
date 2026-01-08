@@ -1,0 +1,42 @@
+[Documento] urn:doc:107
+  - miVector: 0.00,0.00,47.46,0.00,52.54,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5254)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5254
+      • Spatial: 0.4746
+      • Linguistic: 0.0000
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: objeto cartolina
+        • ContextObject: objeto palitos de fosforo
+        • Keyword: desenhar figuras geometricas
+        • Keyword: desenhos
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5254
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: estrategia de desenho
+        • Keyword: desenhar figuras geometricas
+        • Keyword: figuras geometricas
+        • Keyword: figuras geometricas colocadas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4746
+
+
+[Documento — Fragmentos] urn:doc:107
+
+[Fragmento] Preparacao: Folhas de cartolina e palitos de fosforo usados. Desenhar figuras geometricas e formas irregulares na cartolina. Todos os desenhos devem ser passiveis de uma reproducao com palitos de fosforo. Utilizacao: A tarefa dos alunos, individualmente, e a de colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas. A experiencia pode ser ampliada com desenhos de casas e outros, progressivamente apresentando maior complexidade. no 1no oo o n Fmatolaensca Fena
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: objeto cartolina
+        • ContextObject: objeto palitos de fosforo
+        • Keyword: desenhar figuras geometricas
+        • Keyword: desenhos
+    - Ativações:
+        • score=0.5254, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • DiscursiveStrategy: estrategia de desenho
+        • Keyword: desenhar figuras geometricas
+        • Keyword: figuras geometricas
+        • Keyword: figuras geometricas colocadas
+    - Ativações:
+        • score=0.4746, tipo=Secondary

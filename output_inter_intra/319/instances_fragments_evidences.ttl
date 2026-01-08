@@ -1,0 +1,139 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:319> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:319#frag-000> .
+
+<urn:doc:319#evid-000-00-reunir-muitas-revistas> a onto:Keyword ;
+    rdfs:label "reunir muitas revistas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-000-01-tamanhos-eur-posicoes> a onto:Keyword ;
+    rdfs:label "tamanhos eur posicoes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:319#evid-000-02-tamanhos-eur-posicoes> a onto:Keyword ;
+    rdfs:label "tamanhos eur posicoes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-000-03-diferentes-tamanhos-eur> a onto:Keyword ;
+    rdfs:label "diferentes tamanhos eur"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:319#evid-000-04-representando-seres-humanos> a onto:Keyword ;
+    rdfs:label "representando seres humanos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-000-05-colar-cartolina> a onto:Keyword ;
+    rdfs:label "colar cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-000-06-revistas-gravuras> a onto:Keyword ;
+    rdfs:label "revistas gravuras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-000-07-humanos-diferentes> a onto:Keyword ;
+    rdfs:label "humanos diferentes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-000-08-eur-discutir> a onto:Keyword ;
+    rdfs:label "eur discutir"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-000-09-trabalhando-eventuais-preconceit> a onto:Keyword ;
+    rdfs:label "trabalhando eventuais preconceitos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-000-10-pessoas> a onto:Keyword ;
+    rdfs:label "pessoas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-000-11-estimular> a onto:DiscursiveStrategy ;
+    rdfs:label "estimular"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-000-12-revistas-com-gravuras> a onto:ContextObject ;
+    rdfs:label "revistas com gravuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:319#evid-000-13-perceber> a onto:DiscursiveStrategy ;
+    rdfs:label "perceber"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:319#evid-000-14-pessoas-louras-morenas-pretas-ru> a onto:ContextObject ;
+    rdfs:label "pessoas louras, morenas, pretas, ruivas, altas, baixas, magras, gordas, velhas, criancas, jovens, de pe, sentadas, deitadas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-000-15-discutir> a onto:DiscursiveStrategy ;
+    rdfs:label "discutir"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:319#evid-000-16-tipo-fisico-das-pessoas-suas-ati> a onto:ContextObject ;
+    rdfs:label "tipo fisico das pessoas, suas atitudes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-000-17-desassociar-estercotipos-e-traba> a onto:DiscursiveStrategy ;
+    rdfs:label "desassociar estercotipos e trabalhar eventuais preconceitos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-000-18-postura-das-pessoas> a onto:ContextObject ;
+    rdfs:label "postura das pessoas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-000-19-associar-a-postura-s-possveis-at> a onto:DiscursiveStrategy ;
+    rdfs:label "associar a postura às possíveis atitudes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-000-20-colocar-em-discusso-a-tendncia-q> a onto:DiscursiveStrategy ;
+    rdfs:label "colocar em discussão a tendência que revelamos em antecipar julgamentos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:319#evid-000-21-professor> a onto:ContextObject ;
+    rdfs:label "professor"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-000-22-ser-um-mediador> a onto:DiscursiveStrategy ;
+    rdfs:label "ser um mediador"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-000-23-ouvir-os-alunos> a onto:DiscursiveStrategy ;
+    rdfs:label "ouvir os alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-000-24-permitir-que-alcancem-suas-prpri> a onto:DiscursiveStrategy ;
+    rdfs:label "permitir que alcancem suas próprias conclusões"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir muitas revistas com gravuras representando seres humanos em di- ferentes tamanhos EUR posicoes, posturas, colar em cartolina. Utilizacao: Os alunos devem ser estimulados a formar conjuntos com atributos co- muns, percebendo a distincao entre pessoas louras, morenas, pretas, ruivas, al- tas, baixas, magras, gordas, velhas, criancas, jovens, de pe, sentadas, deitadas, EUR discutir em classe o tipo fisico das pessoas, suas atitudes, desassociando esterco- tipos c trabalhando eventuais preconceitos. Devem associar a postura das pes- soas a possiveis atitudes e colocar em discussao a tendencia que revelamos em antecipar julgamentos. E importante que o professor seja, em sala de aula, um mediador, ouvindo os alunos e permitindo que alcancem suas proprias conclu- sOEs."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:319> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:319#evid-000-00-reunir-muitas-revistas>,
+        <urn:doc:319#evid-000-01-tamanhos-eur-posicoes>,
+        <urn:doc:319#evid-000-02-tamanhos-eur-posicoes>,
+        <urn:doc:319#evid-000-03-diferentes-tamanhos-eur>,
+        <urn:doc:319#evid-000-04-representando-seres-humanos>,
+        <urn:doc:319#evid-000-05-colar-cartolina>,
+        <urn:doc:319#evid-000-06-revistas-gravuras>,
+        <urn:doc:319#evid-000-07-humanos-diferentes>,
+        <urn:doc:319#evid-000-08-eur-discutir>,
+        <urn:doc:319#evid-000-09-trabalhando-eventuais-preconceit>,
+        <urn:doc:319#evid-000-10-pessoas>,
+        <urn:doc:319#evid-000-11-estimular>,
+        <urn:doc:319#evid-000-12-revistas-com-gravuras>,
+        <urn:doc:319#evid-000-13-perceber>,
+        <urn:doc:319#evid-000-14-pessoas-louras-morenas-pretas-ru>,
+        <urn:doc:319#evid-000-15-discutir>,
+        <urn:doc:319#evid-000-16-tipo-fisico-das-pessoas-suas-ati>,
+        <urn:doc:319#evid-000-17-desassociar-estercotipos-e-traba>,
+        <urn:doc:319#evid-000-18-postura-das-pessoas>,
+        <urn:doc:319#evid-000-19-associar-a-postura-s-possveis-at>,
+        <urn:doc:319#evid-000-20-colocar-em-discusso-a-tendncia-q>,
+        <urn:doc:319#evid-000-21-professor>,
+        <urn:doc:319#evid-000-22-ser-um-mediador>,
+        <urn:doc:319#evid-000-23-ouvir-os-alunos>,
+        <urn:doc:319#evid-000-24-permitir-que-alcancem-suas-prpri> .
+

@@ -1,0 +1,140 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "extraidas revistas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.781127435841443,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "vocabular crianca",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.781127435841443,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "universo vocabular",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7712037978131241,
+      "relevance": 0.9149922720247295
+    },
+    {
+      "role": "Keyword",
+      "text": "contendo palavras",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.736444150274529,
+      "relevance": 0.9459041731066461
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7292493828566079,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras extraidas",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7259822239368572,
+      "relevance": 0.9698608964451314
+    },
+    {
+      "role": "Keyword",
+      "text": "serie figuras",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6339070653253575,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "professor",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6265736057427583,
+      "relevance": 0.8284389489953632
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6265736057427583,
+      "relevance": 0.7828438948995363
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "apresentação",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9698608964451314
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "marcar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.7758887171561051
+    },
+    {
+      "role": "ContextObject",
+      "text": "lousa",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.768160741885626
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "escolher",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.6931993817619784
+    },
+    {
+      "role": "ContextObject",
+      "text": "letras",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.7542503863987635
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "anotar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "boneco na forca",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.5123647604327666
+    }
+  ]
+}

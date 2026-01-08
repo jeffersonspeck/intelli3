@@ -1,0 +1,83 @@
+[Documento] urn:doc:180
+  - miVector: 6.00,0.00,17.96,0.00,61.55,4.40,10.09,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.6155)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6155
+      • Spatial: 0.1796
+      • Intrapersonal: 0.1009
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: abrir e fechar portas
+        • ContextObject: marceneiro
+        • DiscursiveStrategy: construir
+        • DiscursiveStrategy: guardar objetos
+        • DiscursiveStrategy: solicitar
+        • DiscursiveStrategy: utilizar
+        • DiscursiveStrategy: verificar
+        • Keyword: armario varias
+        • Keyword: marceneiro
+        • Keyword: pequeno armario
+        • Keyword: varias portas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6154
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: armário
+        • ContextObject: compartimentos
+        • ContextObject: portas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1796
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: orientacao do professor
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0440
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: aprender
+        • DiscursiveStrategy: situar-las
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1009
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: chaves
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0600
+
+
+[Documento — Fragmentos] urn:doc:180
+
+[Fragmento] Preparacao: Solicitar o servico de um marceneiro, fazendo um pequeno armario com varias portas e diferentes fechaduras. Havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves. Utilizacao: O aluno deve aprender a abrir e fechar portas, guardar objetos em diferen- tes compartimentos, abrir portas conforme orientacao do professor, situando-as a direita, a esquerda, ao centro e outros. (Existem no comercio: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela].)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: abrir e fechar portas
+        • ContextObject: marceneiro
+        • DiscursiveStrategy: construir
+        • DiscursiveStrategy: guardar objetos
+        • DiscursiveStrategy: solicitar
+        • DiscursiveStrategy: utilizar
+        • DiscursiveStrategy: verificar
+        • Keyword: armario varias
+        • Keyword: marceneiro
+        • Keyword: pequeno armario
+        • Keyword: varias portas
+    - Ativações:
+        • score=0.6154, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: armário
+        • ContextObject: compartimentos
+        • ContextObject: portas
+    - Ativações:
+        • score=0.1796, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: orientacao do professor
+    - Ativações:
+        • score=0.0440, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • DiscursiveStrategy: aprender
+        • DiscursiveStrategy: situar-las
+    - Ativações:
+        • score=0.1009, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: chaves
+    - Ativações:
+        • score=0.0600, tipo=Secondary

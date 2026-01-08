@@ -1,0 +1,13 @@
+[Documento] urn:doc:180
+  - miVector: 6.00,0.00,17.96,0.00,61.55,4.40,10.09,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.6155)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6155
+      • Spatial: 0.1796
+      • Intrapersonal: 0.1009
+
+
+[Documento — Fragmentos] urn:doc:180
+
+[Fragmento] Preparacao: Solicitar o servico de um marceneiro, fazendo um pequeno armario com varias portas e diferentes fechaduras. Havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves. Utilizacao: O aluno deve aprender a abrir e fechar portas, guardar objetos em diferen- tes compartimentos, abrir portas conforme orientacao do professor, situando-as a direita, a esquerda, ao centro e outros. (Existem no comercio: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela].)
+  > TOP: Cinestésico-corporal (score=0.6154, tipo=Primary)

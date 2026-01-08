@@ -1,0 +1,53 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:257> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:257#frag-000> .
+
+<urn:doc:257#evid-000-00-alunos-forem-convidados> a onto:Keyword ;
+    rdfs:label "alunos forem convidados"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:257#evid-000-01-convidados-trazer> a onto:Keyword ;
+    rdfs:label "convidados trazer"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-02-trazer-sacos> a onto:Keyword ;
+    rdfs:label "trazer sacos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-03-sacos-dormir> a onto:Keyword ;
+    rdfs:label "sacos dormir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-04-dormir-colchonetes> a onto:Keyword ;
+    rdfs:label "dormir colchonetes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-05-colchonetes-passar> a onto:Keyword ;
+    rdfs:label "colchonetes passar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-06-desenhar-constelacoes> a onto:DiscursiveStrategy ;
+    rdfs:label "desenhar constelacoes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:257#evid-000-07-constelacoes> a onto:ContextObject ;
+    rdfs:label "constelacoes"@pt .
+
+<urn:doc:257#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "preparacao: Essa atividade e realizada a noite e, portanto, possivel se os alunos forem con- vidados a trazer seus sacos de dormir ou colchonetes e passar uma noite na escola. Em uma excursao a atividade e tambem possivel. Utilizacao: O professor devera estimular os alunos a observar estrelas e desenhar constela- coes, reunindo-se depois para descreve-las. Os alunos nao precisam se preocupar em desenhar ou descrever as constelacoes como se encontram no ceu. O professor pode recriar a ideia dos astronomos do passado, levando seus alunos a inventar \"no- vas constelacoes\". A noite tambem oferece interessante oportunidade para a identi- ficacao dos pontos cardeais a partir da lua ou das estrelas. 204"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:257> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:257#evid-000-00-alunos-forem-convidados>,
+        <urn:doc:257#evid-000-01-convidados-trazer>,
+        <urn:doc:257#evid-000-02-trazer-sacos>,
+        <urn:doc:257#evid-000-03-sacos-dormir>,
+        <urn:doc:257#evid-000-04-dormir-colchonetes>,
+        <urn:doc:257#evid-000-05-colchonetes-passar>,
+        <urn:doc:257#evid-000-06-desenhar-constelacoes>,
+        <urn:doc:257#evid-000-07-constelacoes> .
+

@@ -1,0 +1,116 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "definir serie",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7846128765110463,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estimular alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7616128266682614,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "moram animais",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.7347720432336505,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos devem apresentar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7342352031831795,
+      "relevance": 0.6928429423459245
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos devem apresentar",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7342352031831795,
+      "relevance": 0.6928429423459245
+    },
+    {
+      "role": "Keyword",
+      "text": "pesquisem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7342305801043162,
+      "relevance": 0.8459244532803181
+    },
+    {
+      "role": "Keyword",
+      "text": "bibliograficamente",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7342305801043162,
+      "relevance": 0.8349900596421471
+    },
+    {
+      "role": "Keyword",
+      "text": "professor deve estimular",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7112593188710228,
+      "relevance": 0.9860834990059643
+    },
+    {
+      "role": "Keyword",
+      "text": "professor estabelecera",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6961502490691859,
+      "relevance": 0.742544731610338
+    },
+    {
+      "role": "Keyword",
+      "text": "recortes desenhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6903075984348126,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "recortes desenhos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6903075984348126,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "casas",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.9304174950298211
+    },
+    {
+      "role": "ContextObject",
+      "text": "animais",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.9095427435387674
+    },
+    {
+      "role": "ContextObject",
+      "text": "fotografias, recortes e desenhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

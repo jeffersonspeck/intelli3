@@ -1,0 +1,84 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:155> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:155#frag-000> .
+
+<urn:doc:155#evid-000-00-diferentes-habilidades-operatori> a onto:Keyword ;
+    rdfs:label "diferentes habilidades operatorias"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-01-diferentes-habilidades-operatori> a onto:Keyword ;
+    rdfs:label "diferentes habilidades operatorias"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-000-02-classifica-alimentos> a onto:Keyword ;
+    rdfs:label "classifica alimentos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-03-analisa-qualidade> a onto:Keyword ;
+    rdfs:label "analisa qualidade"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-04-deduz-valor> a onto:Keyword ;
+    rdfs:label "deduz valor"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-05-tornar-claro> a onto:Keyword ;
+    rdfs:label "tornar claro"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-000-06-estimular-o-uso-de-diferentes-ha> a onto:DiscursiveStrategy ;
+    rdfs:label "estimular o uso de diferentes habilidades operatorias"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-000-07-habilidades-operatorias-relacion> a onto:ContextObject ;
+    rdfs:label "habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar)"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:155#evid-000-08-habilidades-operatorias-relacion> a onto:ContextObject ;
+    rdfs:label "habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar)"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-000-09-tornar-claro-aos-alunos-o-uso-e-> a onto:DiscursiveStrategy ;
+    rdfs:label "tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-000-10-tornar-claro-aos-alunos-o-uso-e-> a onto:DiscursiveStrategy ;
+    rdfs:label "tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:155#evid-000-11-sons> a onto:ContextObject ;
+    rdfs:label "sons"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:155#evid-000-12-emprego-alternado-de-um-chocalho> a onto:DiscursiveStrategy ;
+    rdfs:label "emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:155#evid-000-13-emprego-alternado-de-um-chocalho> a onto:DiscursiveStrategy ;
+    rdfs:label "emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:155#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: A equipe de professores deve estimular o uso de diferentes habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar, etc.) e tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes (a dona de casa, por exemplo, classifica os alimentos que compra, analisa a qualidade de cada um, deduz o valor nutritivo e assim por diante). Utilizacao: Essa atividade exploradora das habilidades pode ser completada com o uso de sons e, assim, o emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos, simbolizam meios de explorar o emprego das ha- bilidades em ambito diferente do demonstrado em sala de aula."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:155> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:155#evid-000-00-diferentes-habilidades-operatori>,
+        <urn:doc:155#evid-000-01-diferentes-habilidades-operatori>,
+        <urn:doc:155#evid-000-02-classifica-alimentos>,
+        <urn:doc:155#evid-000-03-analisa-qualidade>,
+        <urn:doc:155#evid-000-04-deduz-valor>,
+        <urn:doc:155#evid-000-05-tornar-claro>,
+        <urn:doc:155#evid-000-06-estimular-o-uso-de-diferentes-ha>,
+        <urn:doc:155#evid-000-07-habilidades-operatorias-relacion>,
+        <urn:doc:155#evid-000-08-habilidades-operatorias-relacion>,
+        <urn:doc:155#evid-000-09-tornar-claro-aos-alunos-o-uso-e->,
+        <urn:doc:155#evid-000-10-tornar-claro-aos-alunos-o-uso-e->,
+        <urn:doc:155#evid-000-11-sons>,
+        <urn:doc:155#evid-000-12-emprego-alternado-de-um-chocalho>,
+        <urn:doc:155#evid-000-13-emprego-alternado-de-um-chocalho> .
+

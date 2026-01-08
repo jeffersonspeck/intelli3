@@ -1,0 +1,92 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "gravuras obtidas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7855001824576596,
+      "relevance": 0.9698431845597105
+    },
+    {
+      "role": "Keyword",
+      "text": "folhas papel cartao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7855001824576596,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "direita",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7663580044228192,
+      "relevance": 0.8841978287092883
+    },
+    {
+      "role": "Keyword",
+      "text": "ora direita",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7619839407522777,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7458545849762022,
+      "relevance": 0.8751507840772015
+    },
+    {
+      "role": "Keyword",
+      "text": "retangulos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7376647968524073,
+      "relevance": 0.9445114595898673
+    },
+    {
+      "role": "Keyword",
+      "text": "ora esquerda",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7374854649906343,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estrategia de posicionamento",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "retângulo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "bolinha",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.8932448733413751
+    },
+    {
+      "role": "ContextObject",
+      "text": "tabuleiro",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.8130277442702051
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+[Documento] urn:doc:7
+  - miVector: 42.15,0.00,15.30,0.00,11.22,20.47,10.86,0.00
+  - TOP (documento): Linguistic (score=0.4215)
+  - Ranking (top 3):
+      • Linguistic: 0.4215
+      • Interpersonal: 0.2047
+      • Spatial: 0.1530
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: boneco na forca
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1122
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: figuras
+        • ContextObject: lousa
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1530
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: apresentação
+        • DiscursiveStrategy: escolher
+        • Keyword: alunos
+        • Keyword: professor
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2047
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: figuras extraidas
+        • Keyword: serie figuras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1086
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: letras
+        • DiscursiveStrategy: anotar
+        • DiscursiveStrategy: marcar
+        • Keyword: contendo palavras
+        • Keyword: extraidas revistas
+        • Keyword: universo vocabular
+        • Keyword: vocabular crianca
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4215
+
+
+[Documento — Fragmentos] urn:doc:7
+
+[Fragmento] Preparacao: Uma caixa com uma serie de figuras extraidas de revistas, contendo pala- vras que ja fazem parte do universo vocabular da crianca. Colar essas figuras em cartolina e, eventualmente, plastifica-las. Utilizacao: O professor deve retirar a figura da caixa, apresenta-la aos alunos e marcar na lousa o numero de letras necessarias para escreve-la. Os alunos, sortea- dos pelo professor, devem escolher as letras corretas e estas serem anotadas. Coletivamente a classe vai construindo palavras, evoluindo das mais simples para as mais complexas. A cada letra errada, o espaco que deveria ser ocupado pela mesma e ocupado por um boneco na forca.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: boneco na forca
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.1122, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: figuras
+        • ContextObject: lousa
+    - Ativações:
+        • score=0.1530, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: apresentação
+        • DiscursiveStrategy: escolher
+        • Keyword: alunos
+        • Keyword: professor
+    - Ativações:
+        • score=0.2047, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: figuras extraidas
+        • Keyword: serie figuras
+    - Ativações:
+        • score=0.1086, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: letras
+        • DiscursiveStrategy: anotar
+        • DiscursiveStrategy: marcar
+        • Keyword: contendo palavras
+        • Keyword: extraidas revistas
+        • Keyword: universo vocabular
+        • Keyword: vocabular crianca
+    - Ativações:
+        • score=0.4215, tipo=Primary

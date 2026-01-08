@@ -1,0 +1,69 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:258> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:258#frag-000> .
+
+<urn:doc:258#evid-000-00-alunos-devem-circular> a onto:Keyword ;
+    rdfs:label "alunos devem circular"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-000-01-proury> a onto:Keyword ;
+    rdfs:label "proury"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:258#evid-000-02-circular> a onto:DiscursiveStrategy ;
+    rdfs:label "circular"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-000-03-sala> a onto:ContextObject ;
+    rdfs:label "sala"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:258#evid-000-04-encontrar-algum> a onto:DiscursiveStrategy ;
+    rdfs:label "encontrar alguém"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-000-05-tocar-levemente> a onto:DiscursiveStrategy ;
+    rdfs:label "tocar levemente"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-000-06-responder-a-chamada> a onto:DiscursiveStrategy ;
+    rdfs:label "responder a chamada"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:258#evid-000-07-procurar-a-mao> a onto:DiscursiveStrategy ;
+    rdfs:label "procurar a mao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-000-08-segurar-a-mao> a onto:DiscursiveStrategy ;
+    rdfs:label "segurar a mao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-000-09-perceber-que-nao-mais-existem-su> a onto:DiscursiveStrategy ;
+    rdfs:label "perceber que nao mais existem sussurros"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:258#evid-000-10-acesa-a-luz> a onto:DiscursiveStrategy ;
+    rdfs:label "acesa a luz"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:258#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos. Utilizacao: Os alunos devem circular pela sala escura com extremo cuidado e, encontrando alguem, toca-lo levemente, pronunciando a palavra \"Proury\". Caso ouca como respos- ta a mesma palavra, continuar circulando e fazendo novos contatos. Ao tocar em al- guem que nao responda ao seu pronunciamento, devera procurar a mao dessa pessoa. Se estiver livre, segura-la e nao mais responder quando tocado. Caso a pessoa que nao respondeu a sua indagacao esteja de maos dadas, caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre. Ao perceber que nao mais exis- tem sussurros pela sala, a luz deve ser acesa. Antes de iniciar o jogo, avisar a um partici- pante para nao responder a chamada, iniciando a formacao da corrente."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:258> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:258#evid-000-00-alunos-devem-circular>,
+        <urn:doc:258#evid-000-01-proury>,
+        <urn:doc:258#evid-000-02-circular>,
+        <urn:doc:258#evid-000-03-sala>,
+        <urn:doc:258#evid-000-04-encontrar-algum>,
+        <urn:doc:258#evid-000-05-tocar-levemente>,
+        <urn:doc:258#evid-000-06-responder-a-chamada>,
+        <urn:doc:258#evid-000-07-procurar-a-mao>,
+        <urn:doc:258#evid-000-08-segurar-a-mao>,
+        <urn:doc:258#evid-000-09-perceber-que-nao-mais-existem-su>,
+        <urn:doc:258#evid-000-10-acesa-a-luz> .
+

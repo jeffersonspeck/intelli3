@@ -1,0 +1,89 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:169> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:169#frag-000> .
+
+<urn:doc:169#evid-000-00-construir-cubos> a onto:Keyword ;
+    rdfs:label "construir cubos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-01-funcionem-alcas> a onto:Keyword ;
+    rdfs:label "funcionem alcas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-02-cubos-madeira> a onto:Keyword ;
+    rdfs:label "cubos madeira"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-03-aluno-devera-andar> a onto:Keyword ;
+    rdfs:label "aluno devera andar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-04-cordas-funcionem> a onto:Keyword ;
+    rdfs:label "cordas funcionem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-05-segurando-cordas> a onto:Keyword ;
+    rdfs:label "segurando cordas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-06-ande-apoiando> a onto:Keyword ;
+    rdfs:label "ande apoiando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-07-construir> a onto:DiscursiveStrategy ;
+    rdfs:label "construir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-08-cubos-de-madeira> a onto:ContextObject ;
+    rdfs:label "cubos de madeira"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:169#evid-000-09-cordas> a onto:ContextObject ;
+    rdfs:label "cordas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-10-tamanco> a onto:ContextObject ;
+    rdfs:label "tamanco"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:169#evid-000-11-utilizar> a onto:DiscursiveStrategy ;
+    rdfs:label "utilizar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-12-pecas> a onto:ContextObject ;
+    rdfs:label "pecas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:169#evid-000-13-andar> a onto:DiscursiveStrategy ;
+    rdfs:label "andar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-14-instrumento-de-percussao> a onto:ContextObject ;
+    rdfs:label "instrumento de percussao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:169#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Construir com cubos de madeira de pouco mais de 20cm de altura e com cordas que funcionem como alcas, uma especie de tamanco. Utilizacao: O aluno devera andar sobre as pecas, segurando as cordas. Apos o domi- nio de uma primeira fase de equilibrio, fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de per- cussao, andar apenas de lado ou andar de costas. (Existe no comercio -- Toc-Toc [Q. 1.].)"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:169> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:169#evid-000-00-construir-cubos>,
+        <urn:doc:169#evid-000-01-funcionem-alcas>,
+        <urn:doc:169#evid-000-02-cubos-madeira>,
+        <urn:doc:169#evid-000-03-aluno-devera-andar>,
+        <urn:doc:169#evid-000-04-cordas-funcionem>,
+        <urn:doc:169#evid-000-05-segurando-cordas>,
+        <urn:doc:169#evid-000-06-ande-apoiando>,
+        <urn:doc:169#evid-000-07-construir>,
+        <urn:doc:169#evid-000-08-cubos-de-madeira>,
+        <urn:doc:169#evid-000-09-cordas>,
+        <urn:doc:169#evid-000-10-tamanco>,
+        <urn:doc:169#evid-000-11-utilizar>,
+        <urn:doc:169#evid-000-12-pecas>,
+        <urn:doc:169#evid-000-13-andar>,
+        <urn:doc:169#evid-000-14-instrumento-de-percussao> .
+

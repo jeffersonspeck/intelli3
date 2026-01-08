@@ -1,0 +1,13 @@
+[Documento] urn:doc:148
+  - miVector: 30.99,24.40,0.00,25.98,18.62,0.00,0.00,0.00
+  - TOP (documento): Linguistic (score=0.3099)
+  - Ranking (top 3):
+      • Linguistic: 0.3099
+      • Musical: 0.2598
+      • Logical-Mathematical: 0.2440
+
+
+[Documento — Fragmentos] urn:doc:148
+
+[Fragmento] Preparacao: O ideal e o professor dispor de um gravador com uma fita apresentando sons diferentes. Em sua falta, pode improvisar com sons metalicos, guturais, latidos, vozes conhecidas, trechos de musica e outros. Utilizacao: Os alunos sao divididos em duas equipes e todos devem ter seus olhos vendados. Iniciando a atividade, o professor informa que irao percorrer um castelo imaginario devendo memorizar os sons ouvidos para relaciona-los na ordem em que forem apresentados. Vence a equipe que fizer a relacao mais completa e na ordem correta. O jogo permite sua aplicacao em diferentes niveis e o professor pode colecionar a fita 1, 2, 3 e assim por diante com grau de dificuldade crescente.
+  > TOP: Linguística (score=0.3099, tipo=Primary)

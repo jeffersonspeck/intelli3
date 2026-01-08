@@ -1,0 +1,92 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "facam colecoes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7724648104179619,
+      "relevance": 0.9293577981651376
+    },
+    {
+      "role": "Keyword",
+      "text": "facam colecoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7724648104179619,
+      "relevance": 0.9293577981651376
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7417473946981781,
+      "relevance": 0.9559633027522936
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7415704233226282,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "minerais",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.7415704233226282,
+      "relevance": 0.8788990825688073
+    },
+    {
+      "role": "Keyword",
+      "text": "folhas",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.7415704233226282,
+      "relevance": 0.8697247706422018
+    },
+    {
+      "role": "Keyword",
+      "text": "conchas",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.7415704233226282,
+      "relevance": 0.8623853211009174
+    },
+    {
+      "role": "Keyword",
+      "text": "cogumelos",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.7182801600100387,
+      "relevance": 0.8541284403669724
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "planejar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.6412844036697247
+    },
+    {
+      "role": "ContextObject",
+      "text": "mostruarios, referencias bibliograficas, regras essenciais",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "mostruarios, referencias bibliograficas, regras essenciais",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

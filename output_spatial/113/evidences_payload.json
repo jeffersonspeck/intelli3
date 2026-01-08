@@ -1,0 +1,68 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "papel cartao dividido",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7771677942766182,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7358629195747545,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "intelicencia espacial",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7353009832337429,
+      "relevance": 0.5221052631578947
+    },
+    {
+      "role": "Keyword",
+      "text": "cola varias figuras",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6510723457176169,
+      "relevance": 0.9031578947368422
+    },
+    {
+      "role": "Keyword",
+      "text": "varias figuras obtidas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6510723457176169,
+      "relevance": 0.8978947368421053
+    },
+    {
+      "role": "Keyword",
+      "text": "metade",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6498118379128838,
+      "relevance": 0.8200000000000001
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estrategia de identificação",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras/cartolina",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

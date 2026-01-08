@@ -1,0 +1,116 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "sentados circulo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.780173614803968,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "alunos devem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7584974184711774,
+      "relevance": 0.9904336734693877
+    },
+    {
+      "role": "Keyword",
+      "text": "professor escolhe",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7568431308260924,
+      "relevance": 0.9630102040816326
+    },
+    {
+      "role": "Keyword",
+      "text": "mensagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6922883909925291,
+      "relevance": 0.9151785714285714
+    },
+    {
+      "role": "Keyword",
+      "text": "devem comunica",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.690082378120122,
+      "relevance": 0.8832908163265306
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6895125605390202,
+      "relevance": 0.6619897959183674
+    },
+    {
+      "role": "Keyword",
+      "text": "olhar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.682018368399771,
+      "relevance": 0.8558673469387755
+    },
+    {
+      "role": "Keyword",
+      "text": "devem estar sentados",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6706938618070412,
+      "relevance": 0.985969387755102
+    },
+    {
+      "role": "Keyword",
+      "text": "escrita sussurrada",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6683081857080226,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estratégia de comunicação não verbal",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estratégia de exploração da mensagem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estratégia de exploração da mensagem",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estratégia de progressiva ampliação da mensagem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estratégia de progressiva ampliação da mensagem",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "preparar tabela",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8009545317221216,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tabela metalica",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.783869522105878,
+      "relevance": 0.9689826302729528
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7440236322759639,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6798020529768437,
+      "relevance": 0.718362282878412
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "montar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.7307692307692308
+    },
+    {
+      "role": "ContextObject",
+      "text": "pecas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.718362282878412
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "conceitos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.6923076923076923
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "criar",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.6066997518610422
+    }
+  ]
+}

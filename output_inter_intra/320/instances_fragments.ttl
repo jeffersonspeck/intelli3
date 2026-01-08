@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:320> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:320#frag-000> .
+
+<urn:doc:320#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Desenhar circulos em folhas de papel sulfite e deixar aos alunos lapis, lapis de cera ou canetas hidrocor. Utilizacao: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras, mas faze-lo segundo estados de animo das pessoas, relatados pelo profes- sor (por exemplo: Luciana perdeu um amigo e esta triste, como seria o rosto de Luciana?), c muitas outras situacoes analogas. O objetivo essencial da atividade e levar o aluno a perceber suas proprias emocoes e poder, progressivamente, fazer \"leituras\" de sentimentos em si mesmo e em outras pessoas. Tr cd E da dk : mm J =. E E a ="@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:320> ;
+    dct:type "title_or_abstract" .
+

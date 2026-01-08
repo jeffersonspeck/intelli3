@@ -1,0 +1,51 @@
+[Documento] urn:doc:154
+  - miVector: 0.00,17.10,0.00,45.63,0.00,37.27,0.00,0.00
+  - TOP (documento): Musical (score=0.4563)
+  - Ranking (top 3):
+      • Musical: 0.4563
+      • Interpersonal: 0.3727
+      • Logical-Mathematical: 0.1710
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: surdo e triangulo
+        • Keyword: necessita dispor
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3727
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: emitam sons graves
+        • Keyword: sons agudos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1710
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: surdo e triangulo
+        • Keyword: emitam sons graves
+        • Keyword: surdo
+        • Keyword: triangulo
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4563
+
+
+[Documento — Fragmentos] urn:doc:154
+
+[Fragmento] preparacao: A escola, ou o professor, necessita dispor de um surdo e um triangulo, podendo facilmente substituir esses instrumentos por objetos que emitam sons graves (surdo) e agudos (triangulo). Utilizacao: Os alunos, ao ouvirem os instrumentos, atentamente devem ir sentindo as diferencas de timbre que permitam o desenvolvimento da habilidade de clas- sificar sons graves e sons agudos. 144
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: surdo e triangulo
+        • Keyword: necessita dispor
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.3727, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: emitam sons graves
+        • Keyword: sons agudos
+    - Ativações:
+        • score=0.1710, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: surdo e triangulo
+        • Keyword: emitam sons graves
+        • Keyword: surdo
+        • Keyword: triangulo
+    - Ativações:
+        • score=0.4563, tipo=Primary

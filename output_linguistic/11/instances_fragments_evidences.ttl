@@ -1,0 +1,94 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:11> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:11#frag-000> .
+
+<urn:doc:11#evid-000-00-sentados-frente> a onto:Keyword ;
+    rdfs:label "sentados frente"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:11#evid-000-01-divididos-duplas> a onto:Keyword ;
+    rdfs:label "divididos duplas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-000-02-alunos-divididos> a onto:Keyword ;
+    rdfs:label "alunos divididos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-000-03-aluno> a onto:Keyword ;
+    rdfs:label "aluno"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-000-04-frente-frente> a onto:Keyword ;
+    rdfs:label "frente frente"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:11#evid-000-05-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-000-06-debate> a onto:Keyword ;
+    rdfs:label "debate"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-000-07-aluno-encarregado> a onto:Keyword ;
+    rdfs:label "aluno encarregado"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-000-08-encarregado-cronometrar> a onto:Keyword ;
+    rdfs:label "encarregado cronometrar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-000-09-raciocinio> a onto:Keyword ;
+    rdfs:label "raciocinio"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:11#evid-000-10-cronometrar-debate> a onto:Keyword ;
+    rdfs:label "cronometrar debate"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-000-11-debater> a onto:DiscursiveStrategy ;
+    rdfs:label "debater"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-000-12-assuntos-do-debate> a onto:ContextObject ;
+    rdfs:label "assuntos do debate"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:11#evid-000-13-perguntar> a onto:DiscursiveStrategy ;
+    rdfs:label "perguntar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:11#evid-000-14-tempo> a onto:ContextObject ;
+    rdfs:label "tempo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:11#evid-000-15-manter-a-linha-de-raciocinio> a onto:DiscursiveStrategy ;
+    rdfs:label "manter a linha de raciocinio"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:11#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Alunos divididos em duplas, sentados frente a frente. Um aluno encarrega- do de cronometrar o debate. Utilizacao: O professor deve determinar os dois assuntos do debate, um para cada alu- no. Iniciada a marcacao do tempo, cada participante deve desenvolver seu argu- mento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo e o objetivo de cada aluno e manter a linha de raciocinio de seu tema, atrapalhando o colega. Ganha ponto um dos oponentes, ou os dois, apos o tem- po estabelecido (20 a 30 segundos) que nao \"perder o fio\" de seu raciocinio."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:11> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:11#evid-000-00-sentados-frente>,
+        <urn:doc:11#evid-000-01-divididos-duplas>,
+        <urn:doc:11#evid-000-02-alunos-divididos>,
+        <urn:doc:11#evid-000-03-aluno>,
+        <urn:doc:11#evid-000-04-frente-frente>,
+        <urn:doc:11#evid-000-05-preparacao>,
+        <urn:doc:11#evid-000-06-debate>,
+        <urn:doc:11#evid-000-07-aluno-encarregado>,
+        <urn:doc:11#evid-000-08-encarregado-cronometrar>,
+        <urn:doc:11#evid-000-09-raciocinio>,
+        <urn:doc:11#evid-000-10-cronometrar-debate>,
+        <urn:doc:11#evid-000-11-debater>,
+        <urn:doc:11#evid-000-12-assuntos-do-debate>,
+        <urn:doc:11#evid-000-13-perguntar>,
+        <urn:doc:11#evid-000-14-tempo>,
+        <urn:doc:11#evid-000-15-manter-a-linha-de-raciocinio> .
+

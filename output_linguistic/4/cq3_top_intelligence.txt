@@ -1,0 +1,13 @@
+[Documento] urn:doc:4
+  - miVector: 46.07,0.00,24.75,0.00,16.58,0.00,12.61,0.00
+  - TOP (documento): Linguistic (score=0.4607)
+  - Ranking (top 3):
+      • Linguistic: 0.4607
+      • Spatial: 0.2475
+      • Bodily-Kinesthetic: 0.1658
+
+
+[Documento — Fragmentos] urn:doc:4
+
+[Fragmento] Preparacao: Utilizando gravuras de revistas, selecionando-as se possivel com a ajuda das criancas, organizar uma colecao de objetos mais ou menos do mesmo tama- nho, como frutas, brinquedos, transportes ou utensilios diversos. Utilizacao: As pecas devem ser montadas como um Jogo de Dominos (28 pecas com 7 figuras combinadas) e suas regras devem ser seguidas com a crianca nomeando os objetos, dizendo sua cor, ou criando fatos sobre os mesmos. (Existem analogos no comercio).
+  > TOP: Linguística (score=0.4607, tipo=Primary)

@@ -1,0 +1,13 @@
+[Documento] urn:doc:3
+  - miVector: 4.56,0.00,43.61,0.00,23.98,6.53,21.31,0.00
+  - TOP (documento): Spatial (score=0.4361)
+  - Ranking (top 3):
+      • Spatial: 0.4361
+      • Bodily-Kinesthetic: 0.2398
+      • Intrapersonal: 0.2131
+
+
+[Documento — Fragmentos] urn:doc:3
+
+[Fragmento] Preparacao: Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quantidade de figu- ras humanas, eventualmente animais, nas mais diversas situacoes. Utilizacao: A crianca, ou grupos de criancas, devem ser estimulados a "inventar" histo- rias, escolhendo seus personagens e descrevendo situacoes diferentes. O teatro pode ter, em etapas seguintes, um numero maior de atos e a pro- pria crianca deve ser estimulada a colecionar novos personagens. 49
+  > TOP: Espacial-visual (score=0.4361, tipo=Primary)

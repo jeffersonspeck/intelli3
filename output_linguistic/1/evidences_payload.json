@@ -1,0 +1,60 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "utilizando gravura",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7992674980147054,
+      "relevance": 0.9887640449438202
+    },
+    {
+      "role": "Keyword",
+      "text": "revistas desenhando",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7843603632759032,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "gravura revistas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7769712385228138,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "relacionem elemento",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7769712385228138,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estrategia de construção",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9260299625468165
+    },
+    {
+      "role": "ContextObject",
+      "text": "cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.7425093632958801
+    }
+  ]
+}

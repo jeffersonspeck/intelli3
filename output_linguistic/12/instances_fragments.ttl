@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:12> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:12#frag-000> .
+
+<urn:doc:12#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras. As demais, repetidas, devem ser coladas cada uma em um cartao. Utilizacao: Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e indefinido para cada item. Exemplo: O abacate verde, uma laranja amarela, etc. (Existem analogos no comercio. Loto Mundo Variado [Coluna]) 54"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:12> ;
+    dct:type "title_or_abstract" .
+

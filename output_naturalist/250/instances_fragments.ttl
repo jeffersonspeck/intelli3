@@ -1,0 +1,14 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:250> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:250#frag-000> .
+
+<urn:doc:250#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor devera estimular que os alunos, divididos em grupos, facam colecoes de produtos naturais, tais como rochas, minerais, folhas, conchas, co- gumelos ou outros produtos. Deve arrumar caixas bem divididas para expor es- sas colecoes e levar os alunos a classificar com criterio os objetos colecionados. Utilizacao: O professor deve, antes de estimular os alunos as colecoes, planejar os mostruarios, as referencias bibliograficas para que possam identificar as pecas encontradas e estabelecer as regras essenciais para a colecao."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:250> ;
+    dct:type "title_or_abstract" .
+

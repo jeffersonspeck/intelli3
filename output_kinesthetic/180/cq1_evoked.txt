@@ -1,0 +1,29 @@
+[Documento] urn:doc:180
+  - miVector: 6.00,0.00,17.96,0.00,61.55,4.40,10.09,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.6155)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6155
+      • Spatial: 0.1796
+      • Intrapersonal: 0.1009
+
+[Fragmento] Preparacao: Solicitar o servico de um marceneiro, fazendo um pequeno armario com varias portas e diferentes fechaduras. Havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves. Utilizacao: O aluno deve aprender a abrir e fechar portas, guardar objetos em diferen- tes compartimentos, abrir portas conforme orientacao do professor, situando-as a direita, a esquerda, ao centro e outros. (Existem no comercio: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela].)
+  - Bodily-Kinesthetic (via activation, score=0.6154)
+  - Interpersonal (via activation, score=0.0440)
+  - Intrapersonal (via activation, score=0.1009)
+  - Linguistic (via activation, score=0.0600)
+  - Spatial (via activation, score=0.1796)
+  - Cinestésico-corporal (via activation, score=0.6154)
+  - Espacial-visual (via activation, score=0.1796)
+  - Interpessoal (via activation, score=0.0440)
+  - Intrapessoal (via activation, score=0.1009)
+  - Linguística (via activation, score=0.0600)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)

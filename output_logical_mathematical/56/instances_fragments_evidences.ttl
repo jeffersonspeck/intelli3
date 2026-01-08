@@ -1,0 +1,59 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:56> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:56#frag-000> .
+
+<urn:doc:56#evid-000-00-preparacao-trabalhosa> a onto:Keyword ;
+    rdfs:label "preparacao trabalhosa"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:56#evid-000-01-jogo-exige> a onto:Keyword ;
+    rdfs:label "jogo exige"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#evid-000-02-exige-preparacao> a onto:Keyword ;
+    rdfs:label "exige preparacao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#evid-000-03-revistas-enrolar-tiras> a onto:Keyword ;
+    rdfs:label "revistas enrolar tiras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:56#evid-000-04-revistas-enrolar-tiras> a onto:Keyword ;
+    rdfs:label "revistas enrolar tiras"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:56#evid-000-05-utilizar-material> a onto:Keyword ;
+    rdfs:label "utilizar material"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#evid-000-06-colar-extremidade> a onto:Keyword ;
+    rdfs:label "colar extremidade"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:56#evid-000-07-usar-canudinhos> a onto:Keyword ;
+    rdfs:label "usar canudinhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:56#evid-000-08-enrolar-tiras-de-papel-colar-a-e> a onto:DiscursiveStrategy ;
+    rdfs:label "enrolar tiras de papel, colar a extremidade, usar canudinhos de refrigerantes como varetas, passando cola para dar maior consistencia, utilizar o material co…"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:56#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo exige uma preparacao trabalhosa. Com auxilio de um lapis e revistas enrolar tiras de papel de 2cm de largura. Colar a extremidade. Usar canudinhos de refrigerantes como varetas, passando cola para dar maior consistencia. Utilizacao: Utilizar o material como instrumento de contagem, para elaboracao de se- quencias e ainda formacao de conjuntos. Sugerir aos alunos que criem brincadei- ras com o material, explorando seu raciocinio logico."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:56> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:56#evid-000-00-preparacao-trabalhosa>,
+        <urn:doc:56#evid-000-01-jogo-exige>,
+        <urn:doc:56#evid-000-02-exige-preparacao>,
+        <urn:doc:56#evid-000-03-revistas-enrolar-tiras>,
+        <urn:doc:56#evid-000-04-revistas-enrolar-tiras>,
+        <urn:doc:56#evid-000-05-utilizar-material>,
+        <urn:doc:56#evid-000-06-colar-extremidade>,
+        <urn:doc:56#evid-000-07-usar-canudinhos>,
+        <urn:doc:56#evid-000-08-enrolar-tiras-de-papel-colar-a-e> .
+

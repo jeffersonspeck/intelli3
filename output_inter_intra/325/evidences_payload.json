@@ -1,0 +1,132 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "envolvam manifestacoes corporais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8073712933334235,
+      "relevance": 0.9444444444444444
+    },
+    {
+      "role": "Keyword",
+      "text": "situacoes emocionais diversas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8073712933334235,
+      "relevance": 0.8976279650436954
+    },
+    {
+      "role": "Keyword",
+      "text": "tambem situacoes emocionais",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8066655921861265,
+      "relevance": 0.9019975031210986
+    },
+    {
+      "role": "Keyword",
+      "text": "organizar conjunto",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8025839969002637,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "andar cavalo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7974067903341079,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "serem transmitidas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7900672433010011,
+      "relevance": 0.9675405742821473
+    },
+    {
+      "role": "Keyword",
+      "text": "conjunto mensagens",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7404183236185743,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mensagens serem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7404183236185743,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "raiva",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7399004644159687,
+      "relevance": 0.8782771535580525
+    },
+    {
+      "role": "Keyword",
+      "text": "alegria",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7399004644159687,
+      "relevance": 0.8739076154806492
+    },
+    {
+      "role": "Keyword",
+      "text": "entusiasmo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7399004644159687,
+      "relevance": 0.8682896379525593
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "organizar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9925093632958801
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "transmitir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "sortear",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.7721598002496879
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "debater",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "circulo de debates",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.5525,
+      "relevance": 0.5736579275905118
+    }
+  ]
+}

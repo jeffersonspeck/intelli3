@@ -1,0 +1,100 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "desenhar montar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7968243578979455,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenhar montar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7968243578979455,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "montar cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7462725976931531,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estrutura interna",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7299057691942821,
+      "relevance": 0.9246861924686193
+    },
+    {
+      "role": "Keyword",
+      "text": "construir cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6995184132252192,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "devera nomear",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6653331378791107,
+      "relevance": 0.7029288702928871
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "construir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.8922594142259415
+    },
+    {
+      "role": "ContextObject",
+      "text": "peças",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "nomear",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.6956066945606695
+    },
+    {
+      "role": "ContextObject",
+      "text": "objeto",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.7656903765690377
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "dizer as cores",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.765,
+      "relevance": 0.5648535564853556
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "contar historias",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.5460251046025104
+    }
+  ]
+}

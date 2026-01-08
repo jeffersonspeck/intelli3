@@ -1,0 +1,132 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "professor confecciona",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7820906809993353,
+      "relevance": 0.9892966360856269
+    },
+    {
+      "role": "Keyword",
+      "text": "fita adesiva",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7476272884422865,
+      "relevance": 0.8302752293577982
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7335779013070509,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "argolas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7009898343503687,
+      "relevance": 0.9327217125382263
+    },
+    {
+      "role": "Keyword",
+      "text": "juntar partes iguais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7004675962209664,
+      "relevance": 0.8646788990825688
+    },
+    {
+      "role": "Keyword",
+      "text": "colocar argolas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6986878003217076,
+      "relevance": 0.7599388379204893
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "confecciona",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.981651376146789
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas plasticas descartaveis, cordao, argolas e fitas colantes ou fitas adesivas coloridas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9640672782874617
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas plasticas descartaveis, cordao, argolas e fitas colantes ou fitas adesivas coloridas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9640672782874617
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "deve cortar duas garrafas ao meio, juntar partes iguais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.8914373088685015
+    },
+    {
+      "role": "ContextObject",
+      "text": "fita adesiva ou colante colorida",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.8302752293577982
+    },
+    {
+      "role": "ContextObject",
+      "text": "fita adesiva ou colante colorida",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.8302752293577982
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "passar dois fios de cerca de tres metros de comprimento e colocar argolas nas extremidades",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.8042813455657493
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "permitir jogo em duplas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "da um impulso, abrindo os bracos e arremessando o objeto para outro",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.6567278287461773
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "entrando outro participante",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.5214067278287462
+    }
+  ]
+}

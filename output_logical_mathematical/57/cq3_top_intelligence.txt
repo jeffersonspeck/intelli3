@@ -1,0 +1,13 @@
+[Documento] urn:doc:57
+  - miVector: 18.27,21.91,41.56,18.27,0.00,0.00,0.00,0.00
+  - TOP (documento): Spatial (score=0.4156)
+  - Ranking (top 3):
+      • Spatial: 0.4156
+      • Logical-Mathematical: 0.2191
+      • Linguistic: 0.1827
+
+
+[Documento — Fragmentos] urn:doc:57
+
+[Fragmento] Preparacao: O jogo utiliza tampinhas de pasta de dente (ou outras) coloridas. Utilizacao: Os alunos devem agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal. E interessante associar este jogo ao "Formas Vazadas", com os alunos colocando diferentes grupos de tampinhas em formas geometricas. As sequencias devem ser repetidas muitas vezes e e im- portante que os conceitos estejam claramente fixados para todos. (Existem no mercado jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.)
+  > TOP: Espacial-visual (score=0.4156, tipo=Primary)

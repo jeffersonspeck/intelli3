@@ -1,0 +1,49 @@
+[Documento] urn:doc:255
+  - miVector: 12.12,0.00,25.90,0.00,0.00,61.98,0.00,0.00
+  - TOP (documento): Interpersonal (score=0.6198)
+  - Ranking (top 3):
+      • Interpersonal: 0.6198
+      • Spatial: 0.2590
+      • Linguistic: 0.1212
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: árvore grande ou planta exótica
+        • DiscursiveStrategy: dar algumas pistas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2590
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: estimular
+        • Keyword: alunos
+        • Keyword: alunos possam descobri
+        • Keyword: estimule
+        • Keyword: professor
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6198
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: contar uma história
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1212
+
+
+[Documento — Fragmentos] urn:doc:255
+
+[Fragmento] Preparacao: E indispensavel que o professor "invente" um "monstro" e que estimule seus alunos para essa cacada. Deve contar, com entusiasmo, uma historia e dar algumas "pistas" para que os alunos possam descobri-lo. Utilizacao: Considerando que "monstro" e um ser de conformacao extravagante, uma grande arvore, ou uma planta exotica pode ser o monstro. Os alunos nao devem saber quem e o monstro c nem onde fica, mas atraves de algumas pistas sugeridas pelo professor deverao procurar encontra-lo. Essas pistas devem ser explicadas com muitas informacoes naturais que agucem a audicao, a sensibilidade olfativa e curio- sidade dos alunos. O professor devera manter durante todo o tempo o espirito da brincadeira, oferecendo aos alunos varias sugestoes. 203
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: árvore grande ou planta exótica
+        • DiscursiveStrategy: dar algumas pistas
+    - Ativações:
+        • score=0.2590, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: estimular
+        • Keyword: alunos
+        • Keyword: alunos possam descobri
+        • Keyword: estimule
+        • Keyword: professor
+    - Ativações:
+        • score=0.6198, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: contar uma história
+    - Ativações:
+        • score=0.1212, tipo=Secondary

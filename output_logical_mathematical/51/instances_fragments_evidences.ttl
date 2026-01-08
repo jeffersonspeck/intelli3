@@ -1,0 +1,44 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:51> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:51#frag-000> .
+
+<urn:doc:51#evid-000-00-alunos-devem-comparar> a onto:Keyword ;
+    rdfs:label "alunos devem comparar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:51#evid-000-01-tamanho> a onto:Keyword ;
+    rdfs:label "tamanho"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:51#evid-000-02-maiores> a onto:Keyword ;
+    rdfs:label "maiores"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:51#evid-000-03-menores> a onto:Keyword ;
+    rdfs:label "menores"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:51#evid-000-04-comparar-tamanhos> a onto:DiscursiveStrategy ;
+    rdfs:label "comparar tamanhos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:51#evid-000-05-tampas-plasticas-de-tres-tamanho> a onto:ContextObject ;
+    rdfs:label "tampas plasticas de tres tamanhos bem diferentes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:51#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Tampas plasticas de tres tamanhos bem diferentes que serao os \"ninhos\". Utilizacao: Os alunos devem comparar os tres tamanhos de tampas para identificar as maiores e as menores. O professor deve introduzir o conceito de tamanho \"me- dio\" e solicitar que os alunos as encontrem. Formar fileiras, ordenando os ninhos segundo seu tamanho. Encaixar em ordem os ninhos menores nos maiores. 79"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:51> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:51#evid-000-00-alunos-devem-comparar>,
+        <urn:doc:51#evid-000-01-tamanho>,
+        <urn:doc:51#evid-000-02-maiores>,
+        <urn:doc:51#evid-000-03-menores>,
+        <urn:doc:51#evid-000-04-comparar-tamanhos>,
+        <urn:doc:51#evid-000-05-tampas-plasticas-de-tres-tamanho> .
+

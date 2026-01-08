@@ -1,0 +1,56 @@
+[Documento] urn:doc:58
+  - miVector: 14.61,47.04,17.34,0.00,0.00,21.02,0.00,0.00
+  - TOP (documento): Logical-Mathematical (score=0.4704)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.4704
+      • Interpersonal: 0.2102
+      • Spatial: 0.1734
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: jogo de domino
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1734
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: jogar em duplas, trios ou grupos maiores
+        • DiscursiveStrategy: tornar mais atrativo
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2102
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: fixar conceitos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1461
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: domino
+        • Keyword: fixar conceitos
+        • Keyword: jogo domino
+        • Keyword: recurso fixar
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4704
+
+
+[Documento — Fragmentos] urn:doc:58
+
+[Fragmento] Preparacao: O jogo de domino e um excelente recurso para fixar conceitos sobre sistemas de numeracao. Para torna-lo mais atrativo, o professor pode preparar, em cartolina ou papel-cartao, dominos com formatos de animais ou pessoas. Na verdade o que importa e o numero de pontos que indica as caracteristicas do jogo. Utilizacao: Os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores. (Existe no mercado -- Domino Joaninha, Trimino e outros -- Uki-Uki.)
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: jogo de domino
+    - Ativações:
+        • score=0.1734, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: jogar em duplas, trios ou grupos maiores
+        • DiscursiveStrategy: tornar mais atrativo
+    - Ativações:
+        • score=0.2102, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: fixar conceitos
+    - Ativações:
+        • score=0.1461, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: domino
+        • Keyword: fixar conceitos
+        • Keyword: jogo domino
+        • Keyword: recurso fixar
+    - Ativações:
+        • score=0.4704, tipo=Primary

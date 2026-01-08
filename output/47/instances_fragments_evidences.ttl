@@ -1,0 +1,69 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:47> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:47#frag-000> .
+
+<urn:doc:47#evid-000-00-improvisar-latas-vazias> a onto:Keyword ;
+    rdfs:label "improvisar latas vazias"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-000-01-diferentes> a onto:Keyword ;
+    rdfs:label "diferentes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-000-02-diferentes> a onto:Keyword ;
+    rdfs:label "diferentes"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:47#evid-000-03-tamanhos> a onto:Keyword ;
+    rdfs:label "tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-000-04-diferentes-tamanhos> a onto:Keyword ;
+    rdfs:label "diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-000-05-tamanhos-diversos> a onto:Keyword ;
+    rdfs:label "tamanhos diversos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-000-06-diferentes-sequencias> a onto:Keyword ;
+    rdfs:label "diferentes sequencias"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:47#evid-000-07-torres> a onto:Keyword ;
+    rdfs:label "torres"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-000-08-enfileirar-sem-regras> a onto:DiscursiveStrategy ;
+    rdfs:label "enfileirar sem regras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-000-09-latas-vazias-de-diferentes-taman> a onto:ContextObject ;
+    rdfs:label "latas vazias de diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-000-10-caixas-de-fosforo-vazias-e-cubos> a onto:ContextObject ;
+    rdfs:label "caixas de fosforo vazias e cubos de madeira"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Improvisar latas vazias de diferentes tamanhos. Pintar essas latas com cores diferentes. Caixas de fosforo vazias e cubos de madeira tambem podem ser utilizados Utilizacao: Os alunos devem empilhar e enfileirar as latas sem observar regras e, em etapas subsequentes, formar torres de tamanhos diversos, identificando as torres \"altas\" e as \"baixas\" em diferentes sequencias. (Existe no mercado -- Cubos Coloridos -- Uki-Uki) 77"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:47> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:47#evid-000-00-improvisar-latas-vazias>,
+        <urn:doc:47#evid-000-01-diferentes>,
+        <urn:doc:47#evid-000-02-diferentes>,
+        <urn:doc:47#evid-000-03-tamanhos>,
+        <urn:doc:47#evid-000-04-diferentes-tamanhos>,
+        <urn:doc:47#evid-000-05-tamanhos-diversos>,
+        <urn:doc:47#evid-000-06-diferentes-sequencias>,
+        <urn:doc:47#evid-000-07-torres>,
+        <urn:doc:47#evid-000-08-enfileirar-sem-regras>,
+        <urn:doc:47#evid-000-09-latas-vazias-de-diferentes-taman>,
+        <urn:doc:47#evid-000-10-caixas-de-fosforo-vazias-e-cubos> .
+

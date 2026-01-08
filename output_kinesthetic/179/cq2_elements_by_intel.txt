@@ -1,0 +1,55 @@
+[Documento] urn:doc:179
+  - miVector: 0.00,0.00,8.57,0.00,54.75,36.68,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5475)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5475
+      • Interpersonal: 0.3668
+      • Spatial: 0.0857
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: peteca
+        • Keyword: aluno devera jogar
+        • Keyword: aumentar progressivamente
+        • Keyword: jogar peteca
+        • Keyword: petecas estimular
+        • Keyword: usar petecas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5475
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: cesta conica com cabo e alavanca arremessadora de bola plastica
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0857
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: discutir
+        • DiscursiveStrategy: estabelecer
+        • Keyword: estimular diferentes
+        • Keyword: petecas estimular
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3668
+
+
+[Documento — Fragmentos] urn:doc:179
+
+[Fragmento] Preparacao: Usar petecas e estimular diferentes formas de uso. Utilizacao: O aluno devera jogar a peteca, recebe-la com uma e com outra mao. Au- mentar progressivamente as distancias dos arremessos. Estabelecer claros limites e discutir com os alunos novas regras e novos jogos, usando sempre esse recur- so. Um brinquedo (Plic-Ploc -- fabricado por Stelco) constituido por uma cesta conica com cabo e alavanca arremessadora de bola plastica representa tambem excelente recurso para exercicios analogos. (Existem no comercio diversas marcas.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: peteca
+        • Keyword: aluno devera jogar
+        • Keyword: aumentar progressivamente
+        • Keyword: jogar peteca
+        • Keyword: petecas estimular
+        • Keyword: usar petecas
+    - Ativações:
+        • score=0.5475, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: cesta conica com cabo e alavanca arremessadora de bola plastica
+    - Ativações:
+        • score=0.0857, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: discutir
+        • DiscursiveStrategy: estabelecer
+        • Keyword: estimular diferentes
+        • Keyword: petecas estimular
+    - Ativações:
+        • score=0.3668, tipo=Secondary

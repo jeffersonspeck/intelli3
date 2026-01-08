@@ -1,0 +1,111 @@
+[Documento] urn:doc:332
+  - miVector: 41.54,0.00,4.43,0.00,10.98,27.96,15.09,0.00
+  - TOP (documento): Linguistic (score=0.4154)
+  - Ranking (top 3):
+      • Linguistic: 0.4154
+      • Interpersonal: 0.2796
+      • Intrapersonal: 0.1509
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: autografos
+        • ContextObject: lapis ou caneta
+        • DiscursiveStrategy: conquistar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1943
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: folha de papel em branco
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0783
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: distribuir
+        • DiscursiveStrategy: encerrar
+        • DiscursiveStrategy: estrategia de discussão
+        • DiscursiveStrategy: pedir
+        • Keyword: alunos
+        • Keyword: atividade
+        • Keyword: discussao
+        • Keyword: participantes
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2952
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: autografos
+        • DiscursiveStrategy: lembrar
+        • Keyword: perceber casa
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2791
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: escrever
+        • Keyword: anotar alto
+        • Keyword: branco distribuida
+        • Keyword: devera anotar
+        • Keyword: existe maior facilidade
+        • Keyword: folha
+        • Keyword: identificar
+        • Keyword: letra
+        • Keyword: papel branco
+        • Keyword: situacao cria alternativas
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.4615
+
+
+[Documento — Fragmentos] urn:doc:332
+
+[Fragmento] Preparacao: Uma folha de papel em branco distribuida a cada aluno, que devera anotar ao alto e com letra de forma o seu nome. Lapis ou caneta para todos os participantes. Utilizacao: Os alunos deverao conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes, pedindo que os colegas assimem seus nomes, de forma legivel, em sua folha. Inicia a atividade, lembrando que ao termina-la todos os alunos devem ter suas folhas em maos. Passado o tempo esta- belecido, encerra a atividade e solicita aos alunos que contem os autografos obtidos. Indaga a alguns alunos quantos autografos obtiveram e a outros, quantos autografos deram.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: autografos
+        • ContextObject: lapis ou caneta
+        • DiscursiveStrategy: conquistar
+    - Ativações:
+        • score=0.1943, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: folha de papel em branco
+    - Ativações:
+        • score=0.0783, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: distribuir
+        • DiscursiveStrategy: encerrar
+        • DiscursiveStrategy: pedir
+        • Keyword: alunos
+        • Keyword: atividade
+        • Keyword: participantes
+    - Ativações:
+        • score=0.2952, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • DiscursiveStrategy: lembrar
+    - Ativações:
+        • score=0.0523, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: escrever
+        • Keyword: anotar alto
+        • Keyword: branco distribuida
+        • Keyword: devera anotar
+        • Keyword: folha
+        • Keyword: letra
+        • Keyword: papel branco
+    - Ativações:
+        • score=0.3799, tipo=Primary
+
+[Fragmento] E perceptivel que existe maior facilidade em se identificar as "conquistas" que as "ofertas" e essa situacao cria alternativas para uma discussao final sobre dar e receber autografos e perceber em casa, na escola e em outros ambientes se damos mais ou se recebemos mais autografos. 2517
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: estrategia de discussão
+        • Keyword: discussao
+    - Ativações:
+        • score=0.2594, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: autografos
+        • Keyword: perceber casa
+    - Ativações:
+        • score=0.2791, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: existe maior facilidade
+        • Keyword: identificar
+        • Keyword: situacao cria alternativas
+    - Ativações:
+        • score=0.4615, tipo=Primary

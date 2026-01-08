@@ -1,0 +1,107 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:261> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:261#frag-000> .
+
+<urn:doc:261#evid-000-00-inteligencia-cinestesico-corpora> a onto:Keyword ;
+    rdfs:label "inteligencia cinestesico corporal"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-000-01-jogo-sacola-surpresa> a onto:Keyword ;
+    rdfs:label "jogo sacola surpresa"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:261#evid-000-02-espaco-aberto> a onto:Keyword ;
+    rdfs:label "espaco aberto"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:261#evid-000-03-caracteristicas-identificadas> a onto:Keyword ;
+    rdfs:label "caracteristicas identificadas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:261#evid-000-04-identificadas-jogo> a onto:Keyword ;
+    rdfs:label "identificadas jogo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:261#evid-000-05-preparacao> a onto:Keyword ;
+    rdfs:label "preparacao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-000-06-bolinhas> a onto:Keyword ;
+    rdfs:label "bolinhas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-000-07-professor-devera-esconder> a onto:Keyword ;
+    rdfs:label "professor devera esconder"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-000-08-terreno> a onto:Keyword ;
+    rdfs:label "terreno"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:261#evid-000-09-determinado-terreno> a onto:Keyword ;
+    rdfs:label "determinado terreno"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:261#evid-000-10-ambiente-natural> a onto:Keyword ;
+    rdfs:label "ambiente natural"@pt .
+
+<urn:doc:261#evid-000-11-esconder> a onto:DiscursiveStrategy ;
+    rdfs:label "esconder"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-000-12-camuflar> a onto:DiscursiveStrategy ;
+    rdfs:label "camuflar"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:261#evid-000-13-distribuir> a onto:DiscursiveStrategy ;
+    rdfs:label "distribuir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-000-14-bolinhas-de-vidro> a onto:ContextObject ;
+    rdfs:label "bolinhas de vidro"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-000-15-terreno> a onto:ContextObject ;
+    rdfs:label "terreno"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:261#evid-000-16-produtos-do-ambiente-natural> a onto:ContextObject ;
+    rdfs:label "produtos do ambiente natural"@pt .
+
+<urn:doc:261#evid-000-17-falar-aos-alunos-sobre-a-camufla> a onto:DiscursiveStrategy ;
+    rdfs:label "falar aos alunos sobre a camuflagem e dar exemplo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:261#evid-000-18-mapa-e-uma-bussola> a onto:ContextObject ;
+    rdfs:label "mapa e uma bussola"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:261#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Dez a quinze bolinhas de vidro e um espaco aberto com as caracteristicas identificadas no jogo da sacola-surpresa (inteligencia cinestesico-corporal). Utilizacao: O professor devera esconder as bolinhas em um determinado terreno, camu- flando-as com produtos do ambiente natural. Falar aos alunos sobre a camuflagem e dar exemplo, achando uma das bolinhas. Distribui-las pelo terreno, algumas com localizacao mais facil e outros em locais (ou camuflagens) mais dificeis. Um mapa e uma bussola podem ser usados para alunos maiores tornando a procura bem mais expressiva e operatoria. 206"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:261> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:261#evid-000-00-inteligencia-cinestesico-corpora>,
+        <urn:doc:261#evid-000-01-jogo-sacola-surpresa>,
+        <urn:doc:261#evid-000-02-espaco-aberto>,
+        <urn:doc:261#evid-000-03-caracteristicas-identificadas>,
+        <urn:doc:261#evid-000-04-identificadas-jogo>,
+        <urn:doc:261#evid-000-05-preparacao>,
+        <urn:doc:261#evid-000-06-bolinhas>,
+        <urn:doc:261#evid-000-07-professor-devera-esconder>,
+        <urn:doc:261#evid-000-08-terreno>,
+        <urn:doc:261#evid-000-09-determinado-terreno>,
+        <urn:doc:261#evid-000-10-ambiente-natural>,
+        <urn:doc:261#evid-000-11-esconder>,
+        <urn:doc:261#evid-000-12-camuflar>,
+        <urn:doc:261#evid-000-13-distribuir>,
+        <urn:doc:261#evid-000-14-bolinhas-de-vidro>,
+        <urn:doc:261#evid-000-15-terreno>,
+        <urn:doc:261#evid-000-16-produtos-do-ambiente-natural>,
+        <urn:doc:261#evid-000-17-falar-aos-alunos-sobre-a-camufla>,
+        <urn:doc:261#evid-000-18-mapa-e-uma-bussola> .
+

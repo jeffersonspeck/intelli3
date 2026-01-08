@@ -1,0 +1,13 @@
+[Documento] urn:doc:157
+  - miVector: 10.80,36.45,24.78,27.96,0.00,0.00,0.00,0.00
+  - TOP (documento): Logical-Mathematical (score=0.3645)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3645
+      • Musical: 0.2796
+      • Spatial: 0.2478
+
+
+[Documento — Fragmentos] urn:doc:157
+
+[Fragmento] Preparacao: A atividade utiliza um xilofone pequeno, que pode ser improvisado com uma caixa de madeira e placas tambem de madeira removiveis. Duas baquetas com pontas arredondadas. Utilizacao: Os alunos devem "descobrir" as notas musicais pela audicao dos instru- mentos com a introducao, uma a uma, das placas na superficie da caixa, desenvolvendo a entonacao e a compreensao das diferencas entre cada uma das notas musicais. Em etapas posteriores, as placas podem ir sendo introduzidas duas a duas e assim progressivamente.
+  > TOP: Lógico-matemática (score=0.3645, tipo=Primary)

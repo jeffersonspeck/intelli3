@@ -1,0 +1,156 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "usar panos coloridos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8036171042562208,
+      "relevance": 0.9873684210526316
+    },
+    {
+      "role": "Keyword",
+      "text": "botoes pressao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7909003536134297,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7863522210641539,
+      "relevance": 0.9421052631578948
+    },
+    {
+      "role": "Keyword",
+      "text": "botoes diferentes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7841664834463759,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ganchos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7368472392757491,
+      "relevance": 0.9
+    },
+    {
+      "role": "Keyword",
+      "text": "coloridos casas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7019279991529536,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "casas botoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6851047173081246,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "aluno",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6404641324932068,
+      "relevance": 0.7842105263157895
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "utilização",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "panos coloridos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9821052631578947
+    },
+    {
+      "role": "ContextObject",
+      "text": "casas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9610526315789474
+    },
+    {
+      "role": "ContextObject",
+      "text": "botoes de diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9526315789473684
+    },
+    {
+      "role": "ContextObject",
+      "text": "botões de pressão",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "ganchos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.9
+    },
+    {
+      "role": "ContextObject",
+      "text": "tecido",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.8821052631578947
+    },
+    {
+      "role": "ContextObject",
+      "text": "ilhos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.8505263157894737
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "deverá abotoar e desabotoar, dar laco, enganchar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "deve ser programada",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.7094736842105263
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "preferivelmente com os olhos vendados",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.54
+    }
+  ]
+}

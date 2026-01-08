@@ -1,0 +1,222 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "contendo varios carros",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8072218696583673,
+      "relevance": 0.9670079635949943
+    },
+    {
+      "role": "Keyword",
+      "text": "carros combate",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7933094192960358,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7651879019287229,
+      "relevance": 0.9931740614334471
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7651879019287229,
+      "relevance": 0.9931740614334471
+    },
+    {
+      "role": "Keyword",
+      "text": "pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7369863726763923,
+      "relevance": 0.9368600682593857
+    },
+    {
+      "role": "Keyword",
+      "text": "preparacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7319918123992234,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "rosa ventos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7316346360278397,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "rosa ventos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7316346360278397,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "soldados",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7160762856538364,
+      "relevance": 0.947098976109215
+    },
+    {
+      "role": "Keyword",
+      "text": "ajuda",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7000271796524757,
+      "relevance": 0.984641638225256
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "preparar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9931740614334471
+    },
+    {
+      "role": "ContextObject",
+      "text": "exercito",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.9726962457337884
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "armar livremente",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "peças",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "arrumar a direita ou a esquerda",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "ponto de referencia",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.6382252559726962
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "classificar em fila",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "rosa dos ventos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.7798634812286689
+    },
+    {
+      "role": "ContextObject",
+      "text": "rosa dos ventos",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.765,
+      "relevance": 0.7798634812286689
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "explorar os conceitos de pontos cardeais",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.5597269624573379
+    },
+    {
+      "role": "ContextObject",
+      "text": "bussola",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.765,
+      "relevance": 0.7542662116040956
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "existem diferentes modalidades",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8087957726799252,
+      "relevance": 0.9953271028037384
+    },
+    {
+      "role": "Keyword",
+      "text": "existem diferentes modalidades",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.8087957726799252,
+      "relevance": 0.9953271028037384
+    },
+    {
+      "role": "Keyword",
+      "text": "modalidades jogos",
+      "lang": "pt",
+      "intelligence": "Naturalistic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "jogos armar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "utilizar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "jogos de armar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.765,
+      "relevance": 0.8364485981308412
+    }
+  ]
+}

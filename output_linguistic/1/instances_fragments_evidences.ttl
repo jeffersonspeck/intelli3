@@ -1,0 +1,49 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:1> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:1#frag-000> .
+
+<urn:doc:1#evid-000-00-utilizando-gravura> a onto:Keyword ;
+    rdfs:label "utilizando gravura"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:1#evid-000-01-revistas-desenhando> a onto:Keyword ;
+    rdfs:label "revistas desenhando"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:1#evid-000-02-gravura-revistas> a onto:Keyword ;
+    rdfs:label "gravura revistas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:1#evid-000-03-relacionem-elemento> a onto:Keyword ;
+    rdfs:label "relacionem elemento"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:1#evid-000-04-estrategia-de-construo> a onto:DiscursiveStrategy ;
+    rdfs:label "estrategia de construção"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:1#evid-000-05-figuras> a onto:ContextObject ;
+    rdfs:label "figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:1#evid-000-06-cartolina> a onto:ContextObject ;
+    rdfs:label "cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:1#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Utilizando gravura de revistas ou desenhando, fazer uma colecao de figuras que relacionem um elemento a outro, como por exemplo: homem x homem / homem x mulher / mulher x mulher / plantas x produtos elaborados / animais x suas casas EUR inumeros outros. Colar em cartolina. Recortar de maneira a deixar encaixes. Utilizacao: A crianca deve formar figuras atraves dos encaixes, nomeando os objetos que aparecem em cada figura. Em uma etapa seguinte, devem verbalizar a cor dos objetos e, posterior- mente, para que servem. 48"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:1> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:1#evid-000-00-utilizando-gravura>,
+        <urn:doc:1#evid-000-01-revistas-desenhando>,
+        <urn:doc:1#evid-000-02-gravura-revistas>,
+        <urn:doc:1#evid-000-03-relacionem-elemento>,
+        <urn:doc:1#evid-000-04-estrategia-de-construo>,
+        <urn:doc:1#evid-000-05-figuras>,
+        <urn:doc:1#evid-000-06-cartolina> .
+

@@ -1,0 +1,51 @@
+[Documento] urn:doc:171
+  - miVector: 0.00,0.00,28.27,0.00,51.45,20.28,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5145)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5145
+      • Spatial: 0.2827
+      • Interpersonal: 0.2028
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: estruturar
+        • Keyword: bola gigante
+        • Keyword: bolas plasticas gigantes
+        • Keyword: recebe volta
+        • Keyword: usar bolas plasticas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5145
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: bolas plasticas gigantes
+        • ContextObject: chao, parede
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2827
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: existem comercio
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2028
+
+
+[Documento — Fragmentos] urn:doc:171
+
+[Fragmento] Preparacao: Usar bolas plasticas gigantes. As melhores sao as de inflar, com 12 gomos. Utilizacao: O aluno devera jogar a bola, recebe-la de volta. Atira-la no chao, na parede c executar diversos movimentos. O essencial e que o professor estruture essa sequencia e desenvolva limites e regras claras a acao ludica. Pode, se preferir, estabelecer sistemas de pontuacao e desenvolver atividades grupais diversas. (Existem no comercio diversas marcas [Lidice -- Bola Gigante].)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: estruturar
+        • Keyword: bola gigante
+        • Keyword: bolas plasticas gigantes
+        • Keyword: recebe volta
+        • Keyword: usar bolas plasticas
+    - Ativações:
+        • score=0.5145, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: bolas plasticas gigantes
+        • ContextObject: chao, parede
+    - Ativações:
+        • score=0.2827, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: existem comercio
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.2028, tipo=Secondary

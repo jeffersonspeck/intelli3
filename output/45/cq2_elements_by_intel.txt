@@ -1,0 +1,87 @@
+[Documento] urn:doc:45
+  - miVector: 4.84,9.10,28.40,0.00,42.04,15.62,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4204)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4204
+      • Spatial: 0.2840
+      • Interpersonal: 0.1562
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: empilhar
+        • DiscursiveStrategy: enfileirar sem regras
+        • Keyword: alunos deverao enfileirar
+        • Keyword: cubos
+        • Keyword: cubos madeira
+        • Keyword: diferentes cubos
+        • Keyword: garrafas
+        • Keyword: garrafas plastico
+        • Keyword: jogo cubos
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4204
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: garrafas
+        • ContextObject: garrafas de plastico
+        • ContextObject: garrafas de tamanhos bem diferentes
+        • DiscursiveStrategy: comparando os tamanhos
+        • DiscursiveStrategy: separar as garrafas maiores das menores
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2840
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: jogo
+        • Keyword: jogo cubos
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1562
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: verbalizando os conceitos de 'grande' e de 'pequeno'
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0484
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: plastico tamanhos
+        • Keyword: tamanhos bem diferentes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0910
+
+
+[Documento — Fragmentos] urn:doc:45
+
+[Fragmento] Preparacao: Nome Jogo dos cubos 5 a 6 garrafas de plastico de tamanhos bem diferentes ou cubos de madeira. Utilizacao: Os alunos deverao enfileirar as garrafas sem observar regras, tentar empi- lha-las. Em oportunidades posteriores devem separar as garrafas maiores das menores, comparando os tamanhos e verbalizando os conceitos de "grande" e de "pequeno". (Existe no mercado -- Cubos [6 Cubos de encaixe e outros.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: empilhar
+        • DiscursiveStrategy: enfileirar sem regras
+        • Keyword: alunos deverao enfileirar
+        • Keyword: cubos
+        • Keyword: cubos madeira
+        • Keyword: diferentes cubos
+        • Keyword: garrafas
+        • Keyword: garrafas plastico
+        • Keyword: jogo cubos
+    - Ativações:
+        • score=0.4204, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: garrafas
+        • ContextObject: garrafas de plastico
+        • ContextObject: garrafas de tamanhos bem diferentes
+        • DiscursiveStrategy: comparando os tamanhos
+        • DiscursiveStrategy: separar as garrafas maiores das menores
+    - Ativações:
+        • score=0.2840, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: jogo
+        • Keyword: jogo cubos
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.1562, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: verbalizando os conceitos de 'grande' e de 'pequeno'
+    - Ativações:
+        • score=0.0484, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: plastico tamanhos
+        • Keyword: tamanhos bem diferentes
+    - Ativações:
+        • score=0.0910, tipo=Secondary

@@ -1,0 +1,50 @@
+[Documento] urn:doc:259
+  - miVector: 0.00,0.00,22.19,0.00,19.53,38.75,19.53,0.00
+  - TOP (documento): Interpersonal (score=0.3875)
+  - Ranking (top 3):
+      • Interpersonal: 0.3875
+      • Spatial: 0.2219
+      • Bodily-Kinesthetic: 0.1953
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: utilizar a brincadeira de 'esconde-esconde'
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1953
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: área de jogo
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2219
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: estabelecer limites
+        • Keyword: jogo
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3875
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: trocar ideias sobre como se sentiram como presas e/ou predadores
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1953
+
+
+[Documento — Fragmentos] urn:doc:259
+
+[Fragmento] Preparacao: Espaco aberto em um local seguro onde nao existam espinhos, barrancos ou rios profundos, mas que, ao mesmo tempo, possa oferecer bons pontos para escon- derijos. Estabelecer os limites da area onde ocorrera o jogo. Utilizacao: O professor devera explicar aos alunos a vida dos animais na natureza e sua inevitavel condicao de "presas" e "predadores", destacando que quase todo animal e, ao mesmo tempo, presa e predador. As regras seguem, em linhas gerais, as de uma brincadeira de "esconde-esconde". Imciado o jogo, o predador podera tentar achar sua presa e pode ser combinado a emissao de som do predador. O jogo conti- nua ate que todas as presas sejam pegas ou ate que o predador desista de sua busca. E indispensavel que, ao final, professor e alunos troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: utilizar a brincadeira de 'esconde-esconde'
+    - Ativações:
+        • score=0.1953, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: área de jogo
+    - Ativações:
+        • score=0.2219, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: estabelecer limites
+        • Keyword: jogo
+    - Ativações:
+        • score=0.3875, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • DiscursiveStrategy: trocar ideias sobre como se sentiram como presas e/ou predadores
+    - Ativações:
+        • score=0.1953, tipo=Secondary

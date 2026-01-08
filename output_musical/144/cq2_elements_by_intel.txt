@@ -1,0 +1,55 @@
+[Documento] urn:doc:144
+  - miVector: 16.03,0.00,0.00,0.00,66.24,17.73,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.6624)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6624
+      • Interpersonal: 0.1773
+      • Linguistic: 0.1603
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: embalagens de filme, pregos, pedrinhas, grampos, botoes
+        • Keyword: botoes
+        • Keyword: embalagem
+        • Keyword: embalagens
+        • Keyword: grampos
+        • Keyword: pedrinhas
+        • Keyword: pregos
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6624
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: alunos
+        • Keyword: preparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1773
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: descobrir conteúdos
+        • Keyword: uso
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1603
+
+
+[Documento — Fragmentos] urn:doc:144
+
+[Fragmento] Preparacao: Oito a dez embalagens de filmes de fotografia, pregos, pedrinhas, grampos, botoes. Formar, duas a duas, embalagens de filme com materiais diferentes. Colar uma letra ou um numero em cada uma das embalagens. Utilizacao: Os alunos, individualmente ou em dupla, devem descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente identificar o som produzido. Procure depois em outra embalagem que identifica o mesmo som. Existem inumeras etapas para a continuidade do uso do instrumento. O professor deve criar programas diferentes e anotar os resultados obtidos pelos alunos nessas diferentes etapas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: embalagens de filme, pregos, pedrinhas, grampos, botoes
+        • Keyword: botoes
+        • Keyword: embalagem
+        • Keyword: embalagens
+        • Keyword: grampos
+        • Keyword: pedrinhas
+        • Keyword: pregos
+    - Ativações:
+        • score=0.6624, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: alunos
+        • Keyword: preparacao
+    - Ativações:
+        • score=0.1773, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: descobrir conteúdos
+        • Keyword: uso
+    - Ativações:
+        • score=0.1603, tipo=Secondary

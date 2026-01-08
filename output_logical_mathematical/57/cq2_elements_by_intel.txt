@@ -1,0 +1,50 @@
+[Documento] urn:doc:57
+  - miVector: 18.27,21.91,41.56,18.27,0.00,0.00,0.00,0.00
+  - TOP (documento): Spatial (score=0.4156)
+  - Ranking (top 3):
+      • Spatial: 0.4156
+      • Logical-Mathematical: 0.2191
+      • Linguistic: 0.1827
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: tampinhas de pasta de dente (ou outras) coloridas
+        • Keyword: vertical horizontal
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4156
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: agrupar quantidades, colocando-as em uma sequencia vertical ou horizontal, associar ao 'Formas Vazadas'
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1827
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: jogo utiliza tampinhas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2191
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: agrupar quantidades, colocando-as em uma sequencia vertical ou horizontal, associar ao 'Formas Vazadas'
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1827
+
+
+[Documento — Fragmentos] urn:doc:57
+
+[Fragmento] Preparacao: O jogo utiliza tampinhas de pasta de dente (ou outras) coloridas. Utilizacao: Os alunos devem agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal. E interessante associar este jogo ao "Formas Vazadas", com os alunos colocando diferentes grupos de tampinhas em formas geometricas. As sequencias devem ser repetidas muitas vezes e e im- portante que os conceitos estejam claramente fixados para todos. (Existem no mercado jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.)
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: tampinhas de pasta de dente (ou outras) coloridas
+        • Keyword: vertical horizontal
+    - Ativações:
+        • score=0.4156, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: agrupar quantidades, colocando-as em uma sequencia vertical ou horizontal, associar ao 'Formas Vazadas'
+    - Ativações:
+        • score=0.1827, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: jogo utiliza tampinhas
+    - Ativações:
+        • score=0.2191, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: agrupar quantidades, colocando-as em uma sequencia vertical ou horizontal, associar ao 'Formas Vazadas'
+    - Ativações:
+        • score=0.1827, tipo=Secondary

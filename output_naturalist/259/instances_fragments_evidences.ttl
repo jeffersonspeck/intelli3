@@ -1,0 +1,51 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:259> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:259#frag-000> .
+
+<urn:doc:259#evid-000-00-jogo> a onto:Keyword ;
+    rdfs:label "jogo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:259#evid-000-01-presas> a onto:Keyword ;
+    rdfs:label "presas"@pt .
+
+<urn:doc:259#evid-000-02-estabelecer-limites> a onto:DiscursiveStrategy ;
+    rdfs:label "estabelecer limites"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:259#evid-000-03-explicar-a-vida-dos-animais-na-n> a onto:DiscursiveStrategy ;
+    rdfs:label "explicar a vida dos animais na natureza"@pt .
+
+<urn:doc:259#evid-000-04-utilizar-a-brincadeira-de-escond> a onto:DiscursiveStrategy ;
+    rdfs:label "utilizar a brincadeira de 'esconde-esconde'"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:259#evid-000-05-trocar-ideias-sobre-como-se-sent> a onto:DiscursiveStrategy ;
+    rdfs:label "trocar ideias sobre como se sentiram como presas e/ou predadores"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:259#evid-000-06-rea-de-jogo> a onto:ContextObject ;
+    rdfs:label "área de jogo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:259#evid-000-07-animais-na-natureza> a onto:ContextObject ;
+    rdfs:label "animais na natureza"@pt .
+
+<urn:doc:259#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Espaco aberto em um local seguro onde nao existam espinhos, barrancos ou rios profundos, mas que, ao mesmo tempo, possa oferecer bons pontos para escon- derijos. Estabelecer os limites da area onde ocorrera o jogo. Utilizacao: O professor devera explicar aos alunos a vida dos animais na natureza e sua inevitavel condicao de \"presas\" e \"predadores\", destacando que quase todo animal e, ao mesmo tempo, presa e predador. As regras seguem, em linhas gerais, as de uma brincadeira de \"esconde-esconde\". Imciado o jogo, o predador podera tentar achar sua presa e pode ser combinado a emissao de som do predador. O jogo conti- nua ate que todas as presas sejam pegas ou ate que o predador desista de sua busca. E indispensavel que, ao final, professor e alunos troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:259> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:259#evid-000-00-jogo>,
+        <urn:doc:259#evid-000-01-presas>,
+        <urn:doc:259#evid-000-02-estabelecer-limites>,
+        <urn:doc:259#evid-000-03-explicar-a-vida-dos-animais-na-n>,
+        <urn:doc:259#evid-000-04-utilizar-a-brincadeira-de-escond>,
+        <urn:doc:259#evid-000-05-trocar-ideias-sobre-como-se-sent>,
+        <urn:doc:259#evid-000-06-rea-de-jogo>,
+        <urn:doc:259#evid-000-07-animais-na-natureza> .
+
