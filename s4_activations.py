@@ -10,15 +10,10 @@ import json
 from pathlib import Path
 from typing import Any
 
-# Namespaces exatamente como na OntoMI
 BFO  = Namespace("http://purl.obolibrary.org/obo/BFO_")
 IAO  = Namespace("http://purl.obolibrary.org/obo/IAO_")
 ONTO = Namespace("https://techcoop.com.br/ontomi#")
 
-
-# ------------------------------------------------------------
-# Util
-# ------------------------------------------------------------
 def _base_from_fragment_uri(frag_uri: URIRef) -> str:
     u = str(frag_uri)
     return (u.split("#", 1)[0] + "#") if "#" in u else (u.rstrip("/") + "#")
@@ -91,7 +86,7 @@ def compute_scores_by_fragment_from_graph(
 
             # A evidência pode evocar 1+ inteligências
             for cls in g.objects(el, ONTO.evokesIntelligence):
-                intel_name = str(cls).rsplit("#", 1)[-1]  # localname
+                intel_name = str(cls).rsplit("#", 1)[-1] 
                 per_intel[intel_name] = per_intel.get(intel_name, 0.0) + float(w_role)
 
         if per_intel:
@@ -166,7 +161,7 @@ def add_activations_rdf(
         for local, cls, valf in resolved:
             if local in per_local:
                 prev_cls, prev_val = per_local[local]
-                per_local[local] = (prev_cls, prev_val + valf)  # soma (ou troque por max, se preferir)
+                per_local[local] = (prev_cls, prev_val + valf) 
             else:
                 per_local[local] = (cls, valf)
 
@@ -179,7 +174,6 @@ def add_activations_rdf(
         if sum_score <= 0.0:
             continue
 
-        # define primária (1 só). Tie-break determinístico: maior score, depois local
         items_sorted = sorted(items, key=lambda t: (-t[2], t[0]))
         primary_local = items_sorted[0][0]
 
@@ -190,33 +184,27 @@ def add_activations_rdf(
         for local, cls, valf in items_sorted:
             act_uri = URIRef(f"{base_ns}act-{k:03d}-{local}")
 
-            # Tipagem base
             g.add((act_uri, RDF.type, ONTO.IntelligenceActivation))
             valf_norm = valf / sum_score
 
             g.set((act_uri, ONTO.hasActivationScore,
                 Literal(_qdec(valf_norm, vec_places), datatype=XSD.decimal)))
 
-            # opcional (recomendado): guarda o bruto para auditoria/debug
             g.set((act_uri, ONTO.hasWeight,
                 Literal(_qdec(valf, vec_places), datatype=XSD.decimal)))
 
-            # is about -> IntelligenceDisposition (classe)
             g.set((act_uri, IAO["0000136"], cls))
 
             if link_isAboutFragment:
                 g.set((act_uri, ONTO.isAboutFragment, frag))
 
-            # Liga sempre em hasActivation
             g.add((frag, ONTO.hasActivation, act_uri))
 
             is_primary = (local == primary_local)
 
-            # IMPORTANTÍSSIMO: 1 único hasActivationType por ativação
             g.set((act_uri, ONTO.hasActivationType, ONTO.Primary if is_primary else ONTO.Secondary))
 
             if is_primary:
-                # IMPORTANTÍSSIMO: 1 único hasPrimaryActivation por fragmento
                 g.set((frag, ONTO.hasPrimaryActivation, act_uri))
             else:
                 if valf >= secondary_threshold:
@@ -349,7 +337,6 @@ def run_s4_from_files(
     if not s3_ttl_path.exists():
         raise FileNotFoundError(f"S3 TTL não encontrado: {s3_ttl_path}")
 
-    # Carrega: ontologia (opcional) + instâncias S3
     g = Graph()
     if onto_path is not None and onto_path.exists():
         g.parse(onto_path.as_posix(), format="turtle")
@@ -363,7 +350,6 @@ def run_s4_from_files(
     payload_obj: Optional[Dict[int, List[Dict[str, Any]]]] = None
     if evidences_payload_json_path is not None and evidences_payload_json_path.exists():
         raw = json.loads(evidences_payload_json_path.read_text(encoding="utf-8"))
-        # JSON pode vir com chaves string; normaliza para int
         payload_obj = {int(k): v for k, v in raw.items()}
 
     if payload_obj is not None:

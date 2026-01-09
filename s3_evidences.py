@@ -36,23 +36,21 @@ OLLAMA_HOST  = getattr(ea, "OLLAMA_HOST",  "http://127.0.0.1:11434")
 
 def make_payload_from_s1_json_file(s1_json_path: str, *, annotate_fn):
     """
-    Compat layer:
-    - Se evidences_api tiver make_payload_from_s1_json_file, usa.
-    - Senão, lê o S1 e executa annotate_fn(doc) direto.
-    Retorna {k(int): [evidences...]}.
+    Camada de compatibilidade:
+    - Se evidences_api possuir make_payload_from_s1_json_file, utiliza essa função.
+    - Caso contrário, lê a saída da S1 e executa annotate_fn(doc) diretamente.
+    Retorna um dicionário no formato {k (int): [evidências...]}.
     """
     fn = getattr(ea, "make_payload_from_s1_json_file", None)
     if callable(fn):
         try:
             out = fn(s1_json_path, annotate_fn=annotate_fn)
         except TypeError:
-            # caso a assinatura antiga seja (path, annotate_fn)
             out = fn(s1_json_path, annotate_fn)
     else:
         doc = json.loads(Path(s1_json_path).read_text(encoding="utf-8"))
         out = annotate_fn(doc)
 
-    # garante chaves int
     fixed = {}
     for k, v in (out or {}).items():
         try:
@@ -62,17 +60,14 @@ def make_payload_from_s1_json_file(s1_json_path: str, *, annotate_fn):
             fixed[k] = v
     return fixed
 
-# Namespaces exatamente como na OntoMI
 BFO  = Namespace("http://purl.obolibrary.org/obo/BFO_")
 IAO  = Namespace("http://purl.obolibrary.org/obo/IAO_")
 ONTO = Namespace("https://techcoop.com.br/ontomi#")
 OWL  = Namespace("http://www.w3.org/2002/07/owl#")
 DCT  = Namespace("http://purl.org/dc/terms/")
 
-# cache para não ficar “subindo” ollama por doc
 _OLLAMA_READY = False
 
-# Mapeia role -> classe OntoMI (não inventa fora)
 ROLE_TO_CLASS = {
     "keyword": ONTO.Keyword,
     "contextobject": ONTO.ContextObject,
@@ -102,7 +97,6 @@ def _collect_fragment_nodes(g: Graph) -> List[URIRef]:
     if not frags:
         return []
 
-    # tenta ordenar por DCT.identifier inteiro
     scored: List[Tuple[int, URIRef]] = []
     for f in frags:
         ident = None
@@ -113,7 +107,6 @@ def _collect_fragment_nodes(g: Graph) -> List[URIRef]:
             except Exception:
                 ident = None
         if ident is None:
-            # fallback: tenta extrair ...frag-XYZ do URI
             m = re.search(r"frag-(\d+)", str(f))
             ident = int(m.group(1)) if m else 10**9
         scored.append((ident, f))
@@ -177,7 +170,6 @@ def _safe_annotate_fn(use_llm: bool) -> Tuple[callable, bool]:
         annotate_fn = annotate_with_llm_default(use_llm=use_llm)
         return annotate_fn, use_llm
 
-    # não suporta desligar -> assume LLM sempre
     annotate_fn = annotate_with_llm_default()
     return annotate_fn, True
 
@@ -245,7 +237,6 @@ def add_evidences_rdf(
 
             g.add((frag, ONTO.usesElement, evid_uri))
 
-            # opcional: evokesIntelligence
             if link_evokes_intelligence:
                 intel_name = (ev.get("intelligence") or "").strip()
                 target_cls = _resolve_intelligence(intel_index, intel_name)
@@ -291,7 +282,6 @@ def run_s3_from_files(
         annotate_fn=annotate_fn,
     )
 
-    # salva payload “cru” para auditoria
     _write_json(out_payload_json_path, evidences_payload)
 
     g, created_map, role_counts = add_evidences_rdf(

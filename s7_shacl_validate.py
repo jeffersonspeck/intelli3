@@ -1,4 +1,3 @@
-# s7_shacl_validate.py
 from __future__ import annotations
 
 from pathlib import Path
@@ -50,7 +49,6 @@ def run_s7_shacl_validate_from_files(
         debug=False,
     )
 
-    # contar resultados (violations/warnings/infos) via sh:result
     results_count = 0
     for _ in report_graph.objects(None, SH.result):
         results_count += 1
@@ -75,9 +73,8 @@ def run_s7_shacl_validate_from_files(
     }
 
 def main():
-    # Ajuste se necessário
-    DATA_PATH  = Path("instances_fragments_profile.ttl")  # arquivo com instâncias
-    SHACL_PATH = Path("ontomi.ttl")                       # sua ontologia com as SHACL shapes
+    DATA_PATH  = Path("instances_fragments_profile.ttl")
+    SHACL_PATH = Path("ontomi.ttl")
 
     if not DATA_PATH.exists():
         print(f"[ERRO] Arquivo de dados não encontrado: {DATA_PATH.resolve()}")
@@ -86,21 +83,15 @@ def main():
         print(f"[ERRO] Ontologia (SHACL) não encontrada: {SHACL_PATH.resolve()}")
         sys.exit(1)
 
-    # 1) Carregar grafos
     data_g  = Graph()
     data_g.parse(DATA_PATH.as_posix(), format="turtle")
 
     shacl_g = Graph()
     shacl_g.parse(SHACL_PATH.as_posix(), format="turtle")
 
-    # Opcional: ont_graph para apoiar a resolução de rdfs:subClassOf*, domínios etc.
-    # Aqui uso a própria ontologia também como ont_graph.
     ont_g = Graph()
     ont_g.parse(SHACL_PATH.as_posix(), format="turtle")
 
-    # 2) Validar
-    # inference='rdfs' ajuda com subClassOf* e domínio/alcance em várias checagens.
-    # advanced=True habilita recursos extras do pySHACL.
     conforms, report_graph, report_text = validate(
         data_graph=data_g,
         shacl_graph=shacl_g,
@@ -115,7 +106,6 @@ def main():
         debug=False,
     )
 
-    # 3) Saída amigável
     print("=" * 60)
     print("VALIDAÇÃO SHACL — OntoMI")
     print("=" * 60)
@@ -124,12 +114,10 @@ def main():
     print(report_text.strip())
     print("-" * 60)
 
-    # 4) Se quiser salvar o relatório em TTL:
     out_ttl = Path("shacl_report.ttl")
     report_graph.serialize(destination=out_ttl.as_posix(), format="turtle")
     print(f"Relatório SHACL salvo em: {out_ttl.as_posix()}")
 
-    # Sair com código != 0 se não conforme (útil em CI)
     sys.exit(0 if conforms else 2)
 
 if __name__ == "__main__":

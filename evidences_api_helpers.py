@@ -1,4 +1,3 @@
-# evidences_api_helpers.py
 from evidences_api import annotate_doc_keywords_with_llm
 
 def annotate_with_llm_default(**overrides):

@@ -1,4 +1,3 @@
-# s6_tests.py
 from __future__ import annotations
 
 from pathlib import Path
@@ -10,7 +9,6 @@ from rdflib.namespace import RDF, RDFS, DCTERMS
 ONTO = Namespace("https://techcoop.com.br/ontomi#")
 IAO  = Namespace("http://purl.obolibrary.org/obo/IAO_")
 
-# Ordem fixa do vetor (8D) — mesma ordem do seu comentário em onto:miVector
 VECTOR_ORDER = [
     ("Linguistic",            ONTO.hasLinguisticScore),
     ("Logical-Mathematical",  ONTO.hasLogicalMathematicalScore),
@@ -22,10 +20,6 @@ VECTOR_ORDER = [
     ("Naturalist",            ONTO.hasNaturalistScore),
 ]
 
-
-# ------------------------------------------------------------
-# Helpers (internos) — documento/fragmento e vetor do DOCUMENTO
-# ------------------------------------------------------------
 def _first_literal_lang(g: Graph, subj, pred, lang: str) -> Optional[str]:
     for lit in g.objects(subj, pred):
         if getattr(lit, "language", None) == lang:
@@ -33,7 +27,6 @@ def _first_literal_lang(g: Graph, subj, pred, lang: str) -> Optional[str]:
     return None
 
 def _doc_label(g: Graph, doc) -> str:
-    # prefer rdfs:label pt/en, depois dct:title pt/en, depois qualquer label/title, senão IRI
     pt = _first_literal_lang(g, doc, RDFS.label, "pt")
     if pt: return pt
     en = _first_literal_lang(g, doc, RDFS.label, "en")
@@ -66,13 +59,11 @@ def _frag_identifier(g: Graph, frag) -> Optional[int]:
         return None
 
 def _frag_to_doc(g: Graph, frag):
-    # prefer links do fragmento -> documento
     for p in (ONTO.isFragmentOfDocument, DCTERMS.isPartOf):
         doc = next(iter(g.objects(frag, p)), None)
         if doc is not None:
             return doc
 
-    # fallback: documento -> fragmento
     doc = next(iter(g.subjects(ONTO.hasFragment, frag)), None)
     if doc is not None:
         return doc
@@ -83,8 +74,6 @@ def _frag_to_doc(g: Graph, frag):
     return None
 
 def _doc_vector_node(g: Graph, doc):
-    # VOCÊ pediu: "não é vector do documento, é vector" => usa hasProfileVector no doc
-    # mas suportamos legacy hasDocumentProfileVector também
     for p in (ONTO.hasProfileVector, ONTO.hasDocumentProfileVector):
         vec = next(iter(g.objects(doc, p)), None)
         if vec is not None:
@@ -104,7 +93,6 @@ def _doc_vector_scores(g: Graph, vec) -> Tuple[Dict[str, float], Optional[str]]:
     mv = next(iter(g.objects(vec, ONTO.miVector)), None)
     mv_str = str(mv) if mv is not None else None
 
-    # fallback: se não vierem 8 scores numéricos, tenta parsear miVector (aceita % ou 0..1)
     if len(scores) < 8 and mv_str:
         parts = [p.strip() for p in mv_str.split(",")]
         if len(parts) == 8:
@@ -113,7 +101,6 @@ def _doc_vector_scores(g: Graph, vec) -> Tuple[Dict[str, float], Optional[str]]:
             for p in parts:
                 try:
                     v = float(p)
-                    # se parece percent (ex.: 51.47), converte para 0..1
                     if v > 1.0:
                         v = v / 100.0
                     vals.append(v)
@@ -184,7 +171,6 @@ ORDER BY ?frag ?source ?intelLabel ?intel
 def _cq1_text(g: Graph) -> Tuple[str, Dict[str, object]]:
     rows = list(g.query(CQ1_SPARQL))
 
-    # doc -> frag -> items
     by_doc = {}
     for frag, fragLabel, intel, intelLabel, source, score in rows:
         doc = _frag_to_doc(g, frag)
@@ -203,7 +189,6 @@ def _cq1_text(g: Graph) -> Tuple[str, Dict[str, object]]:
 
     out_lines = []
 
-    # ordena por label do doc
     for _, doc_info in sorted(by_doc.items(), key=lambda kv: kv[1]["doc_label"].lower()):
         out_lines.append(f"[Documento] {doc_info['doc_label']}")
         if doc_info["doc_node"] is not None:
@@ -226,7 +211,7 @@ def _cq1_text(g: Graph) -> Tuple[str, Dict[str, object]]:
                 ident3 = None
             ident_final = ident3 if ident3 is not None else (ident2 if ident2 is not None else 10**9)
             return (ident_final, (frag_lbl or frag_iri))
-        # como o sort acima tem g.resource gambiarra, vamos fazer um mais seguro:
+        # como o sort acima tem g.resource gambiarra, aqui fiz diferente
         def _frag_sort_key_safe(item):
             (frag_iri, frag_lbl), _ = item
             try:
@@ -264,7 +249,6 @@ def _cq1_text(g: Graph) -> Tuple[str, Dict[str, object]]:
 
 # ------------------------------------------------------------
 # CQ2 — elementos/ativações agrupados por inteligência (por fragmento)
-# + AGORA: também agrega no nível do DOCUMENTO
 # ------------------------------------------------------------
 CQ2_SPARQL = """
 PREFIX onto: <https://techcoop.com.br/ontomi#>
@@ -400,8 +384,6 @@ def _cq2_text(g: Graph) -> Tuple[str, Dict[str, object]]:
         out_lines.append("")
         out_lines.append("")
 
-    # depois, imprime por fragmento (como antes), mas agrupado pelo doc
-    # agrupa fragmentos por doc_label e ordena por identifier quando existir
     frags_by_doc = {}
     for frag_id, info in data_frag.items():
         frags_by_doc.setdefault(info["doc_id"], {"doc_label": info["doc_label"], "frags": []})
@@ -409,7 +391,6 @@ def _cq2_text(g: Graph) -> Tuple[str, Dict[str, object]]:
 
     for doc_id, bucket in sorted(frags_by_doc.items(), key=lambda kv: kv[1]["doc_label"].lower()):
         bucket["frags"].sort(key=lambda t: (_frag_identifier(g, t[0]) if False else 10**9, (t[1]["label"] or t[0]).lower()))
-        # sort robusto:
         def _safe_ident(frag_id: str) -> int:
             try:
                 from rdflib import URIRef
@@ -454,7 +435,6 @@ def _cq2_text(g: Graph) -> Tuple[str, Dict[str, object]]:
 
 # ------------------------------------------------------------
 # CQ3 — top inteligência por fragmento (max score)
-# + AGORA: também TOP no nível do DOCUMENTO (via vetor)
 # ------------------------------------------------------------
 CQ3_SPARQL = """
 PREFIX onto: <https://techcoop.com.br/ontomi#>
@@ -486,7 +466,6 @@ ORDER BY ?frag ?intel
 def _cq3_text(g: Graph) -> Tuple[str, Dict[str, object]]:
     rows = list(g.query(CQ3_SPARQL))
 
-    # per-frag
     by_frag = {}
     for frag, fragLabel, intel, lbl_pt, lbl_en, score, atype in rows:
         fid  = str(frag)
@@ -503,14 +482,12 @@ def _cq3_text(g: Graph) -> Tuple[str, Dict[str, object]]:
         frag_entry = by_frag.setdefault(fid, {"label": flbl, "doc_id": doc_id, "doc_label": doc_lbl, "acts": []})
         frag_entry["acts"].append({"intel_id": iid, "intel_name": iname, "score": sc, "type": typ})
 
-    # docs presentes (para imprimir TOP do documento)
     docs = {}
     for info in by_frag.values():
         docs.setdefault(info["doc_id"], info["doc_label"])
 
     out_lines = []
 
-    # 1) TOP do DOCUMENTO (via vetor)
     for doc_id, doc_lbl in sorted(docs.items(), key=lambda kv: kv[1].lower()):
         out_lines.append(f"[Documento] {doc_lbl}")
         # tenta recuperar o nó do doc a partir de qualquer fragmento desse doc
@@ -532,7 +509,6 @@ def _cq3_text(g: Graph) -> Tuple[str, Dict[str, object]]:
         out_lines.append("")
         out_lines.append("")
 
-    # 2) TOP por FRAGMENTO (como antes), agrupando por doc
     frags_by_doc = {}
     for fid, info in by_frag.items():
         frags_by_doc.setdefault(info["doc_id"], {"doc_label": info["doc_label"], "frags": []})
@@ -595,7 +571,6 @@ def _cq3_text(g: Graph) -> Tuple[str, Dict[str, object]]:
         "fragments": len(by_frag),
     }
     return "\n".join(out_lines).rstrip() + "\n", metrics
-
 
 # ------------------------------------------------------------
 # Runner para o batch (S6)

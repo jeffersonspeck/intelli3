@@ -1,15 +1,108 @@
 from __future__ import annotations
-
-"""run_batch.py — Orquestrador (S1 por enquanto).
-
-Comportamento padrão (sem parâmetros):
-- lê todos os .txt de ./source/
-- para cada arquivo cria ./output/<nome_do_arquivo>/
-- executa S1 e salva ./output/<nome>/s1_output.json
-
-Objetivo: começar simples e ir incrementando S2..S7 em passos.
 """
+run_batch.py — Orquestrador do pipeline Intelli3 (execução em lote).
 
+Este script é o ponto de entrada do Intelli3 para processamento em lote de
+documentos textuais (.txt), executando de forma controlada e incremental
+as etapas S1 a S7 do pipeline.
+
+Visão geral do funcionamento:
+
+1. Descoberta de entradas
+   - Lê todos os arquivos .txt presentes na pasta de origem (--source-dir).
+   - Para cada arquivo, gera um identificador (slug) seguro baseado no nome.
+
+2. Organização da saída
+   - Para cada documento de entrada, cria uma pasta dedicada em:
+       ./output/<doc_slug>/
+   - Todos os artefatos gerados pelas etapas S1–S7 são armazenados dentro
+     dessa pasta.
+   - Um relatório agregado do lote é escrito em:
+       ./output/batch_report.json
+
+3. Execução do pipeline (S1 → S7)
+
+   As etapas são executadas de forma sequencial e dependente:
+
+   S1 — Ingestão e pré-processamento
+     - Limpeza textual (ex.: ftfy, clean_text, pdf_breaks).
+     - Segmentação em parágrafos/fragments.
+     - Detecção de idioma (LID).
+     - Identificação heurística de título/resumo.
+     - Gera: s1_output.json
+
+   S2 — Instanciação RDF
+     - Converte o JSON da S1 em instâncias RDF (Documento, Fragmentos).
+     - Utiliza a ontologia OntoMI (TTL).
+     - Suporta diferentes modos de grafo (full, instances, instances+imports).
+     - Gera: instances_fragments.ttl
+
+   S3 — Evidências semânticas
+     - Analisa fragmentos e cria evidências do tipo:
+         Keyword, ContextObject, DiscursiveStrategy.
+     - Pode utilizar LLM (via evidences_api.py + Ollama).
+     - Opcionalmente cria links onto:evokesIntelligence.
+     - Gera:
+         instances_fragments_evidences.ttl
+         evidences_payload.json
+
+   S4 — Ativações (a_{k,j})
+     - Calcula scores de ativação por fragmento e inteligência.
+     - Aplica pesos por tipo de evidência (keyword/context/strategy).
+     - Define inteligência primária e secundárias via limiar theta.
+     - Gera:
+         instances_fragments_activations.ttl
+         scores_by_fragment.json
+
+   S5 — Vetor de perfil (MIProfileVector)
+     - Agrega ativações em vetores de Inteligências Múltiplas.
+     - Pode gerar vetores por fragmento, por documento ou ambos.
+     - Suporta normalização L1, L2 ou softmax (com temperatura).
+     - Opcionalmente escreve a string percentual onto:miVector.
+     - Gera:
+         instances_fragments_profile.ttl
+
+   S6 — Consultas de validação (CQ1, CQ2, CQ3)
+     - Executa consultas SPARQL sobre o grafo final:
+         CQ1: inteligências evocadas
+         CQ2: elementos contribuintes por inteligência
+         CQ3: inteligência primária vs secundárias
+     - Gera arquivos .txt com os resultados.
+
+   S7 — Validação SHACL
+     - Valida o grafo RDF final contra as restrições SHACL da OntoMI.
+     - Suporta inferência (none, rdfs, owlrl).
+     - Gera:
+         shacl_report.ttl
+         shacl_report.txt
+
+4. Controle de dependências entre etapas
+   - Se uma etapa for desativada, todas as subsequentes são automaticamente
+     desabilitadas.
+   - Exemplo: se S3 for desativada, S4–S7 não serão executadas.
+
+5. Telemetria e rastreabilidade
+   - Para cada documento:
+       run_log.json com tempos, métricas e status de cada etapa.
+   - Para o lote completo:
+       batch_report.json com resumo geral (sucessos, falhas, métricas).
+
+6. Tratamento de falhas
+   - Se um documento falhar, o erro é registrado em:
+       output/<doc_slug>/s1_error.txt
+   - O processamento continua para os demais arquivos.
+
+Objetivo do script:
+
+- Fornecer um orquestrador reproduzível, extensível e controlável
+  para experimentação científica com o pipeline Intelli3.
+- Permitir análises incrementais (ligar/desligar etapas).
+- Garantir rastreabilidade completa dos resultados por documento
+  e por execução em lote.
+
+Este script é parte integrante da pesquisa de Mestrado em Ciência da
+Computação associada ao projeto Intelli3.
+"""
 import argparse
 import json
 import re
@@ -66,16 +159,16 @@ def _write_json(path: Path, obj: dict) -> None:
 
 def _parse_mivector_string(s: str) -> List[float]:
     """
-    Accepts formats like:
-      "54.22,0.00,5.34,0.00,40.44,0.00,0.00,0.00"
-    Returns list[float] length 8 when possible, else [].
+    Aceita formatos como:
+    "54.22,0.00,5.34,0.00,40.44,0.00,0.00,0.00"
+    Retorna uma lista de float com tamanho 8 quando possível; caso contrário,
+    retorna uma lista vazia.
     """
     if not s:
         return []
     parts = [p.strip() for p in str(s).split(",") if p.strip()]
     vals: List[float] = []
     for p in parts:
-        # tolerate percent sign if ever present
         p2 = p.replace("%", "").strip()
         try:
             vals.append(float(p2))
@@ -86,8 +179,9 @@ def _parse_mivector_string(s: str) -> List[float]:
 
 def _extract_mivector_from_profile_ttl(ttl_path: Path, vector_uri: Optional[str]) -> Optional[str]:
     """
-    Reads instances_fragments_profile.ttl and tries to extract onto:miVector
-    for the given doc_vector_uri. Returns the literal string or None.
+    Lê o arquivo instances_fragments_profile.ttl e tenta extrair o valor
+    onto:miVector para a URI de vetor do documento (doc_vector_uri).
+    Retorna a string literal ou None.
     """
     if not ttl_path.exists() or not vector_uri:
         return None
@@ -96,22 +190,19 @@ def _extract_mivector_from_profile_ttl(ttl_path: Path, vector_uri: Optional[str]
     g.parse(ttl_path.as_posix(), format="turtle")
     subj = URIRef(vector_uri)
 
-    # find predicate whose localname is "miVector"
     for p, o in g.predicate_objects(subj):
         local = str(p)
         if local.endswith("miVector") or local.split("#")[-1] == "miVector" or local.split("/")[-1] == "miVector":
             return str(o)
 
-    # fallback: sometimes miVector might be attached to the doc itself (rare, but safe)
-    # try also doc_id URIRef(subject) if vector_uri looks absent/misleading
     return None
 
 
 def write_batch_excel(out_dir: Path, batch_rows: List[dict]) -> Path:
     """
-    Creates output/batch_summary.xlsx with 1 row per document:
-      doc_id, doc_slug, miVector, primary_mi, primary_score,
-      per-MI score columns, per-MI active columns.
+    Cria o arquivo output/batch_summary.xlsx com 1 linha por documento:
+    doc_id, doc_slug, miVector, mi_primaria, score_primario,
+    colunas de score por Inteligência (MI), colunas de ativação por MI.
     """
     wb = Workbook()
     ws = wb.active
@@ -125,7 +216,6 @@ def write_batch_excel(out_dir: Path, batch_rows: List[dict]) -> Path:
 
     ws.append(header)
 
-    # style header
     for col_idx, name in enumerate(header, start=1):
         cell = ws.cell(row=1, column=col_idx, value=name)
         cell.font = Font(bold=True)
@@ -170,7 +260,6 @@ def write_batch_excel(out_dir: Path, batch_rows: List[dict]) -> Path:
         line.extend(active)
         ws.append(line)
 
-    # basic column sizing
     widths = {
         "A": 22,  # doc_id
         "B": 18,  # doc_slug
@@ -229,7 +318,7 @@ def process_one(
         "started_at": _iso_now(),
         "steps": {},
     }
-    if do_s2 and (not False):  # (mantém estrutura; controle vem do main)
+    if do_s2 and (not False):
         pass
 
     # mede o total real do documento (S1 + S2 + S3)
@@ -269,7 +358,7 @@ def process_one(
             doc,
             onto_path=str(onto_path),
             base_instances_ns=base_ns,
-            graph_mode=s2_graph,  # <-- usa o parâmetro que veio do main()
+            graph_mode=s2_graph,
         )
         dt2 = time.perf_counter() - t1
 
@@ -303,7 +392,7 @@ def process_one(
             s2_ttl_path=s2_ttl_path,
             out_ttl_path=s3_ttl_out,
             out_payload_json_path=s3_payload_out,
-            onto_path=onto_path,  # importante para indexar inteligências quando S2 estiver em "instances"
+            onto_path=onto_path,
             use_llm=s3_use_llm,
             link_evokes_intelligence=s3_link_evokes,
         )
@@ -460,8 +549,6 @@ def process_one(
             **metrics,
         }
 
-
-
     run_log["ended_at"] = _iso_now()
     # total real do documento (S1 + S2 + S3)
     run_log["total_s"] = round((time.perf_counter() - t_total0), 6)
@@ -601,8 +688,6 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     onto_path = (SCRIPT_DIR / args.onto).resolve()
 
-    # mantém sua validação original, mas agora S3 depende de S2:
-    # se S2 estiver ligado, ontologia precisa existir
     if not args.no_s2 and not onto_path.exists():
         print(f"[ERRO] ontologia não encontrada: {onto_path}")
         return 1
@@ -626,7 +711,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                 do_s3=do_s3_global,
                 onto_path=onto_path,
                 base_ns=args.base_ns,
-                s2_graph=args.s2_graph,  # <-- FALTAVA ESTE ARGUMENTO (você já corrigiu)
+                s2_graph=args.s2_graph,
                 s3_use_llm=(not args.s3_no_llm),
                 s3_link_evokes=(not args.s3_no_evokes),
                 do_s4=do_s4_global,
@@ -667,12 +752,12 @@ def main(argv: Optional[List[str]] = None) -> int:
     }
     _write_json(out_dir / "batch_report.json", report)
 
-    # Excel resumo do batch (1 linha por doc)
-    try:
-        xlsx_path = write_batch_excel(out_dir, batch_rows)
-        print(f"[XLSX OK] -> {xlsx_path.as_posix()}")
-    except Exception as e:
-        print(f"[XLSX FALHOU] não consegui gerar batch_summary.xlsx: {e!r}")    
+    # # Excel resumo do batch (1 linha por doc)
+    # try:
+    #     xlsx_path = write_batch_excel(out_dir, batch_rows)
+    #     print(f"[XLSX OK] -> {xlsx_path.as_posix()}")
+    # except Exception as e:
+    #     print(f"[XLSX FALHOU] não consegui gerar batch_summary.xlsx: {e!r}")    
 
     print(f"\nConcluído. Sucesso: {len(txt_files) - failures} | Falhas: {failures} | Saída: {out_dir}")
     return 0 if failures == 0 else 2

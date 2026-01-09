@@ -23,29 +23,14 @@ from requests.exceptions import RequestException
 from unidecode import unidecode
 import yake
 
-
-# ============================================================
-# Normalization (define EARLY to avoid NameError in module init)
-# ============================================================
-
 WORD_RE = re.compile(r"[a-zA-ZÀ-ÖØ-öø-ÿ]+", re.UNICODE)
 
 def _norm(s: str) -> str:
     """Normalize string for matching: lower + strip + remove accents."""
     return unidecode((s or "").strip().lower())
 
-
-# ============================================================
-# LLM config (Ollama)
-# ============================================================
-
 DEFAULT_MODEL = "mistral:7b-instruct"
 OLLAMA_HOST = "http://127.0.0.1:11434"
-
-
-# ============================================================
-# Multiple Intelligences (canonical order)
-# ============================================================
 
 INTELLIGENCES = [
     "Linguistic",
@@ -57,11 +42,6 @@ INTELLIGENCES = [
     "Intrapersonal",
     "Naturalist",
 ]
-
-# ============================================================
-# Generic TRIGGERS (fallback only; intentionally small)
-# Keep conservative to reduce bias
-# ============================================================
 
 TRIGGERS: Dict[str, Dict[str, List[str]]] = {
     # -------------------------
@@ -357,13 +337,8 @@ TRIGGERS: Dict[str, Dict[str, List[str]]] = {
     },
 }
 
-# ============================================================
-# Stop tokens (generic; used only to reduce YAKE junk)
-# ============================================================
-
 STOP_TOKENS = set(
     [
-        # PT function words
         "de","da","do","das","dos","a","o","as","os","e","em","no","na","nos","nas",
         "para","por","com","sem","um","uma","uns","umas","ao","aos","à","às",
         "que","se","sua","seu","suas","seus","ou","como",
@@ -376,15 +351,9 @@ STOP_TOKENS = set(
         "planejar","planeja","planejado","planejada","planejamento",
         "solicitar","solicite","fazer","faz","faca","facao","feito",
         "possivel","sempre","antes","depois","durante","todo","toda",        
-        # EN function words
         "the","a","an","and","or","of","to","in","on","for","with","without","as","by","from","at","is","are","be","been",
     ]
 )
-
-
-# ============================================================
-# Small text cleaning for extraction (generic)
-# ============================================================
 
 RE_PAGE_NUMBER_LINE = re.compile(r"^\s*\d{1,4}\s*$")
 RE_MANY_PUNCT = re.compile(r"^[\s\-\_\=\*•·\.\,\:\;]{4,}$")
@@ -399,7 +368,6 @@ def clean_for_extraction(text: str) -> str:
     t = (text or "")
     # remove rótulos muito frequentes que poluem YAKE/LLM
     t = re.sub(r"\b(Preparação|Preparacao|Utilização|Utilizacao)\s*:\s*", " ", t, flags=re.IGNORECASE)
-    # join hyphenation across whitespace/newlines
     t = re.sub(r"(\w)-\s+(\w)", r"\1\2", t, flags=re.UNICODE)
 
     lines: List[str] = []
@@ -417,11 +385,6 @@ def clean_for_extraction(text: str) -> str:
     t = re.sub(r"\s+", " ", t).strip()
     return t
 
-
-# ============================================================
-# Numeric helpers: confidence / relevance
-# ============================================================
-
 def _clip01(x: float) -> float:
     try:
         x = float(x)
@@ -431,8 +394,8 @@ def _clip01(x: float) -> float:
 
 def _yake_confidence(score: float) -> float:
     """
-    YAKE: lower score = better.
-    Convert to confidence in [0,1] using 1/(1+score).
+    YAKE: quanto menor o score, melhor.
+    Converte o score em uma confiança no intervalo [0,1] usando 1/(1+score).
     """
     try:
         s = float(score)
@@ -442,7 +405,8 @@ def _yake_confidence(score: float) -> float:
 
 def _pos_relevance(paragraph: str, term: str, floor: float = 0.50) -> float:
     """
-    Approx relevance by term position: earlier occurrences => higher relevance.
+    Aproxima a relevância pela posição do termo no texto:
+    ocorrências mais cedo implicam maior relevância.
     """
     p = (paragraph or "")
     t = (term or "")
@@ -465,11 +429,6 @@ def _assign_confidence(source: str) -> float:
         return 0.50
     return 0.60
 
-
-# ============================================================
-# Ollama helpers
-# ============================================================
-
 def _ollama_up(host: str) -> bool:
     try:
         r = requests.get(f"{host}/api/tags", timeout=3)
@@ -491,7 +450,7 @@ def start_ollama_daemon_if_needed(host: str, poll_sec: float = 1.0) -> None:
     print("[INFO] Iniciando 'ollama serve'…", flush=True)
     popen_kwargs = {}
     if platform.system() == "Windows":
-        popen_kwargs.update({"creationflags": 0x08000000})  # CREATE_NO_WINDOW
+        popen_kwargs.update({"creationflags": 0x08000000})
     else:
         popen_kwargs.update({"start_new_session": True})
 
@@ -552,11 +511,6 @@ def wait_ollama_ready(host: str, model: str, poll_sec: float = 1.0):
             pass
         time.sleep(poll_sec)
 
-
-# ============================================================
-# JSON sanitization (robust)
-# ============================================================
-
 def _extract_balanced_json(text: str) -> Optional[str]:
     s = text
     start = s.find("{")
@@ -581,11 +535,6 @@ def _sanitize_json_guess(s: str) -> str:
     guess = _extract_balanced_json(s) or s
     guess = re.sub(r",\s*([}\]])", r"\1", guess)
     return guess
-
-
-# ============================================================
-# YAKE: extraction helpers
-# ============================================================
 
 def extract_keywords(text: str, n: int = 1, lang: str = "pt") -> List[Tuple[str, float]]:
     kw_extractor = yake.KeywordExtractor(lan=lang, n=n)
@@ -614,10 +563,10 @@ def _canonical_tokens(term: str) -> List[str]:
 
 def reduce_keyword_overlaps(items: List[Tuple[str, float, int]], max_keep: int = 12) -> List[Tuple[str, float, int]]:
     """
-    Generic overlap reduction:
-    - normalize tokens, drop empty
-    - keep best score per canonical form
-    - drop terms contained in already-kept longer terms
+    Redução genérica de sobreposição:
+    - normaliza os tokens e descarta vazios
+    - mantém o melhor score por forma canônica
+    - remove termos contidos em termos mais longos já mantidos
     """
     best: Dict[str, Tuple[str, float, int]] = {}
 
@@ -647,11 +596,6 @@ def reduce_keyword_overlaps(items: List[Tuple[str, float, int]], max_keep: int =
 
     return final
 
-
-# ============================================================
-# Minimal fallback mapping (TRIGGERS)
-# ============================================================
-
 def _matches_any(text_norm: str, triggers: List[str]) -> bool:
     for t in triggers:
         tn = _norm(t)
@@ -672,7 +616,9 @@ def _matches_any(text_norm: str, triggers: List[str]) -> bool:
 
 def map_text_to_intelligences_trigger(text: str, lang_hint: str = "pt") -> List[str]:
     """
-    Conservative trigger mapping: returns MIs whose trigger strings appear in text.
+    Mapeamento conservador por gatilhos:
+    retorna as Inteligências Múltiplas (MIs) cujas strings de gatilho
+    aparecem explicitamente no texto.
     """
     tn = _norm(text)
     hits: List[str] = []
@@ -685,10 +631,12 @@ def map_text_to_intelligences_trigger(text: str, lang_hint: str = "pt") -> List[
 
 def ensure_nonempty_intelligences(text: str) -> List[str]:
     """
-    Very light safety net:
-    only returns something for strong signals. Otherwise returns [].
+    Rede de segurança muito leve:
+    retorna resultados apenas quando há sinais fortes; caso contrário,
+    retorna uma lista vazia ([]).
 
-    Important: this runs on _norm(text) (lower + unidecode).
+    Importante: esta função opera sobre _norm(text)
+    (texto em minúsculas e sem acentuação via unidecode).
     """
     t = _norm(text)
 
@@ -755,11 +703,6 @@ def ensure_nonempty_intelligences(text: str) -> List[str]:
 
     return []
 
-
-# ============================================================
-# Helpers: MI indices and normalization
-# ============================================================
-
 def idxs_to_labels_safe(idxs: Any) -> List[str]:
     labs: List[str] = []
     if not isinstance(idxs, list):
@@ -775,9 +718,11 @@ def idxs_to_labels_safe(idxs: Any) -> List[str]:
 
 def normalize_items_with_intelligence(items: List[Dict[str, Any]], lang: str = "pt") -> List[Dict[str, Any]]:
     """
-    Explode items so each record has exactly one MI label.
-    Output keys:
-      role, text, lang, intelligence, confidence, relevance
+    Expande os itens para que cada registro contenha exatamente
+    um rótulo de Inteligência Múltipla (MI).
+
+    Chaves de saída:
+    role, text, lang, intelligence, confidence, relevance
     """
     out_map: Dict[Tuple[str, str, str], Dict[str, Any]] = {}
 
@@ -793,19 +738,16 @@ def normalize_items_with_intelligence(items: List[Dict[str, Any]], lang: str = "
         labels = idxs_to_labels_safe(it.get("mi_idx"))
         assign_src = "llm" if labels else ""
 
-        # if caller provided direct label
         lab_direct = it.get("intelligence")
         if isinstance(lab_direct, str) and lab_direct in INTELLIGENCES and lab_direct not in labels:
             labels.append(lab_direct)
             if not assign_src:
                 assign_src = "llm"
 
-        # fallback triggers if empty
         if not labels:
             labels = map_text_to_intelligences_trigger(text, lang_hint=lang)
             assign_src = "trigger" if labels else ""
 
-        # final safety net (very light)
         if not labels:
             labels = ensure_nonempty_intelligences(text)
             assign_src = "forced" if labels else ""
@@ -833,11 +775,6 @@ def normalize_items_with_intelligence(items: List[Dict[str, Any]], lang: str = "
 
     return list(out_map.values())
 
-
-# ============================================================
-# LLM: assign MI for keywords WITH paragraph context (generic)
-# ============================================================
-
 def call_llm_assign_for_keywords(
     keywords: List[str],
     paragraph: str = "",
@@ -845,9 +782,12 @@ def call_llm_assign_for_keywords(
     allow_zero: bool = False,
 ) -> Dict[str, List[int]]:
     """
-    Returns: {keyword -> [mi_idx,...]} (max 0..8)
-    - Uses paragraph context to reduce "resource != objective" mistakes.
-    - If allow_zero=True, LLM may return [] for ambiguous/support terms.
+    Retorna: {keyword -> [mi_idx, ...]} (máx. 0..8)
+
+    - Utiliza o contexto do parágrafo para reduzir erros do tipo
+    “recurso ≠ objetivo”.
+    - Se allow_zero=True, o LLM pode retornar [] para termos ambíguos
+    ou apenas de apoio.
     """
     if not keywords:
         return {}
@@ -864,7 +804,6 @@ def call_llm_assign_for_keywords(
     #     "Se retornar múltiplos índices, ordene do mais relevante (primário) ao menos relevante."
     #     "Responda apenas em JSON."
     # )
-
     sys_msg = (
     "Você deve classificar cada item recebido (ROLE::texto) em 0..N inteligências, "
     "usando o CONTEXTO do parágrafo. "
@@ -1034,18 +973,13 @@ CONTRACT (exemplo de forma; não copie textos do exemplo):
         out[kw] = tmp.get(kw, [])
     return out
 
-
-# ============================================================
-# LLM: extract discourse + context (generic)
-# ============================================================
-
 def call_llm_discourse_and_context(
     paragraph: str,
     lang_hint: str = "pt",
     map_mi: bool = True,    
 ) -> List[Dict[str, Any]]:
     """
-    Returns raw items:
+    Retorna itens brutos no formato:
       {"role":"DiscursiveStrategy","text":"...","mi_idx":[2]}
       {"role":"ContextObject","text":"...","mi_idx":[1]}
     """
@@ -1211,22 +1145,17 @@ CONTRACT:
 
     return out
 
-
-# ============================================================
-# Main pipeline (per paragraph)
-# ============================================================
-
 def annotate_one_paragraph_keywords_with_llm(
     text: str,
     lang: str = "pt",
     use_n_1_3: bool = True,
-    min_score: float = 0.35,          # YAKE keep: score <= min_score
+    min_score: float = 0.35, 
     use_llm: bool = True,
     allow_keyword_zero_mi: bool = True,
 ) -> List[Dict[str, Any]]:
     """
-    Returns evidence items with:
-      role, text, lang, intelligence, confidence, relevance
+    Retorna itens de evidência contendo:
+    role, text, lang, intelligence, confidence, relevance
     """
     paragraph = clean_for_extraction(text)
     if not paragraph:
@@ -1237,15 +1166,13 @@ def annotate_one_paragraph_keywords_with_llm(
     items_raw: List[Dict[str, Any]] = []
     seen = set()
 
-    # 1) KEYWORDS (YAKE)
     kws_scored = extract_keywords_1_3(paragraph, lang=lang) if use_n_1_3 else [
         (t, float(s), 1) for (t, s) in extract_keywords(paragraph, n=1, lang=lang)
     ]
 
-    kws_scored.sort(key=lambda x: x[1])     # menor score primeiro
-    keywords_meta_raw = kws_scored[:160]     # pega 30 melhores
+    kws_scored.sort(key=lambda x: x[1]) 
+    keywords_meta_raw = kws_scored[:160]
 
-    # aplica min_score só se não matar tudo (YAKE pode variar bastante)
     if isinstance(min_score, (int, float)):
         filtered = [x for x in keywords_meta_raw if float(x[1]) <= float(min_score)]
         if len(filtered) >= 10:
@@ -1253,12 +1180,10 @@ def annotate_one_paragraph_keywords_with_llm(
 
     keywords_meta = reduce_keyword_overlaps(keywords_meta_raw, max_keep=40)
 
-    # 2) extrai DiscursiveStrategy/ContextObject SEM MI (fase A neutra)
     dc_no_mi: List[Dict[str, Any]] = []
     if llm_available:
         dc_no_mi = call_llm_discourse_and_context(paragraph=paragraph, lang_hint=lang, map_mi=False)
 
-    # 3) classifica TODOS os itens (keywords + DS/CO) com 1 chamada LLM (fase B)
     candidates: List[str] = []
     def _add_candidate(s: str):
         if s and s not in candidates:
@@ -1279,17 +1204,15 @@ def annotate_one_paragraph_keywords_with_llm(
             keywords=candidates,
             paragraph=paragraph,
             lang_hint=lang,
-            allow_zero=True,  # aqui queremos permitir "nenhuma MI" com mais liberdade
+            allow_zero=True,  # permitir "nenhuma MI" com mais liberdade
         )
     else:
         llm_map_all = {c: [] for c in candidates}
 
-     # 4) monta itens finais (um MI por registro)
     for kw, kw_score, _kw_n in keywords_meta:
         key_txt = f"Keyword::{kw}"
         idxs = llm_map_all.get(key_txt, []) or []
 
-        # BOOST Naturalist se houver gatilho forte no termo (mesmo que a LLM tenha retornado outra MI)
         boost_labs = map_text_to_intelligences_trigger(kw, lang_hint=lang)
         if "Naturalist" in boost_labs:
             idx_nat = INTELLIGENCES.index("Naturalist")  # 7
@@ -1298,7 +1221,6 @@ def annotate_one_paragraph_keywords_with_llm(
 
         assign_src = "llm" if idxs else ""
 
-        # fallback triggers only if empty
         if not idxs:
             labs = map_text_to_intelligences_trigger(kw, lang_hint=lang)
             # idxs = [INTELLIGENCES.index(l) for l in labs if l in INTELLIGENCES][:2]
@@ -1306,7 +1228,6 @@ def annotate_one_paragraph_keywords_with_llm(
             if idxs:
                 assign_src = "trigger"
 
-        # final safety net (light)
         if not idxs and not allow_keyword_zero_mi:
             labs = ensure_nonempty_intelligences(kw)
             idxs = [INTELLIGENCES.index(l) for l in labs if l in INTELLIGENCES][:1]
@@ -1335,7 +1256,6 @@ def annotate_one_paragraph_keywords_with_llm(
                     items_raw.append(entry)
                     seen.add(key)
 
-    # 5) Discursive/Context agora também passam pela mesma classificação (fase B)
     for it in dc_no_mi:
         role = (it.get("role") or "").strip()
         t = (it.get("text") or "").strip()
@@ -1386,7 +1306,6 @@ def annotate_one_paragraph_keywords_with_llm(
 
     return items
 
-
 def annotate_doc_keywords_with_llm(
     doc: Dict[str, Any],
     use_n_1_3: bool = True,
@@ -1410,12 +1329,11 @@ def annotate_doc_keywords_with_llm(
             use_n_1_3=use_n_1_3,
             min_score=min_score,
             use_llm=use_llm,
-            allow_keyword_zero_mi=True,   # generic: allow "resource-only" keywords to be ignored
+            allow_keyword_zero_mi=True,
         )
         out[int(k)] = items
 
     return out
-
 
 def annotate_chunks_keywords_with_llm(
     chunks: List[str],
@@ -1430,11 +1348,6 @@ def annotate_chunks_keywords_with_llm(
         out = annotate_doc_keywords_with_llm(doc, use_n_1_3=use_n_1_3, min_score=min_score, use_llm=use_llm)
         result[i] = out.get(0, [])
     return result
-
-
-# ============================================================
-# Factories / payload helpers (compat)
-# ============================================================
 
 def annotate_with_llm_default(**overrides):
     """
@@ -1473,11 +1386,6 @@ def make_payload_from_s1_json_file(
     doc = _read_doc_from_json(in_path)
     return annotate_fn(doc)
 
-
-# ============================================================
-# CLI (optional)
-# ============================================================
-
 if __name__ == "__main__":
     import argparse
     import io
@@ -1508,7 +1416,7 @@ if __name__ == "__main__":
 
     out_dict = annotate_doc_keywords_with_llm(
         doc,
-        use_n_1_3=True if args.n13 else True,   # keep generic default True
+        use_n_1_3=True if args.n13 else True,
         min_score=args.min_score,
         use_llm=not args.offline
     )

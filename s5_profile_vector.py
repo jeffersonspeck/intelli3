@@ -1,4 +1,3 @@
-# s5_profile_vector.py
 # ------------------------------------------------------------
 # Intelli3 / OntoMI — S5: Vetor de Perfil (v_MI) por documento
 #
@@ -19,7 +18,6 @@
 # OBS: os termos w_role, r(e), c(e) (Eq. de fragment-score) são tratados
 # upstream (ex.: no cálculo de a_{k,j}); aqui apenas consolidamos e normalizamos.
 # ------------------------------------------------------------
-
 from __future__ import annotations
 
 import json
@@ -30,8 +28,6 @@ from typing import Dict, List, Optional, Tuple, Literal
 
 from rdflib import Graph, Namespace, URIRef, RDF, Literal as RDFLiteral, XSD
 
-
-# Namespaces exatamente como na OntoMI
 BFO   = Namespace("http://purl.obolibrary.org/obo/BFO_")
 IAO   = Namespace("http://purl.obolibrary.org/obo/IAO_")
 ONTO  = Namespace("https://techcoop.com.br/ontomi#")
@@ -89,7 +85,6 @@ def _doc_uri_from_base(base: str) -> URIRef:
     return URIRef(base.rstrip("/"))
 
 def _extract_k_from_fragment_uri(frag: URIRef) -> Optional[int]:
-    # Espera nomes como "...#frag-000" ou "...#frag-12"
     m = re.search(r"frag-(\d+)", str(frag))
     if not m:
         return None
@@ -122,7 +117,6 @@ def _sum_scores_by_intel_for_fragment(g: Graph, frag: URIRef) -> Dict[URIRef, De
         if target_cls is None:
             continue
 
-        # score numérico
         score_val: Optional[Decimal] = None
         for _, _, lit in g.triples((act, ONTO.hasActivationScore, None)):
             try:
@@ -331,7 +325,6 @@ def run_s5_from_files(
         "write_miVector_string": bool(write_percent_string),
     }
 
-    # Vetores por fragmento
     if scope in ("fragment", "both"):
         g, frag_map = build_fragment_profile_vectors(
             g,
@@ -342,7 +335,6 @@ def run_s5_from_files(
         )
         metrics["fragment_vectors"] = len(frag_map)
 
-    # Vetor do documento
     doc_uri = None
     vec_uri = None
     mi_vec_pct = None
