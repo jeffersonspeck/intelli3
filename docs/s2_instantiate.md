@@ -1,24 +1,31 @@
 # S2 — RDF Instantiation
 
-## Purpose
-Transforms the structured JSON from S1 into RDF/OWL instances aligned with the OntoMI ontology.
-
-## What it does
-- Creates Document and ExplanationFragment individuals
-- Links fragments to documents
-- Assigns identifiers, labels, and structural relations
+## Summary
+S2 transforms the structured JSON from S1 into RDF/OWL instances aligned with the
+OntoMI ontology. It builds the symbolic layer used by semantic reasoning steps.
 
 ## Inputs
+
 - `s1_output.json`
-- `ontomi.ttl` ontology
+- `ontomi.ttl` ontology (or another file passed via `--onto`)
 
 ## Outputs
+
 - `instances_fragments.ttl`
 
-## Key Parameters
-- `--onto`
-- `--base-ns`
-- `--s2-graph`
+## How it works
 
-## Notes
-This stage materializes the conceptual layer used by all semantic reasoning steps.
+1. Creates `Document` and `ExplanationFragment` individuals.
+2. Links fragments to documents using structural relations.
+3. Assigns identifiers, labels, and metadata for downstream stages.
+
+## Key parameters
+
+- `--onto`: path to the ontology TTL file.
+- `--base-ns`: base namespace for generated instances.
+- `--s2-graph`: output graph mode (`full`, `instances`, `instances+imports`).
+
+## Notes and tips
+
+- Ensure the ontology file is present before running S2.
+- Use `instances` if you want a lighter TTL with only instance data.
