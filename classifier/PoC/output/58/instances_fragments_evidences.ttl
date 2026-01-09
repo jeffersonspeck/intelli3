@@ -1,0 +1,86 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:58#evid-000-00-fixar-conceitos> a onto:Keyword ;
+    rdfs:label "fixar conceitos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-000-01-numeracao> a onto:Keyword ;
+    rdfs:label "numeracao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-000-02-jogo-domino> a onto:Keyword ;
+    rdfs:label "jogo domino"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:58#evid-000-03-jogo-domino> a onto:Keyword ;
+    rdfs:label "jogo domino"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:58#evid-000-04-animais-pessoas> a onto:Keyword ;
+    rdfs:label "animais pessoas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:58#evid-000-05-formatos-animais> a onto:Keyword ;
+    rdfs:label "formatos animais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:58#evid-000-06-fixar-conceitos-sobre-sistemas-d> a onto:DiscursiveStrategy ;
+    rdfs:label "fixar conceitos sobre sistemas de numeracao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-000-07-jogo-de-domino> a onto:ContextObject ;
+    rdfs:label "jogo de domino"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:58#evid-001-00-regras-jogo> a onto:Keyword ;
+    rdfs:label "regras jogo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-001-01-numero> a onto:Keyword ;
+    rdfs:label "numero"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-001-02-seguir-regras> a onto:Keyword ;
+    rdfs:label "seguir regras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:58#evid-001-03-os-alunos-devem-seguir-as-regras> a onto:DiscursiveStrategy ;
+    rdfs:label "os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:58#evid-001-04-domino-joaninha-trimino-e-outros> a onto:ContextObject ;
+    rdfs:label "Domino Joaninha, Trimino e outros -- Uki-Uki."@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:58#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo de domino e um excelente recurso para fixar conceitos sobre sistemas de numeracao. Para torna-lo mais atrativo, o professor pode preparar, em cartolina ou papel-cartao, dominos com formatos de animais ou pessoas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:58> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:58#evid-000-00-fixar-conceitos>,
+        <urn:doc:58#evid-000-01-numeracao>,
+        <urn:doc:58#evid-000-02-jogo-domino>,
+        <urn:doc:58#evid-000-03-jogo-domino>,
+        <urn:doc:58#evid-000-04-animais-pessoas>,
+        <urn:doc:58#evid-000-05-formatos-animais>,
+        <urn:doc:58#evid-000-06-fixar-conceitos-sobre-sistemas-d>,
+        <urn:doc:58#evid-000-07-jogo-de-domino> .
+
+<urn:doc:58#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Na verdade o que importa e o numero de pontos que indica as caracteristicas do jogo. Utilizacao: Os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores. (Existe no mercado -- Domino Joaninha, Trimino e outros -- Uki-Uki.)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:58> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:58#evid-001-00-regras-jogo>,
+        <urn:doc:58#evid-001-01-numero>,
+        <urn:doc:58#evid-001-02-seguir-regras>,
+        <urn:doc:58#evid-001-03-os-alunos-devem-seguir-as-regras>,
+        <urn:doc:58#evid-001-04-domino-joaninha-trimino-e-outros> .
+
+<urn:doc:58> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:58#frag-000>,
+        <urn:doc:58#frag-001> .
+

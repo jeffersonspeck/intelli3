@@ -1,0 +1,53 @@
+[Documento] urn:doc:255
+  - miVector: 5.52,2.34,0.00,4.23,21.00,9.26,0.00,57.66
+  - TOP (documento): Naturalist (score=0.5766)
+  - Ranking (top 3):
+      • Naturalist: 0.5766
+      • Bodily-Kinesthetic: 0.2100
+      • Interpersonal: 0.0926
+
+[Fragmento] Preparacao: E indispensavel que o professor "invente" um "monstro" e que estimule seus alunos para essa cacada. Deve contar, com entusiasmo, uma historia e dar algumas "pistas" para que os alunos possam descobri-lo.
+  - Bodily-Kinesthetic (via activation, score=0.2261)
+  - Interpersonal (via activation, score=0.2350)
+  - Logical-Mathematical (via activation, score=0.0593)
+  - Naturalist (via activation, score=0.4797)
+  - Cinestésico-corporal (via activation, score=0.2261)
+  - Interpessoal (via activation, score=0.2350)
+  - Lógico-matemática (via activation, score=0.0593)
+  - Naturalista (via activation, score=0.4797)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Considerando que "monstro" e um ser de conformacao extravagante, uma grande arvore, ou uma planta exotica pode ser o monstro. Os alunos nao devem saber quem e o monstro c nem onde fica, mas atraves de algumas pistas sugeridas pelo professor deverao procurar encontra-lo.
+  - Bodily-Kinesthetic (via activation, score=0.1821)
+  - Linguistic (via activation, score=0.1821)
+  - Naturalist (via activation, score=0.6358)
+  - Cinestésico-corporal (via activation, score=0.1821)
+  - Linguística (via activation, score=0.1821)
+  - Naturalista (via activation, score=0.6358)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Naturalista (via element)
+
+[Fragmento] Essas pistas devem ser explicadas com muitas informacoes naturais que agucem a audicao, a sensibilidade olfativa e curio- sidade dos alunos. O professor devera manter durante todo o tempo o espirito da brincadeira, oferecendo aos alunos varias sugestoes. 203
+  - Bodily-Kinesthetic (via activation, score=0.2171)
+  - Musical (via activation, score=0.1395)
+  - Naturalist (via activation, score=0.6434)
+  - Cinestésico-corporal (via activation, score=0.2171)
+  - Musical (via activation, score=0.1395)
+  - Naturalista (via activation, score=0.6434)
+  - Bodily-Kinesthetic (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Musical (via element)
+  - Naturalista (via element)

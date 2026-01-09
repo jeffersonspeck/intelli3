@@ -1,0 +1,102 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "desenhar montar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7838469411271867,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estrutura interna",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7681303881739332,
+      "relevance": 0.8636363636363636
+    },
+    {
+      "role": "Keyword",
+      "text": "montar cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7445886719045499,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "construir cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5091531267483225,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cartolina pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6645845054133674,
+      "relevance": 0.7636363636363637
+    },
+    {
+      "role": "Keyword",
+      "text": "completem esse aposento",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6605587402198217,
+      "relevance": 0.7181818181818183
+    },
+    {
+      "role": "Keyword",
+      "text": "pecas completem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6030743300267787,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "crianca nomear",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7722507288748844,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "nomear objeto",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7157695754953193,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "montando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.700491229995272,
+      "relevance": 0.8648068669527897
+    },
+    {
+      "role": "Keyword",
+      "text": "pecas jogo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6451644082956529,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "nomear o objeto, montando-o sobre a estrutura",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.9012875536480687
+    }
+  ]
+}

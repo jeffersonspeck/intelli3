@@ -1,0 +1,86 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:113#evid-000-00-cola-varias-figuras> a onto:Keyword ;
+    rdfs:label "cola varias figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-000-01-varias-figuras-obtidas> a onto:Keyword ;
+    rdfs:label "varias figuras obtidas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:113#evid-000-02-obtidas-revistas> a onto:Keyword ;
+    rdfs:label "obtidas revistas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:113#evid-000-03-mesmas-figuras> a onto:Keyword ;
+    rdfs:label "mesmas figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-001-00-formar-par> a onto:Keyword ;
+    rdfs:label "formar par"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-001-01-figura-original> a onto:Keyword ;
+    rdfs:label "figura original"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:113#evid-001-02-encontrar-metade> a onto:Keyword ;
+    rdfs:label "encontrar metade"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-001-03-melhor-ajusta> a onto:Keyword ;
+    rdfs:label "melhor ajusta"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-001-04-intelicencia-espacial> a onto:Keyword ;
+    rdfs:label "intelicencia espacial"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-001-05-figura-formar> a onto:Keyword ;
+    rdfs:label "figura formar"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-001-06-ajusta-figura> a onto:Keyword ;
+    rdfs:label "ajusta figura"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-001-07-encontrar-a-metade-de-sua-figura> a onto:DiscursiveStrategy ;
+    rdfs:label "encontrar a metade de sua figura e formar o par"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:113#evid-001-08-sua-figura> a onto:ContextObject ;
+    rdfs:label "sua figura"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:113#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O papel-cartao e dividido ao meio em duas partes. Em uma das partes o professor cola varias figuras obtidas em revistas ou em Cliparts de computa- dor; na outra metade, essas mesmas figuras, porem incompletas, faltando uma pequena parte."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:113> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:113#evid-000-00-cola-varias-figuras>,
+        <urn:doc:113#evid-000-01-varias-figuras-obtidas>,
+        <urn:doc:113#evid-000-02-obtidas-revistas>,
+        <urn:doc:113#evid-000-03-mesmas-figuras> .
+
+<urn:doc:113#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: A tarefa dos alunos sera encontrar a metade de sua figura e formar o par, identificando entre as opcoes existentes, e naturalmente incompletas, a que me- lhor se ajusta a figura original. :r.03-B Intelicencia Espacial"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:113> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:113#evid-001-00-formar-par>,
+        <urn:doc:113#evid-001-01-figura-original>,
+        <urn:doc:113#evid-001-02-encontrar-metade>,
+        <urn:doc:113#evid-001-03-melhor-ajusta>,
+        <urn:doc:113#evid-001-04-intelicencia-espacial>,
+        <urn:doc:113#evid-001-05-figura-formar>,
+        <urn:doc:113#evid-001-06-ajusta-figura>,
+        <urn:doc:113#evid-001-07-encontrar-a-metade-de-sua-figura>,
+        <urn:doc:113#evid-001-08-sua-figura> .
+
+<urn:doc:113> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:113#frag-000>,
+        <urn:doc:113#frag-001> .
+

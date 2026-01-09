@@ -1,0 +1,102 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "folhas cartolina",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7369001779481263,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenhar figuras geometricas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7315784932704953,
+      "relevance": 0.8723958333333334
+    },
+    {
+      "role": "Keyword",
+      "text": "irregulares cartolina",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6137046844000826,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "Folhas de cartolina e palitos de fosforo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "Folhas de cartolina e palitos de fosforo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "figuras geometricas colocadas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8059210815265475,
+      "relevance": 0.8200000000000001
+    },
+    {
+      "role": "Keyword",
+      "text": "reproduzindo figuras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7900128808799413,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "reproduzindo figuras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7900128808799413,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colocar palitos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.780901054699901,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenhos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6880470718951709,
+      "relevance": 0.8672727272727273
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9181818181818182
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas.",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9181818181818182
+    }
+  ]
+}

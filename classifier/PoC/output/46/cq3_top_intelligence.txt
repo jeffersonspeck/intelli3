@@ -1,0 +1,19 @@
+[Documento] urn:doc:46
+  - miVector: 0.00,10.84,29.47,0.00,41.38,0.00,18.30,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4138)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4138
+      • Spatial: 0.2947
+      • Intrapersonal: 0.1830
+
+
+[Documento — Fragmentos] urn:doc:46
+
+[Fragmento] Preparacao: Improvisar um pino em uma base de madeira e diferentes aneis furados que devem ser encaixados. Esses aneis sao de diferentes tamanhos.
+  > TOP: Cinestésico-corporal (score=0.8224, tipo=Primary)
+
+[Fragmento] Utilizacao: Os aneis devem estar espalhados fora do pino e a tarefa dos alunos sera a de encaixa-los, comparando os aneis entre si, identificando os "grandes" e os "pequenos" e formar uma piramide, encaixando os aneis em forma crescente.
+  > TOP: Cinestésico-corporal (score=0.5432, tipo=Primary)
+
+[Fragmento] (Existe no mercado -- Piramide de aneis / Piramide multiforme -- Coluna)
+  > TOP: Espacial-visual (score=0.5354, tipo=Primary)

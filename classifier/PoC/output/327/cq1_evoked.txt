@@ -1,0 +1,53 @@
+[Documento] urn:doc:327
+  - miVector: 5.45,10.57,0.00,0.00,22.12,23.75,0.00,38.10
+  - TOP (documento): Naturalist (score=0.3810)
+  - Ranking (top 3):
+      • Naturalist: 0.3810
+      • Interpersonal: 0.2375
+      • Bodily-Kinesthetic: 0.2212
+
+[Fragmento] Preparacao: Os alunos devem estar reunidos em uma sala, sentados em circulo. Utilizacao: Depois de solicitar que todos os alunos olhem-se e percebam os detalhes nas rou- pas e, sobretudo, nas expressoes de cada um, solicita que todos tenham seus olhos ven- dados.
+  - Bodily-Kinesthetic (via activation, score=0.5790)
+  - Logical-Mathematical (via activation, score=0.1474)
+  - Naturalist (via activation, score=0.2736)
+  - Cinestésico-corporal (via activation, score=0.5790)
+  - Lógico-matemática (via activation, score=0.1474)
+  - Naturalista (via activation, score=0.2736)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Um aluno, silenciosamente, e retirado da sala pelo professor. A seguir as vendas devem ser tiradas e os alunos devem descobrir quem foi retirado da sala, descrevendo suas caracteristicas fisicas e elementos de seu temperamento, sua automotivacao, capa- cidade de administracao das emocoes e muito mais.
+  - Bodily-Kinesthetic (via activation, score=0.1511)
+  - Interpersonal (via activation, score=0.3116)
+  - Linguistic (via activation, score=0.1799)
+  - Logical-Mathematical (via activation, score=0.2013)
+  - Naturalist (via activation, score=0.1561)
+  - Cinestésico-corporal (via activation, score=0.1511)
+  - Interpessoal (via activation, score=0.3116)
+  - Linguística (via activation, score=0.1799)
+  - Lógico-matemática (via activation, score=0.2013)
+  - Naturalista (via activation, score=0.1561)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Um circulo de debates sobre a im- portancia da atividade no heteroconhecimento deve ser estimulada. 253
+  - Interpersonal (via activation, score=0.3633)
+  - Naturalist (via activation, score=0.6367)
+  - Interpessoal (via activation, score=0.3633)
+  - Naturalista (via activation, score=0.6367)
+  - Interpersonal (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Naturalista (via element)

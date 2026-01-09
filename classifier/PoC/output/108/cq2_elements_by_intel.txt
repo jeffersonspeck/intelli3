@@ -1,0 +1,109 @@
+[Documento] urn:doc:108
+  - miVector: 10.18,25.67,4.88,5.83,32.41,5.83,0.00,15.19
+  - TOP (documento): Bodily-Kinesthetic (score=0.3241)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3241
+      • Logical-Mathematical: 0.2567
+      • Naturalist: 0.1519
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: massa plastica ou argila colorida
+        • ContextObject: pecas e os tabuleiros
+        • Keyword: confeccionar pecas
+        • Keyword: convocados confeccionar
+        • Keyword: desenhar tabuleiro
+        • Keyword: massa plastica
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.6153
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: desenhar tabuleiro
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1239
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: exercicio criatividade
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1924
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: canetas hidrograficas
+        • Keyword: lapiseira canetas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2585
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: objetivo principal
+        • Keyword: regras
+        • Keyword: regua
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.6597
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: valido exercicio
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1924
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: folhas papel cartao
+        • Keyword: nocao limites
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3403
+
+
+[Documento — Fragmentos] urn:doc:108
+
+[Fragmento] Preparacao: Folhas de papel-cartao de cor clara, regua, tesoura, lapiseira e canetas hidro- graficas para desenhar o tabuleiro. Massa plastica ou argila colorida permitem a construcao das pecas do jogo.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: massa plastica ou argila colorida
+        • Keyword: desenhar tabuleiro
+        • Keyword: massa plastica
+    - Ativações:
+        • score=0.3494, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: desenhar tabuleiro
+    - Ativações:
+        • score=0.1239, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: canetas hidrograficas
+        • Keyword: lapiseira canetas
+    - Ativações:
+        • score=0.2585, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: regua
+    - Ativações:
+        • score=0.1443, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: folhas papel cartao
+    - Ativações:
+        • score=0.1239, tipo=Secondary
+
+[Fragmento] Utilizacao: Os alunos devem ser convocados para confeccionar as pecas e os tabuleiros e para as primeiras e bastante valido o exercicio da criatividade de cada aluno.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: pecas e os tabuleiros
+        • Keyword: confeccionar pecas
+        • Keyword: convocados confeccionar
+    - Ativações:
+        • score=0.6153, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: exercicio criatividade
+    - Ativações:
+        • score=0.1924, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: valido exercicio
+    - Ativações:
+        • score=0.1924, tipo=Secondary
+
+[Fragmento] Com o jogo preparado, e importante a orientacao sobre suas regras e a aceitacao das mesmas favorece a nocao de limites por parte do aluno. O objetivo princi- pal e eliminar as pecas do adversario e atingir o extremo do tabuleiro. (Existem diferentes modalidades de jogos de damas no comercio.)
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: objetivo principal
+        • Keyword: regras
+    - Ativações:
+        • score=0.6597, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: nocao limites
+    - Ativações:
+        • score=0.3403, tipo=Secondary

@@ -1,0 +1,91 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:171#evid-000-00-usar-bolas-plasticas> a onto:Keyword ;
+    rdfs:label "usar bolas plasticas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:171#evid-000-01-bolas-plasticas-gigantes> a onto:Keyword ;
+    rdfs:label "bolas plasticas gigantes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:171#evid-000-02-usar-bolas-plasticas-gigantes-as> a onto:DiscursiveStrategy ;
+    rdfs:label "Usar bolas plasticas gigantes. As melhores sao as de inflar, com 12 gomos. O aluno devera jogar a bola, recebe-la de volta. Atira-la no chao, na parede c exe…"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:171#evid-000-03-bolas-plasticas-gigantes> a onto:ContextObject ;
+    rdfs:label "bolas plasticas gigantes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:171#evid-001-00-estruture> a onto:Keyword ;
+    rdfs:label "estruture"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:171#evid-001-01-desenvolva-limites> a onto:Keyword ;
+    rdfs:label "desenvolva limites"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:171#evid-001-02-regras-claras> a onto:Keyword ;
+    rdfs:label "regras claras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:171#evid-001-03-regras-claras> a onto:Keyword ;
+    rdfs:label "regras claras"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:171#evid-001-04-estruture-essa-sequencia> a onto:Keyword ;
+    rdfs:label "estruture essa sequencia"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:171#evid-001-05-sequencia-desenvolva> a onto:Keyword ;
+    rdfs:label "sequencia desenvolva"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:171#evid-001-06-limites-regras> a onto:Keyword ;
+    rdfs:label "limites regras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:171#evid-001-07-limites-regras> a onto:Keyword ;
+    rdfs:label "limites regras"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:171#evid-001-08-claras-acao> a onto:Keyword ;
+    rdfs:label "claras acao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:171#evid-001-09-lidice----bola-gigante> a onto:ContextObject ;
+    rdfs:label "[Lidice -- Bola Gigante]"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:171#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Usar bolas plasticas gigantes. As melhores sao as de inflar, com 12 gomos. Utilizacao: O aluno devera jogar a bola, recebe-la de volta. Atira-la no chao, na parede c executar diversos movimentos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:171> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:171#evid-000-00-usar-bolas-plasticas>,
+        <urn:doc:171#evid-000-01-bolas-plasticas-gigantes>,
+        <urn:doc:171#evid-000-02-usar-bolas-plasticas-gigantes-as>,
+        <urn:doc:171#evid-000-03-bolas-plasticas-gigantes> .
+
+<urn:doc:171#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "O essencial e que o professor estruture essa sequencia e desenvolva limites e regras claras a acao ludica. Pode, se preferir, estabelecer sistemas de pontuacao e desenvolver atividades grupais diversas. (Existem no comercio diversas marcas [Lidice -- Bola Gigante].)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:171> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:171#evid-001-00-estruture>,
+        <urn:doc:171#evid-001-01-desenvolva-limites>,
+        <urn:doc:171#evid-001-02-regras-claras>,
+        <urn:doc:171#evid-001-03-regras-claras>,
+        <urn:doc:171#evid-001-04-estruture-essa-sequencia>,
+        <urn:doc:171#evid-001-05-sequencia-desenvolva>,
+        <urn:doc:171#evid-001-06-limites-regras>,
+        <urn:doc:171#evid-001-07-limites-regras>,
+        <urn:doc:171#evid-001-08-claras-acao>,
+        <urn:doc:171#evid-001-09-lidice----bola-gigante> .
+
+<urn:doc:171> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:171#frag-000>,
+        <urn:doc:171#frag-001> .
+

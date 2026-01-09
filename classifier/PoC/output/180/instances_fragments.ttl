@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:180#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Solicitar o servico de um marceneiro, fazendo um pequeno armario com varias portas e diferentes fechaduras. Havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:180> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:180#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O aluno deve aprender a abrir e fechar portas, guardar objetos em diferen- tes compartimentos, abrir portas conforme orientacao do professor, situando-as a direita, a esquerda, ao centro e outros. (Existem no comercio: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela].)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:180> ;
+    dct:type "body" .
+
+<urn:doc:180> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:180#frag-000>,
+        <urn:doc:180#frag-001> .
+

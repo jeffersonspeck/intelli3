@@ -1,0 +1,255 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:109#evid-000-00-preparar-folhas> a onto:Keyword ;
+    rdfs:label "preparar folhas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:109#evid-000-01-folhas-papel-cartao> a onto:Keyword ;
+    rdfs:label "folhas papel cartao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:109#evid-000-02-papel-cartao-gravuras> a onto:Keyword ;
+    rdfs:label "papel cartao gravuras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:109#evid-000-03-folhas-de-papel-cartao-e-gravura> a onto:ContextObject ;
+    rdfs:label "folhas de papel-cartao e gravuras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:109#evid-001-00-bolinha-aparece-acima> a onto:Keyword ;
+    rdfs:label "bolinha aparece acima"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:109#evid-001-01-ora-direita> a onto:Keyword ;
+    rdfs:label "ora direita"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-001-02-ora-esquerda> a onto:Keyword ;
+    rdfs:label "ora esquerda"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-001-03-abaixo-figura> a onto:Keyword ;
+    rdfs:label "abaixo figura"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:109#evid-001-04-esquerda-ilustracao> a onto:Keyword ;
+    rdfs:label "esquerda ilustracao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-001-05-retangulos-exista> a onto:Keyword ;
+    rdfs:label "retangulos exista"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:109#evid-001-06-certas-situacoes> a onto:Keyword ;
+    rdfs:label "certas situacoes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:109#evid-001-07-exista-bolinha> a onto:Keyword ;
+    rdfs:label "exista bolinha"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:109#evid-001-08-situacoes-bolinha> a onto:Keyword ;
+    rdfs:label "situacoes bolinha"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:109#evid-001-09-tambem-desenhado> a onto:Keyword ;
+    rdfs:label "tambem desenhado"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:109#evid-001-10-desenhado-cartolina> a onto:Keyword ;
+    rdfs:label "desenhado cartolina"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:109#evid-001-11-tabuleiro-de-15x-15cm-tambem-des> a onto:ContextObject ;
+    rdfs:label "tabuleiro de 15x 15cm, tambem desenhado em cartolina"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:109#evid-002-00-colocar> a onto:Keyword ;
+    rdfs:label "colocar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-002-01-retangulos-centro> a onto:Keyword ;
+    rdfs:label "retangulos centro"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:109#evid-002-02-retangulos-centro> a onto:Keyword ;
+    rdfs:label "retangulos centro"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:109#evid-002-03-colocar-retangulos> a onto:Keyword ;
+    rdfs:label "colocar retangulos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-002-04-direita> a onto:Keyword ;
+    rdfs:label "direita"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-002-05-esquerda-tabuleiro> a onto:Keyword ;
+    rdfs:label "esquerda tabuleiro"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:109#evid-002-06-esquerda-tabuleiro> a onto:Keyword ;
+    rdfs:label "esquerda tabuleiro"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:109#evid-002-07-acima> a onto:Keyword ;
+    rdfs:label "acima"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-002-08-abaixo> a onto:Keyword ;
+    rdfs:label "abaixo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-002-09-progressivo-dominio> a onto:Keyword ;
+    rdfs:label "progressivo dominio"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:109#evid-002-10-emprego-desses-conceitos> a onto:Keyword ;
+    rdfs:label "emprego desses conceitos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:109#evid-002-11-colocar-seus-retangulos-no-centr> a onto:DiscursiveStrategy ;
+    rdfs:label "colocar seus retangulos no centro, a direita, ou a esquerda do tabuleiro e, respectivamente, acima, abaixo, a esquerda ou a direita"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-003-00-explorar> a onto:Keyword ;
+    rdfs:label "explorar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:109#evid-003-01-fiquem-direita> a onto:Keyword ;
+    rdfs:label "fiquem direita"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-003-02-acima-abaixo> a onto:Keyword ;
+    rdfs:label "acima abaixo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:109#evid-003-03-mostrar-ilustracoes> a onto:Keyword ;
+    rdfs:label "mostrar ilustracoes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:109#evid-003-04-mostrar-ilustracoes> a onto:Keyword ;
+    rdfs:label "mostrar ilustracoes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:109#evid-003-05-objetos-fiquem> a onto:Keyword ;
+    rdfs:label "objetos fiquem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-003-06-ilustracoes-situacoes> a onto:Keyword ;
+    rdfs:label "ilustracoes situacoes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:109#evid-003-07-ilustracoes-situacoes> a onto:Keyword ;
+    rdfs:label "ilustracoes situacoes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:109#evid-003-08-situacoes-onde-objetos> a onto:Keyword ;
+    rdfs:label "situacoes onde objetos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-003-09-abaixo-mesa> a onto:Keyword ;
+    rdfs:label "abaixo mesa"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:109#evid-003-10-esquerda> a onto:Keyword ;
+    rdfs:label "esquerda"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#evid-003-11-flor> a onto:Keyword ;
+    rdfs:label "flor"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:109#evid-003-12-explorar-a-atividade-e-mostrar-i> a onto:DiscursiveStrategy ;
+    rdfs:label "Explorar a atividade e mostrar ilustracoes ou situacoes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:109#evid-003-13-explorar-a-atividade-e-mostrar-i> a onto:DiscursiveStrategy ;
+    rdfs:label "Explorar a atividade e mostrar ilustracoes ou situacoes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:109#evid-003-14-objetos-fiquem-a-direita-a-esque> a onto:ContextObject ;
+    rdfs:label "objetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:109#evid-003-15-objetos-fiquem-a-direita-a-esque> a onto:ContextObject ;
+    rdfs:label "objetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:109#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar com folhas de papel-cartao e gravuras obtidas em revistas uma serie de retangulos de aproximadamente 5 x 5cm."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:109> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:109#evid-000-00-preparar-folhas>,
+        <urn:doc:109#evid-000-01-folhas-papel-cartao>,
+        <urn:doc:109#evid-000-02-papel-cartao-gravuras>,
+        <urn:doc:109#evid-000-03-folhas-de-papel-cartao-e-gravura> .
+
+<urn:doc:109#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "E importante que nesses retangulos exista uma bolinha, ora a direita, ora a esquerda da ilustracao; em certas situacoes a bolinha aparece acima e, em outras, abaixo da figura. Um tabuleiro de 15x 15cm, tambem desenhado em cartolina."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:109> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:109#evid-001-00-bolinha-aparece-acima>,
+        <urn:doc:109#evid-001-01-ora-direita>,
+        <urn:doc:109#evid-001-02-ora-esquerda>,
+        <urn:doc:109#evid-001-03-abaixo-figura>,
+        <urn:doc:109#evid-001-04-esquerda-ilustracao>,
+        <urn:doc:109#evid-001-05-retangulos-exista>,
+        <urn:doc:109#evid-001-06-certas-situacoes>,
+        <urn:doc:109#evid-001-07-exista-bolinha>,
+        <urn:doc:109#evid-001-08-situacoes-bolinha>,
+        <urn:doc:109#evid-001-09-tambem-desenhado>,
+        <urn:doc:109#evid-001-10-desenhado-cartolina>,
+        <urn:doc:109#evid-001-11-tabuleiro-de-15x-15cm-tambem-des> .
+
+<urn:doc:109#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem colocar seus retangulos no centro, a direita, ou a es- querda do tabuleiro e, respectivamente, acima, abaixo, a esquerda ou a direita. O essencial na atividade e o emprego desses conceitos e seu progressivo domi- nio pelo aluno."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:109> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:109#evid-002-00-colocar>,
+        <urn:doc:109#evid-002-01-retangulos-centro>,
+        <urn:doc:109#evid-002-02-retangulos-centro>,
+        <urn:doc:109#evid-002-03-colocar-retangulos>,
+        <urn:doc:109#evid-002-04-direita>,
+        <urn:doc:109#evid-002-05-esquerda-tabuleiro>,
+        <urn:doc:109#evid-002-06-esquerda-tabuleiro>,
+        <urn:doc:109#evid-002-07-acima>,
+        <urn:doc:109#evid-002-08-abaixo>,
+        <urn:doc:109#evid-002-09-progressivo-dominio>,
+        <urn:doc:109#evid-002-10-emprego-desses-conceitos>,
+        <urn:doc:109#evid-002-11-colocar-seus-retangulos-no-centr> .
+
+<urn:doc:109#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Explorar a atividade e mostrar ilustracoes ou situacoes onde ob- jetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor, por exemplo. (Existem no comercio \"As abelhas c a flor\" e diversos outros.)"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:109> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:109#evid-003-00-explorar>,
+        <urn:doc:109#evid-003-01-fiquem-direita>,
+        <urn:doc:109#evid-003-02-acima-abaixo>,
+        <urn:doc:109#evid-003-03-mostrar-ilustracoes>,
+        <urn:doc:109#evid-003-04-mostrar-ilustracoes>,
+        <urn:doc:109#evid-003-05-objetos-fiquem>,
+        <urn:doc:109#evid-003-06-ilustracoes-situacoes>,
+        <urn:doc:109#evid-003-07-ilustracoes-situacoes>,
+        <urn:doc:109#evid-003-08-situacoes-onde-objetos>,
+        <urn:doc:109#evid-003-09-abaixo-mesa>,
+        <urn:doc:109#evid-003-10-esquerda>,
+        <urn:doc:109#evid-003-11-flor>,
+        <urn:doc:109#evid-003-12-explorar-a-atividade-e-mostrar-i>,
+        <urn:doc:109#evid-003-13-explorar-a-atividade-e-mostrar-i>,
+        <urn:doc:109#evid-003-14-objetos-fiquem-a-direita-a-esque>,
+        <urn:doc:109#evid-003-15-objetos-fiquem-a-direita-a-esque> .
+
+<urn:doc:109> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:109#frag-000>,
+        <urn:doc:109#frag-001>,
+        <urn:doc:109#frag-002>,
+        <urn:doc:109#frag-003> .
+

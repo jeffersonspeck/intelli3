@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:2#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Desenhar ou montar em cartolina uma cozinha, um quarto ou a estrutura interna de uma casa. Construir em cartolina pecas que completem esse aposento, como sofas, camas, mesas, espelhos, armarios, panelas e outros objetos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:2> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:2#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Ao receber as pecas do jogo, a crianca devera nomear o objeto, montan- do-o sobre a estrutura. O jogo pode ser desenvolvido em grupo e, nas etapas seguintes, devera no- mear, dizer as cores ou contar historias que envolvam essa montagem."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:2> ;
+    dct:type "body" .
+
+<urn:doc:2> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:2#frag-000>,
+        <urn:doc:2#frag-001> .
+

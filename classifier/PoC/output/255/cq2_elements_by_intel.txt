@@ -1,0 +1,120 @@
+[Documento] urn:doc:255
+  - miVector: 5.52,2.34,0.00,4.23,21.00,9.26,0.00,57.66
+  - TOP (documento): Naturalist (score=0.5766)
+  - Ranking (top 3):
+      • Naturalist: 0.5766
+      • Bodily-Kinesthetic: 0.2100
+      • Interpersonal: 0.0926
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: procurar encontra-lo
+        • Keyword: cacada
+        • Keyword: espirito brincadeira
+        • Keyword: invente
+        • Keyword: procurar encontra
+        • Keyword: varias sugestoes
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.2261
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: estimule
+        • Keyword: invente
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2350
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: procurar encontra-lo
+        • Keyword: procurar encontra
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1821
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: contar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0593
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: agucem audicao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1395
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: monstro
+        • DiscursiveStrategy: descobri-lo
+        • Keyword: arvore
+        • Keyword: monstro
+        • Keyword: muitas informacoes naturais
+        • Keyword: naturais agucem
+        • Keyword: pistas
+        • Keyword: planta exotica
+        • Keyword: possam descobri
+        • Keyword: sensibilidade olfativa
+    - Ativações (doc): n=3, primárias=3, secundárias=0, max=0.6434
+
+
+[Documento — Fragmentos] urn:doc:255
+
+[Fragmento] Preparacao: E indispensavel que o professor "invente" um "monstro" e que estimule seus alunos para essa cacada. Deve contar, com entusiasmo, uma historia e dar algumas "pistas" para que os alunos possam descobri-lo.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: cacada
+        • Keyword: invente
+    - Ativações:
+        • score=0.2261, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: estimule
+        • Keyword: invente
+    - Ativações:
+        • score=0.2350, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: contar
+    - Ativações:
+        • score=0.0593, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: monstro
+        • DiscursiveStrategy: descobri-lo
+        • Keyword: monstro
+        • Keyword: pistas
+        • Keyword: possam descobri
+    - Ativações:
+        • score=0.4797, tipo=Primary
+
+[Fragmento] Utilizacao: Considerando que "monstro" e um ser de conformacao extravagante, uma grande arvore, ou uma planta exotica pode ser o monstro. Os alunos nao devem saber quem e o monstro c nem onde fica, mas atraves de algumas pistas sugeridas pelo professor deverao procurar encontra-lo.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: procurar encontra-lo
+        • Keyword: procurar encontra
+    - Ativações:
+        • score=0.1821, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: procurar encontra-lo
+        • Keyword: procurar encontra
+    - Ativações:
+        • score=0.1821, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: monstro
+        • Keyword: arvore
+        • Keyword: monstro
+        • Keyword: planta exotica
+    - Ativações:
+        • score=0.6358, tipo=Primary
+
+[Fragmento] Essas pistas devem ser explicadas com muitas informacoes naturais que agucem a audicao, a sensibilidade olfativa e curio- sidade dos alunos. O professor devera manter durante todo o tempo o espirito da brincadeira, oferecendo aos alunos varias sugestoes. 203
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: espirito brincadeira
+        • Keyword: varias sugestoes
+    - Ativações:
+        • score=0.2171, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: agucem audicao
+    - Ativações:
+        • score=0.1395, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: muitas informacoes naturais
+        • Keyword: naturais agucem
+        • Keyword: sensibilidade olfativa
+    - Ativações:
+        • score=0.6434, tipo=Primary

@@ -1,0 +1,23 @@
+{
+  "doc_id": "urn:doc:119",
+  "paragraphs": [
+    {
+      "k": 0,
+      "text": "Preparacao: Preparar em uma cartolina branca um quadriculado (5cm x 5cm) com 25 casas. Com papel-cartao ou cartolina colorida produzir figuras geometricas que caibam nessas casas, recortando em cores diferentes triangulos, losangos, hexago- nos, quadrados e outros.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    },
+    {
+      "k": 1,
+      "text": "Utilizacao: O professor deve explicar as regras do jogo para os alunos e determinar as sequencias que pretende. Em etapas mais avancadas, pode organizar sequencias logicas em que falta uma peca e solicitar ao aluno que a encontre, colocando na casa correspondente.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    },
+    {
+      "k": 2,
+      "text": "A tarefa do aluno sera a de ordenar figuras na sequencia solicitada pelo professor.",
+      "lang": "pt",
+      "is_title_or_abstract": true
+    }
+  ]
+}

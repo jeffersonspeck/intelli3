@@ -1,0 +1,23 @@
+{
+  "doc_id": "urn:doc:331",
+  "paragraphs": [
+    {
+      "k": 0,
+      "text": "Preparacao: Uma pequena historia que envolva detalhes e diferentes pessoas. Uma noticia sobre uma briga de transito ou um mal-entendido se presta bem a essa atividade. Utilizacao: O professor solicita que quatro alunos se retirem da sala, mantendo-se em local facil de ser chamados.",
+      "lang": "pt",
+      "is_title_or_abstract": true
+    },
+    {
+      "k": 1,
+      "text": "Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara. Chama um dos alunos que nao ouviu a historia e escolhe alguem do grupo para passar-lhe esse conteudo.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    },
+    {
+      "k": 2,
+      "text": "Esse aluno ficara encarregado de, diante de todo grupo, contar a histonia a outro ausente que e chamado e assim por diante. As enormes alteracoes ou supressoes que \"transformam\" a historia oniginal constituem excelente experimento para que se abra uma discussao sobre a comunicacao interpessoal.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    }
+  ]
+}

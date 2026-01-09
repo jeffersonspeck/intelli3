@@ -1,0 +1,37 @@
+[Documento] urn:doc:152
+  - miVector: 0.00,0.00,7.56,3.07,9.73,0.00,0.00,79.63
+  - TOP (documento): Naturalist (score=0.7963)
+  - Ranking (top 3):
+      • Naturalist: 0.7963
+      • Bodily-Kinesthetic: 0.0973
+      • Spatial: 0.0756
+
+[Fragmento] Preparacao: O professor devera estimular os alunos a "descobrirem" e "relatarem" os elementos da natureza.
+  - Naturalist (via activation, score=1.0000)
+  - Naturalista (via activation, score=1.0000)
+  - Naturalist (via element)
+  - Naturalista (via element)
+
+[Fragmento] Uma "excursao programada" para a visita a um bosque, uma praca, uma arvore, numa tarde de outono ou de inverno, o mar, um rio, a noite c outros elementos transforma-se em envolvente desabrochar da curiosi- dade infantil. Utilizacao: O professor deve trabalhar o espirito de observacao e pesquisa.
+  - Naturalist (via activation, score=1.0000)
+  - Naturalista (via activation, score=1.0000)
+  - Naturalist (via element)
+  - Naturalista (via element)
+
+[Fragmento] Na primei- ra vez, ir progressivamente "descobrindo" seu encantamento e, aos poucos, es- timular os alunos para que descubram e revelem suas descobertas. Sempre que possivel uma pequena maquina fotografica ou a ajuda do desenho constitui for- te instrumento de registro dessas sensibilidades.
+  - Bodily-Kinesthetic (via activation, score=0.3211)
+  - Musical (via activation, score=0.1014)
+  - Naturalist (via activation, score=0.3279)
+  - Spatial (via activation, score=0.2496)
+  - Cinestésico-corporal (via activation, score=0.3211)
+  - Espacial-visual (via activation, score=0.2496)
+  - Musical (via activation, score=0.1014)
+  - Naturalista (via activation, score=0.3279)
+  - Bodily-Kinesthetic (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Musical (via element)
+  - Naturalista (via element)

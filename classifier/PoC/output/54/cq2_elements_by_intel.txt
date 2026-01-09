@@ -1,0 +1,90 @@
+[Documento] urn:doc:54
+  - miVector: 0.00,23.60,8.40,0.00,39.84,0.00,0.00,28.15
+  - TOP (documento): Bodily-Kinesthetic (score=0.3984)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3984
+      • Naturalist: 0.2815
+      • Logical-Mathematical: 0.2360
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: etapas posteriores colocar
+        • Keyword: formar
+        • Keyword: formar conjuntos
+        • Keyword: necessario colar fitas
+        • Keyword: recortar papel cartao
+        • Keyword: torna necessario colar
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.7618
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: contornos solicitados
+        • Keyword: figuras humanas
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1432
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: brincando conjunto
+        • Keyword: etapas posteriores colocar
+        • Keyword: geometricas
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3864
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: Brincando de Conjunto -- Uki-Uki.
+        • Keyword: conforme cor
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.6136
+
+
+[Documento — Fragmentos] urn:doc:54
+
+[Fragmento] Preparacao: O jogo exige uma preparacao trabalhosa. Torna-se necessario colar fitas em cartolina formando um circulo em uma, um triangulo em outra e um quadrado em uma terceira. Recortar em papel-cartao colorido silhuetas com formas de figuras humanas, frutas e formas geometricas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: necessario colar fitas
+        • Keyword: recortar papel cartao
+        • Keyword: torna necessario colar
+    - Ativações:
+        • score=0.7618, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: figuras humanas
+    - Ativações:
+        • score=0.1341, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: geometricas
+    - Ativações:
+        • score=0.1041, tipo=Secondary
+
+[Fragmento] Utilizacao: Os alunos devem formar conjuntos com diferentes formas e em etapas pos- teriores colocar esses conjuntos dentro dos contornos solicitados. Formam assim conjuntos de formas, conforme a cor, e trabalham com sua colocacao nos contornos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: etapas posteriores colocar
+        • Keyword: formar
+        • Keyword: formar conjuntos
+    - Ativações:
+        • score=0.5530, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: contornos solicitados
+    - Ativações:
+        • score=0.1432, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: etapas posteriores colocar
+    - Ativações:
+        • score=0.1725, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: conforme cor
+    - Ativações:
+        • score=0.1314, tipo=Secondary
+
+[Fragmento] (Existe no mercado -- Brincando de Conjunto -- Uki-Uki.)
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: brincando conjunto
+    - Ativações:
+        • score=0.3864, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: Brincando de Conjunto -- Uki-Uki.
+    - Ativações:
+        • score=0.6136, tipo=Primary

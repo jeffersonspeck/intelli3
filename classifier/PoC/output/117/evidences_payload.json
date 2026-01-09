@@ -1,0 +1,232 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "opcoes educacionais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7549177993549684,
+      "relevance": 0.7894736842105263
+    },
+    {
+      "role": "Keyword",
+      "text": "criando inumeras situacoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7456224627126781,
+      "relevance": 0.7180451127819549
+    },
+    {
+      "role": "Keyword",
+      "text": "criando inumeras situacoes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7456224627126781,
+      "relevance": 0.7180451127819549
+    },
+    {
+      "role": "Keyword",
+      "text": "popular",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5356131837244,
+      "relevance": 0.9323308270676691
+    },
+    {
+      "role": "Keyword",
+      "text": "consequente verbalizacao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6968165960663816,
+      "relevance": 0.5469924812030076
+    },
+    {
+      "role": "Keyword",
+      "text": "envolvam posicionamento",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6727680172820858,
+      "relevance": 0.6597744360902256
+    },
+    {
+      "role": "Keyword",
+      "text": "situacoes envolvam",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6727680172820858,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "posicionamento pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6727680172820858,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "importante",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6116005325458534,
+      "relevance": 0.9116541353383458
+    },
+    {
+      "role": "ContextObject",
+      "text": "pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.6071428571428572
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "tambem criar cenas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8053727812966441,
+      "relevance": 0.6936170212765957
+    },
+    {
+      "role": "Keyword",
+      "text": "posicionar pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.795038838805006,
+      "relevance": 0.8723404255319149
+    },
+    {
+      "role": "Keyword",
+      "text": "trabalhando nocoes",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.795038838805006,
+      "relevance": 0.8340425531914893
+    },
+    {
+      "role": "Keyword",
+      "text": "trabalhando nocoes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.795038838805006,
+      "relevance": 0.8340425531914893
+    },
+    {
+      "role": "Keyword",
+      "text": "circunstancias imaginadas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.795038838805006,
+      "relevance": 0.5553191489361702
+    },
+    {
+      "role": "Keyword",
+      "text": "nocoes direita",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5741947169147266,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "reproduzam fatos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7854290781432037,
+      "relevance": 0.6446808510638298
+    },
+    {
+      "role": "Keyword",
+      "text": "estimulado posicionar",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7854290781432037,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estimulado posicionar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7854290781432037,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cenas reproduzam",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7854290781432037,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5570981334143428,
+      "relevance": 0.7680851063829788
+    },
+    {
+      "role": "Keyword",
+      "text": "leste",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5570981334143428,
+      "relevance": 0.7468085106382979
+    },
+    {
+      "role": "Keyword",
+      "text": "individualmente",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7323355640564263,
+      "relevance": 0.9808510638297873
+    },
+    {
+      "role": "Keyword",
+      "text": "oeste",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5289090184851968,
+      "relevance": 0.7319148936170212
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "deve ser estimulado a posicionar pecas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.9191489361702128
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "deve ser estimulado a posicionar pecas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9191489361702128
+    },
+    {
+      "role": "ContextObject",
+      "text": "pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.848936170212766
+    }
+  ],
+  "2": [
+    {
+      "role": "DiscursiveStrategy",
+      "text": "interatividade entre essas historias envolvendo varios alunos.",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9384057971014492
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+[Documento] urn:doc:116
+  - miVector: 8.69,19.15,22.42,10.74,23.56,3.44,0.00,12.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.2356)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2356
+      • Spatial: 0.2242
+      • Logical-Mathematical: 0.1915
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: arrumacao pecas
+        • Keyword: enfeites geladeiras
+        • Keyword: montar
+        • Keyword: montar pecas
+        • Keyword: usadas enfeites
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2931
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: direita
+        • Keyword: embaixo
+        • Keyword: esquerda
+        • Keyword: identificando conceitos
+        • Keyword: similar
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4279
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: criar historias envolvendo
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0792
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: criar historias envolvendo
+        • Keyword: identificando conceitos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1998
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Preparar uma tabela metalica
+        • Keyword: preparar tabela
+        • Keyword: tabela metalica
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3388
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: adquirir comercio
+        • Keyword: metalica adquirir
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1900
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: bichinhos e flores me RE imantadas
+        • Keyword: bichinhos flores
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2123
+
+
+[Documento — Fragmentos] urn:doc:116
+
+[Fragmento] Preparacao: Preparar uma tabela metalica e adquirir no comercio bichinhos e flores me RE imantadas, usadas como enfeites de geladeiras. Utilizacao: A atividade e similar a proposta com o flanelografo.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: enfeites geladeiras
+        • Keyword: usadas enfeites
+    - Ativações:
+        • score=0.1914, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: similar
+    - Ativações:
+        • score=0.0676, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: Preparar uma tabela metalica
+        • Keyword: preparar tabela
+        • Keyword: tabela metalica
+    - Ativações:
+        • score=0.3388, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: adquirir comercio
+        • Keyword: metalica adquirir
+    - Ativações:
+        • score=0.1900, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: bichinhos e flores me RE imantadas
+        • Keyword: bichinhos flores
+    - Ativações:
+        • score=0.2123, tipo=Secondary
+
+[Fragmento] Os alunos devem montar as pecas, identificando conceitos como "direita", "esquerda", "em cima", "embaixo" e outros. Criar historias envolvendo a arrumacao das pecas. (Existe no comercio: Magneto / Q.I.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: arrumacao pecas
+        • Keyword: montar
+        • Keyword: montar pecas
+    - Ativações:
+        • score=0.2931, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: direita
+        • Keyword: embaixo
+        • Keyword: esquerda
+        • Keyword: identificando conceitos
+    - Ativações:
+        • score=0.4279, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: criar historias envolvendo
+    - Ativações:
+        • score=0.0792, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: criar historias envolvendo
+        • Keyword: identificando conceitos
+    - Ativações:
+        • score=0.1998, tipo=Secondary

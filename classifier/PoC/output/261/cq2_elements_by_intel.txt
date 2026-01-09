@@ -1,0 +1,79 @@
+[Documento] urn:doc:261
+  - miVector: 0.00,0.00,0.00,0.00,37.05,0.00,44.63,18.32
+  - TOP (documento): Intrapersonal (score=0.4463)
+  - Ranking (top 3):
+      • Intrapersonal: 0.4463
+      • Bodily-Kinesthetic: 0.3705
+      • Naturalist: 0.1832
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: esconder as bolinhas em um determinado terreno, camuflando-as com produtos do ambiente natural
+        • Keyword: camuflagens
+        • Keyword: distribui las pelo terreno
+        • Keyword: expressiva operatoria
+        • Keyword: inteligencia cinestesico corporal
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7593
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: um mapa e uma bussola
+        • DiscursiveStrategy: Falar aos alunos sobre a camuflagem e dar exemplo, achando uma das bolinhas.
+        • Keyword: bussola
+        • Keyword: camuflagem
+        • Keyword: mapa
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.8347
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: bolinhas
+        • Keyword: ambiente natural
+        • Keyword: bolinhas
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3638
+
+
+[Documento — Fragmentos] urn:doc:261
+
+[Fragmento] Preparacao: Dez a quinze bolinhas de vidro e um espaco aberto com as caracteristicas identificadas no jogo da sacola-surpresa (inteligencia cinestesico-corporal). Utilizacao: O professor devera esconder as bolinhas em um determinado terreno, camu- flando-as com produtos do ambiente natural.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: esconder as bolinhas em um determinado terreno, camuflando-as com produtos do ambiente natural
+        • Keyword: inteligencia cinestesico corporal
+    - Ativações:
+        • score=0.7593, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: ambiente natural
+    - Ativações:
+        • score=0.2407, tipo=Secondary
+
+[Fragmento] Falar aos alunos sobre a camuflagem e dar exemplo, achando uma das bolinhas. Distribui-las pelo terreno, algumas com localizacao mais facil e outros em locais (ou camuflagens) mais dificeis.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: camuflagens
+        • Keyword: distribui las pelo terreno
+    - Ativações:
+        • score=0.2486, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • DiscursiveStrategy: Falar aos alunos sobre a camuflagem e dar exemplo, achando uma das bolinhas.
+        • Keyword: camuflagem
+    - Ativações:
+        • score=0.3876, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: bolinhas
+        • Keyword: bolinhas
+    - Ativações:
+        • score=0.3638, tipo=Secondary
+
+[Fragmento] Um mapa e uma bussola podem ser usados para alunos maiores tornando a procura bem mais expressiva e operatoria. 206
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: expressiva operatoria
+    - Ativações:
+        • score=0.1653, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: um mapa e uma bussola
+        • Keyword: bussola
+        • Keyword: mapa
+    - Ativações:
+        • score=0.8347, tipo=Primary

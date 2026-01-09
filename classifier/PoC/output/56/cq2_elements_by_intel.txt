@@ -1,0 +1,74 @@
+[Documento] urn:doc:56
+  - miVector: 0.00,52.99,0.00,4.12,28.81,0.00,14.08,0.00
+  - TOP (documento): Logical-Mathematical (score=0.5299)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.5299
+      • Bodily-Kinesthetic: 0.2881
+      • Intrapersonal: 0.1408
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: colar extremidade
+        • Keyword: criem brincadeiras
+        • Keyword: revistas enrolar tiras
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4504
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: revistas enrolar tiras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2491
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Sugerir aos alunos que criem brincadeiras com o material, explorando seu raciocinio logico.
+        • DiscursiveStrategy: Utilizar o material como instrumento de contagem, para elaboracao de sequencias e ainda formacao de conjuntos.
+        • Keyword: elaboracao sequencias
+        • Keyword: formacao conjuntos
+        • Keyword: instrumento contagem
+        • Keyword: jogo exige
+        • Keyword: raciocinio logico
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.8282
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: material instrumento
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0948
+
+
+[Documento — Fragmentos] urn:doc:56
+
+[Fragmento] Preparacao: O jogo exige uma preparacao trabalhosa. Com auxilio de um lapis e revistas enrolar tiras de papel de 2cm de largura. Colar a extremidade. Usar canudinhos de refrigerantes como varetas, passando cola para dar maior consistencia.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: colar extremidade
+        • Keyword: revistas enrolar tiras
+    - Ativações:
+        • score=0.4504, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: revistas enrolar tiras
+    - Ativações:
+        • score=0.2491, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: jogo exige
+    - Ativações:
+        • score=0.3005, tipo=Secondary
+
+[Fragmento] Utilizacao: Utilizar o material como instrumento de contagem, para elaboracao de se- quencias e ainda formacao de conjuntos. Sugerir aos alunos que criem brincadei- ras com o material, explorando seu raciocinio logico.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: criem brincadeiras
+    - Ativações:
+        • score=0.0770, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: Sugerir aos alunos que criem brincadeiras com o material, explorando seu raciocinio logico.
+        • DiscursiveStrategy: Utilizar o material como instrumento de contagem, para elaboracao de sequencias e ainda formacao de conjuntos.
+        • Keyword: elaboracao sequencias
+        • Keyword: formacao conjuntos
+        • Keyword: instrumento contagem
+        • Keyword: raciocinio logico
+    - Ativações:
+        • score=0.8282, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: material instrumento
+    - Ativações:
+        • score=0.0948, tipo=Secondary

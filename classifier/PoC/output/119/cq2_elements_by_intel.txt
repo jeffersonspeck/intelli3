@@ -1,0 +1,110 @@
+[Documento] urn:doc:119
+  - miVector: 0.00,29.59,12.88,11.08,46.44,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4644)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4644
+      • Logical-Mathematical: 0.2959
+      • Spatial: 0.1288
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: figuras
+        • DiscursiveStrategy: ordenar figuras na sequencia solicitada pelo professor
+        • Keyword: colocando casa
+        • Keyword: cores diferentes triangulos
+        • Keyword: figuras sequencia
+        • Keyword: ordenar figuras
+        • Keyword: preparar
+        • Keyword: recortando cores
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.8619
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: branca quadriculado
+        • Keyword: caibam nessas casas
+        • Keyword: casas
+        • Keyword: colorida produzir figuras
+        • Keyword: produzir figuras geometricas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4252
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: cores diferentes triangulos
+        • Keyword: explicar
+        • Keyword: explicar regras
+        • Keyword: hexagonos
+        • Keyword: losangos
+        • Keyword: organizar sequencias logicas
+        • Keyword: produzir figuras geometricas
+        • Keyword: regras jogo
+        • Keyword: sequencia solicitada
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.5176
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: determinar sequencias
+        • Keyword: organizar sequencias logicas
+        • Keyword: sequencias pretende
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3658
+
+
+[Documento — Fragmentos] urn:doc:119
+
+[Fragmento] Preparacao: Preparar em uma cartolina branca um quadriculado (5cm x 5cm) com 25 casas. Com papel-cartao ou cartolina colorida produzir figuras geometricas que caibam nessas casas, recortando em cores diferentes triangulos, losangos, hexago- nos, quadrados e outros.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: cores diferentes triangulos
+        • Keyword: preparar
+        • Keyword: recortando cores
+    - Ativações:
+        • score=0.2954, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: branca quadriculado
+        • Keyword: caibam nessas casas
+        • Keyword: casas
+        • Keyword: colorida produzir figuras
+        • Keyword: produzir figuras geometricas
+    - Ativações:
+        • score=0.4252, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: cores diferentes triangulos
+        • Keyword: hexagonos
+        • Keyword: losangos
+        • Keyword: produzir figuras geometricas
+    - Ativações:
+        • score=0.2794, tipo=Secondary
+
+[Fragmento] Utilizacao: O professor deve explicar as regras do jogo para os alunos e determinar as sequencias que pretende. Em etapas mais avancadas, pode organizar sequencias logicas em que falta uma peca e solicitar ao aluno que a encontre, colocando na casa correspondente.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: colocando casa
+    - Ativações:
+        • score=0.1167, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: explicar
+        • Keyword: explicar regras
+        • Keyword: organizar sequencias logicas
+        • Keyword: regras jogo
+    - Ativações:
+        • score=0.5176, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: determinar sequencias
+        • Keyword: organizar sequencias logicas
+        • Keyword: sequencias pretende
+    - Ativações:
+        • score=0.3658, tipo=Secondary
+
+[Fragmento] A tarefa do aluno sera a de ordenar figuras na sequencia solicitada pelo professor.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: figuras
+        • DiscursiveStrategy: ordenar figuras na sequencia solicitada pelo professor
+        • Keyword: figuras sequencia
+        • Keyword: ordenar figuras
+    - Ativações:
+        • score=0.8619, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: sequencia solicitada
+    - Ativações:
+        • score=0.1381, tipo=Secondary

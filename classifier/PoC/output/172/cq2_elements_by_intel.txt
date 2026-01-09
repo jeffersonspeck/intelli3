@@ -1,0 +1,63 @@
+[Documento] urn:doc:172
+  - miVector: 0.00,30.27,0.00,0.00,20.39,0.00,0.00,49.34
+  - TOP (documento): Naturalist (score=0.4934)
+  - Ranking (top 3):
+      • Naturalist: 0.4934
+      • Logical-Mathematical: 0.3027
+      • Bodily-Kinesthetic: 0.2039
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: cartelas
+        • Keyword: cartelas pares
+        • Keyword: preparar dez cartelas
+        • Keyword: procurar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4689
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: conseguirem maior numero
+        • Keyword: olhos vendados
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.4927
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: maior numero de pontos
+        • ContextObject: par
+        • ContextObject: textura diferente
+        • Keyword: textura diferente
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.5073
+
+
+[Documento — Fragmentos] urn:doc:172
+
+[Fragmento] Preparacao: Preparar dez cartelas, divididas em par, cada uma tendo ao fundo uma textura diferente. Algumas podem ser forradas de la, outras de seda, outras ainda de feltro, lixa ou outro material. Utilizacao: Os alunos, com os olhos vendados, devem procurar as cartelas pares.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: cartelas
+        • Keyword: cartelas pares
+        • Keyword: preparar dez cartelas
+        • Keyword: procurar
+    - Ativações:
+        • score=0.4689, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: olhos vendados
+    - Ativações:
+        • score=0.0558, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: par
+        • ContextObject: textura diferente
+        • Keyword: textura diferente
+    - Ativações:
+        • score=0.4754, tipo=Primary
+
+[Fragmento] Vence a equipe cujos componentes conseguirem maior numero de pontos.
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: conseguirem maior numero
+    - Ativações:
+        • score=0.4927, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: maior numero de pontos
+    - Ativações:
+        • score=0.5073, tipo=Primary

@@ -1,0 +1,176 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "vocabular crianca",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7829583122574049,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "universo vocabular",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7667840171163562,
+      "relevance": 0.7487179487179487
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras extraidas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5245433477206508,
+      "relevance": 0.9307692307692308
+    },
+    {
+      "role": "Keyword",
+      "text": "serie figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.4769385042434867,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "colar essas figuras em cartolina e, eventualmente, plastifica-las.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.6692307692307693
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "figura caixa",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5625787381941235,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "necessarias escreve",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7789551759610941,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "retirar figura",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7607624040491276,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "letras necessarias",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7164023245842448,
+      "relevance": 0.7850877192982456
+    },
+    {
+      "role": "Keyword",
+      "text": "escolher",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6419707125941283,
+      "relevance": 0.611842105263158
+    },
+    {
+      "role": "Keyword",
+      "text": "letras corretas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6080594693275764,
+      "relevance": 0.5855263157894737
+    },
+    {
+      "role": "Keyword",
+      "text": "letras corretas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6080594693275764,
+      "relevance": 0.5855263157894737
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "escolher as letras corretas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.611842105263158
+    },
+    {
+      "role": "ContextObject",
+      "text": "figura",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.49725,
+      "relevance": 0.9407894736842105
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "construindo palavras",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7832143077308648,
+      "relevance": 0.9318181818181819
+    },
+    {
+      "role": "Keyword",
+      "text": "vai construindo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.767171507470944,
+      "relevance": 0.9419191919191919
+    },
+    {
+      "role": "Keyword",
+      "text": "evoluindo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7081585704335708,
+      "relevance": 0.8762626262626263
+    },
+    {
+      "role": "Keyword",
+      "text": "letra errada",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6580683821405239,
+      "relevance": 0.7297979797979798
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "coletivamente a classe vai construindo palavras",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "evoluindo das mais simples para as mais complexas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.8762626262626263
+    },
+    {
+      "role": "ContextObject",
+      "text": "letra errada, o espaco que deveria ser ocupado pela mesma e ocupado por um boneco na forca",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.7297979797979798
+    }
+  ]
+}

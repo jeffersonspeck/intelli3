@@ -1,0 +1,16 @@
+[Documento] urn:doc:169
+  - miVector: 0.00,10.91,0.00,19.45,44.22,9.39,0.00,16.02
+  - TOP (documento): Bodily-Kinesthetic (score=0.4422)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4422
+      • Musical: 0.1945
+      • Naturalist: 0.1602
+
+
+[Documento — Fragmentos] urn:doc:169
+
+[Fragmento] Preparacao: Construir com cubos de madeira de pouco mais de 20cm de altura e com cordas que funcionem como alcas, uma especie de tamanco. Utilizacao: O aluno devera andar sobre as pecas, segurando as cordas.
+  > TOP: Cinestésico-corporal (score=0.4690, tipo=Primary)
+
+[Fragmento] Apos o domi- nio de uma primeira fase de equilibrio, fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de per- cussao, andar apenas de lado ou andar de costas. (Existe no comercio -- Toc-Toc [Q. 1.].)
+  > TOP: Cinestésico-corporal (score=0.4074, tipo=Primary)

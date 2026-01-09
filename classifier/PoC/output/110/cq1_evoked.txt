@@ -1,0 +1,71 @@
+[Documento] urn:doc:110
+  - miVector: 0.00,22.48,1.92,11.75,40.56,7.16,0.00,16.13
+  - TOP (documento): Bodily-Kinesthetic (score=0.4056)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4056
+      • Logical-Mathematical: 0.2248
+      • Naturalist: 0.1613
+
+[Fragmento] Preparacao: Preparar com a ajuda dos alunos um "exercito" contendo varios carros de combate, soldados e outras pecas. Nao ha qualquer importancia que essas pecas (feitas de papelao ou massa de modelar) sejam semelhantes as reais.
+  - Bodily-Kinesthetic (via activation, score=0.1192)
+  - Interpersonal (via activation, score=0.2369)
+  - Logical-Mathematical (via activation, score=0.2523)
+  - Musical (via activation, score=0.2265)
+  - Naturalist (via activation, score=0.1651)
+  - Cinestésico-corporal (via activation, score=0.1192)
+  - Interpessoal (via activation, score=0.2369)
+  - Lógico-matemática (via activation, score=0.2523)
+  - Musical (via activation, score=0.2265)
+  - Naturalista (via activation, score=0.1651)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] Uma alternativa e usar tampinhas coloridas de pasta de dente, conchinhas ou outros objetos que devem assumir suas funcoes segundo o imaginario do aluno. Uma rosa dos ventos desenhada em cartolina e uma bussola para conferir a exatidao dos pontos solicitados.
+  - Bodily-Kinesthetic (via activation, score=0.6213)
+  - Naturalist (via activation, score=0.3787)
+  - Cinestésico-corporal (via activation, score=0.6213)
+  - Naturalista (via activation, score=0.3787)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Os alunos devem armar o exercito livremente e, depois, segundo orien- tacao do professor, arrumar as pecas a direita ou a esquerda de um ponto de referencia, classifica-las em fila, uma alternada a outra e assim por diante.
+  - Bodily-Kinesthetic (via activation, score=0.5647)
+  - Logical-Mathematical (via activation, score=0.4353)
+  - Cinestésico-corporal (via activation, score=0.5647)
+  - Lógico-matemática (via activation, score=0.4353)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Acrescentar-se uma rosa dos ventos ao jogo permite explorar os conceitos de pontos cardeais, desde que sejam os mesmos aferidos devidamente com uma bussola. (Existem diferentes modalidades de jogos de armar que podem ser utilizados segundo as propostas sugeridas.)
+  - Bodily-Kinesthetic (via activation, score=0.4033)
+  - Logical-Mathematical (via activation, score=0.2034)
+  - Musical (via activation, score=0.2106)
+  - Naturalist (via activation, score=0.1002)
+  - Spatial (via activation, score=0.0825)
+  - Cinestésico-corporal (via activation, score=0.4033)
+  - Espacial-visual (via activation, score=0.0825)
+  - Lógico-matemática (via activation, score=0.2034)
+  - Musical (via activation, score=0.2106)
+  - Naturalista (via activation, score=0.1002)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)

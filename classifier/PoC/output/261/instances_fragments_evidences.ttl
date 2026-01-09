@@ -1,0 +1,93 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:261#evid-000-00-inteligencia-cinestesico-corpora> a onto:Keyword ;
+    rdfs:label "inteligencia cinestesico corporal"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-000-01-ambiente-natural> a onto:Keyword ;
+    rdfs:label "ambiente natural"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:261#evid-000-02-esconder-as-bolinhas-em-um-deter> a onto:DiscursiveStrategy ;
+    rdfs:label "esconder as bolinhas em um determinado terreno, camuflando-as com produtos do ambiente natural"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-001-00-distribui-las-pelo-terreno> a onto:Keyword ;
+    rdfs:label "distribui las pelo terreno"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-001-01-bolinhas> a onto:Keyword ;
+    rdfs:label "bolinhas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:261#evid-001-02-camuflagem> a onto:Keyword ;
+    rdfs:label "camuflagem"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:261#evid-001-03-camuflagens> a onto:Keyword ;
+    rdfs:label "camuflagens"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-001-04-falar-aos-alunos-sobre-a-camufla> a onto:DiscursiveStrategy ;
+    rdfs:label "Falar aos alunos sobre a camuflagem e dar exemplo, achando uma das bolinhas."@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:261#evid-001-05-bolinhas> a onto:ContextObject ;
+    rdfs:label "bolinhas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:261#evid-002-00-expressiva-operatoria> a onto:Keyword ;
+    rdfs:label "expressiva operatoria"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:261#evid-002-01-mapa> a onto:Keyword ;
+    rdfs:label "mapa"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:261#evid-002-02-bussola> a onto:Keyword ;
+    rdfs:label "bussola"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:261#evid-002-03-um-mapa-e-uma-bussola> a onto:ContextObject ;
+    rdfs:label "um mapa e uma bussola"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:261#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Dez a quinze bolinhas de vidro e um espaco aberto com as caracteristicas identificadas no jogo da sacola-surpresa (inteligencia cinestesico-corporal). Utilizacao: O professor devera esconder as bolinhas em um determinado terreno, camu- flando-as com produtos do ambiente natural."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:261> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:261#evid-000-00-inteligencia-cinestesico-corpora>,
+        <urn:doc:261#evid-000-01-ambiente-natural>,
+        <urn:doc:261#evid-000-02-esconder-as-bolinhas-em-um-deter> .
+
+<urn:doc:261#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Falar aos alunos sobre a camuflagem e dar exemplo, achando uma das bolinhas. Distribui-las pelo terreno, algumas com localizacao mais facil e outros em locais (ou camuflagens) mais dificeis."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:261> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:261#evid-001-00-distribui-las-pelo-terreno>,
+        <urn:doc:261#evid-001-01-bolinhas>,
+        <urn:doc:261#evid-001-02-camuflagem>,
+        <urn:doc:261#evid-001-03-camuflagens>,
+        <urn:doc:261#evid-001-04-falar-aos-alunos-sobre-a-camufla>,
+        <urn:doc:261#evid-001-05-bolinhas> .
+
+<urn:doc:261#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Um mapa e uma bussola podem ser usados para alunos maiores tornando a procura bem mais expressiva e operatoria. 206"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:261> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:261#evid-002-00-expressiva-operatoria>,
+        <urn:doc:261#evid-002-01-mapa>,
+        <urn:doc:261#evid-002-02-bussola>,
+        <urn:doc:261#evid-002-03-um-mapa-e-uma-bussola> .
+
+<urn:doc:261> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:261#frag-000>,
+        <urn:doc:261#frag-001>,
+        <urn:doc:261#frag-002> .
+

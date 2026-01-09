@@ -1,0 +1,31 @@
+[Documento] urn:doc:2
+  - miVector: 27.07,0.00,10.34,0.00,48.14,14.45,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4814)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4814
+      • Linguistic: 0.2707
+      • Interpersonal: 0.1445
+
+[Fragmento] Preparacao: Desenhar ou montar em cartolina uma cozinha, um quarto ou a estrutura interna de uma casa. Construir em cartolina pecas que completem esse aposento, como sofas, camas, mesas, espelhos, armarios, panelas e outros objetos.
+  - Bodily-Kinesthetic (via activation, score=0.5614)
+  - Interpersonal (via activation, score=0.2556)
+  - Spatial (via activation, score=0.1830)
+  - Cinestésico-corporal (via activation, score=0.5614)
+  - Espacial-visual (via activation, score=0.1830)
+  - Interpessoal (via activation, score=0.2556)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+
+[Fragmento] Utilizacao: Ao receber as pecas do jogo, a crianca devera nomear o objeto, montan- do-o sobre a estrutura. O jogo pode ser desenvolvido em grupo e, nas etapas seguintes, devera no- mear, dizer as cores ou contar historias que envolvam essa montagem.
+  - Bodily-Kinesthetic (via activation, score=0.3773)
+  - Linguistic (via activation, score=0.6227)
+  - Cinestésico-corporal (via activation, score=0.3773)
+  - Linguística (via activation, score=0.6227)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)

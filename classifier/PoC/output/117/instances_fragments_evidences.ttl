@@ -1,0 +1,168 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:117#evid-000-00-opcoes-educacionais> a onto:Keyword ;
+    rdfs:label "opcoes educacionais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:117#evid-000-01-criando-inumeras-situacoes> a onto:Keyword ;
+    rdfs:label "criando inumeras situacoes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:117#evid-000-02-criando-inumeras-situacoes> a onto:Keyword ;
+    rdfs:label "criando inumeras situacoes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-000-03-popular> a onto:Keyword ;
+    rdfs:label "popular"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:117#evid-000-04-consequente-verbalizacao> a onto:Keyword ;
+    rdfs:label "consequente verbalizacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:117#evid-000-05-envolvam-posicionamento> a onto:Keyword ;
+    rdfs:label "envolvam posicionamento"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:117#evid-000-06-situacoes-envolvam> a onto:Keyword ;
+    rdfs:label "situacoes envolvam"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-000-07-posicionamento-pecas> a onto:Keyword ;
+    rdfs:label "posicionamento pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:117#evid-000-08-importante> a onto:Keyword ;
+    rdfs:label "importante"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:117#evid-000-09-pecas> a onto:ContextObject ;
+    rdfs:label "pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:117#evid-001-00-tambem-criar-cenas> a onto:Keyword ;
+    rdfs:label "tambem criar cenas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-001-01-posicionar-pecas> a onto:Keyword ;
+    rdfs:label "posicionar pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:117#evid-001-02-trabalhando-nocoes> a onto:Keyword ;
+    rdfs:label "trabalhando nocoes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:117#evid-001-03-trabalhando-nocoes> a onto:Keyword ;
+    rdfs:label "trabalhando nocoes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:117#evid-001-04-circunstancias-imaginadas> a onto:Keyword ;
+    rdfs:label "circunstancias imaginadas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-001-05-nocoes-direita> a onto:Keyword ;
+    rdfs:label "nocoes direita"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:117#evid-001-06-reproduzam-fatos> a onto:Keyword ;
+    rdfs:label "reproduzam fatos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:117#evid-001-07-estimulado-posicionar> a onto:Keyword ;
+    rdfs:label "estimulado posicionar"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:117#evid-001-08-estimulado-posicionar> a onto:Keyword ;
+    rdfs:label "estimulado posicionar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-001-09-cenas-reproduzam> a onto:Keyword ;
+    rdfs:label "cenas reproduzam"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-001-10-esquerda> a onto:Keyword ;
+    rdfs:label "esquerda"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:117#evid-001-11-leste> a onto:Keyword ;
+    rdfs:label "leste"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:117#evid-001-12-individualmente> a onto:Keyword ;
+    rdfs:label "individualmente"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-001-13-oeste> a onto:Keyword ;
+    rdfs:label "oeste"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:117#evid-001-14-deve-ser-estimulado-a-posicionar> a onto:DiscursiveStrategy ;
+    rdfs:label "deve ser estimulado a posicionar pecas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:117#evid-001-15-deve-ser-estimulado-a-posicionar> a onto:DiscursiveStrategy ;
+    rdfs:label "deve ser estimulado a posicionar pecas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#evid-001-16-pecas> a onto:ContextObject ;
+    rdfs:label "pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:117#evid-002-00-interatividade-entre-essas-histo> a onto:DiscursiveStrategy ;
+    rdfs:label "interatividade entre essas historias envolvendo varios alunos."@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:117#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo existe no comercio e e muito popular. O importante e dar ao mes- mo, ao lado de sua finalidade recreativa, opcoes educacionais. Isto e possivel, criando inumeras situacoes que envolvam posicionamento das pecas e sua tca- tralizacao com a consequente verbalizacao."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:117> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:117#evid-000-00-opcoes-educacionais>,
+        <urn:doc:117#evid-000-01-criando-inumeras-situacoes>,
+        <urn:doc:117#evid-000-02-criando-inumeras-situacoes>,
+        <urn:doc:117#evid-000-03-popular>,
+        <urn:doc:117#evid-000-04-consequente-verbalizacao>,
+        <urn:doc:117#evid-000-05-envolvam-posicionamento>,
+        <urn:doc:117#evid-000-06-situacoes-envolvam>,
+        <urn:doc:117#evid-000-07-posicionamento-pecas>,
+        <urn:doc:117#evid-000-08-importante>,
+        <urn:doc:117#evid-000-09-pecas> .
+
+<urn:doc:117#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O aluno (individualmente ou em grupo) deve ser estimulado a posicionar pecas (trabalhando nocoes de direita, esquerda, leste, oeste e outras) e tambem criar cenas que reproduzam fatos do cotidiano do aluno ou circunstancias imaginadas."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:117> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:117#evid-001-00-tambem-criar-cenas>,
+        <urn:doc:117#evid-001-01-posicionar-pecas>,
+        <urn:doc:117#evid-001-02-trabalhando-nocoes>,
+        <urn:doc:117#evid-001-03-trabalhando-nocoes>,
+        <urn:doc:117#evid-001-04-circunstancias-imaginadas>,
+        <urn:doc:117#evid-001-05-nocoes-direita>,
+        <urn:doc:117#evid-001-06-reproduzam-fatos>,
+        <urn:doc:117#evid-001-07-estimulado-posicionar>,
+        <urn:doc:117#evid-001-08-estimulado-posicionar>,
+        <urn:doc:117#evid-001-09-cenas-reproduzam>,
+        <urn:doc:117#evid-001-10-esquerda>,
+        <urn:doc:117#evid-001-11-leste>,
+        <urn:doc:117#evid-001-12-individualmente>,
+        <urn:doc:117#evid-001-13-oeste>,
+        <urn:doc:117#evid-001-14-deve-ser-estimulado-a-posicionar>,
+        <urn:doc:117#evid-001-15-deve-ser-estimulado-a-posicionar>,
+        <urn:doc:117#evid-001-16-pecas> .
+
+<urn:doc:117#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "E interessante a interatividade entre essas historias envolvendo va- rios alunos. (Existem no mercado: \"Playmobil\": [Trol] e muitos outros.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:117> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:117#evid-002-00-interatividade-entre-essas-histo> .
+
+<urn:doc:117> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:117#frag-000>,
+        <urn:doc:117#frag-001>,
+        <urn:doc:117#frag-002> .
+

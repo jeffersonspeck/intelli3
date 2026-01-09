@@ -1,0 +1,31 @@
+[Documento] urn:doc:172
+  - miVector: 0.00,30.27,0.00,0.00,20.39,0.00,0.00,49.34
+  - TOP (documento): Naturalist (score=0.4934)
+  - Ranking (top 3):
+      • Naturalist: 0.4934
+      • Logical-Mathematical: 0.3027
+      • Bodily-Kinesthetic: 0.2039
+
+[Fragmento] Preparacao: Preparar dez cartelas, divididas em par, cada uma tendo ao fundo uma textura diferente. Algumas podem ser forradas de la, outras de seda, outras ainda de feltro, lixa ou outro material. Utilizacao: Os alunos, com os olhos vendados, devem procurar as cartelas pares.
+  - Bodily-Kinesthetic (via activation, score=0.4689)
+  - Logical-Mathematical (via activation, score=0.0558)
+  - Naturalist (via activation, score=0.4754)
+  - Cinestésico-corporal (via activation, score=0.4689)
+  - Lógico-matemática (via activation, score=0.0558)
+  - Naturalista (via activation, score=0.4754)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Vence a equipe cujos componentes conseguirem maior numero de pontos.
+  - Logical-Mathematical (via activation, score=0.4927)
+  - Naturalist (via activation, score=0.5073)
+  - Lógico-matemática (via activation, score=0.4927)
+  - Naturalista (via activation, score=0.5073)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

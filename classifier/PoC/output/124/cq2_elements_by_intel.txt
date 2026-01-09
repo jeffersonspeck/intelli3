@@ -1,0 +1,93 @@
+[Documento] urn:doc:124
+  - miVector: 10.88,8.43,14.31,32.12,34.26,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.3426)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3426
+      • Musical: 0.3212
+      • Spatial: 0.1431
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: encaixe vaso / ninho
+        • Keyword: encaixe
+        • Keyword: encaixe vaso
+        • Keyword: recorta las maneira
+        • Keyword: unam atraves
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5085
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: cartoes com muitas associacoes (15cm x 10cm) lado a lado (por exemplo: vaso / regador -- ninho / passarinho -- abelha / colmeia e outras)
+        • Keyword: corretas encaixes
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2774
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las
+        • Keyword: desenvolver sentido
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3591
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: preparar ilustracoes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2141
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las
+        • DiscursiveStrategy: Preparar mais de um encaixe para essas situacoes, de maneira que seja possivel, por exemplo, o encaixe vaso / ninho e outros. A atividade dos alunos, individ…
+        • Keyword: estimulando relato
+        • Keyword: preparar
+        • Keyword: relato diferentes
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.5306
+
+
+[Documento — Fragmentos] urn:doc:124
+
+[Fragmento] Preparacao: Preparar com ilustracoes de revistas uma serie de cartoes com muitas associacoes (15cm x 10cm) lado a lado (por exemplo: vaso / regador -- ninho / passarinho -- abelha / colmeia e outras) e recorta-las de maneira a permitir que as duas partes se unam atraves de um encaixe.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: encaixe
+        • Keyword: recorta las maneira
+        • Keyword: unam atraves
+    - Ativações:
+        • score=0.5085, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: cartoes com muitas associacoes (15cm x 10cm) lado a lado (por exemplo: vaso / regador -- ninho / passarinho -- abelha / colmeia e outras)
+    - Ativações:
+        • score=0.2774, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: preparar ilustracoes
+    - Ativações:
+        • score=0.2141, tipo=Secondary
+
+[Fragmento] Preparar mais de um encaixe para essas situacoes, de maneira que seja possivel, por exemplo, o encaixe vaso / ninho e outros. Utilizacao: A atividade dos alunos, individualmente ou em duplas ou trios, e unir as pecas construindo associacoes.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: encaixe vaso / ninho
+        • Keyword: encaixe vaso
+    - Ativações:
+        • score=0.4694, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: Preparar mais de um encaixe para essas situacoes, de maneira que seja possivel, por exemplo, o encaixe vaso / ninho e outros. A atividade dos alunos, individ…
+        • Keyword: preparar
+    - Ativações:
+        • score=0.5306, tipo=Primary
+
+[Fragmento] Como essas construcoes sao possiveis com associa- coes corretas e encaixes em situacoes nao corretas, desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las. (Existem no comercio: jogos e dominos para associacao de ideias.)
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: corretas encaixes
+    - Ativações:
+        • score=0.1115, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las
+        • Keyword: desenvolver sentido
+    - Ativações:
+        • score=0.3591, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las
+        • Keyword: estimulando relato
+        • Keyword: relato diferentes
+    - Ativações:
+        • score=0.5294, tipo=Primary

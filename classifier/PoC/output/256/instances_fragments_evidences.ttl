@@ -1,0 +1,198 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:256#evid-000-00-sons-diferenciados> a onto:Keyword ;
+    rdfs:label "sons diferenciados"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:256#evid-000-01-identificacao-mesmos> a onto:Keyword ;
+    rdfs:label "identificacao mesmos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:256#evid-000-02-gravada-sons> a onto:Keyword ;
+    rdfs:label "gravada sons"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:256#evid-000-03-ondas-mar> a onto:Keyword ;
+    rdfs:label "ondas mar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:256#evid-000-04-passaros-animais> a onto:Keyword ;
+    rdfs:label "passaros animais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:256#evid-000-05-gravador-e-fita-gravada> a onto:ContextObject ;
+    rdfs:label "gravador e fita gravada"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:256#evid-000-06-gravador-e-fita-gravada> a onto:ContextObject ;
+    rdfs:label "gravador e fita gravada"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:256#evid-001-00-extraidas-reportagens> a onto:Keyword ;
+    rdfs:label "extraidas reportagens"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:256#evid-001-01-grave-diferentes> a onto:Keyword ;
+    rdfs:label "grave diferentes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:256#evid-001-02-televisao-pode-permitir> a onto:Keyword ;
+    rdfs:label "televisao pode permitir"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:256#evid-001-03-rota-imaginaria> a onto:Keyword ;
+    rdfs:label "rota imaginaria"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:256#evid-001-04-sons-gravados> a onto:Keyword ;
+    rdfs:label "sons gravados"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:256#evid-001-05-trilha-fantastica> a onto:Keyword ;
+    rdfs:label "trilha fantastica"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:256#evid-001-06-ser-convidados> a onto:Keyword ;
+    rdfs:label "ser convidados"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:256#evid-001-07-convidados-partilhar> a onto:Keyword ;
+    rdfs:label "convidados partilhar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:256#evid-001-08-partilhar-de-uma-rota-imaginaria> a onto:DiscursiveStrategy ;
+    rdfs:label "partilhar de uma rota imaginaria, da descoberta de uma trilha fantastica"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:256#evid-001-09-partilhar-de-uma-rota-imaginaria> a onto:DiscursiveStrategy ;
+    rdfs:label "partilhar de uma rota imaginaria, da descoberta de uma trilha fantastica"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:256#evid-001-10-fita-com-os-sons-gravados> a onto:ContextObject ;
+    rdfs:label "fita com os sons gravados"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:256#evid-002-00-sons-ouvidos> a onto:Keyword ;
+    rdfs:label "sons ouvidos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:256#evid-002-01-idealizar-roteiro> a onto:Keyword ;
+    rdfs:label "idealizar roteiro"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:256#evid-002-02-idealizar-roteiro> a onto:Keyword ;
+    rdfs:label "idealizar roteiro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:256#evid-002-03-roteiro-trilha> a onto:Keyword ;
+    rdfs:label "roteiro trilha"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:256#evid-002-04-roteiro-trilha> a onto:Keyword ;
+    rdfs:label "roteiro trilha"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:256#evid-002-05-anunciando-cada-som> a onto:Keyword ;
+    rdfs:label "anunciando cada som"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:256#evid-002-06-anunciando-cada-som> a onto:Keyword ;
+    rdfs:label "anunciando cada som"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:256#evid-002-07-estrategia-facilita> a onto:Keyword ;
+    rdfs:label "estrategia facilita"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:256#evid-002-08-facilita-construcao> a onto:Keyword ;
+    rdfs:label "facilita construcao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:256#evid-002-09-divagar-pelo-imaginario> a onto:Keyword ;
+    rdfs:label "divagar pelo imaginario"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:256#evid-002-10-construcao-dessa-trilha> a onto:Keyword ;
+    rdfs:label "construcao dessa trilha"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:256#evid-002-11-construcao-dessa-trilha> a onto:Keyword ;
+    rdfs:label "construcao dessa trilha"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:256#evid-002-12-idealizar-o-roteiro-da-trilha-a-> a onto:DiscursiveStrategy ;
+    rdfs:label "idealizar o roteiro da trilha a partir dos sons ouvidos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:256#evid-002-13-idealizar-o-roteiro-da-trilha-a-> a onto:DiscursiveStrategy ;
+    rdfs:label "idealizar o roteiro da trilha a partir dos sons ouvidos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:256#evid-002-14-idealizar-o-roteiro-da-trilha-a-> a onto:DiscursiveStrategy ;
+    rdfs:label "idealizar o roteiro da trilha a partir dos sons ouvidos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:256#evid-002-15-sons> a onto:ContextObject ;
+    rdfs:label "sons"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:256#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Gravador e fita gravada com sons diferenciados. Para tornar mais facil a identi- ficacao dos mesmos, o professor devera usar uma campainha para separar um som de outro. Fazer a gravacao captando sons de ventania, ondas do mar, passaros e ani- mais."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:256> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:256#evid-000-00-sons-diferenciados>,
+        <urn:doc:256#evid-000-01-identificacao-mesmos>,
+        <urn:doc:256#evid-000-02-gravada-sons>,
+        <urn:doc:256#evid-000-03-ondas-mar>,
+        <urn:doc:256#evid-000-04-passaros-animais>,
+        <urn:doc:256#evid-000-05-gravador-e-fita-gravada>,
+        <urn:doc:256#evid-000-06-gravador-e-fita-gravada> .
+
+<urn:doc:256#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "A televisao pode permitir que se grave diferentes \"cenas\" extraidas de reporta- gens, exploracoes e outras. Utilizacao: Os alunos devem ser convidados a partilhar de uma rota imaginaria, da desco- berta de uma trilha fantastica e dispoem como unico elemento a fita com os sons gravados."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:256> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:256#evid-001-00-extraidas-reportagens>,
+        <urn:doc:256#evid-001-01-grave-diferentes>,
+        <urn:doc:256#evid-001-02-televisao-pode-permitir>,
+        <urn:doc:256#evid-001-03-rota-imaginaria>,
+        <urn:doc:256#evid-001-04-sons-gravados>,
+        <urn:doc:256#evid-001-05-trilha-fantastica>,
+        <urn:doc:256#evid-001-06-ser-convidados>,
+        <urn:doc:256#evid-001-07-convidados-partilhar>,
+        <urn:doc:256#evid-001-08-partilhar-de-uma-rota-imaginaria>,
+        <urn:doc:256#evid-001-09-partilhar-de-uma-rota-imaginaria>,
+        <urn:doc:256#evid-001-10-fita-com-os-sons-gravados> .
+
+<urn:doc:256#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "A classe pode estar organizada em grupos e cada grupo deve idealizar o roteiro da trilha a partir dos sons ouvidos. Uma estrategia que facilita a construcao dessa trilha e o divagar pelo imaginario e uma voz (pode ser do professor) anunci- ando cada som por seu numero."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:256> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:256#evid-002-00-sons-ouvidos>,
+        <urn:doc:256#evid-002-01-idealizar-roteiro>,
+        <urn:doc:256#evid-002-02-idealizar-roteiro>,
+        <urn:doc:256#evid-002-03-roteiro-trilha>,
+        <urn:doc:256#evid-002-04-roteiro-trilha>,
+        <urn:doc:256#evid-002-05-anunciando-cada-som>,
+        <urn:doc:256#evid-002-06-anunciando-cada-som>,
+        <urn:doc:256#evid-002-07-estrategia-facilita>,
+        <urn:doc:256#evid-002-08-facilita-construcao>,
+        <urn:doc:256#evid-002-09-divagar-pelo-imaginario>,
+        <urn:doc:256#evid-002-10-construcao-dessa-trilha>,
+        <urn:doc:256#evid-002-11-construcao-dessa-trilha>,
+        <urn:doc:256#evid-002-12-idealizar-o-roteiro-da-trilha-a->,
+        <urn:doc:256#evid-002-13-idealizar-o-roteiro-da-trilha-a->,
+        <urn:doc:256#evid-002-14-idealizar-o-roteiro-da-trilha-a->,
+        <urn:doc:256#evid-002-15-sons> .
+
+<urn:doc:256> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:256#frag-000>,
+        <urn:doc:256#frag-001>,
+        <urn:doc:256#frag-002> .
+

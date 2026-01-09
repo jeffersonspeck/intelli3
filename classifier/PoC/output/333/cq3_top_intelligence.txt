@@ -1,0 +1,31 @@
+[Documento] urn:doc:333
+  - miVector: 15.96,5.27,2.46,7.73,2.58,54.66,0.00,11.34
+  - TOP (documento): Interpersonal (score=0.5466)
+  - Ranking (top 3):
+      • Interpersonal: 0.5466
+      • Linguistic: 0.1596
+      • Naturalist: 0.1134
+
+
+[Documento — Fragmentos] urn:doc:333
+
+[Fragmento] Preparacao: A aplicacao de questionarios para avaliar a consciencia emocional do alu- no, desde que analisados criteriosamente, representa excelente recurso para identificar os quadros emocionais existentes na classe.
+  > TOP: Interpessoal (score=0.5208, tipo=Primary)
+
+[Fragmento] Abaixo, o modelo de al- gumas questoes que poderiam ser formuladas, ajustando-as ao nivel etario e ao universo vocabular do aluno: Questoes: |. Como reage quando ve um amigo ou um adulto perder a calma ce tor- nar-se agressivo? 2. Em situacoes muito tensas, quais costumam ser suas reacoes? 3.
+  > TOP: Interpessoal (score=0.4964, tipo=Primary)
+
+[Fragmento] Quais circunstancias que o deixam inteiramente "fora de si"? 4. Em quais situacoes vive estados de medo? felicidade? tristeza? esperanca? . Na sua opiniao, qual a diferenca entre alegria e felicidade? tel 6. E capaz de perder horas de sono por causa de alguma grande preocupacao? 7.
+  > TOP: Interpessoal (score=0.5925, tipo=Primary)
+
+[Fragmento] Consegue falar de seus sentimentos para outras pessoas? (Quais pes- soas? 3. Quais fatos, ocorridos com outras pessoas, o(a) fazem sofrer sincera- mente? 9. Voce se acha uma pessoa muito querida em sua casa? E na escola? 10. Voce seria capaz de matar um animal pequeno, sem qualquer senti- mento? 11.
+  > TOP: Interpessoal (score=0.5948, tipo=Primary)
+
+[Fragmento] Sei, com clareza, quem cu amo e sei, tambem com clareza, quem me ama? 2.
+  > TOP: Interpessoal (score=0.6043, tipo=Primary)
+
+[Fragmento] Como voce nao sabe dizer "nao", muitas vezes faz coisas que detesta? a. De zero a dez, a nota que dou para minha timidez e... | | 14. Situacoes que me deixam muito aborrecido sao as que... 15. Toda vez que tenho que tomar importante decisao, sinto... | A. 6.
+  > TOP: Linguística (score=0.5880, tipo=Primary)
+
+[Fragmento] Como voce sc apresenta ao aceitar e manifestar carinho? 258
+  > TOP: Interpessoal (score=1.0000, tipo=Primary)

@@ -1,0 +1,16 @@
+[Documento] urn:doc:3
+  - miVector: 11.95,6.10,3.96,5.96,34.33,19.46,0.00,18.24
+  - TOP (documento): Bodily-Kinesthetic (score=0.3433)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3433
+      • Interpersonal: 0.1946
+      • Naturalist: 0.1824
+
+
+[Documento — Fragmentos] urn:doc:3
+
+[Fragmento] Preparacao: Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quantidade de figu- ras humanas, eventualmente animais, nas mais diversas situacoes.
+  > TOP: Cinestésico-corporal (score=0.6073, tipo=Primary)
+
+[Fragmento] Utilizacao: A crianca, ou grupos de criancas, devem ser estimulados a "inventar" histo- rias, escolhendo seus personagens e descrevendo situacoes diferentes. O teatro pode ter, em etapas seguintes, um numero maior de atos e a pro- pria crianca deve ser estimulada a colecionar novos personagens. 49
+  > TOP: Interpessoal (score=0.4476, tipo=Primary)

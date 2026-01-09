@@ -1,0 +1,16 @@
+[Documento] urn:doc:48
+  - miVector: 0.00,36.05,0.00,9.17,31.93,0.00,0.00,22.86
+  - TOP (documento): Logical-Mathematical (score=0.3605)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3605
+      • Bodily-Kinesthetic: 0.3193
+      • Naturalist: 0.2286
+
+
+[Documento — Fragmentos] urn:doc:48
+
+[Fragmento] Preparacao: Selecionar oito garrafas de plastico, cortar a 1o com 15cm de altura, as ou- tras com 12,5cm, 10cm, 7cm, 5,25cm, 5cm, 4,0cm e 3,5cm. De acabamento com fitas colantes nas beiradas.
+  > TOP: Cinestésico-corporal (score=0.5649, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos devem ordenar as garrafas em tamanho, formando diferentes composicoes, agrupando as de tamanhos quase iguais ou diferentes, ordenan- do-as em fileiras, da menor para a maior e da maior para a menor. (Existem no mercado jogos com pinos de madeira -- Coluna e outros.)
+  > TOP: Lógico-matemática (score=0.6342, tipo=Primary)

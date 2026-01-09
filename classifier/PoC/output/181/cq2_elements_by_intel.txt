@@ -1,0 +1,67 @@
+[Documento] urn:doc:181
+  - miVector: 0.00,40.79,0.00,0.00,41.85,0.00,17.36,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4185)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4185
+      • Logical-Mathematical: 0.4079
+      • Intrapersonal: 0.1736
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: abotoar e desabotoar, dar laco, enganchar
+        • Keyword: botoes pressao
+        • Keyword: brincadeiras livres
+        • Keyword: diferentes tamanhos
+        • Keyword: maos brincadeiras
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4930
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: casas
+        • Keyword: coloridos casas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3071
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: determinacoes
+        • Keyword: diferentes tamanhos
+        • Keyword: execute
+        • Keyword: olhos vendados
+        • Keyword: segundo determinacoes
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.6784
+
+
+[Documento — Fragmentos] urn:doc:181
+
+[Fragmento] Preparacao: Usar panos coloridos com casas e botoes de diferentes tamanhos, botoes de pressao, ganchos. O mesmo tecido pode ter casas do tipo ilhos para passar barbante. Venda para os olhos. Utilizacao: O aluno devera abotoar e desabotoar, dar laco, enganchar.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: abotoar e desabotoar, dar laco, enganchar
+        • Keyword: botoes pressao
+        • Keyword: diferentes tamanhos
+    - Ativações:
+        • score=0.4930, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: casas
+        • Keyword: coloridos casas
+    - Ativações:
+        • score=0.3071, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: diferentes tamanhos
+    - Ativações:
+        • score=0.1999, tipo=Secondary
+
+[Fragmento] Essa atividade deve ser programada e e bom que o aluno nao segure o pano em suas maos para brincadeiras livres, mas que execute a atividade segundo determinacoes do pro- fessor, preferivelmente com os olhos vendados.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: brincadeiras livres
+        • Keyword: maos brincadeiras
+    - Ativações:
+        • score=0.3216, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: determinacoes
+        • Keyword: execute
+        • Keyword: olhos vendados
+        • Keyword: segundo determinacoes
+    - Ativações:
+        • score=0.6784, tipo=Primary

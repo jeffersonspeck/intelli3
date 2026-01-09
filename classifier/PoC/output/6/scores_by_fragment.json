@@ -1,0 +1,30 @@
+{
+  "0": {
+    "BodilyKinestheticIntelligence": 0.7423987983482062,
+    "LogicalMathematicalIntelligence": 0.5967382746216594,
+    "NaturalistIntelligence": 0.5967382746216594
+  },
+  "1": {
+    "LogicalMathematicalIntelligence": 1.6073528270949955,
+    "LinguisticIntelligence": 1.1411965996011613,
+    "NaturalistIntelligence": 1.7011037399259572,
+    "IntrapersonalIntelligence": 1.6977177154059335
+  },
+  "2": {
+    "LinguisticIntelligence": 1.3523647999543762,
+    "MusicalIntelligence": 1.941575233965017,
+    "LogicalMathematicalIntelligence": 0.5892104340106405
+  },
+  "3": {
+    "LinguisticIntelligence": 1.5828984488293891,
+    "IntrapersonalIntelligence": 1.943246729819132,
+    "LogicalMathematicalIntelligence": 0.48003210202419505
+  },
+  "4": {
+    "IntrapersonalIntelligence": 1.2295309025548764,
+    "MusicalIntelligence": 1.7319037055707631,
+    "InterpersonalIntelligence": 3.2940953300450055,
+    "BodilyKinestheticIntelligence": 0.49351819637618743,
+    "LogicalMathematicalIntelligence": 0.5980168958958121
+  }
+}

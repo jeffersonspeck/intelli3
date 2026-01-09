@@ -1,0 +1,19 @@
+[Documento] urn:doc:54
+  - miVector: 0.00,23.60,8.40,0.00,39.84,0.00,0.00,28.15
+  - TOP (documento): Bodily-Kinesthetic (score=0.3984)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3984
+      • Naturalist: 0.2815
+      • Logical-Mathematical: 0.2360
+
+
+[Documento — Fragmentos] urn:doc:54
+
+[Fragmento] Preparacao: O jogo exige uma preparacao trabalhosa. Torna-se necessario colar fitas em cartolina formando um circulo em uma, um triangulo em outra e um quadrado em uma terceira. Recortar em papel-cartao colorido silhuetas com formas de figuras humanas, frutas e formas geometricas.
+  > TOP: Cinestésico-corporal (score=0.7618, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos devem formar conjuntos com diferentes formas e em etapas pos- teriores colocar esses conjuntos dentro dos contornos solicitados. Formam assim conjuntos de formas, conforme a cor, e trabalham com sua colocacao nos contornos.
+  > TOP: Cinestésico-corporal (score=0.5530, tipo=Primary)
+
+[Fragmento] (Existe no mercado -- Brincando de Conjunto -- Uki-Uki.)
+  > TOP: Naturalista (score=0.6136, tipo=Primary)

@@ -1,0 +1,90 @@
+[Documento] urn:doc:114
+  - miVector: 4.28,10.05,5.48,0.00,80.19,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.8019)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.8019
+      • Logical-Mathematical: 0.1005
+      • Spatial: 0.0548
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Fazer ditados, orientando encaixes
+        • DiscursiveStrategy: montar figuras ou reproduzir modelos
+        • Keyword: diferentes encaixe
+        • Keyword: encaixe nesses furos
+        • Keyword: fixar tres pinos
+        • Keyword: mesmo pode montar
+        • Keyword: modelos explorem
+        • Keyword: montar figuras
+        • Keyword: monte figuras
+        • Keyword: orientando encaixes
+        • Keyword: pinos placas
+        • Keyword: placa perfurada
+        • Keyword: reproducao encaixando
+    - Ativações (doc): n=3, primárias=3, secundárias=0, max=1.0000
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: figuras reproduzir
+        • Keyword: montar figuras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1809
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: crie historias
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1087
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: explorem linhas verticais
+        • Keyword: geometricas
+        • Keyword: reproduzir modelos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3315
+
+
+[Documento — Fragmentos] urn:doc:114
+
+[Fragmento] Preparacao: Preparar uma placa perfurada e pecas diferentes para encaixe nesses furos. Em caso de dificuldade, um flanelografo pode substituir a placa perfurada, as- sim como com o mesmo pode-se montar um verdadeiro cenario para que o aluno monte figuras e crie historias.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: diferentes encaixe
+        • Keyword: encaixe nesses furos
+        • Keyword: mesmo pode montar
+        • Keyword: monte figuras
+        • Keyword: placa perfurada
+    - Ativações:
+        • score=0.8913, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: crie historias
+    - Ativações:
+        • score=0.1087, tipo=Secondary
+
+[Fragmento] Utilizacao: O aluno, orientado pelo professor, deve montar figuras ou reproduzir mo- delos que explorem linhas verticais, horizontais e formas geometricas. Desenhar formas na lousa e solicitar sua reproducao encaixando os pinos nas placas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: montar figuras ou reproduzir modelos
+        • Keyword: modelos explorem
+        • Keyword: montar figuras
+        • Keyword: pinos placas
+        • Keyword: reproducao encaixando
+    - Ativações:
+        • score=0.4876, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: figuras reproduzir
+        • Keyword: montar figuras
+    - Ativações:
+        • score=0.1809, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: explorem linhas verticais
+        • Keyword: geometricas
+        • Keyword: reproduzir modelos
+    - Ativações:
+        • score=0.3315, tipo=Secondary
+
+[Fragmento] Fazer ditados, orientando encaixes (Exemplo: fixar tres pinos brancos um a direita do outro... e assim por diante). (Existe no comercio: Mil Quadros / Glaslite; Feltrin Grow.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: Fazer ditados, orientando encaixes
+        • Keyword: fixar tres pinos
+        • Keyword: orientando encaixes
+    - Ativações:
+        • score=1.0000, tipo=Primary

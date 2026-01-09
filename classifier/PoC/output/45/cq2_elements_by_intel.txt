@@ -1,0 +1,76 @@
+[Documento] urn:doc:45
+  - miVector: 11.21,34.34,0.00,0.00,30.10,0.00,0.00,24.34
+  - TOP (documento): Logical-Mathematical (score=0.3434)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3434
+      • Bodily-Kinesthetic: 0.3010
+      • Naturalist: 0.2434
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: 6 Cubos de encaixe
+        • Keyword: cubos encaixe
+        • Keyword: enfileirar
+        • Keyword: tentar empilha las
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3629
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: tamanhos verbalizando
+        • Keyword: verbalizando conceitos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2579
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: comparando tamanhos
+        • Keyword: jogo cubos
+        • Keyword: maiores menores
+        • Keyword: posteriores separar
+        • Keyword: separar garrafas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5215
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: garrafas de plastico de tamanhos bem diferentes ou cubos de madeira
+        • Keyword: observar regras
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4307
+
+
+[Documento — Fragmentos] urn:doc:45
+
+[Fragmento] Preparacao: Nome Jogo dos cubos 5 a 6 garrafas de plastico de tamanhos bem diferentes ou cubos de madeira. Utilizacao: Os alunos deverao enfileirar as garrafas sem observar regras, tentar empi- lha-las.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: enfileirar
+        • Keyword: tentar empilha las
+    - Ativações:
+        • score=0.3629, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: jogo cubos
+    - Ativações:
+        • score=0.2064, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: garrafas de plastico de tamanhos bem diferentes ou cubos de madeira
+        • Keyword: observar regras
+    - Ativações:
+        • score=0.4307, tipo=Primary
+
+[Fragmento] Em oportunidades posteriores devem separar as garrafas maiores das menores, comparando os tamanhos e verbalizando os conceitos de "grande" e de "pequeno". (Existe no mercado -- Cubos [6 Cubos de encaixe e outros.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: 6 Cubos de encaixe
+        • Keyword: cubos encaixe
+    - Ativações:
+        • score=0.2206, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: tamanhos verbalizando
+        • Keyword: verbalizando conceitos
+    - Ativações:
+        • score=0.2579, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: comparando tamanhos
+        • Keyword: maiores menores
+        • Keyword: posteriores separar
+        • Keyword: separar garrafas
+    - Ativações:
+        • score=0.5215, tipo=Primary

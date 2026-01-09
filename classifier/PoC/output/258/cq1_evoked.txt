@@ -1,0 +1,71 @@
+[Documento] urn:doc:258
+  - miVector: 17.68,18.60,0.00,18.03,29.04,9.95,0.00,6.70
+  - TOP (documento): Bodily-Kinesthetic (score=0.2904)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2904
+      • Logical-Mathematical: 0.1860
+      • Musical: 0.1803
+
+[Fragmento] Preparacao: Sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos. Utilizacao: Os alunos devem circular pela sala escura com extremo cuidado e, encontrando alguem, toca-lo levemente, pronunciando a palavra "Proury".
+  - Bodily-Kinesthetic (via activation, score=0.2743)
+  - Interpersonal (via activation, score=0.2743)
+  - Linguistic (via activation, score=0.2870)
+  - Logical-Mathematical (via activation, score=0.1645)
+  - Cinestésico-corporal (via activation, score=0.2743)
+  - Interpessoal (via activation, score=0.2743)
+  - Linguística (via activation, score=0.2870)
+  - Lógico-matemática (via activation, score=0.1645)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Caso ouca como respos- ta a mesma palavra, continuar circulando e fazendo novos contatos. Ao tocar em al- guem que nao responda ao seu pronunciamento, devera procurar a mao dessa pessoa. Se estiver livre, segura-la e nao mais responder quando tocado.
+  - Bodily-Kinesthetic (via activation, score=0.3200)
+  - Linguistic (via activation, score=0.2109)
+  - Logical-Mathematical (via activation, score=0.1810)
+  - Naturalist (via activation, score=0.2881)
+  - Cinestésico-corporal (via activation, score=0.3200)
+  - Linguística (via activation, score=0.2109)
+  - Lógico-matemática (via activation, score=0.1810)
+  - Naturalista (via activation, score=0.2881)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Caso a pessoa que nao respondeu a sua indagacao esteja de maos dadas, caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre. Ao perceber que nao mais exis- tem sussurros pela sala, a luz deve ser acesa.
+  - Bodily-Kinesthetic (via activation, score=0.6544)
+  - Interpersonal (via activation, score=0.1534)
+  - Logical-Mathematical (via activation, score=0.1922)
+  - Cinestésico-corporal (via activation, score=0.6544)
+  - Interpessoal (via activation, score=0.1534)
+  - Lógico-matemática (via activation, score=0.1922)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Antes de iniciar o jogo, avisar a um partici- pante para nao responder a chamada, iniciando a formacao da corrente.
+  - Linguistic (via activation, score=0.2018)
+  - Logical-Mathematical (via activation, score=0.2018)
+  - Musical (via activation, score=0.5965)
+  - Linguística (via activation, score=0.2018)
+  - Lógico-matemática (via activation, score=0.2018)
+  - Musical (via activation, score=0.5965)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)

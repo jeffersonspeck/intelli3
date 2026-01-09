@@ -1,0 +1,186 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "olhos vendados possam",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.57291261743725,
+      "relevance": 0.827906976744186
+    },
+    {
+      "role": "Keyword",
+      "text": "vendados possam circular",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7888892629325599,
+      "relevance": 0.813953488372093
+    },
+    {
+      "role": "Keyword",
+      "text": "sala ampla",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7515317353593296,
+      "relevance": 0.8976744186046511
+    },
+    {
+      "role": "Keyword",
+      "text": "circular seguranca",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7295368443355099,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "presas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6558489260028335,
+      "relevance": 0.5465116279069768
+    },
+    {
+      "role": "ContextObject",
+      "text": "sala ampla",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8976744186046511
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "odor caracteristico",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.8305785123966942
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo iniciar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.6322314049586777
+    },
+    {
+      "role": "Keyword",
+      "text": "olfato identificado",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.5826446280991735
+    },
+    {
+      "role": "Keyword",
+      "text": "produto odor",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "presa",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7751849131059125,
+      "relevance": 0.6756198347107438
+    },
+    {
+      "role": "Keyword",
+      "text": "simbolizar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6992904790342168,
+      "relevance": 0.7045454545454546
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "olhos vendados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5737727040657572,
+      "relevance": 0.8342391304347826
+    },
+    {
+      "role": "Keyword",
+      "text": "atraves paladar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7944545133218177,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "apos identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7877608156623873,
+      "relevance": 0.6657608695652174
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar presa",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7335576060478142,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar presa",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7335576060478142,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "identificar sua presa atraves do paladar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.779891304347826
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "identificar sua presa atraves do paladar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.779891304347826
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "pequena proporcao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.533270620530545,
+      "relevance": 0.7520661157024793
+    },
+    {
+      "role": "Keyword",
+      "text": "proporcao podem constituir",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.533270620530545,
+      "relevance": 0.71900826446281
+    },
+    {
+      "role": "ContextObject",
+      "text": "refrigerantes ou sodas, balas e condimentos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9462809917355371
+    }
+  ]
+}

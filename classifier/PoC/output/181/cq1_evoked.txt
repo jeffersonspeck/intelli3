@@ -1,0 +1,31 @@
+[Documento] urn:doc:181
+  - miVector: 0.00,40.79,0.00,0.00,41.85,0.00,17.36,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4185)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4185
+      • Logical-Mathematical: 0.4079
+      • Intrapersonal: 0.1736
+
+[Fragmento] Preparacao: Usar panos coloridos com casas e botoes de diferentes tamanhos, botoes de pressao, ganchos. O mesmo tecido pode ter casas do tipo ilhos para passar barbante. Venda para os olhos. Utilizacao: O aluno devera abotoar e desabotoar, dar laco, enganchar.
+  - Bodily-Kinesthetic (via activation, score=0.4930)
+  - Intrapersonal (via activation, score=0.3071)
+  - Logical-Mathematical (via activation, score=0.1999)
+  - Cinestésico-corporal (via activation, score=0.4930)
+  - Intrapessoal (via activation, score=0.3071)
+  - Lógico-matemática (via activation, score=0.1999)
+  - Bodily-Kinesthetic (via element)
+  - Intrapersonal (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Intrapessoal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Essa atividade deve ser programada e e bom que o aluno nao segure o pano em suas maos para brincadeiras livres, mas que execute a atividade segundo determinacoes do pro- fessor, preferivelmente com os olhos vendados.
+  - Bodily-Kinesthetic (via activation, score=0.3216)
+  - Logical-Mathematical (via activation, score=0.6784)
+  - Cinestésico-corporal (via activation, score=0.3216)
+  - Lógico-matemática (via activation, score=0.6784)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)

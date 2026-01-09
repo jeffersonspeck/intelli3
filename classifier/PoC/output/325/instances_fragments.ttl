@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:325#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Organizar um conjunto de mensagens para serem transmitidas pelos alunos, que envolvam manifestacoes corporais (por exemplo: andar a cavalo), mas tambem situacoes emocionais diversas (raiva, alegria, entusiasmo, tristeza, etc.)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:325> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:325#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Escrever es- sas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano. Utilizacao: A tarefa dos alunos ao sortear sua mensagem e transmiti-la aos demais, levan- do-os a possivel descoberta, sem o uso da palavra."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:325> ;
+    dct:type "body" .
+
+<urn:doc:325#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "A atividade tem como principal objetivo a comunicacao interpessoal e, depois de uma primeira experiencia, outras mais complexas podem ir progressivamente sendo propostas."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:325> ;
+    dct:type "body" .
+
+<urn:doc:325#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "E interessante encer- rar a atividade com um circulo de debates com os alunos sobre as muitas formas de comunicacao e sua importancia no auto e heteroconhecimento."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:325> ;
+    dct:type "body" .
+
+<urn:doc:325> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:325#frag-000>,
+        <urn:doc:325#frag-001>,
+        <urn:doc:325#frag-002>,
+        <urn:doc:325#frag-003> .
+

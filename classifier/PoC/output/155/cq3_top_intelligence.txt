@@ -1,0 +1,16 @@
+[Documento] urn:doc:155
+  - miVector: 25.24,28.92,0.00,12.70,15.29,0.00,10.71,7.14
+  - TOP (documento): Logical-Mathematical (score=0.2892)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.2892
+      • Linguistic: 0.2524
+      • Bodily-Kinesthetic: 0.1529
+
+
+[Documento — Fragmentos] urn:doc:155
+
+[Fragmento] Preparacao: A equipe de professores deve estimular o uso de diferentes habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar, etc.) e tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes (a dona de casa, por exemplo, classifica os alimentos que compra, analisa a qualidade de cada um, deduz o valor nutritivo e assim por diante).
+  > TOP: Lógico-matemática (score=0.3464, tipo=Primary)
+
+[Fragmento] Utilizacao: Essa atividade exploradora das habilidades pode ser completada com o uso de sons e, assim, o emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos, simbolizam meios de explorar o emprego das ha- bilidades em ambito diferente do demonstrado em sala de aula.
+  > TOP: Musical (score=0.2920, tipo=Primary)

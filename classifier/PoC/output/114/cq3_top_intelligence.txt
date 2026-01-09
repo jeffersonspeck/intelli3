@@ -1,0 +1,19 @@
+[Documento] urn:doc:114
+  - miVector: 4.28,10.05,5.48,0.00,80.19,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.8019)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.8019
+      • Logical-Mathematical: 0.1005
+      • Spatial: 0.0548
+
+
+[Documento — Fragmentos] urn:doc:114
+
+[Fragmento] Preparacao: Preparar uma placa perfurada e pecas diferentes para encaixe nesses furos. Em caso de dificuldade, um flanelografo pode substituir a placa perfurada, as- sim como com o mesmo pode-se montar um verdadeiro cenario para que o aluno monte figuras e crie historias.
+  > TOP: Cinestésico-corporal (score=0.8913, tipo=Primary)
+
+[Fragmento] Utilizacao: O aluno, orientado pelo professor, deve montar figuras ou reproduzir mo- delos que explorem linhas verticais, horizontais e formas geometricas. Desenhar formas na lousa e solicitar sua reproducao encaixando os pinos nas placas.
+  > TOP: Cinestésico-corporal (score=0.4876, tipo=Primary)
+
+[Fragmento] Fazer ditados, orientando encaixes (Exemplo: fixar tres pinos brancos um a direita do outro... e assim por diante). (Existe no comercio: Mil Quadros / Glaslite; Feltrin Grow.)
+  > TOP: Cinestésico-corporal (score=1.0000, tipo=Primary)

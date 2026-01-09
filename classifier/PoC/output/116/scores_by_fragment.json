@@ -1,0 +1,15 @@
+{
+  "0": {
+    "LogicalMathematicalIntelligence": 2.118735377951402,
+    "BodilyKinestheticIntelligence": 1.1969264871013228,
+    "MusicalIntelligence": 1.1882681031374367,
+    "NaturalistIntelligence": 1.3276212674778094,
+    "SpatialIntelligence": 0.422489932620187
+  },
+  "1": {
+    "BodilyKinestheticIntelligence": 1.7336407159884655,
+    "LinguisticIntelligence": 1.1814986448842792,
+    "SpatialIntelligence": 2.530909292187164,
+    "InterpersonalIntelligence": 0.46824990316297
+  }
+}

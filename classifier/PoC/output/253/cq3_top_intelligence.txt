@@ -1,0 +1,19 @@
+[Documento] urn:doc:253
+  - miVector: 6.01,20.03,11.02,10.43,12.86,7.33,0.00,32.33
+  - TOP (documento): Naturalist (score=0.3233)
+  - Ranking (top 3):
+      • Naturalist: 0.3233
+      • Logical-Mathematical: 0.2003
+      • Bodily-Kinesthetic: 0.1286
+
+
+[Documento — Fragmentos] urn:doc:253
+
+[Fragmento] Preparacao: Um pequeno riacho nas proximidades da escola pode oferecer excelente oportunidade para pesquisas e descobertas. Utilizacao: Barquinhas de papel lancadas as aguas ajuda a perceber a correnteza e a identi- ficar as margens.
+  > TOP: Lógico-matemática (score=0.2644, tipo=Primary)
+
+[Fragmento] A umidade do solo permite explorar diferentes tipos de vegetacao, verificar se existe vida nas aguas e se ha pegadas em suas margens. As marcas no terreno podem mostrar fases de enchente e, portanto, sugerir elementos sobre o regime das aguas.
+  > TOP: Naturalista (score=0.7030, tipo=Primary)
+
+[Fragmento] O riacho deve permitir a construcao de conceitos sobre mon- tante, jusante, planicie, nascente, foz, afluente e muitos outros. 202
+  > TOP: Lógico-matemática (score=0.3050, tipo=Primary)

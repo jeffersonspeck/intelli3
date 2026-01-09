@@ -1,0 +1,78 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:46#evid-000-00-improvisar-pino> a onto:Keyword ;
+    rdfs:label "improvisar pino"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:46#evid-000-01-ser-encaixados> a onto:Keyword ;
+    rdfs:label "ser encaixados"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:46#evid-000-02-diferentes-aneis-furados> a onto:Keyword ;
+    rdfs:label "diferentes aneis furados"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:46#evid-000-03-diferentes-tamanhos> a onto:Keyword ;
+    rdfs:label "diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:46#evid-001-00-formar-piramide> a onto:Keyword ;
+    rdfs:label "formar piramide"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:46#evid-001-01-crescente> a onto:Keyword ;
+    rdfs:label "crescente"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:46#evid-001-02-aneis-devem-estar-espalhados-for> a onto:ContextObject ;
+    rdfs:label "aneis devem estar espalhados fora do pino"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:46#evid-002-00-piramide-multiforme> a onto:Keyword ;
+    rdfs:label "piramide multiforme"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:46#evid-002-01-piramide-aneis> a onto:Keyword ;
+    rdfs:label "piramide aneis"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:46#evid-002-02-piramide-de-aneis--piramide-mult> a onto:ContextObject ;
+    rdfs:label "Piramide de aneis / Piramide multiforme -- Coluna"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:46#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Improvisar um pino em uma base de madeira e diferentes aneis furados que devem ser encaixados. Esses aneis sao de diferentes tamanhos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:46> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:46#evid-000-00-improvisar-pino>,
+        <urn:doc:46#evid-000-01-ser-encaixados>,
+        <urn:doc:46#evid-000-02-diferentes-aneis-furados>,
+        <urn:doc:46#evid-000-03-diferentes-tamanhos> .
+
+<urn:doc:46#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os aneis devem estar espalhados fora do pino e a tarefa dos alunos sera a de encaixa-los, comparando os aneis entre si, identificando os \"grandes\" e os \"pequenos\" e formar uma piramide, encaixando os aneis em forma crescente."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:46> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:46#evid-001-00-formar-piramide>,
+        <urn:doc:46#evid-001-01-crescente>,
+        <urn:doc:46#evid-001-02-aneis-devem-estar-espalhados-for> .
+
+<urn:doc:46#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "(Existe no mercado -- Piramide de aneis / Piramide multiforme -- Coluna)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:46> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:46#evid-002-00-piramide-multiforme>,
+        <urn:doc:46#evid-002-01-piramide-aneis>,
+        <urn:doc:46#evid-002-02-piramide-de-aneis--piramide-mult> .
+
+<urn:doc:46> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:46#frag-000>,
+        <urn:doc:46#frag-001>,
+        <urn:doc:46#frag-002> .
+

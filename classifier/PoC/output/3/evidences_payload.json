@@ -1,0 +1,150 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "montar cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7787003422481498,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenhar montar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7519554465756683,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "eventualmente animais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.724014312342423,
+      "relevance": 0.608974358974359
+    },
+    {
+      "role": "Keyword",
+      "text": "teatro",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.521320091376192,
+      "relevance": 0.9017094017094017
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras humanas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6964565530602935,
+      "relevance": 0.6452991452991452
+    },
+    {
+      "role": "Keyword",
+      "text": "recortar revistas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5029963994324343,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "quantidade figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.47671486879319286,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "revistas montar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.46405863350525045,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quantidade de figuras humanas, eventualmente animais, nas mais diversas situacoes.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quantidade de figuras humanas, eventualmente animais, nas mais diversas situacoes.",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "descrevendo situacoes diferentes",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8059508540046746,
+      "relevance": 0.8049645390070922
+    },
+    {
+      "role": "Keyword",
+      "text": "descrevendo situacoes diferentes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.8059508540046746,
+      "relevance": 0.8049645390070922
+    },
+    {
+      "role": "Keyword",
+      "text": "inventar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.74206993831425,
+      "relevance": 0.8953900709219859
+    },
+    {
+      "role": "Keyword",
+      "text": "historias",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.74206993831425,
+      "relevance": 0.8776595744680851
+    },
+    {
+      "role": "Keyword",
+      "text": "historias",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.74206993831425,
+      "relevance": 0.8776595744680851
+    },
+    {
+      "role": "Keyword",
+      "text": "escolhendo personagens",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7363572032701463,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "propria crianca",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6803055329857569,
+      "relevance": 0.624113475177305
+    },
+    {
+      "role": "Keyword",
+      "text": "estimulada colecionar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6528024280367244,
+      "relevance": 0.75
+    }
+  ]
+}

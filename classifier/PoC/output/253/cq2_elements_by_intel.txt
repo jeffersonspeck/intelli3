@@ -1,0 +1,129 @@
+[Documento] urn:doc:253
+  - miVector: 6.01,20.03,11.02,10.43,12.86,7.33,0.00,32.33
+  - TOP (documento): Naturalist (score=0.3233)
+  - Ranking (top 3):
+      • Naturalist: 0.3233
+      • Logical-Mathematical: 0.2003
+      • Bodily-Kinesthetic: 0.1286
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: barquinhas de papel
+        • ContextObject: marcas no terreno
+        • Keyword: margens
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2970
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: montante, jusante, planicie, nascente, foz, afluente
+        • Keyword: identificar margens
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1950
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: oportunidade pesquisas
+        • Keyword: pesquisas descobertas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2419
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: construcao conceitos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1525
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: oferecer excelente oportunidade
+        • Keyword: oportunidade pesquisas
+        • Keyword: permitir construcao
+        • Keyword: riacho permitir
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.3050
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: construcao conceitos
+        • Keyword: escola pode oferecer
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1525
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: montante, jusante, planicie, nascente, foz, afluente
+        • ContextObject: umidade do solo
+        • Keyword: identificar margens
+        • Keyword: solo permite explorar
+        • Keyword: umidade solo
+        • Keyword: vida aguas
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7030
+
+
+[Documento — Fragmentos] urn:doc:253
+
+[Fragmento] Preparacao: Um pequeno riacho nas proximidades da escola pode oferecer excelente oportunidade para pesquisas e descobertas. Utilizacao: Barquinhas de papel lancadas as aguas ajuda a perceber a correnteza e a identi- ficar as margens.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: barquinhas de papel
+    - Ativações:
+        • score=0.1273, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: identificar margens
+    - Ativações:
+        • score=0.1102, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: oportunidade pesquisas
+        • Keyword: pesquisas descobertas
+    - Ativações:
+        • score=0.2419, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: oferecer excelente oportunidade
+        • Keyword: oportunidade pesquisas
+    - Ativações:
+        • score=0.2644, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: escola pode oferecer
+    - Ativações:
+        • score=0.1459, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: identificar margens
+    - Ativações:
+        • score=0.1102, tipo=Secondary
+
+[Fragmento] A umidade do solo permite explorar diferentes tipos de vegetacao, verificar se existe vida nas aguas e se ha pegadas em suas margens. As marcas no terreno podem mostrar fases de enchente e, portanto, sugerir elementos sobre o regime das aguas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: marcas no terreno
+        • Keyword: margens
+    - Ativações:
+        • score=0.2970, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: umidade do solo
+        • Keyword: solo permite explorar
+        • Keyword: umidade solo
+        • Keyword: vida aguas
+    - Ativações:
+        • score=0.7030, tipo=Primary
+
+[Fragmento] O riacho deve permitir a construcao de conceitos sobre mon- tante, jusante, planicie, nascente, foz, afluente e muitos outros. 202
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: montante, jusante, planicie, nascente, foz, afluente
+    - Ativações:
+        • score=0.1950, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: construcao conceitos
+    - Ativações:
+        • score=0.1525, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: permitir construcao
+        • Keyword: riacho permitir
+    - Ativações:
+        • score=0.3050, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: construcao conceitos
+    - Ativações:
+        • score=0.1525, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: montante, jusante, planicie, nascente, foz, afluente
+    - Ativações:
+        • score=0.1950, tipo=Secondary

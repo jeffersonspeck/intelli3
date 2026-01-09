@@ -1,0 +1,72 @@
+[Documento] urn:doc:160
+  - miVector: 6.38,0.00,0.00,25.94,25.87,0.00,0.00,41.81
+  - TOP (documento): Naturalist (score=0.4181)
+  - Ranking (top 3):
+      • Naturalist: 0.4181
+      • Musical: 0.2594
+      • Bodily-Kinesthetic: 0.2587
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: imitem
+        • Keyword: sineta esses compassos
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4577
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: procurar mostrar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1468
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: tique-taque do relogio
+        • Keyword: batidas
+        • Keyword: compassos
+        • Keyword: existente tique taque
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.4127
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: compasso
+        • ContextObject: sinetas
+        • Keyword: compasso existente
+        • Keyword: existem sinetas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4405
+
+
+[Documento — Fragmentos] urn:doc:160
+
+[Fragmento] Utilizacao: Mostrar aos alunos o compasso existente no tique-taque de um desperta- dor, nas batidas de uma construcao ou do deslocamento de um trem. Procurar mostrar esse compasso com uma sineta, imitando com a mesma o tique-taque do relogio e outros compassos.
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: procurar mostrar
+    - Ativações:
+        • score=0.1468, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: tique-taque do relogio
+        • Keyword: batidas
+        • Keyword: existente tique taque
+    - Ativações:
+        • score=0.4127, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: compasso
+        • Keyword: compasso existente
+    - Ativações:
+        • score=0.4405, tipo=Primary
+
+[Fragmento] Solicitar aos alunos que imitem com a sineta esses compassos. (Existem sinetas em casas de comercio.) 147
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: imitem
+        • Keyword: sineta esses compassos
+    - Ativações:
+        • score=0.4577, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: compassos
+    - Ativações:
+        • score=0.1414, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: sinetas
+        • Keyword: existem sinetas
+    - Ativações:
+        • score=0.4009, tipo=Secondary

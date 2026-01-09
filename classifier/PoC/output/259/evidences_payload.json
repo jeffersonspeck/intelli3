@@ -1,0 +1,266 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "espaco aberto",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7899209234449238,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "rios profundos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7899209234449238,
+      "relevance": 0.8278301886792453
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmo tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7899209234449238,
+      "relevance": 0.7617924528301887
+    },
+    {
+      "role": "Keyword",
+      "text": "barrancos rios",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7899209234449238,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ocorrera jogo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6860013772947977,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estabelecer os limites da area onde ocorrera o jogo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.6226415094339622
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estabelecer os limites da area onde ocorrera o jogo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.6226415094339622
+    },
+    {
+      "role": "ContextObject",
+      "text": "espaco aberto em um local seguro onde nao existam espinhos, barrancos ou rios profundos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "explicar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8076675280584726,
+      "relevance": 0.9652014652014652
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmo tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7985100769613769,
+      "relevance": 0.7014652014652014
+    },
+    {
+      "role": "Keyword",
+      "text": "inevitavel condicao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7941614546933813,
+      "relevance": 0.8608058608058609
+    },
+    {
+      "role": "Keyword",
+      "text": "vida",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7941614546933813,
+      "relevance": 0.924908424908425
+    },
+    {
+      "role": "Keyword",
+      "text": "vida animais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7941614546933813,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "animais natureza",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7941614546933813,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "quase animal",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7941614546933813,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "presa predador",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7911100805241804,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "predadores",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7588649923970532,
+      "relevance": 0.7967032967032968
+    },
+    {
+      "role": "Keyword",
+      "text": "presas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7421592792924082,
+      "relevance": 0.8168498168498168
+    },
+    {
+      "role": "Keyword",
+      "text": "regras seguem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5255415189282094,
+      "relevance": 0.6391941391941391
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "podera tentar achar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8056511177881995,
+      "relevance": 0.9334975369458128
+    },
+    {
+      "role": "Keyword",
+      "text": "predador podera tentar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8018961992580741,
+      "relevance": 0.9556650246305418
+    },
+    {
+      "role": "Keyword",
+      "text": "emissao som",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7863802004623522,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "presas sejam pegas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7512524517280653,
+      "relevance": 0.6527093596059113
+    },
+    {
+      "role": "Keyword",
+      "text": "achar presa",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7242659564073974,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "som predador",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7015757633606805,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "busca",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6081766145886749,
+      "relevance": 0.5147783251231527
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "troquem ideias",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8092724259644368,
+      "relevance": 0.8397435897435898
+    },
+    {
+      "role": "Keyword",
+      "text": "animais imitaram",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8046953693804269,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "vida animais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8025846536641282,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8397435897435898
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8397435897435898
+    },
+    {
+      "role": "ContextObject",
+      "text": "animais que imitaram",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.5673076923076923
+    }
+  ]
+}

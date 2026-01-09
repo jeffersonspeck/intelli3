@@ -1,0 +1,250 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "fitas adesivas coloridas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8056611756348556,
+      "relevance": 0.5968992248062015
+    },
+    {
+      "role": "Keyword",
+      "text": "confecciona",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7842922661807176,
+      "relevance": 0.9534883720930233
+    },
+    {
+      "role": "Keyword",
+      "text": "confecciona jogo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7842922661807176,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "confecciona jogo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7842922661807176,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colantes fitas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7329344585867864,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas plasticas descartaveis, cordao, argolas e fitas colantes ou fitas adesivas coloridas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8643410852713178
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "juntar partes iguais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8051789563254824,
+      "relevance": 0.9146341463414634
+    },
+    {
+      "role": "Keyword",
+      "text": "passar dois fios",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.7219512195121951
+    },
+    {
+      "role": "Keyword",
+      "text": "argolas extremidades",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colocar argolas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.5804878048780489
+    },
+    {
+      "role": "Keyword",
+      "text": "cortar duas garrafas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9878048780487805
+    },
+    {
+      "role": "Keyword",
+      "text": "metros comprimento",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5771917527041672,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "comprimento colocar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5771917527041672,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7519853838782325,
+      "relevance": 0.8609756097560975
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colorida, passar dois fios de cerca de tres metros de comprimento e colocar argolas nas extremidades",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.49725,
+      "relevance": 0.9878048780487805
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colorida, passar dois fios de cerca de tres metros de comprimento e colocar argolas nas extremidades",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.49725,
+      "relevance": 0.9878048780487805
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "peca permite jogo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.808235969029957,
+      "relevance": 0.9958677685950413
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo duplas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8011320494746964,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "abrindo bracos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8011320494746964,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "abrindo bracos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.8011320494746964,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "repete operacao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8011320494746964,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "extremidades cordao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7967810650771009,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "bracos arremessando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7967810650771009,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "bracos arremessando",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7967810650771009,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "arremessando objeto",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7967810650771009,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "impulso",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5388227129698548,
+      "relevance": 0.8037190082644627
+    },
+    {
+      "role": "Keyword",
+      "text": "sucessivamente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7460622179582606,
+      "relevance": 0.609504132231405
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "errar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6992904790342168,
+      "relevance": 0.9705882352941176
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "sai do jogo, entrando outro participante",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.9019607843137255
+    },
+    {
+      "role": "ContextObject",
+      "text": "jogo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8333333333333334
+    }
+  ]
+}

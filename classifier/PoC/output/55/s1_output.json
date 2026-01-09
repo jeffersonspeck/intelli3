@@ -1,0 +1,29 @@
+{
+  "doc_id": "urn:doc:55",
+  "paragraphs": [
+    {
+      "k": 0,
+      "text": "Preparacao: O jogo e preparado com a confeccao de tres dados forrados de papel branco. O primeiro dado deve possuir circulos de cartolina cortados como em um dado co- mum. No segundo, seis cores diferentes, uma para cada lado, e, no ultimo, tres for- mas geometricas, cada uma repetida uma vez.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    },
+    {
+      "k": 1,
+      "text": "Recortar 60 triangulos iguais em seis cores (dez para cada cor), 60 quadrados divididos em seis cores e seis circulos iguais, tambem divididos em seis cores. Utilizacao: Os alunos devem formar equipes de quatro componentes.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    },
+    {
+      "k": 2,
+      "text": "Espalha-se sobre a mesa todas as formas (180) e os dados sao jogados, um de cada vez. O jogador seleciona as formas pela cor e pela quantidade e retira-as da mesa. O parceiro repete a operacao e, assim, sucessivamente, ate terminarem todas as formas.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    },
+    {
+      "k": 3,
+      "text": "Ganha o aluno que conseguir o maior numero de pecas e tambem o maior numero de formas e de cores. 81",
+      "lang": "pt",
+      "is_title_or_abstract": true
+    }
+  ]
+}

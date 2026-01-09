@@ -1,0 +1,86 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:251#evid-000-00-definir-serie> a onto:Keyword ;
+    rdfs:label "definir serie"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:251#evid-000-01-casas> a onto:Keyword ;
+    rdfs:label "casas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:251#evid-000-02-pensarem> a onto:Keyword ;
+    rdfs:label "pensarem"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:251#evid-000-03-pesquisem> a onto:Keyword ;
+    rdfs:label "pesquisem"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:251#evid-000-04-moram-animais> a onto:Keyword ;
+    rdfs:label "moram animais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:251#evid-000-05-natureza> a onto:Keyword ;
+    rdfs:label "natureza"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:251#evid-001-00-apresentar> a onto:Keyword ;
+    rdfs:label "apresentar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:251#evid-001-01-recortes-desenhos> a onto:Keyword ;
+    rdfs:label "recortes desenhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:251#evid-001-02-estabelecera-regras> a onto:Keyword ;
+    rdfs:label "estabelecera regras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:251#evid-001-03-regras-pesquisa> a onto:Keyword ;
+    rdfs:label "regras pesquisa"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:251#evid-001-04-casa-formigas> a onto:Keyword ;
+    rdfs:label "casa formigas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:251#evid-001-05-descoberta-natureza> a onto:Keyword ;
+    rdfs:label "descoberta natureza"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:251#evid-001-06-casa-das-formigas-dos-passaros-d> a onto:ContextObject ;
+    rdfs:label "casa das formigas, dos passaros, dos cupins e outros"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:251#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor deve estimular os alunos a pensarem sobre as \"casas\" onde mo- ram os animais e, dessa maneira, definir uma serie para que os alunos \"pesquisem\" bibliograficamente, e sempre que possivel, na natureza as \"casas\" dos animais."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:251> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:251#evid-000-00-definir-serie>,
+        <urn:doc:251#evid-000-01-casas>,
+        <urn:doc:251#evid-000-02-pensarem>,
+        <urn:doc:251#evid-000-03-pesquisem>,
+        <urn:doc:251#evid-000-04-moram-animais>,
+        <urn:doc:251#evid-000-05-natureza> .
+
+<urn:doc:251#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor estabelecera as regras da pesquisa e os alunos devem apresentar seus trabalhos com fotografias, recortes c desenhos. A casa das formigas, dos passa- ros, dos cupins e outros constituem interessante estimulo a descoberta da natureza. 201"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:251> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:251#evid-001-00-apresentar>,
+        <urn:doc:251#evid-001-01-recortes-desenhos>,
+        <urn:doc:251#evid-001-02-estabelecera-regras>,
+        <urn:doc:251#evid-001-03-regras-pesquisa>,
+        <urn:doc:251#evid-001-04-casa-formigas>,
+        <urn:doc:251#evid-001-05-descoberta-natureza>,
+        <urn:doc:251#evid-001-06-casa-das-formigas-dos-passaros-d> .
+
+<urn:doc:251> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:251#frag-000>,
+        <urn:doc:251#frag-001> .
+

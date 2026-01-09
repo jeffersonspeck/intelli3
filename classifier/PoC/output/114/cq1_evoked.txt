@@ -1,0 +1,37 @@
+[Documento] urn:doc:114
+  - miVector: 4.28,10.05,5.48,0.00,80.19,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.8019)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.8019
+      • Logical-Mathematical: 0.1005
+      • Spatial: 0.0548
+
+[Fragmento] Preparacao: Preparar uma placa perfurada e pecas diferentes para encaixe nesses furos. Em caso de dificuldade, um flanelografo pode substituir a placa perfurada, as- sim como com o mesmo pode-se montar um verdadeiro cenario para que o aluno monte figuras e crie historias.
+  - Bodily-Kinesthetic (via activation, score=0.8913)
+  - Linguistic (via activation, score=0.1087)
+  - Cinestésico-corporal (via activation, score=0.8913)
+  - Linguística (via activation, score=0.1087)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+
+[Fragmento] Utilizacao: O aluno, orientado pelo professor, deve montar figuras ou reproduzir mo- delos que explorem linhas verticais, horizontais e formas geometricas. Desenhar formas na lousa e solicitar sua reproducao encaixando os pinos nas placas.
+  - Bodily-Kinesthetic (via activation, score=0.4876)
+  - Logical-Mathematical (via activation, score=0.3315)
+  - Spatial (via activation, score=0.1809)
+  - Cinestésico-corporal (via activation, score=0.4876)
+  - Espacial-visual (via activation, score=0.1809)
+  - Lógico-matemática (via activation, score=0.3315)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Fazer ditados, orientando encaixes (Exemplo: fixar tres pinos brancos um a direita do outro... e assim por diante). (Existe no comercio: Mil Quadros / Glaslite; Feltrin Grow.)
+  - Bodily-Kinesthetic (via activation, score=1.0000)
+  - Cinestésico-corporal (via activation, score=1.0000)
+  - Bodily-Kinesthetic (via element)
+  - Cinestésico-corporal (via element)

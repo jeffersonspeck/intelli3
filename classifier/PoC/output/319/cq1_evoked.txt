@@ -1,0 +1,61 @@
+[Documento] urn:doc:319
+  - miVector: 11.43,31.67,0.00,9.43,26.57,17.60,1.31,1.99
+  - TOP (documento): Logical-Mathematical (score=0.3167)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3167
+      • Bodily-Kinesthetic: 0.2657
+      • Interpersonal: 0.1760
+
+[Fragmento] Preparacao: Reunir muitas revistas com gravuras representando seres humanos em di- ferentes tamanhos EUR posicoes, posturas, colar em cartolina.
+  - Bodily-Kinesthetic (via activation, score=0.4269)
+  - Logical-Mathematical (via activation, score=0.5731)
+  - Cinestésico-corporal (via activation, score=0.4269)
+  - Lógico-matemática (via activation, score=0.5731)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Utilizacao: Os alunos devem ser estimulados a formar conjuntos com atributos co- muns, percebendo a distincao entre pessoas louras, morenas, pretas, ruivas, al- tas, baixas, magras, gordas, velhas, criancas, jovens, de pe, sentadas, deitadas, EUR discutir em classe o tipo fisico das pessoas, suas atitudes, desassociando esterco- tipos c trabalhando eventuais preconceitos.
+  - Bodily-Kinesthetic (via activation, score=0.1905)
+  - Interpersonal (via activation, score=0.1870)
+  - Linguistic (via activation, score=0.3113)
+  - Musical (via activation, score=0.3113)
+  - Cinestésico-corporal (via activation, score=0.1905)
+  - Interpessoal (via activation, score=0.1870)
+  - Linguística (via activation, score=0.3113)
+  - Musical (via activation, score=0.3113)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Musical (via element)
+
+[Fragmento] Devem associar a postura das pes- soas a possiveis atitudes e colocar em discussao a tendencia que revelamos em antecipar julgamentos. E importante que o professor seja, em sala de aula, um mediador, ouvindo os alunos e permitindo que alcancem suas proprias conclu- sOEs.
+  - Bodily-Kinesthetic (via activation, score=0.1315)
+  - Interpersonal (via activation, score=0.3937)
+  - Intrapersonal (via activation, score=0.0431)
+  - Linguistic (via activation, score=0.0658)
+  - Logical-Mathematical (via activation, score=0.3002)
+  - Naturalist (via activation, score=0.0658)
+  - Cinestésico-corporal (via activation, score=0.1315)
+  - Interpessoal (via activation, score=0.3937)
+  - Intrapessoal (via activation, score=0.0431)
+  - Linguística (via activation, score=0.0658)
+  - Lógico-matemática (via activation, score=0.3002)
+  - Naturalista (via activation, score=0.0658)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

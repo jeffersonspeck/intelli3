@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:148#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O ideal e o professor dispor de um gravador com uma fita apresentando sons diferentes. Em sua falta, pode improvisar com sons metalicos, guturais, latidos, vozes conhecidas, trechos de musica e outros."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:148> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:148#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos sao divididos em duas equipes e todos devem ter seus olhos vendados. Iniciando a atividade, o professor informa que irao percorrer um castelo imaginario devendo memorizar os sons ouvidos para relaciona-los na ordem em que forem apresentados."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:148> ;
+    dct:type "body" .
+
+<urn:doc:148#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Vence a equipe que fizer a relacao mais completa e na ordem correta. O jogo permite sua aplicacao em diferentes niveis e o professor pode colecionar a fita 1, 2, 3 e assim por diante com grau de dificuldade crescente."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:148> ;
+    dct:type "body" .
+
+<urn:doc:148> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:148#frag-000>,
+        <urn:doc:148#frag-001>,
+        <urn:doc:148#frag-002> .
+

@@ -1,0 +1,258 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "envolvam manifestacoes corporais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7968055762819656,
+      "relevance": 0.8303964757709251
+    },
+    {
+      "role": "Keyword",
+      "text": "situacoes emocionais diversas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7968055762819656,
+      "relevance": 0.6651982378854626
+    },
+    {
+      "role": "Keyword",
+      "text": "situacoes emocionais diversas",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7968055762819656,
+      "relevance": 0.6651982378854626
+    },
+    {
+      "role": "Keyword",
+      "text": "andar cavalo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tambem situacoes emocionais",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7838216051314694,
+      "relevance": 0.6806167400881058
+    },
+    {
+      "role": "Keyword",
+      "text": "tambem situacoes emocionais",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7838216051314694,
+      "relevance": 0.6806167400881058
+    },
+    {
+      "role": "Keyword",
+      "text": "raiva",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7751849131059125,
+      "relevance": 0.5969162995594713
+    },
+    {
+      "role": "Keyword",
+      "text": "alegria",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7751849131059125,
+      "relevance": 0.5814977973568283
+    },
+    {
+      "role": "Keyword",
+      "text": "entusiasmo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7751849131059125,
+      "relevance": 0.5616740088105727
+    },
+    {
+      "role": "Keyword",
+      "text": "tristeza",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7751849131059125,
+      "relevance": 0.5352422907488987
+    },
+    {
+      "role": "Keyword",
+      "text": "organizar conjunto",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7718668153377981,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "serem transmitidas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7383747053499854,
+      "relevance": 0.9118942731277533
+    },
+    {
+      "role": "Keyword",
+      "text": "conjunto mensagens",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7383747053499854,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Organizar um conjunto de mensagens",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "escrever essas mensagens",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7899209234449238,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "papel reunir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "descoberta",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6860013772947977,
+      "relevance": 0.5763888888888888
+    },
+    {
+      "role": "Keyword",
+      "text": "levando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6860013772947977,
+      "relevance": 0.6273148148148149
+    },
+    {
+      "role": "Keyword",
+      "text": "sortear",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6344556261554457,
+      "relevance": 0.7384259259259259
+    },
+    {
+      "role": "Keyword",
+      "text": "sortear mensagem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6344556261554457,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "escrever essas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "escrever essas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "progressivamente sendo propostas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8079591951664962,
+      "relevance": 0.5970588235294118
+    },
+    {
+      "role": "Keyword",
+      "text": "progressivamente sendo propostas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8079591951664962,
+      "relevance": 0.5970588235294118
+    },
+    {
+      "role": "Keyword",
+      "text": "principal objetivo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.9382352941176471
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao interpessoal",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.8764705882352941
+    },
+    {
+      "role": "Keyword",
+      "text": "objetivo comunicacao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5703374137860785,
+      "relevance": 0.75
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "circulo debates",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.5771917527041672,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "importancia auto",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5244138945179423,
+      "relevance": 0.6832298136645962
+    },
+    {
+      "role": "ContextObject",
+      "text": "circulo de debates",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8664596273291926
+    }
+  ]
+}

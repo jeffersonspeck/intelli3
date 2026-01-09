@@ -1,0 +1,22 @@
+[Documento] urn:doc:173
+  - miVector: 0.00,35.61,0.00,1.55,29.05,6.96,4.30,22.53
+  - TOP (documento): Logical-Mathematical (score=0.3561)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3561
+      • Bodily-Kinesthetic: 0.2905
+      • Naturalist: 0.2253
+
+
+[Documento — Fragmentos] urn:doc:173
+
+[Fragmento] Preparacao: O professor confecciona o jogo com garrafas plasticas descartaveis, cordao, argolas e fitas colantes ou fitas adesivas coloridas.
+  > TOP: Naturalista (score=0.4798, tipo=Primary)
+
+[Fragmento] Deve cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colori- da, passar dois fios de cerca de tres metros de comprimento e colocar argolas nas extremidades.
+  > TOP: Cinestésico-corporal (score=0.7561, tipo=Primary)
+
+[Fragmento] Utilizacao: A peca permite jogo em duplas, em que cada aluno segura uma das extremidades do cordao e da um impulso, abrindo os bracos e arremessando o objeto para outro, que repete a operacao, e assim sucessivamente, ate que um dos alunos cometa um erro.
+  > TOP: Cinestésico-corporal (score=0.4931, tipo=Primary)
+
+[Fragmento] Ao errar, sai do jogo, entrando outro participante.
+  > TOP: Lógico-matemática (score=0.6550, tipo=Primary)

@@ -1,0 +1,55 @@
+[Documento] urn:doc:259
+  - miVector: 9.23,20.12,0.00,0.00,0.00,15.54,0.00,55.11
+  - TOP (documento): Naturalist (score=0.5511)
+  - Ranking (top 3):
+      • Naturalist: 0.5511
+      • Logical-Mathematical: 0.2012
+      • Interpersonal: 0.1554
+
+[Fragmento] Preparacao: Espaco aberto em um local seguro onde nao existam espinhos, barrancos ou rios profundos, mas que, ao mesmo tempo, possa oferecer bons pontos para escon- derijos. Estabelecer os limites da area onde ocorrera o jogo.
+  - Interpersonal (via activation, score=0.1990)
+  - Logical-Mathematical (via activation, score=0.0951)
+  - Naturalist (via activation, score=0.7059)
+  - Interpessoal (via activation, score=0.1990)
+  - Lógico-matemática (via activation, score=0.0951)
+  - Naturalista (via activation, score=0.7059)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: O professor devera explicar aos alunos a vida dos animais na natureza e sua inevitavel condicao de "presas" e "predadores", destacando que quase todo animal e, ao mesmo tempo, presa e predador. As regras seguem, em linhas gerais, as de uma brincadeira de "esconde-esconde".
+  - Linguistic (via activation, score=0.1166)
+  - Logical-Mathematical (via activation, score=0.0503)
+  - Naturalist (via activation, score=0.8331)
+  - Linguística (via activation, score=0.1166)
+  - Lógico-matemática (via activation, score=0.0503)
+  - Naturalista (via activation, score=0.8331)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Imciado o jogo, o predador podera tentar achar sua presa e pode ser combinado a emissao de som do predador. O jogo conti- nua ate que todas as presas sejam pegas ou ate que o predador desista de sua busca.
+  - Linguistic (via activation, score=0.2803)
+  - Logical-Mathematical (via activation, score=0.7197)
+  - Linguística (via activation, score=0.2803)
+  - Lógico-matemática (via activation, score=0.7197)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] E indispensavel que, ao final, professor e alunos troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.
+  - Interpersonal (via activation, score=0.3609)
+  - Naturalist (via activation, score=0.6391)
+  - Interpessoal (via activation, score=0.3609)
+  - Naturalista (via activation, score=0.6391)
+  - Interpersonal (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Naturalista (via element)

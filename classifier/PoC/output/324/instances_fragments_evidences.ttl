@@ -1,0 +1,155 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:324#evid-000-00-estar-sentados> a onto:Keyword ;
+    rdfs:label "estar sentados"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:324#evid-000-01-estar-sentados-em-circulo> a onto:DiscursiveStrategy ;
+    rdfs:label "estar sentados em circulo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:324#evid-001-00-recebem-mensagem> a onto:Keyword ;
+    rdfs:label "recebem mensagem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:324#evid-001-01-escrita-sussurrada> a onto:Keyword ;
+    rdfs:label "escrita sussurrada"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:324#evid-001-02-comunica> a onto:Keyword ;
+    rdfs:label "comunica"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:324#evid-002-00-expressoes-nao-verbais> a onto:Keyword ;
+    rdfs:label "expressoes nao verbais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:324#evid-002-01-descobrindo-mensagem> a onto:Keyword ;
+    rdfs:label "descobrindo mensagem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:324#evid-002-02-descobrindo-mensagem> a onto:Keyword ;
+    rdfs:label "descobrindo mensagem"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:324#evid-002-03-estimulados-utilizar> a onto:Keyword ;
+    rdfs:label "estimulados utilizar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:324#evid-002-04-ser-estimulados> a onto:Keyword ;
+    rdfs:label "ser estimulados"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:324#evid-002-05-alem-olhar> a onto:Keyword ;
+    rdfs:label "alem olhar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:324#evid-002-06-sendo-ampliadas> a onto:Keyword ;
+    rdfs:label "sendo ampliadas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:324#evid-002-07-comunicacao-corporal> a onto:Keyword ;
+    rdfs:label "comunicacao corporal"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:324#evid-002-08-comunicacao-corporal> a onto:Keyword ;
+    rdfs:label "comunicacao corporal"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:324#evid-003-00-descubram> a onto:Keyword ;
+    rdfs:label "descubram"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:324#evid-003-01-explorar> a onto:Keyword ;
+    rdfs:label "explorar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:324#evid-003-02-explorar> a onto:Keyword ;
+    rdfs:label "explorar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:324#evid-003-03-instrumento-permitir> a onto:Keyword ;
+    rdfs:label "instrumento permitir"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:324#evid-003-04-instrumento-permitir> a onto:Keyword ;
+    rdfs:label "instrumento permitir"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:324#evid-003-05-comunicacao-utilizadas> a onto:Keyword ;
+    rdfs:label "comunicacao utilizadas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:324#evid-003-06-comunicacao-utilizadas> a onto:Keyword ;
+    rdfs:label "comunicacao utilizadas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:324#evid-003-07-comunicacao-instrumento> a onto:Keyword ;
+    rdfs:label "comunicacao instrumento"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:324#evid-003-08-comunicacao-instrumento> a onto:Keyword ;
+    rdfs:label "comunicacao instrumento"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:324#evid-003-09-linguagem-oral> a onto:ContextObject ;
+    rdfs:label "linguagem oral"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:324#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Os alunos devem estar sentados em circulo e o professor escolhe um, depois outro e mais outros alunos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:324> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:324#evid-000-00-estar-sentados>,
+        <urn:doc:324#evid-000-01-estar-sentados-em-circulo> .
+
+<urn:doc:324#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Estes recebem uma mensagem (escrita ou sussurrada pelo professor) e devem comunica-la a classe apenas usando o olhar (por exemplo: uma mosca voando, uma partida de tenis, um aviao pousando)."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:324> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:324#evid-001-00-recebem-mensagem>,
+        <urn:doc:324#evid-001-01-escrita-sussurrada>,
+        <urn:doc:324#evid-001-02-comunica> .
+
+<urn:doc:324#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem ser estimulados a utilizar-se de diferentes formas de expressoes nao verbais, descobrindo a mensagem. Progressivamente, as mensagens podem ir sendo amplia- das e, alem do olhar, outros atributos da comunicacao corporal podem e devem ser utiliza- dos."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:324> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:324#evid-002-00-expressoes-nao-verbais>,
+        <urn:doc:324#evid-002-01-descobrindo-mensagem>,
+        <urn:doc:324#evid-002-02-descobrindo-mensagem>,
+        <urn:doc:324#evid-002-03-estimulados-utilizar>,
+        <urn:doc:324#evid-002-04-ser-estimulados>,
+        <urn:doc:324#evid-002-05-alem-olhar>,
+        <urn:doc:324#evid-002-06-sendo-ampliadas>,
+        <urn:doc:324#evid-002-07-comunicacao-corporal>,
+        <urn:doc:324#evid-002-08-comunicacao-corporal> .
+
+<urn:doc:324#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "O professor deve explorar essas formas de comunicacao como instrumento para permitir que os alunos descubram que a linguagem oral e apenas uma das muitas formas de comunicacao utilizadas pelo ser humano."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:324> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:324#evid-003-00-descubram>,
+        <urn:doc:324#evid-003-01-explorar>,
+        <urn:doc:324#evid-003-02-explorar>,
+        <urn:doc:324#evid-003-03-instrumento-permitir>,
+        <urn:doc:324#evid-003-04-instrumento-permitir>,
+        <urn:doc:324#evid-003-05-comunicacao-utilizadas>,
+        <urn:doc:324#evid-003-06-comunicacao-utilizadas>,
+        <urn:doc:324#evid-003-07-comunicacao-instrumento>,
+        <urn:doc:324#evid-003-08-comunicacao-instrumento>,
+        <urn:doc:324#evid-003-09-linguagem-oral> .
+
+<urn:doc:324> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:324#frag-000>,
+        <urn:doc:324#frag-001>,
+        <urn:doc:324#frag-002>,
+        <urn:doc:324#frag-003> .
+

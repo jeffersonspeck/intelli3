@@ -1,0 +1,105 @@
+[Documento] urn:doc:13
+  - miVector: 8.32,3.89,6.20,0.00,0.00,4.53,0.00,77.07
+  - TOP (documento): Naturalist (score=0.7707)
+  - Ranking (top 3):
+      • Naturalist: 0.7707
+      • Linguistic: 0.0832
+      • Spatial: 0.0620
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: figuras
+        • Keyword: distribuir figuras
+        • Keyword: figura apresenta
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2045
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: formando
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1494
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: apresenta nomeando
+        • Keyword: concordancia genero
+        • Keyword: observando concordancia
+        • Keyword: qualidades
+        • Keyword: substantivos adjetivos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2746
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: participantes sortcar
+        • Keyword: sortcar papeis
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1283
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: figuras
+        • Keyword: animais
+        • Keyword: camisa branca
+        • Keyword: colecionar figuras coloridas
+        • Keyword: coloridas objetos
+        • Keyword: concordancia genero
+        • Keyword: distribuir figuras
+        • Keyword: existem diversos analogos
+        • Keyword: figura apresenta
+        • Keyword: genero substantivos
+        • Keyword: oculos frutas
+        • Keyword: pente azul
+    - Ativações (doc): n=3, primárias=3, secundárias=0, max=1.0000
+
+
+[Documento — Fragmentos] urn:doc:13
+
+[Fragmento] Preparacao: Colecionar figuras coloridas de objetos variados de revistas, como por exemplo blusa, sapato, oculos ou frutas ou ainda animais. Colar essas figuras em cartolina, formando 36 fichas. Em uma caixa, papeizinhos dobrados (tombo- las) com os nomes das figuras.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: formando
+    - Ativações:
+        • score=0.1494, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: animais
+        • Keyword: colecionar figuras coloridas
+        • Keyword: coloridas objetos
+        • Keyword: oculos frutas
+    - Ativações:
+        • score=0.8506, tipo=Primary
+
+[Fragmento] Utilizacao: Distribuir as figuras entre os participantes e sortcar os papeis com seus no- mes. A crianca que estiver com a figura deve apresenta-la nomeando-a com suas qualidades, observando a concordancia em genero dos substantivos e ad- jetivos. Exemplo: a camisa branca, o pente azul; etc.
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: figuras
+        • Keyword: distribuir figuras
+        • Keyword: figura apresenta
+    - Ativações:
+        • score=0.2045, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: apresenta nomeando
+        • Keyword: concordancia genero
+        • Keyword: observando concordancia
+        • Keyword: qualidades
+        • Keyword: substantivos adjetivos
+    - Ativações:
+        • score=0.2746, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: participantes sortcar
+        • Keyword: sortcar papeis
+    - Ativações:
+        • score=0.1283, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: figuras
+        • Keyword: camisa branca
+        • Keyword: concordancia genero
+        • Keyword: distribuir figuras
+        • Keyword: figura apresenta
+        • Keyword: genero substantivos
+        • Keyword: pente azul
+    - Ativações:
+        • score=0.3925, tipo=Primary
+
+[Fragmento] (Existem diversos analogos no comercio)
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: existem diversos analogos
+    - Ativações:
+        • score=1.0000, tipo=Primary

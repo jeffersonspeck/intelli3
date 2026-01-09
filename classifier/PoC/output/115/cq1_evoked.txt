@@ -1,0 +1,61 @@
+[Documento] urn:doc:115
+  - miVector: 7.41,4.03,14.01,0.00,46.19,0.00,0.00,28.36
+  - TOP (documento): Bodily-Kinesthetic (score=0.4619)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4619
+      • Naturalist: 0.2836
+      • Spatial: 0.1401
+
+[Fragmento] Preparacao: Preparar com arames revestidos de plasticos coloridos (usados como cabos eletricos) uma caixa contendo arames de varias cores em tamanhos variaveis de 10 a 30 cm.
+  - Bodily-Kinesthetic (via activation, score=0.2568)
+  - Linguistic (via activation, score=0.1118)
+  - Logical-Mathematical (via activation, score=0.0914)
+  - Naturalist (via activation, score=0.4578)
+  - Spatial (via activation, score=0.0823)
+  - Cinestésico-corporal (via activation, score=0.2568)
+  - Espacial-visual (via activation, score=0.0823)
+  - Linguística (via activation, score=0.1118)
+  - Lógico-matemática (via activation, score=0.0914)
+  - Naturalista (via activation, score=0.4578)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: O aluno deve ser estimulado pelo professor a produzir formas geometri- cas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares e uma serie de outras pecas. Deve, em etapas posteriores, relaciona-las contando historias que as envolvam.
+  - Bodily-Kinesthetic (via activation, score=0.3212)
+  - Linguistic (via activation, score=0.1327)
+  - Logical-Mathematical (via activation, score=0.0416)
+  - Naturalist (via activation, score=0.1245)
+  - Spatial (via activation, score=0.3801)
+  - Cinestésico-corporal (via activation, score=0.3212)
+  - Espacial-visual (via activation, score=0.3801)
+  - Linguística (via activation, score=0.1327)
+  - Lógico-matemática (via activation, score=0.0416)
+  - Naturalista (via activation, score=0.1245)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] (Existem diversos jogos de montar cidades e sitios em miniatura. Uma rosa dos ventos amplia o estudo das posicoes e de suas referencias.)
+  - Bodily-Kinesthetic (via activation, score=0.7280)
+  - Naturalist (via activation, score=0.2720)
+  - Cinestésico-corporal (via activation, score=0.7280)
+  - Naturalista (via activation, score=0.2720)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Naturalista (via element)

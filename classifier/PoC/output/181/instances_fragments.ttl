@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:181#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Usar panos coloridos com casas e botoes de diferentes tamanhos, botoes de pressao, ganchos. O mesmo tecido pode ter casas do tipo ilhos para passar barbante. Venda para os olhos. Utilizacao: O aluno devera abotoar e desabotoar, dar laco, enganchar."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:181> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:181#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Essa atividade deve ser programada e e bom que o aluno nao segure o pano em suas maos para brincadeiras livres, mas que execute a atividade segundo determinacoes do pro- fessor, preferivelmente com os olhos vendados."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:181> ;
+    dct:type "body" .
+
+<urn:doc:181> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:181#frag-000>,
+        <urn:doc:181#frag-001> .
+

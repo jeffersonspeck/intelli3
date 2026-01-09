@@ -1,0 +1,19 @@
+[Documento] urn:doc:255
+  - miVector: 5.52,2.34,0.00,4.23,21.00,9.26,0.00,57.66
+  - TOP (documento): Naturalist (score=0.5766)
+  - Ranking (top 3):
+      • Naturalist: 0.5766
+      • Bodily-Kinesthetic: 0.2100
+      • Interpersonal: 0.0926
+
+
+[Documento — Fragmentos] urn:doc:255
+
+[Fragmento] Preparacao: E indispensavel que o professor "invente" um "monstro" e que estimule seus alunos para essa cacada. Deve contar, com entusiasmo, uma historia e dar algumas "pistas" para que os alunos possam descobri-lo.
+  > TOP: Naturalista (score=0.4797, tipo=Primary)
+
+[Fragmento] Utilizacao: Considerando que "monstro" e um ser de conformacao extravagante, uma grande arvore, ou uma planta exotica pode ser o monstro. Os alunos nao devem saber quem e o monstro c nem onde fica, mas atraves de algumas pistas sugeridas pelo professor deverao procurar encontra-lo.
+  > TOP: Naturalista (score=0.6358, tipo=Primary)
+
+[Fragmento] Essas pistas devem ser explicadas com muitas informacoes naturais que agucem a audicao, a sensibilidade olfativa e curio- sidade dos alunos. O professor devera manter durante todo o tempo o espirito da brincadeira, oferecendo aos alunos varias sugestoes. 203
+  > TOP: Naturalista (score=0.6434, tipo=Primary)

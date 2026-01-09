@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:178#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Bolas de borracha de cinco a seis tamanhos diferentes. Utilizacao: O aluno deve aprender a obedecer regras e perceber claramente os limites, mas deve ser estimulado a usar as bolas arremessando-as a outros, contra paredes, aparar bolas arremessadas por outros, aparar bola usando uma das maos, a direita ou a esquerda."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:178> ;
+    dct:type "body" .
+
+<urn:doc:178#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Em etapas seguintes, apos explorar todas as tentativas manuais, treinar a lateralidade com o uso dos pes."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:178> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:178> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:178#frag-000>,
+        <urn:doc:178#frag-001> .
+

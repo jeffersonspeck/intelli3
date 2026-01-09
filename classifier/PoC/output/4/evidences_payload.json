@@ -1,0 +1,182 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "utilizando gravuras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7977302536255774,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmo tamanho",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.6768867924528301
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmo tamanho",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.6768867924528301
+    },
+    {
+      "role": "Keyword",
+      "text": "gravuras revistas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "selecionando",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.9221698113207547
+    },
+    {
+      "role": "Keyword",
+      "text": "ajuda criancas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "organizar colecao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "organizar colecao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colecao objetos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colecao objetos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "gravuras de revistas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9740566037735849
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "jogo dominos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8038621760905216,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras combinadas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5721161883786192,
+      "relevance": 0.8571428571428572
+    },
+    {
+      "role": "Keyword",
+      "text": "dizendo cor",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7921608762165496,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "nomeando objetos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7815677893068794,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "regras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7652471595713712,
+      "relevance": 0.8004201680672269
+    },
+    {
+      "role": "Keyword",
+      "text": "regras",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7652471595713712,
+      "relevance": 0.8004201680672269
+    },
+    {
+      "role": "Keyword",
+      "text": "ser montadas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7652471595713712,
+      "relevance": 0.9684873949579832
+    },
+    {
+      "role": "Keyword",
+      "text": "ser seguidas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7652471595713712,
+      "relevance": 0.773109243697479
+    },
+    {
+      "role": "Keyword",
+      "text": "crianca nomeando",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7646843995977011,
+      "relevance": 0.7331932773109244
+    },
+    {
+      "role": "Keyword",
+      "text": "crianca nomeando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7646843995977011,
+      "relevance": 0.7331932773109244
+    },
+    {
+      "role": "Keyword",
+      "text": "criando fatos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7646843995977011,
+      "relevance": 0.6302521008403361
+    }
+  ]
+}

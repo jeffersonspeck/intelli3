@@ -1,0 +1,178 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "olhos vendados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.562463690320761,
+      "relevance": 0.9176954732510288
+    },
+    {
+      "role": "Keyword",
+      "text": "proury",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7128387983368523,
+      "relevance": 0.5164609053497942
+    },
+    {
+      "role": "Keyword",
+      "text": "pronunciando palavra",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7097332951912967,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "caso ouca",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7783139764814874,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "fazendo novos contatos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5621156496810742,
+      "relevance": 0.8699186991869918
+    },
+    {
+      "role": "Keyword",
+      "text": "ouca resposta",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7598042847128987,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "procurar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6396409723064049,
+      "relevance": 0.6869918699186992
+    },
+    {
+      "role": "Keyword",
+      "text": "mao dessa pessoa",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6396409723064049,
+      "relevance": 0.6646341463414633
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "caminhar tatilmente ate",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8077983600567094,
+      "relevance": 0.8523206751054853
+    },
+    {
+      "role": "Keyword",
+      "text": "indagacao esteja",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7911598145924102,
+      "relevance": 0.919831223628692
+    },
+    {
+      "role": "Keyword",
+      "text": "caso pessoa",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7743892668253269,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pessoas segurar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.762642853706463,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "segurar mao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.762642853706463,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8523206751054853
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "iniciar jogo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "responder chamada",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "responder chamada",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "nao responder",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.7566371681415929
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "nao responder a chamada",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.7566371681415929
+    }
+  ]
+}

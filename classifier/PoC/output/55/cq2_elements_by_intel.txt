@@ -1,0 +1,115 @@
+[Documento] urn:doc:55
+  - miVector: 0.00,25.02,22.47,0.00,15.81,6.47,0.00,30.23
+  - TOP (documento): Naturalist (score=0.3023)
+  - Ranking (top 3):
+      • Naturalist: 0.3023
+      • Logical-Mathematical: 0.2502
+      • Spatial: 0.2247
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: dados sao jogados
+        • Keyword: jogador seleciona
+        • Keyword: parceiro repete
+        • Keyword: quantidade retira
+        • Keyword: recortar
+        • Keyword: repete operacao
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4364
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: formas (180)
+        • ContextObject: seis cores diferentes
+        • ContextObject: tres formas geometricas
+        • Keyword: espalha
+        • Keyword: mesa
+        • Keyword: triangulos iguais
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3615
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: formar
+        • Keyword: formar equipes
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.2781
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • ContextObject: tres dados
+        • ContextObject: tres formas geometricas
+        • Keyword: cores
+        • Keyword: dados sao jogados
+        • Keyword: quantidade retira
+        • Keyword: tres dados forrados
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.6455
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: cores
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=1.0000
+
+
+[Documento — Fragmentos] urn:doc:55
+
+[Fragmento] Preparacao: O jogo e preparado com a confeccao de tres dados forrados de papel branco. O primeiro dado deve possuir circulos de cartolina cortados como em um dado co- mum. No segundo, seis cores diferentes, uma para cada lado, e, no ultimo, tres for- mas geometricas, cada uma repetida uma vez.
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: seis cores diferentes
+        • ContextObject: tres formas geometricas
+    - Ativações:
+        • score=0.3545, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • ContextObject: tres dados
+        • ContextObject: tres formas geometricas
+        • Keyword: tres dados forrados
+    - Ativações:
+        • score=0.6455, tipo=Primary
+
+[Fragmento] Recortar 60 triangulos iguais em seis cores (dez para cada cor), 60 quadrados divididos em seis cores e seis circulos iguais, tambem divididos em seis cores. Utilizacao: Os alunos devem formar equipes de quatro componentes.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: recortar
+    - Ativações:
+        • score=0.2434, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: triangulos iguais
+    - Ativações:
+        • score=0.2501, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: formar
+        • Keyword: formar equipes
+    - Ativações:
+        • score=0.2781, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: cores
+    - Ativações:
+        • score=0.2284, tipo=Secondary
+
+[Fragmento] Espalha-se sobre a mesa todas as formas (180) e os dados sao jogados, um de cada vez. O jogador seleciona as formas pela cor e pela quantidade e retira-as da mesa. O parceiro repete a operacao e, assim, sucessivamente, ate terminarem todas as formas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: dados sao jogados
+        • Keyword: jogador seleciona
+        • Keyword: parceiro repete
+        • Keyword: quantidade retira
+        • Keyword: repete operacao
+    - Ativações:
+        • score=0.4364, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: formas (180)
+        • Keyword: espalha
+        • Keyword: mesa
+    - Ativações:
+        • score=0.3615, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: dados sao jogados
+        • Keyword: quantidade retira
+    - Ativações:
+        • score=0.2022, tipo=Secondary
+
+[Fragmento] Ganha o aluno que conseguir o maior numero de pecas e tambem o maior numero de formas e de cores. 81
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: cores
+    - Ativações:
+        • score=1.0000, tipo=Primary

@@ -1,0 +1,16 @@
+[Documento] urn:doc:4
+  - miVector: 11.76,18.62,12.42,4.14,28.42,15.54,0.00,9.11
+  - TOP (documento): Bodily-Kinesthetic (score=0.2842)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2842
+      • Logical-Mathematical: 0.1862
+      • Interpersonal: 0.1554
+
+
+[Documento — Fragmentos] urn:doc:4
+
+[Fragmento] Preparacao: Utilizando gravuras de revistas, selecionando-as se possivel com a ajuda das criancas, organizar uma colecao de objetos mais ou menos do mesmo tama- nho, como frutas, brinquedos, transportes ou utensilios diversos.
+  > TOP: Interpessoal (score=0.2749, tipo=Primary)
+
+[Fragmento] Utilizacao: As pecas devem ser montadas como um Jogo de Dominos (28 pecas com 7 figuras combinadas) e suas regras devem ser seguidas com a crianca nomeando os objetos, dizendo sua cor, ou criando fatos sobre os mesmos. (Existem analogos no comercio).
+  > TOP: Cinestésico-corporal (score=0.3879, tipo=Primary)

@@ -1,0 +1,140 @@
+[Documento] urn:doc:257
+  - miVector: 9.91,11.60,2.18,6.61,40.44,10.08,0.00,19.17
+  - TOP (documento): Bodily-Kinesthetic (score=0.4044)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4044
+      • Naturalist: 0.1917
+      • Logical-Mathematical: 0.1160
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: sacos de dormir ou colchonetes
+        • DiscursiveStrategy: trazer seus sacos de dormir ou colchonetes e passar uma noite na escola
+        • Keyword: cardeais
+        • Keyword: colchonetes passar
+        • Keyword: desenhar
+        • Keyword: desenhar constelacoes
+        • Keyword: dormir colchonetes
+        • Keyword: sacos dormir
+        • Keyword: trazer sacos
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7986
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: identificacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0721
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: observar estrelas e desenhar constelacoes
+        • Keyword: identificacao
+        • Keyword: reunindo
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2606
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: descreve las
+        • Keyword: ideia astronomos
+        • Keyword: recriar ideia
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2182
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: convidados trazer
+        • Keyword: forem convidados
+        • Keyword: inventar
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2014
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: ideia astronomos
+        • Keyword: recriar ideia
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2182
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: constelacoes
+        • DiscursiveStrategy: observar estrelas e desenhar constelacoes
+        • Keyword: constelacoes
+        • Keyword: observar estrelas
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.4004
+
+
+[Documento — Fragmentos] urn:doc:257
+
+[Fragmento] preparacao: Essa atividade e realizada a noite e, portanto, possivel se os alunos forem con- vidados a trazer seus sacos de dormir ou colchonetes e passar uma noite na escola. Em uma excursao a atividade e tambem possivel.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: sacos de dormir ou colchonetes
+        • DiscursiveStrategy: trazer seus sacos de dormir ou colchonetes e passar uma noite na escola
+        • Keyword: colchonetes passar
+        • Keyword: dormir colchonetes
+        • Keyword: sacos dormir
+        • Keyword: trazer sacos
+    - Ativações:
+        • score=0.7986, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: convidados trazer
+        • Keyword: forem convidados
+    - Ativações:
+        • score=0.2014, tipo=Secondary
+
+[Fragmento] Utilizacao: O professor devera estimular os alunos a observar estrelas e desenhar constela- coes, reunindo-se depois para descreve-las. Os alunos nao precisam se preocupar em desenhar ou descrever as constelacoes como se encontram no ceu.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: desenhar
+        • Keyword: desenhar constelacoes
+    - Ativações:
+        • score=0.2301, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: observar estrelas e desenhar constelacoes
+        • Keyword: reunindo
+    - Ativações:
+        • score=0.2606, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: descreve las
+    - Ativações:
+        • score=0.1088, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: observar estrelas e desenhar constelacoes
+        • Keyword: constelacoes
+        • Keyword: observar estrelas
+    - Ativações:
+        • score=0.4004, tipo=Primary
+
+[Fragmento] O professor pode recriar a ideia dos astronomos do passado, levando seus alunos a inventar "no- vas constelacoes". A noite tambem oferece interessante oportunidade para a identi- ficacao dos pontos cardeais a partir da lua ou das estrelas. 204
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: cardeais
+    - Ativações:
+        • score=0.0662, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: identificacao
+    - Ativações:
+        • score=0.0721, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: identificacao
+    - Ativações:
+        • score=0.0721, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: ideia astronomos
+        • Keyword: recriar ideia
+    - Ativações:
+        • score=0.2182, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: inventar
+    - Ativações:
+        • score=0.1210, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: ideia astronomos
+        • Keyword: recriar ideia
+    - Ativações:
+        • score=0.2182, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: constelacoes
+        • Keyword: constelacoes
+    - Ativações:
+        • score=0.2322, tipo=Primary

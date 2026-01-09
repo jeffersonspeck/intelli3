@@ -1,0 +1,95 @@
+[Documento] urn:doc:12
+  - miVector: 3.88,12.71,11.07,0.00,32.95,0.00,0.00,39.39
+  - TOP (documento): Naturalist (score=0.3939)
+  - Ranking (top 3):
+      • Naturalist: 0.3939
+      • Bodily-Kinesthetic: 0.3295
+      • Logical-Mathematical: 0.1271
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: figuras dos cartoes
+        • DiscursiveStrategy: Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras…
+        • DiscursiveStrategy: Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e …
+        • Keyword: cartolina madeira
+        • Keyword: colecionar figuras coloridas
+        • Keyword: madeira colar
+        • Keyword: monta las
+        • Keyword: montar
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.6053
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras…
+        • Keyword: figuras cartoes
+        • Keyword: formando
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2734
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: nomea
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1279
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e …
+        • Keyword: pares
+        • Keyword: sortear figuras
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2980
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: Loto Mundo Variado
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=1.0000
+
+
+[Documento — Fragmentos] urn:doc:12
+
+[Fragmento] Preparacao: Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras. As demais, repetidas, devem ser coladas cada uma em um cartao.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras…
+        • Keyword: cartolina madeira
+        • Keyword: colecionar figuras coloridas
+        • Keyword: madeira colar
+        • Keyword: montar
+    - Ativações:
+        • score=0.6053, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • DiscursiveStrategy: Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras…
+        • Keyword: formando
+    - Ativações:
+        • score=0.2734, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: pares
+    - Ativações:
+        • score=0.1213, tipo=Secondary
+
+[Fragmento] Utilizacao: Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e indefinido para cada item. Exemplo: O abacate verde, uma laranja amarela, etc. (Existem analogos no comercio.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: figuras dos cartoes
+        • DiscursiveStrategy: Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e …
+        • Keyword: monta las
+    - Ativações:
+        • score=0.4821, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: figuras cartoes
+    - Ativações:
+        • score=0.0920, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: nomea
+    - Ativações:
+        • score=0.1279, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e …
+        • Keyword: sortear figuras
+    - Ativações:
+        • score=0.2980, tipo=Secondary
+
+[Fragmento] Loto Mundo Variado [Coluna]) 54
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: Loto Mundo Variado
+    - Ativações:
+        • score=1.0000, tipo=Primary

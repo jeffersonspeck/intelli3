@@ -1,0 +1,19 @@
+[Documento] urn:doc:250
+  - miVector: 17.39,21.34,0.00,0.00,20.72,4.82,0.00,35.73
+  - TOP (documento): Naturalist (score=0.3573)
+  - Ranking (top 3):
+      • Naturalist: 0.3573
+      • Logical-Mathematical: 0.2134
+      • Bodily-Kinesthetic: 0.2072
+
+
+[Documento — Fragmentos] urn:doc:250
+
+[Fragmento] Preparacao: O professor devera estimular que os alunos, divididos em grupos, facam colecoes de produtos naturais, tais como rochas, minerais, folhas, conchas, co- gumelos ou outros produtos.
+  > TOP: Naturalista (score=0.8027, tipo=Primary)
+
+[Fragmento] Deve arrumar caixas bem divididas para expor es- sas colecoes e levar os alunos a classificar com criterio os objetos colecionados.
+  > TOP: Cinestésico-corporal (score=0.5260, tipo=Primary)
+
+[Fragmento] Utilizacao: O professor deve, antes de estimular os alunos as colecoes, planejar os mostruarios, as referencias bibliograficas para que possam identificar as pecas encontradas e estabelecer as regras essenciais para a colecao.
+  > TOP: Linguística (score=0.3765, tipo=Primary)

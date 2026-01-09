@@ -1,0 +1,131 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:155#evid-000-00-classifica-alimentos> a onto:Keyword ;
+    rdfs:label "classifica alimentos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:155#evid-000-01-alimentos-compra> a onto:Keyword ;
+    rdfs:label "alimentos compra"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:155#evid-000-02-analisa-qualidade> a onto:Keyword ;
+    rdfs:label "analisa qualidade"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-03-deduz-valor> a onto:Keyword ;
+    rdfs:label "deduz valor"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-04-valor-nutritivo> a onto:Keyword ;
+    rdfs:label "valor nutritivo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-05-mesmas-compressao> a onto:Keyword ;
+    rdfs:label "mesmas compressao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:155#evid-000-06-relacionar> a onto:Keyword ;
+    rdfs:label "relacionar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-000-07-classificar> a onto:Keyword ;
+    rdfs:label "classificar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-000-08-classificar> a onto:Keyword ;
+    rdfs:label "classificar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:155#evid-000-09-analisar> a onto:Keyword ;
+    rdfs:label "analisar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-10-deduzir> a onto:Keyword ;
+    rdfs:label "deduzir"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-11-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-000-12-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:155#evid-000-13-relacionar-classificar-analisar-> a onto:DiscursiveStrategy ;
+    rdfs:label "relacionar, classificar, analisar, deduzir, identificar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-000-14-relacionar-classificar-analisar-> a onto:DiscursiveStrategy ;
+    rdfs:label "relacionar, classificar, analisar, deduzir, identificar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-000-15-relacionar-classificar-analisar-> a onto:DiscursiveStrategy ;
+    rdfs:label "relacionar, classificar, analisar, deduzir, identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:155#evid-000-16-alimentos> a onto:ContextObject ;
+    rdfs:label "alimentos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:155#evid-001-00-exploradora-habilidades> a onto:Keyword ;
+    rdfs:label "exploradora habilidades"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:155#evid-001-01-uso-sons> a onto:Keyword ;
+    rdfs:label "uso sons"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:155#evid-001-02-instrumentos> a onto:Keyword ;
+    rdfs:label "instrumentos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:155#evid-001-03-completada-com-o-uso-de-sons-e-a> a onto:DiscursiveStrategy ;
+    rdfs:label "completada com o uso de sons e, assim, o emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:155#evid-001-04-chocalho-uma-castanhola-um-surdo> a onto:ContextObject ;
+    rdfs:label "chocalho, uma castanhola, um surdo, triangulo e outros instrumentos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:155#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: A equipe de professores deve estimular o uso de diferentes habilidades operatorias (relacionar, classificar, analisar, deduzir, identificar, etc.) e tornar claro aos alunos o uso e emprego das mesmas na compressao de um texto e nas acoes do cotidiano de todas as profissoes (a dona de casa, por exemplo, classifica os alimentos que compra, analisa a qualidade de cada um, deduz o valor nutritivo e assim por diante)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:155> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:155#evid-000-00-classifica-alimentos>,
+        <urn:doc:155#evid-000-01-alimentos-compra>,
+        <urn:doc:155#evid-000-02-analisa-qualidade>,
+        <urn:doc:155#evid-000-03-deduz-valor>,
+        <urn:doc:155#evid-000-04-valor-nutritivo>,
+        <urn:doc:155#evid-000-05-mesmas-compressao>,
+        <urn:doc:155#evid-000-06-relacionar>,
+        <urn:doc:155#evid-000-07-classificar>,
+        <urn:doc:155#evid-000-08-classificar>,
+        <urn:doc:155#evid-000-09-analisar>,
+        <urn:doc:155#evid-000-10-deduzir>,
+        <urn:doc:155#evid-000-11-identificar>,
+        <urn:doc:155#evid-000-12-identificar>,
+        <urn:doc:155#evid-000-13-relacionar-classificar-analisar->,
+        <urn:doc:155#evid-000-14-relacionar-classificar-analisar->,
+        <urn:doc:155#evid-000-15-relacionar-classificar-analisar->,
+        <urn:doc:155#evid-000-16-alimentos> .
+
+<urn:doc:155#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Essa atividade exploradora das habilidades pode ser completada com o uso de sons e, assim, o emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos, simbolizam meios de explorar o emprego das ha- bilidades em ambito diferente do demonstrado em sala de aula."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:155> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:155#evid-001-00-exploradora-habilidades>,
+        <urn:doc:155#evid-001-01-uso-sons>,
+        <urn:doc:155#evid-001-02-instrumentos>,
+        <urn:doc:155#evid-001-03-completada-com-o-uso-de-sons-e-a>,
+        <urn:doc:155#evid-001-04-chocalho-uma-castanhola-um-surdo> .
+
+<urn:doc:155> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:155#frag-000>,
+        <urn:doc:155#frag-001> .
+

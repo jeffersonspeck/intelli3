@@ -1,0 +1,41 @@
+[Documento] urn:doc:157
+  - miVector: 4.30,3.48,0.00,42.34,3.50,6.98,0.00,39.39
+  - TOP (documento): Musical (score=0.4234)
+  - Ranking (top 3):
+      • Musical: 0.4234
+      • Naturalist: 0.3939
+      • Interpersonal: 0.0698
+
+[Fragmento] Preparacao: A atividade utiliza um xilofone pequeno, que pode ser improvisado com uma caixa de madeira e placas tambem de madeira removiveis. Duas baquetas com pontas arredondadas.
+  - Musical (via activation, score=1.0000)
+  - Musical (via activation, score=1.0000)
+  - Musical (via element)
+  - Musical (via element)
+
+[Fragmento] Utilizacao: Os alunos devem "descobrir" as notas musicais pela audicao dos instru- mentos com a introducao, uma a uma, das placas na superficie da caixa, desenvolvendo a entonacao e a compreensao das diferencas entre cada uma das notas musicais.
+  - Bodily-Kinesthetic (via activation, score=0.1154)
+  - Interpersonal (via activation, score=0.2303)
+  - Linguistic (via activation, score=0.1420)
+  - Logical-Mathematical (via activation, score=0.1150)
+  - Musical (via activation, score=0.3974)
+  - Cinestésico-corporal (via activation, score=0.1154)
+  - Interpessoal (via activation, score=0.2303)
+  - Linguística (via activation, score=0.1420)
+  - Lógico-matemática (via activation, score=0.1150)
+  - Musical (via activation, score=0.3974)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+
+[Fragmento] Em etapas posteriores, as placas podem ir sendo introduzidas duas a duas e assim progressivamente.
+  - Naturalist (via activation, score=1.0000)
+  - Naturalista (via activation, score=1.0000)
+  - Naturalist (via element)
+  - Naturalista (via element)

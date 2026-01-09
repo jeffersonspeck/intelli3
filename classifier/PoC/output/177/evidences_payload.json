@@ -1,0 +1,62 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "colando fita adesiva",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8061809125637541,
+      "relevance": 0.8191964285714286
+    },
+    {
+      "role": "Keyword",
+      "text": "confecciona",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7882586553798475,
+      "relevance": 0.9732142857142857
+    },
+    {
+      "role": "Keyword",
+      "text": "cortando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7287942722636607,
+      "relevance": 0.8683035714285714
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar bola",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7104907095241848,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "praticado individualmente",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6534569942290288,
+      "relevance": 0.6071428571428572
+    },
+    {
+      "role": "ContextObject",
+      "text": "duas tacas com garrafas plasticas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.9464285714285714
+    }
+  ],
+  "1": [
+    {
+      "role": "ContextObject",
+      "text": "uma taca em cada mao e passa a bola de uma taca para a outra",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8279569892473118
+    }
+  ]
+}

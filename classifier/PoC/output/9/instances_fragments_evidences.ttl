@@ -1,0 +1,103 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:9#evid-000-00-voce> a onto:Keyword ;
+    rdfs:label "voce"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:9#evid-000-01-voce-mora> a onto:Keyword ;
+    rdfs:label "voce mora"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:9#evid-000-02-papeis-perguntas> a onto:Keyword ;
+    rdfs:label "papeis perguntas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:9#evid-000-03-voce-estuda> a onto:Keyword ;
+    rdfs:label "voce estuda"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:9#evid-000-04-alunos-divididos-em-dois-grupos-> a onto:DiscursiveStrategy ;
+    rdfs:label "Alunos divididos em dois grupos, sentados em circulos."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:9#evid-000-05-alunos-divididos-em-dois-grupos-> a onto:DiscursiveStrategy ;
+    rdfs:label "Alunos divididos em dois grupos, sentados em circulos."@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:9#evid-000-06-papeis-com-perguntas> a onto:ContextObject ;
+    rdfs:label "papeis com perguntas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:9#evid-001-00-descobriu-america> a onto:Keyword ;
+    rdfs:label "descobriu america"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:9#evid-001-01-questoes-respondem> a onto:Keyword ;
+    rdfs:label "questoes respondem"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:9#evid-001-02-respondem-essas-perguntas> a onto:Keyword ;
+    rdfs:label "respondem essas perguntas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:9#evid-001-03-pergunta> a onto:Keyword ;
+    rdfs:label "pergunta"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:9#evid-001-04-imediatamente> a onto:Keyword ;
+    rdfs:label "imediatamente"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:9#evid-001-05-jogo> a onto:ContextObject ;
+    rdfs:label "jogo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:9#evid-002-00-revezam-se-os-grupos-em-suas-fun> a onto:DiscursiveStrategy ;
+    rdfs:label "revezam-se os grupos em suas funcoes de perguntar e de responder"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:9#evid-002-01-revezam-se-os-grupos-em-suas-fun> a onto:DiscursiveStrategy ;
+    rdfs:label "revezam-se os grupos em suas funcoes de perguntar e de responder"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:9#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Alunos divididos em dois grupos, sentados em circulos. Em uma caixa, uma serie de papeis com perguntas (Exemplo: Onde voce mora? / Onde voce estuda? Qual sua idade? / Que programa mais gosta na TV? / Voce tem namora- do?"@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:9> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:9#evid-000-00-voce>,
+        <urn:doc:9#evid-000-01-voce-mora>,
+        <urn:doc:9#evid-000-02-papeis-perguntas>,
+        <urn:doc:9#evid-000-03-voce-estuda>,
+        <urn:doc:9#evid-000-04-alunos-divididos-em-dois-grupos->,
+        <urn:doc:9#evid-000-05-alunos-divididos-em-dois-grupos->,
+        <urn:doc:9#evid-000-06-papeis-com-perguntas> .
+
+<urn:doc:9#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "/ Quem descobriu a America?) e em outra caixa uma seric de questoes que respondem essas perguntas. Utilizacao: Iniciado o jogo, o professor escolhe um aluno que fara uma pergunta em voz alta. Essa pergunta devera, imediatamente, ser respondida pelo aluno do grupo oposto."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:9> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:9#evid-001-00-descobriu-america>,
+        <urn:doc:9#evid-001-01-questoes-respondem>,
+        <urn:doc:9#evid-001-02-respondem-essas-perguntas>,
+        <urn:doc:9#evid-001-03-pergunta>,
+        <urn:doc:9#evid-001-04-imediatamente>,
+        <urn:doc:9#evid-001-05-jogo> .
+
+<urn:doc:9#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Caso ocorram duas respostas simultaneas, o grupo das respostas perde um ponto. Apos uma serie de indagacoes e respostas, revezam-se os grupos em suas funcoes de perguntar e de responder."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:9> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:9#evid-002-00-revezam-se-os-grupos-em-suas-fun>,
+        <urn:doc:9#evid-002-01-revezam-se-os-grupos-em-suas-fun> .
+
+<urn:doc:9> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:9#frag-000>,
+        <urn:doc:9#frag-001>,
+        <urn:doc:9#frag-002> .
+

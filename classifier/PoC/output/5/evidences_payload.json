@@ -1,0 +1,208 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "revistas diferentes figuras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7710355811011111,
+      "relevance": 0.7756849315068493
+    },
+    {
+      "role": "Keyword",
+      "text": "tesoura",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7564864773017183,
+      "relevance": 0.9571917808219178
+    },
+    {
+      "role": "Keyword",
+      "text": "cola",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7564864773017183,
+      "relevance": 0.9417808219178082
+    },
+    {
+      "role": "Keyword",
+      "text": "cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7145071203265153,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "escolhe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7893795280225734,
+      "relevance": 0.9498207885304659
+    },
+    {
+      "role": "Keyword",
+      "text": "escolhe",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7893795280225734,
+      "relevance": 0.9498207885304659
+    },
+    {
+      "role": "Keyword",
+      "text": "tera minuto",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7893795280225734,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "minuto encontrar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7893795280225734,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "encontrar palavra",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7893795280225734,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "encontrar palavra",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7893795280225734,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "palavra forme",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7893795280225734,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "forme duas rimas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7893795280225734,
+      "relevance": 0.7598566308243728
+    },
+    {
+      "role": "Keyword",
+      "text": "adversarios igual problema",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5579873455862563,
+      "relevance": 0.5483870967741935
+    },
+    {
+      "role": "Keyword",
+      "text": "conseguindo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6603464391055129,
+      "relevance": 0.6792114695340502
+    },
+    {
+      "role": "Keyword",
+      "text": "ganha",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.61640537384435,
+      "relevance": 0.6559139784946236
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "escolhe uma de suas cartas e mostra ao grupo adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9498207885304659
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "escolhe uma de suas cartas e mostra ao grupo adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta.",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9498207885304659
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "propondo mais rimas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7948041910402482,
+      "relevance": 0.696969696969697
+    },
+    {
+      "role": "Keyword",
+      "text": "vai registrando",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7707760066433733,
+      "relevance": 0.974025974025974
+    },
+    {
+      "role": "Keyword",
+      "text": "vai registrando",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7707760066433733,
+      "relevance": 0.974025974025974
+    },
+    {
+      "role": "Keyword",
+      "text": "montes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7124210488864617,
+      "relevance": 0.7575757575757576
+    },
+    {
+      "role": "Keyword",
+      "text": "determinado",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6639039024682514,
+      "relevance": 0.8852813852813852
+    },
+    {
+      "role": "Keyword",
+      "text": "passar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6639039024682514,
+      "relevance": 0.829004329004329
+    },
+    {
+      "role": "Keyword",
+      "text": "passar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6639039024682514,
+      "relevance": 0.829004329004329
+    },
+    {
+      "role": "Keyword",
+      "text": "selecionar cartas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6115901323055307,
+      "relevance": 0.75
+    }
+  ]
+}

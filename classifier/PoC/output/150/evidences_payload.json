@@ -1,0 +1,126 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "mesma silaba inicial",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.802959657749873,
+      "relevance": 0.8101503759398496
+    },
+    {
+      "role": "Keyword",
+      "text": "revistas figuras cujos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5766394383503648,
+      "relevance": 0.9774436090225564
+    },
+    {
+      "role": "Keyword",
+      "text": "recortar revistas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7823514088864616,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "gato",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7785671862340797,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "rato",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7785671862340797,
+      "relevance": 0.7387218045112782
+    },
+    {
+      "role": "Keyword",
+      "text": "bola",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7785671862340797,
+      "relevance": 0.6954887218045113
+    },
+    {
+      "role": "Keyword",
+      "text": "botao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7785671862340797,
+      "relevance": 0.6672932330827068
+    },
+    {
+      "role": "Keyword",
+      "text": "mesma terminacao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7665652536353468,
+      "relevance": 0.9060150375939849
+    },
+    {
+      "role": "Keyword",
+      "text": "cujos nomes tenham",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7665652536353468,
+      "relevance": 0.9454887218045113
+    },
+    {
+      "role": "Keyword",
+      "text": "tenham mesma",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7665652536353468,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cujos nomes apresentam",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7665652536353468,
+      "relevance": 0.8571428571428572
+    },
+    {
+      "role": "Keyword",
+      "text": "apresentam mesma",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7665652536353468,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "mesmo fonema inicial",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7066393076491582,
+      "relevance": 0.8069852941176471
+    },
+    {
+      "role": "Keyword",
+      "text": "reunir palavras",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6759348751848738,
+      "relevance": 0.8474264705882353
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "reunir palavras com o mesmo fonema inicial, agrupar outros com a mesma terminacao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.8474264705882353
+    }
+  ]
+}

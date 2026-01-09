@@ -1,0 +1,37 @@
+[Documento] urn:doc:53
+  - miVector: 0.00,5.27,18.25,0.00,63.63,0.00,0.00,12.85
+  - TOP (documento): Bodily-Kinesthetic (score=0.6363)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6363
+      • Spatial: 0.1825
+      • Naturalist: 0.1285
+
+[Fragmento] Preparacao: Usar caixas de clipes coloridos. Utilizacao: Os alunos devem formar grupos com "muitas" e com "poucas" pecas e estabelecer comparacoes entre esses grupos. Devem colocar "todas" as pecas na caixa e colocar "algumas" pecas na caixa.
+  - Bodily-Kinesthetic (via activation, score=0.5760)
+  - Naturalist (via activation, score=0.4240)
+  - Cinestésico-corporal (via activation, score=0.5760)
+  - Naturalista (via activation, score=0.4240)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Em operacoes coordenadas pelo pro- fessor, retirar "todas", "algumas", "a maior parte", "varias" pecas da caixa. Em outra etapa as cores devem se constituir em elementos de comparacao: formar uma fila com "alguns" ou com "muitos" clipes e assim por diante.
+  - Bodily-Kinesthetic (via activation, score=0.2239)
+  - Logical-Mathematical (via activation, score=0.1740)
+  - Spatial (via activation, score=0.6021)
+  - Cinestésico-corporal (via activation, score=0.2239)
+  - Espacial-visual (via activation, score=0.6021)
+  - Lógico-matemática (via activation, score=0.1740)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] (Existem no mercado jogos com pinos de encaixe que podem ser utilizados para o mesmo fim.)
+  - Bodily-Kinesthetic (via activation, score=1.0000)
+  - Cinestésico-corporal (via activation, score=1.0000)
+  - Bodily-Kinesthetic (via element)
+  - Cinestésico-corporal (via element)

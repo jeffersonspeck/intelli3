@@ -1,0 +1,91 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:50#evid-000-00-reunir-pedacos> a onto:Keyword ;
+    rdfs:label "reunir pedacos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:50#evid-000-01-fitas-coloridas> a onto:Keyword ;
+    rdfs:label "fitas coloridas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:50#evid-000-02-comprimentos> a onto:Keyword ;
+    rdfs:label "comprimentos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:50#evid-000-03-comparar> a onto:Keyword ;
+    rdfs:label "comparar"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:50#evid-000-04-diferentes-larguras> a onto:Keyword ;
+    rdfs:label "diferentes larguras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:50#evid-000-05-largas> a onto:Keyword ;
+    rdfs:label "largas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:50#evid-000-06-larguras-fitas> a onto:Keyword ;
+    rdfs:label "larguras fitas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:50#evid-000-07-larguras-comprimentos> a onto:Keyword ;
+    rdfs:label "larguras comprimentos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:50#evid-000-08-comparar-diferentes> a onto:Keyword ;
+    rdfs:label "comparar diferentes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:50#evid-000-09-fitas-coloridas> a onto:ContextObject ;
+    rdfs:label "fitas coloridas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:50#evid-001-00-posteriores-pegar> a onto:Keyword ;
+    rdfs:label "posteriores pegar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:50#evid-001-01-pegar-fitas> a onto:Keyword ;
+    rdfs:label "pegar fitas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:50#evid-001-02-classificando> a onto:Keyword ;
+    rdfs:label "classificando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:50#evid-001-03-fitas> a onto:ContextObject ;
+    rdfs:label "fitas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:50#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir pedacos de fitas coloridas de duas larguras ce comprimentos. Utilizacao: Os alunos devem comparar as diferentes larguras de fitas e seus comprimen- tos, agrupando-as em \"largas\" e \"estreitas\", depois em \"curtas\" e \"compridas\"."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:50> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:50#evid-000-00-reunir-pedacos>,
+        <urn:doc:50#evid-000-01-fitas-coloridas>,
+        <urn:doc:50#evid-000-02-comprimentos>,
+        <urn:doc:50#evid-000-03-comparar>,
+        <urn:doc:50#evid-000-04-diferentes-larguras>,
+        <urn:doc:50#evid-000-05-largas>,
+        <urn:doc:50#evid-000-06-larguras-fitas>,
+        <urn:doc:50#evid-000-07-larguras-comprimentos>,
+        <urn:doc:50#evid-000-08-comparar-diferentes>,
+        <urn:doc:50#evid-000-09-fitas-coloridas> .
+
+<urn:doc:50#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Em etapas posteriores devem pegar fitas ao acaso, classificando-as como \"com- pr ida\", \"curta\", \"larga\", \"estreita\". E interessante a experiencia de se reproduzir graficamente a largura das fitas."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:50> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:50#evid-001-00-posteriores-pegar>,
+        <urn:doc:50#evid-001-01-pegar-fitas>,
+        <urn:doc:50#evid-001-02-classificando>,
+        <urn:doc:50#evid-001-03-fitas> .
+
+<urn:doc:50> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:50#frag-000>,
+        <urn:doc:50#frag-001> .
+

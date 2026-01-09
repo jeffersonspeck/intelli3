@@ -1,0 +1,178 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "desenhar ilustracoes mostrando",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8087050840535508,
+      "relevance": 0.8841059602649006
+    },
+    {
+      "role": "Keyword",
+      "text": "colecionar gravuras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8027804207334203,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes etapas",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.7715231788079471
+    },
+    {
+      "role": "Keyword",
+      "text": "mostrando diferentes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Colecionar gravuras de revistas ou desenhar ilustracoes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Colecionar gravuras de revistas ou desenhar ilustracoes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "assistir aula",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8025846536641282,
+      "relevance": 0.6189189189189189
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.8621621621621621
+    },
+    {
+      "role": "Keyword",
+      "text": "mostrar diferentes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "evolucao temporal",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7899209234449238,
+      "relevance": 0.7322834645669292
+    },
+    {
+      "role": "Keyword",
+      "text": "gravuras desenhos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5704984447102228,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "seriadas pelos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7899209234449238,
+      "relevance": 0.8405511811023623
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolvendo observacao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7899209234449238,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolvendo observacao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7899209234449238,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "observacao evolucao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.75
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "figuras representando velas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5771012036018968,
+      "relevance": 0.883495145631068
+    },
+    {
+      "role": "Keyword",
+      "text": "representando velas acesas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7990632049872417,
+      "relevance": 0.8640776699029127
+    },
+    {
+      "role": "Keyword",
+      "text": "feita figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5545508649464501,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7587932200600811,
+      "relevance": 0.7912621359223301
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "representando velas acesas em diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.8640776699029127
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras representando velas acesas em diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.49725,
+      "relevance": 0.883495145631068
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+[Documento] urn:doc:148
+  - miVector: 0.00,22.82,0.00,24.55,10.22,12.47,0.00,29.94
+  - TOP (documento): Naturalist (score=0.2994)
+  - Ranking (top 3):
+      • Naturalist: 0.2994
+      • Musical: 0.2455
+      • Logical-Mathematical: 0.2282
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: irao percorrer
+        • Keyword: percorrer castelo
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3374
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: equipe fizer
+        • Keyword: jogo permite
+        • Keyword: permite aplicacao
+        • Keyword: pode colecionar
+        • Keyword: vence equipe
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4116
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: dificuldade crescente
+        • Keyword: fizer relacao
+        • Keyword: jogo permite
+        • Keyword: olhos vendados
+        • Keyword: ordem correta
+        • Keyword: permite aplicacao
+        • Keyword: relacao mais completa
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5078
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: gravador com uma fita apresentando sons diferentes
+        • Keyword: fita apresentando sons
+        • Keyword: sons metalicos
+        • Keyword: sons ouvidos
+        • Keyword: trechos musica
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5134
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: improvisar com sons metalicos, guturais, latidos, vozes conhecidas, trechos de musica e outros
+        • DiscursiveStrategy: percorrer um castelo imaginario devendo memorizar os sons ouvidos para relaciona-los na ordem em que forem apresentados
+        • Keyword: apresentando sons diferentes
+        • Keyword: colecionar fita
+        • Keyword: vozes conhecidas
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.4866
+
+
+[Documento — Fragmentos] urn:doc:148
+
+[Fragmento] Preparacao: O ideal e o professor dispor de um gravador com uma fita apresentando sons diferentes. Em sua falta, pode improvisar com sons metalicos, guturais, latidos, vozes conhecidas, trechos de musica e outros.
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: gravador com uma fita apresentando sons diferentes
+        • Keyword: fita apresentando sons
+        • Keyword: sons metalicos
+        • Keyword: trechos musica
+    - Ativações:
+        • score=0.5134, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: improvisar com sons metalicos, guturais, latidos, vozes conhecidas, trechos de musica e outros
+        • Keyword: apresentando sons diferentes
+        • Keyword: vozes conhecidas
+    - Ativações:
+        • score=0.4866, tipo=Secondary
+
+[Fragmento] Utilizacao: Os alunos sao divididos em duas equipes e todos devem ter seus olhos vendados. Iniciando a atividade, o professor informa que irao percorrer um castelo imaginario devendo memorizar os sons ouvidos para relaciona-los na ordem em que forem apresentados.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: irao percorrer
+        • Keyword: percorrer castelo
+    - Ativações:
+        • score=0.3374, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: olhos vendados
+    - Ativações:
+        • score=0.2451, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: sons ouvidos
+    - Ativações:
+        • score=0.1426, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: percorrer um castelo imaginario devendo memorizar os sons ouvidos para relaciona-los na ordem em que forem apresentados
+    - Ativações:
+        • score=0.2749, tipo=Secondary
+
+[Fragmento] Vence a equipe que fizer a relacao mais completa e na ordem correta. O jogo permite sua aplicacao em diferentes niveis e o professor pode colecionar a fita 1, 2, 3 e assim por diante com grau de dificuldade crescente.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: equipe fizer
+        • Keyword: jogo permite
+        • Keyword: permite aplicacao
+        • Keyword: pode colecionar
+        • Keyword: vence equipe
+    - Ativações:
+        • score=0.4116, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: dificuldade crescente
+        • Keyword: fizer relacao
+        • Keyword: jogo permite
+        • Keyword: ordem correta
+        • Keyword: permite aplicacao
+        • Keyword: relacao mais completa
+    - Ativações:
+        • score=0.5078, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: colecionar fita
+    - Ativações:
+        • score=0.0806, tipo=Secondary

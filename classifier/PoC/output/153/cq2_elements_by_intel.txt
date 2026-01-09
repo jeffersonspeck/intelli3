@@ -1,0 +1,132 @@
+[Documento] urn:doc:153
+  - miVector: 4.87,13.22,0.00,34.36,21.58,16.18,0.00,9.79
+  - TOP (documento): Musical (score=0.3436)
+  - Ranking (top 3):
+      • Musical: 0.3436
+      • Bodily-Kinesthetic: 0.2158
+      • Interpersonal: 0.1618
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: brandido
+        • Keyword: diferentes elementos
+        • Keyword: improvisar serie
+        • Keyword: ser substituidos
+        • Keyword: serie instrumentos
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3448
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical
+        • Keyword: criar historia
+        • Keyword: participacao integral
+        • Keyword: pode criar
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3449
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: historia pronunciar
+        • Keyword: ler historia
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1606
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: historia simples
+        • Keyword: reunir improvisar
+        • Keyword: substituidos pela emissao
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2019
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: (pandeiro, atabaque, surdo, ganza, chocalho e outros)
+        • DiscursiveStrategy: participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical
+        • Keyword: chocalho
+        • Keyword: corresponde som
+        • Keyword: instrumentos musicais simples
+        • Keyword: musicais comercio
+        • Keyword: oral pela musical
+        • Keyword: som chocalho
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=0.4750
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: instrumentos musicais no comercio
+        • Keyword: existem instrumentos musicais
+        • Keyword: palavra lago corresponde
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2524
+
+
+[Documento — Fragmentos] urn:doc:153
+
+[Fragmento] Preparacao: Reunir ou improvisar uma serie de instrumentos musicais simples (pan- deiro, atabaque, surdo, ganza, chocalho e outros).
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: improvisar serie
+        • Keyword: serie instrumentos
+    - Ativações:
+        • score=0.3448, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: reunir improvisar
+    - Ativações:
+        • score=0.1802, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: (pandeiro, atabaque, surdo, ganza, chocalho e outros)
+        • Keyword: chocalho
+        • Keyword: instrumentos musicais simples
+    - Ativações:
+        • score=0.4750, tipo=Primary
+
+[Fragmento] Utilizacao: O professor pode criar uma historia simples, onde diferentes elementos da mesma deverao ser substituidos pela emissao de um som; assim ao ler a historia e pronunciar, por exemplo, bosque, o pandeiro deve ser brandido, a palavra lago corresponde ao som do chocalho e assim por diante.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: brandido
+        • Keyword: diferentes elementos
+        • Keyword: ser substituidos
+    - Ativações:
+        • score=0.2640, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: criar historia
+        • Keyword: pode criar
+    - Ativações:
+        • score=0.1890, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: historia pronunciar
+        • Keyword: ler historia
+    - Ativações:
+        • score=0.1606, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: historia simples
+        • Keyword: substituidos pela emissao
+    - Ativações:
+        • score=0.2019, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: corresponde som
+        • Keyword: som chocalho
+    - Ativações:
+        • score=0.1138, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: palavra lago corresponde
+    - Ativações:
+        • score=0.0707, tipo=Secondary
+
+[Fragmento] Progressivamente a historia pode ir ganhando maior complexidade e participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical. (Existem instrumentos musicais no comercio.)
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical
+        • Keyword: participacao integral
+    - Ativações:
+        • score=0.3449, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical
+        • Keyword: musicais comercio
+        • Keyword: oral pela musical
+    - Ativações:
+        • score=0.4027, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: instrumentos musicais no comercio
+        • Keyword: existem instrumentos musicais
+    - Ativações:
+        • score=0.2524, tipo=Secondary

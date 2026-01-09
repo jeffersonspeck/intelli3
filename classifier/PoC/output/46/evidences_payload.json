@@ -1,0 +1,88 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "improvisar pino",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7784452166891784,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ser encaixados",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7784452166891784,
+      "relevance": 0.7052238805970149
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes aneis furados",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7470000705315271,
+      "relevance": 0.835820895522388
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.66022379163663,
+      "relevance": 0.5746268656716418
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "formar piramide",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5803967855667594,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "crescente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5431328061280465,
+      "relevance": 0.5222222222222221
+    },
+    {
+      "role": "ContextObject",
+      "text": "aneis devem estar espalhados fora do pino",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9933333333333333
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "piramide multiforme",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5800335694018038,
+      "relevance": 0.7083333333333333
+    },
+    {
+      "role": "Keyword",
+      "text": "piramide aneis",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.572462351796393,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "Piramide de aneis / Piramide multiforme -- Coluna",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8472222222222222
+    }
+  ]
+}

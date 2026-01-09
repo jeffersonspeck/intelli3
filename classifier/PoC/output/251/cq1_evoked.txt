@@ -1,0 +1,31 @@
+[Documento] urn:doc:251
+  - miVector: 0.00,11.04,0.00,0.00,6.61,19.95,0.00,62.40
+  - TOP (documento): Naturalist (score=0.6240)
+  - Ranking (top 3):
+      • Naturalist: 0.6240
+      • Interpersonal: 0.1995
+      • Logical-Mathematical: 0.1104
+
+[Fragmento] Preparacao: O professor deve estimular os alunos a pensarem sobre as "casas" onde mo- ram os animais e, dessa maneira, definir uma serie para que os alunos "pesquisem" bibliograficamente, e sempre que possivel, na natureza as "casas" dos animais.
+  - Interpersonal (via activation, score=0.3529)
+  - Naturalist (via activation, score=0.6471)
+  - Interpessoal (via activation, score=0.3529)
+  - Naturalista (via activation, score=0.6471)
+  - Interpersonal (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: O professor estabelecera as regras da pesquisa e os alunos devem apresentar seus trabalhos com fotografias, recortes c desenhos. A casa das formigas, dos passa- ros, dos cupins e outros constituem interessante estimulo a descoberta da natureza. 201
+  - Bodily-Kinesthetic (via activation, score=0.1521)
+  - Logical-Mathematical (via activation, score=0.2540)
+  - Naturalist (via activation, score=0.5939)
+  - Cinestésico-corporal (via activation, score=0.1521)
+  - Lógico-matemática (via activation, score=0.2540)
+  - Naturalista (via activation, score=0.5939)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

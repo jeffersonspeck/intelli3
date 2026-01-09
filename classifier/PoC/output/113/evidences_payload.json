@@ -1,0 +1,110 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "cola varias figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5430790494802079,
+      "relevance": 0.8297872340425532
+    },
+    {
+      "role": "Keyword",
+      "text": "varias figuras obtidas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7519556069725956,
+      "relevance": 0.8191489361702128
+    },
+    {
+      "role": "Keyword",
+      "text": "obtidas revistas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7007865478303397,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmas figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5009619065092119,
+      "relevance": 0.6319148936170214
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "formar par",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7982267681972234,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "figura original",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7971922646697199,
+      "relevance": 0.6069767441860465
+    },
+    {
+      "role": "Keyword",
+      "text": "encontrar metade",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7937796013120264,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "melhor ajusta",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7937796013120264,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "intelicencia espacial",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7872318295963382,
+      "relevance": 0.5488372093023256
+    },
+    {
+      "role": "Keyword",
+      "text": "figura formar",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7691363593710301,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ajusta figura",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7691363593710301,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "encontrar a metade de sua figura e formar o par",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.9418604651162791
+    },
+    {
+      "role": "ContextObject",
+      "text": "sua figura",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8906976744186046
+    }
+  ]
+}

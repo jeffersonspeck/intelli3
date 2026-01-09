@@ -1,0 +1,122 @@
+[Documento] urn:doc:158
+  - miVector: 34.28,0.00,0.00,10.90,15.01,8.54,9.50,21.77
+  - TOP (documento): Linguistic (score=0.3428)
+  - Ranking (top 3):
+      • Linguistic: 0.3428
+      • Naturalist: 0.2177
+      • Bodily-Kinesthetic: 0.1501
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: duas metades de um coco unidas por um barbante
+        • Keyword: barbante instrumento
+        • Keyword: coco unidas
+        • Keyword: movimentos cinestesicos
+        • Keyword: movimentos corporais
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2091
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples.
+        • Keyword: associar som
+        • Keyword: instrumento simples
+        • Keyword: movimentos cinestesicos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1965
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: acompanham ritmo
+        • Keyword: correr
+        • Keyword: marchar
+        • Keyword: movimentos cinestesicos
+        • Keyword: ritmo caminhar
+        • Keyword: saltar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2185
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples.
+        • Keyword: descobrindo
+        • Keyword: identificando essa linguagem
+        • Keyword: improvisar
+        • Keyword: linguagem sonora
+        • Keyword: sentido
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5101
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples.
+        • Keyword: acompanham ritmo
+        • Keyword: associar som
+        • Keyword: instrumento simples
+        • Keyword: ritmo caminhar
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.2506
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: descobrindo
+        • Keyword: identificando essa linguagem
+        • Keyword: linguagem sonora
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3851
+
+
+[Documento — Fragmentos] urn:doc:158
+
+[Fragmento] Preparacao: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples. Utilizacao: Associar o som do instrumento a movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: duas metades de um coco unidas por um barbante
+        • Keyword: barbante instrumento
+        • Keyword: coco unidas
+        • Keyword: movimentos cinestesicos
+    - Ativações:
+        • score=0.2091, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples.
+        • Keyword: associar som
+        • Keyword: instrumento simples
+        • Keyword: movimentos cinestesicos
+    - Ativações:
+        • score=0.1965, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: acompanham ritmo
+        • Keyword: correr
+        • Keyword: marchar
+        • Keyword: movimentos cinestesicos
+        • Keyword: ritmo caminhar
+        • Keyword: saltar
+    - Ativações:
+        • score=0.2185, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples.
+        • Keyword: improvisar
+    - Ativações:
+        • score=0.1253, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples.
+        • Keyword: acompanham ritmo
+        • Keyword: associar som
+        • Keyword: instrumento simples
+        • Keyword: ritmo caminhar
+    - Ativações:
+        • score=0.2506, tipo=Primary
+
+[Fragmento] Progressiva- mente o aluno deve ir descobrindo todo o sentido de uma "linguagem sonora" e ir identificando essa linguagem a seus movimentos corporais. 146
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: movimentos corporais
+    - Ativações:
+        • score=0.1048, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: descobrindo
+        • Keyword: identificando essa linguagem
+        • Keyword: linguagem sonora
+        • Keyword: sentido
+    - Ativações:
+        • score=0.5101, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: descobrindo
+        • Keyword: identificando essa linguagem
+        • Keyword: linguagem sonora
+    - Ativações:
+        • score=0.3851, tipo=Secondary

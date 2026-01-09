@@ -1,0 +1,79 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "preparar cinco saquinhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7096953442943619,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "arroz feijao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.654714895803114,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "milho, arroz ou feijao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.6231884057971014
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "pegar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896538379619338,
+      "relevance": 0.8786008230452675
+    },
+    {
+      "role": "Keyword",
+      "text": "pegar pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7028959574474142,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pecas sequencia",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5076470803786881,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pegando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6800023482052283,
+      "relevance": 0.7386831275720165
+    },
+    {
+      "role": "Keyword",
+      "text": "pega",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6626398764909853,
+      "relevance": 0.8786008230452675
+    },
+    {
+      "role": "ContextObject",
+      "text": "pecas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8600823045267489
+    }
+  ],
+  "2": []
+}

@@ -1,0 +1,19 @@
+[Documento] urn:doc:47
+  - miVector: 0.00,35.59,0.00,0.00,33.14,0.00,24.94,6.33
+  - TOP (documento): Logical-Mathematical (score=0.3559)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3559
+      • Bodily-Kinesthetic: 0.3314
+      • Intrapersonal: 0.2494
+
+
+[Documento — Fragmentos] urn:doc:47
+
+[Fragmento] Preparacao: Improvisar latas vazias de diferentes tamanhos. Pintar essas latas com cores diferentes.
+  > TOP: Cinestésico-corporal (score=0.7503, tipo=Primary)
+
+[Fragmento] Caixas de fosforo vazias e cubos de madeira tambem podem ser utilizados Utilizacao: Os alunos devem empilhar e enfileirar as latas sem observar regras e, em etapas subsequentes, formar torres de tamanhos diversos, identificando as torres "altas" e as "baixas" em diferentes sequencias.
+  > TOP: Lógico-matemática (score=0.4476, tipo=Primary)
+
+[Fragmento] (Existe no mercado -- Cubos Coloridos -- Uki-Uki) 77
+  > TOP: Intrapessoal (score=0.6331, tipo=Primary)

@@ -1,0 +1,216 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "pintando tres",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7986160717235352,
+      "relevance": 0.7943396226415094
+    },
+    {
+      "role": "Keyword",
+      "text": "selecionar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7922541690719908,
+      "relevance": 0.9679245283018868
+    },
+    {
+      "role": "Keyword",
+      "text": "selecionar",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7922541690719908,
+      "relevance": 0.9679245283018868
+    },
+    {
+      "role": "Keyword",
+      "text": "selecionar tampa",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7922541690719908,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tampa caixa",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7922541690719908,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cor tres",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7768785095181129,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "simulando entrada",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7115956281017569,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pote",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7057005075492101,
+      "relevance": 0.8283018867924529
+    },
+    {
+      "role": "Keyword",
+      "text": "corte pote",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6177901742013006,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "papel aluminio amassado",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5764940611927124,
+      "relevance": 0.9378531073446328
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar bolinhas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7566034529206266,
+      "relevance": 1.0
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "impulsionar bolinha",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7937001226613928,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "bolinha toca",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7937001226613928,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "bolinha toca",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7937001226613928,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolvida equipe",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7861061755968094,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "equipe consiste",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7861061755968094,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "consiste tentativa",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7861061755968094,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "marca",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6989439624457838,
+      "relevance": 0.6090425531914894
+    },
+    {
+      "role": "Keyword",
+      "text": "passa vcz",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6680181757390767,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "conseguir",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6157339136572367,
+      "relevance": 0.6595744680851063
+    },
+    {
+      "role": "Keyword",
+      "text": "colega",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6157339136572367,
+      "relevance": 0.5186170212765957
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "impulsionar a bolinha na toca",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "impulsionar a bolinha na toca",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "impulsionar a bolinha na toca",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "bolinha",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.7127659574468085
+    },
+    {
+      "role": "ContextObject",
+      "text": "bolinha",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.7127659574468085
+    }
+  ]
+}

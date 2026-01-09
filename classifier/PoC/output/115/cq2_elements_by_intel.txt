@@ -1,0 +1,141 @@
+[Documento] urn:doc:115
+  - miVector: 7.41,4.03,14.01,0.00,46.19,0.00,0.00,28.36
+  - TOP (documento): Bodily-Kinesthetic (score=0.4619)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4619
+      • Naturalist: 0.2836
+      • Spatial: 0.1401
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: jogos de montar cidades e sitios em miniatura
+        • DiscursiveStrategy: montar cidades e sitios em miniatura
+        • DiscursiveStrategy: produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares
+        • Keyword: arames revestidos
+        • Keyword: jogos montar
+        • Keyword: lacos
+        • Keyword: montar cidades
+        • Keyword: oculos
+        • Keyword: preparar arames
+        • Keyword: produzir
+        • Keyword: reproduzir linhas
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7280
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares
+        • Keyword: colares
+        • Keyword: cores tamanhos
+        • Keyword: flores
+        • Keyword: geometricas variadas
+        • Keyword: linhas desenhos
+        • Keyword: produzir formas geometricas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3801
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: letras numeros
+        • Keyword: preparar arames
+        • Keyword: produzir
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1327
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: relaciona las contando historias
+        • Keyword: tamanhos variaveis
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.0914
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares
+        • Keyword: amplia estudo
+        • Keyword: arames varias
+        • Keyword: caixa contendo arames
+        • Keyword: estudo posicoes
+        • Keyword: flores
+        • Keyword: plasticos coloridos
+        • Keyword: varias cores
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4578
+
+
+[Documento — Fragmentos] urn:doc:115
+
+[Fragmento] Preparacao: Preparar com arames revestidos de plasticos coloridos (usados como cabos eletricos) uma caixa contendo arames de varias cores em tamanhos variaveis de 10 a 30 cm.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: arames revestidos
+        • Keyword: preparar arames
+    - Ativações:
+        • score=0.2568, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: cores tamanhos
+    - Ativações:
+        • score=0.0823, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: preparar arames
+    - Ativações:
+        • score=0.1118, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: tamanhos variaveis
+    - Ativações:
+        • score=0.0914, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: arames varias
+        • Keyword: caixa contendo arames
+        • Keyword: plasticos coloridos
+        • Keyword: varias cores
+    - Ativações:
+        • score=0.4578, tipo=Primary
+
+[Fragmento] Utilizacao: O aluno deve ser estimulado pelo professor a produzir formas geometri- cas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares e uma serie de outras pecas. Deve, em etapas posteriores, relaciona-las contando historias que as envolvam.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares
+        • Keyword: lacos
+        • Keyword: oculos
+        • Keyword: produzir
+        • Keyword: reproduzir linhas
+    - Ativações:
+        • score=0.3212, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • DiscursiveStrategy: produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares
+        • Keyword: colares
+        • Keyword: flores
+        • Keyword: geometricas variadas
+        • Keyword: linhas desenhos
+        • Keyword: produzir formas geometricas
+    - Ativações:
+        • score=0.3801, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: letras numeros
+        • Keyword: produzir
+    - Ativações:
+        • score=0.1327, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: relaciona las contando historias
+    - Ativações:
+        • score=0.0416, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares
+        • Keyword: flores
+    - Ativações:
+        • score=0.1245, tipo=Secondary
+
+[Fragmento] (Existem diversos jogos de montar cidades e sitios em miniatura. Uma rosa dos ventos amplia o estudo das posicoes e de suas referencias.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: jogos de montar cidades e sitios em miniatura
+        • DiscursiveStrategy: montar cidades e sitios em miniatura
+        • Keyword: jogos montar
+        • Keyword: montar cidades
+    - Ativações:
+        • score=0.7280, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: amplia estudo
+        • Keyword: estudo posicoes
+    - Ativações:
+        • score=0.2720, tipo=Secondary

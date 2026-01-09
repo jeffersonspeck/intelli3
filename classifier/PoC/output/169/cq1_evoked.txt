@@ -1,0 +1,43 @@
+[Documento] urn:doc:169
+  - miVector: 0.00,10.91,0.00,19.45,44.22,9.39,0.00,16.02
+  - TOP (documento): Bodily-Kinesthetic (score=0.4422)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4422
+      • Musical: 0.1945
+      • Naturalist: 0.1602
+
+[Fragmento] Preparacao: Construir com cubos de madeira de pouco mais de 20cm de altura e com cordas que funcionem como alcas, uma especie de tamanco. Utilizacao: O aluno devera andar sobre as pecas, segurando as cordas.
+  - Bodily-Kinesthetic (via activation, score=0.4690)
+  - Interpersonal (via activation, score=0.1662)
+  - Logical-Mathematical (via activation, score=0.1931)
+  - Musical (via activation, score=0.0726)
+  - Naturalist (via activation, score=0.0991)
+  - Cinestésico-corporal (via activation, score=0.4690)
+  - Interpessoal (via activation, score=0.1662)
+  - Lógico-matemática (via activation, score=0.1931)
+  - Musical (via activation, score=0.0726)
+  - Naturalista (via activation, score=0.0991)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] Apos o domi- nio de uma primeira fase de equilibrio, fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de per- cussao, andar apenas de lado ou andar de costas. (Existe no comercio -- Toc-Toc [Q. 1.].)
+  - Bodily-Kinesthetic (via activation, score=0.4074)
+  - Musical (via activation, score=0.3529)
+  - Naturalist (via activation, score=0.2397)
+  - Cinestésico-corporal (via activation, score=0.4074)
+  - Musical (via activation, score=0.3529)
+  - Naturalista (via activation, score=0.2397)
+  - Bodily-Kinesthetic (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Musical (via element)
+  - Naturalista (via element)

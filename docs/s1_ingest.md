@@ -4,7 +4,7 @@
 The S1 stage is responsible for ingesting raw input texts from the `source/` directory and converting them into a structured JSON representation.
 
 ## What it does
-- Reads `.txt` files
+- Reads files
 - Cleans text using configurable cleaners
 - Segments text into paragraphs/fragments
 - Detects language (LID)
@@ -12,7 +12,7 @@ The S1 stage is responsible for ingesting raw input texts from the `source/` dir
 - Assigns a stable fragment index `k`
 
 ## Inputs
-- Raw `.txt` file
+- Raw file
 - Parameters passed via `run_batch.py` (cleaners, LID, segmentation rules)
 
 ## Outputs

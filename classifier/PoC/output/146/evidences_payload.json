@@ -1,0 +1,280 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "reunir copinhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7977302536255774,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "chocalhos feijao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "fita colante",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.768
+    },
+    {
+      "role": "Keyword",
+      "text": "grampeador fita",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "batidas quantas forem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8076084478780626,
+      "relevance": 0.6004273504273504
+    },
+    {
+      "role": "Keyword",
+      "text": "palavras pronunciadas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7994652121852579,
+      "relevance": 0.9038461538461539
+    },
+    {
+      "role": "Keyword",
+      "text": "palavras pronunciadas",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7994652121852579,
+      "relevance": 0.9038461538461539
+    },
+    {
+      "role": "Keyword",
+      "text": "estabelecer associacoes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7991475858078361,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "chocalho pelos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7991475858078361,
+      "relevance": 0.7905982905982906
+    },
+    {
+      "role": "Keyword",
+      "text": "acompanhando ritmo",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7991475858078361,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmo numero",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7939036411187111,
+      "relevance": 0.6346153846153846
+    },
+    {
+      "role": "Keyword",
+      "text": "balancar chocalho",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7939036411187111,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "numero batidas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7939036411187111,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pronunciadas pelo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5567733023864707,
+      "relevance": 0.8846153846153846
+    },
+    {
+      "role": "Keyword",
+      "text": "silabas palavras",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7488468558464595,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ritmo palavra",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7488468558464595,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "forem palavras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7488468558464595,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "balancar do chocalho pelos alunos, acompanhando o ritmo da palavra",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8162393162393162
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "balancar do chocalho pelos alunos, acompanhando o ritmo da palavra",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.8162393162393162
+    },
+    {
+      "role": "ContextObject",
+      "text": "chocalho",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.7905982905982906
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "aumentando numero",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7981409459593015,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "numero silabas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7936639878285422,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "numero silabas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7936639878285422,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "silabas palavras",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7936639878285422,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7936639878285422,
+      "relevance": 0.8386454183266933
+    },
+    {
+      "role": "Keyword",
+      "text": "chocalho ritmicamente",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7608804772597791,
+      "relevance": 0.5438247011952191
+    },
+    {
+      "role": "Keyword",
+      "text": "chocalho ritmicamente",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7608804772597791,
+      "relevance": 0.5438247011952191
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentem chocalho",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7471569905120172,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "sorteando figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5373797309925706,
+      "relevance": 0.6872509960159363
+    },
+    {
+      "role": "Keyword",
+      "text": "pronuncia las",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7256424741717628,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colegas movimentem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7020738537293278,
+      "relevance": 0.5856573705179282
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Ir, progressivamente, aumentando o numero de silabas das palavras e estimular os movimentos com o chocalho.",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Ir, progressivamente, aumentando o numero de silabas das palavras e estimular os movimentos com o chocalho.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "chocalho",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.8047808764940239
+    }
+  ]
+}

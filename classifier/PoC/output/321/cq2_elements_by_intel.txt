@@ -1,0 +1,147 @@
+[Documento] urn:doc:321
+  - miVector: 1.28,4.54,10.71,0.00,14.88,50.37,9.04,9.18
+  - TOP (documento): Interpersonal (score=0.5037)
+  - Ranking (top 3):
+      • Interpersonal: 0.5037
+      • Bodily-Kinesthetic: 0.1488
+      • Spatial: 0.1071
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: cola las cartolina
+        • Keyword: corpo
+        • Keyword: cortar cabecas
+        • Keyword: diferentes expressoes
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4637
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: buscar compor pessoas
+        • Keyword: figuras humanas
+        • Keyword: quantidade figuras
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3923
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras)
+        • Keyword: buscar compor pessoas
+        • Keyword: criar situacoes
+        • Keyword: envolvam emocoes diferenciadas
+        • Keyword: euforia
+        • Keyword: explora
+        • Keyword: frustracao
+        • Keyword: identificacao
+        • Keyword: legitimacao emocoes
+        • Keyword: raiva
+        • Keyword: situacoes envolvam
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=1.0000
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: auto heteroconhecimento
+        • Keyword: profundamente auto
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3888
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: expressoes correspondentes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0551
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: formando conjunto
+        • Keyword: uniao cabecas
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1440
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: colecao incluir pessoas diferentes e diferentes expressoes
+        • ContextObject: emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras)
+        • Keyword: alegria
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2291
+
+
+[Documento — Fragmentos] urn:doc:321
+
+[Fragmento] Preparacao: Reunir uma grande quantidade de figuras humanas, mais ou menos do mesmo tamanho, de revistas, e cola-las em cartolina. Cortar as cabecas forman- do um conjunto a parte.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: cola las cartolina
+        • Keyword: cortar cabecas
+    - Ativações:
+        • score=0.4637, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: figuras humanas
+        • Keyword: quantidade figuras
+    - Ativações:
+        • score=0.3923, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: formando conjunto
+    - Ativações:
+        • score=0.1440, tipo=Secondary
+
+[Fragmento] A atividade explora muito mais profundamente o auto e heteroconhecimento quando a colecao incluir pessoas diferentes e diferentes expressoes. Pecas desenhadas cumprem muito bem esses objetivos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: diferentes expressoes
+    - Ativações:
+        • score=0.1309, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: explora
+    - Ativações:
+        • score=0.2511, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: auto heteroconhecimento
+        • Keyword: profundamente auto
+    - Ativações:
+        • score=0.3888, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: colecao incluir pessoas diferentes e diferentes expressoes
+    - Ativações:
+        • score=0.2291, tipo=Secondary
+
+[Fragmento] Utilizacao: Os alunos devem ser estimulados a criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras) e buscar compor pessoas a partir da uniao das cabecas com as expressoes correspondentes ao seu corpo.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: corpo
+    - Ativações:
+        • score=0.0453, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: buscar compor pessoas
+    - Ativações:
+        • score=0.0681, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras)
+        • Keyword: buscar compor pessoas
+        • Keyword: criar situacoes
+        • Keyword: envolvam emocoes diferenciadas
+        • Keyword: euforia
+        • Keyword: frustracao
+        • Keyword: raiva
+        • Keyword: situacoes envolvam
+    - Ativações:
+        • score=0.6148, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: expressoes correspondentes
+    - Ativações:
+        • score=0.0551, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: uniao cabecas
+    - Ativações:
+        • score=0.0512, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras)
+        • Keyword: alegria
+    - Ativações:
+        • score=0.1655, tipo=Secondary
+
+[Fragmento] A atividade visa estimular a identificacao e a legitimacao das emocoes.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: identificacao
+        • Keyword: legitimacao emocoes
+    - Ativações:
+        • score=1.0000, tipo=Primary

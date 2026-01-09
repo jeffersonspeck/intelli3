@@ -1,0 +1,145 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:260#evid-000-00-olhos-vendados-possam> a onto:Keyword ;
+    rdfs:label "olhos vendados possam"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:260#evid-000-01-vendados-possam-circular> a onto:Keyword ;
+    rdfs:label "vendados possam circular"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:260#evid-000-02-sala-ampla> a onto:Keyword ;
+    rdfs:label "sala ampla"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:260#evid-000-03-circular-seguranca> a onto:Keyword ;
+    rdfs:label "circular seguranca"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:260#evid-000-04-presas> a onto:Keyword ;
+    rdfs:label "presas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:260#evid-000-05-sala-ampla> a onto:ContextObject ;
+    rdfs:label "sala ampla"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:260#evid-001-00-odor-caracteristico> a onto:Keyword ;
+    rdfs:label "odor caracteristico"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:260#evid-001-01-jogo-iniciar> a onto:Keyword ;
+    rdfs:label "jogo iniciar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:260#evid-001-02-olfato-identificado> a onto:Keyword ;
+    rdfs:label "olfato identificado"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:260#evid-001-03-produto-odor> a onto:Keyword ;
+    rdfs:label "produto odor"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:260#evid-001-04-presa> a onto:Keyword ;
+    rdfs:label "presa"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:260#evid-001-05-simbolizar> a onto:Keyword ;
+    rdfs:label "simbolizar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:260#evid-002-00-olhos-vendados> a onto:Keyword ;
+    rdfs:label "olhos vendados"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:260#evid-002-01-atraves-paladar> a onto:Keyword ;
+    rdfs:label "atraves paladar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:260#evid-002-02-apos-identificar> a onto:Keyword ;
+    rdfs:label "apos identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:260#evid-002-03-identificar-presa> a onto:Keyword ;
+    rdfs:label "identificar presa"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:260#evid-002-04-identificar-presa> a onto:Keyword ;
+    rdfs:label "identificar presa"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:260#evid-002-05-identificar-sua-presa-atraves-do> a onto:DiscursiveStrategy ;
+    rdfs:label "identificar sua presa atraves do paladar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:260#evid-002-06-identificar-sua-presa-atraves-do> a onto:DiscursiveStrategy ;
+    rdfs:label "identificar sua presa atraves do paladar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:260#evid-003-00-pequena-proporcao> a onto:Keyword ;
+    rdfs:label "pequena proporcao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:260#evid-003-01-proporcao-podem-constituir> a onto:Keyword ;
+    rdfs:label "proporcao podem constituir"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:260#evid-003-02-refrigerantes-ou-sodas-balas-e-c> a onto:ContextObject ;
+    rdfs:label "refrigerantes ou sodas, balas e condimentos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:260#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: As mesmas condicoes do jogo anterior ou uma sala ampla onde os alunos com olhos vendados possam circular com seguranca. Utilizacao: Os alunos devem circular pela sala com os olhos vendados e descobrir suas \"presas\" pelo olfato."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:260> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:260#evid-000-00-olhos-vendados-possam>,
+        <urn:doc:260#evid-000-01-vendados-possam-circular>,
+        <urn:doc:260#evid-000-02-sala-ampla>,
+        <urn:doc:260#evid-000-03-circular-seguranca>,
+        <urn:doc:260#evid-000-04-presas>,
+        <urn:doc:260#evid-000-05-sala-ampla> .
+
+<urn:doc:260#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Um algodao embebido de alcool, perfume, essencia, desodo- rante ou outro produto de odor caracteristico, acondicionado em um copo plastico, pode simbolizar a \"presa\" que, antes do jogo iniciar, teve esse olfato identificado por todos os alunos."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:260> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:260#evid-001-00-odor-caracteristico>,
+        <urn:doc:260#evid-001-01-jogo-iniciar>,
+        <urn:doc:260#evid-001-02-olfato-identificado>,
+        <urn:doc:260#evid-001-03-produto-odor>,
+        <urn:doc:260#evid-001-04-presa>,
+        <urn:doc:260#evid-001-05-simbolizar> .
+
+<urn:doc:260#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Atividades analogas podem ser feitas tendo os alunos, com os olhos vendados, que identificar sua presa atraves do paladar, apos identificar um e depois descobri-lo entre muitos outros."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:260> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:260#evid-002-00-olhos-vendados>,
+        <urn:doc:260#evid-002-01-atraves-paladar>,
+        <urn:doc:260#evid-002-02-apos-identificar>,
+        <urn:doc:260#evid-002-03-identificar-presa>,
+        <urn:doc:260#evid-002-04-identificar-presa>,
+        <urn:doc:260#evid-002-05-identificar-sua-presa-atraves-do>,
+        <urn:doc:260#evid-002-06-identificar-sua-presa-atraves-do> .
+
+<urn:doc:260#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "A mistura de refrigerantes ou sodas, balas e condimentos em pequena proporcao podem constituir-se nos elementos materiais"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:260> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:260#evid-003-00-pequena-proporcao>,
+        <urn:doc:260#evid-003-01-proporcao-podem-constituir>,
+        <urn:doc:260#evid-003-02-refrigerantes-ou-sodas-balas-e-c> .
+
+<urn:doc:260> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:260#frag-000>,
+        <urn:doc:260#frag-001>,
+        <urn:doc:260#frag-002>,
+        <urn:doc:260#frag-003> .
+

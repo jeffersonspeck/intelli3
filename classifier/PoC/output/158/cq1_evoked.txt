@@ -1,0 +1,43 @@
+[Documento] urn:doc:158
+  - miVector: 34.28,0.00,0.00,10.90,15.01,8.54,9.50,21.77
+  - TOP (documento): Linguistic (score=0.3428)
+  - Ranking (top 3):
+      • Linguistic: 0.3428
+      • Naturalist: 0.2177
+      • Bodily-Kinesthetic: 0.1501
+
+[Fragmento] Preparacao: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples. Utilizacao: Associar o som do instrumento a movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos.
+  - Bodily-Kinesthetic (via activation, score=0.2091)
+  - Interpersonal (via activation, score=0.1965)
+  - Intrapersonal (via activation, score=0.2185)
+  - Linguistic (via activation, score=0.1253)
+  - Musical (via activation, score=0.2506)
+  - Cinestésico-corporal (via activation, score=0.2091)
+  - Interpessoal (via activation, score=0.1965)
+  - Intrapessoal (via activation, score=0.2185)
+  - Linguística (via activation, score=0.1253)
+  - Musical (via activation, score=0.2506)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)
+  - Musical (via element)
+
+[Fragmento] Progressiva- mente o aluno deve ir descobrindo todo o sentido de uma "linguagem sonora" e ir identificando essa linguagem a seus movimentos corporais. 146
+  - Bodily-Kinesthetic (via activation, score=0.1048)
+  - Linguistic (via activation, score=0.5101)
+  - Naturalist (via activation, score=0.3851)
+  - Cinestésico-corporal (via activation, score=0.1048)
+  - Linguística (via activation, score=0.5101)
+  - Naturalista (via activation, score=0.3851)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Naturalista (via element)

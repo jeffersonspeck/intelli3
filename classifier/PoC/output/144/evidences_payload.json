@@ -1,0 +1,176 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "filmes fotografia",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.723164073523999,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "embalagens",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7075988404970162,
+      "relevance": 0.9733009708737864
+    },
+    {
+      "role": "Keyword",
+      "text": "materiais diferentes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6479324472496668,
+      "relevance": 0.6893203883495146
+    },
+    {
+      "role": "Keyword",
+      "text": "embalagens filmes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6389628987428019,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "formar, duas a duas, embalagens de filme com materiais diferentes. Colar uma letra ou um numero em cada uma das embalagens.",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.7985436893203883
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "descobrir",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7813338458314807,
+      "relevance": 0.8991228070175439
+    },
+    {
+      "role": "Keyword",
+      "text": "recurso auditivo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7813338458314807,
+      "relevance": 0.7741228070175439
+    },
+    {
+      "role": "Keyword",
+      "text": "recurso auditivo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7813338458314807,
+      "relevance": 0.7741228070175439
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir conteudos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7643320029800909,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "uso recurso",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7643320029800909,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "misturar varias embalagens",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7004093977091634,
+      "relevance": 0.7346491228070176
+    },
+    {
+      "role": "Keyword",
+      "text": "conteudos embalagens",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6545473473533682,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "conteudos embalagens",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6545473473533682,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "som produzido",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.47003838087281047,
+      "relevance": 0.5307017543859649
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente identificar o som produzido.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.8991228070175439
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente identificar o som produzido.",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8991228070175439
+    },
+    {
+      "role": "ContextObject",
+      "text": "embalagens",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8399122807017544
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "mesmo som",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5587852942082873,
+      "relevance": 0.8946280991735537
+    },
+    {
+      "role": "Keyword",
+      "text": "procure",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6929768475731178,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "uso instrumento",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.450326516965694,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Procure depois em outra embalagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ]
+}

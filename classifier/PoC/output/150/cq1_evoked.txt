@@ -1,0 +1,35 @@
+[Documento] urn:doc:150
+  - miVector: 13.89,19.74,4.40,29.59,4.58,0.00,0.00,27.80
+  - TOP (documento): Musical (score=0.2959)
+  - Ranking (top 3):
+      • Musical: 0.2959
+      • Naturalist: 0.2780
+      • Logical-Mathematical: 0.1974
+
+[Fragmento] Preparacao: Recortar de revistas figuras cujos nomes tenham a mesma terminacao e outras cujos nomes apresentam a mesma silaba inicial (Exemplos: Gato, Rato, Mato, Sapato, ou Bolacha, Bola, Botao, Boliche, ctc.). Incluir outras gravuras que iniciem e terminem com outros fonemas.
+  - Bodily-Kinesthetic (via activation, score=0.0810)
+  - Logical-Mathematical (via activation, score=0.3493)
+  - Naturalist (via activation, score=0.4919)
+  - Spatial (via activation, score=0.0778)
+  - Cinestésico-corporal (via activation, score=0.0810)
+  - Espacial-visual (via activation, score=0.0778)
+  - Lógico-matemática (via activation, score=0.3493)
+  - Naturalista (via activation, score=0.4919)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Existe uma enorme multiplicidade para o uso do jogo. Os alunos podem, por exemplo, reunir palavras com o mesmo fonema inicial, agrupar outros com a mesma terminacao. O professor pode ir retirando as gravuras de uma caixa e solicitando dos alunos a identificacao do fonema.
+  - Linguistic (via activation, score=0.3195)
+  - Musical (via activation, score=0.6805)
+  - Linguística (via activation, score=0.3195)
+  - Musical (via activation, score=0.6805)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Linguística (via element)
+  - Musical (via element)

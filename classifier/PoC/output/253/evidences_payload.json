@@ -1,0 +1,168 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "oferecer excelente oportunidade",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8071991370682046,
+      "relevance": 0.8792270531400966
+    },
+    {
+      "role": "Keyword",
+      "text": "pesquisas descobertas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "escola pode oferecer",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.9082125603864735
+    },
+    {
+      "role": "Keyword",
+      "text": "oportunidade pesquisas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "oportunidade pesquisas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar margens",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7247991038469423,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar margens",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7247991038469423,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "barquinhas de papel",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.7294685990338164
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "solo permite explorar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7995797005372329,
+      "relevance": 0.9732510288065843
+    },
+    {
+      "role": "Keyword",
+      "text": "umidade solo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7690836079515537,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "margens",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7103950764579914,
+      "relevance": 0.742798353909465
+    },
+    {
+      "role": "Keyword",
+      "text": "vida aguas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6659703127359528,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "umidade do solo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9958847736625515
+    },
+    {
+      "role": "ContextObject",
+      "text": "marcas no terreno",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.7181069958847737
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "riacho permitir",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7045971865975003,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "permitir construcao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7045971865975003,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "construcao conceitos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7045971865975003,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "construcao conceitos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7045971865975003,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "montante, jusante, planicie, nascente, foz, afluente",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.78515625
+    },
+    {
+      "role": "ContextObject",
+      "text": "montante, jusante, planicie, nascente, foz, afluente",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.78515625
+    }
+  ]
+}

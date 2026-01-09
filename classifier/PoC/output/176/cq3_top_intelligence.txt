@@ -1,0 +1,16 @@
+[Documento] urn:doc:176
+  - miVector: 0.00,38.26,0.00,0.00,52.35,0.00,0.00,9.39
+  - TOP (documento): Bodily-Kinesthetic (score=0.5235)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5235
+      • Logical-Mathematical: 0.3826
+      • Naturalist: 0.0939
+
+
+[Documento — Fragmentos] urn:doc:176
+
+[Fragmento] Preparacao: Preparar cinco saquinhos de pano nao transparente e deixar um dos lados aberto. Encher os saquinhos com milho, arroz ou feijao e fechar...
+  > TOP: Lógico-matemática (score=0.5914, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos, divididos em grupo ou integrando equipes, devem pegar as pecas na sequencia de um a cinco, atirando uma para cima e pegando as da mesa. Na primeira jogada, o aluno pega uma, na segunda pega duas pecas de cada vez e assim por diante.
+  > TOP: Cinestésico-corporal (score=0.6729, tipo=Primary)

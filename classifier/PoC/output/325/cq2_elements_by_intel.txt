@@ -1,0 +1,154 @@
+[Documento] urn:doc:325
+  - miVector: 11.39,35.12,0.00,0.00,13.76,22.02,15.73,1.97
+  - TOP (documento): Logical-Mathematical (score=0.3512)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3512
+      • Interpersonal: 0.2202
+      • Intrapersonal: 0.1573
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: escrever essas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano.
+        • Keyword: andar cavalo
+        • Keyword: envolvam manifestacoes corporais
+        • Keyword: levando
+        • Keyword: papel reunir
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3802
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: alegria
+        • Keyword: circulo debates
+        • Keyword: comunicacao interpessoal
+        • Keyword: entusiasmo
+        • Keyword: progressivamente sendo propostas
+        • Keyword: situacoes emocionais diversas
+        • Keyword: tambem situacoes emocionais
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4157
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: circulo de debates
+        • Keyword: raiva
+        • Keyword: situacoes emocionais diversas
+        • Keyword: tambem situacoes emocionais
+        • Keyword: tristeza
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3491
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: comunicacao
+        • Keyword: objetivo comunicacao
+        • Keyword: progressivamente sendo propostas
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3221
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: escrever essas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano.
+        • DiscursiveStrategy: Organizar um conjunto de mensagens
+        • Keyword: conjunto mensagens
+        • Keyword: escrever essas mensagens
+        • Keyword: importancia auto
+        • Keyword: organizar conjunto
+        • Keyword: principal objetivo
+        • Keyword: serem transmitidas
+        • Keyword: sortear
+        • Keyword: sortear mensagem
+    - Ativações (doc): n=4, primárias=2, secundárias=2, max=0.5349
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: descoberta
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0849
+
+
+[Documento — Fragmentos] urn:doc:325
+
+[Fragmento] Preparacao: Organizar um conjunto de mensagens para serem transmitidas pelos alunos, que envolvam manifestacoes corporais (por exemplo: andar a cavalo), mas tambem situacoes emocionais diversas (raiva, alegria, entusiasmo, tristeza, etc.).
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: andar cavalo
+        • Keyword: envolvam manifestacoes corporais
+    - Ativações:
+        • score=0.1627, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: alegria
+        • Keyword: entusiasmo
+        • Keyword: situacoes emocionais diversas
+        • Keyword: tambem situacoes emocionais
+    - Ativações:
+        • score=0.2529, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: raiva
+        • Keyword: situacoes emocionais diversas
+        • Keyword: tambem situacoes emocionais
+        • Keyword: tristeza
+    - Ativações:
+        • score=0.2518, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: Organizar um conjunto de mensagens
+        • Keyword: conjunto mensagens
+        • Keyword: organizar conjunto
+        • Keyword: serem transmitidas
+    - Ativações:
+        • score=0.3326, tipo=Primary
+
+[Fragmento] Escrever es- sas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano. Utilizacao: A tarefa dos alunos ao sortear sua mensagem e transmiti-la aos demais, levan- do-os a possivel descoberta, sem o uso da palavra.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: escrever essas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano.
+        • Keyword: levando
+        • Keyword: papel reunir
+    - Ativações:
+        • score=0.3802, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: escrever essas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano.
+        • Keyword: escrever essas mensagens
+        • Keyword: sortear
+        • Keyword: sortear mensagem
+    - Ativações:
+        • score=0.5349, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: descoberta
+    - Ativações:
+        • score=0.0849, tipo=Secondary
+
+[Fragmento] A atividade tem como principal objetivo a comunicacao interpessoal e, depois de uma primeira experiencia, outras mais complexas podem ir progressivamente sendo propostas.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: comunicacao interpessoal
+        • Keyword: progressivamente sendo propostas
+    - Ativações:
+        • score=0.4157, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: objetivo comunicacao
+        • Keyword: progressivamente sendo propostas
+    - Ativações:
+        • score=0.3221, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: principal objetivo
+    - Ativações:
+        • score=0.2622, tipo=Secondary
+
+[Fragmento] E interessante encer- rar a atividade com um circulo de debates com os alunos sobre as muitas formas de comunicacao e sua importancia no auto e heteroconhecimento.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: circulo debates
+    - Ativações:
+        • score=0.2026, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: circulo de debates
+    - Ativações:
+        • score=0.3491, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: comunicacao
+    - Ativações:
+        • score=0.1677, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: importancia auto
+    - Ativações:
+        • score=0.2806, tipo=Secondary

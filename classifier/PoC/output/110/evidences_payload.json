@@ -1,0 +1,234 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "ajuda",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7869878066825043,
+      "relevance": 0.9654377880184332
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7265600574840179,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "soldados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.524737819294013,
+      "relevance": 0.8133640552995391
+    },
+    {
+      "role": "Keyword",
+      "text": "massa modelar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5099190474939982,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "massa modelar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5099190474939982,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "semelhantes reais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7060417580686129,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "usar tampinhas coloridas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8071991370682046,
+      "relevance": 0.9651162790697675
+    },
+    {
+      "role": "Keyword",
+      "text": "imaginario",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.7441860465116279
+    },
+    {
+      "role": "Keyword",
+      "text": "assumir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.8042635658914729
+    },
+    {
+      "role": "Keyword",
+      "text": "assumir funcoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ventos desenhada",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.69493671159956,
+      "relevance": 0.6782945736434108
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "usar tampinhas coloridas de pasta de dente, conchinhas ou outros objetos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9651162790697675
+    },
+    {
+      "role": "ContextObject",
+      "text": "uma rosa dos ventos desenhada em cartolina e uma bussola",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.7034883720930232
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "classifica las fila",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8051789563254824,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "arrumar pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pecas direita",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7261115462556125,
+      "relevance": 0.7285067873303168
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "armar o exercito livremente e, depois, segundo orientacao do professor, arrumar as pecas a direita ou a esquerda de um ponto de referencia, classifica-las em fila, uma alternada a outra e assim por diante.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.9638009049773756
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "mesmos aferidos devidamente",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8058253942750692,
+      "relevance": 0.7878787878787878
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo permite explorar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.801664410333647,
+      "relevance": 0.928030303030303
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo permite explorar",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.801664410333647,
+      "relevance": 0.928030303030303
+    },
+    {
+      "role": "Keyword",
+      "text": "acrescentar rosa",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7943207966169838,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "rosa ventos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7869878066825043,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "explorar conceitos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7869878066825043,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "existem diferentes modalidades",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.777538656806776,
+      "relevance": 0.7007575757575757
+    },
+    {
+      "role": "Keyword",
+      "text": "cardeais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7265600574840179,
+      "relevance": 0.8428030303030303
+    },
+    {
+      "role": "Keyword",
+      "text": "bussola",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7265600574840179,
+      "relevance": 0.7196969696969697
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "acrescentar-se uma rosa dos ventos ao jogo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ]
+}

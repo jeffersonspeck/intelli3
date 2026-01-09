@@ -1,0 +1,176 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "antecipadamente planejadas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8032769369467663,
+      "relevance": 0.8387850467289719
+    },
+    {
+      "role": "Keyword",
+      "text": "executarem antecipadamente",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7989294363130632,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "verdadeira gincana",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6011557536441856,
+      "relevance": 0.7009345794392523
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "executarem tarefas antecipadamente planejadas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.883177570093458
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "executarem tarefas antecipadamente planejadas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.883177570093458
+    },
+    {
+      "role": "ContextObject",
+      "text": "gincana de atividades",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.6752336448598131
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "saltara cercas inexistentes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8094306562220954,
+      "relevance": 0.8783269961977186
+    },
+    {
+      "role": "Keyword",
+      "text": "procurara tesouros ocultos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8094306562220954,
+      "relevance": 0.7680608365019012
+    },
+    {
+      "role": "Keyword",
+      "text": "percorrera interessante caminho",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5840647829275645,
+      "relevance": 0.6996197718631179
+    },
+    {
+      "role": "Keyword",
+      "text": "interessante caminho estimulando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8087050840535508,
+      "relevance": 0.6787072243346007
+    },
+    {
+      "role": "Keyword",
+      "text": "rios imaginarios",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.8022813688212928
+    },
+    {
+      "role": "Keyword",
+      "text": "remara rios",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "remara rios",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "naturalista",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.5437262357414449
+    },
+    {
+      "role": "Keyword",
+      "text": "imaginacao naturalista",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.564638783269962
+    },
+    {
+      "role": "Keyword",
+      "text": "estimulando motricidade",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "motricidade soltando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "jogo depende",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.9380952380952381
+    },
+    {
+      "role": "Keyword",
+      "text": "sucesso jogo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "depende capacidade",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "aventuras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7648729717220949,
+      "relevance": 0.5714285714285714
+    }
+  ]
+}

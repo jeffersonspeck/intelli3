@@ -1,0 +1,16 @@
+[Documento] urn:doc:178
+  - miVector: 6.17,9.53,1.27,0.00,50.27,32.77,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5027)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5027
+      • Interpersonal: 0.3277
+      • Logical-Mathematical: 0.0953
+
+
+[Documento — Fragmentos] urn:doc:178
+
+[Fragmento] Preparacao: Bolas de borracha de cinco a seis tamanhos diferentes. Utilizacao: O aluno deve aprender a obedecer regras e perceber claramente os limites, mas deve ser estimulado a usar as bolas arremessando-as a outros, contra paredes, aparar bolas arremessadas por outros, aparar bola usando uma das maos, a direita ou a esquerda.
+  > TOP: Cinestésico-corporal (score=0.3969, tipo=Primary)
+
+[Fragmento] Em etapas seguintes, apos explorar todas as tentativas manuais, treinar a lateralidade com o uso dos pes.
+  > TOP: Cinestésico-corporal (score=0.5840, tipo=Primary)

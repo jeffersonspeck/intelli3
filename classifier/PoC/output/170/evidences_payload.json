@@ -1,0 +1,110 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "corda pular",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5762979382339702,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pular terminais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5721290866958029,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "adquirida lojas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "lojas brinquedo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "comprimento ideal",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5234660194450139,
+      "relevance": 0.6073619631901841
+    },
+    {
+      "role": "ContextObject",
+      "text": "Corda para pular com terminais de madeira",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "executar diferentes movimentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8028382729231914,
+      "relevance": 0.8178807947019868
+    },
+    {
+      "role": "Keyword",
+      "text": "progressivamente executar diferentes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7982225462668325,
+      "relevance": 0.8741721854304636
+    },
+    {
+      "role": "Keyword",
+      "text": "saltitando ora",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7827891253773226,
+      "relevance": 0.7119205298013245
+    },
+    {
+      "role": "Keyword",
+      "text": "pular corda",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7658665585355456,
+      "relevance": 0.9205298013245033
+    },
+    {
+      "role": "Keyword",
+      "text": "aprender",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7658665585355456,
+      "relevance": 0.956953642384106
+    },
+    {
+      "role": "Keyword",
+      "text": "aprender pular",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5531258478312274,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "aprender a pular corda e progressivamente executar diferentes movimentos, saltitando ora com um pe, ora com o outro",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.956953642384106
+    }
+  ]
+}

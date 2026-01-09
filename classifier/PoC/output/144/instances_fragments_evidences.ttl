@@ -1,0 +1,133 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:144#evid-000-00-filmes-fotografia> a onto:Keyword ;
+    rdfs:label "filmes fotografia"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:144#evid-000-01-embalagens> a onto:Keyword ;
+    rdfs:label "embalagens"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:144#evid-000-02-materiais-diferentes> a onto:Keyword ;
+    rdfs:label "materiais diferentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:144#evid-000-03-embalagens-filmes> a onto:Keyword ;
+    rdfs:label "embalagens filmes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:144#evid-000-04-formar-duas-a-duas-embalagens-de> a onto:DiscursiveStrategy ;
+    rdfs:label "formar, duas a duas, embalagens de filme com materiais diferentes. Colar uma letra ou um numero em cada uma das embalagens."@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:144#evid-001-00-descobrir> a onto:Keyword ;
+    rdfs:label "descobrir"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:144#evid-001-01-recurso-auditivo> a onto:Keyword ;
+    rdfs:label "recurso auditivo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:144#evid-001-02-recurso-auditivo> a onto:Keyword ;
+    rdfs:label "recurso auditivo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:144#evid-001-03-descobrir-conteudos> a onto:Keyword ;
+    rdfs:label "descobrir conteudos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:144#evid-001-04-uso-recurso> a onto:Keyword ;
+    rdfs:label "uso recurso"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:144#evid-001-05-misturar-varias-embalagens> a onto:Keyword ;
+    rdfs:label "misturar varias embalagens"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:144#evid-001-06-conteudos-embalagens> a onto:Keyword ;
+    rdfs:label "conteudos embalagens"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:144#evid-001-07-conteudos-embalagens> a onto:Keyword ;
+    rdfs:label "conteudos embalagens"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:144#evid-001-08-som-produzido> a onto:Keyword ;
+    rdfs:label "som produzido"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:144#evid-001-09-descobrir-os-conteudos-das-embal> a onto:DiscursiveStrategy ;
+    rdfs:label "descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente ide…"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:144#evid-001-10-descobrir-os-conteudos-das-embal> a onto:DiscursiveStrategy ;
+    rdfs:label "descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente ide…"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:144#evid-001-11-embalagens> a onto:ContextObject ;
+    rdfs:label "embalagens"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:144#evid-002-00-mesmo-som> a onto:Keyword ;
+    rdfs:label "mesmo som"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:144#evid-002-01-procure> a onto:Keyword ;
+    rdfs:label "procure"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:144#evid-002-02-uso-instrumento> a onto:Keyword ;
+    rdfs:label "uso instrumento"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:144#evid-002-03-procure-depois-em-outra-embalage> a onto:DiscursiveStrategy ;
+    rdfs:label "Procure depois em outra embalagem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:144#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Oito a dez embalagens de filmes de fotografia, pregos, pedrinhas, grampos, botoes. Formar, duas a duas, embalagens de filme com materiais diferentes. Colar uma letra ou um numero em cada uma das embalagens."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:144> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:144#evid-000-00-filmes-fotografia>,
+        <urn:doc:144#evid-000-01-embalagens>,
+        <urn:doc:144#evid-000-02-materiais-diferentes>,
+        <urn:doc:144#evid-000-03-embalagens-filmes>,
+        <urn:doc:144#evid-000-04-formar-duas-a-duas-embalagens-de> .
+
+<urn:doc:144#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos, individualmente ou em dupla, devem descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente identificar o som produzido."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:144> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:144#evid-001-00-descobrir>,
+        <urn:doc:144#evid-001-01-recurso-auditivo>,
+        <urn:doc:144#evid-001-02-recurso-auditivo>,
+        <urn:doc:144#evid-001-03-descobrir-conteudos>,
+        <urn:doc:144#evid-001-04-uso-recurso>,
+        <urn:doc:144#evid-001-05-misturar-varias-embalagens>,
+        <urn:doc:144#evid-001-06-conteudos-embalagens>,
+        <urn:doc:144#evid-001-07-conteudos-embalagens>,
+        <urn:doc:144#evid-001-08-som-produzido>,
+        <urn:doc:144#evid-001-09-descobrir-os-conteudos-das-embal>,
+        <urn:doc:144#evid-001-10-descobrir-os-conteudos-das-embal>,
+        <urn:doc:144#evid-001-11-embalagens> .
+
+<urn:doc:144#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Procure depois em outra embalagem que identifica o mesmo som. Existem inumeras etapas para a continuidade do uso do instrumento. O professor deve criar programas diferentes e anotar os resultados obtidos pelos alunos nessas diferentes etapas."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:144> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:144#evid-002-00-mesmo-som>,
+        <urn:doc:144#evid-002-01-procure>,
+        <urn:doc:144#evid-002-02-uso-instrumento>,
+        <urn:doc:144#evid-002-03-procure-depois-em-outra-embalage> .
+
+<urn:doc:144> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:144#frag-000>,
+        <urn:doc:144#frag-001>,
+        <urn:doc:144#frag-002> .
+

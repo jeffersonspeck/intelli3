@@ -1,0 +1,108 @@
+[Documento] urn:doc:331
+  - miVector: 0.00,19.92,0.00,11.23,11.97,56.88,0.00,0.00
+  - TOP (documento): Interpersonal (score=0.5688)
+  - Ranking (top 3):
+      • Interpersonal: 0.5688
+      • Logical-Mathematical: 0.1992
+      • Bodily-Kinesthetic: 0.1197
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: alteracoes supressoes
+        • Keyword: passar lhe esse conteudo
+        • Keyword: presentes relata
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2236
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: quatro alunos
+        • DiscursiveStrategy: Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara.
+        • DiscursiveStrategy: se retirem da sala
+        • Keyword: abra discussao
+        • Keyword: briga transito
+        • Keyword: chama
+        • Keyword: comunicacao interpessoal
+        • Keyword: detalhes diferentes
+        • Keyword: diferentes pessoas
+        • Keyword: envolva detalhes
+        • Keyword: escolhe alguem
+    - Ativações (doc): n=3, primárias=3, secundárias=0, max=0.8766
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara.
+        • Keyword: briga transito
+        • Keyword: contar histonia
+        • Keyword: solicitando atencao
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3071
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: constituem excelente experimento
+        • Keyword: pois escolhera
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2250
+
+
+[Documento — Fragmentos] urn:doc:331
+
+[Fragmento] Preparacao: Uma pequena historia que envolva detalhes e diferentes pessoas. Uma noticia sobre uma briga de transito ou um mal-entendido se presta bem a essa atividade. Utilizacao: O professor solicita que quatro alunos se retirem da sala, mantendo-se em local facil de ser chamados.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: quatro alunos
+        • DiscursiveStrategy: se retirem da sala
+        • Keyword: briga transito
+        • Keyword: detalhes diferentes
+        • Keyword: diferentes pessoas
+        • Keyword: envolva detalhes
+    - Ativações:
+        • score=0.8766, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: briga transito
+    - Ativações:
+        • score=0.1234, tipo=Secondary
+
+[Fragmento] Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara. Chama um dos alunos que nao ouviu a historia e escolhe alguem do grupo para passar-lhe esse conteudo.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: passar lhe esse conteudo
+        • Keyword: presentes relata
+    - Ativações:
+        • score=0.2236, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara.
+        • Keyword: chama
+        • Keyword: escolhe alguem
+    - Ativações:
+        • score=0.3237, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara.
+        • Keyword: solicitando atencao
+    - Ativações:
+        • score=0.3071, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: pois escolhera
+    - Ativações:
+        • score=0.1456, tipo=Secondary
+
+[Fragmento] Esse aluno ficara encarregado de, diante de todo grupo, contar a histonia a outro ausente que e chamado e assim por diante. As enormes alteracoes ou supressoes que "transformam" a historia oniginal constituem excelente experimento para que se abra uma discussao sobre a comunicacao interpessoal.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: alteracoes supressoes
+    - Ativações:
+        • score=0.1714, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: abra discussao
+        • Keyword: comunicacao interpessoal
+    - Ativações:
+        • score=0.4136, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: contar histonia
+    - Ativações:
+        • score=0.1900, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: constituem excelente experimento
+    - Ativações:
+        • score=0.2250, tipo=Secondary

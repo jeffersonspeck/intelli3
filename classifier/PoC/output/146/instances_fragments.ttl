@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:146#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir copinhos de iogurte (danoninho) e com grampeador e fita colante fazer chocalhos com feijao, milho ou pedrinhas dentro."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:146> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:146#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Estabelecer associacoes entre as silabas das palavras pronunciadas pelo pro- fessor e o balancar do chocalho pelos alunos, acompanhando o ritmo da pala- vra, procurando dar o mesmo numero de batidas quantas forem as palavras pronunciadas."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:146> ;
+    dct:type "body" .
+
+<urn:doc:146#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Ir, progressivamente, aumentando o numero de silabas das pa- lavras e estimular os movimentos com o chocalho. O professor pode ser substi- tuido por alunos que, sorteando figuras, devem pronuncia-las para que os cole- gas movimentem o chocalho ritmicamente."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:146> ;
+    dct:type "body" .
+
+<urn:doc:146> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:146#frag-000>,
+        <urn:doc:146#frag-001>,
+        <urn:doc:146#frag-002> .
+

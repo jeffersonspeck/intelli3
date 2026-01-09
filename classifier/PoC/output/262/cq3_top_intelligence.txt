@@ -1,0 +1,19 @@
+[Documento] urn:doc:262
+  - miVector: 17.10,0.00,0.00,0.00,10.65,21.08,0.00,51.17
+  - TOP (documento): Naturalist (score=0.5117)
+  - Ranking (top 3):
+      • Naturalist: 0.5117
+      • Interpersonal: 0.2108
+      • Linguistic: 0.1710
+
+
+[Documento — Fragmentos] urn:doc:262
+
+[Fragmento] Preparacao: As atividades propostas nao constituem propriamente um jogo. Represen- tam muito mais um apelo para levar o aluno a descobrir o mundo natural e aprender a se encantar com seus movimentos. Remos, vara de pesca, sementes diversas constituem o material adequado.
+  > TOP: Naturalista (score=0.4935, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos devem estar "prontos" para seu envolvimento naturalista. Esse estado de "prontidao" significa estar tanto interessado quanto capaz. E tao impor- tante quanto esse estado e a "prontidao" do professor delimitada por seus conhe- cimentos e seu entusiasmo.
+  > TOP: Naturalista (score=0.5817, tipo=Primary)
+
+[Fragmento] A improvisacao e sempre uma terrivel imimiga do sucesso e nao importa a atividade que pretende desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas para sentir os movimentos do vento, colher amostras de folhas ou de sementes, caminhar pelas aguas rasas de um re- gato), as excursoes devem ser curtas, planejadas, alegres e voltadas para a cons- trucao do conhecimento c desenvolvimento das habilidades dos alunos.
+  > TOP: Naturalista (score=0.4598, tipo=Primary)

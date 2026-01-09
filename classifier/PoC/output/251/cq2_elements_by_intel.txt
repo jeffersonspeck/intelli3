@@ -1,0 +1,72 @@
+[Documento] urn:doc:251
+  - miVector: 0.00,11.04,0.00,0.00,6.61,19.95,0.00,62.40
+  - TOP (documento): Naturalist (score=0.6240)
+  - Ranking (top 3):
+      • Naturalist: 0.6240
+      • Interpersonal: 0.1995
+      • Logical-Mathematical: 0.1104
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: recortes desenhos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1521
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: pensarem
+        • Keyword: pesquisem
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3529
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: estabelecera regras
+        • Keyword: regras pesquisa
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2540
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: casa das formigas, dos passaros, dos cupins e outros
+        • Keyword: apresentar
+        • Keyword: casa formigas
+        • Keyword: casas
+        • Keyword: definir serie
+        • Keyword: descoberta natureza
+        • Keyword: moram animais
+        • Keyword: natureza
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.6471
+
+
+[Documento — Fragmentos] urn:doc:251
+
+[Fragmento] Preparacao: O professor deve estimular os alunos a pensarem sobre as "casas" onde mo- ram os animais e, dessa maneira, definir uma serie para que os alunos "pesquisem" bibliograficamente, e sempre que possivel, na natureza as "casas" dos animais.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: pensarem
+        • Keyword: pesquisem
+    - Ativações:
+        • score=0.3529, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: casas
+        • Keyword: definir serie
+        • Keyword: moram animais
+        • Keyword: natureza
+    - Ativações:
+        • score=0.6471, tipo=Primary
+
+[Fragmento] Utilizacao: O professor estabelecera as regras da pesquisa e os alunos devem apresentar seus trabalhos com fotografias, recortes c desenhos. A casa das formigas, dos passa- ros, dos cupins e outros constituem interessante estimulo a descoberta da natureza. 201
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: recortes desenhos
+    - Ativações:
+        • score=0.1521, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: estabelecera regras
+        • Keyword: regras pesquisa
+    - Ativações:
+        • score=0.2540, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: casa das formigas, dos passaros, dos cupins e outros
+        • Keyword: apresentar
+        • Keyword: casa formigas
+        • Keyword: descoberta natureza
+    - Ativações:
+        • score=0.5939, tipo=Primary

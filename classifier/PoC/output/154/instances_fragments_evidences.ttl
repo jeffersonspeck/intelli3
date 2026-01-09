@@ -1,0 +1,116 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:154#evid-000-00-emitam-sons-graves> a onto:Keyword ;
+    rdfs:label "emitam sons graves"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:154#evid-000-01-necessita-dispor> a onto:Keyword ;
+    rdfs:label "necessita dispor"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:154#evid-000-02-substituir-esses-instrumentos> a onto:Keyword ;
+    rdfs:label "substituir esses instrumentos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:154#evid-000-03-substituir-esses-instrumentos> a onto:Keyword ;
+    rdfs:label "substituir esses instrumentos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:154#evid-000-04-instrumentos-objetos> a onto:Keyword ;
+    rdfs:label "instrumentos objetos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:154#evid-000-05-triangulo> a onto:Keyword ;
+    rdfs:label "triangulo"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:154#evid-000-06-agudos> a onto:Keyword ;
+    rdfs:label "agudos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:154#evid-000-07-surdo> a onto:Keyword ;
+    rdfs:label "surdo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-00-classificar-sons-graves> a onto:Keyword ;
+    rdfs:label "classificar sons graves"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-01-ouvirem-instrumentos> a onto:Keyword ;
+    rdfs:label "ouvirem instrumentos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:154#evid-001-02-sons-agudos> a onto:Keyword ;
+    rdfs:label "sons agudos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-03-sentindo-diferencas> a onto:Keyword ;
+    rdfs:label "sentindo diferencas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-04-diferencas-timbre> a onto:Keyword ;
+    rdfs:label "diferencas timbre"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-05-timbre-permitam> a onto:Keyword ;
+    rdfs:label "timbre permitam"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-06-permitam-desenvolvimento> a onto:Keyword ;
+    rdfs:label "permitam desenvolvimento"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-07-desenvolvimento-habilidade> a onto:Keyword ;
+    rdfs:label "desenvolvimento habilidade"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-08-habilidade-classificar> a onto:Keyword ;
+    rdfs:label "habilidade classificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-09-graves-sons> a onto:Keyword ;
+    rdfs:label "graves sons"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:154#evid-001-10-instrumentos> a onto:ContextObject ;
+    rdfs:label "instrumentos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:154#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "preparacao: A escola, ou o professor, necessita dispor de um surdo e um triangulo, podendo facilmente substituir esses instrumentos por objetos que emitam sons graves (surdo) e agudos (triangulo)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:154> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:154#evid-000-00-emitam-sons-graves>,
+        <urn:doc:154#evid-000-01-necessita-dispor>,
+        <urn:doc:154#evid-000-02-substituir-esses-instrumentos>,
+        <urn:doc:154#evid-000-03-substituir-esses-instrumentos>,
+        <urn:doc:154#evid-000-04-instrumentos-objetos>,
+        <urn:doc:154#evid-000-05-triangulo>,
+        <urn:doc:154#evid-000-06-agudos>,
+        <urn:doc:154#evid-000-07-surdo> .
+
+<urn:doc:154#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos, ao ouvirem os instrumentos, atentamente devem ir sentindo as diferencas de timbre que permitam o desenvolvimento da habilidade de clas- sificar sons graves e sons agudos. 144"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:154> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:154#evid-001-00-classificar-sons-graves>,
+        <urn:doc:154#evid-001-01-ouvirem-instrumentos>,
+        <urn:doc:154#evid-001-02-sons-agudos>,
+        <urn:doc:154#evid-001-03-sentindo-diferencas>,
+        <urn:doc:154#evid-001-04-diferencas-timbre>,
+        <urn:doc:154#evid-001-05-timbre-permitam>,
+        <urn:doc:154#evid-001-06-permitam-desenvolvimento>,
+        <urn:doc:154#evid-001-07-desenvolvimento-habilidade>,
+        <urn:doc:154#evid-001-08-habilidade-classificar>,
+        <urn:doc:154#evid-001-09-graves-sons>,
+        <urn:doc:154#evid-001-10-instrumentos> .
+
+<urn:doc:154> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:154#frag-000>,
+        <urn:doc:154#frag-001> .
+

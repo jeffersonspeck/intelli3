@@ -1,0 +1,53 @@
+[Documento] urn:doc:108
+  - miVector: 10.18,25.67,4.88,5.83,32.41,5.83,0.00,15.19
+  - TOP (documento): Bodily-Kinesthetic (score=0.3241)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3241
+      • Logical-Mathematical: 0.2567
+      • Naturalist: 0.1519
+
+[Fragmento] Preparacao: Folhas de papel-cartao de cor clara, regua, tesoura, lapiseira e canetas hidro- graficas para desenhar o tabuleiro. Massa plastica ou argila colorida permitem a construcao das pecas do jogo.
+  - Bodily-Kinesthetic (via activation, score=0.3494)
+  - Linguistic (via activation, score=0.2585)
+  - Logical-Mathematical (via activation, score=0.1443)
+  - Naturalist (via activation, score=0.1239)
+  - Spatial (via activation, score=0.1239)
+  - Cinestésico-corporal (via activation, score=0.3494)
+  - Espacial-visual (via activation, score=0.1239)
+  - Linguística (via activation, score=0.2585)
+  - Lógico-matemática (via activation, score=0.1443)
+  - Naturalista (via activation, score=0.1239)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Os alunos devem ser convocados para confeccionar as pecas e os tabuleiros e para as primeiras e bastante valido o exercicio da criatividade de cada aluno.
+  - Bodily-Kinesthetic (via activation, score=0.6153)
+  - Interpersonal (via activation, score=0.1924)
+  - Musical (via activation, score=0.1924)
+  - Cinestésico-corporal (via activation, score=0.6153)
+  - Interpessoal (via activation, score=0.1924)
+  - Musical (via activation, score=0.1924)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Musical (via element)
+
+[Fragmento] Com o jogo preparado, e importante a orientacao sobre suas regras e a aceitacao das mesmas favorece a nocao de limites por parte do aluno. O objetivo princi- pal e eliminar as pecas do adversario e atingir o extremo do tabuleiro. (Existem diferentes modalidades de jogos de damas no comercio.)
+  - Logical-Mathematical (via activation, score=0.6597)
+  - Naturalist (via activation, score=0.3403)
+  - Lógico-matemática (via activation, score=0.6597)
+  - Naturalista (via activation, score=0.3403)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

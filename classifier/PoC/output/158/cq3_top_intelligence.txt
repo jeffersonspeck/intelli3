@@ -1,0 +1,16 @@
+[Documento] urn:doc:158
+  - miVector: 34.28,0.00,0.00,10.90,15.01,8.54,9.50,21.77
+  - TOP (documento): Linguistic (score=0.3428)
+  - Ranking (top 3):
+      • Linguistic: 0.3428
+      • Naturalist: 0.2177
+      • Bodily-Kinesthetic: 0.1501
+
+
+[Documento — Fragmentos] urn:doc:158
+
+[Fragmento] Preparacao: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples. Utilizacao: Associar o som do instrumento a movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos.
+  > TOP: Musical (score=0.2506, tipo=Primary)
+
+[Fragmento] Progressiva- mente o aluno deve ir descobrindo todo o sentido de uma "linguagem sonora" e ir identificando essa linguagem a seus movimentos corporais. 146
+  > TOP: Linguística (score=0.5101, tipo=Primary)

@@ -1,0 +1,128 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:152#evid-000-00-elementos-natureza> a onto:Keyword ;
+    rdfs:label "elementos natureza"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-000-01-descobrirem> a onto:Keyword ;
+    rdfs:label "descobrirem"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-000-02-relatarem> a onto:Keyword ;
+    rdfs:label "relatarem"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-000-03-elementos-da-natureza> a onto:ContextObject ;
+    rdfs:label "elementos da natureza"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-001-00-excursao-programada> a onto:Keyword ;
+    rdfs:label "excursao programada"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-001-01-elementos-transforma> a onto:Keyword ;
+    rdfs:label "elementos transforma"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-001-02-envolvente-desabrochar> a onto:Keyword ;
+    rdfs:label "envolvente desabrochar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-001-03-desabrochar-curiosidade> a onto:Keyword ;
+    rdfs:label "desabrochar curiosidade"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-001-04-bosque> a onto:Keyword ;
+    rdfs:label "bosque"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-001-05-arvore> a onto:Keyword ;
+    rdfs:label "arvore"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-001-06-mar> a onto:Keyword ;
+    rdfs:label "mar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-001-07-rio> a onto:Keyword ;
+    rdfs:label "rio"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-001-08-observacao-pesquisa> a onto:Keyword ;
+    rdfs:label "observacao pesquisa"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-002-00-revelem-descobertas> a onto:Keyword ;
+    rdfs:label "revelem descobertas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-002-01-registro-dessas-sensibilidades> a onto:Keyword ;
+    rdfs:label "registro dessas sensibilidades"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:152#evid-002-02-pequena-maquina-fotografica> a onto:Keyword ;
+    rdfs:label "pequena maquina fotografica"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:152#evid-002-03-desenho-constitui-forte> a onto:Keyword ;
+    rdfs:label "desenho constitui forte"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:152#evid-002-04-constitui-forte-instrumento> a onto:Keyword ;
+    rdfs:label "constitui forte instrumento"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:152#evid-002-05-ajuda-desenho> a onto:Keyword ;
+    rdfs:label "ajuda desenho"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:152#evid-002-06-pequena-maquina-fotografica-ou-a> a onto:ContextObject ;
+    rdfs:label "pequena maquina fotografica ou a ajuda do desenho"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:152#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor devera estimular os alunos a \"descobrirem\" e \"relatarem\" os elementos da natureza."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:152> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:152#evid-000-00-elementos-natureza>,
+        <urn:doc:152#evid-000-01-descobrirem>,
+        <urn:doc:152#evid-000-02-relatarem>,
+        <urn:doc:152#evid-000-03-elementos-da-natureza> .
+
+<urn:doc:152#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Uma \"excursao programada\" para a visita a um bosque, uma praca, uma arvore, numa tarde de outono ou de inverno, o mar, um rio, a noite c outros elementos transforma-se em envolvente desabrochar da curiosi- dade infantil. Utilizacao: O professor deve trabalhar o espirito de observacao e pesquisa."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:152> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:152#evid-001-00-excursao-programada>,
+        <urn:doc:152#evid-001-01-elementos-transforma>,
+        <urn:doc:152#evid-001-02-envolvente-desabrochar>,
+        <urn:doc:152#evid-001-03-desabrochar-curiosidade>,
+        <urn:doc:152#evid-001-04-bosque>,
+        <urn:doc:152#evid-001-05-arvore>,
+        <urn:doc:152#evid-001-06-mar>,
+        <urn:doc:152#evid-001-07-rio>,
+        <urn:doc:152#evid-001-08-observacao-pesquisa> .
+
+<urn:doc:152#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Na primei- ra vez, ir progressivamente \"descobrindo\" seu encantamento e, aos poucos, es- timular os alunos para que descubram e revelem suas descobertas. Sempre que possivel uma pequena maquina fotografica ou a ajuda do desenho constitui for- te instrumento de registro dessas sensibilidades."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:152> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:152#evid-002-00-revelem-descobertas>,
+        <urn:doc:152#evid-002-01-registro-dessas-sensibilidades>,
+        <urn:doc:152#evid-002-02-pequena-maquina-fotografica>,
+        <urn:doc:152#evid-002-03-desenho-constitui-forte>,
+        <urn:doc:152#evid-002-04-constitui-forte-instrumento>,
+        <urn:doc:152#evid-002-05-ajuda-desenho>,
+        <urn:doc:152#evid-002-06-pequena-maquina-fotografica-ou-a> .
+
+<urn:doc:152> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:152#frag-000>,
+        <urn:doc:152#frag-001>,
+        <urn:doc:152#frag-002> .
+

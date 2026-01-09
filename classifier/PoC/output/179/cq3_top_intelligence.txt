@@ -1,0 +1,19 @@
+[Documento] urn:doc:179
+  - miVector: 0.00,25.18,0.00,0.00,38.60,15.73,5.50,14.99
+  - TOP (documento): Bodily-Kinesthetic (score=0.3860)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3860
+      • Logical-Mathematical: 0.2518
+      • Interpersonal: 0.1573
+
+
+[Documento — Fragmentos] urn:doc:179
+
+[Fragmento] Preparacao: Usar petecas e estimular diferentes formas de uso. Utilizacao: O aluno devera jogar a peteca, recebe-la com uma e com outra mao. Au- mentar progressivamente as distancias dos arremessos.
+  > TOP: Cinestésico-corporal (score=0.7559, tipo=Primary)
+
+[Fragmento] Estabelecer claros limites e discutir com os alunos novas regras e novos jogos, usando sempre esse recur- so.
+  > TOP: Interpessoal (score=0.3993, tipo=Primary)
+
+[Fragmento] Um brinquedo (Plic-Ploc -- fabricado por Stelco) constituido por uma cesta conica com cabo e alavanca arremessadora de bola plastica representa tambem excelente recurso para exercicios analogos. (Existem no comercio diversas marcas.)
+  > TOP: Naturalista (score=0.4948, tipo=Primary)

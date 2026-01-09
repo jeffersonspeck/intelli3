@@ -1,0 +1,35 @@
+[Documento] urn:doc:45
+  - miVector: 11.21,34.34,0.00,0.00,30.10,0.00,0.00,24.34
+  - TOP (documento): Logical-Mathematical (score=0.3434)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3434
+      • Bodily-Kinesthetic: 0.3010
+      • Naturalist: 0.2434
+
+[Fragmento] Preparacao: Nome Jogo dos cubos 5 a 6 garrafas de plastico de tamanhos bem diferentes ou cubos de madeira. Utilizacao: Os alunos deverao enfileirar as garrafas sem observar regras, tentar empi- lha-las.
+  - Bodily-Kinesthetic (via activation, score=0.3629)
+  - Logical-Mathematical (via activation, score=0.2064)
+  - Naturalist (via activation, score=0.4307)
+  - Cinestésico-corporal (via activation, score=0.3629)
+  - Lógico-matemática (via activation, score=0.2064)
+  - Naturalista (via activation, score=0.4307)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Em oportunidades posteriores devem separar as garrafas maiores das menores, comparando os tamanhos e verbalizando os conceitos de "grande" e de "pequeno". (Existe no mercado -- Cubos [6 Cubos de encaixe e outros.)
+  - Bodily-Kinesthetic (via activation, score=0.2206)
+  - Linguistic (via activation, score=0.2579)
+  - Logical-Mathematical (via activation, score=0.5215)
+  - Cinestésico-corporal (via activation, score=0.2206)
+  - Linguística (via activation, score=0.2579)
+  - Lógico-matemática (via activation, score=0.5215)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)

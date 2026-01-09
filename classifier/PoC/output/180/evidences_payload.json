@@ -1,0 +1,150 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "servico",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7840228723154624,
+      "relevance": 0.9720930232558139
+    },
+    {
+      "role": "Keyword",
+      "text": "fazendo pequeno",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7840228723154624,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pequeno armario",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7683973750756754,
+      "relevance": 0.8860465116279069
+    },
+    {
+      "role": "Keyword",
+      "text": "marceneiro",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7095861977489909,
+      "relevance": 0.9395348837209302
+    },
+    {
+      "role": "Keyword",
+      "text": "havendo dificuldade",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7026399191891095,
+      "relevance": 0.7488372093023256
+    },
+    {
+      "role": "Keyword",
+      "text": "verificar portas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6798572517179752,
+      "relevance": 0.7
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.7488372093023256
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves.",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.7488372093023256
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "situando direita",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5766878293568191,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "guardar objetos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7931469438299679,
+      "relevance": 0.9154676258992805
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes compartimentos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7931469438299679,
+      "relevance": 0.8812949640287769
+    },
+    {
+      "role": "Keyword",
+      "text": "maleta coordenacao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5651133628632907,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "maleta coordenacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5651133628632907,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "fechar portas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7808433829631809,
+      "relevance": 0.9424460431654677
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5226943927233587,
+      "relevance": 0.7032374100719425
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "aprender a abrir e fechar portas, guardar objetos em diferentes compartimentos, abrir portas conforme orientacao do professor",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9766187050359713
+    },
+    {
+      "role": "ContextObject",
+      "text": "Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela]",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.49725,
+      "relevance": 0.6097122302158273
+    },
+    {
+      "role": "ContextObject",
+      "text": "Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela]",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.49725,
+      "relevance": 0.6097122302158273
+    }
+  ]
+}

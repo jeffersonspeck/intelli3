@@ -1,0 +1,86 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:170#evid-000-00-corda-pular> a onto:Keyword ;
+    rdfs:label "corda pular"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-000-01-pular-terminais> a onto:Keyword ;
+    rdfs:label "pular terminais"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-000-02-adquirida-lojas> a onto:Keyword ;
+    rdfs:label "adquirida lojas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:170#evid-000-03-lojas-brinquedo> a onto:Keyword ;
+    rdfs:label "lojas brinquedo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:170#evid-000-04-comprimento-ideal> a onto:Keyword ;
+    rdfs:label "comprimento ideal"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:170#evid-000-05-corda-para-pular-com-terminais-d> a onto:ContextObject ;
+    rdfs:label "Corda para pular com terminais de madeira"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:170#evid-001-00-executar-diferentes-movimentos> a onto:Keyword ;
+    rdfs:label "executar diferentes movimentos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-001-01-progressivamente-executar-difere> a onto:Keyword ;
+    rdfs:label "progressivamente executar diferentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-001-02-saltitando-ora> a onto:Keyword ;
+    rdfs:label "saltitando ora"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-001-03-pular-corda> a onto:Keyword ;
+    rdfs:label "pular corda"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-001-04-aprender> a onto:Keyword ;
+    rdfs:label "aprender"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:170#evid-001-05-aprender-pular> a onto:Keyword ;
+    rdfs:label "aprender pular"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#evid-001-06-aprender-a-pular-corda-e-progres> a onto:DiscursiveStrategy ;
+    rdfs:label "aprender a pular corda e progressivamente executar diferentes movimentos, saltitando ora com um pe, ora com o outro"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:170#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Corda para pular com terminais de madeira, que pode ser adquirida em lojas de brinquedo ou fabricada em casa ou em uma oficina. Comprimento ideal de 2,30m a 2,50m."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:170> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:170#evid-000-00-corda-pular>,
+        <urn:doc:170#evid-000-01-pular-terminais>,
+        <urn:doc:170#evid-000-02-adquirida-lojas>,
+        <urn:doc:170#evid-000-03-lojas-brinquedo>,
+        <urn:doc:170#evid-000-04-comprimento-ideal>,
+        <urn:doc:170#evid-000-05-corda-para-pular-com-terminais-d> .
+
+<urn:doc:170#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O aluno deve aprender a pular corda e progressivamente executar diferen- tes movimentos, saltitando ora com um pe, ora com o outro. (Existe no comercio.)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:170> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:170#evid-001-00-executar-diferentes-movimentos>,
+        <urn:doc:170#evid-001-01-progressivamente-executar-difere>,
+        <urn:doc:170#evid-001-02-saltitando-ora>,
+        <urn:doc:170#evid-001-03-pular-corda>,
+        <urn:doc:170#evid-001-04-aprender>,
+        <urn:doc:170#evid-001-05-aprender-pular>,
+        <urn:doc:170#evid-001-06-aprender-a-pular-corda-e-progres> .
+
+<urn:doc:170> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:170#frag-000>,
+        <urn:doc:170#frag-001> .
+

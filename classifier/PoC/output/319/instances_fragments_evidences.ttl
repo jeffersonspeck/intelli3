@@ -1,0 +1,183 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:319#evid-000-00-reunir-muitas-revistas> a onto:Keyword ;
+    rdfs:label "reunir muitas revistas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:319#evid-000-01-colar-cartolina> a onto:Keyword ;
+    rdfs:label "colar cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-001-00-eur-discutir> a onto:Keyword ;
+    rdfs:label "eur discutir"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-001-01-atributos-comuns> a onto:Keyword ;
+    rdfs:label "atributos comuns"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:319#evid-001-02-atributos-comuns> a onto:Keyword ;
+    rdfs:label "atributos comuns"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:319#evid-001-03-desassociando-estercotipos> a onto:Keyword ;
+    rdfs:label "desassociando estercotipos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-001-04-percebendo-distincao> a onto:Keyword ;
+    rdfs:label "percebendo distincao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:319#evid-001-05-percebendo-distincao> a onto:Keyword ;
+    rdfs:label "percebendo distincao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:319#evid-001-06-formar-conjuntos> a onto:Keyword ;
+    rdfs:label "formar conjuntos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-001-07-tipo-fisico> a onto:Keyword ;
+    rdfs:label "tipo fisico"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:319#evid-001-08-tipo-fisico> a onto:Keyword ;
+    rdfs:label "tipo fisico"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:319#evid-001-09-conjuntos-atributos> a onto:Keyword ;
+    rdfs:label "conjuntos atributos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:319#evid-001-10-conjuntos-atributos> a onto:Keyword ;
+    rdfs:label "conjuntos atributos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:319#evid-001-11-atitudes> a onto:Keyword ;
+    rdfs:label "atitudes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-001-12-pessoas-louras-morenas-pretas-ru> a onto:ContextObject ;
+    rdfs:label "pessoas louras, morenas, pretas, ruivas, altas, baixas, magras, gordas, velhas, criancas, jovens, de pe, sentadas, deitadas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-002-00-associar> a onto:Keyword ;
+    rdfs:label "associar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-002-01-antecipar-julgamentos> a onto:Keyword ;
+    rdfs:label "antecipar julgamentos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:319#evid-002-02-possiveis-atitudes> a onto:Keyword ;
+    rdfs:label "possiveis atitudes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-002-03-associar-postura> a onto:Keyword ;
+    rdfs:label "associar postura"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-002-04-postura-pessoas> a onto:Keyword ;
+    rdfs:label "postura pessoas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:319#evid-002-05-pessoas-possiveis> a onto:Keyword ;
+    rdfs:label "pessoas possiveis"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-002-06-atitudes-colocar> a onto:Keyword ;
+    rdfs:label "atitudes colocar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-002-07-colocar-discussao> a onto:Keyword ;
+    rdfs:label "colocar discussao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:319#evid-002-08-colocar-discussao> a onto:Keyword ;
+    rdfs:label "colocar discussao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:319#evid-002-09-discussao-tendencia> a onto:Keyword ;
+    rdfs:label "discussao tendencia"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:319#evid-002-10-tendencia-revelamos> a onto:Keyword ;
+    rdfs:label "tendencia revelamos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:319#evid-002-11-revelamos-antecipar> a onto:Keyword ;
+    rdfs:label "revelamos antecipar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:319#evid-002-12-proprias-conclusoes> a onto:Keyword ;
+    rdfs:label "proprias conclusoes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-002-13-proprias-conclusoes> a onto:Keyword ;
+    rdfs:label "proprias conclusoes"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:319#evid-002-14-ouvindo> a onto:Keyword ;
+    rdfs:label "ouvindo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:319#evid-002-15-mediador> a onto:Keyword ;
+    rdfs:label "mediador"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:319#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir muitas revistas com gravuras representando seres humanos em di- ferentes tamanhos EUR posicoes, posturas, colar em cartolina."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:319> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:319#evid-000-00-reunir-muitas-revistas>,
+        <urn:doc:319#evid-000-01-colar-cartolina> .
+
+<urn:doc:319#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem ser estimulados a formar conjuntos com atributos co- muns, percebendo a distincao entre pessoas louras, morenas, pretas, ruivas, al- tas, baixas, magras, gordas, velhas, criancas, jovens, de pe, sentadas, deitadas, EUR discutir em classe o tipo fisico das pessoas, suas atitudes, desassociando esterco- tipos c trabalhando eventuais preconceitos."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:319> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:319#evid-001-00-eur-discutir>,
+        <urn:doc:319#evid-001-01-atributos-comuns>,
+        <urn:doc:319#evid-001-02-atributos-comuns>,
+        <urn:doc:319#evid-001-03-desassociando-estercotipos>,
+        <urn:doc:319#evid-001-04-percebendo-distincao>,
+        <urn:doc:319#evid-001-05-percebendo-distincao>,
+        <urn:doc:319#evid-001-06-formar-conjuntos>,
+        <urn:doc:319#evid-001-07-tipo-fisico>,
+        <urn:doc:319#evid-001-08-tipo-fisico>,
+        <urn:doc:319#evid-001-09-conjuntos-atributos>,
+        <urn:doc:319#evid-001-10-conjuntos-atributos>,
+        <urn:doc:319#evid-001-11-atitudes>,
+        <urn:doc:319#evid-001-12-pessoas-louras-morenas-pretas-ru> .
+
+<urn:doc:319#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Devem associar a postura das pes- soas a possiveis atitudes e colocar em discussao a tendencia que revelamos em antecipar julgamentos. E importante que o professor seja, em sala de aula, um mediador, ouvindo os alunos e permitindo que alcancem suas proprias conclu- sOEs."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:319> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:319#evid-002-00-associar>,
+        <urn:doc:319#evid-002-01-antecipar-julgamentos>,
+        <urn:doc:319#evid-002-02-possiveis-atitudes>,
+        <urn:doc:319#evid-002-03-associar-postura>,
+        <urn:doc:319#evid-002-04-postura-pessoas>,
+        <urn:doc:319#evid-002-05-pessoas-possiveis>,
+        <urn:doc:319#evid-002-06-atitudes-colocar>,
+        <urn:doc:319#evid-002-07-colocar-discussao>,
+        <urn:doc:319#evid-002-08-colocar-discussao>,
+        <urn:doc:319#evid-002-09-discussao-tendencia>,
+        <urn:doc:319#evid-002-10-tendencia-revelamos>,
+        <urn:doc:319#evid-002-11-revelamos-antecipar>,
+        <urn:doc:319#evid-002-12-proprias-conclusoes>,
+        <urn:doc:319#evid-002-13-proprias-conclusoes>,
+        <urn:doc:319#evid-002-14-ouvindo>,
+        <urn:doc:319#evid-002-15-mediador> .
+
+<urn:doc:319> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:319#frag-000>,
+        <urn:doc:319#frag-001>,
+        <urn:doc:319#frag-002> .
+

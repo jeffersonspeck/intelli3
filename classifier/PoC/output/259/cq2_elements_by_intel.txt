@@ -1,0 +1,132 @@
+[Documento] urn:doc:259
+  - miVector: 9.23,20.12,0.00,0.00,0.00,15.54,0.00,55.11
+  - TOP (documento): Naturalist (score=0.5511)
+  - Ranking (top 3):
+      • Naturalist: 0.5511
+      • Logical-Mathematical: 0.2012
+      • Interpersonal: 0.1554
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: estabelecer os limites da area onde ocorrera o jogo
+        • DiscursiveStrategy: troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.
+        • Keyword: ocorrera jogo
+        • Keyword: troquem ideias
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3609
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: emissao som
+        • Keyword: explicar
+        • Keyword: som predador
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2803
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: estabelecer os limites da area onde ocorrera o jogo
+        • Keyword: achar presa
+        • Keyword: busca
+        • Keyword: podera tentar achar
+        • Keyword: predador podera tentar
+        • Keyword: presas sejam pegas
+        • Keyword: regras seguem
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7197
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: animais que imitaram
+        • ContextObject: espaco aberto em um local seguro onde nao existam espinhos, barrancos ou rios profundos
+        • DiscursiveStrategy: troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.
+        • Keyword: animais imitaram
+        • Keyword: animais natureza
+        • Keyword: barrancos rios
+        • Keyword: espaco aberto
+        • Keyword: inevitavel condicao
+        • Keyword: mesmo tempo
+        • Keyword: predadores
+        • Keyword: presa predador
+        • Keyword: presas
+        • Keyword: quase animal
+        • Keyword: rios profundos
+        • Keyword: vida
+        • Keyword: vida animais
+    - Ativações (doc): n=3, primárias=3, secundárias=0, max=0.8331
+
+
+[Documento — Fragmentos] urn:doc:259
+
+[Fragmento] Preparacao: Espaco aberto em um local seguro onde nao existam espinhos, barrancos ou rios profundos, mas que, ao mesmo tempo, possa oferecer bons pontos para escon- derijos. Estabelecer os limites da area onde ocorrera o jogo.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: estabelecer os limites da area onde ocorrera o jogo
+        • Keyword: ocorrera jogo
+    - Ativações:
+        • score=0.1990, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: estabelecer os limites da area onde ocorrera o jogo
+    - Ativações:
+        • score=0.0951, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: espaco aberto em um local seguro onde nao existam espinhos, barrancos ou rios profundos
+        • Keyword: barrancos rios
+        • Keyword: espaco aberto
+        • Keyword: mesmo tempo
+        • Keyword: rios profundos
+    - Ativações:
+        • score=0.7059, tipo=Primary
+
+[Fragmento] Utilizacao: O professor devera explicar aos alunos a vida dos animais na natureza e sua inevitavel condicao de "presas" e "predadores", destacando que quase todo animal e, ao mesmo tempo, presa e predador. As regras seguem, em linhas gerais, as de uma brincadeira de "esconde-esconde".
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: explicar
+    - Ativações:
+        • score=0.1166, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: regras seguem
+    - Ativações:
+        • score=0.0503, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: animais natureza
+        • Keyword: inevitavel condicao
+        • Keyword: mesmo tempo
+        • Keyword: predadores
+        • Keyword: presa predador
+        • Keyword: presas
+        • Keyword: quase animal
+        • Keyword: vida
+        • Keyword: vida animais
+    - Ativações:
+        • score=0.8331, tipo=Primary
+
+[Fragmento] Imciado o jogo, o predador podera tentar achar sua presa e pode ser combinado a emissao de som do predador. O jogo conti- nua ate que todas as presas sejam pegas ou ate que o predador desista de sua busca.
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: emissao som
+        • Keyword: som predador
+    - Ativações:
+        • score=0.2803, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: achar presa
+        • Keyword: busca
+        • Keyword: podera tentar achar
+        • Keyword: predador podera tentar
+        • Keyword: presas sejam pegas
+    - Ativações:
+        • score=0.7197, tipo=Primary
+
+[Fragmento] E indispensavel que, ao final, professor e alunos troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.
+        • Keyword: troquem ideias
+    - Ativações:
+        • score=0.3609, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: animais que imitaram
+        • DiscursiveStrategy: troquem ideias sobre como se sentiram como presas e/ou predadores e sobre a vida dos animais que imitaram.
+        • Keyword: animais imitaram
+        • Keyword: vida animais
+    - Ativações:
+        • score=0.6391, tipo=Primary

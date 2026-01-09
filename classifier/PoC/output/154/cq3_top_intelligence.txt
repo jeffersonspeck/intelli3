@@ -1,0 +1,16 @@
+[Documento] urn:doc:154
+  - miVector: 0.00,17.65,0.00,23.98,7.85,0.00,8.42,42.10
+  - TOP (documento): Naturalist (score=0.4210)
+  - Ranking (top 3):
+      • Naturalist: 0.4210
+      • Musical: 0.2398
+      • Logical-Mathematical: 0.1765
+
+
+[Documento — Fragmentos] urn:doc:154
+
+[Fragmento] preparacao: A escola, ou o professor, necessita dispor de um surdo e um triangulo, podendo facilmente substituir esses instrumentos por objetos que emitam sons graves (surdo) e agudos (triangulo).
+  > TOP: Lógico-matemática (score=0.3122, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos, ao ouvirem os instrumentos, atentamente devem ir sentindo as diferencas de timbre que permitam o desenvolvimento da habilidade de clas- sificar sons graves e sons agudos. 144
+  > TOP: Naturalista (score=0.7788, tipo=Primary)

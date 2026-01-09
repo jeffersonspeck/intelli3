@@ -1,0 +1,110 @@
+[Documento] urn:doc:262
+  - miVector: 17.10,0.00,0.00,0.00,10.65,21.08,0.00,51.17
+  - TOP (documento): Naturalist (score=0.5117)
+  - Ranking (top 3):
+      • Naturalist: 0.5117
+      • Interpersonal: 0.2108
+      • Linguistic: 0.1710
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: acender fogueira
+        • Keyword: caminhar pelas aguas
+        • Keyword: movimentos
+        • Keyword: movimentos vento
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2413
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: descobrir o mundo natural e aprender a se encantar com seus movimentos
+        • Keyword: descobrir
+        • Keyword: interessado quanto capaz
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.4183
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: descobrir o mundo natural e aprender a se encantar com seus movimentos
+        • DiscursiveStrategy: desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas par…
+        • Keyword: descobrir
+        • Keyword: preparar geleias
+        • Keyword: pretende desenvolver
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2989
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: Remos, vara de pesca, sementes diversas
+        • DiscursiveStrategy: descobrir o mundo natural e aprender a se encantar com seus movimentos
+        • DiscursiveStrategy: desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas par…
+        • Keyword: colher amostras
+        • Keyword: colher frutos silvestres
+        • Keyword: descobrir mundo
+        • Keyword: envolvimento naturalista
+        • Keyword: mundo natural
+        • Keyword: plantar hortalicas
+        • Keyword: sementes
+        • Keyword: sementes diversas constituem
+    - Ativações (doc): n=3, primárias=3, secundárias=0, max=0.5817
+
+
+[Documento — Fragmentos] urn:doc:262
+
+[Fragmento] Preparacao: As atividades propostas nao constituem propriamente um jogo. Represen- tam muito mais um apelo para levar o aluno a descobrir o mundo natural e aprender a se encantar com seus movimentos. Remos, vara de pesca, sementes diversas constituem o material adequado.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: movimentos
+    - Ativações:
+        • score=0.0783, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: descobrir o mundo natural e aprender a se encantar com seus movimentos
+        • Keyword: descobrir
+    - Ativações:
+        • score=0.2141, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: descobrir o mundo natural e aprender a se encantar com seus movimentos
+        • Keyword: descobrir
+    - Ativações:
+        • score=0.2141, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: Remos, vara de pesca, sementes diversas
+        • DiscursiveStrategy: descobrir o mundo natural e aprender a se encantar com seus movimentos
+        • Keyword: descobrir mundo
+        • Keyword: mundo natural
+        • Keyword: sementes diversas constituem
+    - Ativações:
+        • score=0.4935, tipo=Primary
+
+[Fragmento] Utilizacao: Os alunos devem estar "prontos" para seu envolvimento naturalista. Esse estado de "prontidao" significa estar tanto interessado quanto capaz. E tao impor- tante quanto esse estado e a "prontidao" do professor delimitada por seus conhe- cimentos e seu entusiasmo.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: interessado quanto capaz
+    - Ativações:
+        • score=0.4183, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: envolvimento naturalista
+    - Ativações:
+        • score=0.5817, tipo=Primary
+
+[Fragmento] A improvisacao e sempre uma terrivel imimiga do sucesso e nao importa a atividade que pretende desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas para sentir os movimentos do vento, colher amostras de folhas ou de sementes, caminhar pelas aguas rasas de um re- gato), as excursoes devem ser curtas, planejadas, alegres e voltadas para a cons- trucao do conhecimento c desenvolvimento das habilidades dos alunos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: acender fogueira
+        • Keyword: caminhar pelas aguas
+        • Keyword: movimentos vento
+    - Ativações:
+        • score=0.2413, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas par…
+        • Keyword: preparar geleias
+        • Keyword: pretende desenvolver
+    - Ativações:
+        • score=0.2989, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas par…
+        • Keyword: colher amostras
+        • Keyword: colher frutos silvestres
+        • Keyword: plantar hortalicas
+        • Keyword: sementes
+    - Ativações:
+        • score=0.4598, tipo=Primary

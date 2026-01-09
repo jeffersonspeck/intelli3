@@ -1,0 +1,39 @@
+[Documento] urn:doc:51
+  - miVector: 0.00,23.69,5.74,0.00,42.46,4.78,0.00,23.33
+  - TOP (documento): Bodily-Kinesthetic (score=0.4246)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4246
+      • Logical-Mathematical: 0.2369
+      • Naturalist: 0.2333
+
+[Fragmento] Preparacao: Tampas plasticas de tres tamanhos bem diferentes que serao os "ninhos". Utilizacao: Os alunos devem comparar os tres tamanhos de tampas para identificar as maiores e as menores. O professor deve introduzir o conceito de tamanho "me- dio" e solicitar que os alunos as encontrem.
+  - Interpersonal (via activation, score=0.1099)
+  - Logical-Mathematical (via activation, score=0.3719)
+  - Naturalist (via activation, score=0.3862)
+  - Spatial (via activation, score=0.1320)
+  - Espacial-visual (via activation, score=0.1320)
+  - Interpessoal (via activation, score=0.1099)
+  - Lógico-matemática (via activation, score=0.3719)
+  - Naturalista (via activation, score=0.3862)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Formar fileiras, ordenando os ninhos segundo seu tamanho. Encaixar em ordem os ninhos menores nos maiores. 79
+  - Bodily-Kinesthetic (via activation, score=0.7513)
+  - Logical-Mathematical (via activation, score=0.1330)
+  - Naturalist (via activation, score=0.1157)
+  - Cinestésico-corporal (via activation, score=0.7513)
+  - Lógico-matemática (via activation, score=0.1330)
+  - Naturalista (via activation, score=0.1157)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

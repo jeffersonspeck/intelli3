@@ -1,0 +1,41 @@
+[Documento] urn:doc:13
+  - miVector: 8.32,3.89,6.20,0.00,0.00,4.53,0.00,77.07
+  - TOP (documento): Naturalist (score=0.7707)
+  - Ranking (top 3):
+      • Naturalist: 0.7707
+      • Linguistic: 0.0832
+      • Spatial: 0.0620
+
+[Fragmento] Preparacao: Colecionar figuras coloridas de objetos variados de revistas, como por exemplo blusa, sapato, oculos ou frutas ou ainda animais. Colar essas figuras em cartolina, formando 36 fichas. Em uma caixa, papeizinhos dobrados (tombo- las) com os nomes das figuras.
+  - Interpersonal (via activation, score=0.1494)
+  - Naturalist (via activation, score=0.8506)
+  - Interpessoal (via activation, score=0.1494)
+  - Naturalista (via activation, score=0.8506)
+  - Interpersonal (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Distribuir as figuras entre os participantes e sortcar os papeis com seus no- mes. A crianca que estiver com a figura deve apresenta-la nomeando-a com suas qualidades, observando a concordancia em genero dos substantivos e ad- jetivos. Exemplo: a camisa branca, o pente azul; etc.
+  - Linguistic (via activation, score=0.2746)
+  - Logical-Mathematical (via activation, score=0.1283)
+  - Naturalist (via activation, score=0.3925)
+  - Spatial (via activation, score=0.2045)
+  - Espacial-visual (via activation, score=0.2045)
+  - Linguística (via activation, score=0.2746)
+  - Lógico-matemática (via activation, score=0.1283)
+  - Naturalista (via activation, score=0.3925)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] (Existem diversos analogos no comercio)
+  - Naturalist (via activation, score=1.0000)
+  - Naturalista (via activation, score=1.0000)
+  - Naturalist (via element)
+  - Naturalista (via element)

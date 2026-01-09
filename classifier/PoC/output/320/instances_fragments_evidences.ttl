@@ -1,0 +1,223 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:320#evid-000-00-desenhar-circulos> a onto:Keyword ;
+    rdfs:label "desenhar circulos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:320#evid-000-01-papel-sulfite> a onto:Keyword ;
+    rdfs:label "papel sulfite"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:320#evid-000-02-circulos-folhas> a onto:Keyword ;
+    rdfs:label "circulos folhas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:320#evid-000-03-circulos-folhas> a onto:Keyword ;
+    rdfs:label "circulos folhas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:320#evid-000-04-circulos-folhas> a onto:Keyword ;
+    rdfs:label "circulos folhas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:320#evid-000-05-folhas-papel> a onto:Keyword ;
+    rdfs:label "folhas papel"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:320#evid-000-06-lapis> a onto:Keyword ;
+    rdfs:label "lapis"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:320#evid-000-07-folhas-de-papel-sulfite> a onto:ContextObject ;
+    rdfs:label "folhas de papel sulfite"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:320#evid-001-00-desenhar> a onto:Keyword ;
+    rdfs:label "desenhar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:320#evid-001-01-circulos-olhos> a onto:Keyword ;
+    rdfs:label "circulos olhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:320#evid-001-02-bocas-caras> a onto:Keyword ;
+    rdfs:label "bocas caras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:320#evid-001-03-animo-pessoas> a onto:Keyword ;
+    rdfs:label "animo pessoas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:320#evid-001-04-animo-pessoas> a onto:Keyword ;
+    rdfs:label "animo pessoas"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-001-05-luciana-perdeu> a onto:Keyword ;
+    rdfs:label "luciana perdeu"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-001-06-desenhar-circulos> a onto:Keyword ;
+    rdfs:label "desenhar circulos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:320#evid-001-07-estados-animo> a onto:Keyword ;
+    rdfs:label "estados animo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:320#evid-001-08-estados-animo> a onto:Keyword ;
+    rdfs:label "estados animo"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-001-09-perdeu-amigo> a onto:Keyword ;
+    rdfs:label "perdeu amigo"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-001-10-rosto-luciana> a onto:Keyword ;
+    rdfs:label "rosto luciana"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:320#evid-001-11-nariz> a onto:Keyword ;
+    rdfs:label "nariz"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:320#evid-001-12-triste> a onto:Keyword ;
+    rdfs:label "triste"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-001-13-orelhas> a onto:Keyword ;
+    rdfs:label "orelhas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:320#evid-001-14-os-alunos-devem-desenhar-nos-cir> a onto:DiscursiveStrategy ;
+    rdfs:label "Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:320#evid-001-15-os-alunos-devem-desenhar-nos-cir> a onto:DiscursiveStrategy ;
+    rdfs:label "Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-001-16-circulos> a onto:ContextObject ;
+    rdfs:label "circulos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:320#evid-001-17-faze-lo-segundo-estados-de-animo> a onto:DiscursiveStrategy ;
+    rdfs:label "faze-lo segundo estados de animo das pessoas, relatados pelo professor"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:320#evid-001-18-faze-lo-segundo-estados-de-animo> a onto:DiscursiveStrategy ;
+    rdfs:label "faze-lo segundo estados de animo das pessoas, relatados pelo professor"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-002-00-objetivo-essencial> a onto:Keyword ;
+    rdfs:label "objetivo essencial"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-002-01-proprias-emocoes> a onto:Keyword ;
+    rdfs:label "proprias emocoes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:320#evid-002-02-proprias-emocoes> a onto:Keyword ;
+    rdfs:label "proprias emocoes"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-002-03-perceber> a onto:Keyword ;
+    rdfs:label "perceber"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-002-04-perceber-proprias> a onto:Keyword ;
+    rdfs:label "perceber proprias"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:320#evid-002-05-perceber-proprias> a onto:Keyword ;
+    rdfs:label "perceber proprias"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-002-06-leituras> a onto:Keyword ;
+    rdfs:label "leituras"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-002-07-pessoas> a onto:Keyword ;
+    rdfs:label "pessoas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:320#evid-002-08-sentimentos> a onto:Keyword ;
+    rdfs:label "sentimentos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:320#evid-002-09-sentimentos> a onto:Keyword ;
+    rdfs:label "sentimentos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#evid-002-10-sentimentos> a onto:ContextObject ;
+    rdfs:label "sentimentos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:320#evid-002-11-sentimentos> a onto:ContextObject ;
+    rdfs:label "sentimentos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:320#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Desenhar circulos em folhas de papel sulfite e deixar aos alunos lapis, lapis de cera ou canetas hidrocor."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:320> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:320#evid-000-00-desenhar-circulos>,
+        <urn:doc:320#evid-000-01-papel-sulfite>,
+        <urn:doc:320#evid-000-02-circulos-folhas>,
+        <urn:doc:320#evid-000-03-circulos-folhas>,
+        <urn:doc:320#evid-000-04-circulos-folhas>,
+        <urn:doc:320#evid-000-05-folhas-papel>,
+        <urn:doc:320#evid-000-06-lapis>,
+        <urn:doc:320#evid-000-07-folhas-de-papel-sulfite> .
+
+<urn:doc:320#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras, mas faze-lo segundo estados de animo das pessoas, relatados pelo profes- sor (por exemplo: Luciana perdeu um amigo e esta triste, como seria o rosto de Luciana?), c muitas outras situacoes analogas."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:320> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:320#evid-001-00-desenhar>,
+        <urn:doc:320#evid-001-01-circulos-olhos>,
+        <urn:doc:320#evid-001-02-bocas-caras>,
+        <urn:doc:320#evid-001-03-animo-pessoas>,
+        <urn:doc:320#evid-001-04-animo-pessoas>,
+        <urn:doc:320#evid-001-05-luciana-perdeu>,
+        <urn:doc:320#evid-001-06-desenhar-circulos>,
+        <urn:doc:320#evid-001-07-estados-animo>,
+        <urn:doc:320#evid-001-08-estados-animo>,
+        <urn:doc:320#evid-001-09-perdeu-amigo>,
+        <urn:doc:320#evid-001-10-rosto-luciana>,
+        <urn:doc:320#evid-001-11-nariz>,
+        <urn:doc:320#evid-001-12-triste>,
+        <urn:doc:320#evid-001-13-orelhas>,
+        <urn:doc:320#evid-001-14-os-alunos-devem-desenhar-nos-cir>,
+        <urn:doc:320#evid-001-15-os-alunos-devem-desenhar-nos-cir>,
+        <urn:doc:320#evid-001-16-circulos>,
+        <urn:doc:320#evid-001-17-faze-lo-segundo-estados-de-animo>,
+        <urn:doc:320#evid-001-18-faze-lo-segundo-estados-de-animo> .
+
+<urn:doc:320#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "O objetivo essencial da atividade e levar o aluno a perceber suas proprias emocoes e poder, progressivamente, fazer \"leituras\" de sentimentos em si mesmo e em outras pessoas. Tr cd E da dk : mm J =. E E a ="@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:320> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:320#evid-002-00-objetivo-essencial>,
+        <urn:doc:320#evid-002-01-proprias-emocoes>,
+        <urn:doc:320#evid-002-02-proprias-emocoes>,
+        <urn:doc:320#evid-002-03-perceber>,
+        <urn:doc:320#evid-002-04-perceber-proprias>,
+        <urn:doc:320#evid-002-05-perceber-proprias>,
+        <urn:doc:320#evid-002-06-leituras>,
+        <urn:doc:320#evid-002-07-pessoas>,
+        <urn:doc:320#evid-002-08-sentimentos>,
+        <urn:doc:320#evid-002-09-sentimentos>,
+        <urn:doc:320#evid-002-10-sentimentos>,
+        <urn:doc:320#evid-002-11-sentimentos> .
+
+<urn:doc:320> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:320#frag-000>,
+        <urn:doc:320#frag-001>,
+        <urn:doc:320#frag-002> .
+

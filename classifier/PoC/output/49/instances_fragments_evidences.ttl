@@ -1,0 +1,86 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:49#evid-000-00-diferentes-espessuras> a onto:Keyword ;
+    rdfs:label "diferentes espessuras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-000-01-corda-diferentes> a onto:Keyword ;
+    rdfs:label "corda diferentes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:49#evid-000-02-pedacos-corda> a onto:Keyword ;
+    rdfs:label "pedacos corda"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:49#evid-000-03-comparar-pedacos> a onto:Keyword ;
+    rdfs:label "comparar pedacos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-000-04-pedacos-de-corda-de-diferentes-e> a onto:ContextObject ;
+    rdfs:label "pedacos de corda de diferentes espessuras, lapis e canetas, linhas e las"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:49#evid-001-00-comparar-espessuras> a onto:Keyword ;
+    rdfs:label "comparar espessuras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-001-01-grossos-finos> a onto:Keyword ;
+    rdfs:label "grossos finos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:49#evid-001-02-formar-conjuntos> a onto:Keyword ;
+    rdfs:label "formar conjuntos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-001-03-objetos-grossos> a onto:Keyword ;
+    rdfs:label "objetos grossos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:49#evid-001-04-espessuras-formar> a onto:Keyword ;
+    rdfs:label "espessuras formar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-001-05-conjuntos-objetos> a onto:Keyword ;
+    rdfs:label "conjuntos objetos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-001-06-comparar-espessuras> a onto:DiscursiveStrategy ;
+    rdfs:label "Comparar espessuras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:49#evid-001-07-objetos-grossos-e-finos> a onto:ContextObject ;
+    rdfs:label "objetos grossos e finos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:49#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Pedacos de corda de diferentes espessuras, lapis e canetas, linhas e las. Utilizacao: A tarefa dos alunos e comparar pedacos de corda de diferentes espessuras c indicar a(s) mais grossa(s) e a mais fina. Tentar estimular a especificacao da uti- lidade das cordas grossas e das linhas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:49> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:49#evid-000-00-diferentes-espessuras>,
+        <urn:doc:49#evid-000-01-corda-diferentes>,
+        <urn:doc:49#evid-000-02-pedacos-corda>,
+        <urn:doc:49#evid-000-03-comparar-pedacos>,
+        <urn:doc:49#evid-000-04-pedacos-de-corda-de-diferentes-e> .
+
+<urn:doc:49#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Comparar espessuras e formar conjuntos de objetos grossos e finos. Usar junto com outros jogos. 78"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:49> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:49#evid-001-00-comparar-espessuras>,
+        <urn:doc:49#evid-001-01-grossos-finos>,
+        <urn:doc:49#evid-001-02-formar-conjuntos>,
+        <urn:doc:49#evid-001-03-objetos-grossos>,
+        <urn:doc:49#evid-001-04-espessuras-formar>,
+        <urn:doc:49#evid-001-05-conjuntos-objetos>,
+        <urn:doc:49#evid-001-06-comparar-espessuras>,
+        <urn:doc:49#evid-001-07-objetos-grossos-e-finos> .
+
+<urn:doc:49> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:49#frag-000>,
+        <urn:doc:49#frag-001> .
+

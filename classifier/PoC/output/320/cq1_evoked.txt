@@ -1,0 +1,49 @@
+[Documento] urn:doc:320
+  - miVector: 0.00,10.62,4.52,0.00,17.37,18.30,29.05,20.14
+  - TOP (documento): Intrapersonal (score=0.2905)
+  - Ranking (top 3):
+      • Intrapersonal: 0.2905
+      • Naturalist: 0.2014
+      • Interpersonal: 0.1830
+
+[Fragmento] Preparacao: Desenhar circulos em folhas de papel sulfite e deixar aos alunos lapis, lapis de cera ou canetas hidrocor.
+  - Bodily-Kinesthetic (via activation, score=0.1045)
+  - Logical-Mathematical (via activation, score=0.2696)
+  - Naturalist (via activation, score=0.5112)
+  - Spatial (via activation, score=0.1147)
+  - Cinestésico-corporal (via activation, score=0.1045)
+  - Espacial-visual (via activation, score=0.1147)
+  - Lógico-matemática (via activation, score=0.2696)
+  - Naturalista (via activation, score=0.5112)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras, mas faze-lo segundo estados de animo das pessoas, relatados pelo profes- sor (por exemplo: Luciana perdeu um amigo e esta triste, como seria o rosto de Luciana?), c muitas outras situacoes analogas.
+  - Bodily-Kinesthetic (via activation, score=0.4374)
+  - Interpersonal (via activation, score=0.2147)
+  - Intrapersonal (via activation, score=0.3479)
+  - Cinestésico-corporal (via activation, score=0.4374)
+  - Interpessoal (via activation, score=0.2147)
+  - Intrapessoal (via activation, score=0.3479)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+
+[Fragmento] O objetivo essencial da atividade e levar o aluno a perceber suas proprias emocoes e poder, progressivamente, fazer "leituras" de sentimentos em si mesmo e em outras pessoas. Tr cd E da dk : mm J =. E E a =
+  - Interpersonal (via activation, score=0.3893)
+  - Intrapersonal (via activation, score=0.6107)
+  - Interpessoal (via activation, score=0.3893)
+  - Intrapessoal (via activation, score=0.6107)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)

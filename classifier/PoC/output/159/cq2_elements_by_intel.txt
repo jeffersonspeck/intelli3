@@ -1,0 +1,139 @@
+[Documento] urn:doc:159
+  - miVector: 12.60,19.87,4.64,1.37,10.62,4.18,0.00,46.71
+  - TOP (documento): Naturalist (score=0.4671)
+  - Ranking (top 3):
+      • Naturalist: 0.4671
+      • Logical-Mathematical: 0.1987
+      • Linguistic: 0.1260
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Adquirir em casas de caca e pesca pios de aves em pecas de madeira.
+        • Keyword: caca pesca
+        • Keyword: casas caca
+        • Keyword: levar
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3557
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: descobrir habitat
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1996
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: costumam ser utilizados
+        • Keyword: utilizados cacadores
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1799
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: artigos de caca e pesca
+        • Keyword: artigos caca
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4168
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: comerciam artigos de caca e pesca.
+        • Keyword: comerciam artigos
+        • Keyword: identificar
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5832
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: sons
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0589
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: pios de aves em pecas de madeira
+        • DiscursiveStrategy: Adquirir em casas de caca e pesca pios de aves em pecas de madeira.
+        • Keyword: abrigar progressivo dominio
+        • Keyword: arvores passaros
+        • Keyword: atrair aves
+        • Keyword: aves pecas
+        • Keyword: descobrir habitat
+        • Keyword: diversidade dessas especies
+        • Keyword: especie identificar
+        • Keyword: existam arvores
+        • Keyword: experiencia
+        • Keyword: habitos especie
+        • Keyword: identificar
+        • Keyword: identificar beleza
+        • Keyword: pios podem abrigar
+    - Ativações (doc): n=3, primárias=3, secundárias=0, max=0.8004
+
+
+[Documento — Fragmentos] urn:doc:159
+
+[Fragmento] Preparacao: Adquirir em casas de caca e pesca pios de aves em pecas de madeira. Esses pios costumam ser utilizados por cacadores para atrair aves. Utilizacao: Existe uma enorme multiplicidade para o uso do jogo.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: Adquirir em casas de caca e pesca pios de aves em pecas de madeira.
+        • Keyword: caca pesca
+        • Keyword: casas caca
+    - Ativações:
+        • score=0.3557, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: costumam ser utilizados
+        • Keyword: utilizados cacadores
+    - Ativações:
+        • score=0.1799, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: pios de aves em pecas de madeira
+        • DiscursiveStrategy: Adquirir em casas de caca e pesca pios de aves em pecas de madeira.
+        • Keyword: atrair aves
+        • Keyword: aves pecas
+    - Ativações:
+        • score=0.4644, tipo=Primary
+
+[Fragmento] Os alunos podem, por exemplo, ser levados a descobrir o habitat e os habitos da especie e identifi- car sua beleza.
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: descobrir habitat
+    - Ativações:
+        • score=0.1996, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: descobrir habitat
+        • Keyword: especie identificar
+        • Keyword: habitos especie
+        • Keyword: identificar beleza
+    - Ativações:
+        • score=0.8004, tipo=Primary
+
+[Fragmento] Os pios podem abrigar progressivo dominio da diversidade dessas especies e a experiencia pode, em etapas mais avancadas, levar os alunos a identificar esses e outros sons em uma excursao por um bosque ou mesmo em uma visita a uma praca onde existam arvores e passaros.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: levar
+    - Ativações:
+        • score=0.1011, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: identificar
+    - Ativações:
+        • score=0.0963, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: sons
+    - Ativações:
+        • score=0.0589, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: abrigar progressivo dominio
+        • Keyword: arvores passaros
+        • Keyword: diversidade dessas especies
+        • Keyword: existam arvores
+        • Keyword: experiencia
+        • Keyword: identificar
+        • Keyword: pios podem abrigar
+    - Ativações:
+        • score=0.7436, tipo=Primary
+
+[Fragmento] (Existem pios em lojas que comerciam artigos de caca e pesca.)
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: artigos de caca e pesca
+        • Keyword: artigos caca
+    - Ativações:
+        • score=0.4168, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: comerciam artigos de caca e pesca.
+        • Keyword: comerciam artigos
+    - Ativações:
+        • score=0.5832, tipo=Primary

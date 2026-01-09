@@ -1,0 +1,223 @@
+[Documento] urn:doc:333
+  - miVector: 15.96,5.27,2.46,7.73,2.58,54.66,0.00,11.34
+  - TOP (documento): Interpersonal (score=0.5466)
+  - Ranking (top 3):
+      • Interpersonal: 0.5466
+      • Linguistic: 0.1596
+      • Naturalist: 0.1134
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: matar
+        • Keyword: modelo
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1512
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: abaixo
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1797
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: 3. Quais fatos, ocorridos com outras pessoas, o(a) fazem sofrer sinceramente?
+        • ContextObject: pessoas
+        • ContextObject: quadros emocionais
+        • DiscursiveStrategy: Consegue falar de seus sentimentos para outras pessoas?
+        • DiscursiveStrategy: em situacoes muito tensas, quais costumam ser suas reacoes?
+        • DiscursiveStrategy: identificar os quadros emocionais existentes na classe
+        • DiscursiveStrategy: reage quando ve um amigo ou um adulto perder a calma ce tornar-se agressivo?
+        • DiscursiveStrategy: Voce se acha uma pessoa muito querida em sua casa?
+        • Keyword: ama
+        • Keyword: amo
+        • Keyword: casa
+        • Keyword: consciencia emocional
+        • Keyword: emocional
+        • Keyword: escola
+        • Keyword: estados medo
+        • Keyword: identificar quadros
+        • Keyword: manifestar carinho
+        • Keyword: quadros emocionais existentes
+        • Keyword: quais situacoes vive
+        • Keyword: recurso identificar
+        • Keyword: situacoes vive estados
+        • Keyword: tornar agressivo
+        • Keyword: voce
+        • Keyword: voce acha
+    - Ativações (doc): n=6, primárias=6, secundárias=0, max=1.0000
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Consegue falar de seus sentimentos para outras pessoas?
+        • DiscursiveStrategy: De zero a dez, a nota que dou para minha timidez e...
+        • Keyword: aplicacao questionarios
+        • Keyword: consegue falar
+        • Keyword: nota dou
+        • Keyword: quais circunstancias
+        • Keyword: sentimentos
+    - Ativações (doc): n=4, primárias=1, secundárias=3, max=0.5880
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: perder horas de sono por causa de alguma grande preocupacao?
+        • Keyword: analisados criteriosamente
+        • Keyword: poderiam ser formuladas
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.1727
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Toda vez que tenho que tomar importante decisao, sinto...
+        • Keyword: avaliar consciencia
+        • Keyword: questionarios avaliar
+        • Keyword: tomar importante decisao
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.4120
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: identificar os quadros emocionais existentes na classe
+        • DiscursiveStrategy: Voce seria capaz de matar um animal pequeno, sem qualquer sentimento?
+        • Keyword: animal
+        • Keyword: identificar quadros
+        • Keyword: recurso identificar
+        • Keyword: tambem clareza
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3957
+
+
+[Documento — Fragmentos] urn:doc:333
+
+[Fragmento] Preparacao: A aplicacao de questionarios para avaliar a consciencia emocional do alu- no, desde que analisados criteriosamente, representa excelente recurso para identificar os quadros emocionais existentes na classe.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: quadros emocionais
+        • DiscursiveStrategy: identificar os quadros emocionais existentes na classe
+        • Keyword: consciencia emocional
+        • Keyword: emocional
+        • Keyword: identificar quadros
+        • Keyword: quadros emocionais existentes
+        • Keyword: recurso identificar
+    - Ativações:
+        • score=0.5208, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: aplicacao questionarios
+    - Ativações:
+        • score=0.0549, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: analisados criteriosamente
+    - Ativações:
+        • score=0.0583, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: avaliar consciencia
+        • Keyword: questionarios avaliar
+    - Ativações:
+        • score=0.1521, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: identificar os quadros emocionais existentes na classe
+        • Keyword: identificar quadros
+        • Keyword: recurso identificar
+    - Ativações:
+        • score=0.2139, tipo=Secondary
+
+[Fragmento] Abaixo, o modelo de al- gumas questoes que poderiam ser formuladas, ajustando-as ao nivel etario e ao universo vocabular do aluno: Questoes: |. Como reage quando ve um amigo ou um adulto perder a calma ce tor- nar-se agressivo? 2. Em situacoes muito tensas, quais costumam ser suas reacoes? 3.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: modelo
+    - Ativações:
+        • score=0.1512, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: abaixo
+    - Ativações:
+        • score=0.1797, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: em situacoes muito tensas, quais costumam ser suas reacoes?
+        • DiscursiveStrategy: reage quando ve um amigo ou um adulto perder a calma ce tornar-se agressivo?
+        • Keyword: tornar agressivo
+    - Ativações:
+        • score=0.4964, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: poderiam ser formuladas
+    - Ativações:
+        • score=0.1727, tipo=Secondary
+
+[Fragmento] Quais circunstancias que o deixam inteiramente "fora de si"? 4. Em quais situacoes vive estados de medo? felicidade? tristeza? esperanca? . Na sua opiniao, qual a diferenca entre alegria e felicidade? tel 6. E capaz de perder horas de sono por causa de alguma grande preocupacao? 7.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: estados medo
+        • Keyword: quais situacoes vive
+        • Keyword: situacoes vive estados
+    - Ativações:
+        • score=0.5925, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: quais circunstancias
+    - Ativações:
+        • score=0.2538, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: perder horas de sono por causa de alguma grande preocupacao?
+    - Ativações:
+        • score=0.1538, tipo=Secondary
+
+[Fragmento] Consegue falar de seus sentimentos para outras pessoas? (Quais pes- soas? 3. Quais fatos, ocorridos com outras pessoas, o(a) fazem sofrer sincera- mente? 9. Voce se acha uma pessoa muito querida em sua casa? E na escola? 10. Voce seria capaz de matar um animal pequeno, sem qualquer senti- mento? 11.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: matar
+    - Ativações:
+        • score=0.0371, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: 3. Quais fatos, ocorridos com outras pessoas, o(a) fazem sofrer sinceramente?
+        • ContextObject: pessoas
+        • DiscursiveStrategy: Consegue falar de seus sentimentos para outras pessoas?
+        • DiscursiveStrategy: Voce se acha uma pessoa muito querida em sua casa?
+        • Keyword: casa
+        • Keyword: escola
+        • Keyword: voce
+        • Keyword: voce acha
+    - Ativações:
+        • score=0.5948, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: Consegue falar de seus sentimentos para outras pessoas?
+        • Keyword: consegue falar
+        • Keyword: sentimentos
+    - Ativações:
+        • score=0.2687, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: Voce seria capaz de matar um animal pequeno, sem qualquer sentimento?
+        • Keyword: animal
+    - Ativações:
+        • score=0.0994, tipo=Secondary
+
+[Fragmento] Sei, com clareza, quem cu amo e sei, tambem com clareza, quem me ama? 2.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: ama
+        • Keyword: amo
+    - Ativações:
+        • score=0.6043, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: tambem clareza
+    - Ativações:
+        • score=0.3957, tipo=Secondary
+
+[Fragmento] Como voce nao sabe dizer "nao", muitas vezes faz coisas que detesta? a. De zero a dez, a nota que dou para minha timidez e... | | 14. Situacoes que me deixam muito aborrecido sao as que... 15. Toda vez que tenho que tomar importante decisao, sinto... | A. 6.
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: De zero a dez, a nota que dou para minha timidez e...
+        • Keyword: nota dou
+    - Ativações:
+        • score=0.5880, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: Toda vez que tenho que tomar importante decisao, sinto...
+        • Keyword: tomar importante decisao
+    - Ativações:
+        • score=0.4120, tipo=Secondary
+
+[Fragmento] Como voce sc apresenta ao aceitar e manifestar carinho? 258
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: manifestar carinho
+    - Ativações:
+        • score=1.0000, tipo=Primary

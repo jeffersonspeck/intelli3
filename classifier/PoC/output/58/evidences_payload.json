@@ -1,0 +1,110 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "fixar conceitos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7863161106851209,
+      "relevance": 0.8972602739726028
+    },
+    {
+      "role": "Keyword",
+      "text": "numeracao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7254063046980112,
+      "relevance": 0.819634703196347
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo domino",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.719446053987413,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo domino",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.719446053987413,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "animais pessoas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7037246442217917,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "formatos animais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6688954750368271,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "fixar conceitos sobre sistemas de numeracao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.8972602739726028
+    },
+    {
+      "role": "ContextObject",
+      "text": "jogo de domino",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.995433789954338
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "regras jogo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5038817461344428,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "numero",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6757207202121809,
+      "relevance": 0.9450757575757576
+    },
+    {
+      "role": "Keyword",
+      "text": "seguir regras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.4597293789582453,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8390151515151515
+    },
+    {
+      "role": "ContextObject",
+      "text": "Domino Joaninha, Trimino e outros -- Uki-Uki.",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.5871212121212122
+    }
+  ]
+}

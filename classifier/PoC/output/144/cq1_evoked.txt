@@ -1,0 +1,53 @@
+[Documento] urn:doc:144
+  - miVector: 24.39,21.16,25.29,12.19,11.81,0.00,0.00,5.15
+  - TOP (documento): Spatial (score=0.2529)
+  - Ranking (top 3):
+      • Spatial: 0.2529
+      • Linguistic: 0.2439
+      • Logical-Mathematical: 0.2116
+
+[Fragmento] Preparacao: Oito a dez embalagens de filmes de fotografia, pregos, pedrinhas, grampos, botoes. Formar, duas a duas, embalagens de filme com materiais diferentes. Colar uma letra ou um numero em cada uma das embalagens.
+  - Bodily-Kinesthetic (via activation, score=0.1617)
+  - Logical-Mathematical (via activation, score=0.1964)
+  - Spatial (via activation, score=0.6419)
+  - Cinestésico-corporal (via activation, score=0.1617)
+  - Espacial-visual (via activation, score=0.6419)
+  - Lógico-matemática (via activation, score=0.1964)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Utilizacao: Os alunos, individualmente ou em dupla, devem descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente identificar o som produzido.
+  - Bodily-Kinesthetic (via activation, score=0.1796)
+  - Linguistic (via activation, score=0.1710)
+  - Logical-Mathematical (via activation, score=0.4431)
+  - Musical (via activation, score=0.0362)
+  - Naturalist (via activation, score=0.1701)
+  - Cinestésico-corporal (via activation, score=0.1796)
+  - Linguística (via activation, score=0.1710)
+  - Lógico-matemática (via activation, score=0.4431)
+  - Musical (via activation, score=0.0362)
+  - Naturalista (via activation, score=0.1701)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] Procure depois em outra embalagem que identifica o mesmo som. Existem inumeras etapas para a continuidade do uso do instrumento. O professor deve criar programas diferentes e anotar os resultados obtidos pelos alunos nessas diferentes etapas.
+  - Linguistic (via activation, score=0.6339)
+  - Musical (via activation, score=0.3661)
+  - Linguística (via activation, score=0.6339)
+  - Musical (via activation, score=0.3661)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Linguística (via element)
+  - Musical (via element)

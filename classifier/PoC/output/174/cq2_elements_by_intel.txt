@@ -1,0 +1,102 @@
+[Documento] urn:doc:174
+  - miVector: 8.38,19.05,16.06,8.38,24.40,0.00,0.00,23.72
+  - TOP (documento): Bodily-Kinesthetic (score=0.2440)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2440
+      • Naturalist: 0.2372
+      • Logical-Mathematical: 0.1905
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: caixas plasticas ou embalagens de filmes fotograficos
+        • Keyword: caixas plasticas
+        • Keyword: chocalhando ouvindo
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3569
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: filmes fotograficos
+        • Keyword: pecas pares
+        • Keyword: ser espalhadas
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2243
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: ouvindo som
+        • Keyword: som produzido
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1928
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: filmes fotograficos
+        • Keyword: numero acertos
+        • Keyword: procurar
+        • Keyword: procurar pecas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.2929
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: ouvindo som
+        • Keyword: som produzido
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1928
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros)
+        • Keyword: diferentes elementos
+        • Keyword: preenchidas diferentes
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4197
+
+
+[Documento — Fragmentos] urn:doc:174
+
+[Fragmento] Preparacao: Cinco a seis pares de caixas plasticas ou embalagens de filmes fotograficos, preenchidas com diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros).
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: caixas plasticas ou embalagens de filmes fotograficos
+        • Keyword: caixas plasticas
+    - Ativações:
+        • score=0.3569, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: filmes fotograficos
+    - Ativações:
+        • score=0.1117, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: filmes fotograficos
+    - Ativações:
+        • score=0.1117, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros)
+        • Keyword: diferentes elementos
+        • Keyword: preenchidas diferentes
+    - Ativações:
+        • score=0.4197, tipo=Primary
+
+[Fragmento] Utilizacao: As pecas devem ser espalhadas sobre uma mesa e os alunos devem procu- rar as pecas pares, chocalhando e ouvindo o som produzido. Os alunos podem estar reunidos em duplas e ganha a dupla que obtiver maior numero de acertos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: chocalhando ouvindo
+    - Ativações:
+        • score=0.0973, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: pecas pares
+        • Keyword: ser espalhadas
+    - Ativações:
+        • score=0.2243, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: ouvindo som
+        • Keyword: som produzido
+    - Ativações:
+        • score=0.1928, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: numero acertos
+        • Keyword: procurar
+        • Keyword: procurar pecas
+    - Ativações:
+        • score=0.2929, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: ouvindo som
+        • Keyword: som produzido
+    - Ativações:
+        • score=0.1928, tipo=Secondary

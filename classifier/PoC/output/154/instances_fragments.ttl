@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:154#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "preparacao: A escola, ou o professor, necessita dispor de um surdo e um triangulo, podendo facilmente substituir esses instrumentos por objetos que emitam sons graves (surdo) e agudos (triangulo)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:154> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:154#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos, ao ouvirem os instrumentos, atentamente devem ir sentindo as diferencas de timbre que permitam o desenvolvimento da habilidade de clas- sificar sons graves e sons agudos. 144"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:154> ;
+    dct:type "body" .
+
+<urn:doc:154> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:154#frag-000>,
+        <urn:doc:154#frag-001> .
+

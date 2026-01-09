@@ -1,0 +1,91 @@
+[Documento] urn:doc:51
+  - miVector: 0.00,23.69,5.74,0.00,42.46,4.78,0.00,23.33
+  - TOP (documento): Bodily-Kinesthetic (score=0.4246)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4246
+      • Logical-Mathematical: 0.2369
+      • Naturalist: 0.2333
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: ninhos
+        • Keyword: encaixar ordem
+        • Keyword: formar fileiras
+        • Keyword: ordem ninhos
+        • Keyword: ordenando ninhos
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.7513
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: tampas plasticas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1320
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: comparar os tres tamanhos de tampas para identificar as maiores e as menores
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1099
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: comparar os tres tamanhos de tampas para identificar as maiores e as menores
+        • Keyword: comparar
+        • Keyword: comparar tres
+        • Keyword: tamanho
+        • Keyword: tres tamanhos
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3719
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: comparar os tres tamanhos de tampas para identificar as maiores e as menores
+        • Keyword: encaixar ordem
+        • Keyword: identificar maiores
+        • Keyword: ninhos
+        • Keyword: tampas identificar
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3862
+
+
+[Documento — Fragmentos] urn:doc:51
+
+[Fragmento] Preparacao: Tampas plasticas de tres tamanhos bem diferentes que serao os "ninhos". Utilizacao: Os alunos devem comparar os tres tamanhos de tampas para identificar as maiores e as menores. O professor deve introduzir o conceito de tamanho "me- dio" e solicitar que os alunos as encontrem.
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: tampas plasticas
+    - Ativações:
+        • score=0.1320, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: comparar os tres tamanhos de tampas para identificar as maiores e as menores
+    - Ativações:
+        • score=0.1099, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: comparar os tres tamanhos de tampas para identificar as maiores e as menores
+        • Keyword: comparar
+        • Keyword: comparar tres
+        • Keyword: tres tamanhos
+    - Ativações:
+        • score=0.3719, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: comparar os tres tamanhos de tampas para identificar as maiores e as menores
+        • Keyword: identificar maiores
+        • Keyword: ninhos
+        • Keyword: tampas identificar
+    - Ativações:
+        • score=0.3862, tipo=Primary
+
+[Fragmento] Formar fileiras, ordenando os ninhos segundo seu tamanho. Encaixar em ordem os ninhos menores nos maiores. 79
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: ninhos
+        • Keyword: encaixar ordem
+        • Keyword: formar fileiras
+        • Keyword: ordem ninhos
+        • Keyword: ordenando ninhos
+    - Ativações:
+        • score=0.7513, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: tamanho
+    - Ativações:
+        • score=0.1330, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: encaixar ordem
+    - Ativações:
+        • score=0.1157, tipo=Secondary

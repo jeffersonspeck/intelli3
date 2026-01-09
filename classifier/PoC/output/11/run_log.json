@@ -1,0 +1,114 @@
+{
+  "doc_slug": "11",
+  "source_file": "11.txt",
+  "started_at": "2026-01-08T19:51:03",
+  "steps": {
+    "s1": {
+      "status": "ok",
+      "duration_s": 0.027261,
+      "paragraphs": 3,
+      "output": "s1_output.json"
+    },
+    "s2": {
+      "status": "ok",
+      "duration_s": 0.008043,
+      "fragments": 3,
+      "onto_path": "/home/speck/Python/Intelli3Test/intelli3/ontomi.ttl",
+      "output": "instances_fragments.ttl",
+      "base_ns": "urn:doc:11#",
+      "graph_mode": "instances"
+    },
+    "s3": {
+      "status": "ok",
+      "duration_s": 29.245628,
+      "fragments": 3,
+      "evidences_total": 22,
+      "role_counts": {
+        "keyword": 15,
+        "contextobject": 2,
+        "discursivestrategy": 5
+      },
+      "payload_file": "evidences_payload.json",
+      "output": "instances_fragments_evidences.ttl",
+      "use_llm": true,
+      "link_evokes_intelligence": true
+    },
+    "s4": {
+      "status": "ok",
+      "duration_s": 0.026264,
+      "input_s3_ttl": "instances_fragments_evidences.ttl",
+      "output_ttl": "instances_fragments_activations.ttl",
+      "scores_source": "payload_json",
+      "theta": 0.75,
+      "weights": {
+        "keyword": 1.0,
+        "context_object": 1.25,
+        "discursive_strategy": 1.1
+      },
+      "fragments_total": 3,
+      "fragments_with_scores": 3,
+      "activations_total": 7,
+      "primary_total": 3,
+      "secondary_total": 4,
+      "secondary_linked_total": 3,
+      "scores_json": "scores_by_fragment.json",
+      "payload_json": "evidences_payload.json"
+    },
+    "s5": {
+      "status": "ok",
+      "duration_s": 0.026809,
+      "scope": "both",
+      "norm": "l1",
+      "tau": 1.0,
+      "alpha_title": 1.3,
+      "alpha_body": 1.0,
+      "vec_places": 4,
+      "write_miVector_string": true,
+      "fragment_vectors": 3,
+      "doc_uri": "urn:doc:11",
+      "doc_vector_uri": "urn:doc:11#vec-doc",
+      "miVector_pct": "9.78,37.43,12.35,0.00,0.00,10.04,0.00,30.40",
+      "output": "/home/speck/Python/Intelli3Test/intelli3/output/11/instances_fragments_profile.ttl"
+    },
+    "s6": {
+      "status": "ok",
+      "duration_s": 0.086913,
+      "input": "/home/speck/Python/Intelli3Test/intelli3/output/11/instances_fragments_profile.ttl",
+      "outputs": {
+        "cq1": "cq1_evoked.txt",
+        "cq2": "cq2_elements_by_intel.txt",
+        "cq3": "cq3_top_intelligence.txt"
+      },
+      "cq1": {
+        "rows": 28,
+        "documents": 1,
+        "fragments": 3
+      },
+      "cq2": {
+        "rows": 29,
+        "documents": 1,
+        "fragments": 3
+      },
+      "cq3": {
+        "rows": 7,
+        "documents": 1,
+        "fragments": 3
+      }
+    },
+    "s7": {
+      "status": "ok",
+      "duration_s": 0.227425,
+      "conforms": true,
+      "results_count": 0,
+      "report_ttl": "shacl_report.ttl",
+      "report_txt": "shacl_report.txt",
+      "inference": "rdfs",
+      "advanced": true,
+      "allow_infos": true,
+      "allow_warnings": true
+    }
+  },
+  "doc_id": "urn:doc:11",
+  "ended_at": "2026-01-08T19:51:36",
+  "total_s": 29.650833
+}

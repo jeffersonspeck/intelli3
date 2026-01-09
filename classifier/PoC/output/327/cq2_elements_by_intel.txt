@@ -1,0 +1,103 @@
+[Documento] urn:doc:327
+  - miVector: 5.45,10.57,0.00,0.00,22.12,23.75,0.00,38.10
+  - TOP (documento): Naturalist (score=0.3810)
+  - Ranking (top 3):
+      • Naturalist: 0.3810
+      • Interpersonal: 0.2375
+      • Bodily-Kinesthetic: 0.2212
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: aluno
+        • Keyword: olhem
+        • Keyword: olhem percebam
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5790
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: aluno
+        • Keyword: automotivacao
+        • Keyword: circulo debates
+        • Keyword: descrevendo caracteristicas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3633
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: caracteristicas fisicas
+        • Keyword: descrevendo caracteristicas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1799
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: capacidade administracao
+        • Keyword: descobrir
+        • Keyword: olhos vendados
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2013
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: atividade no heteroconhecimento
+        • Keyword: caracteristicas fisicas
+        • Keyword: percebam detalhes
+        • Keyword: temperamento
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.6367
+
+
+[Documento — Fragmentos] urn:doc:327
+
+[Fragmento] Preparacao: Os alunos devem estar reunidos em uma sala, sentados em circulo. Utilizacao: Depois de solicitar que todos os alunos olhem-se e percebam os detalhes nas rou- pas e, sobretudo, nas expressoes de cada um, solicita que todos tenham seus olhos ven- dados.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: olhem
+        • Keyword: olhem percebam
+    - Ativações:
+        • score=0.5790, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: olhos vendados
+    - Ativações:
+        • score=0.1474, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: percebam detalhes
+    - Ativações:
+        • score=0.2736, tipo=Secondary
+
+[Fragmento] Um aluno, silenciosamente, e retirado da sala pelo professor. A seguir as vendas devem ser tiradas e os alunos devem descobrir quem foi retirado da sala, descrevendo suas caracteristicas fisicas e elementos de seu temperamento, sua automotivacao, capa- cidade de administracao das emocoes e muito mais.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: aluno
+    - Ativações:
+        • score=0.1511, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: aluno
+        • Keyword: automotivacao
+        • Keyword: descrevendo caracteristicas
+    - Ativações:
+        • score=0.3116, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: caracteristicas fisicas
+        • Keyword: descrevendo caracteristicas
+    - Ativações:
+        • score=0.1799, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: capacidade administracao
+        • Keyword: descobrir
+    - Ativações:
+        • score=0.2013, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: caracteristicas fisicas
+        • Keyword: temperamento
+    - Ativações:
+        • score=0.1561, tipo=Secondary
+
+[Fragmento] Um circulo de debates sobre a im- portancia da atividade no heteroconhecimento deve ser estimulada. 253
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: circulo debates
+    - Ativações:
+        • score=0.3633, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: atividade no heteroconhecimento
+    - Ativações:
+        • score=0.6367, tipo=Primary

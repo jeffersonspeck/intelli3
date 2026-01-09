@@ -1,0 +1,119 @@
+[Documento] urn:doc:4
+  - miVector: 11.76,18.62,12.42,4.14,28.42,15.54,0.00,9.11
+  - TOP (documento): Bodily-Kinesthetic (score=0.2842)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2842
+      • Logical-Mathematical: 0.1862
+      • Interpersonal: 0.1554
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: gravuras de revistas
+        • Keyword: crianca nomeando
+        • Keyword: gravuras revistas
+        • Keyword: jogo dominos
+        • Keyword: ser montadas
+        • Keyword: ser seguidas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3879
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: colecao objetos
+        • Keyword: figuras combinadas
+        • Keyword: mesmo tamanho
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1611
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: ajuda criancas
+        • Keyword: organizar colecao
+        • Keyword: selecionando
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.2749
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: crianca nomeando
+        • Keyword: dizendo cor
+        • Keyword: nomeando objetos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2706
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: criando fatos
+        • Keyword: organizar colecao
+        • Keyword: regras
+        • Keyword: utilizando gravuras
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1986
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: regras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0952
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: colecao objetos
+        • Keyword: mesmo tamanho
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1611
+
+
+[Documento — Fragmentos] urn:doc:4
+
+[Fragmento] Preparacao: Utilizando gravuras de revistas, selecionando-as se possivel com a ajuda das criancas, organizar uma colecao de objetos mais ou menos do mesmo tama- nho, como frutas, brinquedos, transportes ou utensilios diversos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: gravuras de revistas
+        • Keyword: gravuras revistas
+    - Ativações:
+        • score=0.2044, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: colecao objetos
+        • Keyword: mesmo tamanho
+    - Ativações:
+        • score=0.1611, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: ajuda criancas
+        • Keyword: organizar colecao
+        • Keyword: selecionando
+    - Ativações:
+        • score=0.2749, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: organizar colecao
+        • Keyword: utilizando gravuras
+    - Ativações:
+        • score=0.1986, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: colecao objetos
+        • Keyword: mesmo tamanho
+    - Ativações:
+        • score=0.1611, tipo=Secondary
+
+[Fragmento] Utilizacao: As pecas devem ser montadas como um Jogo de Dominos (28 pecas com 7 figuras combinadas) e suas regras devem ser seguidas com a crianca nomeando os objetos, dizendo sua cor, ou criando fatos sobre os mesmos. (Existem analogos no comercio).
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: crianca nomeando
+        • Keyword: jogo dominos
+        • Keyword: ser montadas
+        • Keyword: ser seguidas
+    - Ativações:
+        • score=0.3879, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: figuras combinadas
+    - Ativações:
+        • score=0.0762, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: crianca nomeando
+        • Keyword: dizendo cor
+        • Keyword: nomeando objetos
+    - Ativações:
+        • score=0.2706, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: criando fatos
+        • Keyword: regras
+    - Ativações:
+        • score=0.1701, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: regras
+    - Ativações:
+        • score=0.0952, tipo=Secondary

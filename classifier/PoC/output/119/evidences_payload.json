@@ -1,0 +1,208 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "branca quadriculado",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7792623400512577,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "casas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7104095200489644,
+      "relevance": 0.8645418326693227
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.701518557697906,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "cores diferentes triangulos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6704677234290609,
+      "relevance": 0.6374501992031872
+    },
+    {
+      "role": "Keyword",
+      "text": "cores diferentes triangulos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6704677234290609,
+      "relevance": 0.6374501992031872
+    },
+    {
+      "role": "Keyword",
+      "text": "losangos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6638320680185168,
+      "relevance": 0.5796812749003983
+    },
+    {
+      "role": "Keyword",
+      "text": "hexagonos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6638320680185168,
+      "relevance": 0.5597609561752988
+    },
+    {
+      "role": "Keyword",
+      "text": "recortando cores",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6430950200421586,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "caibam nessas casas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6104367375300064,
+      "relevance": 0.7071713147410359
+    },
+    {
+      "role": "Keyword",
+      "text": "colorida produzir figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.4404069885090744,
+      "relevance": 0.7908366533864541
+    },
+    {
+      "role": "Keyword",
+      "text": "produzir figuras geometricas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.4404069885090744,
+      "relevance": 0.7729083665338645
+    },
+    {
+      "role": "Keyword",
+      "text": "produzir figuras geometricas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.4404069885090744,
+      "relevance": 0.7729083665338645
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "explicar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7841654327015576,
+      "relevance": 0.9662698412698413
+    },
+    {
+      "role": "Keyword",
+      "text": "explicar regras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7841654327015576,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "regras jogo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5663417013955693,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "sequencias pretende",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7412913270252462,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "organizar sequencias logicas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7388018428383665,
+      "relevance": 0.7400793650793651
+    },
+    {
+      "role": "Keyword",
+      "text": "organizar sequencias logicas",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7388018428383665,
+      "relevance": 0.7400793650793651
+    },
+    {
+      "role": "Keyword",
+      "text": "determinar sequencias",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7132833827245436,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colocando casa",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6964565530602935,
+      "relevance": 0.75
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "ordenar figuras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.8313253012048193
+    },
+    {
+      "role": "Keyword",
+      "text": "sequencia solicitada",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5703374137860785,
+      "relevance": 0.7168674698795181
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras sequencia",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "ordenar figuras na sequencia solicitada pelo professor",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8313253012048193
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.7831325301204819
+    }
+  ]
+}

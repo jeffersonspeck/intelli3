@@ -1,0 +1,62 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "gravar naturais sons",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.4945471528204366,
+      "relevance": 0.6373056994818653
+    },
+    {
+      "role": "Keyword",
+      "text": "naturais sons anotando",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6847575962129121,
+      "relevance": 0.6191709844559585
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "estabeleca trocas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.8604651162790697
+    },
+    {
+      "role": "Keyword",
+      "text": "sons natural",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "invente jogos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.7790697674418605
+    },
+    {
+      "role": "Keyword",
+      "text": "trocas invente",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "conferir sons",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[Documento] urn:doc:326
+  - miVector: 14.62,7.44,0.00,0.00,8.81,55.69,9.11,4.33
+  - TOP (documento): Interpersonal (score=0.5569)
+  - Ranking (top 3):
+      • Interpersonal: 0.5569
+      • Linguistic: 0.1462
+      • Intrapersonal: 0.0911
+
+
+[Documento — Fragmentos] urn:doc:326
+
+[Fragmento] Preparacao: Pedacos de cartolina e alfinetes para que os crachas sejam fixados na blusa. Utilizacao: Os alunos devem confeccionar crachas onde, alem do nome e da maneira como gostariam de ser chamados, escrevam algumas sentencas que expressem seus gostos e seus sentimentos.
+  > TOP: Interpessoal (score=0.6117, tipo=Primary)
+
+[Fragmento] Exemplo: a) Nome...; b) Gosto de ser chamado de...; c) Fico contente sempre que...; d) Nada me aborrece mais que...; e) Meu maior sonho na vida e... Esses crachas devem ser usados em uma atividade pouco rotineira ou mesmo em um dia especifico e os alunos devem circular pela sala com os mesmos.
+  > TOP: Interpessoal (score=0.3440, tipo=Primary)
+
+[Fragmento] Ao final e indispensavel um circulo de debates, onde cada aluno expresse sua impressao sobre a atividade e, principalmente, revele suas descobertas. O professor nao deve permi- tir que nas aulas seguintes os elementos dessa atividade sejam esquecidos.
+  > TOP: Linguística (score=0.4019, tipo=Primary)
+
+[Fragmento] Deve ser um ponto de maior aprofundamento interpessoal dos alunos e como tal ser conti-
+  > TOP: Interpessoal (score=1.0000, tipo=Primary)

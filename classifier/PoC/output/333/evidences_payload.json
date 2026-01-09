@@ -1,0 +1,392 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "quadros emocionais existentes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8065686800181532,
+      "relevance": 0.5985221674876847
+    },
+    {
+      "role": "Keyword",
+      "text": "analisados criteriosamente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5761385165073614,
+      "relevance": 0.7881773399014779
+    },
+    {
+      "role": "Keyword",
+      "text": "emocional",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.8620689655172413
+    },
+    {
+      "role": "Keyword",
+      "text": "consciencia emocional",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.8916256157635468
+    },
+    {
+      "role": "Keyword",
+      "text": "aplicacao questionarios",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5703374137860785,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "questionarios avaliar",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "avaliar consciencia",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "recurso identificar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "recurso identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar quadros",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar quadros",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "identificar os quadros emocionais existentes na classe",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.6354679802955665
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "identificar os quadros emocionais existentes na classe",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.6354679802955665
+    },
+    {
+      "role": "ContextObject",
+      "text": "quadros emocionais",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.5985221674876847
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "poderiam ser formuladas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5591823545002177,
+      "relevance": 0.9290657439446367
+    },
+    {
+      "role": "Keyword",
+      "text": "abaixo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.54062196870161,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "modelo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.4630118948086328,
+      "relevance": 0.9826989619377162
+    },
+    {
+      "role": "Keyword",
+      "text": "tornar agressivo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.625393876299975,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "reage quando ve um amigo ou um adulto perder a calma ce tornar-se agressivo?",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.745674740484429
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "em situacoes muito tensas, quais costumam ser suas reacoes?",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.6072664359861591
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "quais circunstancias",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.764660900617597,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "quais situacoes vive",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7438943598638567,
+      "relevance": 0.8812056737588653
+    },
+    {
+      "role": "Keyword",
+      "text": "situacoes vive estados",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7103872087648824,
+      "relevance": 0.8705673758865249
+    },
+    {
+      "role": "Keyword",
+      "text": "estados medo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6815793507973725,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "perder horas de sono por causa de alguma grande preocupacao?",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.6117021276595744
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "consegue falar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7716548897830086,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "voce",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.695156210473264,
+      "relevance": 0.7397959183673469
+    },
+    {
+      "role": "Keyword",
+      "text": "voce acha",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.5397561213164003,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "casa",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.50926221407159,
+      "relevance": 0.6632653061224489
+    },
+    {
+      "role": "Keyword",
+      "text": "escola",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.4993477470936902,
+      "relevance": 0.6445578231292517
+    },
+    {
+      "role": "Keyword",
+      "text": "sentimentos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.49753060601198834,
+      "relevance": 0.9608843537414966
+    },
+    {
+      "role": "Keyword",
+      "text": "matar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.470174596159196,
+      "relevance": 0.5901360544217686
+    },
+    {
+      "role": "Keyword",
+      "text": "animal",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.470174596159196,
+      "relevance": 0.5748299319727892
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Consegue falar de seus sentimentos para outras pessoas?",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Consegue falar de seus sentimentos para outras pessoas?",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "pessoas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9200680272108843
+    },
+    {
+      "role": "ContextObject",
+      "text": "3. Quais fatos, ocorridos com outras pessoas, o(a) fazem sofrer sinceramente?",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8775510204081632
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Voce se acha uma pessoa muito querida em sua casa?",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.7397959183673469
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Voce seria capaz de matar um animal pequeno, sem qualquer sentimento?",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.6241496598639455
+    }
+  ],
+  "4": [
+    {
+      "role": "Keyword",
+      "text": "tambem clareza",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7953804262835749,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ama",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6970412920819656,
+      "relevance": 0.5486111111111112
+    },
+    {
+      "role": "Keyword",
+      "text": "amo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6449819375824218,
+      "relevance": 0.8194444444444444
+    }
+  ],
+  "5": [
+    {
+      "role": "Keyword",
+      "text": "nota dou",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6858709886787677,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tomar importante decisao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.589938022414441,
+      "relevance": 0.5813953488372092
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "De zero a dez, a nota que dou para minha timidez e...",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.8604651162790697
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Toda vez que tenho que tomar importante decisao, sinto...",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.625968992248062
+    }
+  ],
+  "6": [
+    {
+      "role": "Keyword",
+      "text": "manifestar carinho",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.751413136199976,
+      "relevance": 0.6949152542372881
+    }
+  ]
+}

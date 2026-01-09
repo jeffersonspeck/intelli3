@@ -1,0 +1,84 @@
+[Documento] urn:doc:157
+  - miVector: 4.30,3.48,0.00,42.34,3.50,6.98,0.00,39.39
+  - TOP (documento): Musical (score=0.4234)
+  - Ranking (top 3):
+      • Musical: 0.4234
+      • Naturalist: 0.3939
+      • Interpersonal: 0.0698
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: desenvolvendo entonacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1154
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: compreensao diferencas
+        • Keyword: desenvolvendo entonacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2303
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: descobrir
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1420
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: compreensao diferencas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1150
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: audicao instrumentos
+        • Keyword: musicais pela audicao
+        • Keyword: notas musicais
+        • Keyword: utiliza
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=1.0000
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: placas
+        • Keyword: placas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=1.0000
+
+
+[Documento — Fragmentos] urn:doc:157
+
+[Fragmento] Preparacao: A atividade utiliza um xilofone pequeno, que pode ser improvisado com uma caixa de madeira e placas tambem de madeira removiveis. Duas baquetas com pontas arredondadas.
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: utiliza
+    - Ativações:
+        • score=1.0000, tipo=Primary
+
+[Fragmento] Utilizacao: Os alunos devem "descobrir" as notas musicais pela audicao dos instru- mentos com a introducao, uma a uma, das placas na superficie da caixa, desenvolvendo a entonacao e a compreensao das diferencas entre cada uma das notas musicais.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: desenvolvendo entonacao
+    - Ativações:
+        • score=0.1154, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: compreensao diferencas
+        • Keyword: desenvolvendo entonacao
+    - Ativações:
+        • score=0.2303, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: descobrir
+    - Ativações:
+        • score=0.1420, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: compreensao diferencas
+    - Ativações:
+        • score=0.1150, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: audicao instrumentos
+        • Keyword: musicais pela audicao
+        • Keyword: notas musicais
+    - Ativações:
+        • score=0.3974, tipo=Primary
+
+[Fragmento] Em etapas posteriores, as placas podem ir sendo introduzidas duas a duas e assim progressivamente.
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: placas
+        • Keyword: placas
+    - Ativações:
+        • score=1.0000, tipo=Primary

@@ -1,0 +1,153 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:119#evid-000-00-branca-quadriculado> a onto:Keyword ;
+    rdfs:label "branca quadriculado"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:119#evid-000-01-casas> a onto:Keyword ;
+    rdfs:label "casas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:119#evid-000-02-preparar> a onto:Keyword ;
+    rdfs:label "preparar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:119#evid-000-03-cores-diferentes-triangulos> a onto:Keyword ;
+    rdfs:label "cores diferentes triangulos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:119#evid-000-04-cores-diferentes-triangulos> a onto:Keyword ;
+    rdfs:label "cores diferentes triangulos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:119#evid-000-05-losangos> a onto:Keyword ;
+    rdfs:label "losangos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:119#evid-000-06-hexagonos> a onto:Keyword ;
+    rdfs:label "hexagonos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:119#evid-000-07-recortando-cores> a onto:Keyword ;
+    rdfs:label "recortando cores"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:119#evid-000-08-caibam-nessas-casas> a onto:Keyword ;
+    rdfs:label "caibam nessas casas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:119#evid-000-09-colorida-produzir-figuras> a onto:Keyword ;
+    rdfs:label "colorida produzir figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:119#evid-000-10-produzir-figuras-geometricas> a onto:Keyword ;
+    rdfs:label "produzir figuras geometricas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:119#evid-000-11-produzir-figuras-geometricas> a onto:Keyword ;
+    rdfs:label "produzir figuras geometricas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:119#evid-001-00-explicar> a onto:Keyword ;
+    rdfs:label "explicar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:119#evid-001-01-explicar-regras> a onto:Keyword ;
+    rdfs:label "explicar regras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:119#evid-001-02-regras-jogo> a onto:Keyword ;
+    rdfs:label "regras jogo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:119#evid-001-03-sequencias-pretende> a onto:Keyword ;
+    rdfs:label "sequencias pretende"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:119#evid-001-04-organizar-sequencias-logicas> a onto:Keyword ;
+    rdfs:label "organizar sequencias logicas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:119#evid-001-05-organizar-sequencias-logicas> a onto:Keyword ;
+    rdfs:label "organizar sequencias logicas"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:119#evid-001-06-determinar-sequencias> a onto:Keyword ;
+    rdfs:label "determinar sequencias"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:119#evid-001-07-colocando-casa> a onto:Keyword ;
+    rdfs:label "colocando casa"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:119#evid-002-00-ordenar-figuras> a onto:Keyword ;
+    rdfs:label "ordenar figuras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:119#evid-002-01-sequencia-solicitada> a onto:Keyword ;
+    rdfs:label "sequencia solicitada"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:119#evid-002-02-figuras-sequencia> a onto:Keyword ;
+    rdfs:label "figuras sequencia"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:119#evid-002-03-ordenar-figuras-na-sequencia-sol> a onto:DiscursiveStrategy ;
+    rdfs:label "ordenar figuras na sequencia solicitada pelo professor"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:119#evid-002-04-figuras> a onto:ContextObject ;
+    rdfs:label "figuras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:119#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar em uma cartolina branca um quadriculado (5cm x 5cm) com 25 casas. Com papel-cartao ou cartolina colorida produzir figuras geometricas que caibam nessas casas, recortando em cores diferentes triangulos, losangos, hexago- nos, quadrados e outros."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:119> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:119#evid-000-00-branca-quadriculado>,
+        <urn:doc:119#evid-000-01-casas>,
+        <urn:doc:119#evid-000-02-preparar>,
+        <urn:doc:119#evid-000-03-cores-diferentes-triangulos>,
+        <urn:doc:119#evid-000-04-cores-diferentes-triangulos>,
+        <urn:doc:119#evid-000-05-losangos>,
+        <urn:doc:119#evid-000-06-hexagonos>,
+        <urn:doc:119#evid-000-07-recortando-cores>,
+        <urn:doc:119#evid-000-08-caibam-nessas-casas>,
+        <urn:doc:119#evid-000-09-colorida-produzir-figuras>,
+        <urn:doc:119#evid-000-10-produzir-figuras-geometricas>,
+        <urn:doc:119#evid-000-11-produzir-figuras-geometricas> .
+
+<urn:doc:119#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor deve explicar as regras do jogo para os alunos e determinar as sequencias que pretende. Em etapas mais avancadas, pode organizar sequencias logicas em que falta uma peca e solicitar ao aluno que a encontre, colocando na casa correspondente."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:119> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:119#evid-001-00-explicar>,
+        <urn:doc:119#evid-001-01-explicar-regras>,
+        <urn:doc:119#evid-001-02-regras-jogo>,
+        <urn:doc:119#evid-001-03-sequencias-pretende>,
+        <urn:doc:119#evid-001-04-organizar-sequencias-logicas>,
+        <urn:doc:119#evid-001-05-organizar-sequencias-logicas>,
+        <urn:doc:119#evid-001-06-determinar-sequencias>,
+        <urn:doc:119#evid-001-07-colocando-casa> .
+
+<urn:doc:119#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "A tarefa do aluno sera a de ordenar figuras na sequencia solicitada pelo professor."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:119> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:119#evid-002-00-ordenar-figuras>,
+        <urn:doc:119#evid-002-01-sequencia-solicitada>,
+        <urn:doc:119#evid-002-02-figuras-sequencia>,
+        <urn:doc:119#evid-002-03-ordenar-figuras-na-sequencia-sol>,
+        <urn:doc:119#evid-002-04-figuras> .
+
+<urn:doc:119> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:119#frag-000>,
+        <urn:doc:119#frag-001>,
+        <urn:doc:119#frag-002> .
+

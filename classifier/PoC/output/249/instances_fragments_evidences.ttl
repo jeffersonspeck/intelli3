@@ -1,0 +1,133 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:249#evid-000-00-antecipadamente-planejadas> a onto:Keyword ;
+    rdfs:label "antecipadamente planejadas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:249#evid-000-01-executarem-antecipadamente> a onto:Keyword ;
+    rdfs:label "executarem antecipadamente"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:249#evid-000-02-verdadeira-gincana> a onto:Keyword ;
+    rdfs:label "verdadeira gincana"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:249#evid-000-03-executarem-tarefas-antecipadamen> a onto:DiscursiveStrategy ;
+    rdfs:label "executarem tarefas antecipadamente planejadas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:249#evid-000-04-executarem-tarefas-antecipadamen> a onto:DiscursiveStrategy ;
+    rdfs:label "executarem tarefas antecipadamente planejadas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:249#evid-000-05-gincana-de-atividades> a onto:ContextObject ;
+    rdfs:label "gincana de atividades"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:249#evid-001-00-saltara-cercas-inexistentes> a onto:Keyword ;
+    rdfs:label "saltara cercas inexistentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:249#evid-001-01-procurara-tesouros-ocultos> a onto:Keyword ;
+    rdfs:label "procurara tesouros ocultos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:249#evid-001-02-percorrera-interessante-caminho> a onto:Keyword ;
+    rdfs:label "percorrera interessante caminho"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:249#evid-001-03-interessante-caminho-estimulando> a onto:Keyword ;
+    rdfs:label "interessante caminho estimulando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:249#evid-001-04-rios-imaginarios> a onto:Keyword ;
+    rdfs:label "rios imaginarios"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:249#evid-001-05-remara-rios> a onto:Keyword ;
+    rdfs:label "remara rios"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:249#evid-001-06-remara-rios> a onto:Keyword ;
+    rdfs:label "remara rios"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:249#evid-001-07-naturalista> a onto:Keyword ;
+    rdfs:label "naturalista"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:249#evid-001-08-imaginacao-naturalista> a onto:Keyword ;
+    rdfs:label "imaginacao naturalista"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:249#evid-001-09-estimulando-motricidade> a onto:Keyword ;
+    rdfs:label "estimulando motricidade"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:249#evid-001-10-motricidade-soltando> a onto:Keyword ;
+    rdfs:label "motricidade soltando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:249#evid-002-00-jogo-depende> a onto:Keyword ;
+    rdfs:label "jogo depende"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:249#evid-002-01-sucesso-jogo> a onto:Keyword ;
+    rdfs:label "sucesso jogo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:249#evid-002-02-depende-capacidade> a onto:Keyword ;
+    rdfs:label "depende capacidade"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:249#evid-002-03-aventuras> a onto:Keyword ;
+    rdfs:label "aventuras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:249#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: E indispensavel darmos oportunidade aos alunos de executarem tarefas an- tecipadamente planejadas. O professor deve idealizar uma verdadeira gincana de atividades e cumprindo-as deve solicitar aos alunos que o facam."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:249> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:249#evid-000-00-antecipadamente-planejadas>,
+        <urn:doc:249#evid-000-01-executarem-antecipadamente>,
+        <urn:doc:249#evid-000-02-verdadeira-gincana>,
+        <urn:doc:249#evid-000-03-executarem-tarefas-antecipadamen>,
+        <urn:doc:249#evid-000-04-executarem-tarefas-antecipadamen>,
+        <urn:doc:249#evid-000-05-gincana-de-atividades> .
+
+<urn:doc:249#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor sera o \"mestre\" e executara a gincana estabelecida (saltara cer- cas inexistentes, remara por rios imaginarios, procurara tesouros ocultos) e as- sim percorrera interessante caminho estimulando a motricidade e soltando a imaginacao naturalista dos alunos."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:249> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:249#evid-001-00-saltara-cercas-inexistentes>,
+        <urn:doc:249#evid-001-01-procurara-tesouros-ocultos>,
+        <urn:doc:249#evid-001-02-percorrera-interessante-caminho>,
+        <urn:doc:249#evid-001-03-interessante-caminho-estimulando>,
+        <urn:doc:249#evid-001-04-rios-imaginarios>,
+        <urn:doc:249#evid-001-05-remara-rios>,
+        <urn:doc:249#evid-001-06-remara-rios>,
+        <urn:doc:249#evid-001-07-naturalista>,
+        <urn:doc:249#evid-001-08-imaginacao-naturalista>,
+        <urn:doc:249#evid-001-09-estimulando-motricidade>,
+        <urn:doc:249#evid-001-10-motricidade-soltando> .
+
+<urn:doc:249#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "O sucesso do jogo depende da capacidade do professor em levar o aluno a partilhar dessas \"aventuras\". 200"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:249> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:249#evid-002-00-jogo-depende>,
+        <urn:doc:249#evid-002-01-sucesso-jogo>,
+        <urn:doc:249#evid-002-02-depende-capacidade>,
+        <urn:doc:249#evid-002-03-aventuras> .
+
+<urn:doc:249> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:249#frag-000>,
+        <urn:doc:249#frag-001>,
+        <urn:doc:249#frag-002> .
+

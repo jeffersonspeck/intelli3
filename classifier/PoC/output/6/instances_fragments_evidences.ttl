@@ -1,0 +1,242 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:6#evid-000-00-reunir> a onto:Keyword ;
+    rdfs:label "reunir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:6#evid-000-01-variedade-revistas> a onto:Keyword ;
+    rdfs:label "variedade revistas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:6#evid-000-02-variedade-revistas> a onto:Keyword ;
+    rdfs:label "variedade revistas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:6#evid-001-00-raciocinio-dedutivo> a onto:Keyword ;
+    rdfs:label "raciocinio dedutivo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:6#evid-001-01-nao-sabem-ler> a onto:Keyword ;
+    rdfs:label "nao sabem ler"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-001-02-sentido-historia> a onto:Keyword ;
+    rdfs:label "sentido historia"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-001-03-sentido-historia> a onto:Keyword ;
+    rdfs:label "sentido historia"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:6#evid-001-04-buscar-sentido> a onto:Keyword ;
+    rdfs:label "buscar sentido"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:6#evid-001-05-observar-ilustracoes> a onto:Keyword ;
+    rdfs:label "observar ilustracoes"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:6#evid-001-06-observar-ilustracoes> a onto:Keyword ;
+    rdfs:label "observar ilustracoes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:6#evid-001-07-ilustracoes-buscar> a onto:Keyword ;
+    rdfs:label "ilustracoes buscar"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:6#evid-001-08-observar-as-ilustracoes-e-buscar> a onto:DiscursiveStrategy ;
+    rdfs:label "observar as ilustracoes e buscar sentido na historia"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:6#evid-001-09-observar-as-ilustracoes-e-buscar> a onto:DiscursiveStrategy ;
+    rdfs:label "observar as ilustracoes e buscar sentido na historia"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:6#evid-001-10-observar-as-ilustracoes-e-buscar> a onto:DiscursiveStrategy ;
+    rdfs:label "observar as ilustracoes e buscar sentido na historia"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:6#evid-002-00-mostrar-passos> a onto:Keyword ;
+    rdfs:label "mostrar passos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-002-01-mostrar-passos> a onto:Keyword ;
+    rdfs:label "mostrar passos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:6#evid-002-02-iniciar-contato> a onto:Keyword ;
+    rdfs:label "iniciar contato"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:6#evid-002-03-interpretacao-sao> a onto:Keyword ;
+    rdfs:label "interpretacao sao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:6#evid-002-04-deve-iniciar-o-contato-do-aluno-> a onto:DiscursiveStrategy ;
+    rdfs:label "Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-002-05-deve-iniciar-o-contato-do-aluno-> a onto:DiscursiveStrategy ;
+    rdfs:label "Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:6#evid-003-00-graficos-palavras> a onto:Keyword ;
+    rdfs:label "graficos palavras"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-003-01-elementos-pictoricos> a onto:Keyword ;
+    rdfs:label "elementos pictoricos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:6#evid-003-02-simbolos-graficos> a onto:Keyword ;
+    rdfs:label "simbolos graficos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-003-03-simbolos-graficos> a onto:Keyword ;
+    rdfs:label "simbolos graficos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:6#evid-003-04-pictoricos-ilustracao> a onto:Keyword ;
+    rdfs:label "pictoricos ilustracao"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:6#evid-003-05-leitura> a onto:Keyword ;
+    rdfs:label "leitura"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:6#evid-003-06-gibis> a onto:ContextObject ;
+    rdfs:label "gibis"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:6#evid-004-00-quadrinhos-antecipadamente-desor> a onto:Keyword ;
+    rdfs:label "quadrinhos antecipadamente desordenados"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:6#evid-004-01-transformem-historias-originais> a onto:Keyword ;
+    rdfs:label "transformem historias originais"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:6#evid-004-02-transformem-historias-originais> a onto:Keyword ;
+    rdfs:label "transformem historias originais"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:6#evid-004-03-criando-personagens> a onto:Keyword ;
+    rdfs:label "criando personagens"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:6#evid-004-04-desenvolvendo-argumentos> a onto:Keyword ;
+    rdfs:label "desenvolvendo argumentos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:6#evid-004-05-desenvolvendo-argumentos> a onto:Keyword ;
+    rdfs:label "desenvolvendo argumentos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:6#evid-004-06-proprios-gibis> a onto:Keyword ;
+    rdfs:label "proprios gibis"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:6#evid-004-07-estabelecendo-roteiros> a onto:Keyword ;
+    rdfs:label "estabelecendo roteiros"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:6#evid-004-08-conteudo-ligado> a onto:Keyword ;
+    rdfs:label "conteudo ligado"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:6#evid-004-09-colocacao-ordem> a onto:Keyword ;
+    rdfs:label "colocacao ordem"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:6#evid-004-10-construam-proprios> a onto:Keyword ;
+    rdfs:label "construam proprios"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:6#evid-004-11-roteiros-completando> a onto:Keyword ;
+    rdfs:label "roteiros completando"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:6#evid-004-12-estimulando> a onto:Keyword ;
+    rdfs:label "estimulando"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:6#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor deve reunir uma grande variedade de revistas de historias em quadrinhos ou tiras de historias publicadas em jornal."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:6> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:6#evid-000-00-reunir>,
+        <urn:doc:6#evid-000-01-variedade-revistas>,
+        <urn:doc:6#evid-000-02-variedade-revistas> .
+
+<urn:doc:6#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Com alunos que ainda nao sabem ler, o professor deve estimular o racioci- nio dedutivo, estimulando o aluno a observar as ilustracoes e buscar sentido na historia."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:6> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:6#evid-001-00-raciocinio-dedutivo>,
+        <urn:doc:6#evid-001-01-nao-sabem-ler>,
+        <urn:doc:6#evid-001-02-sentido-historia>,
+        <urn:doc:6#evid-001-03-sentido-historia>,
+        <urn:doc:6#evid-001-04-buscar-sentido>,
+        <urn:doc:6#evid-001-05-observar-ilustracoes>,
+        <urn:doc:6#evid-001-06-observar-ilustracoes>,
+        <urn:doc:6#evid-001-07-ilustracoes-buscar>,
+        <urn:doc:6#evid-001-08-observar-as-ilustracoes-e-buscar>,
+        <urn:doc:6#evid-001-09-observar-as-ilustracoes-e-buscar>,
+        <urn:doc:6#evid-001-10-observar-as-ilustracoes-e-buscar> .
+
+<urn:doc:6#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao que sao obvios para alunos maiores. Por exemplo: que toda leitura se faz da esquerda para a direita e de cima para baixo."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:6> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:6#evid-002-00-mostrar-passos>,
+        <urn:doc:6#evid-002-01-mostrar-passos>,
+        <urn:doc:6#evid-002-02-iniciar-contato>,
+        <urn:doc:6#evid-002-03-interpretacao-sao>,
+        <urn:doc:6#evid-002-04-deve-iniciar-o-contato-do-aluno->,
+        <urn:doc:6#evid-002-05-deve-iniciar-o-contato-do-aluno-> .
+
+<urn:doc:6#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Para alunos que fazem a leitura, os gibis sao estimulos para a associacao en- tre os elementos pictoricos da ilustracao e os simbolos graficos das palavras."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:6> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:6#evid-003-00-graficos-palavras>,
+        <urn:doc:6#evid-003-01-elementos-pictoricos>,
+        <urn:doc:6#evid-003-02-simbolos-graficos>,
+        <urn:doc:6#evid-003-03-simbolos-graficos>,
+        <urn:doc:6#evid-003-04-pictoricos-ilustracao>,
+        <urn:doc:6#evid-003-05-leitura>,
+        <urn:doc:6#evid-003-06-gibis> .
+
+<urn:doc:6#frag-004> a onto:ExplanationFragment ;
+    rdfs:label "Inumeros jogos podem ser propostos, apagando-se baloes, sugerindo a coloca- cao em ordem dos quadrinhos antecipadamente desordenados, orientando os alunos para que transformem historias originais por outras de conteudo ligado ao que e aprendido e, finalmente, estimulando os grupos de alunos para que construam seus proprios gibis, criando personagens, desenvolvendo argumen- tos, estabelecendo roteiros e completando a arte final."@pt ;
+    dct:identifier 4 ;
+    dct:isPartOf <urn:doc:6> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:6#evid-004-00-quadrinhos-antecipadamente-desor>,
+        <urn:doc:6#evid-004-01-transformem-historias-originais>,
+        <urn:doc:6#evid-004-02-transformem-historias-originais>,
+        <urn:doc:6#evid-004-03-criando-personagens>,
+        <urn:doc:6#evid-004-04-desenvolvendo-argumentos>,
+        <urn:doc:6#evid-004-05-desenvolvendo-argumentos>,
+        <urn:doc:6#evid-004-06-proprios-gibis>,
+        <urn:doc:6#evid-004-07-estabelecendo-roteiros>,
+        <urn:doc:6#evid-004-08-conteudo-ligado>,
+        <urn:doc:6#evid-004-09-colocacao-ordem>,
+        <urn:doc:6#evid-004-10-construam-proprios>,
+        <urn:doc:6#evid-004-11-roteiros-completando>,
+        <urn:doc:6#evid-004-12-estimulando> .
+
+<urn:doc:6> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:6#frag-000>,
+        <urn:doc:6#frag-001>,
+        <urn:doc:6#frag-002>,
+        <urn:doc:6#frag-003>,
+        <urn:doc:6#frag-004> .
+

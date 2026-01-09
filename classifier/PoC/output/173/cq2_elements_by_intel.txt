@@ -1,0 +1,144 @@
+[Documento] urn:doc:173
+  - miVector: 0.00,35.61,0.00,1.55,29.05,6.96,4.30,22.53
+  - TOP (documento): Logical-Mathematical (score=0.3561)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3561
+      • Bodily-Kinesthetic: 0.2905
+      • Naturalist: 0.2253
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colorida, passar dois fios de cerca de tres metros de comp…
+        • Keyword: abrindo bracos
+        • Keyword: argolas extremidades
+        • Keyword: arremessando objeto
+        • Keyword: bracos arremessando
+        • Keyword: colar
+        • Keyword: colocar argolas
+        • Keyword: cortar duas garrafas
+        • Keyword: extremidades cordao
+        • Keyword: juntar partes iguais
+        • Keyword: passar dois fios
+        • Keyword: peca permite jogo
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.7561
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: confecciona jogo
+        • Keyword: jogo duplas
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1590
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: abrindo bracos
+        • Keyword: bracos arremessando
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1848
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colorida, passar dois fios de cerca de tres metros de comp…
+        • DiscursiveStrategy: sai do jogo, entrando outro participante
+        • Keyword: comprimento colocar
+        • Keyword: confecciona
+        • Keyword: confecciona jogo
+        • Keyword: errar
+        • Keyword: metros comprimento
+        • Keyword: repete operacao
+        • Keyword: sucessivamente
+    - Ativações (doc): n=4, primárias=1, secundárias=3, max=0.6550
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: impulso
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0668
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: garrafas plasticas descartaveis, cordao, argolas e fitas colantes ou fitas adesivas coloridas
+        • ContextObject: jogo
+        • Keyword: colantes fitas
+        • Keyword: fitas adesivas coloridas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4798
+
+
+[Documento — Fragmentos] urn:doc:173
+
+[Fragmento] Preparacao: O professor confecciona o jogo com garrafas plasticas descartaveis, cordao, argolas e fitas colantes ou fitas adesivas coloridas.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: confecciona jogo
+    - Ativações:
+        • score=0.1590, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: confecciona
+        • Keyword: confecciona jogo
+    - Ativações:
+        • score=0.3612, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: garrafas plasticas descartaveis, cordao, argolas e fitas colantes ou fitas adesivas coloridas
+        • Keyword: colantes fitas
+        • Keyword: fitas adesivas coloridas
+    - Ativações:
+        • score=0.4798, tipo=Primary
+
+[Fragmento] Deve cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colori- da, passar dois fios de cerca de tres metros de comprimento e colocar argolas nas extremidades.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colorida, passar dois fios de cerca de tres metros de comp…
+        • Keyword: argolas extremidades
+        • Keyword: colar
+        • Keyword: colocar argolas
+        • Keyword: cortar duas garrafas
+        • Keyword: juntar partes iguais
+        • Keyword: passar dois fios
+    - Ativações:
+        • score=0.7561, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colorida, passar dois fios de cerca de tres metros de comp…
+        • Keyword: comprimento colocar
+        • Keyword: metros comprimento
+    - Ativações:
+        • score=0.2439, tipo=Secondary
+
+[Fragmento] Utilizacao: A peca permite jogo em duplas, em que cada aluno segura uma das extremidades do cordao e da um impulso, abrindo os bracos e arremessando o objeto para outro, que repete a operacao, e assim sucessivamente, ate que um dos alunos cometa um erro.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: abrindo bracos
+        • Keyword: arremessando objeto
+        • Keyword: bracos arremessando
+        • Keyword: extremidades cordao
+        • Keyword: peca permite jogo
+    - Ativações:
+        • score=0.4931, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: jogo duplas
+    - Ativações:
+        • score=0.0926, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: abrindo bracos
+        • Keyword: bracos arremessando
+    - Ativações:
+        • score=0.1848, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: repete operacao
+        • Keyword: sucessivamente
+    - Ativações:
+        • score=0.1627, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: impulso
+    - Ativações:
+        • score=0.0668, tipo=Secondary
+
+[Fragmento] Ao errar, sai do jogo, entrando outro participante.
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: sai do jogo, entrando outro participante
+        • Keyword: errar
+    - Ativações:
+        • score=0.6550, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: jogo
+    - Ativações:
+        • score=0.3450, tipo=Secondary

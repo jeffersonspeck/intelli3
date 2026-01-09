@@ -1,0 +1,132 @@
+[Documento] urn:doc:5
+  - miVector: 11.86,14.47,0.00,10.89,40.16,16.25,0.00,6.38
+  - TOP (documento): Bodily-Kinesthetic (score=0.4016)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4016
+      • Interpersonal: 0.1625
+      • Logical-Mathematical: 0.1447
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: escolhe uma de suas cartas e mostra ao grupo adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta.
+        • Keyword: cartolina
+        • Keyword: cola
+        • Keyword: escolhe
+        • Keyword: passar
+        • Keyword: tesoura
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7824
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: escolhe uma de suas cartas e mostra ao grupo adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta.
+        • Keyword: conseguindo
+        • Keyword: escolhe
+        • Keyword: ganha
+        • Keyword: passar
+        • Keyword: propondo mais rimas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3032
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: encontrar palavra
+        • Keyword: forme duas rimas
+        • Keyword: palavra forme
+        • Keyword: vai registrando
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2330
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: adversarios igual problema
+        • Keyword: minuto encontrar
+        • Keyword: revistas diferentes figuras
+        • Keyword: tera minuto
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2176
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: determinado
+        • Keyword: encontrar palavra
+        • Keyword: vai registrando
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.2822
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: montes
+        • Keyword: selecionar cartas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2105
+
+
+[Documento — Fragmentos] urn:doc:5
+
+[Fragmento] Preparacao: Cartolina, lapis de cor, tesoura, cola, regua, revistas. Utilizacao: Os alunos sao divididos em dois grupos e cada um deles deve selecionar em revistas diferentes figuras dentro de uma ordem estabelecida pelo professor, colando em cartolina e recortando-as de maneira a formar pequenas cartas de baralho.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: cartolina
+        • Keyword: cola
+        • Keyword: tesoura
+    - Ativações:
+        • score=0.7824, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: revistas diferentes figuras
+    - Ativações:
+        • score=0.2176, tipo=Secondary
+
+[Fragmento] Iniciado o jogo, cada aluno escolhe uma de suas cartas e mostra ao gru- po adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta. Conseguindo, ganha um ponto e e sua vez de escolhar a carta e propor aos adversarios igual problema.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: escolhe uma de suas cartas e mostra ao grupo adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta.
+        • Keyword: escolhe
+    - Ativações:
+        • score=0.1919, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: escolhe uma de suas cartas e mostra ao grupo adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta.
+        • Keyword: conseguindo
+        • Keyword: escolhe
+        • Keyword: ganha
+    - Ativações:
+        • score=0.3032, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: encontrar palavra
+        • Keyword: forme duas rimas
+        • Keyword: palavra forme
+    - Ativações:
+        • score=0.2330, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: adversarios igual problema
+        • Keyword: minuto encontrar
+        • Keyword: tera minuto
+    - Ativações:
+        • score=0.1946, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: encontrar palavra
+    - Ativações:
+        • score=0.0773, tipo=Secondary
+
+[Fragmento] O professor vai regis- trando os pontos na lousa e, em determinado momento, pode passar de duas para tres ou dois montes, um para cada grupo, propondo mais rimas. Caso pre- fira, pode selecionar as cartas e fazer a sua apresentacao. 50
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: passar
+    - Ativações:
+        • score=0.1161, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: passar
+        • Keyword: propondo mais rimas
+    - Ativações:
+        • score=0.2329, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: vai registrando
+    - Ativações:
+        • score=0.1583, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: determinado
+        • Keyword: vai registrando
+    - Ativações:
+        • score=0.2822, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: montes
+        • Keyword: selecionar cartas
+    - Ativações:
+        • score=0.2105, tipo=Secondary

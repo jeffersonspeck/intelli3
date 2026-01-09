@@ -1,0 +1,152 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "agrupar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7233403597728861,
+      "relevance": 0.764367816091954
+    },
+    {
+      "role": "Keyword",
+      "text": "agrupar quantidades",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7233403597728861,
+      "relevance": 0.764367816091954
+    },
+    {
+      "role": "Keyword",
+      "text": "vertical horizontal",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7022104841265034,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tampinhas colocando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6981269636936357,
+      "relevance": 0.6810344827586207
+    },
+    {
+      "role": "Keyword",
+      "text": "sequencia vertical",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.667050032381271,
+      "relevance": 0.5948275862068966
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.764367816091954
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.764367816091954
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "colocando diferentes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8071991370682046,
+      "relevance": 0.862
+    },
+    {
+      "role": "Keyword",
+      "text": "vazadas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7672472844963961,
+      "relevance": 0.91
+    },
+    {
+      "role": "Keyword",
+      "text": "geometricas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7361723495339088,
+      "relevance": 0.76
+    },
+    {
+      "role": "Keyword",
+      "text": "sequencias",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.69493671159956,
+      "relevance": 0.728
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "colocando diferentes grupos de tampinhas em formas geometricas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.862
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "colocando diferentes grupos de tampinhas em formas geometricas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.862
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "encaixes diferentes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.573561216486264,
+      "relevance": 0.7265625
+    },
+    {
+      "role": "Keyword",
+      "text": "escada bolas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.789666834739783,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "bolas furadas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7857910614953211,
+      "relevance": 0.80078125
+    },
+    {
+      "role": "Keyword",
+      "text": "furadas encaixes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5662568809382739,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.921875
+    }
+  ]
+}

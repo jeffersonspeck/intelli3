@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:107#evid-000-00-folhas-cartolina> a onto:Keyword ;
+    rdfs:label "folhas cartolina"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:107#evid-000-01-desenhar-figuras-geometricas> a onto:Keyword ;
+    rdfs:label "desenhar figuras geometricas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:107#evid-000-02-irregulares-cartolina> a onto:Keyword ;
+    rdfs:label "irregulares cartolina"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:107#evid-000-03-folhas-de-cartolina-e-palitos-de> a onto:ContextObject ;
+    rdfs:label "Folhas de cartolina e palitos de fosforo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:107#evid-000-04-folhas-de-cartolina-e-palitos-de> a onto:ContextObject ;
+    rdfs:label "Folhas de cartolina e palitos de fosforo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:107#evid-001-00-figuras-geometricas-colocadas> a onto:Keyword ;
+    rdfs:label "figuras geometricas colocadas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:107#evid-001-01-reproduzindo-figuras> a onto:Keyword ;
+    rdfs:label "reproduzindo figuras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:107#evid-001-02-reproduzindo-figuras> a onto:Keyword ;
+    rdfs:label "reproduzindo figuras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:107#evid-001-03-colocar-palitos> a onto:Keyword ;
+    rdfs:label "colocar palitos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:107#evid-001-04-desenhos> a onto:Keyword ;
+    rdfs:label "desenhos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:107#evid-001-05-colocar-os-palitos-sobre-os-dese> a onto:DiscursiveStrategy ;
+    rdfs:label "colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:107#evid-001-06-colocar-os-palitos-sobre-os-dese> a onto:DiscursiveStrategy ;
+    rdfs:label "colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas."@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:107#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Folhas de cartolina e palitos de fosforo usados. Desenhar figuras geometricas e formas irregulares na cartolina. Todos os desenhos devem ser passiveis de uma reproducao com palitos de fosforo."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:107> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:107#evid-000-00-folhas-cartolina>,
+        <urn:doc:107#evid-000-01-desenhar-figuras-geometricas>,
+        <urn:doc:107#evid-000-02-irregulares-cartolina>,
+        <urn:doc:107#evid-000-03-folhas-de-cartolina-e-palitos-de>,
+        <urn:doc:107#evid-000-04-folhas-de-cartolina-e-palitos-de> .
+
+<urn:doc:107#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: A tarefa dos alunos, individualmente, e a de colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas. A experiencia pode ser ampliada com desenhos de casas e outros, progressivamente apresentando maior complexidade. no 1no oo o n Fmatolaensca Fena"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:107> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:107#evid-001-00-figuras-geometricas-colocadas>,
+        <urn:doc:107#evid-001-01-reproduzindo-figuras>,
+        <urn:doc:107#evid-001-02-reproduzindo-figuras>,
+        <urn:doc:107#evid-001-03-colocar-palitos>,
+        <urn:doc:107#evid-001-04-desenhos>,
+        <urn:doc:107#evid-001-05-colocar-os-palitos-sobre-os-dese>,
+        <urn:doc:107#evid-001-06-colocar-os-palitos-sobre-os-dese> .
+
+<urn:doc:107> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:107#frag-000>,
+        <urn:doc:107#frag-001> .
+

@@ -1,0 +1,61 @@
+[Documento] urn:doc:146
+  - miVector: 15.00,11.43,3.67,11.98,47.27,1.57,0.00,9.08
+  - TOP (documento): Bodily-Kinesthetic (score=0.4727)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4727
+      • Linguistic: 0.1500
+      • Musical: 0.1198
+
+[Fragmento] Preparacao: Reunir copinhos de iogurte (danoninho) e com grampeador e fita colante fazer chocalhos com feijao, milho ou pedrinhas dentro.
+  - Bodily-Kinesthetic (via activation, score=0.7694)
+  - Naturalist (via activation, score=0.2306)
+  - Cinestésico-corporal (via activation, score=0.7694)
+  - Naturalista (via activation, score=0.2306)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Estabelecer associacoes entre as silabas das palavras pronunciadas pelo pro- fessor e o balancar do chocalho pelos alunos, acompanhando o ritmo da pala- vra, procurando dar o mesmo numero de batidas quantas forem as palavras pronunciadas.
+  - Bodily-Kinesthetic (via activation, score=0.2591)
+  - Linguistic (via activation, score=0.1822)
+  - Logical-Mathematical (via activation, score=0.3021)
+  - Musical (via activation, score=0.2566)
+  - Cinestésico-corporal (via activation, score=0.2591)
+  - Linguística (via activation, score=0.1822)
+  - Lógico-matemática (via activation, score=0.3021)
+  - Musical (via activation, score=0.2566)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+
+[Fragmento] Ir, progressivamente, aumentando o numero de silabas das pa- lavras e estimular os movimentos com o chocalho. O professor pode ser substi- tuido por alunos que, sorteando figuras, devem pronuncia-las para que os cole- gas movimentem o chocalho ritmicamente.
+  - Bodily-Kinesthetic (via activation, score=0.3004)
+  - Interpersonal (via activation, score=0.0519)
+  - Linguistic (via activation, score=0.3127)
+  - Logical-Mathematical (via activation, score=0.0751)
+  - Musical (via activation, score=0.1388)
+  - Spatial (via activation, score=0.1210)
+  - Cinestésico-corporal (via activation, score=0.3004)
+  - Espacial-visual (via activation, score=0.1210)
+  - Interpessoal (via activation, score=0.0519)
+  - Linguística (via activation, score=0.3127)
+  - Lógico-matemática (via activation, score=0.0751)
+  - Musical (via activation, score=0.1388)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)

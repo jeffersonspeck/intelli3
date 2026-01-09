@@ -1,0 +1,73 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:176#evid-000-00-preparar-cinco-saquinhos> a onto:Keyword ;
+    rdfs:label "preparar cinco saquinhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:176#evid-000-01-arroz-feijao> a onto:Keyword ;
+    rdfs:label "arroz feijao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:176#evid-000-02-milho-arroz-ou-feijao> a onto:ContextObject ;
+    rdfs:label "milho, arroz ou feijao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:176#evid-001-00-pegar> a onto:Keyword ;
+    rdfs:label "pegar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:176#evid-001-01-pegar-pecas> a onto:Keyword ;
+    rdfs:label "pegar pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:176#evid-001-02-pecas-sequencia> a onto:Keyword ;
+    rdfs:label "pecas sequencia"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:176#evid-001-03-pegando> a onto:Keyword ;
+    rdfs:label "pegando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:176#evid-001-04-pega> a onto:Keyword ;
+    rdfs:label "pega"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:176#evid-001-05-pecas> a onto:ContextObject ;
+    rdfs:label "pecas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:176#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar cinco saquinhos de pano nao transparente e deixar um dos lados aberto. Encher os saquinhos com milho, arroz ou feijao e fechar..."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:176> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:176#evid-000-00-preparar-cinco-saquinhos>,
+        <urn:doc:176#evid-000-01-arroz-feijao>,
+        <urn:doc:176#evid-000-02-milho-arroz-ou-feijao> .
+
+<urn:doc:176#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos, divididos em grupo ou integrando equipes, devem pegar as pecas na sequencia de um a cinco, atirando uma para cima e pegando as da mesa. Na primeira jogada, o aluno pega uma, na segunda pega duas pecas de cada vez e assim por diante."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:176> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:176#evid-001-00-pegar>,
+        <urn:doc:176#evid-001-01-pegar-pecas>,
+        <urn:doc:176#evid-001-02-pecas-sequencia>,
+        <urn:doc:176#evid-001-03-pegando>,
+        <urn:doc:176#evid-001-04-pega>,
+        <urn:doc:176#evid-001-05-pecas> .
+
+<urn:doc:176#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Ao errar, cede a vez ao adversario de outra equipe."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:176> ;
+    dct:type "body" .
+
+<urn:doc:176> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:176#frag-000>,
+        <urn:doc:176#frag-001>,
+        <urn:doc:176#frag-002> .
+

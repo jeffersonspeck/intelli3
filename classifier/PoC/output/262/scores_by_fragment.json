@@ -1,0 +1,17 @@
+{
+  "0": {
+    "NaturalistIntelligence": 2.524162171875256,
+    "LinguisticIntelligence": 1.0953173908191738,
+    "InterpersonalIntelligence": 1.0953173908191738,
+    "BodilyKinestheticIntelligence": 0.40030996957159626
+  },
+  "1": {
+    "NaturalistIntelligence": 0.724237729026124,
+    "InterpersonalIntelligence": 0.5207065485559284
+  },
+  "2": {
+    "NaturalistIntelligence": 3.1595713232847764,
+    "BodilyKinestheticIntelligence": 1.6578484013746724,
+    "LinguisticIntelligence": 2.0543007913957556
+  }
+}

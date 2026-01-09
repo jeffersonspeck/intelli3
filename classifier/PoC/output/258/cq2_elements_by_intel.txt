@@ -1,0 +1,134 @@
+[Documento] urn:doc:258
+  - miVector: 17.68,18.60,0.00,18.03,29.04,9.95,0.00,6.70
+  - TOP (documento): Bodily-Kinesthetic (score=0.2904)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2904
+      • Logical-Mathematical: 0.1860
+      • Musical: 0.1803
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos
+        • DiscursiveStrategy: caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre
+        • Keyword: caminhar tatilmente ate
+        • Keyword: mao dessa pessoa
+        • Keyword: pessoas segurar
+        • Keyword: procurar
+        • Keyword: segurar mao
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=0.6544
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos
+        • Keyword: caso pessoa
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2743
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: ouca resposta
+        • Keyword: pronunciando palavra
+        • Keyword: proury
+        • Keyword: responder chamada
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.2870
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: fazendo novos contatos
+        • Keyword: indagacao esteja
+        • Keyword: iniciar jogo
+        • Keyword: olhos vendados
+    - Ativações (doc): n=4, primárias=0, secundárias=4, max=0.2018
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: nao responder a chamada
+        • Keyword: nao responder
+        • Keyword: responder chamada
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5965
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: caso ouca
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2881
+
+
+[Documento — Fragmentos] urn:doc:258
+
+[Fragmento] Preparacao: Sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos. Utilizacao: Os alunos devem circular pela sala escura com extremo cuidado e, encontrando alguem, toca-lo levemente, pronunciando a palavra "Proury".
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos
+    - Ativações:
+        • score=0.2743, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos
+    - Ativações:
+        • score=0.2743, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: pronunciando palavra
+        • Keyword: proury
+    - Ativações:
+        • score=0.2870, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: olhos vendados
+    - Ativações:
+        • score=0.1645, tipo=Secondary
+
+[Fragmento] Caso ouca como respos- ta a mesma palavra, continuar circulando e fazendo novos contatos. Ao tocar em al- guem que nao responda ao seu pronunciamento, devera procurar a mao dessa pessoa. Se estiver livre, segura-la e nao mais responder quando tocado.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: mao dessa pessoa
+        • Keyword: procurar
+    - Ativações:
+        • score=0.3200, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: ouca resposta
+    - Ativações:
+        • score=0.2109, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: fazendo novos contatos
+    - Ativações:
+        • score=0.1810, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: caso ouca
+    - Ativações:
+        • score=0.2881, tipo=Secondary
+
+[Fragmento] Caso a pessoa que nao respondeu a sua indagacao esteja de maos dadas, caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre. Ao perceber que nao mais exis- tem sussurros pela sala, a luz deve ser acesa.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre
+        • Keyword: caminhar tatilmente ate
+        • Keyword: pessoas segurar
+        • Keyword: segurar mao
+    - Ativações:
+        • score=0.6544, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: caso pessoa
+    - Ativações:
+        • score=0.1534, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: indagacao esteja
+    - Ativações:
+        • score=0.1922, tipo=Secondary
+
+[Fragmento] Antes de iniciar o jogo, avisar a um partici- pante para nao responder a chamada, iniciando a formacao da corrente.
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: responder chamada
+    - Ativações:
+        • score=0.2018, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: iniciar jogo
+    - Ativações:
+        • score=0.2018, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: nao responder a chamada
+        • Keyword: nao responder
+        • Keyword: responder chamada
+    - Ativações:
+        • score=0.5965, tipo=Primary

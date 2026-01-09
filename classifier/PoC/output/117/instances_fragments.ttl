@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:117#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo existe no comercio e e muito popular. O importante e dar ao mes- mo, ao lado de sua finalidade recreativa, opcoes educacionais. Isto e possivel, criando inumeras situacoes que envolvam posicionamento das pecas e sua tca- tralizacao com a consequente verbalizacao."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:117> ;
+    dct:type "body" .
+
+<urn:doc:117#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O aluno (individualmente ou em grupo) deve ser estimulado a posicionar pecas (trabalhando nocoes de direita, esquerda, leste, oeste e outras) e tambem criar cenas que reproduzam fatos do cotidiano do aluno ou circunstancias imaginadas."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:117> ;
+    dct:type "body" .
+
+<urn:doc:117#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "E interessante a interatividade entre essas historias envolvendo va- rios alunos. (Existem no mercado: \"Playmobil\": [Trol] e muitos outros.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:117> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:117> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:117#frag-000>,
+        <urn:doc:117#frag-001>,
+        <urn:doc:117#frag-002> .
+

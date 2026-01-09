@@ -1,0 +1,192 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "colecionar figuras coloridas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7950805464018453,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "oculos frutas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7850584609072191,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "coloridas objetos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7739870786157155,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "animais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.706785814873882,
+      "relevance": 0.7637795275590551
+    },
+    {
+      "role": "Keyword",
+      "text": "formando",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.64778345511794,
+      "relevance": 0.6791338582677166
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "participantes sortcar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7896068541497245,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "sortcar papeis",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7896068541497245,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "distribuir figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7524954957884067,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "distribuir figuras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7524954957884067,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "observando concordancia",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7097710732393802,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "substantivos adjetivos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7097710732393802,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "apresenta nomeando",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6831242485733843,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "concordancia genero",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6831242485733843,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "concordancia genero",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6831242485733843,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "genero substantivos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6831242485733843,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "camisa branca",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6523522432528386,
+      "relevance": 0.5597826086956521
+    },
+    {
+      "role": "Keyword",
+      "text": "pente azul",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6523522432528386,
+      "relevance": 0.5289855072463768
+    },
+    {
+      "role": "Keyword",
+      "text": "figura apresenta",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.64617607041952,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "figura apresenta",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.64617607041952,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "qualidades",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6170713789272607,
+      "relevance": 0.7210144927536232
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.9746376811594203
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9746376811594203
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "existem diversos analogos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8030290207807631,
+      "relevance": 0.9871794871794872
+    }
+  ]
+}

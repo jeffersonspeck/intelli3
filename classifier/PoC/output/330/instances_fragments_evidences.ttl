@@ -1,0 +1,237 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:330#evid-000-00-possam-estar-sentados> a onto:Keyword ;
+    rdfs:label "possam estar sentados"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:330#evid-000-01-divide> a onto:Keyword ;
+    rdfs:label "divide"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:330#evid-000-02-componentes> a onto:Keyword ;
+    rdfs:label "componentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:330#evid-000-03-sala> a onto:ContextObject ;
+    rdfs:label "sala"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:330#evid-000-04-sala> a onto:ContextObject ;
+    rdfs:label "sala"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-001-00-pequeno-texto-positivo> a onto:Keyword ;
+    rdfs:label "pequeno texto positivo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-001-01-passa-tantas-meias> a onto:Keyword ;
+    rdfs:label "passa tantas meias"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:330#evid-001-02-mesmo-escrevam> a onto:Keyword ;
+    rdfs:label "mesmo escrevam"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:330#evid-001-03-mesmo-escrevam> a onto:Keyword ;
+    rdfs:label "mesmo escrevam"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-001-04-participantes-quantos-forem> a onto:Keyword ;
+    rdfs:label "participantes quantos forem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:330#evid-001-05-escrevam-pequeno> a onto:Keyword ;
+    rdfs:label "escrevam pequeno"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:330#evid-001-06-escrevam-pequeno> a onto:Keyword ;
+    rdfs:label "escrevam pequeno"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-001-07-meias-folhas> a onto:Keyword ;
+    rdfs:label "meias folhas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:330#evid-001-08-folhas-papel> a onto:Keyword ;
+    rdfs:label "folhas papel"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:330#evid-001-09-forem-integrantes> a onto:Keyword ;
+    rdfs:label "forem integrantes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:330#evid-001-10-explore> a onto:Keyword ;
+    rdfs:label "explore"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-001-11-folha> a onto:Keyword ;
+    rdfs:label "folha"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:330#evid-001-12-tantas-meias-folhas-de-papel> a onto:ContextObject ;
+    rdfs:label "tantas meias folhas de papel"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:330#evid-001-13-tantas-meias-folhas-de-papel> a onto:ContextObject ;
+    rdfs:label "tantas meias folhas de papel"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:330#evid-002-00-texto-nao> a onto:Keyword ;
+    rdfs:label "texto nao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:330#evid-002-01-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-002-02-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:330#evid-002-03-redator-texto> a onto:Keyword ;
+    rdfs:label "redator texto"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:330#evid-002-04-textos-sao-abertos> a onto:Keyword ;
+    rdfs:label "textos sao abertos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:330#evid-002-05-reunir> a onto:Keyword ;
+    rdfs:label "reunir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:330#evid-002-06-reunir-todos-que-a-ele-se-refere> a onto:DiscursiveStrategy ;
+    rdfs:label "reunir todos que a ele se referem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:330#evid-002-07-textos> a onto:ContextObject ;
+    rdfs:label "textos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:330#evid-003-00-apos-leitura> a onto:Keyword ;
+    rdfs:label "apos leitura"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:330#evid-003-01-mensagens-recebidas> a onto:Keyword ;
+    rdfs:label "mensagens recebidas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:330#evid-003-02-considera-las-identificadoras> a onto:Keyword ;
+    rdfs:label "considera las identificadoras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:330#evid-003-03-considera-las-identificadoras> a onto:Keyword ;
+    rdfs:label "considera las identificadoras"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-003-04-identificadoras-nao> a onto:Keyword ;
+    rdfs:label "identificadoras nao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-003-05-leitura-mensagens> a onto:Keyword ;
+    rdfs:label "leitura mensagens"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:330#evid-003-06-discussao-mensagens> a onto:Keyword ;
+    rdfs:label "discussao mensagens"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-003-07-coloca-discussao> a onto:Keyword ;
+    rdfs:label "coloca discussao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:330#evid-003-08-mensagens-recebidas> a onto:ContextObject ;
+    rdfs:label "mensagens recebidas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:330#evid-004-00-apos-longo-processo> a onto:Keyword ;
+    rdfs:label "apos longo processo"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:330#evid-004-01-processo-alfabetizacao> a onto:Keyword ;
+    rdfs:label "processo alfabetizacao"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:330#evid-004-02-julgar> a onto:Keyword ;
+    rdfs:label "julgar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:330#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma sala para que os alunos possam estar sentados em circulo. Utilizacao: O professor divide os alunos em grupos de quatro a seis componentes."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:330> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:330#evid-000-00-possam-estar-sentados>,
+        <urn:doc:330#evid-000-01-divide>,
+        <urn:doc:330#evid-000-02-componentes>,
+        <urn:doc:330#evid-000-03-sala>,
+        <urn:doc:330#evid-000-04-sala> .
+
+<urn:doc:330#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Passa tantas meias folhas de papel para cada um dos participantes quantos fo- rem os integrantes desse grupo e solicita que no mesmo escrevam um pequeno texto positivo, que explore um dos aspectos realmente bons de cada um dos in- tegrantes do grupo, dobrando depois essa folha."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:330> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:330#evid-001-00-pequeno-texto-positivo>,
+        <urn:doc:330#evid-001-01-passa-tantas-meias>,
+        <urn:doc:330#evid-001-02-mesmo-escrevam>,
+        <urn:doc:330#evid-001-03-mesmo-escrevam>,
+        <urn:doc:330#evid-001-04-participantes-quantos-forem>,
+        <urn:doc:330#evid-001-05-escrevam-pequeno>,
+        <urn:doc:330#evid-001-06-escrevam-pequeno>,
+        <urn:doc:330#evid-001-07-meias-folhas>,
+        <urn:doc:330#evid-001-08-folhas-papel>,
+        <urn:doc:330#evid-001-09-forem-integrantes>,
+        <urn:doc:330#evid-001-10-explore>,
+        <urn:doc:330#evid-001-11-folha>,
+        <urn:doc:330#evid-001-12-tantas-meias-folhas-de-papel>,
+        <urn:doc:330#evid-001-13-tantas-meias-folhas-de-papel> .
+
+<urn:doc:330#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "O redator do texto nao deve se identificar. A um sinal do professor, os textos sao abertos e cada aluno deve re- unir todos que a ele se referem."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:330> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:330#evid-002-00-texto-nao>,
+        <urn:doc:330#evid-002-01-identificar>,
+        <urn:doc:330#evid-002-02-identificar>,
+        <urn:doc:330#evid-002-03-redator-texto>,
+        <urn:doc:330#evid-002-04-textos-sao-abertos>,
+        <urn:doc:330#evid-002-05-reunir>,
+        <urn:doc:330#evid-002-06-reunir-todos-que-a-ele-se-refere>,
+        <urn:doc:330#evid-002-07-textos> .
+
+<urn:doc:330#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Apos a leitura das mensagens recebidas o pro- tessor desfaz os grupos e, formando um circulo com todos, coloca em discussao as mensagens recebidas e como cada um se coloca diante da circunstancia de considera-las identificadoras ou nao da imagem que faz de si mesmo."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:330> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:330#evid-003-00-apos-leitura>,
+        <urn:doc:330#evid-003-01-mensagens-recebidas>,
+        <urn:doc:330#evid-003-02-considera-las-identificadoras>,
+        <urn:doc:330#evid-003-03-considera-las-identificadoras>,
+        <urn:doc:330#evid-003-04-identificadoras-nao>,
+        <urn:doc:330#evid-003-05-leitura-mensagens>,
+        <urn:doc:330#evid-003-06-discussao-mensagens>,
+        <urn:doc:330#evid-003-07-coloca-discussao>,
+        <urn:doc:330#evid-003-08-mensagens-recebidas> .
+
+<urn:doc:330#frag-004> a onto:ExplanationFragment ;
+    rdfs:label "Se julgar, apos longo processo de alfabetizacao emocional, que o grupo esta suficiente- mente amadurecido pode desenvolver a atividade oposta: \"o lado negativo\". 256"@pt ;
+    dct:identifier 4 ;
+    dct:isPartOf <urn:doc:330> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:330#evid-004-00-apos-longo-processo>,
+        <urn:doc:330#evid-004-01-processo-alfabetizacao>,
+        <urn:doc:330#evid-004-02-julgar> .
+
+<urn:doc:330> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:330#frag-000>,
+        <urn:doc:330#frag-001>,
+        <urn:doc:330#frag-002>,
+        <urn:doc:330#frag-003>,
+        <urn:doc:330#frag-004> .
+

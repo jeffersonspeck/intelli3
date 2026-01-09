@@ -1,0 +1,138 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:11#evid-000-00-sentados-frente> a onto:Keyword ;
+    rdfs:label "sentados frente"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:11#evid-000-01-debate> a onto:Keyword ;
+    rdfs:label "debate"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:11#evid-000-02-frente-frente> a onto:Keyword ;
+    rdfs:label "frente frente"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:11#evid-000-03-alunos-divididos-em-duplas-senta> a onto:DiscursiveStrategy ;
+    rdfs:label "Alunos divididos em duplas, sentados frente a frente. Um aluno encarregado de cronometrar o debate."@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:11#evid-001-00-desenvolver-argumento> a onto:Keyword ;
+    rdfs:label "desenvolver argumento"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:11#evid-001-01-desenvolver-argumento> a onto:Keyword ;
+    rdfs:label "desenvolver argumento"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-001-02-entremcando-perguntas> a onto:Keyword ;
+    rdfs:label "entremcando perguntas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:11#evid-001-03-entremcando-perguntas> a onto:Keyword ;
+    rdfs:label "entremcando perguntas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-001-04-participante-desenvolver> a onto:Keyword ;
+    rdfs:label "participante desenvolver"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-001-05-marcacao-tempo> a onto:Keyword ;
+    rdfs:label "marcacao tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:11#evid-001-06-mesmo-tempo> a onto:Keyword ;
+    rdfs:label "mesmo tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:11#evid-001-07-falar> a onto:Keyword ;
+    rdfs:label "falar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:11#evid-001-08-desenvolver-seu-argumento-entrem> a onto:DiscursiveStrategy ;
+    rdfs:label "desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:11#evid-001-09-desenvolver-seu-argumento-entrem> a onto:DiscursiveStrategy ;
+    rdfs:label "desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:11#evid-001-10-desenvolver-seu-argumento-entrem> a onto:DiscursiveStrategy ;
+    rdfs:label "desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:11#evid-001-11-tempo> a onto:ContextObject ;
+    rdfs:label "tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:11#evid-002-00-tempo-estabelecido> a onto:Keyword ;
+    rdfs:label "tempo estabelecido"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:11#evid-002-01-apos-tempo> a onto:Keyword ;
+    rdfs:label "apos tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:11#evid-002-02-ganha> a onto:Keyword ;
+    rdfs:label "ganha"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:11#evid-002-03-raciocinio> a onto:Keyword ;
+    rdfs:label "raciocinio"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:11#evid-002-04-ganha-ponto-um-dos-oponentes-ou-> a onto:DiscursiveStrategy ;
+    rdfs:label "ganha ponto um dos oponentes, ou os dois"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:11#evid-002-05-tempo-estabelecido-20-a-30-segun> a onto:ContextObject ;
+    rdfs:label "tempo estabelecido (20 a 30 segundos)"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:11#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Alunos divididos em duplas, sentados frente a frente. Um aluno encarrega- do de cronometrar o debate. Utilizacao: O professor deve determinar os dois assuntos do debate, um para cada alu- no."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:11> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:11#evid-000-00-sentados-frente>,
+        <urn:doc:11#evid-000-01-debate>,
+        <urn:doc:11#evid-000-02-frente-frente>,
+        <urn:doc:11#evid-000-03-alunos-divididos-em-duplas-senta> .
+
+<urn:doc:11#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Iniciada a marcacao do tempo, cada participante deve desenvolver seu argu- mento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo e o objetivo de cada aluno e manter a linha de raciocinio de seu tema, atrapalhando o colega."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:11> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:11#evid-001-00-desenvolver-argumento>,
+        <urn:doc:11#evid-001-01-desenvolver-argumento>,
+        <urn:doc:11#evid-001-02-entremcando-perguntas>,
+        <urn:doc:11#evid-001-03-entremcando-perguntas>,
+        <urn:doc:11#evid-001-04-participante-desenvolver>,
+        <urn:doc:11#evid-001-05-marcacao-tempo>,
+        <urn:doc:11#evid-001-06-mesmo-tempo>,
+        <urn:doc:11#evid-001-07-falar>,
+        <urn:doc:11#evid-001-08-desenvolver-seu-argumento-entrem>,
+        <urn:doc:11#evid-001-09-desenvolver-seu-argumento-entrem>,
+        <urn:doc:11#evid-001-10-desenvolver-seu-argumento-entrem>,
+        <urn:doc:11#evid-001-11-tempo> .
+
+<urn:doc:11#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Ganha ponto um dos oponentes, ou os dois, apos o tem- po estabelecido (20 a 30 segundos) que nao \"perder o fio\" de seu raciocinio."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:11> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:11#evid-002-00-tempo-estabelecido>,
+        <urn:doc:11#evid-002-01-apos-tempo>,
+        <urn:doc:11#evid-002-02-ganha>,
+        <urn:doc:11#evid-002-03-raciocinio>,
+        <urn:doc:11#evid-002-04-ganha-ponto-um-dos-oponentes-ou->,
+        <urn:doc:11#evid-002-05-tempo-estabelecido-20-a-30-segun> .
+
+<urn:doc:11> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:11#frag-000>,
+        <urn:doc:11#frag-001>,
+        <urn:doc:11#frag-002> .
+

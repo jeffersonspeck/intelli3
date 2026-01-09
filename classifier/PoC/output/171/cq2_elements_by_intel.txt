@@ -1,0 +1,74 @@
+[Documento] urn:doc:171
+  - miVector: 0.00,18.77,0.00,0.00,69.39,8.62,0.00,3.22
+  - TOP (documento): Bodily-Kinesthetic (score=0.6939)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6939
+      • Logical-Mathematical: 0.1877
+      • Interpersonal: 0.0862
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: bolas plasticas gigantes
+        • DiscursiveStrategy: Usar bolas plasticas gigantes. As melhores sao as de inflar, com 12 gomos. O aluno devera jogar a bola, recebe-la de volta. Atira-la no chao, na parede c exe…
+        • Keyword: bolas plasticas gigantes
+        • Keyword: desenvolva limites
+        • Keyword: limites regras
+        • Keyword: sequencia desenvolva
+        • Keyword: usar bolas plasticas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=1.0000
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: limites regras
+        • Keyword: regras claras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1983
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: claras acao
+        • Keyword: estruture
+        • Keyword: estruture essa sequencia
+        • Keyword: regras claras
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4317
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: [Lidice -- Bola Gigante]
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0740
+
+
+[Documento — Fragmentos] urn:doc:171
+
+[Fragmento] Preparacao: Usar bolas plasticas gigantes. As melhores sao as de inflar, com 12 gomos. Utilizacao: O aluno devera jogar a bola, recebe-la de volta. Atira-la no chao, na parede c executar diversos movimentos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: bolas plasticas gigantes
+        • DiscursiveStrategy: Usar bolas plasticas gigantes. As melhores sao as de inflar, com 12 gomos. O aluno devera jogar a bola, recebe-la de volta. Atira-la no chao, na parede c exe…
+        • Keyword: bolas plasticas gigantes
+        • Keyword: usar bolas plasticas
+    - Ativações:
+        • score=1.0000, tipo=Primary
+
+[Fragmento] O essencial e que o professor estruture essa sequencia e desenvolva limites e regras claras a acao ludica. Pode, se preferir, estabelecer sistemas de pontuacao e desenvolver atividades grupais diversas. (Existem no comercio diversas marcas [Lidice -- Bola Gigante].)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: desenvolva limites
+        • Keyword: limites regras
+        • Keyword: sequencia desenvolva
+    - Ativações:
+        • score=0.2960, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: limites regras
+        • Keyword: regras claras
+    - Ativações:
+        • score=0.1983, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: claras acao
+        • Keyword: estruture
+        • Keyword: estruture essa sequencia
+        • Keyword: regras claras
+    - Ativações:
+        • score=0.4317, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: [Lidice -- Bola Gigante]
+    - Ativações:
+        • score=0.0740, tipo=Secondary

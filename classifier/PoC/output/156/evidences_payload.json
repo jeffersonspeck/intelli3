@@ -1,0 +1,298 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "tipos som",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5704984447102228,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo pressupoe",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.9957983193277311
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumentos musicais",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.930672268907563
+    },
+    {
+      "role": "Keyword",
+      "text": "seriacao ascendente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.8529411764705882
+    },
+    {
+      "role": "Keyword",
+      "text": "pressupoe existencia",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "existencia instrumentos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "musicais permitam",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "permitam seriacao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tamborim",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.49626000295998884,
+      "relevance": 0.7163865546218487
+    },
+    {
+      "role": "Keyword",
+      "text": "tamborzinho tambor",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.49544543915735395,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "acao educativa proposta",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8065686800181532,
+      "relevance": 0.6287878787878788
+    },
+    {
+      "role": "Keyword",
+      "text": "niveis diferentes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.803030303030303
+    },
+    {
+      "role": "Keyword",
+      "text": "garrafas agua",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "agua niveis",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "agua niveis",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "valida acao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "tornar valida a acao educativa proposta pelo jogo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.6893939393939394
+    },
+    {
+      "role": "ContextObject",
+      "text": "uma serie de copos de vidro ou garrafas com agua em niveis diferentes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "uma serie de copos de vidro ou garrafas com agua em niveis diferentes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "devendo chegar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8010847795741961,
+      "relevance": 0.8090551181102362
+    },
+    {
+      "role": "Keyword",
+      "text": "sons emitidos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.8010847795741961,
+      "relevance": 0.6437007874015748
+    },
+    {
+      "role": "Keyword",
+      "text": "apreciarao som",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8010847795741961,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "apreciarao som",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.8010847795741961,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "classificarao timbre",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.8010847795741961,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tocarao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7967122675207827,
+      "relevance": 0.9803149606299213
+    },
+    {
+      "role": "Keyword",
+      "text": "ordem ascendente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7967122675207827,
+      "relevance": 0.7224409448818898
+    },
+    {
+      "role": "Keyword",
+      "text": "descendente sons",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7967122675207827,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tocarao instrumentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.796693818310976,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "olhando instrumentos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5753899798912605,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "intensidade",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7459018055253932,
+      "relevance": 0.8858267716535433
+    },
+    {
+      "role": "Keyword",
+      "text": "percussao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7459018055253932,
+      "relevance": 0.5196850393700787
+    },
+    {
+      "role": "Keyword",
+      "text": "identificacao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7180338798226018,
+      "relevance": 0.7677165354330708
+    },
+    {
+      "role": "ContextObject",
+      "text": "instrumentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9586614173228346
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "existem instrumentos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5645193840272511,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumentos citados",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5088757458759724,
+      "relevance": 0.88
+    },
+    {
+      "role": "ContextObject",
+      "text": "instrumentos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.88
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[Documento] urn:doc:329
+  - miVector: 8.72,17.15,8.27,12.80,7.55,29.45,0.00,16.06
+  - TOP (documento): Interpersonal (score=0.2945)
+  - Ranking (top 3):
+      • Interpersonal: 0.2945
+      • Logical-Mathematical: 0.1715
+      • Naturalist: 0.1606
+
+
+[Documento — Fragmentos] urn:doc:329
+
+[Fragmento] Preparacao: Uma sala para que os alunos possam se colocar em circulo. Utilizacao: O professor atribuira um numero a cada aluno ate a metade dos compo- nentes. Inicia, depois, a mesma numeracao dos demais, de maneira a existir dois alunos de numero 1, dois de numero 2 e assim por diante.
+  > TOP: Espacial-visual (score=0.2614, tipo=Primary)
+
+[Fragmento] Cada aluno deve observar atentamente seu par por alguns segundos; a um sinal do profes- sor viram-se de costas para o centro do circulo e alteram um detalhe de si mes- mos (por exemplo: solta fio do sapato, tira uma correntinha, etc.).
+  > TOP: Interpessoal (score=0.3671, tipo=Primary)
+
+[Fragmento] A um sinal do professor voltam a se observar, tentando descobrir qual a alteracao feita.
+  > TOP: Lógico-matemática (score=0.4255, tipo=Primary)
+
+[Fragmento] A atividade explora a percepcao e a identidade visual do outro e deve ser repetida varias vezes, observando-se se ha progresso ce, consequentemente, au- mento de dificuldades em se proceder mudanca de detalhes nao notados.
+  > TOP: Lógico-matemática (score=0.3828, tipo=Primary)
+
+[Fragmento] Uma outra forma e chamar dois alunos para o centro do circulo, procedendo-se a mesma experiencia. -- 255
+  > TOP: Interpessoal (score=0.5511, tipo=Primary)

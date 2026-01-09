@@ -1,0 +1,106 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:51#evid-000-00-tres-tamanhos> a onto:Keyword ;
+    rdfs:label "tres tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:51#evid-000-01-tampas-plasticas> a onto:Keyword ;
+    rdfs:label "tampas plasticas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:51#evid-000-02-ninhos> a onto:Keyword ;
+    rdfs:label "ninhos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:51#evid-000-03-comparar> a onto:Keyword ;
+    rdfs:label "comparar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:51#evid-000-04-identificar-maiores> a onto:Keyword ;
+    rdfs:label "identificar maiores"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:51#evid-000-05-comparar-tres> a onto:Keyword ;
+    rdfs:label "comparar tres"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:51#evid-000-06-tampas-identificar> a onto:Keyword ;
+    rdfs:label "tampas identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:51#evid-000-07-comparar-os-tres-tamanhos-de-tam> a onto:DiscursiveStrategy ;
+    rdfs:label "comparar os tres tamanhos de tampas para identificar as maiores e as menores"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:51#evid-000-08-comparar-os-tres-tamanhos-de-tam> a onto:DiscursiveStrategy ;
+    rdfs:label "comparar os tres tamanhos de tampas para identificar as maiores e as menores"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:51#evid-000-09-comparar-os-tres-tamanhos-de-tam> a onto:DiscursiveStrategy ;
+    rdfs:label "comparar os tres tamanhos de tampas para identificar as maiores e as menores"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:51#evid-001-00-formar-fileiras> a onto:Keyword ;
+    rdfs:label "formar fileiras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:51#evid-001-01-ordenando-ninhos> a onto:Keyword ;
+    rdfs:label "ordenando ninhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:51#evid-001-02-tamanho> a onto:Keyword ;
+    rdfs:label "tamanho"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:51#evid-001-03-ordem-ninhos> a onto:Keyword ;
+    rdfs:label "ordem ninhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:51#evid-001-04-encaixar-ordem> a onto:Keyword ;
+    rdfs:label "encaixar ordem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:51#evid-001-05-encaixar-ordem> a onto:Keyword ;
+    rdfs:label "encaixar ordem"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:51#evid-001-06-ninhos> a onto:ContextObject ;
+    rdfs:label "ninhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:51#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Tampas plasticas de tres tamanhos bem diferentes que serao os \"ninhos\". Utilizacao: Os alunos devem comparar os tres tamanhos de tampas para identificar as maiores e as menores. O professor deve introduzir o conceito de tamanho \"me- dio\" e solicitar que os alunos as encontrem."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:51> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:51#evid-000-00-tres-tamanhos>,
+        <urn:doc:51#evid-000-01-tampas-plasticas>,
+        <urn:doc:51#evid-000-02-ninhos>,
+        <urn:doc:51#evid-000-03-comparar>,
+        <urn:doc:51#evid-000-04-identificar-maiores>,
+        <urn:doc:51#evid-000-05-comparar-tres>,
+        <urn:doc:51#evid-000-06-tampas-identificar>,
+        <urn:doc:51#evid-000-07-comparar-os-tres-tamanhos-de-tam>,
+        <urn:doc:51#evid-000-08-comparar-os-tres-tamanhos-de-tam>,
+        <urn:doc:51#evid-000-09-comparar-os-tres-tamanhos-de-tam> .
+
+<urn:doc:51#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Formar fileiras, ordenando os ninhos segundo seu tamanho. Encaixar em ordem os ninhos menores nos maiores. 79"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:51> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:51#evid-001-00-formar-fileiras>,
+        <urn:doc:51#evid-001-01-ordenando-ninhos>,
+        <urn:doc:51#evid-001-02-tamanho>,
+        <urn:doc:51#evid-001-03-ordem-ninhos>,
+        <urn:doc:51#evid-001-04-encaixar-ordem>,
+        <urn:doc:51#evid-001-05-encaixar-ordem>,
+        <urn:doc:51#evid-001-06-ninhos> .
+
+<urn:doc:51> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:51#frag-000>,
+        <urn:doc:51#frag-001> .
+

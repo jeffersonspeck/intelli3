@@ -1,0 +1,63 @@
+[Documento] urn:doc:107
+  - miVector: 0.00,0.00,32.83,0.00,18.43,0.00,0.00,48.73
+  - TOP (documento): Naturalist (score=0.4873)
+  - Ranking (top 3):
+      • Naturalist: 0.4873
+      • Spatial: 0.3283
+      • Bodily-Kinesthetic: 0.1843
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas.
+        • Keyword: colocar palitos
+        • Keyword: reproduzindo figuras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4240
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: Folhas de cartolina e palitos de fosforo
+        • Keyword: desenhar figuras geometricas
+        • Keyword: irregulares cartolina
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5809
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: Folhas de cartolina e palitos de fosforo
+        • DiscursiveStrategy: colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas.
+        • Keyword: desenhos
+        • Keyword: figuras geometricas colocadas
+        • Keyword: folhas cartolina
+        • Keyword: reproduzindo figuras
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5760
+
+
+[Documento — Fragmentos] urn:doc:107
+
+[Fragmento] Preparacao: Folhas de cartolina e palitos de fosforo usados. Desenhar figuras geometricas e formas irregulares na cartolina. Todos os desenhos devem ser passiveis de uma reproducao com palitos de fosforo.
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: Folhas de cartolina e palitos de fosforo
+        • Keyword: desenhar figuras geometricas
+        • Keyword: irregulares cartolina
+    - Ativações:
+        • score=0.5809, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: Folhas de cartolina e palitos de fosforo
+        • Keyword: folhas cartolina
+    - Ativações:
+        • score=0.4191, tipo=Secondary
+
+[Fragmento] Utilizacao: A tarefa dos alunos, individualmente, e a de colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas. A experiencia pode ser ampliada com desenhos de casas e outros, progressivamente apresentando maior complexidade. no 1no oo o n Fmatolaensca Fena
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas.
+        • Keyword: colocar palitos
+        • Keyword: reproduzindo figuras
+    - Ativações:
+        • score=0.4240, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: colocar os palitos sobre os desenhos, reproduzindo as figuras geometricas colocadas.
+        • Keyword: desenhos
+        • Keyword: figuras geometricas colocadas
+        • Keyword: reproduzindo figuras
+    - Ativações:
+        • score=0.5760, tipo=Primary

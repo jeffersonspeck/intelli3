@@ -1,0 +1,162 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "confeccionar crachas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7482280039845473,
+      "relevance": 0.8140000000000001
+    },
+    {
+      "role": "Keyword",
+      "text": "escrevam algumas sentencas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7055318432317488,
+      "relevance": 0.644
+    },
+    {
+      "role": "Keyword",
+      "text": "sentimentos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6176350443598113,
+      "relevance": 0.524
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "confeccionar crachas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8140000000000001
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "fico contente",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.8009822462790184,
+      "relevance": 0.9064625850340136
+    },
+    {
+      "role": "Keyword",
+      "text": "sonho vida",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7839148258974924,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "circular",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7001169893635597,
+      "relevance": 0.5561224489795918
+    },
+    {
+      "role": "Keyword",
+      "text": "chamado",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6867581563709092,
+      "relevance": 0.9370748299319728
+    },
+    {
+      "role": "Keyword",
+      "text": "circular pela sala",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.659060135469519,
+      "relevance": 0.5561224489795918
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "os alunos devem circular pela sala com os mesmos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.5833333333333333
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "revele descobertas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7936639878285422,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "circulo debates",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7838469411271867,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "expresse",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7681303881739332,
+      "relevance": 0.8714859437751004
+    },
+    {
+      "role": "Keyword",
+      "text": "expresse impressao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7681303881739332,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "nao permitir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6030743300267787,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "ao final e indispensavel um circulo de debates, onde cada aluno expresse sua impressao sobre a atividade e, principalmente, revele suas descobertas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "circulo de debates",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.49725,
+      "relevance": 0.9437751004016064
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "aprofundamento interpessoal",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.8448275862068966
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "deve ser um ponto de maior aprofundamento interpessoal dos alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ]
+}

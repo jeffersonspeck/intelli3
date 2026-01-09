@@ -1,0 +1,23 @@
+{
+  "doc_id": "urn:doc:9",
+  "paragraphs": [
+    {
+      "k": 0,
+      "text": "Preparacao: Alunos divididos em dois grupos, sentados em circulos. Em uma caixa, uma serie de papeis com perguntas (Exemplo: Onde voce mora? / Onde voce estuda? Qual sua idade? / Que programa mais gosta na TV? / Voce tem namora- do?",
+      "lang": "pt",
+      "is_title_or_abstract": true
+    },
+    {
+      "k": 1,
+      "text": "/ Quem descobriu a America?) e em outra caixa uma seric de questoes que respondem essas perguntas. Utilizacao: Iniciado o jogo, o professor escolhe um aluno que fara uma pergunta em voz alta. Essa pergunta devera, imediatamente, ser respondida pelo aluno do grupo oposto.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    },
+    {
+      "k": 2,
+      "text": "Caso ocorram duas respostas simultaneas, o grupo das respostas perde um ponto. Apos uma serie de indagacoes e respostas, revezam-se os grupos em suas funcoes de perguntar e de responder.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    }
+  ]
+}

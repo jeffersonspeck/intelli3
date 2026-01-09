@@ -1,0 +1,116 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:169#evid-000-00-construir-cubos> a onto:Keyword ;
+    rdfs:label "construir cubos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-01-funcionem-alcas> a onto:Keyword ;
+    rdfs:label "funcionem alcas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-02-funcionem-alcas> a onto:Keyword ;
+    rdfs:label "funcionem alcas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:169#evid-000-03-especie-tamanco> a onto:Keyword ;
+    rdfs:label "especie tamanco"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:169#evid-000-04-cubos-madeira> a onto:Keyword ;
+    rdfs:label "cubos madeira"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-05-andar> a onto:Keyword ;
+    rdfs:label "andar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-06-andar> a onto:Keyword ;
+    rdfs:label "andar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:169#evid-000-07-cordas-funcionem> a onto:Keyword ;
+    rdfs:label "cordas funcionem"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:169#evid-000-08-cordas-funcionem> a onto:Keyword ;
+    rdfs:label "cordas funcionem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-000-09-altura> a onto:Keyword ;
+    rdfs:label "altura"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:169#evid-000-10-segurando-cordas> a onto:Keyword ;
+    rdfs:label "segurando cordas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:169#evid-001-00-ande-apoiando> a onto:Keyword ;
+    rdfs:label "ande apoiando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-001-01-ponta-pes> a onto:Keyword ;
+    rdfs:label "ponta pes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-001-02-deslocar-som> a onto:Keyword ;
+    rdfs:label "deslocar som"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:169#evid-001-03-instrumento-percussao> a onto:Keyword ;
+    rdfs:label "instrumento percussao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:169#evid-001-04-instrumento-percussao> a onto:Keyword ;
+    rdfs:label "instrumento percussao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:169#evid-001-05-fazer-com-que-ande-apoiando-so-a> a onto:DiscursiveStrategy ;
+    rdfs:label "fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de percussao, andar apenas de lado ou andar de cos…"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:169#evid-001-06-instrumento-de-percussao> a onto:ContextObject ;
+    rdfs:label "instrumento de percussao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:169#evid-001-07-instrumento-de-percussao> a onto:ContextObject ;
+    rdfs:label "instrumento de percussao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:169#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Construir com cubos de madeira de pouco mais de 20cm de altura e com cordas que funcionem como alcas, uma especie de tamanco. Utilizacao: O aluno devera andar sobre as pecas, segurando as cordas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:169> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:169#evid-000-00-construir-cubos>,
+        <urn:doc:169#evid-000-01-funcionem-alcas>,
+        <urn:doc:169#evid-000-02-funcionem-alcas>,
+        <urn:doc:169#evid-000-03-especie-tamanco>,
+        <urn:doc:169#evid-000-04-cubos-madeira>,
+        <urn:doc:169#evid-000-05-andar>,
+        <urn:doc:169#evid-000-06-andar>,
+        <urn:doc:169#evid-000-07-cordas-funcionem>,
+        <urn:doc:169#evid-000-08-cordas-funcionem>,
+        <urn:doc:169#evid-000-09-altura>,
+        <urn:doc:169#evid-000-10-segurando-cordas> .
+
+<urn:doc:169#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Apos o domi- nio de uma primeira fase de equilibrio, fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de per- cussao, andar apenas de lado ou andar de costas. (Existe no comercio -- Toc-Toc [Q. 1.].)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:169> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:169#evid-001-00-ande-apoiando>,
+        <urn:doc:169#evid-001-01-ponta-pes>,
+        <urn:doc:169#evid-001-02-deslocar-som>,
+        <urn:doc:169#evid-001-03-instrumento-percussao>,
+        <urn:doc:169#evid-001-04-instrumento-percussao>,
+        <urn:doc:169#evid-001-05-fazer-com-que-ande-apoiando-so-a>,
+        <urn:doc:169#evid-001-06-instrumento-de-percussao>,
+        <urn:doc:169#evid-001-07-instrumento-de-percussao> .
+
+<urn:doc:169> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:169#frag-000>,
+        <urn:doc:169#frag-001> .
+

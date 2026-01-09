@@ -1,0 +1,45 @@
+[Documento] urn:doc:12
+  - miVector: 3.88,12.71,11.07,0.00,32.95,0.00,0.00,39.39
+  - TOP (documento): Naturalist (score=0.3939)
+  - Ranking (top 3):
+      • Naturalist: 0.3939
+      • Bodily-Kinesthetic: 0.3295
+      • Logical-Mathematical: 0.1271
+
+[Fragmento] Preparacao: Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras. As demais, repetidas, devem ser coladas cada uma em um cartao.
+  - Bodily-Kinesthetic (via activation, score=0.6053)
+  - Logical-Mathematical (via activation, score=0.1213)
+  - Spatial (via activation, score=0.2734)
+  - Cinestésico-corporal (via activation, score=0.6053)
+  - Espacial-visual (via activation, score=0.2734)
+  - Lógico-matemática (via activation, score=0.1213)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Utilizacao: Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e indefinido para cada item. Exemplo: O abacate verde, uma laranja amarela, etc. (Existem analogos no comercio.
+  - Bodily-Kinesthetic (via activation, score=0.4821)
+  - Linguistic (via activation, score=0.1279)
+  - Logical-Mathematical (via activation, score=0.2980)
+  - Spatial (via activation, score=0.0920)
+  - Cinestésico-corporal (via activation, score=0.4821)
+  - Espacial-visual (via activation, score=0.0920)
+  - Linguística (via activation, score=0.1279)
+  - Lógico-matemática (via activation, score=0.2980)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Loto Mundo Variado [Coluna]) 54
+  - Naturalist (via activation, score=1.0000)
+  - Naturalista (via activation, score=1.0000)
+  - Naturalist (via element)
+  - Naturalista (via element)

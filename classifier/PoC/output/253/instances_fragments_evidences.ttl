@@ -1,0 +1,128 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:253#evid-000-00-oferecer-excelente-oportunidade> a onto:Keyword ;
+    rdfs:label "oferecer excelente oportunidade"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:253#evid-000-01-pesquisas-descobertas> a onto:Keyword ;
+    rdfs:label "pesquisas descobertas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:253#evid-000-02-escola-pode-oferecer> a onto:Keyword ;
+    rdfs:label "escola pode oferecer"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:253#evid-000-03-oportunidade-pesquisas> a onto:Keyword ;
+    rdfs:label "oportunidade pesquisas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:253#evid-000-04-oportunidade-pesquisas> a onto:Keyword ;
+    rdfs:label "oportunidade pesquisas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:253#evid-000-05-identificar-margens> a onto:Keyword ;
+    rdfs:label "identificar margens"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:253#evid-000-06-identificar-margens> a onto:Keyword ;
+    rdfs:label "identificar margens"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:253#evid-000-07-barquinhas-de-papel> a onto:ContextObject ;
+    rdfs:label "barquinhas de papel"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:253#evid-001-00-solo-permite-explorar> a onto:Keyword ;
+    rdfs:label "solo permite explorar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:253#evid-001-01-umidade-solo> a onto:Keyword ;
+    rdfs:label "umidade solo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:253#evid-001-02-margens> a onto:Keyword ;
+    rdfs:label "margens"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:253#evid-001-03-vida-aguas> a onto:Keyword ;
+    rdfs:label "vida aguas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:253#evid-001-04-umidade-do-solo> a onto:ContextObject ;
+    rdfs:label "umidade do solo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:253#evid-001-05-marcas-no-terreno> a onto:ContextObject ;
+    rdfs:label "marcas no terreno"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:253#evid-002-00-riacho-permitir> a onto:Keyword ;
+    rdfs:label "riacho permitir"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:253#evid-002-01-permitir-construcao> a onto:Keyword ;
+    rdfs:label "permitir construcao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:253#evid-002-02-construcao-conceitos> a onto:Keyword ;
+    rdfs:label "construcao conceitos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:253#evid-002-03-construcao-conceitos> a onto:Keyword ;
+    rdfs:label "construcao conceitos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:253#evid-002-04-montante-jusante-planicie-nascen> a onto:ContextObject ;
+    rdfs:label "montante, jusante, planicie, nascente, foz, afluente"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:253#evid-002-05-montante-jusante-planicie-nascen> a onto:ContextObject ;
+    rdfs:label "montante, jusante, planicie, nascente, foz, afluente"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:253#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Um pequeno riacho nas proximidades da escola pode oferecer excelente oportunidade para pesquisas e descobertas. Utilizacao: Barquinhas de papel lancadas as aguas ajuda a perceber a correnteza e a identi- ficar as margens."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:253> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:253#evid-000-00-oferecer-excelente-oportunidade>,
+        <urn:doc:253#evid-000-01-pesquisas-descobertas>,
+        <urn:doc:253#evid-000-02-escola-pode-oferecer>,
+        <urn:doc:253#evid-000-03-oportunidade-pesquisas>,
+        <urn:doc:253#evid-000-04-oportunidade-pesquisas>,
+        <urn:doc:253#evid-000-05-identificar-margens>,
+        <urn:doc:253#evid-000-06-identificar-margens>,
+        <urn:doc:253#evid-000-07-barquinhas-de-papel> .
+
+<urn:doc:253#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "A umidade do solo permite explorar diferentes tipos de vegetacao, verificar se existe vida nas aguas e se ha pegadas em suas margens. As marcas no terreno podem mostrar fases de enchente e, portanto, sugerir elementos sobre o regime das aguas."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:253> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:253#evid-001-00-solo-permite-explorar>,
+        <urn:doc:253#evid-001-01-umidade-solo>,
+        <urn:doc:253#evid-001-02-margens>,
+        <urn:doc:253#evid-001-03-vida-aguas>,
+        <urn:doc:253#evid-001-04-umidade-do-solo>,
+        <urn:doc:253#evid-001-05-marcas-no-terreno> .
+
+<urn:doc:253#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "O riacho deve permitir a construcao de conceitos sobre mon- tante, jusante, planicie, nascente, foz, afluente e muitos outros. 202"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:253> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:253#evid-002-00-riacho-permitir>,
+        <urn:doc:253#evid-002-01-permitir-construcao>,
+        <urn:doc:253#evid-002-02-construcao-conceitos>,
+        <urn:doc:253#evid-002-03-construcao-conceitos>,
+        <urn:doc:253#evid-002-04-montante-jusante-planicie-nascen>,
+        <urn:doc:253#evid-002-05-montante-jusante-planicie-nascen> .
+
+<urn:doc:253> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:253#frag-000>,
+        <urn:doc:253#frag-001>,
+        <urn:doc:253#frag-002> .
+

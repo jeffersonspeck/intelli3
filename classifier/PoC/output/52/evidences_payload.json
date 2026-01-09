@@ -1,0 +1,224 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "representando animais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8051789563254824,
+      "relevance": 0.680921052631579
+    },
+    {
+      "role": "Keyword",
+      "text": "encaixam nesses espacos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.7631578947368421
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras vazadas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5771917527041672,
+      "relevance": 0.8651315789473684
+    },
+    {
+      "role": "Keyword",
+      "text": "tabuleiro figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5771917527041672,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "pecas que se encaixam nesses espacos, representando animais, como patos, borboletas e outros",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.805921052631579
+    },
+    {
+      "role": "ContextObject",
+      "text": "pecas que se encaixam nesses espacos, representando animais, como patos, borboletas e outros",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.805921052631579
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "separar animais diferentes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8091418125508628,
+      "relevance": 0.8592814371257484
+    },
+    {
+      "role": "Keyword",
+      "text": "retirar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8087050840535508,
+      "relevance": 0.9520958083832335
+    },
+    {
+      "role": "Keyword",
+      "text": "animais diferentes conforme",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8087050840535508,
+      "relevance": 0.8353293413173652
+    },
+    {
+      "role": "Keyword",
+      "text": "comparar tamanhos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.7035928143712575
+    },
+    {
+      "role": "Keyword",
+      "text": "pecas tabuleiro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "conforme conjuntos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5797858594185813,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "retirar pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tamanhos indicar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "pecas do tabuleiro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9191616766467066
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "serem capazes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7882326006171508,
+      "relevance": 0.8625954198473282
+    },
+    {
+      "role": "Keyword",
+      "text": "observando tamanhos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7882326006171508,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "observando tamanhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7882326006171508,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "executar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7784065969819602,
+      "relevance": 0.8053435114503817
+    },
+    {
+      "role": "Keyword",
+      "text": "encaixar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7523674745430488,
+      "relevance": 0.9751908396946565
+    },
+    {
+      "role": "Keyword",
+      "text": "medias",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5409729610159103,
+      "relevance": 0.6698473282442747
+    },
+    {
+      "role": "Keyword",
+      "text": "pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7403469502615374,
+      "relevance": 0.9522900763358778
+    },
+    {
+      "role": "Keyword",
+      "text": "encaixar pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7332112582147642,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "encaixar retirar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5271690320756756,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tabuleiro pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6864536176362559,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tabuleiro encaixe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6827388865880294,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "Tabuleiro de Encaixe -- Uki-Uki",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.5629770992366412
+    }
+  ]
+}

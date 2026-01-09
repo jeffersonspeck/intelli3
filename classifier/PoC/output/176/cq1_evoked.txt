@@ -1,0 +1,31 @@
+[Documento] urn:doc:176
+  - miVector: 0.00,38.26,0.00,0.00,52.35,0.00,0.00,9.39
+  - TOP (documento): Bodily-Kinesthetic (score=0.5235)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5235
+      • Logical-Mathematical: 0.3826
+      • Naturalist: 0.0939
+
+[Fragmento] Preparacao: Preparar cinco saquinhos de pano nao transparente e deixar um dos lados aberto. Encher os saquinhos com milho, arroz ou feijao e fechar...
+  - Bodily-Kinesthetic (via activation, score=0.4086)
+  - Logical-Mathematical (via activation, score=0.5914)
+  - Cinestésico-corporal (via activation, score=0.4086)
+  - Lógico-matemática (via activation, score=0.5914)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Utilizacao: Os alunos, divididos em grupo ou integrando equipes, devem pegar as pecas na sequencia de um a cinco, atirando uma para cima e pegando as da mesa. Na primeira jogada, o aluno pega uma, na segunda pega duas pecas de cada vez e assim por diante.
+  - Bodily-Kinesthetic (via activation, score=0.6729)
+  - Logical-Mathematical (via activation, score=0.1111)
+  - Naturalist (via activation, score=0.2160)
+  - Cinestésico-corporal (via activation, score=0.6729)
+  - Lógico-matemática (via activation, score=0.1111)
+  - Naturalista (via activation, score=0.2160)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

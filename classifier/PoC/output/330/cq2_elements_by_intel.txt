@@ -1,0 +1,191 @@
+[Documento] urn:doc:330
+  - miVector: 14.34,18.93,6.57,0.00,12.62,21.95,10.93,14.66
+  - TOP (documento): Interpersonal (score=0.2195)
+  - Ranking (top 3):
+      • Interpersonal: 0.2195
+      • Logical-Mathematical: 0.1893
+      • Naturalist: 0.1466
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: tantas meias folhas de papel
+        • DiscursiveStrategy: reunir todos que a ele se referem
+        • Keyword: componentes
+        • Keyword: forem integrantes
+        • Keyword: participantes quantos forem
+        • Keyword: passa tantas meias
+        • Keyword: reunir
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.3152
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: sala
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2680
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: sala
+        • Keyword: coloca discussao
+        • Keyword: considera las identificadoras
+        • Keyword: discussao mensagens
+        • Keyword: escrevam pequeno
+        • Keyword: explore
+        • Keyword: identificadoras nao
+        • Keyword: identificar
+        • Keyword: mesmo escrevam
+        • Keyword: pequeno texto positivo
+    - Ativações (doc): n=4, primárias=1, secundárias=3, max=0.4013
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: apos longo processo
+        • Keyword: processo alfabetizacao
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5793
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: textos
+        • Keyword: apos leitura
+        • Keyword: escrevam pequeno
+        • Keyword: leitura mensagens
+        • Keyword: mesmo escrevam
+        • Keyword: redator texto
+        • Keyword: texto nao
+        • Keyword: textos sao abertos
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4440
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: considera las identificadoras
+        • Keyword: divide
+        • Keyword: julgar
+        • Keyword: possam estar sentados
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4207
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: mensagens recebidas
+        • ContextObject: tantas meias folhas de papel
+        • Keyword: folha
+        • Keyword: folhas papel
+        • Keyword: identificar
+        • Keyword: meias folhas
+        • Keyword: mensagens recebidas
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3088
+
+
+[Documento — Fragmentos] urn:doc:330
+
+[Fragmento] Preparacao: Uma sala para que os alunos possam estar sentados em circulo. Utilizacao: O professor divide os alunos em grupos de quatro a seis componentes.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: componentes
+    - Ativações:
+        • score=0.1012, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: sala
+    - Ativações:
+        • score=0.2680, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: sala
+    - Ativações:
+        • score=0.2680, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: divide
+        • Keyword: possam estar sentados
+    - Ativações:
+        • score=0.3628, tipo=Primary
+
+[Fragmento] Passa tantas meias folhas de papel para cada um dos participantes quantos fo- rem os integrantes desse grupo e solicita que no mesmo escrevam um pequeno texto positivo, que explore um dos aspectos realmente bons de cada um dos in- tegrantes do grupo, dobrando depois essa folha.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: tantas meias folhas de papel
+        • Keyword: forem integrantes
+        • Keyword: participantes quantos forem
+        • Keyword: passa tantas meias
+    - Ativações:
+        • score=0.3152, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: escrevam pequeno
+        • Keyword: explore
+        • Keyword: mesmo escrevam
+        • Keyword: pequeno texto positivo
+    - Ativações:
+        • score=0.2465, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: escrevam pequeno
+        • Keyword: mesmo escrevam
+    - Ativações:
+        • score=0.1295, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: tantas meias folhas de papel
+        • Keyword: folha
+        • Keyword: folhas papel
+        • Keyword: meias folhas
+    - Ativações:
+        • score=0.3088, tipo=Secondary
+
+[Fragmento] O redator do texto nao deve se identificar. A um sinal do professor, os textos sao abertos e cada aluno deve re- unir todos que a ele se referem.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: reunir todos que a ele se referem
+        • Keyword: reunir
+    - Ativações:
+        • score=0.2219, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: identificar
+    - Ativações:
+        • score=0.1670, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: textos
+        • Keyword: redator texto
+        • Keyword: texto nao
+        • Keyword: textos sao abertos
+    - Ativações:
+        • score=0.4440, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: identificar
+    - Ativações:
+        • score=0.1670, tipo=Secondary
+
+[Fragmento] Apos a leitura das mensagens recebidas o pro- tessor desfaz os grupos e, formando um circulo com todos, coloca em discussao as mensagens recebidas e como cada um se coloca diante da circunstancia de considera-las identificadoras ou nao da imagem que faz de si mesmo.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: coloca discussao
+        • Keyword: considera las identificadoras
+        • Keyword: discussao mensagens
+        • Keyword: identificadoras nao
+    - Ativações:
+        • score=0.4013, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: apos leitura
+        • Keyword: leitura mensagens
+    - Ativações:
+        • score=0.1865, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: considera las identificadoras
+    - Ativações:
+        • score=0.1108, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: mensagens recebidas
+        • Keyword: mensagens recebidas
+    - Ativações:
+        • score=0.3013, tipo=Secondary
+
+[Fragmento] Se julgar, apos longo processo de alfabetizacao emocional, que o grupo esta suficiente- mente amadurecido pode desenvolver a atividade oposta: "o lado negativo". 256
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: apos longo processo
+        • Keyword: processo alfabetizacao
+    - Ativações:
+        • score=0.5793, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: julgar
+    - Ativações:
+        • score=0.4207, tipo=Secondary

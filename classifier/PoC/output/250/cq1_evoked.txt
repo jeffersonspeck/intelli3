@@ -1,0 +1,45 @@
+[Documento] urn:doc:250
+  - miVector: 17.39,21.34,0.00,0.00,20.72,4.82,0.00,35.73
+  - TOP (documento): Naturalist (score=0.3573)
+  - Ranking (top 3):
+      • Naturalist: 0.3573
+      • Logical-Mathematical: 0.2134
+      • Bodily-Kinesthetic: 0.2072
+
+[Fragmento] Preparacao: O professor devera estimular que os alunos, divididos em grupos, facam colecoes de produtos naturais, tais como rochas, minerais, folhas, conchas, co- gumelos ou outros produtos.
+  - Linguistic (via activation, score=0.1973)
+  - Naturalist (via activation, score=0.8027)
+  - Linguística (via activation, score=0.1973)
+  - Naturalista (via activation, score=0.8027)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Linguística (via element)
+  - Naturalista (via element)
+
+[Fragmento] Deve arrumar caixas bem divididas para expor es- sas colecoes e levar os alunos a classificar com criterio os objetos colecionados.
+  - Bodily-Kinesthetic (via activation, score=0.5260)
+  - Interpersonal (via activation, score=0.1224)
+  - Logical-Mathematical (via activation, score=0.3516)
+  - Cinestésico-corporal (via activation, score=0.5260)
+  - Interpessoal (via activation, score=0.1224)
+  - Lógico-matemática (via activation, score=0.3516)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Utilizacao: O professor deve, antes de estimular os alunos as colecoes, planejar os mostruarios, as referencias bibliograficas para que possam identificar as pecas encontradas e estabelecer as regras essenciais para a colecao.
+  - Linguistic (via activation, score=0.3765)
+  - Logical-Mathematical (via activation, score=0.2471)
+  - Naturalist (via activation, score=0.3765)
+  - Linguística (via activation, score=0.3765)
+  - Lógico-matemática (via activation, score=0.2471)
+  - Naturalista (via activation, score=0.3765)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

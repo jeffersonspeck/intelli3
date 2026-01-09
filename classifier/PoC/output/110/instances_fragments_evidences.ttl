@@ -1,0 +1,175 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:110#evid-000-00-ajuda> a onto:Keyword ;
+    rdfs:label "ajuda"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:110#evid-000-01-preparar> a onto:Keyword ;
+    rdfs:label "preparar"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:110#evid-000-02-soldados> a onto:Keyword ;
+    rdfs:label "soldados"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:110#evid-000-03-massa-modelar> a onto:Keyword ;
+    rdfs:label "massa modelar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:110#evid-000-04-massa-modelar> a onto:Keyword ;
+    rdfs:label "massa modelar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-000-05-semelhantes-reais> a onto:Keyword ;
+    rdfs:label "semelhantes reais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:110#evid-001-00-usar-tampinhas-coloridas> a onto:Keyword ;
+    rdfs:label "usar tampinhas coloridas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-001-01-imaginario> a onto:Keyword ;
+    rdfs:label "imaginario"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:110#evid-001-02-assumir> a onto:Keyword ;
+    rdfs:label "assumir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-001-03-assumir-funcoes> a onto:Keyword ;
+    rdfs:label "assumir funcoes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-001-04-ventos-desenhada> a onto:Keyword ;
+    rdfs:label "ventos desenhada"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:110#evid-001-05-usar-tampinhas-coloridas-de-past> a onto:DiscursiveStrategy ;
+    rdfs:label "usar tampinhas coloridas de pasta de dente, conchinhas ou outros objetos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-001-06-uma-rosa-dos-ventos-desenhada-em> a onto:ContextObject ;
+    rdfs:label "uma rosa dos ventos desenhada em cartolina e uma bussola"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:110#evid-002-00-classifica-las-fila> a onto:Keyword ;
+    rdfs:label "classifica las fila"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:110#evid-002-01-arrumar-pecas> a onto:Keyword ;
+    rdfs:label "arrumar pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-002-02-pecas-direita> a onto:Keyword ;
+    rdfs:label "pecas direita"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-002-03-esquerda> a onto:Keyword ;
+    rdfs:label "esquerda"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-002-04-armar-o-exercito-livremente-e-de> a onto:DiscursiveStrategy ;
+    rdfs:label "armar o exercito livremente e, depois, segundo orientacao do professor, arrumar as pecas a direita ou a esquerda de um ponto de referencia, classifica-las em…"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:110#evid-003-00-mesmos-aferidos-devidamente> a onto:Keyword ;
+    rdfs:label "mesmos aferidos devidamente"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:110#evid-003-01-jogo-permite-explorar> a onto:Keyword ;
+    rdfs:label "jogo permite explorar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:110#evid-003-02-jogo-permite-explorar> a onto:Keyword ;
+    rdfs:label "jogo permite explorar"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:110#evid-003-03-acrescentar-rosa> a onto:Keyword ;
+    rdfs:label "acrescentar rosa"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-003-04-rosa-ventos> a onto:Keyword ;
+    rdfs:label "rosa ventos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-003-05-explorar-conceitos> a onto:Keyword ;
+    rdfs:label "explorar conceitos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:110#evid-003-06-existem-diferentes-modalidades> a onto:Keyword ;
+    rdfs:label "existem diferentes modalidades"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:110#evid-003-07-cardeais> a onto:Keyword ;
+    rdfs:label "cardeais"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#evid-003-08-bussola> a onto:Keyword ;
+    rdfs:label "bussola"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:110#evid-003-09-acrescentar-se-uma-rosa-dos-vent> a onto:DiscursiveStrategy ;
+    rdfs:label "acrescentar-se uma rosa dos ventos ao jogo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:110#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar com a ajuda dos alunos um \"exercito\" contendo varios carros de combate, soldados e outras pecas. Nao ha qualquer importancia que essas pecas (feitas de papelao ou massa de modelar) sejam semelhantes as reais."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:110> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:110#evid-000-00-ajuda>,
+        <urn:doc:110#evid-000-01-preparar>,
+        <urn:doc:110#evid-000-02-soldados>,
+        <urn:doc:110#evid-000-03-massa-modelar>,
+        <urn:doc:110#evid-000-04-massa-modelar>,
+        <urn:doc:110#evid-000-05-semelhantes-reais> .
+
+<urn:doc:110#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Uma alternativa e usar tampinhas coloridas de pasta de dente, conchinhas ou outros objetos que devem assumir suas funcoes segundo o imaginario do aluno. Uma rosa dos ventos desenhada em cartolina e uma bussola para conferir a exatidao dos pontos solicitados."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:110> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:110#evid-001-00-usar-tampinhas-coloridas>,
+        <urn:doc:110#evid-001-01-imaginario>,
+        <urn:doc:110#evid-001-02-assumir>,
+        <urn:doc:110#evid-001-03-assumir-funcoes>,
+        <urn:doc:110#evid-001-04-ventos-desenhada>,
+        <urn:doc:110#evid-001-05-usar-tampinhas-coloridas-de-past>,
+        <urn:doc:110#evid-001-06-uma-rosa-dos-ventos-desenhada-em> .
+
+<urn:doc:110#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem armar o exercito livremente e, depois, segundo orien- tacao do professor, arrumar as pecas a direita ou a esquerda de um ponto de referencia, classifica-las em fila, uma alternada a outra e assim por diante."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:110> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:110#evid-002-00-classifica-las-fila>,
+        <urn:doc:110#evid-002-01-arrumar-pecas>,
+        <urn:doc:110#evid-002-02-pecas-direita>,
+        <urn:doc:110#evid-002-03-esquerda>,
+        <urn:doc:110#evid-002-04-armar-o-exercito-livremente-e-de> .
+
+<urn:doc:110#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Acrescentar-se uma rosa dos ventos ao jogo permite explorar os conceitos de pontos cardeais, desde que sejam os mesmos aferidos devidamente com uma bussola. (Existem diferentes modalidades de jogos de armar que podem ser utilizados segundo as propostas sugeridas.)"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:110> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:110#evid-003-00-mesmos-aferidos-devidamente>,
+        <urn:doc:110#evid-003-01-jogo-permite-explorar>,
+        <urn:doc:110#evid-003-02-jogo-permite-explorar>,
+        <urn:doc:110#evid-003-03-acrescentar-rosa>,
+        <urn:doc:110#evid-003-04-rosa-ventos>,
+        <urn:doc:110#evid-003-05-explorar-conceitos>,
+        <urn:doc:110#evid-003-06-existem-diferentes-modalidades>,
+        <urn:doc:110#evid-003-07-cardeais>,
+        <urn:doc:110#evid-003-08-bussola>,
+        <urn:doc:110#evid-003-09-acrescentar-se-uma-rosa-dos-vent> .
+
+<urn:doc:110> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:110#frag-000>,
+        <urn:doc:110#frag-001>,
+        <urn:doc:110#frag-002>,
+        <urn:doc:110#frag-003> .
+

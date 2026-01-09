@@ -1,0 +1,16 @@
+[Documento] urn:doc:168
+  - miVector: 0.00,8.59,3.26,8.73,50.70,12.81,15.92,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5070)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5070
+      • Intrapersonal: 0.1592
+      • Interpersonal: 0.1281
+
+
+[Documento — Fragmentos] urn:doc:168
+
+[Fragmento] Preparacao: Montar um trilho de cerca de 10 a 15cm de largura, apoiado em duas bases de madeira ou tijolos, a cerca de 20cm do chao. Utilizacao: Mostrar aos alunos como proceder e faze-los caminhar sobre o trilho, de frente, depois de costas e de lado.
+  > TOP: Cinestésico-corporal (score=0.7158, tipo=Primary)
+
+[Fragmento] Em etapas mais avancadas, repetir a experien- cia com o aluno, tendo seus olhos vendados. Aproveitar o recurso para que o aluno tambem de saltos. Dividir, posteriormente, o trilho em partes e levar os alunos a saltarem de uma para outra parte. (Existe no comercio -- Trilho [Q.I.].)
+  > TOP: Intrapessoal (score=0.3662, tipo=Primary)

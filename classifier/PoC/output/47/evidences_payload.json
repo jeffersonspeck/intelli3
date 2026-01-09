@@ -1,0 +1,176 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "improvisar latas vazias",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7894247922898142,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7453769096685601,
+      "relevance": 0.8465909090909091
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7453769096685601,
+      "relevance": 0.8465909090909091
+    },
+    {
+      "role": "Keyword",
+      "text": "vazias diferentes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.634822988658457,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "empilhar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8090415712866107,
+      "relevance": 0.8388278388278388
+    },
+    {
+      "role": "Keyword",
+      "text": "etapas subsequentes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8036275434667152,
+      "relevance": 0.7344322344322345
+    },
+    {
+      "role": "Keyword",
+      "text": "tamanhos diversos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8036275434667152,
+      "relevance": 0.6648351648351649
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes sequencias",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8036275434667152,
+      "relevance": 0.5402930402930404
+    },
+    {
+      "role": "Keyword",
+      "text": "formar torres",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8023549529113926,
+      "relevance": 0.6959706959706959
+    },
+    {
+      "role": "Keyword",
+      "text": "observar regras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8011172854768843,
+      "relevance": 0.7747252747252747
+    },
+    {
+      "role": "Keyword",
+      "text": "observar regras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8011172854768843,
+      "relevance": 0.7747252747252747
+    },
+    {
+      "role": "Keyword",
+      "text": "empilhar enfileirar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8011172854768843,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "latas observar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8011172854768843,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "latas observar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8011172854768843,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificando torres",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7908994663374057,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "torres tamanhos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7840157335977095,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "os alunos devem empilhar e enfileirar as latas sem observar regras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.8681318681318682
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "os alunos devem empilhar e enfileirar as latas sem observar regras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8681318681318682
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "os alunos devem empilhar e enfileirar as latas sem observar regras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8681318681318682
+    }
+  ],
+  "2": [
+    {
+      "role": "ContextObject",
+      "text": "Cubos Coloridos -- Uki-Uki",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.7884615384615384
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "77",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.5192307692307692
+    }
+  ]
+}

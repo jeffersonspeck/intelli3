@@ -1,0 +1,105 @@
+[Documento] urn:doc:333
+  - miVector: 15.96,5.27,2.46,7.73,2.58,54.66,0.00,11.34
+  - TOP (documento): Interpersonal (score=0.5466)
+  - Ranking (top 3):
+      • Interpersonal: 0.5466
+      • Linguistic: 0.1596
+      • Naturalist: 0.1134
+
+[Fragmento] Preparacao: A aplicacao de questionarios para avaliar a consciencia emocional do alu- no, desde que analisados criteriosamente, representa excelente recurso para identificar os quadros emocionais existentes na classe.
+  - Interpersonal (via activation, score=0.5208)
+  - Linguistic (via activation, score=0.0549)
+  - Logical-Mathematical (via activation, score=0.0583)
+  - Musical (via activation, score=0.1521)
+  - Naturalist (via activation, score=0.2139)
+  - Interpessoal (via activation, score=0.5208)
+  - Linguística (via activation, score=0.0549)
+  - Lógico-matemática (via activation, score=0.0583)
+  - Musical (via activation, score=0.1521)
+  - Naturalista (via activation, score=0.2139)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] Abaixo, o modelo de al- gumas questoes que poderiam ser formuladas, ajustando-as ao nivel etario e ao universo vocabular do aluno: Questoes: |. Como reage quando ve um amigo ou um adulto perder a calma ce tor- nar-se agressivo? 2. Em situacoes muito tensas, quais costumam ser suas reacoes? 3.
+  - Bodily-Kinesthetic (via activation, score=0.1512)
+  - Interpersonal (via activation, score=0.4964)
+  - Logical-Mathematical (via activation, score=0.1727)
+  - Spatial (via activation, score=0.1797)
+  - Cinestésico-corporal (via activation, score=0.1512)
+  - Espacial-visual (via activation, score=0.1797)
+  - Interpessoal (via activation, score=0.4964)
+  - Lógico-matemática (via activation, score=0.1727)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Quais circunstancias que o deixam inteiramente "fora de si"? 4. Em quais situacoes vive estados de medo? felicidade? tristeza? esperanca? . Na sua opiniao, qual a diferenca entre alegria e felicidade? tel 6. E capaz de perder horas de sono por causa de alguma grande preocupacao? 7.
+  - Interpersonal (via activation, score=0.5925)
+  - Linguistic (via activation, score=0.2538)
+  - Logical-Mathematical (via activation, score=0.1538)
+  - Interpessoal (via activation, score=0.5925)
+  - Linguística (via activation, score=0.2538)
+  - Lógico-matemática (via activation, score=0.1538)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Consegue falar de seus sentimentos para outras pessoas? (Quais pes- soas? 3. Quais fatos, ocorridos com outras pessoas, o(a) fazem sofrer sincera- mente? 9. Voce se acha uma pessoa muito querida em sua casa? E na escola? 10. Voce seria capaz de matar um animal pequeno, sem qualquer senti- mento? 11.
+  - Bodily-Kinesthetic (via activation, score=0.0371)
+  - Interpersonal (via activation, score=0.5948)
+  - Linguistic (via activation, score=0.2687)
+  - Naturalist (via activation, score=0.0994)
+  - Cinestésico-corporal (via activation, score=0.0371)
+  - Interpessoal (via activation, score=0.5948)
+  - Linguística (via activation, score=0.2687)
+  - Naturalista (via activation, score=0.0994)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Naturalista (via element)
+
+[Fragmento] Sei, com clareza, quem cu amo e sei, tambem com clareza, quem me ama? 2.
+  - Interpersonal (via activation, score=0.6043)
+  - Naturalist (via activation, score=0.3957)
+  - Interpessoal (via activation, score=0.6043)
+  - Naturalista (via activation, score=0.3957)
+  - Interpersonal (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Como voce nao sabe dizer "nao", muitas vezes faz coisas que detesta? a. De zero a dez, a nota que dou para minha timidez e... | | 14. Situacoes que me deixam muito aborrecido sao as que... 15. Toda vez que tenho que tomar importante decisao, sinto... | A. 6.
+  - Linguistic (via activation, score=0.5880)
+  - Musical (via activation, score=0.4120)
+  - Linguística (via activation, score=0.5880)
+  - Musical (via activation, score=0.4120)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Linguística (via element)
+  - Musical (via element)
+
+[Fragmento] Como voce sc apresenta ao aceitar e manifestar carinho? 258
+  - Interpersonal (via activation, score=1.0000)
+  - Interpessoal (via activation, score=1.0000)
+  - Interpersonal (via element)
+  - Interpessoal (via element)

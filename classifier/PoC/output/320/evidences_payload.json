@@ -1,0 +1,320 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "desenhar circulos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7941616843655963,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "papel sulfite",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7840479889914561,
+      "relevance": 0.8537735849056604
+    },
+    {
+      "role": "Keyword",
+      "text": "circulos folhas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7840479889914561,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "circulos folhas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7840479889914561,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "circulos folhas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7840479889914561,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "folhas papel",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7840479889914561,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "lapis",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7727824577597656,
+      "relevance": 0.6933962264150944
+    },
+    {
+      "role": "ContextObject",
+      "text": "folhas de papel sulfite",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9009433962264151
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "desenhar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8054914350306871,
+      "relevance": 0.972027972027972
+    },
+    {
+      "role": "Keyword",
+      "text": "circulos olhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7952939941364497,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "bocas caras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7952939941364497,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "animo pessoas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7952939941364497,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "animo pessoas",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7952939941364497,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "luciana perdeu",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7930657849541752,
+      "relevance": 0.6870629370629371
+    },
+    {
+      "role": "Keyword",
+      "text": "desenhar circulos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7858317328508743,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estados animo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7858317328508743,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estados animo",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7858317328508743,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "perdeu amigo",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7858317328508743,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "rosto luciana",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7707327663389705,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "nariz",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7329610483059809,
+      "relevance": 0.9125874125874126
+    },
+    {
+      "role": "Keyword",
+      "text": "triste",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7329610483059809,
+      "relevance": 0.6328671328671329
+    },
+    {
+      "role": "Keyword",
+      "text": "orelhas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6906931461403482,
+      "relevance": 0.8951048951048951
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "circulos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9493006993006993
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "faze-lo segundo estados de animo das pessoas, relatados pelo professor",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8356643356643356
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "faze-lo segundo estados de animo das pessoas, relatados pelo professor",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8356643356643356
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "objetivo essencial",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7999434633027416,
+      "relevance": 0.9951456310679612
+    },
+    {
+      "role": "Keyword",
+      "text": "proprias emocoes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7999434633027416,
+      "relevance": 0.8398058252427184
+    },
+    {
+      "role": "Keyword",
+      "text": "proprias emocoes",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7999434633027416,
+      "relevance": 0.8398058252427184
+    },
+    {
+      "role": "Keyword",
+      "text": "perceber",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7999434633027416,
+      "relevance": 0.8737864077669903
+    },
+    {
+      "role": "Keyword",
+      "text": "perceber proprias",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7999434633027416,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "perceber proprias",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7999434633027416,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "leituras",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7599294801518862,
+      "relevance": 0.7160194174757282
+    },
+    {
+      "role": "Keyword",
+      "text": "pessoas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7447610204840595,
+      "relevance": 0.5970873786407767
+    },
+    {
+      "role": "Keyword",
+      "text": "sentimentos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7287942722636607,
+      "relevance": 0.6844660194174756
+    },
+    {
+      "role": "Keyword",
+      "text": "sentimentos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7287942722636607,
+      "relevance": 0.6844660194174756
+    },
+    {
+      "role": "ContextObject",
+      "text": "sentimentos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.6844660194174756
+    },
+    {
+      "role": "ContextObject",
+      "text": "sentimentos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.6844660194174756
+    }
+  ]
+}

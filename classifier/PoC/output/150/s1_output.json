@@ -1,0 +1,17 @@
+{
+  "doc_id": "urn:doc:150",
+  "paragraphs": [
+    {
+      "k": 0,
+      "text": "Preparacao: Recortar de revistas figuras cujos nomes tenham a mesma terminacao e outras cujos nomes apresentam a mesma silaba inicial (Exemplos: Gato, Rato, Mato, Sapato, ou Bolacha, Bola, Botao, Boliche, ctc.). Incluir outras gravuras que iniciem e terminem com outros fonemas.",
+      "lang": "pt",
+      "is_title_or_abstract": true
+    },
+    {
+      "k": 1,
+      "text": "Utilizacao: Existe uma enorme multiplicidade para o uso do jogo. Os alunos podem, por exemplo, reunir palavras com o mesmo fonema inicial, agrupar outros com a mesma terminacao. O professor pode ir retirando as gravuras de uma caixa e solicitando dos alunos a identificacao do fonema.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    }
+  ]
+}

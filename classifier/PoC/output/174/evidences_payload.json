@@ -1,0 +1,142 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "filmes fotograficos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5738613278001208,
+      "relevance": 0.8409090909090909
+    },
+    {
+      "role": "Keyword",
+      "text": "filmes fotograficos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5738613278001208,
+      "relevance": 0.8409090909090909
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes elementos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7945772231078595,
+      "relevance": 0.7357954545454546
+    },
+    {
+      "role": "Keyword",
+      "text": "preenchidas diferentes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7945772231078595,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "caixas plasticas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7847016603874553,
+      "relevance": 0.9375
+    },
+    {
+      "role": "ContextObject",
+      "text": "caixas plasticas ou embalagens de filmes fotograficos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9375
+    },
+    {
+      "role": "ContextObject",
+      "text": "diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros)",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.7357954545454546
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "procurar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7980729609248445,
+      "relevance": 0.8568181818181818
+    },
+    {
+      "role": "Keyword",
+      "text": "pecas pares",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7907233056608977,
+      "relevance": 0.8295454545454546
+    },
+    {
+      "role": "Keyword",
+      "text": "som produzido",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7895704367086497,
+      "relevance": 0.7454545454545455
+    },
+    {
+      "role": "Keyword",
+      "text": "som produzido",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7895704367086497,
+      "relevance": 0.7454545454545455
+    },
+    {
+      "role": "Keyword",
+      "text": "chocalhando ouvindo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7895704367086497,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "procurar pecas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7819571664808662,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ouvindo som",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7802800266389126,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ouvindo som",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7802800266389126,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ser espalhadas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7344333075983436,
+      "relevance": 0.9659090909090909
+    },
+    {
+      "role": "Keyword",
+      "text": "numero acertos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6838613269606867,
+      "relevance": 0.75
+    }
+  ]
+}

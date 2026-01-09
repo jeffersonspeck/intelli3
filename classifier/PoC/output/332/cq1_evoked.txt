@@ -1,0 +1,75 @@
+[Documento] urn:doc:332
+  - miVector: 16.96,17.53,0.00,4.49,2.31,14.44,7.38,36.88
+  - TOP (documento): Naturalist (score=0.3688)
+  - Ranking (top 3):
+      • Naturalist: 0.3688
+      • Logical-Mathematical: 0.1753
+      • Linguistic: 0.1696
+
+[Fragmento] Preparacao: Uma folha de papel em branco distribuida a cada aluno, que devera anotar ao alto e com letra de forma o seu nome. Lapis ou caneta para todos os participantes.
+  - Intrapersonal (via activation, score=0.2441)
+  - Linguistic (via activation, score=0.3442)
+  - Naturalist (via activation, score=0.4116)
+  - Intrapessoal (via activation, score=0.2441)
+  - Linguística (via activation, score=0.3442)
+  - Naturalista (via activation, score=0.4116)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Os alunos deverao conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes, pedindo que os colegas assimem seus nomes, de forma legivel, em sua folha.
+  - Interpersonal (via activation, score=0.2668)
+  - Logical-Mathematical (via activation, score=0.2542)
+  - Naturalist (via activation, score=0.4791)
+  - Interpessoal (via activation, score=0.2668)
+  - Lógico-matemática (via activation, score=0.2542)
+  - Naturalista (via activation, score=0.4791)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Inicia a atividade, lembrando que ao termina-la todos os alunos devem ter suas folhas em maos. Passado o tempo esta- belecido, encerra a atividade e solicita aos alunos que contem os autografos obtidos. Indaga a alguns alunos quantos autografos obtiveram e a outros, quantos autografos deram.
+  - Linguistic (via activation, score=0.0730)
+  - Logical-Mathematical (via activation, score=0.3714)
+  - Musical (via activation, score=0.1932)
+  - Naturalist (via activation, score=0.3625)
+  - Linguística (via activation, score=0.0730)
+  - Lógico-matemática (via activation, score=0.3714)
+  - Musical (via activation, score=0.1932)
+  - Naturalista (via activation, score=0.3625)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] E perceptivel que existe maior facilidade em se identificar as "conquistas" que as "ofertas" e essa situacao cria alternativas para uma discussao final sobre dar e receber autografos e perceber em casa, na escola e em outros ambientes se damos mais ou se recebemos mais autografos. 2517
+  - Bodily-Kinesthetic (via activation, score=0.0993)
+  - Interpersonal (via activation, score=0.3543)
+  - Linguistic (via activation, score=0.2089)
+  - Logical-Mathematical (via activation, score=0.1283)
+  - Naturalist (via activation, score=0.2092)
+  - Cinestésico-corporal (via activation, score=0.0993)
+  - Interpessoal (via activation, score=0.3543)
+  - Linguística (via activation, score=0.2089)
+  - Lógico-matemática (via activation, score=0.1283)
+  - Naturalista (via activation, score=0.2092)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

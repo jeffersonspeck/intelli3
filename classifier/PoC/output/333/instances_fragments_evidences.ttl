@@ -1,0 +1,291 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:333#evid-000-00-quadros-emocionais-existentes> a onto:Keyword ;
+    rdfs:label "quadros emocionais existentes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-000-01-analisados-criteriosamente> a onto:Keyword ;
+    rdfs:label "analisados criteriosamente"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:333#evid-000-02-emocional> a onto:Keyword ;
+    rdfs:label "emocional"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-000-03-consciencia-emocional> a onto:Keyword ;
+    rdfs:label "consciencia emocional"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-000-04-aplicacao-questionarios> a onto:Keyword ;
+    rdfs:label "aplicacao questionarios"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:333#evid-000-05-questionarios-avaliar> a onto:Keyword ;
+    rdfs:label "questionarios avaliar"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:333#evid-000-06-avaliar-consciencia> a onto:Keyword ;
+    rdfs:label "avaliar consciencia"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:333#evid-000-07-recurso-identificar> a onto:Keyword ;
+    rdfs:label "recurso identificar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-000-08-recurso-identificar> a onto:Keyword ;
+    rdfs:label "recurso identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:333#evid-000-09-identificar-quadros> a onto:Keyword ;
+    rdfs:label "identificar quadros"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-000-10-identificar-quadros> a onto:Keyword ;
+    rdfs:label "identificar quadros"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:333#evid-000-11-identificar-os-quadros-emocionai> a onto:DiscursiveStrategy ;
+    rdfs:label "identificar os quadros emocionais existentes na classe"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-000-12-identificar-os-quadros-emocionai> a onto:DiscursiveStrategy ;
+    rdfs:label "identificar os quadros emocionais existentes na classe"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:333#evid-000-13-quadros-emocionais> a onto:ContextObject ;
+    rdfs:label "quadros emocionais"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-001-00-poderiam-ser-formuladas> a onto:Keyword ;
+    rdfs:label "poderiam ser formuladas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:333#evid-001-01-abaixo> a onto:Keyword ;
+    rdfs:label "abaixo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:333#evid-001-02-modelo> a onto:Keyword ;
+    rdfs:label "modelo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:333#evid-001-03-tornar-agressivo> a onto:Keyword ;
+    rdfs:label "tornar agressivo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-001-04-reage-quando-ve-um-amigo-ou-um-a> a onto:DiscursiveStrategy ;
+    rdfs:label "reage quando ve um amigo ou um adulto perder a calma ce tornar-se agressivo?"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-001-05-em-situacoes-muito-tensas-quais-> a onto:DiscursiveStrategy ;
+    rdfs:label "em situacoes muito tensas, quais costumam ser suas reacoes?"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-002-00-quais-circunstancias> a onto:Keyword ;
+    rdfs:label "quais circunstancias"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:333#evid-002-01-quais-situacoes-vive> a onto:Keyword ;
+    rdfs:label "quais situacoes vive"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-002-02-situacoes-vive-estados> a onto:Keyword ;
+    rdfs:label "situacoes vive estados"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-002-03-estados-medo> a onto:Keyword ;
+    rdfs:label "estados medo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-002-04-perder-horas-de-sono-por-causa-d> a onto:DiscursiveStrategy ;
+    rdfs:label "perder horas de sono por causa de alguma grande preocupacao?"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:333#evid-003-00-consegue-falar> a onto:Keyword ;
+    rdfs:label "consegue falar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:333#evid-003-01-voce> a onto:Keyword ;
+    rdfs:label "voce"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-003-02-voce-acha> a onto:Keyword ;
+    rdfs:label "voce acha"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-003-03-casa> a onto:Keyword ;
+    rdfs:label "casa"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-003-04-escola> a onto:Keyword ;
+    rdfs:label "escola"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-003-05-sentimentos> a onto:Keyword ;
+    rdfs:label "sentimentos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:333#evid-003-06-matar> a onto:Keyword ;
+    rdfs:label "matar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:333#evid-003-07-animal> a onto:Keyword ;
+    rdfs:label "animal"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:333#evid-003-08-consegue-falar-de-seus-sentiment> a onto:DiscursiveStrategy ;
+    rdfs:label "Consegue falar de seus sentimentos para outras pessoas?"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:333#evid-003-09-consegue-falar-de-seus-sentiment> a onto:DiscursiveStrategy ;
+    rdfs:label "Consegue falar de seus sentimentos para outras pessoas?"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-003-10-pessoas> a onto:ContextObject ;
+    rdfs:label "pessoas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-003-11-3-quais-fatos-ocorridos-com-outr> a onto:ContextObject ;
+    rdfs:label "3. Quais fatos, ocorridos com outras pessoas, o(a) fazem sofrer sinceramente?"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-003-12-voce-se-acha-uma-pessoa-muito-qu> a onto:DiscursiveStrategy ;
+    rdfs:label "Voce se acha uma pessoa muito querida em sua casa?"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-003-13-voce-seria-capaz-de-matar-um-ani> a onto:DiscursiveStrategy ;
+    rdfs:label "Voce seria capaz de matar um animal pequeno, sem qualquer sentimento?"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:333#evid-004-00-tambem-clareza> a onto:Keyword ;
+    rdfs:label "tambem clareza"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:333#evid-004-01-ama> a onto:Keyword ;
+    rdfs:label "ama"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-004-02-amo> a onto:Keyword ;
+    rdfs:label "amo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#evid-005-00-nota-dou> a onto:Keyword ;
+    rdfs:label "nota dou"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:333#evid-005-01-tomar-importante-decisao> a onto:Keyword ;
+    rdfs:label "tomar importante decisao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:333#evid-005-02-de-zero-a-dez-a-nota-que-dou-par> a onto:DiscursiveStrategy ;
+    rdfs:label "De zero a dez, a nota que dou para minha timidez e..."@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:333#evid-005-03-toda-vez-que-tenho-que-tomar-imp> a onto:DiscursiveStrategy ;
+    rdfs:label "Toda vez que tenho que tomar importante decisao, sinto..."@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:333#evid-006-00-manifestar-carinho> a onto:Keyword ;
+    rdfs:label "manifestar carinho"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:333#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: A aplicacao de questionarios para avaliar a consciencia emocional do alu- no, desde que analisados criteriosamente, representa excelente recurso para identificar os quadros emocionais existentes na classe."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:333> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:333#evid-000-00-quadros-emocionais-existentes>,
+        <urn:doc:333#evid-000-01-analisados-criteriosamente>,
+        <urn:doc:333#evid-000-02-emocional>,
+        <urn:doc:333#evid-000-03-consciencia-emocional>,
+        <urn:doc:333#evid-000-04-aplicacao-questionarios>,
+        <urn:doc:333#evid-000-05-questionarios-avaliar>,
+        <urn:doc:333#evid-000-06-avaliar-consciencia>,
+        <urn:doc:333#evid-000-07-recurso-identificar>,
+        <urn:doc:333#evid-000-08-recurso-identificar>,
+        <urn:doc:333#evid-000-09-identificar-quadros>,
+        <urn:doc:333#evid-000-10-identificar-quadros>,
+        <urn:doc:333#evid-000-11-identificar-os-quadros-emocionai>,
+        <urn:doc:333#evid-000-12-identificar-os-quadros-emocionai>,
+        <urn:doc:333#evid-000-13-quadros-emocionais> .
+
+<urn:doc:333#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Abaixo, o modelo de al- gumas questoes que poderiam ser formuladas, ajustando-as ao nivel etario e ao universo vocabular do aluno: Questoes: |. Como reage quando ve um amigo ou um adulto perder a calma ce tor- nar-se agressivo? 2. Em situacoes muito tensas, quais costumam ser suas reacoes? 3."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:333> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:333#evid-001-00-poderiam-ser-formuladas>,
+        <urn:doc:333#evid-001-01-abaixo>,
+        <urn:doc:333#evid-001-02-modelo>,
+        <urn:doc:333#evid-001-03-tornar-agressivo>,
+        <urn:doc:333#evid-001-04-reage-quando-ve-um-amigo-ou-um-a>,
+        <urn:doc:333#evid-001-05-em-situacoes-muito-tensas-quais-> .
+
+<urn:doc:333#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Quais circunstancias que o deixam inteiramente \"fora de si\"? 4. Em quais situacoes vive estados de medo? felicidade? tristeza? esperanca? . Na sua opiniao, qual a diferenca entre alegria e felicidade? tel 6. E capaz de perder horas de sono por causa de alguma grande preocupacao? 7."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:333> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:333#evid-002-00-quais-circunstancias>,
+        <urn:doc:333#evid-002-01-quais-situacoes-vive>,
+        <urn:doc:333#evid-002-02-situacoes-vive-estados>,
+        <urn:doc:333#evid-002-03-estados-medo>,
+        <urn:doc:333#evid-002-04-perder-horas-de-sono-por-causa-d> .
+
+<urn:doc:333#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Consegue falar de seus sentimentos para outras pessoas? (Quais pes- soas? 3. Quais fatos, ocorridos com outras pessoas, o(a) fazem sofrer sincera- mente? 9. Voce se acha uma pessoa muito querida em sua casa? E na escola? 10. Voce seria capaz de matar um animal pequeno, sem qualquer senti- mento? 11."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:333> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:333#evid-003-00-consegue-falar>,
+        <urn:doc:333#evid-003-01-voce>,
+        <urn:doc:333#evid-003-02-voce-acha>,
+        <urn:doc:333#evid-003-03-casa>,
+        <urn:doc:333#evid-003-04-escola>,
+        <urn:doc:333#evid-003-05-sentimentos>,
+        <urn:doc:333#evid-003-06-matar>,
+        <urn:doc:333#evid-003-07-animal>,
+        <urn:doc:333#evid-003-08-consegue-falar-de-seus-sentiment>,
+        <urn:doc:333#evid-003-09-consegue-falar-de-seus-sentiment>,
+        <urn:doc:333#evid-003-10-pessoas>,
+        <urn:doc:333#evid-003-11-3-quais-fatos-ocorridos-com-outr>,
+        <urn:doc:333#evid-003-12-voce-se-acha-uma-pessoa-muito-qu>,
+        <urn:doc:333#evid-003-13-voce-seria-capaz-de-matar-um-ani> .
+
+<urn:doc:333#frag-004> a onto:ExplanationFragment ;
+    rdfs:label "Sei, com clareza, quem cu amo e sei, tambem com clareza, quem me ama? 2."@pt ;
+    dct:identifier 4 ;
+    dct:isPartOf <urn:doc:333> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:333#evid-004-00-tambem-clareza>,
+        <urn:doc:333#evid-004-01-ama>,
+        <urn:doc:333#evid-004-02-amo> .
+
+<urn:doc:333#frag-005> a onto:ExplanationFragment ;
+    rdfs:label "Como voce nao sabe dizer \"nao\", muitas vezes faz coisas que detesta? a. De zero a dez, a nota que dou para minha timidez e... | | 14. Situacoes que me deixam muito aborrecido sao as que... 15. Toda vez que tenho que tomar importante decisao, sinto... | A. 6."@pt ;
+    dct:identifier 5 ;
+    dct:isPartOf <urn:doc:333> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:333#evid-005-00-nota-dou>,
+        <urn:doc:333#evid-005-01-tomar-importante-decisao>,
+        <urn:doc:333#evid-005-02-de-zero-a-dez-a-nota-que-dou-par>,
+        <urn:doc:333#evid-005-03-toda-vez-que-tenho-que-tomar-imp> .
+
+<urn:doc:333#frag-006> a onto:ExplanationFragment ;
+    rdfs:label "Como voce sc apresenta ao aceitar e manifestar carinho? 258"@pt ;
+    dct:identifier 6 ;
+    dct:isPartOf <urn:doc:333> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:333#evid-006-00-manifestar-carinho> .
+
+<urn:doc:333> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:333#frag-000>,
+        <urn:doc:333#frag-001>,
+        <urn:doc:333#frag-002>,
+        <urn:doc:333#frag-003>,
+        <urn:doc:333#frag-004>,
+        <urn:doc:333#frag-005>,
+        <urn:doc:333#frag-006> .
+

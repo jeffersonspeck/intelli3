@@ -1,0 +1,133 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:47#evid-000-00-improvisar-latas-vazias> a onto:Keyword ;
+    rdfs:label "improvisar latas vazias"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-000-01-diferentes-tamanhos> a onto:Keyword ;
+    rdfs:label "diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-000-02-diferentes-tamanhos> a onto:Keyword ;
+    rdfs:label "diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-000-03-vazias-diferentes> a onto:Keyword ;
+    rdfs:label "vazias diferentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-001-00-empilhar> a onto:Keyword ;
+    rdfs:label "empilhar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-001-01-etapas-subsequentes> a onto:Keyword ;
+    rdfs:label "etapas subsequentes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-001-02-tamanhos-diversos> a onto:Keyword ;
+    rdfs:label "tamanhos diversos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-001-03-diferentes-sequencias> a onto:Keyword ;
+    rdfs:label "diferentes sequencias"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-001-04-formar-torres> a onto:Keyword ;
+    rdfs:label "formar torres"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-001-05-observar-regras> a onto:Keyword ;
+    rdfs:label "observar regras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-001-06-observar-regras> a onto:Keyword ;
+    rdfs:label "observar regras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:47#evid-001-07-empilhar-enfileirar> a onto:Keyword ;
+    rdfs:label "empilhar enfileirar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-001-08-latas-observar> a onto:Keyword ;
+    rdfs:label "latas observar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-001-09-latas-observar> a onto:Keyword ;
+    rdfs:label "latas observar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:47#evid-001-10-identificando-torres> a onto:Keyword ;
+    rdfs:label "identificando torres"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-001-11-torres-tamanhos> a onto:Keyword ;
+    rdfs:label "torres tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-001-12-os-alunos-devem-empilhar-e-enfil> a onto:DiscursiveStrategy ;
+    rdfs:label "os alunos devem empilhar e enfileirar as latas sem observar regras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#evid-001-13-os-alunos-devem-empilhar-e-enfil> a onto:DiscursiveStrategy ;
+    rdfs:label "os alunos devem empilhar e enfileirar as latas sem observar regras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:47#evid-001-14-os-alunos-devem-empilhar-e-enfil> a onto:DiscursiveStrategy ;
+    rdfs:label "os alunos devem empilhar e enfileirar as latas sem observar regras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:47#evid-002-00-cubos-coloridos----uki-uki> a onto:ContextObject ;
+    rdfs:label "Cubos Coloridos -- Uki-Uki"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:47#evid-002-01-77> a onto:DiscursiveStrategy ;
+    rdfs:label "77"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:47#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Improvisar latas vazias de diferentes tamanhos. Pintar essas latas com cores diferentes."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:47> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:47#evid-000-00-improvisar-latas-vazias>,
+        <urn:doc:47#evid-000-01-diferentes-tamanhos>,
+        <urn:doc:47#evid-000-02-diferentes-tamanhos>,
+        <urn:doc:47#evid-000-03-vazias-diferentes> .
+
+<urn:doc:47#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Caixas de fosforo vazias e cubos de madeira tambem podem ser utilizados Utilizacao: Os alunos devem empilhar e enfileirar as latas sem observar regras e, em etapas subsequentes, formar torres de tamanhos diversos, identificando as torres \"altas\" e as \"baixas\" em diferentes sequencias."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:47> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:47#evid-001-00-empilhar>,
+        <urn:doc:47#evid-001-01-etapas-subsequentes>,
+        <urn:doc:47#evid-001-02-tamanhos-diversos>,
+        <urn:doc:47#evid-001-03-diferentes-sequencias>,
+        <urn:doc:47#evid-001-04-formar-torres>,
+        <urn:doc:47#evid-001-05-observar-regras>,
+        <urn:doc:47#evid-001-06-observar-regras>,
+        <urn:doc:47#evid-001-07-empilhar-enfileirar>,
+        <urn:doc:47#evid-001-08-latas-observar>,
+        <urn:doc:47#evid-001-09-latas-observar>,
+        <urn:doc:47#evid-001-10-identificando-torres>,
+        <urn:doc:47#evid-001-11-torres-tamanhos>,
+        <urn:doc:47#evid-001-12-os-alunos-devem-empilhar-e-enfil>,
+        <urn:doc:47#evid-001-13-os-alunos-devem-empilhar-e-enfil>,
+        <urn:doc:47#evid-001-14-os-alunos-devem-empilhar-e-enfil> .
+
+<urn:doc:47#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "(Existe no mercado -- Cubos Coloridos -- Uki-Uki) 77"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:47> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:47#evid-002-00-cubos-coloridos----uki-uki>,
+        <urn:doc:47#evid-002-01-77> .
+
+<urn:doc:47> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:47#frag-000>,
+        <urn:doc:47#frag-001>,
+        <urn:doc:47#frag-002> .
+

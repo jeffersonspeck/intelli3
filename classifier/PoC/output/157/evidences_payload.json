@@ -1,0 +1,96 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "utiliza",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7663520315222111,
+      "relevance": 0.9642857142857143
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "notas musicais",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.805171024673992,
+      "relevance": 0.9329004329004329
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolvendo entonacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8027019702292415,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolvendo entonacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8027019702292415,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "audicao instrumentos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7998502905360485,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "compreensao diferencas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7998502905360485,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "compreensao diferencas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7998502905360485,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "musicais pela audicao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7857421810509854,
+      "relevance": 0.9199134199134199
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7691941606215719,
+      "relevance": 0.9632034632034632
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "placas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6992904790342168,
+      "relevance": 0.8673469387755102
+    },
+    {
+      "role": "ContextObject",
+      "text": "placas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8673469387755102
+    }
+  ]
+}

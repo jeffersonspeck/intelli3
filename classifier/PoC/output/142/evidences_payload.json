@@ -1,0 +1,258 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "instrumento musical",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8025869829894633,
+      "relevance": 0.9356060606060606
+    },
+    {
+      "role": "Keyword",
+      "text": "animal plastica",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8025869829894633,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "percussao constituido",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.8008274402351351,
+      "relevance": 0.8920454545454546
+    },
+    {
+      "role": "Keyword",
+      "text": "pele animal",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8008274402351351,
+      "relevance": 0.7196969696969697
+    },
+    {
+      "role": "Keyword",
+      "text": "escola dispor",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8008274402351351,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "musical percussao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.8008274402351351,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "corpo madeira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5783753735031532,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "improvisar surdo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7859900179423763,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "recoberto",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7458551620912132,
+      "relevance": 0.7537878787878788
+    },
+    {
+      "role": "Keyword",
+      "text": "tecido lona",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7406586891920667,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "possivel improvisar-se um surdo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.5606060606060606
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "percussao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5206335934023524,
+      "relevance": 0.8860759493670887
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.687129234867677,
+      "relevance": 0.740506329113924
+    },
+    {
+      "role": "Keyword",
+      "text": "obtidos instrumento",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.49544543915735395,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes tipos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6344556261554457,
+      "relevance": 0.6962025316455696
+    },
+    {
+      "role": "Keyword",
+      "text": "tipos sons",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6344556261554457,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tipos sons",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6344556261554457,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "uma baqueta ou pedaco de pau para a percussao",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "mao aberta",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.803781549016998,
+      "relevance": 0.9698275862068966
+    },
+    {
+      "role": "Keyword",
+      "text": "mao fechada",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.803781549016998,
+      "relevance": 0.9310344827586207
+    },
+    {
+      "role": "Keyword",
+      "text": "correndo dedos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8034618825392805,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "dominando identificando",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8034618825392805,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "dominando identificando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8034618825392805,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pele instrumento",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8008901934731161,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumento batendo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8008901934731161,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "variedade sons",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.8008901934731161,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "batidas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7527094488571942,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "baqueta",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7527094488571942,
+      "relevance": 0.8900862068965517
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Batidas com a mao aberta, com a mao fechada, com a baqueta, correndo os dedos sobre a pele do instrumento ou batendo com as unhas obtem-se grande variedade de sons",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "olhos vendados amplia",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5797809970632903,
+      "relevance": 0.8576923076923078
+    },
+    {
+      "role": "Keyword",
+      "text": "uso",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.9923076923076923
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+[Documento] urn:doc:328
+  - miVector: 11.82,5.50,7.10,0.00,9.07,22.10,16.93,27.49
+  - TOP (documento): Naturalist (score=0.2749)
+  - Ranking (top 3):
+      • Naturalist: 0.2749
+      • Interpersonal: 0.2210
+      • Intrapersonal: 0.1693
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: geometricas sejam fixadas
+        • Keyword: montasse
+        • Keyword: montasse mural
+        • Keyword: mural sala
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3662
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: abaixo
+        • Keyword: abaixo mesmo
+        • Keyword: cores caixa
+        • Keyword: cores verde
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.1495
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: ampla liberdade
+        • Keyword: forjarem situacoes
+        • Keyword: liberdade falar
+        • Keyword: orientados perceber
+        • Keyword: procura los
+        • Keyword: ser orientados
+        • Keyword: serem notados
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4097
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: estado emocional
+        • Keyword: estado emocao
+        • Keyword: estado emocional
+        • Keyword: estados cmocao
+        • Keyword: falar desse estado
+        • Keyword: independentemente cor
+        • Keyword: orientados perceber
+        • Keyword: perceber estados
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.4815
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: contendo retrato
+        • Keyword: interessante
+        • Keyword: procurar
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2901
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: dependendo grau
+        • Keyword: entao taxinhas
+        • Keyword: grau afetividade
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1990
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: cores da caixa
+        • ContextObject: retrato de cada um dos alunos
+        • Keyword: circulos cores
+        • Keyword: contendo retrato
+        • Keyword: figuras geometricas sejam
+        • Keyword: geometricas sejam fixadas
+        • Keyword: mural caixa
+        • Keyword: revestido feltro
+        • Keyword: vermelhos
+    - Ativações (doc): n=4, primárias=1, secundárias=3, max=0.6668
+
+
+[Documento — Fragmentos] urn:doc:328
+
+[Fragmento] Preparacao: Seria interessante que o professor montasse um mural na sala de aula contendo o retrato de cada um dos alunos c abaixo do mesmo seu nome.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: montasse
+        • Keyword: montasse mural
+        • Keyword: mural sala
+    - Ativações:
+        • score=0.3662, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: abaixo
+        • Keyword: abaixo mesmo
+    - Ativações:
+        • score=0.1495, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: contendo retrato
+        • Keyword: interessante
+    - Ativações:
+        • score=0.2495, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: retrato de cada um dos alunos
+        • Keyword: contendo retrato
+    - Ativações:
+        • score=0.2349, tipo=Secondary
+
+[Fragmento] Ao lado desse mural uma caixa com inumeros circulos nas cores verde, amarela ec vermelha, com lixas no verso para sua fixacao no mural (caso seja revesti- do de feltro) ou entao taxinhas para que essas figuras geometricas sejam fi- xadas no mural.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: geometricas sejam fixadas
+    - Ativações:
+        • score=0.1143, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: cores verde
+    - Ativações:
+        • score=0.1265, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: entao taxinhas
+    - Ativações:
+        • score=0.0924, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: circulos cores
+        • Keyword: figuras geometricas sejam
+        • Keyword: geometricas sejam fixadas
+        • Keyword: mural caixa
+        • Keyword: revestido feltro
+    - Ativações:
+        • score=0.6668, tipo=Primary
+
+[Fragmento] Utilizacao: Os alunos devem ser orientados a perceber seus estados de cmocao e, todo dia, ao entrar na sala escolham uma das cores da caixa para fixar embaixo de seu nome (verde = estou otimo, feliz, entusiasmado; amarelo = estou com uma sensacao de apatia, indiferenca, conformismo; vermelho = estou muito aborre- cido, chateado, inseguro).
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: cores caixa
+    - Ativações:
+        • score=0.1002, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: orientados perceber
+        • Keyword: ser orientados
+    - Ativações:
+        • score=0.3191, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: estados cmocao
+        • Keyword: orientados perceber
+        • Keyword: perceber estados
+    - Ativações:
+        • score=0.4160, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: cores da caixa
+    - Ativações:
+        • score=0.1647, tipo=Secondary
+
+[Fragmento] O aluno deve ter ampla liberdade para falar ou nao de seu estado emocional e o professor, dependendo do grau de afetividade com que se relaciona com os alunos, pode procura-los, independentemente da cor colada ao mural, para falar desse estado de emocao.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: ampla liberdade
+        • Keyword: liberdade falar
+        • Keyword: procura los
+    - Ativações:
+        • score=0.3195, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: estado emocional
+        • Keyword: estado emocao
+        • Keyword: estado emocional
+        • Keyword: falar desse estado
+        • Keyword: independentemente cor
+    - Ativações:
+        • score=0.4815, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: dependendo grau
+        • Keyword: grau afetividade
+    - Ativações:
+        • score=0.1990, tipo=Secondary
+
+[Fragmento] Procurar apenas os "verme- lhos" pode atrair uma atencao especial e alunos forjarem situacoes para serem notados. 254
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: forjarem situacoes
+        • Keyword: serem notados
+    - Ativações:
+        • score=0.4097, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: procurar
+    - Ativações:
+        • score=0.2901, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: vermelhos
+    - Ativações:
+        • score=0.3003, tipo=Secondary

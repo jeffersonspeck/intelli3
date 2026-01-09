@@ -1,0 +1,41 @@
+[Documento] urn:doc:47
+  - miVector: 0.00,35.59,0.00,0.00,33.14,0.00,24.94,6.33
+  - TOP (documento): Logical-Mathematical (score=0.3559)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3559
+      • Bodily-Kinesthetic: 0.3314
+      • Intrapersonal: 0.2494
+
+[Fragmento] Preparacao: Improvisar latas vazias de diferentes tamanhos. Pintar essas latas com cores diferentes.
+  - Bodily-Kinesthetic (via activation, score=0.7503)
+  - Logical-Mathematical (via activation, score=0.2497)
+  - Cinestésico-corporal (via activation, score=0.7503)
+  - Lógico-matemática (via activation, score=0.2497)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Caixas de fosforo vazias e cubos de madeira tambem podem ser utilizados Utilizacao: Os alunos devem empilhar e enfileirar as latas sem observar regras e, em etapas subsequentes, formar torres de tamanhos diversos, identificando as torres "altas" e as "baixas" em diferentes sequencias.
+  - Bodily-Kinesthetic (via activation, score=0.3434)
+  - Logical-Mathematical (via activation, score=0.4476)
+  - Naturalist (via activation, score=0.2089)
+  - Cinestésico-corporal (via activation, score=0.3434)
+  - Lógico-matemática (via activation, score=0.4476)
+  - Naturalista (via activation, score=0.2089)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] (Existe no mercado -- Cubos Coloridos -- Uki-Uki) 77
+  - Intrapersonal (via activation, score=0.6331)
+  - Logical-Mathematical (via activation, score=0.3669)
+  - Intrapessoal (via activation, score=0.6331)
+  - Lógico-matemática (via activation, score=0.3669)
+  - Intrapersonal (via element)
+  - Logical-Mathematical (via element)
+  - Intrapessoal (via element)
+  - Lógico-matemática (via element)

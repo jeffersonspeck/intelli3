@@ -1,0 +1,16 @@
+[Documento] urn:doc:171
+  - miVector: 0.00,18.77,0.00,0.00,69.39,8.62,0.00,3.22
+  - TOP (documento): Bodily-Kinesthetic (score=0.6939)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6939
+      • Logical-Mathematical: 0.1877
+      • Interpersonal: 0.0862
+
+
+[Documento — Fragmentos] urn:doc:171
+
+[Fragmento] Preparacao: Usar bolas plasticas gigantes. As melhores sao as de inflar, com 12 gomos. Utilizacao: O aluno devera jogar a bola, recebe-la de volta. Atira-la no chao, na parede c executar diversos movimentos.
+  > TOP: Cinestésico-corporal (score=1.0000, tipo=Primary)
+
+[Fragmento] O essencial e que o professor estruture essa sequencia e desenvolva limites e regras claras a acao ludica. Pode, se preferir, estabelecer sistemas de pontuacao e desenvolver atividades grupais diversas. (Existem no comercio diversas marcas [Lidice -- Bola Gigante].)
+  > TOP: Lógico-matemática (score=0.4317, tipo=Primary)

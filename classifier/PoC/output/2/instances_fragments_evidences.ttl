@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:2#evid-000-00-desenhar-montar> a onto:Keyword ;
+    rdfs:label "desenhar montar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:2#evid-000-01-estrutura-interna> a onto:Keyword ;
+    rdfs:label "estrutura interna"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:2#evid-000-02-montar-cartolina> a onto:Keyword ;
+    rdfs:label "montar cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:2#evid-000-03-construir-cartolina> a onto:Keyword ;
+    rdfs:label "construir cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:2#evid-000-04-cartolina-pecas> a onto:Keyword ;
+    rdfs:label "cartolina pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:2#evid-000-05-completem-esse-aposento> a onto:Keyword ;
+    rdfs:label "completem esse aposento"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:2#evid-000-06-pecas-completem> a onto:Keyword ;
+    rdfs:label "pecas completem"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:2#evid-001-00-crianca-nomear> a onto:Keyword ;
+    rdfs:label "crianca nomear"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:2#evid-001-01-nomear-objeto> a onto:Keyword ;
+    rdfs:label "nomear objeto"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:2#evid-001-02-montando> a onto:Keyword ;
+    rdfs:label "montando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:2#evid-001-03-pecas-jogo> a onto:Keyword ;
+    rdfs:label "pecas jogo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:2#evid-001-04-nomear-o-objeto-montando-o-sobre> a onto:DiscursiveStrategy ;
+    rdfs:label "nomear o objeto, montando-o sobre a estrutura"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:2#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Desenhar ou montar em cartolina uma cozinha, um quarto ou a estrutura interna de uma casa. Construir em cartolina pecas que completem esse aposento, como sofas, camas, mesas, espelhos, armarios, panelas e outros objetos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:2> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:2#evid-000-00-desenhar-montar>,
+        <urn:doc:2#evid-000-01-estrutura-interna>,
+        <urn:doc:2#evid-000-02-montar-cartolina>,
+        <urn:doc:2#evid-000-03-construir-cartolina>,
+        <urn:doc:2#evid-000-04-cartolina-pecas>,
+        <urn:doc:2#evid-000-05-completem-esse-aposento>,
+        <urn:doc:2#evid-000-06-pecas-completem> .
+
+<urn:doc:2#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Ao receber as pecas do jogo, a crianca devera nomear o objeto, montan- do-o sobre a estrutura. O jogo pode ser desenvolvido em grupo e, nas etapas seguintes, devera no- mear, dizer as cores ou contar historias que envolvam essa montagem."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:2> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:2#evid-001-00-crianca-nomear>,
+        <urn:doc:2#evid-001-01-nomear-objeto>,
+        <urn:doc:2#evid-001-02-montando>,
+        <urn:doc:2#evid-001-03-pecas-jogo>,
+        <urn:doc:2#evid-001-04-nomear-o-objeto-montando-o-sobre> .
+
+<urn:doc:2> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:2#frag-000>,
+        <urn:doc:2#frag-001> .
+

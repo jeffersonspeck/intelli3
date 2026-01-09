@@ -1,0 +1,168 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "diferentes pessoas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7952134307555705,
+      "relevance": 0.9147286821705426
+    },
+    {
+      "role": "Keyword",
+      "text": "envolva detalhes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7882586553798475,
+      "relevance": 0.9515503875968992
+    },
+    {
+      "role": "Keyword",
+      "text": "detalhes diferentes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7882586553798475,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "briga transito",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6771825427855275,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "briga transito",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6771825427855275,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "se retirem da sala",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.622093023255814
+    },
+    {
+      "role": "ContextObject",
+      "text": "quatro alunos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.6492248062015504
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "solicitando atencao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7923298159016907,
+      "relevance": 0.96875
+    },
+    {
+      "role": "Keyword",
+      "text": "pois escolhera",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7923298159016907,
+      "relevance": 0.9125
+    },
+    {
+      "role": "Keyword",
+      "text": "presentes relata",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7841654327015576,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "passar lhe esse conteudo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6964565530602935,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "escolhe alguem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6600667414059592,
+      "relevance": 0.6125
+    },
+    {
+      "role": "Keyword",
+      "text": "chama",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6109451386701158,
+      "relevance": 0.7291666666666667
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara.",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "contar histonia",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5785468554390809,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "constituem excelente experimento",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7731812545101705,
+      "relevance": 0.6644067796610169
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao interpessoal",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7423804094245405,
+      "relevance": 0.5423728813559322
+    },
+    {
+      "role": "Keyword",
+      "text": "alteracoes supressoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5217416798484777,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "abra discussao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7224115567132768,
+      "relevance": 0.75
+    }
+  ]
+}

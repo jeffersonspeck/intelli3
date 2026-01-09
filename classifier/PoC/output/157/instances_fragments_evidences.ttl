@@ -1,0 +1,83 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:157#evid-000-00-utiliza> a onto:Keyword ;
+    rdfs:label "utiliza"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:157#evid-001-00-notas-musicais> a onto:Keyword ;
+    rdfs:label "notas musicais"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:157#evid-001-01-desenvolvendo-entonacao> a onto:Keyword ;
+    rdfs:label "desenvolvendo entonacao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:157#evid-001-02-desenvolvendo-entonacao> a onto:Keyword ;
+    rdfs:label "desenvolvendo entonacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:157#evid-001-03-audicao-instrumentos> a onto:Keyword ;
+    rdfs:label "audicao instrumentos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:157#evid-001-04-compreensao-diferencas> a onto:Keyword ;
+    rdfs:label "compreensao diferencas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:157#evid-001-05-compreensao-diferencas> a onto:Keyword ;
+    rdfs:label "compreensao diferencas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:157#evid-001-06-musicais-pela-audicao> a onto:Keyword ;
+    rdfs:label "musicais pela audicao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:157#evid-001-07-descobrir> a onto:Keyword ;
+    rdfs:label "descobrir"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:157#evid-002-00-placas> a onto:Keyword ;
+    rdfs:label "placas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:157#evid-002-01-placas> a onto:ContextObject ;
+    rdfs:label "placas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:157#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: A atividade utiliza um xilofone pequeno, que pode ser improvisado com uma caixa de madeira e placas tambem de madeira removiveis. Duas baquetas com pontas arredondadas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:157> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:157#evid-000-00-utiliza> .
+
+<urn:doc:157#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem \"descobrir\" as notas musicais pela audicao dos instru- mentos com a introducao, uma a uma, das placas na superficie da caixa, desenvolvendo a entonacao e a compreensao das diferencas entre cada uma das notas musicais."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:157> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:157#evid-001-00-notas-musicais>,
+        <urn:doc:157#evid-001-01-desenvolvendo-entonacao>,
+        <urn:doc:157#evid-001-02-desenvolvendo-entonacao>,
+        <urn:doc:157#evid-001-03-audicao-instrumentos>,
+        <urn:doc:157#evid-001-04-compreensao-diferencas>,
+        <urn:doc:157#evid-001-05-compreensao-diferencas>,
+        <urn:doc:157#evid-001-06-musicais-pela-audicao>,
+        <urn:doc:157#evid-001-07-descobrir> .
+
+<urn:doc:157#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Em etapas posteriores, as placas podem ir sendo introduzidas duas a duas e assim progressivamente."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:157> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:157#evid-002-00-placas>,
+        <urn:doc:157#evid-002-01-placas> .
+
+<urn:doc:157> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:157#frag-000>,
+        <urn:doc:157#frag-001>,
+        <urn:doc:157#frag-002> .
+

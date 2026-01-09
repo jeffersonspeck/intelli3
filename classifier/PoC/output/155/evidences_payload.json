@@ -1,0 +1,182 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "classifica alimentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8055763659566959,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "alimentos compra",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8055763659566959,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "analisa qualidade",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8055763659566959,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "deduz valor",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8055763659566959,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "valor nutritivo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8043354362425407,
+      "relevance": 0.5432692307692308
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmas compressao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5809089261751683,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "relacionar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7722921255848031,
+      "relevance": 0.8990384615384616
+    },
+    {
+      "role": "Keyword",
+      "text": "classificar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7722921255848031,
+      "relevance": 0.8846153846153846
+    },
+    {
+      "role": "Keyword",
+      "text": "classificar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7722921255848031,
+      "relevance": 0.8846153846153846
+    },
+    {
+      "role": "Keyword",
+      "text": "analisar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7722921255848031,
+      "relevance": 0.8689903846153846
+    },
+    {
+      "role": "Keyword",
+      "text": "deduzir",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7722921255848031,
+      "relevance": 0.8569711538461539
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7722921255848031,
+      "relevance": 0.8461538461538461
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7722921255848031,
+      "relevance": 0.8461538461538461
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "relacionar, classificar, analisar, deduzir, identificar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.8990384615384616
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "relacionar, classificar, analisar, deduzir, identificar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.8990384615384616
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "relacionar, classificar, analisar, deduzir, identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8990384615384616
+    },
+    {
+      "role": "ContextObject",
+      "text": "alimentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.6177884615384616
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "exploradora habilidades",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8005640771483585,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "uso sons",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5779375728259957,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumentos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5421923976553993,
+      "relevance": 0.7054794520547945
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "completada com o uso de sons e, assim, o emprego alternado de um chocalho, uma castanhola, um surdo, triangulo e outros instrumentos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.910958904109589
+    },
+    {
+      "role": "ContextObject",
+      "text": "chocalho, uma castanhola, um surdo, triangulo e outros instrumentos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.7996575342465754
+    }
+  ]
+}

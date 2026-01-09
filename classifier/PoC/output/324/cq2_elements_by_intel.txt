@@ -1,0 +1,121 @@
+[Documento] urn:doc:324
+  - miVector: 37.78,0.00,0.00,1.67,31.96,18.25,0.00,10.33
+  - TOP (documento): Linguistic (score=0.3778)
+  - Ranking (top 3):
+      • Linguistic: 0.3778
+      • Bodily-Kinesthetic: 0.3196
+      • Interpersonal: 0.1825
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: estar sentados em circulo
+        • Keyword: comunicacao corporal
+        • Keyword: estar sentados
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=1.0000
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: comunicacao corporal
+        • Keyword: comunicacao utilizadas
+        • Keyword: descobrindo mensagem
+        • Keyword: estimulados utilizar
+        • Keyword: explorar
+        • Keyword: instrumento permitir
+        • Keyword: ser estimulados
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4643
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • ContextObject: linguagem oral
+        • Keyword: comunica
+        • Keyword: comunicacao instrumento
+        • Keyword: comunicacao utilizadas
+        • Keyword: descobrindo mensagem
+        • Keyword: escrita sussurrada
+        • Keyword: explorar
+        • Keyword: instrumento permitir
+        • Keyword: recebem mensagem
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=1.0000
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: comunicacao instrumento
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0720
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: alem olhar
+        • Keyword: descubram
+        • Keyword: expressoes nao verbais
+        • Keyword: sendo ampliadas
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3390
+
+
+[Documento — Fragmentos] urn:doc:324
+
+[Fragmento] Preparacao: Os alunos devem estar sentados em circulo e o professor escolhe um, depois outro e mais outros alunos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: estar sentados em circulo
+        • Keyword: estar sentados
+    - Ativações:
+        • score=1.0000, tipo=Primary
+
+[Fragmento] Estes recebem uma mensagem (escrita ou sussurrada pelo professor) e devem comunica-la a classe apenas usando o olhar (por exemplo: uma mosca voando, uma partida de tenis, um aviao pousando).
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: comunica
+        • Keyword: escrita sussurrada
+        • Keyword: recebem mensagem
+    - Ativações:
+        • score=1.0000, tipo=Primary
+
+[Fragmento] Utilizacao: Os alunos devem ser estimulados a utilizar-se de diferentes formas de expressoes nao verbais, descobrindo a mensagem. Progressivamente, as mensagens podem ir sendo amplia- das e, alem do olhar, outros atributos da comunicacao corporal podem e devem ser utiliza- dos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: comunicacao corporal
+    - Ativações:
+        • score=0.0741, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: comunicacao corporal
+        • Keyword: descobrindo mensagem
+        • Keyword: estimulados utilizar
+        • Keyword: ser estimulados
+    - Ativações:
+        • score=0.4643, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: descobrindo mensagem
+    - Ativações:
+        • score=0.1226, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: alem olhar
+        • Keyword: expressoes nao verbais
+        • Keyword: sendo ampliadas
+    - Ativações:
+        • score=0.3390, tipo=Secondary
+
+[Fragmento] O professor deve explorar essas formas de comunicacao como instrumento para permitir que os alunos descubram que a linguagem oral e apenas uma das muitas formas de comunicacao utilizadas pelo ser humano.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: comunicacao utilizadas
+        • Keyword: explorar
+        • Keyword: instrumento permitir
+    - Ativações:
+        • score=0.3206, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • ContextObject: linguagem oral
+        • Keyword: comunicacao instrumento
+        • Keyword: comunicacao utilizadas
+        • Keyword: explorar
+        • Keyword: instrumento permitir
+    - Ativações:
+        • score=0.5021, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: comunicacao instrumento
+    - Ativações:
+        • score=0.0720, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: descubram
+    - Ativações:
+        • score=0.1053, tipo=Secondary

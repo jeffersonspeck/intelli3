@@ -1,0 +1,19 @@
+[Documento] urn:doc:153
+  - miVector: 4.87,13.22,0.00,34.36,21.58,16.18,0.00,9.79
+  - TOP (documento): Musical (score=0.3436)
+  - Ranking (top 3):
+      • Musical: 0.3436
+      • Bodily-Kinesthetic: 0.2158
+      • Interpersonal: 0.1618
+
+
+[Documento — Fragmentos] urn:doc:153
+
+[Fragmento] Preparacao: Reunir ou improvisar uma serie de instrumentos musicais simples (pan- deiro, atabaque, surdo, ganza, chocalho e outros).
+  > TOP: Musical (score=0.4750, tipo=Primary)
+
+[Fragmento] Utilizacao: O professor pode criar uma historia simples, onde diferentes elementos da mesma deverao ser substituidos pela emissao de um som; assim ao ler a historia e pronunciar, por exemplo, bosque, o pandeiro deve ser brandido, a palavra lago corresponde ao som do chocalho e assim por diante.
+  > TOP: Cinestésico-corporal (score=0.2640, tipo=Primary)
+
+[Fragmento] Progressivamente a historia pode ir ganhando maior complexidade e participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical. (Existem instrumentos musicais no comercio.)
+  > TOP: Musical (score=0.4027, tipo=Primary)

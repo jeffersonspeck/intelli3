@@ -1,0 +1,198 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:146#evid-000-00-reunir-copinhos> a onto:Keyword ;
+    rdfs:label "reunir copinhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-000-01-chocalhos-feijao> a onto:Keyword ;
+    rdfs:label "chocalhos feijao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:146#evid-000-02-fita-colante> a onto:Keyword ;
+    rdfs:label "fita colante"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-000-03-grampeador-fita> a onto:Keyword ;
+    rdfs:label "grampeador fita"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-001-00-batidas-quantas-forem> a onto:Keyword ;
+    rdfs:label "batidas quantas forem"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:146#evid-001-01-palavras-pronunciadas> a onto:Keyword ;
+    rdfs:label "palavras pronunciadas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:146#evid-001-02-palavras-pronunciadas> a onto:Keyword ;
+    rdfs:label "palavras pronunciadas"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:146#evid-001-03-estabelecer-associacoes> a onto:Keyword ;
+    rdfs:label "estabelecer associacoes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:146#evid-001-04-chocalho-pelos> a onto:Keyword ;
+    rdfs:label "chocalho pelos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-001-05-acompanhando-ritmo> a onto:Keyword ;
+    rdfs:label "acompanhando ritmo"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:146#evid-001-06-mesmo-numero> a onto:Keyword ;
+    rdfs:label "mesmo numero"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:146#evid-001-07-balancar-chocalho> a onto:Keyword ;
+    rdfs:label "balancar chocalho"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-001-08-numero-batidas> a onto:Keyword ;
+    rdfs:label "numero batidas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:146#evid-001-09-pronunciadas-pelo> a onto:Keyword ;
+    rdfs:label "pronunciadas pelo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:146#evid-001-10-silabas-palavras> a onto:Keyword ;
+    rdfs:label "silabas palavras"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:146#evid-001-11-ritmo-palavra> a onto:Keyword ;
+    rdfs:label "ritmo palavra"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:146#evid-001-12-forem-palavras> a onto:Keyword ;
+    rdfs:label "forem palavras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:146#evid-001-13-balancar-do-chocalho-pelos-aluno> a onto:DiscursiveStrategy ;
+    rdfs:label "balancar do chocalho pelos alunos, acompanhando o ritmo da palavra"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-001-14-balancar-do-chocalho-pelos-aluno> a onto:DiscursiveStrategy ;
+    rdfs:label "balancar do chocalho pelos alunos, acompanhando o ritmo da palavra"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:146#evid-001-15-chocalho> a onto:ContextObject ;
+    rdfs:label "chocalho"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-002-00-aumentando-numero> a onto:Keyword ;
+    rdfs:label "aumentando numero"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:146#evid-002-01-numero-silabas> a onto:Keyword ;
+    rdfs:label "numero silabas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:146#evid-002-02-numero-silabas> a onto:Keyword ;
+    rdfs:label "numero silabas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:146#evid-002-03-silabas-palavras> a onto:Keyword ;
+    rdfs:label "silabas palavras"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:146#evid-002-04-movimentos> a onto:Keyword ;
+    rdfs:label "movimentos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-002-05-chocalho-ritmicamente> a onto:Keyword ;
+    rdfs:label "chocalho ritmicamente"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:146#evid-002-06-chocalho-ritmicamente> a onto:Keyword ;
+    rdfs:label "chocalho ritmicamente"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:146#evid-002-07-movimentem-chocalho> a onto:Keyword ;
+    rdfs:label "movimentem chocalho"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-002-08-sorteando-figuras> a onto:Keyword ;
+    rdfs:label "sorteando figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:146#evid-002-09-pronuncia-las> a onto:Keyword ;
+    rdfs:label "pronuncia las"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:146#evid-002-10-colegas-movimentem> a onto:Keyword ;
+    rdfs:label "colegas movimentem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-002-11-ir-progressivamente-aumentando-o> a onto:DiscursiveStrategy ;
+    rdfs:label "Ir, progressivamente, aumentando o numero de silabas das palavras e estimular os movimentos com o chocalho."@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:146#evid-002-12-ir-progressivamente-aumentando-o> a onto:DiscursiveStrategy ;
+    rdfs:label "Ir, progressivamente, aumentando o numero de silabas das palavras e estimular os movimentos com o chocalho."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:146#evid-002-13-chocalho> a onto:ContextObject ;
+    rdfs:label "chocalho"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:146#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir copinhos de iogurte (danoninho) e com grampeador e fita colante fazer chocalhos com feijao, milho ou pedrinhas dentro."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:146> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:146#evid-000-00-reunir-copinhos>,
+        <urn:doc:146#evid-000-01-chocalhos-feijao>,
+        <urn:doc:146#evid-000-02-fita-colante>,
+        <urn:doc:146#evid-000-03-grampeador-fita> .
+
+<urn:doc:146#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Estabelecer associacoes entre as silabas das palavras pronunciadas pelo pro- fessor e o balancar do chocalho pelos alunos, acompanhando o ritmo da pala- vra, procurando dar o mesmo numero de batidas quantas forem as palavras pronunciadas."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:146> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:146#evid-001-00-batidas-quantas-forem>,
+        <urn:doc:146#evid-001-01-palavras-pronunciadas>,
+        <urn:doc:146#evid-001-02-palavras-pronunciadas>,
+        <urn:doc:146#evid-001-03-estabelecer-associacoes>,
+        <urn:doc:146#evid-001-04-chocalho-pelos>,
+        <urn:doc:146#evid-001-05-acompanhando-ritmo>,
+        <urn:doc:146#evid-001-06-mesmo-numero>,
+        <urn:doc:146#evid-001-07-balancar-chocalho>,
+        <urn:doc:146#evid-001-08-numero-batidas>,
+        <urn:doc:146#evid-001-09-pronunciadas-pelo>,
+        <urn:doc:146#evid-001-10-silabas-palavras>,
+        <urn:doc:146#evid-001-11-ritmo-palavra>,
+        <urn:doc:146#evid-001-12-forem-palavras>,
+        <urn:doc:146#evid-001-13-balancar-do-chocalho-pelos-aluno>,
+        <urn:doc:146#evid-001-14-balancar-do-chocalho-pelos-aluno>,
+        <urn:doc:146#evid-001-15-chocalho> .
+
+<urn:doc:146#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Ir, progressivamente, aumentando o numero de silabas das pa- lavras e estimular os movimentos com o chocalho. O professor pode ser substi- tuido por alunos que, sorteando figuras, devem pronuncia-las para que os cole- gas movimentem o chocalho ritmicamente."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:146> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:146#evid-002-00-aumentando-numero>,
+        <urn:doc:146#evid-002-01-numero-silabas>,
+        <urn:doc:146#evid-002-02-numero-silabas>,
+        <urn:doc:146#evid-002-03-silabas-palavras>,
+        <urn:doc:146#evid-002-04-movimentos>,
+        <urn:doc:146#evid-002-05-chocalho-ritmicamente>,
+        <urn:doc:146#evid-002-06-chocalho-ritmicamente>,
+        <urn:doc:146#evid-002-07-movimentem-chocalho>,
+        <urn:doc:146#evid-002-08-sorteando-figuras>,
+        <urn:doc:146#evid-002-09-pronuncia-las>,
+        <urn:doc:146#evid-002-10-colegas-movimentem>,
+        <urn:doc:146#evid-002-11-ir-progressivamente-aumentando-o>,
+        <urn:doc:146#evid-002-12-ir-progressivamente-aumentando-o>,
+        <urn:doc:146#evid-002-13-chocalho> .
+
+<urn:doc:146> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:146#frag-000>,
+        <urn:doc:146#frag-001>,
+        <urn:doc:146#frag-002> .
+

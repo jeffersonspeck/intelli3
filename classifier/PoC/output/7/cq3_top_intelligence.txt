@@ -1,0 +1,19 @@
+[Documento] urn:doc:7
+  - miVector: 30.30,10.61,20.36,0.00,11.97,8.56,0.00,18.20
+  - TOP (documento): Linguistic (score=0.3030)
+  - Ranking (top 3):
+      • Linguistic: 0.3030
+      • Spatial: 0.2036
+      • Naturalist: 0.1820
+
+
+[Documento — Fragmentos] urn:doc:7
+
+[Fragmento] Preparacao: Uma caixa com uma serie de figuras extraidas de revistas, contendo pala- vras que ja fazem parte do universo vocabular da crianca. Colar essas figuras em cartolina e, eventualmente, plastifica-las.
+  > TOP: Naturalista (score=0.4619, tipo=Primary)
+
+[Fragmento] Utilizacao: O professor deve retirar a figura da caixa, apresenta-la aos alunos e marcar na lousa o numero de letras necessarias para escreve-la. Os alunos, sortea- dos pelo professor, devem escolher as letras corretas e estas serem anotadas.
+  > TOP: Lógico-matemática (score=0.3501, tipo=Primary)
+
+[Fragmento] Coletivamente a classe vai construindo palavras, evoluindo das mais simples para as mais complexas. A cada letra errada, o espaco que deveria ser ocupado pela mesma e ocupado por um boneco na forca.
+  > TOP: Linguística (score=1.0000, tipo=Primary)

@@ -1,0 +1,56 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:177#evid-000-00-colando-fita-adesiva> a onto:Keyword ;
+    rdfs:label "colando fita adesiva"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:177#evid-000-01-confecciona> a onto:Keyword ;
+    rdfs:label "confecciona"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:177#evid-000-02-cortando> a onto:Keyword ;
+    rdfs:label "cortando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:177#evid-000-03-preparar-bola> a onto:Keyword ;
+    rdfs:label "preparar bola"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:177#evid-000-04-praticado-individualmente> a onto:Keyword ;
+    rdfs:label "praticado individualmente"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:177#evid-000-05-duas-tacas-com-garrafas-plastica> a onto:ContextObject ;
+    rdfs:label "duas tacas com garrafas plasticas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:177#evid-001-00-uma-taca-em-cada-mao-e-passa-a-b> a onto:ContextObject ;
+    rdfs:label "uma taca em cada mao e passa a bola de uma taca para a outra"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:177#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor confecciona duas tacas com garrafas plasticas, cortando-as ao meio e colando fita adesiva em sua extremidade. Preparar uma bola de meia ou de pano. Utilizacao: O jogo pode ser praticado individualmente, em dupla ou em grupo."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:177> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:177#evid-000-00-colando-fita-adesiva>,
+        <urn:doc:177#evid-000-01-confecciona>,
+        <urn:doc:177#evid-000-02-cortando>,
+        <urn:doc:177#evid-000-03-preparar-bola>,
+        <urn:doc:177#evid-000-04-praticado-individualmente>,
+        <urn:doc:177#evid-000-05-duas-tacas-com-garrafas-plastica> .
+
+<urn:doc:177#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Individualmente, o aluno segura uma taca em cada mao e passa a bola de uma taca para a outra."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:177> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:177#evid-001-00-uma-taca-em-cada-mao-e-passa-a-b> .
+
+<urn:doc:177> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:177#frag-000>,
+        <urn:doc:177#frag-001> .
+

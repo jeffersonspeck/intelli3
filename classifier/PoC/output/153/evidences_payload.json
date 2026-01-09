@@ -1,0 +1,208 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "instrumentos musicais simples",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5754706939814196,
+      "relevance": 0.8559322033898304
+    },
+    {
+      "role": "Keyword",
+      "text": "reunir improvisar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7718668153377981,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "improvisar serie",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7383747053499854,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "serie instrumentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7383747053499854,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "chocalho",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6992904790342168,
+      "relevance": 0.5805084745762712
+    },
+    {
+      "role": "ContextObject",
+      "text": "(pandeiro, atabaque, surdo, ganza, chocalho e outros)",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.728813559322034
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "palavra lago corresponde",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8048710231304054,
+      "relevance": 0.6113074204946997
+    },
+    {
+      "role": "Keyword",
+      "text": "historia simples",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7869980952010982,
+      "relevance": 0.9522968197879859
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes elementos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7837691876498019,
+      "relevance": 0.911660777385159
+    },
+    {
+      "role": "Keyword",
+      "text": "pode criar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7837691876498019,
+      "relevance": 0.9787985865724381
+    },
+    {
+      "role": "Keyword",
+      "text": "ser substituidos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7837691876498019,
+      "relevance": 0.8445229681978799
+    },
+    {
+      "role": "Keyword",
+      "text": "substituidos pela emissao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7837691876498019,
+      "relevance": 0.8374558303886925
+    },
+    {
+      "role": "Keyword",
+      "text": "historia pronunciar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7595692788279926,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "som chocalho",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5282535733427624,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "criar historia",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.73142802462844,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ler historia",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.73142802462844,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "corresponde som",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5282535733427624,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "brandido",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7298118874526268,
+      "relevance": 0.6325088339222615
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "oral pela musical",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7899209234449238,
+      "relevance": 0.6431818181818182
+    },
+    {
+      "role": "Keyword",
+      "text": "participacao integral",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.85
+    },
+    {
+      "role": "Keyword",
+      "text": "existem instrumentos musicais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.762552347938103,
+      "relevance": 0.5977272727272727
+    },
+    {
+      "role": "Keyword",
+      "text": "musicais comercio",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.49544543915735395,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.85
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.85
+    },
+    {
+      "role": "ContextObject",
+      "text": "instrumentos musicais no comercio",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.5795454545454546
+    }
+  ]
+}

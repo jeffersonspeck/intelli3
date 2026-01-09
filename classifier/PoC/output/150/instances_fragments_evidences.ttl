@@ -1,0 +1,96 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:150#evid-000-00-mesma-silaba-inicial> a onto:Keyword ;
+    rdfs:label "mesma silaba inicial"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:150#evid-000-01-revistas-figuras-cujos> a onto:Keyword ;
+    rdfs:label "revistas figuras cujos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:150#evid-000-02-recortar-revistas> a onto:Keyword ;
+    rdfs:label "recortar revistas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:150#evid-000-03-gato> a onto:Keyword ;
+    rdfs:label "gato"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:150#evid-000-04-rato> a onto:Keyword ;
+    rdfs:label "rato"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:150#evid-000-05-bola> a onto:Keyword ;
+    rdfs:label "bola"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:150#evid-000-06-botao> a onto:Keyword ;
+    rdfs:label "botao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:150#evid-000-07-mesma-terminacao> a onto:Keyword ;
+    rdfs:label "mesma terminacao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:150#evid-000-08-cujos-nomes-tenham> a onto:Keyword ;
+    rdfs:label "cujos nomes tenham"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:150#evid-000-09-tenham-mesma> a onto:Keyword ;
+    rdfs:label "tenham mesma"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:150#evid-000-10-cujos-nomes-apresentam> a onto:Keyword ;
+    rdfs:label "cujos nomes apresentam"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:150#evid-000-11-apresentam-mesma> a onto:Keyword ;
+    rdfs:label "apresentam mesma"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:150#evid-001-00-mesmo-fonema-inicial> a onto:Keyword ;
+    rdfs:label "mesmo fonema inicial"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:150#evid-001-01-reunir-palavras> a onto:Keyword ;
+    rdfs:label "reunir palavras"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:150#evid-001-02-reunir-palavras-com-o-mesmo-fone> a onto:DiscursiveStrategy ;
+    rdfs:label "reunir palavras com o mesmo fonema inicial, agrupar outros com a mesma terminacao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:150#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Recortar de revistas figuras cujos nomes tenham a mesma terminacao e outras cujos nomes apresentam a mesma silaba inicial (Exemplos: Gato, Rato, Mato, Sapato, ou Bolacha, Bola, Botao, Boliche, ctc.). Incluir outras gravuras que iniciem e terminem com outros fonemas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:150> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:150#evid-000-00-mesma-silaba-inicial>,
+        <urn:doc:150#evid-000-01-revistas-figuras-cujos>,
+        <urn:doc:150#evid-000-02-recortar-revistas>,
+        <urn:doc:150#evid-000-03-gato>,
+        <urn:doc:150#evid-000-04-rato>,
+        <urn:doc:150#evid-000-05-bola>,
+        <urn:doc:150#evid-000-06-botao>,
+        <urn:doc:150#evid-000-07-mesma-terminacao>,
+        <urn:doc:150#evid-000-08-cujos-nomes-tenham>,
+        <urn:doc:150#evid-000-09-tenham-mesma>,
+        <urn:doc:150#evid-000-10-cujos-nomes-apresentam>,
+        <urn:doc:150#evid-000-11-apresentam-mesma> .
+
+<urn:doc:150#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Existe uma enorme multiplicidade para o uso do jogo. Os alunos podem, por exemplo, reunir palavras com o mesmo fonema inicial, agrupar outros com a mesma terminacao. O professor pode ir retirando as gravuras de uma caixa e solicitando dos alunos a identificacao do fonema."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:150> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:150#evid-001-00-mesmo-fonema-inicial>,
+        <urn:doc:150#evid-001-01-reunir-palavras>,
+        <urn:doc:150#evid-001-02-reunir-palavras-com-o-mesmo-fone> .
+
+<urn:doc:150> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:150#frag-000>,
+        <urn:doc:150#frag-001> .
+

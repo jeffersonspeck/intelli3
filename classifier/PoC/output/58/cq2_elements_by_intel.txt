@@ -1,0 +1,73 @@
+[Documento] urn:doc:58
+  - miVector: 0.00,46.28,0.00,0.00,27.00,0.00,0.00,26.72
+  - TOP (documento): Logical-Mathematical (score=0.4628)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.4628
+      • Bodily-Kinesthetic: 0.2700
+      • Naturalist: 0.2672
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: jogo de domino
+        • DiscursiveStrategy: os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores.
+        • Keyword: jogo domino
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2824
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: fixar conceitos sobre sistemas de numeracao
+        • Keyword: fixar conceitos
+        • Keyword: numeracao
+        • Keyword: numero
+        • Keyword: regras jogo
+        • Keyword: seguir regras
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.5441
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: Domino Joaninha, Trimino e outros -- Uki-Uki.
+        • Keyword: animais pessoas
+        • Keyword: formatos animais
+        • Keyword: jogo domino
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3173
+
+
+[Documento — Fragmentos] urn:doc:58
+
+[Fragmento] Preparacao: O jogo de domino e um excelente recurso para fixar conceitos sobre sistemas de numeracao. Para torna-lo mais atrativo, o professor pode preparar, em cartolina ou papel-cartao, dominos com formatos de animais ou pessoas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: jogo de domino
+        • Keyword: jogo domino
+    - Ativações:
+        • score=0.2824, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: fixar conceitos sobre sistemas de numeracao
+        • Keyword: fixar conceitos
+        • Keyword: numeracao
+    - Ativações:
+        • score=0.4003, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: animais pessoas
+        • Keyword: formatos animais
+        • Keyword: jogo domino
+    - Ativações:
+        • score=0.3173, tipo=Secondary
+
+[Fragmento] Na verdade o que importa e o numero de pontos que indica as caracteristicas do jogo. Utilizacao: Os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores. (Existe no mercado -- Domino Joaninha, Trimino e outros -- Uki-Uki.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores.
+    - Ativações:
+        • score=0.2540, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: numero
+        • Keyword: regras jogo
+        • Keyword: seguir regras
+    - Ativações:
+        • score=0.5441, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: Domino Joaninha, Trimino e outros -- Uki-Uki.
+    - Ativações:
+        • score=0.2020, tipo=Secondary

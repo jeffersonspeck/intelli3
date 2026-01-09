@@ -1,0 +1,16 @@
+[Documento] urn:doc:116
+  - miVector: 8.69,19.15,22.42,10.74,23.56,3.44,0.00,12.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.2356)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2356
+      • Spatial: 0.2242
+      • Logical-Mathematical: 0.1915
+
+
+[Documento — Fragmentos] urn:doc:116
+
+[Fragmento] Preparacao: Preparar uma tabela metalica e adquirir no comercio bichinhos e flores me RE imantadas, usadas como enfeites de geladeiras. Utilizacao: A atividade e similar a proposta com o flanelografo.
+  > TOP: Lógico-matemática (score=0.3388, tipo=Primary)
+
+[Fragmento] Os alunos devem montar as pecas, identificando conceitos como "direita", "esquerda", "em cima", "embaixo" e outros. Criar historias envolvendo a arrumacao das pecas. (Existe no comercio: Magneto / Q.I.)
+  > TOP: Espacial-visual (score=0.4279, tipo=Primary)

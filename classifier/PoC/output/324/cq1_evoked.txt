@@ -1,0 +1,55 @@
+[Documento] urn:doc:324
+  - miVector: 37.78,0.00,0.00,1.67,31.96,18.25,0.00,10.33
+  - TOP (documento): Linguistic (score=0.3778)
+  - Ranking (top 3):
+      • Linguistic: 0.3778
+      • Bodily-Kinesthetic: 0.3196
+      • Interpersonal: 0.1825
+
+[Fragmento] Preparacao: Os alunos devem estar sentados em circulo e o professor escolhe um, depois outro e mais outros alunos.
+  - Bodily-Kinesthetic (via activation, score=1.0000)
+  - Cinestésico-corporal (via activation, score=1.0000)
+  - Bodily-Kinesthetic (via element)
+  - Cinestésico-corporal (via element)
+
+[Fragmento] Estes recebem uma mensagem (escrita ou sussurrada pelo professor) e devem comunica-la a classe apenas usando o olhar (por exemplo: uma mosca voando, uma partida de tenis, um aviao pousando).
+  - Linguistic (via activation, score=1.0000)
+  - Linguística (via activation, score=1.0000)
+  - Linguistic (via element)
+  - Linguística (via element)
+
+[Fragmento] Utilizacao: Os alunos devem ser estimulados a utilizar-se de diferentes formas de expressoes nao verbais, descobrindo a mensagem. Progressivamente, as mensagens podem ir sendo amplia- das e, alem do olhar, outros atributos da comunicacao corporal podem e devem ser utiliza- dos.
+  - Bodily-Kinesthetic (via activation, score=0.0741)
+  - Interpersonal (via activation, score=0.4643)
+  - Linguistic (via activation, score=0.1226)
+  - Naturalist (via activation, score=0.3390)
+  - Cinestésico-corporal (via activation, score=0.0741)
+  - Interpessoal (via activation, score=0.4643)
+  - Linguística (via activation, score=0.1226)
+  - Naturalista (via activation, score=0.3390)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Naturalista (via element)
+
+[Fragmento] O professor deve explorar essas formas de comunicacao como instrumento para permitir que os alunos descubram que a linguagem oral e apenas uma das muitas formas de comunicacao utilizadas pelo ser humano.
+  - Interpersonal (via activation, score=0.3206)
+  - Linguistic (via activation, score=0.5021)
+  - Musical (via activation, score=0.0720)
+  - Naturalist (via activation, score=0.1053)
+  - Interpessoal (via activation, score=0.3206)
+  - Linguística (via activation, score=0.5021)
+  - Musical (via activation, score=0.0720)
+  - Naturalista (via activation, score=0.1053)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Musical (via element)
+  - Naturalista (via element)

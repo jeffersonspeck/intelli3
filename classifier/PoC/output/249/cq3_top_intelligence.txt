@@ -1,0 +1,19 @@
+[Documento] urn:doc:249
+  - miVector: 0.00,43.27,0.00,0.00,21.91,14.02,0.00,20.80
+  - TOP (documento): Logical-Mathematical (score=0.4327)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.4327
+      • Bodily-Kinesthetic: 0.2191
+      • Naturalist: 0.2080
+
+
+[Documento — Fragmentos] urn:doc:249
+
+[Fragmento] Preparacao: E indispensavel darmos oportunidade aos alunos de executarem tarefas an- tecipadamente planejadas. O professor deve idealizar uma verdadeira gincana de atividades e cumprindo-as deve solicitar aos alunos que o facam.
+  > TOP: Interpessoal (score=0.4626, tipo=Primary)
+
+[Fragmento] Utilizacao: O professor sera o "mestre" e executara a gincana estabelecida (saltara cer- cas inexistentes, remara por rios imaginarios, procurara tesouros ocultos) e as- sim percorrera interessante caminho estimulando a motricidade e soltando a imaginacao naturalista dos alunos.
+  > TOP: Cinestésico-corporal (score=0.5573, tipo=Primary)
+
+[Fragmento] O sucesso do jogo depende da capacidade do professor em levar o aluno a partilhar dessas "aventuras". 200
+  > TOP: Lógico-matemática (score=0.8126, tipo=Primary)

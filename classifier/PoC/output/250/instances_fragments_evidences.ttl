@@ -1,0 +1,148 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:250#evid-000-00-tais-rochas> a onto:Keyword ;
+    rdfs:label "tais rochas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-000-01-facam-colecoes> a onto:Keyword ;
+    rdfs:label "facam colecoes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:250#evid-000-02-facam-colecoes> a onto:Keyword ;
+    rdfs:label "facam colecoes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-000-03-produtos-naturais> a onto:Keyword ;
+    rdfs:label "produtos naturais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-000-04-minerais> a onto:Keyword ;
+    rdfs:label "minerais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-000-05-folhas> a onto:Keyword ;
+    rdfs:label "folhas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-000-06-conchas> a onto:Keyword ;
+    rdfs:label "conchas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-000-07-colecoes-produtos> a onto:Keyword ;
+    rdfs:label "colecoes produtos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:250#evid-000-08-colecoes-produtos> a onto:Keyword ;
+    rdfs:label "colecoes produtos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-000-09-cogumelos> a onto:Keyword ;
+    rdfs:label "cogumelos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-000-10-rochas-minerais-folhas-conchas-c> a onto:ContextObject ;
+    rdfs:label "rochas, minerais, folhas, conchas, cogumelos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-001-00-arrumar-caixas> a onto:Keyword ;
+    rdfs:label "arrumar caixas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:250#evid-001-01-caixas-bem-divididas> a onto:Keyword ;
+    rdfs:label "caixas bem divididas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:250#evid-001-02-classificar> a onto:Keyword ;
+    rdfs:label "classificar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:250#evid-001-03-classificar> a onto:Keyword ;
+    rdfs:label "classificar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:250#evid-001-04-classificar-criterio> a onto:Keyword ;
+    rdfs:label "classificar criterio"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:250#evid-001-05-criterio-objetos> a onto:Keyword ;
+    rdfs:label "criterio objetos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:250#evid-001-06-caixas> a onto:ContextObject ;
+    rdfs:label "caixas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:250#evid-002-00-possam-identificar> a onto:Keyword ;
+    rdfs:label "possam identificar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:250#evid-002-01-possam-identificar> a onto:Keyword ;
+    rdfs:label "possam identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-002-02-regras-essenciais> a onto:Keyword ;
+    rdfs:label "regras essenciais"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:250#evid-002-03-identificar-pecas> a onto:Keyword ;
+    rdfs:label "identificar pecas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:250#evid-002-04-identificar-pecas> a onto:Keyword ;
+    rdfs:label "identificar pecas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:250#evid-002-05-estabelecer-regras> a onto:Keyword ;
+    rdfs:label "estabelecer regras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:250#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor devera estimular que os alunos, divididos em grupos, facam colecoes de produtos naturais, tais como rochas, minerais, folhas, conchas, co- gumelos ou outros produtos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:250> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:250#evid-000-00-tais-rochas>,
+        <urn:doc:250#evid-000-01-facam-colecoes>,
+        <urn:doc:250#evid-000-02-facam-colecoes>,
+        <urn:doc:250#evid-000-03-produtos-naturais>,
+        <urn:doc:250#evid-000-04-minerais>,
+        <urn:doc:250#evid-000-05-folhas>,
+        <urn:doc:250#evid-000-06-conchas>,
+        <urn:doc:250#evid-000-07-colecoes-produtos>,
+        <urn:doc:250#evid-000-08-colecoes-produtos>,
+        <urn:doc:250#evid-000-09-cogumelos>,
+        <urn:doc:250#evid-000-10-rochas-minerais-folhas-conchas-c> .
+
+<urn:doc:250#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Deve arrumar caixas bem divididas para expor es- sas colecoes e levar os alunos a classificar com criterio os objetos colecionados."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:250> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:250#evid-001-00-arrumar-caixas>,
+        <urn:doc:250#evid-001-01-caixas-bem-divididas>,
+        <urn:doc:250#evid-001-02-classificar>,
+        <urn:doc:250#evid-001-03-classificar>,
+        <urn:doc:250#evid-001-04-classificar-criterio>,
+        <urn:doc:250#evid-001-05-criterio-objetos>,
+        <urn:doc:250#evid-001-06-caixas> .
+
+<urn:doc:250#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor deve, antes de estimular os alunos as colecoes, planejar os mostruarios, as referencias bibliograficas para que possam identificar as pecas encontradas e estabelecer as regras essenciais para a colecao."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:250> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:250#evid-002-00-possam-identificar>,
+        <urn:doc:250#evid-002-01-possam-identificar>,
+        <urn:doc:250#evid-002-02-regras-essenciais>,
+        <urn:doc:250#evid-002-03-identificar-pecas>,
+        <urn:doc:250#evid-002-04-identificar-pecas>,
+        <urn:doc:250#evid-002-05-estabelecer-regras> .
+
+<urn:doc:250> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:250#frag-000>,
+        <urn:doc:250#frag-001>,
+        <urn:doc:250#frag-002> .
+

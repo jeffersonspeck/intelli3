@@ -1,17 +1,17 @@
 {
   "doc_slug": "1",
   "source_file": "1.txt",
-  "started_at": "2026-01-08T23:31:30",
+  "started_at": "2026-01-08T19:45:08",
   "steps": {
     "s1": {
       "status": "ok",
-      "duration_s": 1.652294,
+      "duration_s": 2.169574,
       "paragraphs": 2,
       "output": "s1_output.json"
     },
     "s2": {
       "status": "ok",
-      "duration_s": 0.015989,
+      "duration_s": 0.011461,
       "fragments": 2,
       "onto_path": "/home/speck/Python/Intelli3Test/intelli3/ontomi.ttl",
       "output": "instances_fragments.ttl",
@@ -20,7 +20,7 @@
     },
     "s3": {
       "status": "ok",
-      "duration_s": 52.113772,
+      "duration_s": 32.753624,
       "fragments": 2,
       "evidences_total": 23,
       "role_counts": {
@@ -35,7 +35,7 @@
     },
     "s4": {
       "status": "ok",
-      "duration_s": 0.030034,
+      "duration_s": 0.022991,
       "input_s3_ttl": "instances_fragments_evidences.ttl",
       "output_ttl": "instances_fragments_activations.ttl",
       "scores_source": "payload_json",
@@ -56,7 +56,7 @@
     },
     "s5": {
       "status": "ok",
-      "duration_s": 0.031597,
+      "duration_s": 0.024773,
       "scope": "both",
       "norm": "l1",
       "tau": 1.0,
@@ -72,7 +72,7 @@
     },
     "s6": {
       "status": "ok",
-      "duration_s": 0.71611,
+      "duration_s": 0.588337,
       "input": "/home/speck/Python/Intelli3Test/intelli3/output/1/instances_fragments_profile.ttl",
       "outputs": {
         "cq1": "cq1_evoked.txt",
@@ -97,7 +97,7 @@
     },
     "s7": {
       "status": "ok",
-      "duration_s": 0.248809,
+      "duration_s": 0.185928,
       "conforms": true,
       "results_count": 0,
       "report_ttl": "shacl_report.ttl",
@@ -109,6 +109,6 @@
     }
   },
   "doc_id": "urn:doc:1",
-  "ended_at": "2026-01-08T23:32:30",
-  "total_s": 54.811944
+  "ended_at": "2026-01-08T19:45:47",
+  "total_s": 35.758681
 }

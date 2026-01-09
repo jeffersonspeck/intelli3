@@ -1,0 +1,35 @@
+[Documento] urn:doc:50
+  - miVector: 0.00,15.71,0.00,9.97,38.46,0.00,0.00,35.87
+  - TOP (documento): Bodily-Kinesthetic (score=0.3846)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3846
+      • Naturalist: 0.3587
+      • Logical-Mathematical: 0.1571
+
+[Fragmento] Preparacao: Reunir pedacos de fitas coloridas de duas larguras ce comprimentos. Utilizacao: Os alunos devem comparar as diferentes larguras de fitas e seus comprimen- tos, agrupando-as em "largas" e "estreitas", depois em "curtas" e "compridas".
+  - Bodily-Kinesthetic (via activation, score=0.1323)
+  - Logical-Mathematical (via activation, score=0.2779)
+  - Musical (via activation, score=0.1764)
+  - Naturalist (via activation, score=0.4135)
+  - Cinestésico-corporal (via activation, score=0.1323)
+  - Lógico-matemática (via activation, score=0.2779)
+  - Musical (via activation, score=0.1764)
+  - Naturalista (via activation, score=0.4135)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] Em etapas posteriores devem pegar fitas ao acaso, classificando-as como "com- pr ida", "curta", "larga", "estreita". E interessante a experiencia de se reproduzir graficamente a largura das fitas.
+  - Bodily-Kinesthetic (via activation, score=0.7126)
+  - Naturalist (via activation, score=0.2874)
+  - Cinestésico-corporal (via activation, score=0.7126)
+  - Naturalista (via activation, score=0.2874)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Naturalista (via element)

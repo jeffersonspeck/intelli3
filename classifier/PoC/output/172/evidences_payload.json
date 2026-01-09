@@ -1,0 +1,86 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "textura diferente",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7900128808799413,
+      "relevance": 0.8636363636363636
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar dez cartelas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7208871797628481,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "cartelas pares",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6552879243154068,
+      "relevance": 0.5296442687747036
+    },
+    {
+      "role": "Keyword",
+      "text": "olhos vendados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.44835754253380566,
+      "relevance": 0.5968379446640316
+    },
+    {
+      "role": "Keyword",
+      "text": "procurar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6208027512006541,
+      "relevance": 0.5533596837944664
+    },
+    {
+      "role": "ContextObject",
+      "text": "cartelas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.974308300395257
+    },
+    {
+      "role": "ContextObject",
+      "text": "par",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9940711462450593
+    },
+    {
+      "role": "ContextObject",
+      "text": "textura diferente",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8636363636363636
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "conseguirem maior numero",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7383747053499854,
+      "relevance": 0.7573529411764706
+    },
+    {
+      "role": "ContextObject",
+      "text": "maior numero de pontos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.6691176470588236
+    }
+  ]
+}

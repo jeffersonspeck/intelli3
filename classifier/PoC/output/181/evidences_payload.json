@@ -1,0 +1,102 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "botoes pressao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7732421242364237,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7701382457777476,
+      "relevance": 0.9088983050847458
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes tamanhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7701382457777476,
+      "relevance": 0.9088983050847458
+    },
+    {
+      "role": "Keyword",
+      "text": "casas",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6458322364368133,
+      "relevance": 0.9470338983050848
+    },
+    {
+      "role": "Keyword",
+      "text": "coloridos casas",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6181769972277135,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "abotoar e desabotoar, dar laco, enganchar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.5889830508474576
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "brincadeiras livres",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.573941052249193,
+      "relevance": 0.7873831775700935
+    },
+    {
+      "role": "Keyword",
+      "text": "olhos vendados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.573941052249193,
+      "relevance": 0.5350467289719626
+    },
+    {
+      "role": "Keyword",
+      "text": "determinacoes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7946876108065749,
+      "relevance": 0.6542056074766356
+    },
+    {
+      "role": "Keyword",
+      "text": "maos brincadeiras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5668545194067546,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "execute",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.734615547974421,
+      "relevance": 0.719626168224299
+    },
+    {
+      "role": "Keyword",
+      "text": "segundo determinacoes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.734615547974421,
+      "relevance": 0.6728971962616823
+    }
+  ]
+}
