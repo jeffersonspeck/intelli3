@@ -1,3 +1,8 @@
+"""\
+PT-BR: S6 — consultas de validação (CQ1/CQ2/CQ3) sobre o grafo final.
+EN: S6 — validation queries (CQ1/CQ2/CQ3) over the final graph.
+"""
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -27,6 +32,7 @@ def _first_literal_lang(g: Graph, subj, pred, lang: str) -> Optional[str]:
     return None
 
 def _doc_label(g: Graph, doc) -> str:
+    # Eu priorizo rótulos em pt/en para os relatórios ficarem mais claros.
     pt = _first_literal_lang(g, doc, RDFS.label, "pt")
     if pt: return pt
     en = _first_literal_lang(g, doc, RDFS.label, "en")
@@ -82,6 +88,7 @@ def _doc_vector_node(g: Graph, doc):
 
 def _doc_vector_scores(g: Graph, vec) -> Tuple[Dict[str, float], Optional[str]]:
     scores: Dict[str, float] = {}
+    # Aqui eu tento ler primeiro pelos predicados normalizados.
     for name, prop in VECTOR_ORDER:
         lit = next(iter(g.objects(vec, prop)), None)
         if lit is not None:

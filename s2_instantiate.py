@@ -1,3 +1,8 @@
+"""\
+PT-BR: S2 — instancia fragmentos e documentos em RDF a partir da saída da S1.
+EN: S2 — instantiates fragments/documents in RDF from the S1 output.
+"""
+
 from __future__ import annotations
 
 import json
@@ -21,6 +26,7 @@ FRAG_CLASS = ONTO.ExplanationFragment
 DOC_CLASS  = ONTO.ExplanationDocument
 
 def _bind_prefixes(g: Graph) -> None:
+    # Eu mantenho os prefixes centralizados para manter o TTL legível.
     g.bind("bfo",  BFO)
     g.bind("iao",  IAO)
     g.bind("onto", ONTO)
@@ -57,6 +63,7 @@ def instantiate_fragments_rdf(
     doc_id: str = s1_output["doc_id"]
     paragraphs: List[Dict[str, Any]] = s1_output["paragraphs"]
 
+    # Eu garanto que o namespace base sempre termina com # ou /.
     base_ns = base_instances_ns or (doc_id + "#")
     if not (base_ns.endswith("#") or base_ns.endswith("/")):
         base_ns = base_ns + "#"

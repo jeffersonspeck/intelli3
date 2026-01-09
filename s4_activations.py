@@ -1,3 +1,8 @@
+"""\
+PT-BR: S4 — calcula ativações por fragmento e grava no grafo RDF.
+EN: S4 — computes fragment activations and writes them to the RDF graph.
+"""
+
 from __future__ import annotations
 
 from typing import Dict, List, Tuple, Optional
@@ -15,6 +20,7 @@ IAO  = Namespace("http://purl.obolibrary.org/obo/IAO_")
 ONTO = Namespace("https://techcoop.com.br/ontomi#")
 
 def _base_from_fragment_uri(frag_uri: URIRef) -> str:
+    # Eu extraio a base para reaproveitar na geração de URIs.
     u = str(frag_uri)
     return (u.split("#", 1)[0] + "#") if "#" in u else (u.rstrip("/") + "#")
 
@@ -72,6 +78,7 @@ def compute_scores_by_fragment_from_graph(
     scores_by_fragment: Dict[int, Dict[str, float]] = {}
 
     for k, frag in enumerate(fragment_nodes):
+        # Eu percorro os fragmentos na ordem recebida para manter consistência.
         per_intel: Dict[str, float] = {}
 
         for el in g.objects(frag, ONTO.usesElement):

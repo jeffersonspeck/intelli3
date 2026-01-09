@@ -1,5 +1,7 @@
-from __future__ import annotations
-"""
+"""\
+PT-BR: Orquestrador do pipeline Intelli3 para execução em lote.
+EN: Intelli3 pipeline orchestrator for batch execution.
+
 run_batch.py — Orquestrador do pipeline Intelli3 (execução em lote).
 
 Este script é o ponto de entrada do Intelli3 para processamento em lote de
@@ -103,6 +105,7 @@ Objetivo do script:
 Este script é parte integrante da pesquisa de Mestrado em Ciência da
 Computação associada ao projeto Intelli3.
 """
+from __future__ import annotations
 import argparse
 import json
 import re
@@ -140,6 +143,7 @@ INTELLIGENCES = [
 ]
 
 def slugify(name: str) -> str:
+    # Eu uso esse slug para garantir nomes de pasta previsíveis.
     name = name.strip()
     name = re.sub(r"[^\w\-. ]+", "", name, flags=re.UNICODE)
     name = name.replace(" ", "_")
@@ -147,6 +151,7 @@ def slugify(name: str) -> str:
 
 
 def iter_txt_files(src_dir: Path) -> List[Path]:
+    # Aqui eu filtro só os .txt para manter o lote controlado.
     return sorted([p for p in src_dir.glob("*.txt") if p.is_file()])
 
 
