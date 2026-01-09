@@ -1,3 +1,8 @@
+"""\
+PT-BR: API de evidências do Intelli3 para extrair candidatos e atribuir MI via LLM.
+EN: Intelli3 evidences API to extract candidates and assign MI via LLM.
+"""
+
 # evidences_api.py
 # ------------------------------------------------------------
 # Intelli3 - Evidence annotator (generic / low-bias version)
@@ -27,6 +32,7 @@ WORD_RE = re.compile(r"[a-zA-ZÀ-ÖØ-öø-ÿ]+", re.UNICODE)
 
 def _norm(s: str) -> str:
     """Normalize string for matching: lower + strip + remove accents."""
+    # Eu deixei a normalização em uma função só para ficar fácil reaproveitar.
     return unidecode((s or "").strip().lower())
 
 DEFAULT_MODEL = "mistral:7b-instruct"
@@ -44,6 +50,7 @@ INTELLIGENCES = [
 ]
 
 TRIGGERS: Dict[str, Dict[str, List[str]]] = {
+    # Comentário pessoal: concentrei aqui todas as palavras-chave para ajustes rápidos.
     # -------------------------
     # Logical–Mathematical
     # -------------------------

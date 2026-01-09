@@ -1,3 +1,8 @@
+"""\
+PT-BR: S7 — validação SHACL do grafo RDF final.
+EN: S7 — SHACL validation of the final RDF graph.
+"""
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -26,6 +31,7 @@ def run_s7_shacl_validate_from_files(
       - salva report ttl e (opcionalmente) report txt
       - retorna métricas para run_log.json
     """
+    # Eu carrego os grafos separadamente para manter as responsabilidades claras.
     data_g = Graph()
     data_g.parse(Path(data_path).as_posix(), format="turtle")
 
@@ -73,6 +79,7 @@ def run_s7_shacl_validate_from_files(
     }
 
 def main():
+    # Eu mantenho esse entrypoint simples para testes manuais rápidos.
     DATA_PATH  = Path("instances_fragments_profile.ttl")
     SHACL_PATH = Path("ontomi.ttl")
 

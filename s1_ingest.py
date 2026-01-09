@@ -1,6 +1,8 @@
-from __future__ import annotations
+"""\
+PT-BR: S1 — ingestão e segmentação de texto.
+EN: S1 — text ingestion and segmentation.
 
-"""S1 — ingestão e segmentação de texto.
+S1 — ingestão e segmentação de texto.
 
 Este módulo **só** faz S1 (ingestão + limpeza + LID + segmentação em parágrafos)
 usando a biblioteca `intelli3text`.
@@ -25,6 +27,8 @@ Saída canônica (I/O para S2):
 }
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import os
@@ -46,6 +50,7 @@ _URL_RE = re.compile(r"^https?://", re.IGNORECASE)
 
 
 def _is_url(s: str) -> bool:
+    # Eu deixo a regex isolada para facilitar testes e manutenção.
     return bool(_URL_RE.match(s.strip()))
 
 
@@ -59,6 +64,7 @@ def _safe_intelli3_config(**kwargs) -> Intelli3Config:
 
 def _materialize_source_for_pipeline(source: str, as_text: bool) -> Tuple[str, Optional[str]]:
     """Retorna (path_or_url, tmp_path) para uso no Pipeline.process(...)."""
+    # Aqui eu garanto que sempre há um path válido para o pipeline.
     if as_text:
         tmp = tempfile.NamedTemporaryFile(prefix="i3_", suffix=".txt", delete=False)
         try:

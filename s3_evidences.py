@@ -1,3 +1,8 @@
+"""\
+PT-BR: S3 — gera evidências semânticas e atualiza o grafo RDF.
+EN: S3 — generates semantic evidences and updates the RDF graph.
+"""
+
 # s3_evidences.py
 # ------------------------------------------------------------
 # Intelli3 / OntoMI — S3: Instanciação de Evidências (RDF)
@@ -41,6 +46,7 @@ def make_payload_from_s1_json_file(s1_json_path: str, *, annotate_fn):
     - Caso contrário, lê a saída da S1 e executa annotate_fn(doc) diretamente.
     Retorna um dicionário no formato {k (int): [evidências...]}.
     """
+    # Eu faço essa compatibilidade para não quebrar versões antigas da API.
     fn = getattr(ea, "make_payload_from_s1_json_file", None)
     if callable(fn):
         try:
@@ -93,6 +99,7 @@ def _collect_fragment_nodes(g: Graph) -> List[URIRef]:
     Recupera fragments em ordem estável.
     Prioriza dct:identifier (se existir, vindo da S2), senão ordena por URI.
     """
+    # Aqui eu priorizo identifiers para manter a ordem original do texto.
     frags = [s for s, _, _ in g.triples((None, RDF.type, ONTO.ExplanationFragment))]
     if not frags:
         return []

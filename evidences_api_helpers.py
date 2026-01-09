@@ -1,3 +1,8 @@
+"""\
+PT-BR: Helpers para criar wrappers simples em torno da API de evidências.
+EN: Helpers to build lightweight wrappers around the evidences API.
+"""
+
 from evidences_api import annotate_doc_keywords_with_llm
 
 def annotate_with_llm_default(**overrides):
@@ -5,6 +10,7 @@ def annotate_with_llm_default(**overrides):
     Retorna um callable(doc) -> Dict[int, List[dict]] com defaults,
     permitindo override por kwargs.
     """
+    # Eu centralizo os defaults aqui para ficar explícito o comportamento padrão.
     defaults = dict(
         use_n_1_3=True,
         min_score=0.0,
@@ -14,6 +20,7 @@ def annotate_with_llm_default(**overrides):
     cfg = {**defaults, **overrides}
 
     def _runner(doc):
+        # Aqui eu só repasso os parâmetros já consolidados.
         return annotate_doc_keywords_with_llm(
             doc,
             use_n_1_3=cfg["use_n_1_3"],

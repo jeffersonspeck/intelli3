@@ -1,3 +1,8 @@
+"""\
+PT-BR: S5 — agrega ativações e gera vetores de perfil MI por documento.
+EN: S5 — aggregates activations and builds MI profile vectors per document.
+"""
+
 # ------------------------------------------------------------
 # Intelli3 / OntoMI — S5: Vetor de Perfil (v_MI) por documento
 #
@@ -70,6 +75,7 @@ NormType = Literal["l1", "l2", "softmax"]
 # Helpers numéricos / URIs
 # ------------------------------------------------------------
 def _qdec(x: Decimal, places: int = 4) -> Decimal:
+    # Eu uso quantização para manter os números padronizados.
     return x.quantize(Decimal("1." + "0" * places), rounding=ROUND_HALF_UP)
 
 def _base_from_uri(u: URIRef) -> str:
@@ -94,6 +100,7 @@ def _extract_k_from_fragment_uri(frag: URIRef) -> Optional[int]:
         return None
 
 def _collect_fragment_nodes(g: Graph) -> List[URIRef]:
+    # Aqui eu ordeno por URI para manter determinismo no output.
     return sorted(
         (s for s, _, _ in g.triples((None, RDF.type, ONTO.ExplanationFragment))),
         key=lambda u: str(u),
