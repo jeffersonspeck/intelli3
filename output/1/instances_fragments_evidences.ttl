@@ -1,0 +1,136 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:1#evid-000-00-produtos-elaborados> a onto:Keyword ;
+    rdfs:label "produtos elaborados"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:1#evid-000-01-plantas-produtos> a onto:Keyword ;
+    rdfs:label "plantas produtos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:1#evid-000-02-plantas-produtos> a onto:Keyword ;
+    rdfs:label "plantas produtos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:1#evid-000-03-colecao-figuras> a onto:Keyword ;
+    rdfs:label "colecao figuras"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:1#evid-000-04-figuras-relacionem> a onto:Keyword ;
+    rdfs:label "figuras relacionem"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:1#evid-000-05-figuras-relacionem> a onto:Keyword ;
+    rdfs:label "figuras relacionem"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:1#evid-000-06-colar-cartolina> a onto:Keyword ;
+    rdfs:label "colar cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:1#evid-000-07-animais> a onto:Keyword ;
+    rdfs:label "animais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:1#evid-000-08-figuras> a onto:ContextObject ;
+    rdfs:label "figuras"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:1#evid-000-09-colar-em-cartolina> a onto:DiscursiveStrategy ;
+    rdfs:label "colar em cartolina"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:1#evid-001-00-recortar-maneira> a onto:Keyword ;
+    rdfs:label "recortar maneira"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:1#evid-001-01-maneira-deixar> a onto:Keyword ;
+    rdfs:label "maneira deixar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:1#evid-001-02-deixar-encaixes> a onto:Keyword ;
+    rdfs:label "deixar encaixes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:1#evid-001-03-formar-figuras-atraves> a onto:Keyword ;
+    rdfs:label "formar figuras atraves"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:1#evid-001-04-formar-figuras-atraves> a onto:Keyword ;
+    rdfs:label "formar figuras atraves"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:1#evid-001-05-atraves-encaixes> a onto:Keyword ;
+    rdfs:label "atraves encaixes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:1#evid-001-06-crianca-formar> a onto:Keyword ;
+    rdfs:label "crianca formar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:1#evid-001-07-recortar-de-maneira-a-deixar-enc> a onto:DiscursiveStrategy ;
+    rdfs:label "Recortar de maneira a deixar encaixes."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:1#evid-001-08-encaixes> a onto:ContextObject ;
+    rdfs:label "encaixes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:1#evid-001-09-formar-figuras-atraves-dos-encai> a onto:DiscursiveStrategy ;
+    rdfs:label "formar figuras atraves dos encaixes,"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:1#evid-001-10-formar-figuras-atraves-dos-encai> a onto:DiscursiveStrategy ;
+    rdfs:label "formar figuras atraves dos encaixes,"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:1#evid-001-11-figuras> a onto:ContextObject ;
+    rdfs:label "figuras"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:1#evid-001-12-nomeando-os-objetos-que-aparecem> a onto:DiscursiveStrategy ;
+    rdfs:label "nomeando os objetos que aparecem em cada figura."@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:1#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Utilizando gravura de revistas ou desenhando, fazer uma colecao de figuras que relacionem um elemento a outro, como por exemplo: homem x homem / homem x mulher / mulher x mulher / plantas x produtos elaborados / animais x suas casas EUR inumeros outros. Colar em cartolina."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:1> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:1#evid-000-00-produtos-elaborados>,
+        <urn:doc:1#evid-000-01-plantas-produtos>,
+        <urn:doc:1#evid-000-02-plantas-produtos>,
+        <urn:doc:1#evid-000-03-colecao-figuras>,
+        <urn:doc:1#evid-000-04-figuras-relacionem>,
+        <urn:doc:1#evid-000-05-figuras-relacionem>,
+        <urn:doc:1#evid-000-06-colar-cartolina>,
+        <urn:doc:1#evid-000-07-animais>,
+        <urn:doc:1#evid-000-08-figuras>,
+        <urn:doc:1#evid-000-09-colar-em-cartolina> .
+
+<urn:doc:1#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Recortar de maneira a deixar encaixes. Utilizacao: A crianca deve formar figuras atraves dos encaixes, nomeando os objetos que aparecem em cada figura. Em uma etapa seguinte, devem verbalizar a cor dos objetos e, posterior- mente, para que servem. 48"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:1> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:1#evid-001-00-recortar-maneira>,
+        <urn:doc:1#evid-001-01-maneira-deixar>,
+        <urn:doc:1#evid-001-02-deixar-encaixes>,
+        <urn:doc:1#evid-001-03-formar-figuras-atraves>,
+        <urn:doc:1#evid-001-04-formar-figuras-atraves>,
+        <urn:doc:1#evid-001-05-atraves-encaixes>,
+        <urn:doc:1#evid-001-06-crianca-formar>,
+        <urn:doc:1#evid-001-07-recortar-de-maneira-a-deixar-enc>,
+        <urn:doc:1#evid-001-08-encaixes>,
+        <urn:doc:1#evid-001-09-formar-figuras-atraves-dos-encai>,
+        <urn:doc:1#evid-001-10-formar-figuras-atraves-dos-encai>,
+        <urn:doc:1#evid-001-11-figuras>,
+        <urn:doc:1#evid-001-12-nomeando-os-objetos-que-aparecem> .
+
+<urn:doc:1> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:1#frag-000>,
+        <urn:doc:1#frag-001> .
+

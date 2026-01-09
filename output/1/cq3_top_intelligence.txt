@@ -1,0 +1,16 @@
+[Documento] urn:doc:1
+  - miVector: 5.65,6.11,6.52,0.00,24.90,4.17,41.95,10.71
+  - TOP (documento): Intrapersonal (score=0.4195)
+  - Ranking (top 3):
+      • Intrapersonal: 0.4195
+      • Bodily-Kinesthetic: 0.2490
+      • Naturalist: 0.1071
+
+
+[Documento — Fragmentos] urn:doc:1
+
+[Fragmento] Preparacao: Utilizando gravura de revistas ou desenhando, fazer uma colecao de figuras que relacionem um elemento a outro, como por exemplo: homem x homem / homem x mulher / mulher x mulher / plantas x produtos elaborados / animais x suas casas EUR inumeros outros. Colar em cartolina.
+  > TOP: Intrapessoal (score=0.5566, tipo=Primary)
+
+[Fragmento] Recortar de maneira a deixar encaixes. Utilizacao: A crianca deve formar figuras atraves dos encaixes, nomeando os objetos que aparecem em cada figura. Em uma etapa seguinte, devem verbalizar a cor dos objetos e, posterior- mente, para que servem. 48
+  > TOP: Cinestésico-corporal (score=0.4788, tipo=Primary)

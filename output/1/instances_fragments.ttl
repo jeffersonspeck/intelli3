@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:1#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Utilizando gravura de revistas ou desenhando, fazer uma colecao de figuras que relacionem um elemento a outro, como por exemplo: homem x homem / homem x mulher / mulher x mulher / plantas x produtos elaborados / animais x suas casas EUR inumeros outros. Colar em cartolina."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:1> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:1#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Recortar de maneira a deixar encaixes. Utilizacao: A crianca deve formar figuras atraves dos encaixes, nomeando os objetos que aparecem em cada figura. Em uma etapa seguinte, devem verbalizar a cor dos objetos e, posterior- mente, para que servem. 48"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:1> ;
+    dct:type "body" .
+
+<urn:doc:1> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:1#frag-000>,
+        <urn:doc:1#frag-001> .
+
