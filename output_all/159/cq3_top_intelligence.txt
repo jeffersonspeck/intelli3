@@ -1,0 +1,22 @@
+[Documento] urn:doc:159
+  - miVector: 12.60,19.87,4.64,1.37,10.62,4.18,0.00,46.71
+  - TOP (documento): Naturalist (score=0.4671)
+  - Ranking (top 3):
+      • Naturalist: 0.4671
+      • Logical-Mathematical: 0.1987
+      • Linguistic: 0.1260
+
+
+[Documento — Fragmentos] urn:doc:159
+
+[Fragmento] Preparacao: Adquirir em casas de caca e pesca pios de aves em pecas de madeira. Esses pios costumam ser utilizados por cacadores para atrair aves. Utilizacao: Existe uma enorme multiplicidade para o uso do jogo.
+  > TOP: Naturalista (score=0.4644, tipo=Primary)
+
+[Fragmento] Os alunos podem, por exemplo, ser levados a descobrir o habitat e os habitos da especie e identifi- car sua beleza.
+  > TOP: Naturalista (score=0.8004, tipo=Primary)
+
+[Fragmento] Os pios podem abrigar progressivo dominio da diversidade dessas especies e a experiencia pode, em etapas mais avancadas, levar os alunos a identificar esses e outros sons em uma excursao por um bosque ou mesmo em uma visita a uma praca onde existam arvores e passaros.
+  > TOP: Naturalista (score=0.7436, tipo=Primary)
+
+[Fragmento] (Existem pios em lojas que comerciam artigos de caca e pesca.)
+  > TOP: Lógico-matemática (score=0.5832, tipo=Primary)

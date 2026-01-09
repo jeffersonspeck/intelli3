@@ -1,0 +1,19 @@
+[Documento] urn:doc:157
+  - miVector: 4.30,3.48,0.00,42.34,3.50,6.98,0.00,39.39
+  - TOP (documento): Musical (score=0.4234)
+  - Ranking (top 3):
+      • Musical: 0.4234
+      • Naturalist: 0.3939
+      • Interpersonal: 0.0698
+
+
+[Documento — Fragmentos] urn:doc:157
+
+[Fragmento] Preparacao: A atividade utiliza um xilofone pequeno, que pode ser improvisado com uma caixa de madeira e placas tambem de madeira removiveis. Duas baquetas com pontas arredondadas.
+  > TOP: Musical (score=1.0000, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos devem "descobrir" as notas musicais pela audicao dos instru- mentos com a introducao, uma a uma, das placas na superficie da caixa, desenvolvendo a entonacao e a compreensao das diferencas entre cada uma das notas musicais.
+  > TOP: Musical (score=0.3974, tipo=Primary)
+
+[Fragmento] Em etapas posteriores, as placas podem ir sendo introduzidas duas a duas e assim progressivamente.
+  > TOP: Naturalista (score=1.0000, tipo=Primary)

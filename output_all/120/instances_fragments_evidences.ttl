@@ -1,0 +1,66 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:120#evid-000-00-ordenar-associacoes> a onto:Keyword ;
+    rdfs:label "ordenar associacoes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:120#evid-000-01-descobrir-ordenar> a onto:Keyword ;
+    rdfs:label "descobrir ordenar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:120#evid-000-02-descobrir-ordenar> a onto:Keyword ;
+    rdfs:label "descobrir ordenar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:120#evid-000-03-associacoes> a onto:ContextObject ;
+    rdfs:label "associacoes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:120#evid-001-00-colecionem-figuras> a onto:Keyword ;
+    rdfs:label "colecionem figuras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:120#evid-001-01-desenvolva-essa-habilidade> a onto:Keyword ;
+    rdfs:label "desenvolva essa habilidade"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:120#evid-001-02-figuras-revistas> a onto:Keyword ;
+    rdfs:label "figuras revistas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:120#evid-001-03-colecionem-figuras-de-revistas> a onto:DiscursiveStrategy ;
+    rdfs:label "colecionem figuras de revistas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:120#evid-001-04-figuras-de-revistas> a onto:ContextObject ;
+    rdfs:label "figuras de revistas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:120#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: A atividade dos alunos, individualmente ou em duplas ou trios, e descobrir e ordenar as associacoes."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:120> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:120#evid-000-00-ordenar-associacoes>,
+        <urn:doc:120#evid-000-01-descobrir-ordenar>,
+        <urn:doc:120#evid-000-02-descobrir-ordenar>,
+        <urn:doc:120#evid-000-03-associacoes> .
+
+<urn:doc:120#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Em etapas mais avancadas e importante solicitar que os alunos colecionem figuras de revistas com essas ou muitas outras associacoes EUR desenvolva essa habilidade, criando historias e relatando-as. (Existe no comercio: \"Jogo de Associacao de Ideias\" [Uki -- Ukil.)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:120> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:120#evid-001-00-colecionem-figuras>,
+        <urn:doc:120#evid-001-01-desenvolva-essa-habilidade>,
+        <urn:doc:120#evid-001-02-figuras-revistas>,
+        <urn:doc:120#evid-001-03-colecionem-figuras-de-revistas>,
+        <urn:doc:120#evid-001-04-figuras-de-revistas> .
+
+<urn:doc:120> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:120#frag-000>,
+        <urn:doc:120#frag-001> .
+

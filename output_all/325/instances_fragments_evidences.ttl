@@ -1,0 +1,190 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:325#evid-000-00-envolvam-manifestacoes-corporais> a onto:Keyword ;
+    rdfs:label "envolvam manifestacoes corporais"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:325#evid-000-01-situacoes-emocionais-diversas> a onto:Keyword ;
+    rdfs:label "situacoes emocionais diversas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-02-situacoes-emocionais-diversas> a onto:Keyword ;
+    rdfs:label "situacoes emocionais diversas"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:325#evid-000-03-andar-cavalo> a onto:Keyword ;
+    rdfs:label "andar cavalo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:325#evid-000-04-tambem-situacoes-emocionais> a onto:Keyword ;
+    rdfs:label "tambem situacoes emocionais"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-05-tambem-situacoes-emocionais> a onto:Keyword ;
+    rdfs:label "tambem situacoes emocionais"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:325#evid-000-06-raiva> a onto:Keyword ;
+    rdfs:label "raiva"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:325#evid-000-07-alegria> a onto:Keyword ;
+    rdfs:label "alegria"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-08-entusiasmo> a onto:Keyword ;
+    rdfs:label "entusiasmo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-000-09-tristeza> a onto:Keyword ;
+    rdfs:label "tristeza"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:325#evid-000-10-organizar-conjunto> a onto:Keyword ;
+    rdfs:label "organizar conjunto"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-000-11-serem-transmitidas> a onto:Keyword ;
+    rdfs:label "serem transmitidas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-000-12-conjunto-mensagens> a onto:Keyword ;
+    rdfs:label "conjunto mensagens"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-000-13-organizar-um-conjunto-de-mensage> a onto:DiscursiveStrategy ;
+    rdfs:label "Organizar um conjunto de mensagens"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-001-00-escrever-essas-mensagens> a onto:Keyword ;
+    rdfs:label "escrever essas mensagens"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-001-01-papel-reunir> a onto:Keyword ;
+    rdfs:label "papel reunir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:325#evid-001-02-descoberta> a onto:Keyword ;
+    rdfs:label "descoberta"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:325#evid-001-03-levando> a onto:Keyword ;
+    rdfs:label "levando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:325#evid-001-04-sortear> a onto:Keyword ;
+    rdfs:label "sortear"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-001-05-sortear-mensagem> a onto:Keyword ;
+    rdfs:label "sortear mensagem"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-001-06-escrever-essas-mensagens-em-uma-> a onto:DiscursiveStrategy ;
+    rdfs:label "escrever essas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano."@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-001-07-escrever-essas-mensagens-em-uma-> a onto:DiscursiveStrategy ;
+    rdfs:label "escrever essas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:325#evid-002-00-progressivamente-sendo-propostas> a onto:Keyword ;
+    rdfs:label "progressivamente sendo propostas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-002-01-progressivamente-sendo-propostas> a onto:Keyword ;
+    rdfs:label "progressivamente sendo propostas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:325#evid-002-02-principal-objetivo> a onto:Keyword ;
+    rdfs:label "principal objetivo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-002-03-comunicacao-interpessoal> a onto:Keyword ;
+    rdfs:label "comunicacao interpessoal"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-002-04-objetivo-comunicacao> a onto:Keyword ;
+    rdfs:label "objetivo comunicacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:325#evid-003-00-circulo-debates> a onto:Keyword ;
+    rdfs:label "circulo debates"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:325#evid-003-01-importancia-auto> a onto:Keyword ;
+    rdfs:label "importancia auto"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:325#evid-003-02-comunicacao> a onto:Keyword ;
+    rdfs:label "comunicacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:325#evid-003-03-circulo-de-debates> a onto:ContextObject ;
+    rdfs:label "circulo de debates"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:325#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Organizar um conjunto de mensagens para serem transmitidas pelos alunos, que envolvam manifestacoes corporais (por exemplo: andar a cavalo), mas tambem situacoes emocionais diversas (raiva, alegria, entusiasmo, tristeza, etc.)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:325> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:325#evid-000-00-envolvam-manifestacoes-corporais>,
+        <urn:doc:325#evid-000-01-situacoes-emocionais-diversas>,
+        <urn:doc:325#evid-000-02-situacoes-emocionais-diversas>,
+        <urn:doc:325#evid-000-03-andar-cavalo>,
+        <urn:doc:325#evid-000-04-tambem-situacoes-emocionais>,
+        <urn:doc:325#evid-000-05-tambem-situacoes-emocionais>,
+        <urn:doc:325#evid-000-06-raiva>,
+        <urn:doc:325#evid-000-07-alegria>,
+        <urn:doc:325#evid-000-08-entusiasmo>,
+        <urn:doc:325#evid-000-09-tristeza>,
+        <urn:doc:325#evid-000-10-organizar-conjunto>,
+        <urn:doc:325#evid-000-11-serem-transmitidas>,
+        <urn:doc:325#evid-000-12-conjunto-mensagens>,
+        <urn:doc:325#evid-000-13-organizar-um-conjunto-de-mensage> .
+
+<urn:doc:325#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Escrever es- sas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano. Utilizacao: A tarefa dos alunos ao sortear sua mensagem e transmiti-la aos demais, levan- do-os a possivel descoberta, sem o uso da palavra."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:325> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:325#evid-001-00-escrever-essas-mensagens>,
+        <urn:doc:325#evid-001-01-papel-reunir>,
+        <urn:doc:325#evid-001-02-descoberta>,
+        <urn:doc:325#evid-001-03-levando>,
+        <urn:doc:325#evid-001-04-sortear>,
+        <urn:doc:325#evid-001-05-sortear-mensagem>,
+        <urn:doc:325#evid-001-06-escrever-essas-mensagens-em-uma->,
+        <urn:doc:325#evid-001-07-escrever-essas-mensagens-em-uma-> .
+
+<urn:doc:325#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "A atividade tem como principal objetivo a comunicacao interpessoal e, depois de uma primeira experiencia, outras mais complexas podem ir progressivamente sendo propostas."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:325> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:325#evid-002-00-progressivamente-sendo-propostas>,
+        <urn:doc:325#evid-002-01-progressivamente-sendo-propostas>,
+        <urn:doc:325#evid-002-02-principal-objetivo>,
+        <urn:doc:325#evid-002-03-comunicacao-interpessoal>,
+        <urn:doc:325#evid-002-04-objetivo-comunicacao> .
+
+<urn:doc:325#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "E interessante encer- rar a atividade com um circulo de debates com os alunos sobre as muitas formas de comunicacao e sua importancia no auto e heteroconhecimento."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:325> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:325#evid-003-00-circulo-debates>,
+        <urn:doc:325#evid-003-01-importancia-auto>,
+        <urn:doc:325#evid-003-02-comunicacao>,
+        <urn:doc:325#evid-003-03-circulo-de-debates> .
+
+<urn:doc:325> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:325#frag-000>,
+        <urn:doc:325#frag-001>,
+        <urn:doc:325#frag-002>,
+        <urn:doc:325#frag-003> .
+

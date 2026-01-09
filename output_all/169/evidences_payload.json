@@ -1,0 +1,158 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "construir cubos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7999644934506293,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "funcionem alcas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7999644934506293,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "funcionem alcas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7999644934506293,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "especie tamanco",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7999644934506293,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cubos madeira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7968031259642839,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "andar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7699749667381726,
+      "relevance": 0.6147540983606558
+    },
+    {
+      "role": "Keyword",
+      "text": "andar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7699749667381726,
+      "relevance": 0.6147540983606558
+    },
+    {
+      "role": "Keyword",
+      "text": "cordas funcionem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7584683324201608,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cordas funcionem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7584683324201608,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "altura",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5187817477106957,
+      "relevance": 0.8469945355191257
+    },
+    {
+      "role": "Keyword",
+      "text": "segurando cordas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7108231342830436,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "ande apoiando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.796157463179202,
+      "relevance": 0.8715415019762845
+    },
+    {
+      "role": "Keyword",
+      "text": "ponta pes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.796157463179202,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "deslocar som",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7306126792759935,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumento percussao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7306126792759935,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumento percussao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7306126792759935,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de percussao, andar apenas de lado ou andar de costas.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8992094861660079
+    },
+    {
+      "role": "ContextObject",
+      "text": "instrumento de percussao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.7114624505928854
+    },
+    {
+      "role": "ContextObject",
+      "text": "instrumento de percussao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.7114624505928854
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:261#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Dez a quinze bolinhas de vidro e um espaco aberto com as caracteristicas identificadas no jogo da sacola-surpresa (inteligencia cinestesico-corporal). Utilizacao: O professor devera esconder as bolinhas em um determinado terreno, camu- flando-as com produtos do ambiente natural."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:261> ;
+    dct:type "body" .
+
+<urn:doc:261#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Falar aos alunos sobre a camuflagem e dar exemplo, achando uma das bolinhas. Distribui-las pelo terreno, algumas com localizacao mais facil e outros em locais (ou camuflagens) mais dificeis."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:261> ;
+    dct:type "body" .
+
+<urn:doc:261#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Um mapa e uma bussola podem ser usados para alunos maiores tornando a procura bem mais expressiva e operatoria. 206"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:261> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:261> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:261#frag-000>,
+        <urn:doc:261#frag-001>,
+        <urn:doc:261#frag-002> .
+

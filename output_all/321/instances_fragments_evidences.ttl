@@ -1,0 +1,165 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:321#evid-000-00-figuras-humanas> a onto:Keyword ;
+    rdfs:label "figuras humanas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:321#evid-000-01-cola-las-cartolina> a onto:Keyword ;
+    rdfs:label "cola las cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-02-quantidade-figuras> a onto:Keyword ;
+    rdfs:label "quantidade figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:321#evid-000-03-cortar-cabecas> a onto:Keyword ;
+    rdfs:label "cortar cabecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-000-04-formando-conjunto> a onto:Keyword ;
+    rdfs:label "formando conjunto"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:321#evid-001-00-diferentes-expressoes> a onto:Keyword ;
+    rdfs:label "diferentes expressoes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-001-01-explora> a onto:Keyword ;
+    rdfs:label "explora"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-001-02-profundamente-auto> a onto:Keyword ;
+    rdfs:label "profundamente auto"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:321#evid-001-03-auto-heteroconhecimento> a onto:Keyword ;
+    rdfs:label "auto heteroconhecimento"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:321#evid-001-04-colecao-incluir-pessoas-diferent> a onto:ContextObject ;
+    rdfs:label "colecao incluir pessoas diferentes e diferentes expressoes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:321#evid-002-00-envolvam-emocoes-diferenciadas> a onto:Keyword ;
+    rdfs:label "envolvam emocoes diferenciadas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-002-01-buscar-compor-pessoas> a onto:Keyword ;
+    rdfs:label "buscar compor pessoas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-002-02-buscar-compor-pessoas> a onto:Keyword ;
+    rdfs:label "buscar compor pessoas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:321#evid-002-03-criar-situacoes> a onto:Keyword ;
+    rdfs:label "criar situacoes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-002-04-expressoes-correspondentes> a onto:Keyword ;
+    rdfs:label "expressoes correspondentes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:321#evid-002-05-situacoes-envolvam> a onto:Keyword ;
+    rdfs:label "situacoes envolvam"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-002-06-uniao-cabecas> a onto:Keyword ;
+    rdfs:label "uniao cabecas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:321#evid-002-07-alegria> a onto:Keyword ;
+    rdfs:label "alegria"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:321#evid-002-08-raiva> a onto:Keyword ;
+    rdfs:label "raiva"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-002-09-frustracao> a onto:Keyword ;
+    rdfs:label "frustracao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-002-10-euforia> a onto:Keyword ;
+    rdfs:label "euforia"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-002-11-corpo> a onto:Keyword ;
+    rdfs:label "corpo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:321#evid-002-12-criar-situacoes-que-envolvam-emo> a onto:DiscursiveStrategy ;
+    rdfs:label "criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras)"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-002-13-emocoes-diferenciadas-alegria-ra> a onto:ContextObject ;
+    rdfs:label "emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras)"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:321#evid-003-00-legitimacao-emocoes> a onto:Keyword ;
+    rdfs:label "legitimacao emocoes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#evid-003-01-identificacao> a onto:Keyword ;
+    rdfs:label "identificacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:321#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir uma grande quantidade de figuras humanas, mais ou menos do mesmo tamanho, de revistas, e cola-las em cartolina. Cortar as cabecas forman- do um conjunto a parte."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:321> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:321#evid-000-00-figuras-humanas>,
+        <urn:doc:321#evid-000-01-cola-las-cartolina>,
+        <urn:doc:321#evid-000-02-quantidade-figuras>,
+        <urn:doc:321#evid-000-03-cortar-cabecas>,
+        <urn:doc:321#evid-000-04-formando-conjunto> .
+
+<urn:doc:321#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "A atividade explora muito mais profundamente o auto e heteroconhecimento quando a colecao incluir pessoas diferentes e diferentes expressoes. Pecas desenhadas cumprem muito bem esses objetivos."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:321> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:321#evid-001-00-diferentes-expressoes>,
+        <urn:doc:321#evid-001-01-explora>,
+        <urn:doc:321#evid-001-02-profundamente-auto>,
+        <urn:doc:321#evid-001-03-auto-heteroconhecimento>,
+        <urn:doc:321#evid-001-04-colecao-incluir-pessoas-diferent> .
+
+<urn:doc:321#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem ser estimulados a criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras) e buscar compor pessoas a partir da uniao das cabecas com as expressoes correspondentes ao seu corpo."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:321> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:321#evid-002-00-envolvam-emocoes-diferenciadas>,
+        <urn:doc:321#evid-002-01-buscar-compor-pessoas>,
+        <urn:doc:321#evid-002-02-buscar-compor-pessoas>,
+        <urn:doc:321#evid-002-03-criar-situacoes>,
+        <urn:doc:321#evid-002-04-expressoes-correspondentes>,
+        <urn:doc:321#evid-002-05-situacoes-envolvam>,
+        <urn:doc:321#evid-002-06-uniao-cabecas>,
+        <urn:doc:321#evid-002-07-alegria>,
+        <urn:doc:321#evid-002-08-raiva>,
+        <urn:doc:321#evid-002-09-frustracao>,
+        <urn:doc:321#evid-002-10-euforia>,
+        <urn:doc:321#evid-002-11-corpo>,
+        <urn:doc:321#evid-002-12-criar-situacoes-que-envolvam-emo>,
+        <urn:doc:321#evid-002-13-emocoes-diferenciadas-alegria-ra> .
+
+<urn:doc:321#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "A atividade visa estimular a identificacao e a legitimacao das emocoes."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:321> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:321#evid-003-00-legitimacao-emocoes>,
+        <urn:doc:321#evid-003-01-identificacao> .
+
+<urn:doc:321> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:321#frag-000>,
+        <urn:doc:321#frag-001>,
+        <urn:doc:321#frag-002>,
+        <urn:doc:321#frag-003> .
+

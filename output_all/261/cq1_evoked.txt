@@ -1,0 +1,41 @@
+[Documento] urn:doc:261
+  - miVector: 0.00,0.00,0.00,0.00,37.05,0.00,44.63,18.32
+  - TOP (documento): Intrapersonal (score=0.4463)
+  - Ranking (top 3):
+      • Intrapersonal: 0.4463
+      • Bodily-Kinesthetic: 0.3705
+      • Naturalist: 0.1832
+
+[Fragmento] Preparacao: Dez a quinze bolinhas de vidro e um espaco aberto com as caracteristicas identificadas no jogo da sacola-surpresa (inteligencia cinestesico-corporal). Utilizacao: O professor devera esconder as bolinhas em um determinado terreno, camu- flando-as com produtos do ambiente natural.
+  - Bodily-Kinesthetic (via activation, score=0.7593)
+  - Naturalist (via activation, score=0.2407)
+  - Cinestésico-corporal (via activation, score=0.7593)
+  - Naturalista (via activation, score=0.2407)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Falar aos alunos sobre a camuflagem e dar exemplo, achando uma das bolinhas. Distribui-las pelo terreno, algumas com localizacao mais facil e outros em locais (ou camuflagens) mais dificeis.
+  - Bodily-Kinesthetic (via activation, score=0.2486)
+  - Intrapersonal (via activation, score=0.3876)
+  - Naturalist (via activation, score=0.3638)
+  - Cinestésico-corporal (via activation, score=0.2486)
+  - Intrapessoal (via activation, score=0.3876)
+  - Naturalista (via activation, score=0.3638)
+  - Bodily-Kinesthetic (via element)
+  - Intrapersonal (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Intrapessoal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Um mapa e uma bussola podem ser usados para alunos maiores tornando a procura bem mais expressiva e operatoria. 206
+  - Bodily-Kinesthetic (via activation, score=0.1653)
+  - Intrapersonal (via activation, score=0.8347)
+  - Cinestésico-corporal (via activation, score=0.1653)
+  - Intrapessoal (via activation, score=0.8347)
+  - Bodily-Kinesthetic (via element)
+  - Intrapersonal (via element)
+  - Cinestésico-corporal (via element)
+  - Intrapessoal (via element)

@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:181#evid-000-00-botoes-pressao> a onto:Keyword ;
+    rdfs:label "botoes pressao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-01-diferentes-tamanhos> a onto:Keyword ;
+    rdfs:label "diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:181#evid-000-02-diferentes-tamanhos> a onto:Keyword ;
+    rdfs:label "diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-000-03-casas> a onto:Keyword ;
+    rdfs:label "casas"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:181#evid-000-04-coloridos-casas> a onto:Keyword ;
+    rdfs:label "coloridos casas"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:181#evid-000-05-abotoar-e-desabotoar-dar-laco-en> a onto:DiscursiveStrategy ;
+    rdfs:label "abotoar e desabotoar, dar laco, enganchar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-001-00-brincadeiras-livres> a onto:Keyword ;
+    rdfs:label "brincadeiras livres"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-001-01-olhos-vendados> a onto:Keyword ;
+    rdfs:label "olhos vendados"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:181#evid-001-02-determinacoes> a onto:Keyword ;
+    rdfs:label "determinacoes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:181#evid-001-03-maos-brincadeiras> a onto:Keyword ;
+    rdfs:label "maos brincadeiras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:181#evid-001-04-execute> a onto:Keyword ;
+    rdfs:label "execute"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:181#evid-001-05-segundo-determinacoes> a onto:Keyword ;
+    rdfs:label "segundo determinacoes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:181#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Usar panos coloridos com casas e botoes de diferentes tamanhos, botoes de pressao, ganchos. O mesmo tecido pode ter casas do tipo ilhos para passar barbante. Venda para os olhos. Utilizacao: O aluno devera abotoar e desabotoar, dar laco, enganchar."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:181> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:181#evid-000-00-botoes-pressao>,
+        <urn:doc:181#evid-000-01-diferentes-tamanhos>,
+        <urn:doc:181#evid-000-02-diferentes-tamanhos>,
+        <urn:doc:181#evid-000-03-casas>,
+        <urn:doc:181#evid-000-04-coloridos-casas>,
+        <urn:doc:181#evid-000-05-abotoar-e-desabotoar-dar-laco-en> .
+
+<urn:doc:181#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Essa atividade deve ser programada e e bom que o aluno nao segure o pano em suas maos para brincadeiras livres, mas que execute a atividade segundo determinacoes do pro- fessor, preferivelmente com os olhos vendados."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:181> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:181#evid-001-00-brincadeiras-livres>,
+        <urn:doc:181#evid-001-01-olhos-vendados>,
+        <urn:doc:181#evid-001-02-determinacoes>,
+        <urn:doc:181#evid-001-03-maos-brincadeiras>,
+        <urn:doc:181#evid-001-04-execute>,
+        <urn:doc:181#evid-001-05-segundo-determinacoes> .
+
+<urn:doc:181> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:181#frag-000>,
+        <urn:doc:181#frag-001> .
+

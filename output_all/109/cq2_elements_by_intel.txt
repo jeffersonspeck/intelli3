@@ -1,0 +1,187 @@
+[Documento] urn:doc:109
+  - miVector: 4.61,12.99,13.66,3.30,26.21,0.00,5.10,34.11
+  - TOP (documento): Naturalist (score=0.3411)
+  - Ranking (top 3):
+      • Naturalist: 0.3411
+      • Bodily-Kinesthetic: 0.2621
+      • Spatial: 0.1366
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: objetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor
+        • DiscursiveStrategy: colocar seus retangulos no centro, a direita, ou a esquerda do tabuleiro e, respectivamente, acima, abaixo, a esquerda ou a direita
+        • Keyword: abaixo
+        • Keyword: acima
+        • Keyword: colocar
+        • Keyword: colocar retangulos
+        • Keyword: direita
+        • Keyword: esquerda
+        • Keyword: esquerda ilustracao
+        • Keyword: fiquem direita
+        • Keyword: objetos fiquem
+        • Keyword: ora direita
+        • Keyword: ora esquerda
+        • Keyword: situacoes onde objetos
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=0.5550
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: objetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor
+        • ContextObject: tabuleiro de 15x 15cm, tambem desenhado em cartolina
+        • Keyword: abaixo mesa
+        • Keyword: acima abaixo
+        • Keyword: esquerda tabuleiro
+        • Keyword: ilustracoes situacoes
+        • Keyword: retangulos centro
+        • Keyword: retangulos exista
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.2382
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: esquerda tabuleiro
+        • Keyword: progressivo dominio
+        • Keyword: retangulos centro
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2194
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Explorar a atividade e mostrar ilustracoes ou situacoes
+        • Keyword: ilustracoes situacoes
+        • Keyword: mostrar ilustracoes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1984
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: abaixo figura
+        • Keyword: bolinha aparece acima
+        • Keyword: certas situacoes
+        • Keyword: emprego desses conceitos
+        • Keyword: exista bolinha
+        • Keyword: explorar
+        • Keyword: situacoes bolinha
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4228
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Explorar a atividade e mostrar ilustracoes ou situacoes
+        • Keyword: mostrar ilustracoes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1421
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: folhas de papel-cartao e gravuras
+        • Keyword: desenhado cartolina
+        • Keyword: flor
+        • Keyword: folhas papel cartao
+        • Keyword: papel cartao gravuras
+        • Keyword: preparar folhas
+        • Keyword: tambem desenhado
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=1.0000
+
+
+[Documento — Fragmentos] urn:doc:109
+
+[Fragmento] Preparacao: Preparar com folhas de papel-cartao e gravuras obtidas em revistas uma serie de retangulos de aproximadamente 5 x 5cm.
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: folhas de papel-cartao e gravuras
+        • Keyword: folhas papel cartao
+        • Keyword: papel cartao gravuras
+        • Keyword: preparar folhas
+    - Ativações:
+        • score=1.0000, tipo=Primary
+
+[Fragmento] E importante que nesses retangulos exista uma bolinha, ora a direita, ora a esquerda da ilustracao; em certas situacoes a bolinha aparece acima e, em outras, abaixo da figura. Um tabuleiro de 15x 15cm, tambem desenhado em cartolina.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: esquerda ilustracao
+        • Keyword: ora direita
+        • Keyword: ora esquerda
+    - Ativações:
+        • score=0.2600, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: tabuleiro de 15x 15cm, tambem desenhado em cartolina
+        • Keyword: retangulos exista
+    - Ativações:
+        • score=0.1843, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: abaixo figura
+        • Keyword: bolinha aparece acima
+        • Keyword: certas situacoes
+        • Keyword: exista bolinha
+        • Keyword: situacoes bolinha
+    - Ativações:
+        • score=0.4228, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: desenhado cartolina
+        • Keyword: tambem desenhado
+    - Ativações:
+        • score=0.1329, tipo=Secondary
+
+[Fragmento] Utilizacao: Os alunos devem colocar seus retangulos no centro, a direita, ou a es- querda do tabuleiro e, respectivamente, acima, abaixo, a esquerda ou a direita. O essencial na atividade e o emprego desses conceitos e seu progressivo domi- nio pelo aluno.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: colocar seus retangulos no centro, a direita, ou a esquerda do tabuleiro e, respectivamente, acima, abaixo, a esquerda ou a direita
+        • Keyword: abaixo
+        • Keyword: acima
+        • Keyword: colocar
+        • Keyword: colocar retangulos
+        • Keyword: direita
+    - Ativações:
+        • score=0.5550, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: esquerda tabuleiro
+        • Keyword: retangulos centro
+    - Ativações:
+        • score=0.1650, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: esquerda tabuleiro
+        • Keyword: progressivo dominio
+        • Keyword: retangulos centro
+    - Ativações:
+        • score=0.2194, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: emprego desses conceitos
+    - Ativações:
+        • score=0.0606, tipo=Secondary
+
+[Fragmento] Explorar a atividade e mostrar ilustracoes ou situacoes onde ob- jetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor, por exemplo. (Existem no comercio "As abelhas c a flor" e diversos outros.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: objetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor
+        • Keyword: esquerda
+        • Keyword: fiquem direita
+        • Keyword: objetos fiquem
+        • Keyword: situacoes onde objetos
+    - Ativações:
+        • score=0.3120, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: objetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor
+        • Keyword: abaixo mesa
+        • Keyword: acima abaixo
+        • Keyword: ilustracoes situacoes
+    - Ativações:
+        • score=0.2382, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: Explorar a atividade e mostrar ilustracoes ou situacoes
+        • Keyword: ilustracoes situacoes
+        • Keyword: mostrar ilustracoes
+    - Ativações:
+        • score=0.1984, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: explorar
+    - Ativações:
+        • score=0.0753, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: Explorar a atividade e mostrar ilustracoes ou situacoes
+        • Keyword: mostrar ilustracoes
+    - Ativações:
+        • score=0.1421, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: flor
+    - Ativações:
+        • score=0.0339, tipo=Secondary

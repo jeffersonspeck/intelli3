@@ -1,0 +1,150 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:262#evid-000-00-sementes-diversas-constituem> a onto:Keyword ;
+    rdfs:label "sementes diversas constituem"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-000-01-mundo-natural> a onto:Keyword ;
+    rdfs:label "mundo natural"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-000-02-descobrir> a onto:Keyword ;
+    rdfs:label "descobrir"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:262#evid-000-03-descobrir> a onto:Keyword ;
+    rdfs:label "descobrir"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:262#evid-000-04-descobrir-mundo> a onto:Keyword ;
+    rdfs:label "descobrir mundo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-000-05-movimentos> a onto:Keyword ;
+    rdfs:label "movimentos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:262#evid-000-06-descobrir-o-mundo-natural-e-apre> a onto:DiscursiveStrategy ;
+    rdfs:label "descobrir o mundo natural e aprender a se encantar com seus movimentos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:262#evid-000-07-descobrir-o-mundo-natural-e-apre> a onto:DiscursiveStrategy ;
+    rdfs:label "descobrir o mundo natural e aprender a se encantar com seus movimentos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:262#evid-000-08-descobrir-o-mundo-natural-e-apre> a onto:DiscursiveStrategy ;
+    rdfs:label "descobrir o mundo natural e aprender a se encantar com seus movimentos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-000-09-remos-vara-de-pesca-sementes-div> a onto:ContextObject ;
+    rdfs:label "Remos, vara de pesca, sementes diversas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-001-00-envolvimento-naturalista> a onto:Keyword ;
+    rdfs:label "envolvimento naturalista"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-001-01-interessado-quanto-capaz> a onto:Keyword ;
+    rdfs:label "interessado quanto capaz"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:262#evid-002-00-colher-frutos-silvestres> a onto:Keyword ;
+    rdfs:label "colher frutos silvestres"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-002-01-plantar-hortalicas> a onto:Keyword ;
+    rdfs:label "plantar hortalicas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-002-02-acender-fogueira> a onto:Keyword ;
+    rdfs:label "acender fogueira"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:262#evid-002-03-preparar-geleias> a onto:Keyword ;
+    rdfs:label "preparar geleias"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:262#evid-002-04-colher-amostras> a onto:Keyword ;
+    rdfs:label "colher amostras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-002-05-movimentos-vento> a onto:Keyword ;
+    rdfs:label "movimentos vento"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:262#evid-002-06-caminhar-pelas-aguas> a onto:Keyword ;
+    rdfs:label "caminhar pelas aguas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:262#evid-002-07-pretende-desenvolver> a onto:Keyword ;
+    rdfs:label "pretende desenvolver"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:262#evid-002-08-sementes> a onto:Keyword ;
+    rdfs:label "sementes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#evid-002-09-desenvolver-com-os-alunos-planta> a onto:DiscursiveStrategy ;
+    rdfs:label "desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas par…"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:262#evid-002-10-desenvolver-com-os-alunos-planta> a onto:DiscursiveStrategy ;
+    rdfs:label "desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas par…"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:262#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: As atividades propostas nao constituem propriamente um jogo. Represen- tam muito mais um apelo para levar o aluno a descobrir o mundo natural e aprender a se encantar com seus movimentos. Remos, vara de pesca, sementes diversas constituem o material adequado."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:262> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:262#evid-000-00-sementes-diversas-constituem>,
+        <urn:doc:262#evid-000-01-mundo-natural>,
+        <urn:doc:262#evid-000-02-descobrir>,
+        <urn:doc:262#evid-000-03-descobrir>,
+        <urn:doc:262#evid-000-04-descobrir-mundo>,
+        <urn:doc:262#evid-000-05-movimentos>,
+        <urn:doc:262#evid-000-06-descobrir-o-mundo-natural-e-apre>,
+        <urn:doc:262#evid-000-07-descobrir-o-mundo-natural-e-apre>,
+        <urn:doc:262#evid-000-08-descobrir-o-mundo-natural-e-apre>,
+        <urn:doc:262#evid-000-09-remos-vara-de-pesca-sementes-div> .
+
+<urn:doc:262#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem estar \"prontos\" para seu envolvimento naturalista. Esse estado de \"prontidao\" significa estar tanto interessado quanto capaz. E tao impor- tante quanto esse estado e a \"prontidao\" do professor delimitada por seus conhe- cimentos e seu entusiasmo."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:262> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:262#evid-001-00-envolvimento-naturalista>,
+        <urn:doc:262#evid-001-01-interessado-quanto-capaz> .
+
+<urn:doc:262#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "A improvisacao e sempre uma terrivel imimiga do sucesso e nao importa a atividade que pretende desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas para sentir os movimentos do vento, colher amostras de folhas ou de sementes, caminhar pelas aguas rasas de um re- gato), as excursoes devem ser curtas, planejadas, alegres e voltadas para a cons- trucao do conhecimento c desenvolvimento das habilidades dos alunos."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:262> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:262#evid-002-00-colher-frutos-silvestres>,
+        <urn:doc:262#evid-002-01-plantar-hortalicas>,
+        <urn:doc:262#evid-002-02-acender-fogueira>,
+        <urn:doc:262#evid-002-03-preparar-geleias>,
+        <urn:doc:262#evid-002-04-colher-amostras>,
+        <urn:doc:262#evid-002-05-movimentos-vento>,
+        <urn:doc:262#evid-002-06-caminhar-pelas-aguas>,
+        <urn:doc:262#evid-002-07-pretende-desenvolver>,
+        <urn:doc:262#evid-002-08-sementes>,
+        <urn:doc:262#evid-002-09-desenvolver-com-os-alunos-planta>,
+        <urn:doc:262#evid-002-10-desenvolver-com-os-alunos-planta> .
+
+<urn:doc:262#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "207"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:262> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:262> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:262#frag-000>,
+        <urn:doc:262#frag-001>,
+        <urn:doc:262#frag-002>,
+        <urn:doc:262#frag-003> .
+

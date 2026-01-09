@@ -1,0 +1,78 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "selecionar oito garrafas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7979509914008818,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "cortar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7361723495339088,
+      "relevance": 0.8926553672316384
+    },
+    {
+      "role": "Keyword",
+      "text": "cortar",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7361723495339088,
+      "relevance": 0.8926553672316384
+    },
+    {
+      "role": "Keyword",
+      "text": "altura",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7361723495339088,
+      "relevance": 0.8248587570621468
+    },
+    {
+      "role": "ContextObject",
+      "text": "oito garrafas de plastico",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9689265536723164
+    },
+    {
+      "role": "ContextObject",
+      "text": "fitas colantes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.57909604519774
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "ordenar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.576008799301024,
+      "relevance": 0.9708029197080292
+    },
+    {
+      "role": "Keyword",
+      "text": "tamanhos quase iguais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.793538177974538,
+      "relevance": 0.822992700729927
+    },
+    {
+      "role": "Keyword",
+      "text": "ordenar garrafas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7643320029800909,
+      "relevance": 0.75
+    }
+  ]
+}

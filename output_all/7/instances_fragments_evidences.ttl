@@ -1,0 +1,133 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:7#evid-000-00-vocabular-crianca> a onto:Keyword ;
+    rdfs:label "vocabular crianca"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:7#evid-000-01-universo-vocabular> a onto:Keyword ;
+    rdfs:label "universo vocabular"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:7#evid-000-02-figuras-extraidas> a onto:Keyword ;
+    rdfs:label "figuras extraidas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:7#evid-000-03-serie-figuras> a onto:Keyword ;
+    rdfs:label "serie figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:7#evid-000-04-colar-essas-figuras-em-cartolina> a onto:DiscursiveStrategy ;
+    rdfs:label "colar essas figuras em cartolina e, eventualmente, plastifica-las."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:7#evid-001-00-figura-caixa> a onto:Keyword ;
+    rdfs:label "figura caixa"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:7#evid-001-01-necessarias-escreve> a onto:Keyword ;
+    rdfs:label "necessarias escreve"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:7#evid-001-02-retirar-figura> a onto:Keyword ;
+    rdfs:label "retirar figura"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:7#evid-001-03-letras-necessarias> a onto:Keyword ;
+    rdfs:label "letras necessarias"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:7#evid-001-04-escolher> a onto:Keyword ;
+    rdfs:label "escolher"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:7#evid-001-05-letras-corretas> a onto:Keyword ;
+    rdfs:label "letras corretas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:7#evid-001-06-letras-corretas> a onto:Keyword ;
+    rdfs:label "letras corretas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:7#evid-001-07-escolher-as-letras-corretas> a onto:DiscursiveStrategy ;
+    rdfs:label "escolher as letras corretas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:7#evid-001-08-figura> a onto:ContextObject ;
+    rdfs:label "figura"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:7#evid-002-00-construindo-palavras> a onto:Keyword ;
+    rdfs:label "construindo palavras"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:7#evid-002-01-vai-construindo> a onto:Keyword ;
+    rdfs:label "vai construindo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:7#evid-002-02-evoluindo> a onto:Keyword ;
+    rdfs:label "evoluindo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:7#evid-002-03-letra-errada> a onto:Keyword ;
+    rdfs:label "letra errada"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:7#evid-002-04-coletivamente-a-classe-vai-const> a onto:DiscursiveStrategy ;
+    rdfs:label "coletivamente a classe vai construindo palavras"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:7#evid-002-05-evoluindo-das-mais-simples-para-> a onto:DiscursiveStrategy ;
+    rdfs:label "evoluindo das mais simples para as mais complexas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:7#evid-002-06-letra-errada-o-espaco-que-deveri> a onto:ContextObject ;
+    rdfs:label "letra errada, o espaco que deveria ser ocupado pela mesma e ocupado por um boneco na forca"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:7#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma caixa com uma serie de figuras extraidas de revistas, contendo pala- vras que ja fazem parte do universo vocabular da crianca. Colar essas figuras em cartolina e, eventualmente, plastifica-las."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:7> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:7#evid-000-00-vocabular-crianca>,
+        <urn:doc:7#evid-000-01-universo-vocabular>,
+        <urn:doc:7#evid-000-02-figuras-extraidas>,
+        <urn:doc:7#evid-000-03-serie-figuras>,
+        <urn:doc:7#evid-000-04-colar-essas-figuras-em-cartolina> .
+
+<urn:doc:7#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor deve retirar a figura da caixa, apresenta-la aos alunos e marcar na lousa o numero de letras necessarias para escreve-la. Os alunos, sortea- dos pelo professor, devem escolher as letras corretas e estas serem anotadas."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:7> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:7#evid-001-00-figura-caixa>,
+        <urn:doc:7#evid-001-01-necessarias-escreve>,
+        <urn:doc:7#evid-001-02-retirar-figura>,
+        <urn:doc:7#evid-001-03-letras-necessarias>,
+        <urn:doc:7#evid-001-04-escolher>,
+        <urn:doc:7#evid-001-05-letras-corretas>,
+        <urn:doc:7#evid-001-06-letras-corretas>,
+        <urn:doc:7#evid-001-07-escolher-as-letras-corretas>,
+        <urn:doc:7#evid-001-08-figura> .
+
+<urn:doc:7#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Coletivamente a classe vai construindo palavras, evoluindo das mais simples para as mais complexas. A cada letra errada, o espaco que deveria ser ocupado pela mesma e ocupado por um boneco na forca."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:7> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:7#evid-002-00-construindo-palavras>,
+        <urn:doc:7#evid-002-01-vai-construindo>,
+        <urn:doc:7#evid-002-02-evoluindo>,
+        <urn:doc:7#evid-002-03-letra-errada>,
+        <urn:doc:7#evid-002-04-coletivamente-a-classe-vai-const>,
+        <urn:doc:7#evid-002-05-evoluindo-das-mais-simples-para->,
+        <urn:doc:7#evid-002-06-letra-errada-o-espaco-que-deveri> .
+
+<urn:doc:7> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:7#frag-000>,
+        <urn:doc:7#frag-001>,
+        <urn:doc:7#frag-002> .
+

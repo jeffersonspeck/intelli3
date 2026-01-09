@@ -1,0 +1,175 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:334#evid-000-00-sao-trabalhados> a onto:Keyword ;
+    rdfs:label "sao trabalhados"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-000-01-escrevam-queixas> a onto:Keyword ;
+    rdfs:label "escrevam queixas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:334#evid-000-02-caixa-de-sapatos-com-uma-abertur> a onto:ContextObject ;
+    rdfs:label "caixa de sapatos com uma abertura, que sera a caixa de correio."@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:334#evid-001-00-debate-eventuais-propostas> a onto:Keyword ;
+    rdfs:label "debate eventuais propostas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-001-01-problemas-apresentados> a onto:Keyword ;
+    rdfs:label "problemas apresentados"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-001-02-colocando-debate> a onto:Keyword ;
+    rdfs:label "colocando debate"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-001-03-propostas-soluciona-los> a onto:Keyword ;
+    rdfs:label "propostas soluciona los"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:334#evid-001-04-propostas-soluciona-los> a onto:Keyword ;
+    rdfs:label "propostas soluciona los"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-002-00-professores-eur-funcionarios> a onto:Keyword ;
+    rdfs:label "professores eur funcionarios"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-002-01-eur-funcionarios-administrativos> a onto:Keyword ;
+    rdfs:label "eur funcionarios administrativos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-002-02-natureza-emocional> a onto:Keyword ;
+    rdfs:label "natureza emocional"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-002-03-natureza-emocional> a onto:Keyword ;
+    rdfs:label "natureza emocional"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:334#evid-002-04-propiciando-clima> a onto:Keyword ;
+    rdfs:label "propiciando clima"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:334#evid-002-05-propiciando-clima> a onto:Keyword ;
+    rdfs:label "propiciando clima"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-002-06-propiciando-clima> a onto:Keyword ;
+    rdfs:label "propiciando clima"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:334#evid-002-07-natureza-material> a onto:Keyword ;
+    rdfs:label "natureza material"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:334#evid-002-08-queixas-natureza> a onto:Keyword ;
+    rdfs:label "queixas natureza"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:334#evid-002-09-agudo-auto> a onto:Keyword ;
+    rdfs:label "agudo auto"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:334#evid-002-10-aberta-discussao> a onto:Keyword ;
+    rdfs:label "aberta discussao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-002-11-aberta-discussao> a onto:Keyword ;
+    rdfs:label "aberta discussao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:334#evid-002-12-relacoes-interpessoais> a onto:Keyword ;
+    rdfs:label "relacoes interpessoais"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-002-13-auto-heteroconhecimento> a onto:Keyword ;
+    rdfs:label "auto heteroconhecimento"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:334#evid-002-14-discussao-sobre-problemas> a onto:Keyword ;
+    rdfs:label "discussao sobre problemas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-002-15-discussao-sobre-problemas> a onto:Keyword ;
+    rdfs:label "discussao sobre problemas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:334#evid-002-16-envolvem-relacoes> a onto:Keyword ;
+    rdfs:label "envolvem relacoes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:334#evid-002-17-propiciando-um-clima-de-mais-agu> a onto:DiscursiveStrategy ;
+    rdfs:label "propiciando um clima de mais agudo auto e heteroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#evid-002-18-propiciando-um-clima-de-mais-agu> a onto:DiscursiveStrategy ;
+    rdfs:label "propiciando um clima de mais agudo auto e heteroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:334#evid-002-19-relacoes-interpessoais-entre-os-> a onto:ContextObject ;
+    rdfs:label "relacoes interpessoais entre os alunos e, eventualmente, seus professores EUR funcionarios administrativos da escola"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:334#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma caixa de sapatos com uma abertura, que sera a caixa de correio. Os alunos sao trabalhados para que escrevam suas queixas e seus problemas e de- positem, anonimamente, na caixa de correio."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:334> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:334#evid-000-00-sao-trabalhados>,
+        <urn:doc:334#evid-000-01-escrevam-queixas>,
+        <urn:doc:334#evid-000-02-caixa-de-sapatos-com-uma-abertur> .
+
+<urn:doc:334#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Periodicamente o professor abre a caixa de correio e le as queixas e os pro- blemas apresentados, colocando em debate eventuais propostas para solucio- na-los."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:334> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:334#evid-001-00-debate-eventuais-propostas>,
+        <urn:doc:334#evid-001-01-problemas-apresentados>,
+        <urn:doc:334#evid-001-02-colocando-debate>,
+        <urn:doc:334#evid-001-03-propostas-soluciona-los>,
+        <urn:doc:334#evid-001-04-propostas-soluciona-los> .
+
+<urn:doc:334#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "E importante que a atividade se desvie de queixas de natureza material para as de natureza emocional, propiciando um clima de mais agudo auto e he- teroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos e, eventualmente, seus professores EUR funcionarios administrativos da escola."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:334> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:334#evid-002-00-professores-eur-funcionarios>,
+        <urn:doc:334#evid-002-01-eur-funcionarios-administrativos>,
+        <urn:doc:334#evid-002-02-natureza-emocional>,
+        <urn:doc:334#evid-002-03-natureza-emocional>,
+        <urn:doc:334#evid-002-04-propiciando-clima>,
+        <urn:doc:334#evid-002-05-propiciando-clima>,
+        <urn:doc:334#evid-002-06-propiciando-clima>,
+        <urn:doc:334#evid-002-07-natureza-material>,
+        <urn:doc:334#evid-002-08-queixas-natureza>,
+        <urn:doc:334#evid-002-09-agudo-auto>,
+        <urn:doc:334#evid-002-10-aberta-discussao>,
+        <urn:doc:334#evid-002-11-aberta-discussao>,
+        <urn:doc:334#evid-002-12-relacoes-interpessoais>,
+        <urn:doc:334#evid-002-13-auto-heteroconhecimento>,
+        <urn:doc:334#evid-002-14-discussao-sobre-problemas>,
+        <urn:doc:334#evid-002-15-discussao-sobre-problemas>,
+        <urn:doc:334#evid-002-16-envolvem-relacoes>,
+        <urn:doc:334#evid-002-17-propiciando-um-clima-de-mais-agu>,
+        <urn:doc:334#evid-002-18-propiciando-um-clima-de-mais-agu>,
+        <urn:doc:334#evid-002-19-relacoes-interpessoais-entre-os-> .
+
+<urn:doc:334#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "259"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:334> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:334> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:334#frag-000>,
+        <urn:doc:334#frag-001>,
+        <urn:doc:334#frag-002>,
+        <urn:doc:334#frag-003> .
+

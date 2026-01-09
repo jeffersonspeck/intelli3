@@ -1,0 +1,92 @@
+[Documento] urn:doc:152
+  - miVector: 0.00,0.00,7.56,3.07,9.73,0.00,0.00,79.63
+  - TOP (documento): Naturalist (score=0.7963)
+  - Ranking (top 3):
+      • Naturalist: 0.7963
+      • Bodily-Kinesthetic: 0.0973
+      • Spatial: 0.0756
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: ajuda desenho
+        • Keyword: pequena maquina fotografica
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3211
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: pequena maquina fotografica ou a ajuda do desenho
+        • Keyword: desenho constitui forte
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2496
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: constitui forte instrumento
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1014
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: elementos da natureza
+        • Keyword: arvore
+        • Keyword: bosque
+        • Keyword: desabrochar curiosidade
+        • Keyword: descobrirem
+        • Keyword: elementos natureza
+        • Keyword: elementos transforma
+        • Keyword: envolvente desabrochar
+        • Keyword: excursao programada
+        • Keyword: mar
+        • Keyword: observacao pesquisa
+        • Keyword: registro dessas sensibilidades
+        • Keyword: relatarem
+        • Keyword: revelem descobertas
+        • Keyword: rio
+    - Ativações (doc): n=3, primárias=3, secundárias=0, max=1.0000
+
+
+[Documento — Fragmentos] urn:doc:152
+
+[Fragmento] Preparacao: O professor devera estimular os alunos a "descobrirem" e "relatarem" os elementos da natureza.
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: elementos da natureza
+        • Keyword: descobrirem
+        • Keyword: elementos natureza
+        • Keyword: relatarem
+    - Ativações:
+        • score=1.0000, tipo=Primary
+
+[Fragmento] Uma "excursao programada" para a visita a um bosque, uma praca, uma arvore, numa tarde de outono ou de inverno, o mar, um rio, a noite c outros elementos transforma-se em envolvente desabrochar da curiosi- dade infantil. Utilizacao: O professor deve trabalhar o espirito de observacao e pesquisa.
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: arvore
+        • Keyword: bosque
+        • Keyword: desabrochar curiosidade
+        • Keyword: elementos transforma
+        • Keyword: envolvente desabrochar
+        • Keyword: excursao programada
+        • Keyword: mar
+        • Keyword: observacao pesquisa
+        • Keyword: rio
+    - Ativações:
+        • score=1.0000, tipo=Primary
+
+[Fragmento] Na primei- ra vez, ir progressivamente "descobrindo" seu encantamento e, aos poucos, es- timular os alunos para que descubram e revelem suas descobertas. Sempre que possivel uma pequena maquina fotografica ou a ajuda do desenho constitui for- te instrumento de registro dessas sensibilidades.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: ajuda desenho
+        • Keyword: pequena maquina fotografica
+    - Ativações:
+        • score=0.3211, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: pequena maquina fotografica ou a ajuda do desenho
+        • Keyword: desenho constitui forte
+    - Ativações:
+        • score=0.2496, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: constitui forte instrumento
+    - Ativações:
+        • score=0.1014, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: registro dessas sensibilidades
+        • Keyword: revelem descobertas
+    - Ativações:
+        • score=0.3279, tipo=Primary

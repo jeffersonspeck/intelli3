@@ -1,1 +1,0 @@
-ValueError('Invalid format specifier \' "resolver equações", "mi_idx": \' for object of type \'str\'')

@@ -1,0 +1,49 @@
+[Documento] urn:doc:54
+  - miVector: 0.00,23.60,8.40,0.00,39.84,0.00,0.00,28.15
+  - TOP (documento): Bodily-Kinesthetic (score=0.3984)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3984
+      • Naturalist: 0.2815
+      • Logical-Mathematical: 0.2360
+
+[Fragmento] Preparacao: O jogo exige uma preparacao trabalhosa. Torna-se necessario colar fitas em cartolina formando um circulo em uma, um triangulo em outra e um quadrado em uma terceira. Recortar em papel-cartao colorido silhuetas com formas de figuras humanas, frutas e formas geometricas.
+  - Bodily-Kinesthetic (via activation, score=0.7618)
+  - Logical-Mathematical (via activation, score=0.1041)
+  - Spatial (via activation, score=0.1341)
+  - Cinestésico-corporal (via activation, score=0.7618)
+  - Espacial-visual (via activation, score=0.1341)
+  - Lógico-matemática (via activation, score=0.1041)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Utilizacao: Os alunos devem formar conjuntos com diferentes formas e em etapas pos- teriores colocar esses conjuntos dentro dos contornos solicitados. Formam assim conjuntos de formas, conforme a cor, e trabalham com sua colocacao nos contornos.
+  - Bodily-Kinesthetic (via activation, score=0.5530)
+  - Logical-Mathematical (via activation, score=0.1725)
+  - Naturalist (via activation, score=0.1314)
+  - Spatial (via activation, score=0.1432)
+  - Cinestésico-corporal (via activation, score=0.5530)
+  - Espacial-visual (via activation, score=0.1432)
+  - Lógico-matemática (via activation, score=0.1725)
+  - Naturalista (via activation, score=0.1314)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] (Existe no mercado -- Brincando de Conjunto -- Uki-Uki.)
+  - Logical-Mathematical (via activation, score=0.3864)
+  - Naturalist (via activation, score=0.6136)
+  - Lógico-matemática (via activation, score=0.3864)
+  - Naturalista (via activation, score=0.6136)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

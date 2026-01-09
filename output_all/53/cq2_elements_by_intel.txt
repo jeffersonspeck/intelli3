@@ -1,0 +1,76 @@
+[Documento] urn:doc:53
+  - miVector: 0.00,5.27,18.25,0.00,63.63,0.00,0.00,12.85
+  - TOP (documento): Bodily-Kinesthetic (score=0.6363)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6363
+      • Spatial: 0.1825
+      • Naturalist: 0.1285
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: jogos com pinos de encaixe
+        • ContextObject: pecas da caixa
+        • Keyword: colocar
+        • Keyword: jogos pinos
+        • Keyword: pinos encaixe
+        • Keyword: usar caixas
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=1.0000
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: coordenadas pelo
+        • Keyword: cores
+        • Keyword: etapa cores
+        • Keyword: operacoes coordenadas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6021
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: elementos comparacao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1740
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: caixas de clipes coloridos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4240
+
+
+[Documento — Fragmentos] urn:doc:53
+
+[Fragmento] Preparacao: Usar caixas de clipes coloridos. Utilizacao: Os alunos devem formar grupos com "muitas" e com "poucas" pecas e estabelecer comparacoes entre esses grupos. Devem colocar "todas" as pecas na caixa e colocar "algumas" pecas na caixa.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: colocar
+        • Keyword: usar caixas
+    - Ativações:
+        • score=0.5760, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: caixas de clipes coloridos
+    - Ativações:
+        • score=0.4240, tipo=Secondary
+
+[Fragmento] Em operacoes coordenadas pelo pro- fessor, retirar "todas", "algumas", "a maior parte", "varias" pecas da caixa. Em outra etapa as cores devem se constituir em elementos de comparacao: formar uma fila com "alguns" ou com "muitos" clipes e assim por diante.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: pecas da caixa
+    - Ativações:
+        • score=0.2239, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: coordenadas pelo
+        • Keyword: cores
+        • Keyword: etapa cores
+        • Keyword: operacoes coordenadas
+    - Ativações:
+        • score=0.6021, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: elementos comparacao
+    - Ativações:
+        • score=0.1740, tipo=Secondary
+
+[Fragmento] (Existem no mercado jogos com pinos de encaixe que podem ser utilizados para o mesmo fim.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: jogos com pinos de encaixe
+        • Keyword: jogos pinos
+        • Keyword: pinos encaixe
+    - Ativações:
+        • score=1.0000, tipo=Primary

@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:257#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "preparacao: Essa atividade e realizada a noite e, portanto, possivel se os alunos forem con- vidados a trazer seus sacos de dormir ou colchonetes e passar uma noite na escola. Em uma excursao a atividade e tambem possivel."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:257> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:257#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor devera estimular os alunos a observar estrelas e desenhar constela- coes, reunindo-se depois para descreve-las. Os alunos nao precisam se preocupar em desenhar ou descrever as constelacoes como se encontram no ceu."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:257> ;
+    dct:type "body" .
+
+<urn:doc:257#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "O professor pode recriar a ideia dos astronomos do passado, levando seus alunos a inventar \"no- vas constelacoes\". A noite tambem oferece interessante oportunidade para a identi- ficacao dos pontos cardeais a partir da lua ou das estrelas. 204"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:257> ;
+    dct:type "body" .
+
+<urn:doc:257> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:257#frag-000>,
+        <urn:doc:257#frag-001>,
+        <urn:doc:257#frag-002> .
+

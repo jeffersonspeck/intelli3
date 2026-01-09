@@ -1,0 +1,238 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "coco unidas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7839148258974924,
+      "relevance": 0.9234234234234234
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumento simples",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7762546409199335,
+      "relevance": 0.8536036036036037
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumento simples",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7762546409199335,
+      "relevance": 0.8536036036036037
+    },
+    {
+      "role": "Keyword",
+      "text": "improvisar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7214216072525883,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "barbante instrumento",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.712576891522948,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "associar som",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6956240094202664,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "associar som",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6956240094202664,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ritmo caminhar",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6956240094202664,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ritmo caminhar",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6956240094202664,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentos cinestesicos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6815205115346166,
+      "relevance": 0.5540540540540541
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentos cinestesicos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6815205115346166,
+      "relevance": 0.5540540540540541
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentos cinestesicos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6815205115346166,
+      "relevance": 0.5540540540540541
+    },
+    {
+      "role": "Keyword",
+      "text": "marchar",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6668162451586789,
+      "relevance": 0.6283783783783784
+    },
+    {
+      "role": "Keyword",
+      "text": "correr",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6668162451586789,
+      "relevance": 0.6081081081081081
+    },
+    {
+      "role": "Keyword",
+      "text": "acompanham ritmo",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.659060135469519,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "acompanham ritmo",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.659060135469519,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "saltar",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.610349994665,
+      "relevance": 0.5900900900900901
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Improvisar com duas metades de um coco unidas por um barbante um instrumento simples.",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Improvisar com duas metades de um coco unidas por um barbante um instrumento simples.",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Improvisar com duas metades de um coco unidas por um barbante um instrumento simples.",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "duas metades de um coco unidas por um barbante",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9662162162162162
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "movimentos corporais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7815677893068794,
+      "relevance": 0.5822368421052632
+    },
+    {
+      "role": "Keyword",
+      "text": "linguagem sonora",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7733345292314623,
+      "relevance": 0.7763157894736842
+    },
+    {
+      "role": "Keyword",
+      "text": "linguagem sonora",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7733345292314623,
+      "relevance": 0.7763157894736842
+    },
+    {
+      "role": "Keyword",
+      "text": "identificando essa linguagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6962742458960101,
+      "relevance": 0.700657894736842
+    },
+    {
+      "role": "Keyword",
+      "text": "identificando essa linguagem",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6962742458960101,
+      "relevance": 0.700657894736842
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrindo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6550603205323252,
+      "relevance": 0.8914473684210527
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrindo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6550603205323252,
+      "relevance": 0.8914473684210527
+    },
+    {
+      "role": "Keyword",
+      "text": "sentido",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6550603205323252,
+      "relevance": 0.8289473684210527
+    }
+  ]
+}

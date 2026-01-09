@@ -1,0 +1,63 @@
+[Documento] urn:doc:103
+  - miVector: 4.01,26.77,12.92,25.38,4.49,10.48,4.08,11.86
+  - TOP (documento): Logical-Mathematical (score=0.2677)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.2677
+      • Musical: 0.2538
+      • Spatial: 0.1292
+
+[Fragmento] Preparacao: Colecionar gravuras de revistas ou desenhar ilustracoes mostrando as diferentes etapas do dia a dia de uma crianca e, se possivel, tambem de um adulto.
+  - Interpersonal (via activation, score=0.3466)
+  - Logical-Mathematical (via activation, score=0.3672)
+  - Musical (via activation, score=0.2862)
+  - Interpessoal (via activation, score=0.3466)
+  - Lógico-matemática (via activation, score=0.3672)
+  - Musical (via activation, score=0.2862)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+
+[Fragmento] O ideal e ilustrar o passar das horas e mostrar as diferentes atividades de uma crianca (acordar, tomar cafe, sair de casa, chegar a escola, assistir aula, participar do recreio, etc.).
+  - Logical-Mathematical (via activation, score=0.2807)
+  - Musical (via activation, score=0.7193)
+  - Lógico-matemática (via activation, score=0.2807)
+  - Musical (via activation, score=0.7193)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+
+[Fragmento] Utilizacao: Essas gravuras ou desenhos, coladas em cartolina, formarao pecas que deverao ser seriadas pelos alunos, desenvolvendo sua observacao da evolucao temporal. Em etapas mais elevadas, o exercicio pode prosseguir com as estacoes do ano e a sucessao dos meses.
+  - Bodily-Kinesthetic (via activation, score=0.1931)
+  - Linguistic (via activation, score=0.1723)
+  - Naturalist (via activation, score=0.5101)
+  - Spatial (via activation, score=0.1244)
+  - Cinestésico-corporal (via activation, score=0.1931)
+  - Espacial-visual (via activation, score=0.1244)
+  - Linguística (via activation, score=0.1723)
+  - Naturalista (via activation, score=0.5101)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Naturalista (via element)
+
+[Fragmento] Uma alternativa interessante pode ser feita com figuras representando velas acesas em diferentes tamanhos. (Existem no comercio inumeros jogos com a mesma finalidade, produzidos por diferentes fabricantes.)
+  - Intrapersonal (via activation, score=0.1755)
+  - Logical-Mathematical (via activation, score=0.3932)
+  - Spatial (via activation, score=0.4312)
+  - Espacial-visual (via activation, score=0.4312)
+  - Intrapessoal (via activation, score=0.1755)
+  - Lógico-matemática (via activation, score=0.3932)
+  - Intrapersonal (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Intrapessoal (via element)
+  - Lógico-matemática (via element)

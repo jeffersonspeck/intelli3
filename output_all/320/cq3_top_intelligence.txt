@@ -1,0 +1,19 @@
+[Documento] urn:doc:320
+  - miVector: 0.00,10.62,4.52,0.00,17.37,18.30,29.05,20.14
+  - TOP (documento): Intrapersonal (score=0.2905)
+  - Ranking (top 3):
+      • Intrapersonal: 0.2905
+      • Naturalist: 0.2014
+      • Interpersonal: 0.1830
+
+
+[Documento — Fragmentos] urn:doc:320
+
+[Fragmento] Preparacao: Desenhar circulos em folhas de papel sulfite e deixar aos alunos lapis, lapis de cera ou canetas hidrocor.
+  > TOP: Naturalista (score=0.5112, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras, mas faze-lo segundo estados de animo das pessoas, relatados pelo profes- sor (por exemplo: Luciana perdeu um amigo e esta triste, como seria o rosto de Luciana?), c muitas outras situacoes analogas.
+  > TOP: Cinestésico-corporal (score=0.4374, tipo=Primary)
+
+[Fragmento] O objetivo essencial da atividade e levar o aluno a perceber suas proprias emocoes e poder, progressivamente, fazer "leituras" de sentimentos em si mesmo e em outras pessoas. Tr cd E da dk : mm J =. E E a =
+  > TOP: Intrapessoal (score=0.6107, tipo=Primary)

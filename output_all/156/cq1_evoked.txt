@@ -1,0 +1,67 @@
+[Documento] urn:doc:156
+  - miVector: 1.67,18.04,8.44,38.78,9.23,0.00,0.00,23.86
+  - TOP (documento): Musical (score=0.3878)
+  - Ranking (top 3):
+      • Musical: 0.3878
+      • Naturalist: 0.2386
+      • Logical-Mathematical: 0.1804
+
+[Fragmento] Preparacao: O jogo pressupoe a existencia de instrumentos musicais que permitam a se- riacao ascendente ou descendente de tipos do som. Por exemplo: tamborim, tam- borzinho e tambor maior ou inumeros outros (pratos, campainhas, maracas, choca- lhos, etc.).
+  - Bodily-Kinesthetic (via activation, score=0.0874)
+  - Logical-Mathematical (via activation, score=0.3476)
+  - Musical (via activation, score=0.5649)
+  - Cinestésico-corporal (via activation, score=0.0874)
+  - Lógico-matemática (via activation, score=0.3476)
+  - Musical (via activation, score=0.5649)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+
+[Fragmento] Uma serie de copos de vidro ou garrafas com agua em niveis diferentes pode tambem tornar valida a acao educativa proposta pelo jogo.
+  - Logical-Mathematical (via activation, score=0.2818)
+  - Naturalist (via activation, score=0.3554)
+  - Spatial (via activation, score=0.3627)
+  - Espacial-visual (via activation, score=0.3627)
+  - Lógico-matemática (via activation, score=0.2818)
+  - Naturalista (via activation, score=0.3554)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Os alunos tocarao os instrumentos, apreciarao o som e sua intensidade, e clas- sificarao o timbre, devendo chegar a uma identificacao tanto em ordem ascenden- te quanto descendente dos sons emitidos, sem estar olhando os instrumentos quan- do de sua percussao.
+  - Bodily-Kinesthetic (via activation, score=0.3094)
+  - Linguistic (via activation, score=0.0717)
+  - Logical-Mathematical (via activation, score=0.1461)
+  - Musical (via activation, score=0.4069)
+  - Naturalist (via activation, score=0.0658)
+  - Cinestésico-corporal (via activation, score=0.3094)
+  - Linguística (via activation, score=0.0717)
+  - Lógico-matemática (via activation, score=0.1461)
+  - Musical (via activation, score=0.4069)
+  - Naturalista (via activation, score=0.0658)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] (Existem os instrumentos citados no comercio.) 145
+  - Musical (via activation, score=0.5350)
+  - Naturalist (via activation, score=0.4650)
+  - Musical (via activation, score=0.5350)
+  - Naturalista (via activation, score=0.4650)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Musical (via element)
+  - Naturalista (via element)

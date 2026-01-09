@@ -1,0 +1,110 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "jogo cubos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7757335086264254,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tentar empilha las",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7208742223787162,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "enfileirar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.710384561622492,
+      "relevance": 0.6789772727272727
+    },
+    {
+      "role": "Keyword",
+      "text": "observar regras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6926390207050138,
+      "relevance": 0.6022727272727273
+    },
+    {
+      "role": "ContextObject",
+      "text": "garrafas de plastico de tamanhos bem diferentes ou cubos de madeira",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9261363636363636
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "posteriores separar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8056325741811945,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "maiores menores",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7938480228467882,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "comparando tamanhos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7938480228467882,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "separar garrafas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7863161106851209,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tamanhos verbalizando",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7863161106851209,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "verbalizando conceitos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7863161106851209,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cubos encaixe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6930033875065505,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "6 Cubos de encaixe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.568075117370892
+    }
+  ]
+}

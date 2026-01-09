@@ -1,0 +1,153 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:5#evid-000-00-revistas-diferentes-figuras> a onto:Keyword ;
+    rdfs:label "revistas diferentes figuras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:5#evid-000-01-tesoura> a onto:Keyword ;
+    rdfs:label "tesoura"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:5#evid-000-02-cola> a onto:Keyword ;
+    rdfs:label "cola"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:5#evid-000-03-cartolina> a onto:Keyword ;
+    rdfs:label "cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:5#evid-001-00-escolhe> a onto:Keyword ;
+    rdfs:label "escolhe"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:5#evid-001-01-escolhe> a onto:Keyword ;
+    rdfs:label "escolhe"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:5#evid-001-02-tera-minuto> a onto:Keyword ;
+    rdfs:label "tera minuto"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:5#evid-001-03-minuto-encontrar> a onto:Keyword ;
+    rdfs:label "minuto encontrar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:5#evid-001-04-encontrar-palavra> a onto:Keyword ;
+    rdfs:label "encontrar palavra"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:5#evid-001-05-encontrar-palavra> a onto:Keyword ;
+    rdfs:label "encontrar palavra"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:5#evid-001-06-palavra-forme> a onto:Keyword ;
+    rdfs:label "palavra forme"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:5#evid-001-07-forme-duas-rimas> a onto:Keyword ;
+    rdfs:label "forme duas rimas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:5#evid-001-08-adversarios-igual-problema> a onto:Keyword ;
+    rdfs:label "adversarios igual problema"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:5#evid-001-09-conseguindo> a onto:Keyword ;
+    rdfs:label "conseguindo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:5#evid-001-10-ganha> a onto:Keyword ;
+    rdfs:label "ganha"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:5#evid-001-11-escolhe-uma-de-suas-cartas-e-mos> a onto:DiscursiveStrategy ;
+    rdfs:label "escolhe uma de suas cartas e mostra ao grupo adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:5#evid-001-12-escolhe-uma-de-suas-cartas-e-mos> a onto:DiscursiveStrategy ;
+    rdfs:label "escolhe uma de suas cartas e mostra ao grupo adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta."@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:5#evid-002-00-propondo-mais-rimas> a onto:Keyword ;
+    rdfs:label "propondo mais rimas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:5#evid-002-01-vai-registrando> a onto:Keyword ;
+    rdfs:label "vai registrando"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:5#evid-002-02-vai-registrando> a onto:Keyword ;
+    rdfs:label "vai registrando"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:5#evid-002-03-montes> a onto:Keyword ;
+    rdfs:label "montes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:5#evid-002-04-determinado> a onto:Keyword ;
+    rdfs:label "determinado"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:5#evid-002-05-passar> a onto:Keyword ;
+    rdfs:label "passar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:5#evid-002-06-passar> a onto:Keyword ;
+    rdfs:label "passar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:5#evid-002-07-selecionar-cartas> a onto:Keyword ;
+    rdfs:label "selecionar cartas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:5#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Cartolina, lapis de cor, tesoura, cola, regua, revistas. Utilizacao: Os alunos sao divididos em dois grupos e cada um deles deve selecionar em revistas diferentes figuras dentro de uma ordem estabelecida pelo professor, colando em cartolina e recortando-as de maneira a formar pequenas cartas de baralho."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:5> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:5#evid-000-00-revistas-diferentes-figuras>,
+        <urn:doc:5#evid-000-01-tesoura>,
+        <urn:doc:5#evid-000-02-cola>,
+        <urn:doc:5#evid-000-03-cartolina> .
+
+<urn:doc:5#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Iniciado o jogo, cada aluno escolhe uma de suas cartas e mostra ao gru- po adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta. Conseguindo, ganha um ponto e e sua vez de escolhar a carta e propor aos adversarios igual problema."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:5> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:5#evid-001-00-escolhe>,
+        <urn:doc:5#evid-001-01-escolhe>,
+        <urn:doc:5#evid-001-02-tera-minuto>,
+        <urn:doc:5#evid-001-03-minuto-encontrar>,
+        <urn:doc:5#evid-001-04-encontrar-palavra>,
+        <urn:doc:5#evid-001-05-encontrar-palavra>,
+        <urn:doc:5#evid-001-06-palavra-forme>,
+        <urn:doc:5#evid-001-07-forme-duas-rimas>,
+        <urn:doc:5#evid-001-08-adversarios-igual-problema>,
+        <urn:doc:5#evid-001-09-conseguindo>,
+        <urn:doc:5#evid-001-10-ganha>,
+        <urn:doc:5#evid-001-11-escolhe-uma-de-suas-cartas-e-mos>,
+        <urn:doc:5#evid-001-12-escolhe-uma-de-suas-cartas-e-mos> .
+
+<urn:doc:5#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "O professor vai regis- trando os pontos na lousa e, em determinado momento, pode passar de duas para tres ou dois montes, um para cada grupo, propondo mais rimas. Caso pre- fira, pode selecionar as cartas e fazer a sua apresentacao. 50"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:5> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:5#evid-002-00-propondo-mais-rimas>,
+        <urn:doc:5#evid-002-01-vai-registrando>,
+        <urn:doc:5#evid-002-02-vai-registrando>,
+        <urn:doc:5#evid-002-03-montes>,
+        <urn:doc:5#evid-002-04-determinado>,
+        <urn:doc:5#evid-002-05-passar>,
+        <urn:doc:5#evid-002-06-passar>,
+        <urn:doc:5#evid-002-07-selecionar-cartas> .
+
+<urn:doc:5> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:5#frag-000>,
+        <urn:doc:5#frag-001>,
+        <urn:doc:5#frag-002> .
+

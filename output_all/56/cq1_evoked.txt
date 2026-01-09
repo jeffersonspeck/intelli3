@@ -1,0 +1,35 @@
+[Documento] urn:doc:56
+  - miVector: 0.00,52.99,0.00,4.12,28.81,0.00,14.08,0.00
+  - TOP (documento): Logical-Mathematical (score=0.5299)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.5299
+      • Bodily-Kinesthetic: 0.2881
+      • Intrapersonal: 0.1408
+
+[Fragmento] Preparacao: O jogo exige uma preparacao trabalhosa. Com auxilio de um lapis e revistas enrolar tiras de papel de 2cm de largura. Colar a extremidade. Usar canudinhos de refrigerantes como varetas, passando cola para dar maior consistencia.
+  - Bodily-Kinesthetic (via activation, score=0.4504)
+  - Intrapersonal (via activation, score=0.2491)
+  - Logical-Mathematical (via activation, score=0.3005)
+  - Cinestésico-corporal (via activation, score=0.4504)
+  - Intrapessoal (via activation, score=0.2491)
+  - Lógico-matemática (via activation, score=0.3005)
+  - Bodily-Kinesthetic (via element)
+  - Intrapersonal (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Intrapessoal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Utilizacao: Utilizar o material como instrumento de contagem, para elaboracao de se- quencias e ainda formacao de conjuntos. Sugerir aos alunos que criem brincadei- ras com o material, explorando seu raciocinio logico.
+  - Bodily-Kinesthetic (via activation, score=0.0770)
+  - Logical-Mathematical (via activation, score=0.8282)
+  - Musical (via activation, score=0.0948)
+  - Cinestésico-corporal (via activation, score=0.0770)
+  - Lógico-matemática (via activation, score=0.8282)
+  - Musical (via activation, score=0.0948)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)

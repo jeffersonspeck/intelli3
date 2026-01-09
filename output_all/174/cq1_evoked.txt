@@ -1,0 +1,47 @@
+[Documento] urn:doc:174
+  - miVector: 8.38,19.05,16.06,8.38,24.40,0.00,0.00,23.72
+  - TOP (documento): Bodily-Kinesthetic (score=0.2440)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2440
+      • Naturalist: 0.2372
+      • Logical-Mathematical: 0.1905
+
+[Fragmento] Preparacao: Cinco a seis pares de caixas plasticas ou embalagens de filmes fotograficos, preenchidas com diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros).
+  - Bodily-Kinesthetic (via activation, score=0.3569)
+  - Logical-Mathematical (via activation, score=0.1117)
+  - Naturalist (via activation, score=0.4197)
+  - Spatial (via activation, score=0.1117)
+  - Cinestésico-corporal (via activation, score=0.3569)
+  - Espacial-visual (via activation, score=0.1117)
+  - Lógico-matemática (via activation, score=0.1117)
+  - Naturalista (via activation, score=0.4197)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: As pecas devem ser espalhadas sobre uma mesa e os alunos devem procu- rar as pecas pares, chocalhando e ouvindo o som produzido. Os alunos podem estar reunidos em duplas e ganha a dupla que obtiver maior numero de acertos.
+  - Bodily-Kinesthetic (via activation, score=0.0973)
+  - Linguistic (via activation, score=0.1928)
+  - Logical-Mathematical (via activation, score=0.2929)
+  - Musical (via activation, score=0.1928)
+  - Spatial (via activation, score=0.2243)
+  - Cinestésico-corporal (via activation, score=0.0973)
+  - Espacial-visual (via activation, score=0.2243)
+  - Linguística (via activation, score=0.1928)
+  - Lógico-matemática (via activation, score=0.2929)
+  - Musical (via activation, score=0.1928)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)

@@ -1,0 +1,168 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "atraves perguntas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5751981970328581,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "funcao cronometrar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5392451639299916,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "funcao cronometrar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.5392451639299916,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cronometrar participacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5392451639299916,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "induzi",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.5265197230229954,
+      "relevance": 0.5622568093385214
+    },
+    {
+      "role": "Keyword",
+      "text": "inicia",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.4979065090026939,
+      "relevance": 0.6770428015564203
+    },
+    {
+      "role": "Keyword",
+      "text": "dialogo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.4979065090026939,
+      "relevance": 0.6595330739299611
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "voce casado",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8039625708398128,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "nasceu nigeria",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8011677915852257,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "verdade nasceu",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7145393453065078,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "expressao correspondente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5040655812464504,
+      "relevance": 0.5536480686695279
+    },
+    {
+      "role": "Keyword",
+      "text": "expressao correspondente",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5040655812464504,
+      "relevance": 0.5536480686695279
+    },
+    {
+      "role": "Keyword",
+      "text": "negativo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6120108416909802,
+      "relevance": 0.6287553648068669
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "dizer negativo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.6416309012875536
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "dizer negativo",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.6416309012875536
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "dialogo dinamico",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7639508483135642,
+      "relevance": 0.8846153846153846
+    },
+    {
+      "role": "Keyword",
+      "text": "mantiver",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7639508483135642,
+      "relevance": 0.9358974358974359
+    },
+    {
+      "role": "Keyword",
+      "text": "mantiver",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7639508483135642,
+      "relevance": 0.9358974358974359
+    },
+    {
+      "role": "Keyword",
+      "text": "disser palavra",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7639508483135642,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "equipe",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7045076007205424,
+      "relevance": 0.5427350427350428
+    }
+  ]
+}

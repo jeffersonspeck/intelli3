@@ -1,0 +1,148 @@
+[Documento] urn:doc:110
+  - miVector: 0.00,22.48,1.92,11.75,40.56,7.16,0.00,16.13
+  - TOP (documento): Bodily-Kinesthetic (score=0.4056)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4056
+      • Logical-Mathematical: 0.2248
+      • Naturalist: 0.1613
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: acrescentar-se uma rosa dos ventos ao jogo
+        • DiscursiveStrategy: usar tampinhas coloridas de pasta de dente, conchinhas ou outros objetos
+        • Keyword: acrescentar rosa
+        • Keyword: arrumar pecas
+        • Keyword: assumir
+        • Keyword: assumir funcoes
+        • Keyword: cardeais
+        • Keyword: esquerda
+        • Keyword: massa modelar
+        • Keyword: pecas direita
+        • Keyword: rosa ventos
+        • Keyword: usar tampinhas coloridas
+    - Ativações (doc): n=4, primárias=3, secundárias=1, max=0.6213
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: bussola
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0825
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: ajuda
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2369
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: armar o exercito livremente e, depois, segundo orientacao do professor, arrumar as pecas a direita ou a esquerda de um ponto de referencia, classifica-las em…
+        • Keyword: classifica las fila
+        • Keyword: existem diferentes modalidades
+        • Keyword: jogo permite explorar
+        • Keyword: massa modelar
+        • Keyword: soldados
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4353
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: explorar conceitos
+        • Keyword: jogo permite explorar
+        • Keyword: preparar
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2265
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: uma rosa dos ventos desenhada em cartolina e uma bussola
+        • Keyword: imaginario
+        • Keyword: mesmos aferidos devidamente
+        • Keyword: semelhantes reais
+        • Keyword: ventos desenhada
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3787
+
+
+[Documento — Fragmentos] urn:doc:110
+
+[Fragmento] Preparacao: Preparar com a ajuda dos alunos um "exercito" contendo varios carros de combate, soldados e outras pecas. Nao ha qualquer importancia que essas pecas (feitas de papelao ou massa de modelar) sejam semelhantes as reais.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: massa modelar
+    - Ativações:
+        • score=0.1192, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: ajuda
+    - Ativações:
+        • score=0.2369, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: massa modelar
+        • Keyword: soldados
+    - Ativações:
+        • score=0.2523, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: preparar
+    - Ativações:
+        • score=0.2265, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: semelhantes reais
+    - Ativações:
+        • score=0.1651, tipo=Secondary
+
+[Fragmento] Uma alternativa e usar tampinhas coloridas de pasta de dente, conchinhas ou outros objetos que devem assumir suas funcoes segundo o imaginario do aluno. Uma rosa dos ventos desenhada em cartolina e uma bussola para conferir a exatidao dos pontos solicitados.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: usar tampinhas coloridas de pasta de dente, conchinhas ou outros objetos
+        • Keyword: assumir
+        • Keyword: assumir funcoes
+        • Keyword: usar tampinhas coloridas
+    - Ativações:
+        • score=0.6213, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: uma rosa dos ventos desenhada em cartolina e uma bussola
+        • Keyword: imaginario
+        • Keyword: ventos desenhada
+    - Ativações:
+        • score=0.3787, tipo=Secondary
+
+[Fragmento] Utilizacao: Os alunos devem armar o exercito livremente e, depois, segundo orien- tacao do professor, arrumar as pecas a direita ou a esquerda de um ponto de referencia, classifica-las em fila, uma alternada a outra e assim por diante.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: arrumar pecas
+        • Keyword: esquerda
+        • Keyword: pecas direita
+    - Ativações:
+        • score=0.5647, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: armar o exercito livremente e, depois, segundo orientacao do professor, arrumar as pecas a direita ou a esquerda de um ponto de referencia, classifica-las em…
+        • Keyword: classifica las fila
+    - Ativações:
+        • score=0.4353, tipo=Secondary
+
+[Fragmento] Acrescentar-se uma rosa dos ventos ao jogo permite explorar os conceitos de pontos cardeais, desde que sejam os mesmos aferidos devidamente com uma bussola. (Existem diferentes modalidades de jogos de armar que podem ser utilizados segundo as propostas sugeridas.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: acrescentar-se uma rosa dos ventos ao jogo
+        • Keyword: acrescentar rosa
+        • Keyword: cardeais
+        • Keyword: rosa ventos
+    - Ativações:
+        • score=0.4033, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: bussola
+    - Ativações:
+        • score=0.0825, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: existem diferentes modalidades
+        • Keyword: jogo permite explorar
+    - Ativações:
+        • score=0.2034, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: explorar conceitos
+        • Keyword: jogo permite explorar
+    - Ativações:
+        • score=0.2106, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: mesmos aferidos devidamente
+    - Ativações:
+        • score=0.1002, tipo=Secondary

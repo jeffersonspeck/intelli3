@@ -1,0 +1,184 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "sentados frente",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5577837302055494,
+      "relevance": 0.92
+    },
+    {
+      "role": "Keyword",
+      "text": "debate",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6735031290286707,
+      "relevance": 0.7371428571428571
+    },
+    {
+      "role": "Keyword",
+      "text": "frente frente",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.46640552940157765,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Alunos divididos em duplas, sentados frente a frente. Um aluno encarregado de cronometrar o debate.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "desenvolver argumento",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7983789556369598,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolver argumento",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7983789556369598,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "entremcando perguntas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7983789556369598,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "entremcando perguntas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7983789556369598,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "participante desenvolver",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7939846864466508,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "marcacao tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7468830140866441,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmo tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7341488900469232,
+      "relevance": 0.7125506072874495
+    },
+    {
+      "role": "Keyword",
+      "text": "falar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7269491148860481,
+      "relevance": 0.7307692307692308
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.8927125506072875
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8927125506072875
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8927125506072875
+    },
+    {
+      "role": "ContextObject",
+      "text": "tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9534412955465587
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "tempo estabelecido",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.80859375
+    },
+    {
+      "role": "Keyword",
+      "text": "apos tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ganha",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7392666354542629,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "raciocinio",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7392666354542629,
+      "relevance": 0.54296875
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "ganha ponto um dos oponentes, ou os dois",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "tempo estabelecido (20 a 30 segundos)",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.80859375
+    }
+  ]
+}

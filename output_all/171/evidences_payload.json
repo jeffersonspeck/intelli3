@@ -1,0 +1,118 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "usar bolas plasticas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7822921118076614,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "bolas plasticas gigantes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7822921118076614,
+      "relevance": 0.9863387978142076
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Usar bolas plasticas gigantes. As melhores sao as de inflar, com 12 gomos. O aluno devera jogar a bola, recebe-la de volta. Atira-la no chao, na parede c executar diversos movimentos.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "bolas plasticas gigantes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9863387978142076
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "estruture",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7899982113877012,
+      "relevance": 0.943609022556391
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolva limites",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7899982113877012,
+      "relevance": 0.8928571428571429
+    },
+    {
+      "role": "Keyword",
+      "text": "regras claras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7899982113877012,
+      "relevance": 0.8533834586466166
+    },
+    {
+      "role": "Keyword",
+      "text": "regras claras",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7899982113877012,
+      "relevance": 0.8533834586466166
+    },
+    {
+      "role": "Keyword",
+      "text": "estruture essa sequencia",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7899982113877012,
+      "relevance": 0.943609022556391
+    },
+    {
+      "role": "Keyword",
+      "text": "sequencia desenvolva",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7899982113877012,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "limites regras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7899982113877012,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "limites regras",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7899982113877012,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "claras acao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7899982113877012,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "[Lidice -- Bola Gigante]",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.5488721804511278
+    }
+  ]
+}

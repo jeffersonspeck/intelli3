@@ -1,0 +1,129 @@
+[Documento] urn:doc:117
+  - miVector: 4.32,1.57,11.17,0.00,19.35,56.71,0.00,6.88
+  - TOP (documento): Interpersonal (score=0.5671)
+  - Ranking (top 3):
+      • Interpersonal: 0.5671
+      • Bodily-Kinesthetic: 0.1935
+      • Spatial: 0.1117
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: pecas
+        • Keyword: criando inumeras situacoes
+        • Keyword: envolvam posicionamento
+        • Keyword: popular
+        • Keyword: posicionamento pecas
+        • Keyword: posicionar pecas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4932
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: deve ser estimulado a posicionar pecas
+        • Keyword: esquerda
+        • Keyword: estimulado posicionar
+        • Keyword: leste
+        • Keyword: nocoes direita
+        • Keyword: oeste
+        • Keyword: trabalhando nocoes
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3685
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: deve ser estimulado a posicionar pecas
+        • DiscursiveStrategy: interatividade entre essas historias envolvendo varios alunos.
+        • Keyword: cenas reproduzam
+        • Keyword: circunstancias imaginadas
+        • Keyword: criando inumeras situacoes
+        • Keyword: estimulado posicionar
+        • Keyword: individualmente
+        • Keyword: situacoes envolvam
+        • Keyword: tambem criar cenas
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=1.0000
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: consequente verbalizacao
+        • Keyword: trabalhando nocoes
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.0750
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: reproduzam fatos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0517
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: importante
+        • Keyword: opcoes educacionais
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2271
+
+
+[Documento — Fragmentos] urn:doc:117
+
+[Fragmento] Preparacao: O jogo existe no comercio e e muito popular. O importante e dar ao mes- mo, ao lado de sua finalidade recreativa, opcoes educacionais. Isto e possivel, criando inumeras situacoes que envolvam posicionamento das pecas e sua tca- tralizacao com a consequente verbalizacao.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: pecas
+        • Keyword: criando inumeras situacoes
+        • Keyword: envolvam posicionamento
+        • Keyword: popular
+        • Keyword: posicionamento pecas
+    - Ativações:
+        • score=0.4932, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: criando inumeras situacoes
+        • Keyword: situacoes envolvam
+    - Ativações:
+        • score=0.2047, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: consequente verbalizacao
+    - Ativações:
+        • score=0.0750, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: importante
+        • Keyword: opcoes educacionais
+    - Ativações:
+        • score=0.2271, tipo=Secondary
+
+[Fragmento] Utilizacao: O aluno (individualmente ou em grupo) deve ser estimulado a posicionar pecas (trabalhando nocoes de direita, esquerda, leste, oeste e outras) e tambem criar cenas que reproduzam fatos do cotidiano do aluno ou circunstancias imaginadas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: pecas
+        • Keyword: posicionar pecas
+    - Ativações:
+        • score=0.1454, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • DiscursiveStrategy: deve ser estimulado a posicionar pecas
+        • Keyword: esquerda
+        • Keyword: estimulado posicionar
+        • Keyword: leste
+        • Keyword: nocoes direita
+        • Keyword: oeste
+        • Keyword: trabalhando nocoes
+    - Ativações:
+        • score=0.3685, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: deve ser estimulado a posicionar pecas
+        • Keyword: cenas reproduzam
+        • Keyword: circunstancias imaginadas
+        • Keyword: estimulado posicionar
+        • Keyword: individualmente
+        • Keyword: tambem criar cenas
+    - Ativações:
+        • score=0.3667, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: trabalhando nocoes
+    - Ativações:
+        • score=0.0677, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: reproduzam fatos
+    - Ativações:
+        • score=0.0517, tipo=Secondary
+
+[Fragmento] E interessante a interatividade entre essas historias envolvendo va- rios alunos. (Existem no mercado: "Playmobil": [Trol] e muitos outros.)
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: interatividade entre essas historias envolvendo varios alunos.
+    - Ativações:
+        • score=1.0000, tipo=Primary

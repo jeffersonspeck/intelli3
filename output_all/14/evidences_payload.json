@@ -1,0 +1,112 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "folha papel",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.603953416945913,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "orientado transmitir",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "transmitir mensagem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "passa",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7519853838782325,
+      "relevance": 0.6968503937007874
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "O segundo aluno, orientado a transmitir a mensagem da forma como a entendeu, passa para o terceiro e assim ate o final da fila.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "possibilitando interessante debate",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8086112205220173,
+      "relevance": 0.8252279635258358
+    },
+    {
+      "role": "Keyword",
+      "text": "estrutura gramatical",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8000904539724389,
+      "relevance": 0.5319148936170213
+    },
+    {
+      "role": "Keyword",
+      "text": "dominio universo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7952680673717799,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "universo vocabular",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7904687395045042,
+      "relevance": 0.743161094224924
+    },
+    {
+      "role": "Keyword",
+      "text": "fluencia vocabular",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7904687395045042,
+      "relevance": 0.5683890577507599
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao escrito",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5527863247835019,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estudantes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7426318019719854,
+      "relevance": 0.6930091185410334
+    },
+    {
+      "role": "Keyword",
+      "text": "valor",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7137436069029298,
+      "relevance": 0.6717325227963526
+    }
+  ]
+}

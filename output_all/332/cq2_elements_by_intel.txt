@@ -1,0 +1,171 @@
+[Documento] urn:doc:332
+  - miVector: 16.96,17.53,0.00,4.49,2.31,14.44,7.38,36.88
+  - TOP (documento): Naturalist (score=0.3688)
+  - Ranking (top 3):
+      • Naturalist: 0.3688
+      • Logical-Mathematical: 0.1753
+      • Linguistic: 0.1696
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: ambientes damos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0993
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: autografos perceber
+        • Keyword: colegas assimem
+        • Keyword: discussao
+        • Keyword: participantes
+        • Keyword: pedindo
+        • Keyword: recebemos mais autografos
+        • Keyword: receber autografos
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3543
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: folha de papel em branco
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2441
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: anotar
+        • Keyword: anotar alto
+        • Keyword: autografos
+        • Keyword: identificar
+        • Keyword: perceptivel existe
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3442
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes
+        • Keyword: conquistar
+        • Keyword: encerra
+        • Keyword: existe maior facilidade
+        • Keyword: inicia
+        • Keyword: solicita
+        • Keyword: termina
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.3714
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: autografos
+        • Keyword: autografos deram
+        • Keyword: autografos obtidos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1932
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: folha
+        • ContextObject: folha de papel em branco
+        • ContextObject: folhas
+        • DiscursiveStrategy: conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes
+        • Keyword: espaco tempo
+        • Keyword: folha
+        • Keyword: folha papel
+        • Keyword: folhas maos
+        • Keyword: identificar
+        • Keyword: passado tempo
+        • Keyword: perceber casa
+        • Keyword: tempo estabelecido
+    - Ativações (doc): n=4, primárias=2, secundárias=2, max=0.4791
+
+
+[Documento — Fragmentos] urn:doc:332
+
+[Fragmento] Preparacao: Uma folha de papel em branco distribuida a cada aluno, que devera anotar ao alto e com letra de forma o seu nome. Lapis ou caneta para todos os participantes.
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: folha de papel em branco
+    - Ativações:
+        • score=0.2441, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: anotar
+        • Keyword: anotar alto
+    - Ativações:
+        • score=0.3442, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: folha de papel em branco
+        • Keyword: folha papel
+    - Ativações:
+        • score=0.4116, tipo=Primary
+
+[Fragmento] Utilizacao: Os alunos deverao conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes, pedindo que os colegas assimem seus nomes, de forma legivel, em sua folha.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: colegas assimem
+        • Keyword: participantes
+        • Keyword: pedindo
+    - Ativações:
+        • score=0.2668, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes
+        • Keyword: conquistar
+    - Ativações:
+        • score=0.2542, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: folha
+        • DiscursiveStrategy: conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes
+        • Keyword: espaco tempo
+        • Keyword: folha
+    - Ativações:
+        • score=0.4791, tipo=Primary
+
+[Fragmento] Inicia a atividade, lembrando que ao termina-la todos os alunos devem ter suas folhas em maos. Passado o tempo esta- belecido, encerra a atividade e solicita aos alunos que contem os autografos obtidos. Indaga a alguns alunos quantos autografos obtiveram e a outros, quantos autografos deram.
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: autografos
+    - Ativações:
+        • score=0.0730, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: encerra
+        • Keyword: inicia
+        • Keyword: solicita
+        • Keyword: termina
+    - Ativações:
+        • score=0.3714, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: autografos
+        • Keyword: autografos deram
+        • Keyword: autografos obtidos
+    - Ativações:
+        • score=0.1932, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: folhas
+        • Keyword: folhas maos
+        • Keyword: passado tempo
+        • Keyword: tempo estabelecido
+    - Ativações:
+        • score=0.3625, tipo=Secondary
+
+[Fragmento] E perceptivel que existe maior facilidade em se identificar as "conquistas" que as "ofertas" e essa situacao cria alternativas para uma discussao final sobre dar e receber autografos e perceber em casa, na escola e em outros ambientes se damos mais ou se recebemos mais autografos. 2517
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: ambientes damos
+    - Ativações:
+        • score=0.0993, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: autografos perceber
+        • Keyword: discussao
+        • Keyword: recebemos mais autografos
+        • Keyword: receber autografos
+    - Ativações:
+        • score=0.3543, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: identificar
+        • Keyword: perceptivel existe
+    - Ativações:
+        • score=0.2089, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: existe maior facilidade
+    - Ativações:
+        • score=0.1283, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: identificar
+        • Keyword: perceber casa
+    - Ativações:
+        • score=0.2092, tipo=Secondary

@@ -1,0 +1,166 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "preparar tabela",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "usadas enfeites",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "enfeites geladeiras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tabela metalica",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.9630681818181818
+    },
+    {
+      "role": "Keyword",
+      "text": "metalica adquirir",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "adquirir comercio",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "bichinhos flores",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "similar",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.69493671159956,
+      "relevance": 0.6079545454545454
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Preparar uma tabela metalica",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "bichinhos e flores me RE imantadas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8522727272727273
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "montar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7943133809382709,
+      "relevance": 0.9603960396039604
+    },
+    {
+      "role": "Keyword",
+      "text": "identificando conceitos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7766913521709135,
+      "relevance": 0.9183168316831684
+    },
+    {
+      "role": "Keyword",
+      "text": "identificando conceitos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7766913521709135,
+      "relevance": 0.9183168316831684
+    },
+    {
+      "role": "Keyword",
+      "text": "direita",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7508536425237274,
+      "relevance": 0.844059405940594
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7508536425237274,
+      "relevance": 0.8168316831683169
+    },
+    {
+      "role": "Keyword",
+      "text": "embaixo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7508536425237274,
+      "relevance": 0.7599009900990099
+    },
+    {
+      "role": "Keyword",
+      "text": "montar pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6935259338453358,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "criar historias envolvendo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6568505586036107,
+      "relevance": 0.7128712871287128
+    },
+    {
+      "role": "Keyword",
+      "text": "criar historias envolvendo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6568505586036107,
+      "relevance": 0.7128712871287128
+    },
+    {
+      "role": "Keyword",
+      "text": "arrumacao pecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6008544537958885,
+      "relevance": 0.75
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "reunidos duplas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7982340516177017,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "nao usando",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.79278292595753,
+      "relevance": 0.7267441860465116
+    },
+    {
+      "role": "Keyword",
+      "text": "nao usando",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.79278292595753,
+      "relevance": 0.7267441860465116
+    },
+    {
+      "role": "Keyword",
+      "text": "levar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.79278292595753,
+      "relevance": 0.939922480620155
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo levar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7848063114886799,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo levar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7848063114886799,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "construir mensagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7848063114886799,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tema proposto",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7534098853454495,
+      "relevance": 0.7558139534883721
+    },
+    {
+      "role": "Keyword",
+      "text": "circunscrito conteudos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.698598994757207,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "clima brasil",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7601906458978831,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolvendo mensagens corretas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7339138737088134,
+      "relevance": 0.8142857142857143
+    },
+    {
+      "role": "Keyword",
+      "text": "chuva",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6740810628705924,
+      "relevance": 0.6387755102040816
+    },
+    {
+      "role": "Keyword",
+      "text": "pressao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.48683632318431674,
+      "relevance": 0.5918367346938775
+    },
+    {
+      "role": "Keyword",
+      "text": "estados clima",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6654494046747751,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estados clima",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6654494046747751,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "escrevam",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6054306441370968,
+      "relevance": 0.8673469387755102
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "respostas mais completas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6860013772947977,
+      "relevance": 0.5726744186046512
+    },
+    {
+      "role": "ContextObject",
+      "text": "mensagens",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.8982558139534884
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "bases madeira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8003814415925466,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "montar trilho",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7798184159353404,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "faze los caminhar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7380095244230376,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "proceder",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7380095244230376,
+      "relevance": 0.6820175438596492
+    },
+    {
+      "role": "Keyword",
+      "text": "proceder faze los",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7380095244230376,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "frente",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.46577217164247203,
+      "relevance": 0.5767543859649122
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Montar um trilho de cerca de 10 a 15cm de largura, apoiado em duas bases de madeira ou tijolos, a cerca de 20cm do chao. Mostrar aos alunos como proceder e faze-los caminhar sobre o trilho, de frente, depois de costas e de lado.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "trilho",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9780701754385965
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "olhos vendados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5680616117525256,
+      "relevance": 0.8714285714285714
+    },
+    {
+      "role": "Keyword",
+      "text": "repetir experiencia",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7865468470419585,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "aproveitar recurso",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6705290314637299,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "trilho",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6682644071235653,
+      "relevance": 0.6946428571428571
+    },
+    {
+      "role": "ContextObject",
+      "text": "Trilho [Q.I.]",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.5267857142857143
+    }
+  ]
+}

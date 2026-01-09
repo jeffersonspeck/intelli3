@@ -1,0 +1,128 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "preparar ilustracoes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8046953693804269,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "unam atraves",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8025846536641282,
+      "relevance": 0.5494505494505495
+    },
+    {
+      "role": "Keyword",
+      "text": "recorta las maneira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8025846536641282,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "encaixe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7581105062207849,
+      "relevance": 0.5146520146520146
+    },
+    {
+      "role": "ContextObject",
+      "text": "cartoes com muitas associacoes (15cm x 10cm) lado a lado (por exemplo: vaso / regador -- ninho / passarinho -- abelha / colmeia e outras)",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.9084249084249084
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "encaixe vaso",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7762017144320831,
+      "relevance": 0.7925764192139738
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7089339755714668,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Preparar mais de um encaixe para essas situacoes, de maneira que seja possivel, por exemplo, o encaixe vaso / ninho e outros. A atividade dos alunos, individualmente ou em duplas ou trios, e unir as pecas construindo associacoes.",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "encaixe vaso / ninho",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.7925764192139738
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "desenvolver sentido",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.77981139181212,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estimulando relato",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.77981139181212,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "relato diferentes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.762044508716067,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "corretas encaixes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.4986583521345952,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.8188405797101449
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.8188405797101449
+    }
+  ]
+}

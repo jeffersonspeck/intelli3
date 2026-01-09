@@ -1,0 +1,332 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "reunir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7956510328288792,
+      "relevance": 0.9330708661417323
+    },
+    {
+      "role": "Keyword",
+      "text": "variedade revistas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7956510328288792,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "variedade revistas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7956510328288792,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "raciocinio dedutivo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8007718512455606,
+      "relevance": 0.7981366459627329
+    },
+    {
+      "role": "Keyword",
+      "text": "nao sabem ler",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5783352258995715,
+      "relevance": 0.9347826086956522
+    },
+    {
+      "role": "Keyword",
+      "text": "sentido historia",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8007718512455606,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "sentido historia",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8007718512455606,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "buscar sentido",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.796257151885529,
+      "relevance": 0.5838509316770186
+    },
+    {
+      "role": "Keyword",
+      "text": "observar ilustracoes",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.796257151885529,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "observar ilustracoes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.796257151885529,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ilustracoes buscar",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.796257151885529,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "observar as ilustracoes e buscar sentido na historia",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.6645962732919255
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "observar as ilustracoes e buscar sentido na historia",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.6645962732919255
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "observar as ilustracoes e buscar sentido na historia",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.6645962732919255
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "mostrar passos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.793353066605835,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mostrar passos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.793353066605835,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "iniciar contato",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7856139120141874,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "interpretacao sao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7856139120141874,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "graficos palavras",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "elementos pictoricos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.7305194805194806
+    },
+    {
+      "role": "Keyword",
+      "text": "simbolos graficos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.6006493506493507
+    },
+    {
+      "role": "Keyword",
+      "text": "simbolos graficos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.6006493506493507
+    },
+    {
+      "role": "Keyword",
+      "text": "pictoricos ilustracao",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "leitura",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5431005550231679,
+      "relevance": 0.922077922077922
+    },
+    {
+      "role": "ContextObject",
+      "text": "gibis",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8831168831168831
+    }
+  ],
+  "4": [
+    {
+      "role": "Keyword",
+      "text": "quadrinhos antecipadamente desordenados",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.8089056480366266,
+      "relevance": 0.8934426229508197
+    },
+    {
+      "role": "Keyword",
+      "text": "transformem historias originais",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.8083527355121557,
+      "relevance": 0.810304449648712
+    },
+    {
+      "role": "Keyword",
+      "text": "transformem historias originais",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8083527355121557,
+      "relevance": 0.810304449648712
+    },
+    {
+      "role": "Keyword",
+      "text": "criando personagens",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8043216406589009,
+      "relevance": 0.6135831381733021
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolvendo argumentos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.8043216406589009,
+      "relevance": 0.5889929742388759
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolvendo argumentos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8043216406589009,
+      "relevance": 0.5889929742388759
+    },
+    {
+      "role": "Keyword",
+      "text": "proprios gibis",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.8015266320924415,
+      "relevance": 0.6323185011709602
+    },
+    {
+      "role": "Keyword",
+      "text": "estabelecendo roteiros",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8015266320924415,
+      "relevance": 0.5585480093676816
+    },
+    {
+      "role": "Keyword",
+      "text": "conteudo ligado",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.797355861194416,
+      "relevance": 0.7564402810304449
+    },
+    {
+      "role": "Keyword",
+      "text": "colocacao ordem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.797355861194416,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "construam proprios",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.797355861194416,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "roteiros completando",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.797355861194416,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estimulando",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7474202549235809,
+      "relevance": 0.6978922716627635
+    }
+  ]
+}

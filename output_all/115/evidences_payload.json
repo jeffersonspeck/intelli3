@@ -1,0 +1,256 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "caixa contendo arames",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8075585672312627,
+      "relevance": 0.7283950617283951
+    },
+    {
+      "role": "Keyword",
+      "text": "plasticos coloridos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8008475603851333,
+      "relevance": 0.8950617283950617
+    },
+    {
+      "role": "Keyword",
+      "text": "varias cores",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7963672097529566,
+      "relevance": 0.6512345679012346
+    },
+    {
+      "role": "Keyword",
+      "text": "tamanhos variaveis",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7963672097529566,
+      "relevance": 0.6018518518518519
+    },
+    {
+      "role": "Keyword",
+      "text": "cores tamanhos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.575154095932691,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "arames revestidos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7921652551465548,
+      "relevance": 0.9598765432098766
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar arames",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7814195904133662,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar arames",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7814195904133662,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "arames varias",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7688255534512567,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "geometricas variadas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.891459074733096
+    },
+    {
+      "role": "Keyword",
+      "text": "reproduzir linhas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.8523131672597865
+    },
+    {
+      "role": "Keyword",
+      "text": "linhas desenhos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "letras numeros",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "produzir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.9199288256227758
+    },
+    {
+      "role": "Keyword",
+      "text": "produzir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.9199288256227758
+    },
+    {
+      "role": "Keyword",
+      "text": "produzir formas geometricas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.9199288256227758
+    },
+    {
+      "role": "Keyword",
+      "text": "relaciona las contando historias",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.554743117802615,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "oculos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7648729717220949,
+      "relevance": 0.7313167259786477
+    },
+    {
+      "role": "Keyword",
+      "text": "lacos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7648729717220949,
+      "relevance": 0.7170818505338079
+    },
+    {
+      "role": "Keyword",
+      "text": "flores",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7361723495339088,
+      "relevance": 0.7455516014234875
+    },
+    {
+      "role": "Keyword",
+      "text": "flores",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7361723495339088,
+      "relevance": 0.7455516014234875
+    },
+    {
+      "role": "Keyword",
+      "text": "colares",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7361723495339088,
+      "relevance": 0.7046263345195729
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.9199288256227758
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9199288256227758
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9199288256227758
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "montar cidades",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.9014598540145985
+    },
+    {
+      "role": "Keyword",
+      "text": "jogos montar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "amplia estudo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6344556261554457,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estudo posicoes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6344556261554457,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "montar cidades e sitios em miniatura",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9014598540145985
+    },
+    {
+      "role": "ContextObject",
+      "text": "jogos de montar cidades e sitios em miniatura",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.49725,
+      "relevance": 0.9343065693430657
+    }
+  ]
+}

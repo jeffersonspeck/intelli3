@@ -1,0 +1,152 @@
+[Documento] urn:doc:146
+  - miVector: 15.00,11.43,3.67,11.98,47.27,1.57,0.00,9.08
+  - TOP (documento): Bodily-Kinesthetic (score=0.4727)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4727
+      • Linguistic: 0.1500
+      • Musical: 0.1198
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: chocalho
+        • DiscursiveStrategy: balancar do chocalho pelos alunos, acompanhando o ritmo da palavra
+        • DiscursiveStrategy: Ir, progressivamente, aumentando o numero de silabas das palavras e estimular os movimentos com o chocalho.
+        • Keyword: balancar chocalho
+        • Keyword: chocalho pelos
+        • Keyword: colegas movimentem
+        • Keyword: fita colante
+        • Keyword: grampeador fita
+        • Keyword: movimentem chocalho
+        • Keyword: movimentos
+        • Keyword: reunir copinhos
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7694
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: numero silabas
+        • Keyword: sorteando figuras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1210
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: chocalho ritmicamente
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0519
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Ir, progressivamente, aumentando o numero de silabas das palavras e estimular os movimentos com o chocalho.
+        • Keyword: numero silabas
+        • Keyword: palavras pronunciadas
+        • Keyword: pronuncia las
+        • Keyword: pronunciadas pelo
+        • Keyword: silabas palavras
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3127
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: aumentando numero
+        • Keyword: batidas quantas forem
+        • Keyword: estabelecer associacoes
+        • Keyword: forem palavras
+        • Keyword: mesmo numero
+        • Keyword: numero batidas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3021
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: chocalho
+        • DiscursiveStrategy: balancar do chocalho pelos alunos, acompanhando o ritmo da palavra
+        • Keyword: acompanhando ritmo
+        • Keyword: chocalho ritmicamente
+        • Keyword: palavras pronunciadas
+        • Keyword: ritmo palavra
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2566
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: chocalhos feijao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2306
+
+
+[Documento — Fragmentos] urn:doc:146
+
+[Fragmento] Preparacao: Reunir copinhos de iogurte (danoninho) e com grampeador e fita colante fazer chocalhos com feijao, milho ou pedrinhas dentro.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: fita colante
+        • Keyword: grampeador fita
+        • Keyword: reunir copinhos
+    - Ativações:
+        • score=0.7694, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: chocalhos feijao
+    - Ativações:
+        • score=0.2306, tipo=Secondary
+
+[Fragmento] Utilizacao: Estabelecer associacoes entre as silabas das palavras pronunciadas pelo pro- fessor e o balancar do chocalho pelos alunos, acompanhando o ritmo da pala- vra, procurando dar o mesmo numero de batidas quantas forem as palavras pronunciadas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: chocalho
+        • DiscursiveStrategy: balancar do chocalho pelos alunos, acompanhando o ritmo da palavra
+        • Keyword: balancar chocalho
+        • Keyword: chocalho pelos
+    - Ativações:
+        • score=0.2591, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: palavras pronunciadas
+        • Keyword: pronunciadas pelo
+        • Keyword: silabas palavras
+    - Ativações:
+        • score=0.1822, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: batidas quantas forem
+        • Keyword: estabelecer associacoes
+        • Keyword: forem palavras
+        • Keyword: mesmo numero
+        • Keyword: numero batidas
+    - Ativações:
+        • score=0.3021, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: balancar do chocalho pelos alunos, acompanhando o ritmo da palavra
+        • Keyword: acompanhando ritmo
+        • Keyword: palavras pronunciadas
+        • Keyword: ritmo palavra
+    - Ativações:
+        • score=0.2566, tipo=Secondary
+
+[Fragmento] Ir, progressivamente, aumentando o numero de silabas das pa- lavras e estimular os movimentos com o chocalho. O professor pode ser substi- tuido por alunos que, sorteando figuras, devem pronuncia-las para que os cole- gas movimentem o chocalho ritmicamente.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: Ir, progressivamente, aumentando o numero de silabas das palavras e estimular os movimentos com o chocalho.
+        • Keyword: colegas movimentem
+        • Keyword: movimentem chocalho
+        • Keyword: movimentos
+    - Ativações:
+        • score=0.3004, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: numero silabas
+        • Keyword: sorteando figuras
+    - Ativações:
+        • score=0.1210, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: chocalho ritmicamente
+    - Ativações:
+        • score=0.0519, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: Ir, progressivamente, aumentando o numero de silabas das palavras e estimular os movimentos com o chocalho.
+        • Keyword: numero silabas
+        • Keyword: pronuncia las
+        • Keyword: silabas palavras
+    - Ativações:
+        • score=0.3127, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: aumentando numero
+    - Ativações:
+        • score=0.0751, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: chocalho
+        • Keyword: chocalho ritmicamente
+    - Ativações:
+        • score=0.1388, tipo=Secondary

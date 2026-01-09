@@ -1,0 +1,136 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "olhem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7218391893069378,
+      "relevance": 0.7765957446808511
+    },
+    {
+      "role": "Keyword",
+      "text": "olhos vendados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5087188342063389,
+      "relevance": 0.5319148936170213
+    },
+    {
+      "role": "Keyword",
+      "text": "olhem percebam",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6696951429508027,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "percebam detalhes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6696951429508027,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "descobrir",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7563704360012868,
+      "relevance": 0.8049999999999999
+    },
+    {
+      "role": "Keyword",
+      "text": "descrevendo caracteristicas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7093028711002425,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "descrevendo caracteristicas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7093028711002425,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "capacidade administracao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7093028711002425,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "caracteristicas fisicas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6825698408400227,
+      "relevance": 0.7150000000000001
+    },
+    {
+      "role": "Keyword",
+      "text": "caracteristicas fisicas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6825698408400227,
+      "relevance": 0.7150000000000001
+    },
+    {
+      "role": "Keyword",
+      "text": "temperamento",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6167065875346668,
+      "relevance": 0.6433333333333333
+    },
+    {
+      "role": "Keyword",
+      "text": "automotivacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6167065875346668,
+      "relevance": 0.6133333333333333
+    },
+    {
+      "role": "ContextObject",
+      "text": "aluno",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.995
+    },
+    {
+      "role": "ContextObject",
+      "text": "aluno",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.995
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "circulo debates",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.5088757458759724,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "atividade no heteroconhecimento",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.7772277227722773
+    }
+  ]
+}

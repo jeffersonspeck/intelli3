@@ -1,0 +1,61 @@
+[Documento] urn:doc:5
+  - miVector: 11.86,14.47,0.00,10.89,40.16,16.25,0.00,6.38
+  - TOP (documento): Bodily-Kinesthetic (score=0.4016)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4016
+      • Interpersonal: 0.1625
+      • Logical-Mathematical: 0.1447
+
+[Fragmento] Preparacao: Cartolina, lapis de cor, tesoura, cola, regua, revistas. Utilizacao: Os alunos sao divididos em dois grupos e cada um deles deve selecionar em revistas diferentes figuras dentro de uma ordem estabelecida pelo professor, colando em cartolina e recortando-as de maneira a formar pequenas cartas de baralho.
+  - Bodily-Kinesthetic (via activation, score=0.7824)
+  - Logical-Mathematical (via activation, score=0.2176)
+  - Cinestésico-corporal (via activation, score=0.7824)
+  - Lógico-matemática (via activation, score=0.2176)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Iniciado o jogo, cada aluno escolhe uma de suas cartas e mostra ao gru- po adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta. Conseguindo, ganha um ponto e e sua vez de escolhar a carta e propor aos adversarios igual problema.
+  - Bodily-Kinesthetic (via activation, score=0.1919)
+  - Interpersonal (via activation, score=0.3032)
+  - Linguistic (via activation, score=0.2330)
+  - Logical-Mathematical (via activation, score=0.1946)
+  - Musical (via activation, score=0.0773)
+  - Cinestésico-corporal (via activation, score=0.1919)
+  - Interpessoal (via activation, score=0.3032)
+  - Linguística (via activation, score=0.2330)
+  - Lógico-matemática (via activation, score=0.1946)
+  - Musical (via activation, score=0.0773)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+
+[Fragmento] O professor vai regis- trando os pontos na lousa e, em determinado momento, pode passar de duas para tres ou dois montes, um para cada grupo, propondo mais rimas. Caso pre- fira, pode selecionar as cartas e fazer a sua apresentacao. 50
+  - Bodily-Kinesthetic (via activation, score=0.1161)
+  - Interpersonal (via activation, score=0.2329)
+  - Linguistic (via activation, score=0.1583)
+  - Musical (via activation, score=0.2822)
+  - Naturalist (via activation, score=0.2105)
+  - Cinestésico-corporal (via activation, score=0.1161)
+  - Interpessoal (via activation, score=0.2329)
+  - Linguística (via activation, score=0.1583)
+  - Musical (via activation, score=0.2822)
+  - Naturalista (via activation, score=0.2105)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Musical (via element)
+  - Naturalista (via element)

@@ -1,0 +1,86 @@
+[Documento] urn:doc:180
+  - miVector: 0.00,18.77,12.28,0.00,56.16,12.78,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5616)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5616
+      • Logical-Mathematical: 0.1877
+      • Interpersonal: 0.1278
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela]
+        • DiscursiveStrategy: aprender a abrir e fechar portas, guardar objetos em diferentes compartimentos, abrir portas conforme orientacao do professor
+        • Keyword: fazendo pequeno
+        • Keyword: fechar portas
+        • Keyword: guardar objetos
+        • Keyword: maleta coordenacao
+        • Keyword: marceneiro
+        • Keyword: pequeno armario
+        • Keyword: servico
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.5662
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: diferentes compartimentos
+        • Keyword: esquerda
+        • Keyword: situando direita
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2825
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves.
+        • Keyword: havendo dificuldade
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2262
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • ContextObject: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela]
+        • DiscursiveStrategy: havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves.
+        • Keyword: maleta coordenacao
+        • Keyword: verificar portas
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2158
+
+
+[Documento — Fragmentos] urn:doc:180
+
+[Fragmento] Preparacao: Solicitar o servico de um marceneiro, fazendo um pequeno armario com varias portas e diferentes fechaduras. Havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: fazendo pequeno
+        • Keyword: marceneiro
+        • Keyword: pequeno armario
+        • Keyword: servico
+    - Ativações:
+        • score=0.5581, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves.
+        • Keyword: havendo dificuldade
+    - Ativações:
+        • score=0.2262, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: havendo dificuldade, verificar portas que possam ser usadas pelos alunos para experimentar o uso de chaves.
+        • Keyword: verificar portas
+    - Ativações:
+        • score=0.2158, tipo=Secondary
+
+[Fragmento] Utilizacao: O aluno deve aprender a abrir e fechar portas, guardar objetos em diferen- tes compartimentos, abrir portas conforme orientacao do professor, situando-as a direita, a esquerda, ao centro e outros. (Existem no comercio: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela].)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela]
+        • DiscursiveStrategy: aprender a abrir e fechar portas, guardar objetos em diferentes compartimentos, abrir portas conforme orientacao do professor
+        • Keyword: fechar portas
+        • Keyword: guardar objetos
+        • Keyword: maleta coordenacao
+    - Ativações:
+        • score=0.5662, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: diferentes compartimentos
+        • Keyword: esquerda
+        • Keyword: situando direita
+    - Ativações:
+        • score=0.2825, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • ContextObject: Maleta de Coordenacao [Acrilu] -- Casa das Chaves [Estrela]
+        • Keyword: maleta coordenacao
+    - Ativações:
+        • score=0.1513, tipo=Secondary

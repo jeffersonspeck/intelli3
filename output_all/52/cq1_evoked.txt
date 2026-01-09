@@ -1,0 +1,49 @@
+[Documento] urn:doc:52
+  - miVector: 0.00,12.90,13.21,0.00,45.23,0.00,0.00,28.67
+  - TOP (documento): Bodily-Kinesthetic (score=0.4523)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4523
+      • Naturalist: 0.2867
+      • Spatial: 0.1321
+
+[Fragmento] Preparacao: O jogo e constituido de um tabuleiro com figuras vazadas e pecas que se encaixam nesses espacos, representando animais, como patos, borboletas e outros.
+  - Bodily-Kinesthetic (via activation, score=0.3753)
+  - Naturalist (via activation, score=0.3568)
+  - Spatial (via activation, score=0.2679)
+  - Cinestésico-corporal (via activation, score=0.3753)
+  - Espacial-visual (via activation, score=0.2679)
+  - Naturalista (via activation, score=0.3568)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Os alunos devem retirar as pecas do tabuleiro, separar animais diferentes conforme seus conjuntos, comparar tamanhos e indicar os "grandes", "pequenos", e os "medios".
+  - Bodily-Kinesthetic (via activation, score=0.2389)
+  - Logical-Mathematical (via activation, score=0.2790)
+  - Naturalist (via activation, score=0.4822)
+  - Cinestésico-corporal (via activation, score=0.2389)
+  - Lógico-matemática (via activation, score=0.2790)
+  - Naturalista (via activation, score=0.4822)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Devem depois encaixar as pecas no tabuleiro, observando seus ta- manhos e serem capazes, mais tarde, de executar tarefas como as de encaixar ou retirar do tabuleiro as pecas "medias", "grandes" ou "pequenas". (Existe no mercado -- Tabuleiro de Encaixe -- Uki-Uki.)
+  - Bodily-Kinesthetic (via activation, score=0.7658)
+  - Logical-Mathematical (via activation, score=0.1466)
+  - Spatial (via activation, score=0.0876)
+  - Cinestésico-corporal (via activation, score=0.7658)
+  - Espacial-visual (via activation, score=0.0876)
+  - Lógico-matemática (via activation, score=0.1466)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)

@@ -1,0 +1,14 @@
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <urn:doc:262#frag-003> ;
+            sh:resultMessage "ExplanationFragment deve possuir pelo menos uma ligação semântica (usesElement) ou uma ativação (hasActivation)."@pt ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:OrConstraintComponent ;
+            sh:sourceShape onto:ExplanationFragmentShape ;
+            sh:value <urn:doc:262#frag-003> ] .
+

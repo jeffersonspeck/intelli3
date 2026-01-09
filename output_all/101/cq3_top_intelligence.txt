@@ -1,0 +1,22 @@
+[Documento] urn:doc:101
+  - miVector: 2.80,11.24,15.70,0.00,30.53,0.00,0.00,39.73
+  - TOP (documento): Naturalist (score=0.3973)
+  - Ranking (top 3):
+      • Naturalist: 0.3973
+      • Bodily-Kinesthetic: 0.3053
+      • Spatial: 0.1570
+
+
+[Documento — Fragmentos] urn:doc:101
+
+[Fragmento] Preparacao: Usar duas garrafas plasticas e duas tampas de potes de creme ou maionese ajustadas a abertura das garrafas. Papel-cartao resistente, com um circulo pequeno. Cortar as garrafas no sentido horizontal, unir os gargalos, colocando entre eles um circulo de cartao perfurado.
+  > TOP: Cinestésico-corporal (score=0.6446, tipo=Primary)
+
+[Fragmento] Colocar areia fina, colorida com anilina, formando uma ampulheta (procurar um modelo em uma ilustracao).
+  > TOP: Naturalista (score=0.4346, tipo=Primary)
+
+[Fragmento] Utilizacao: Essa ampulheta deve ser usada para marcar o tempo e os alunos devem observar a passagem da areia de uma metade da garrafa para outra, associando esse tempo com atividades que estao desenvolvendo. Leva-los a associar o tempo as divisoes do dia e da noite.
+  > TOP: Naturalista (score=0.6268, tipo=Primary)
+
+[Fragmento] Mostrar quantos pingos caem de uma torneira semifechada em um espaco de tempo e outras multiplas atividades. (Existe no comercio -- ampulhetas de vidro podem ser adquiridas em lojas de decoracao.)
+  > TOP: Naturalista (score=0.5166, tipo=Primary)

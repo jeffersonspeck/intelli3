@@ -1,0 +1,175 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:101#evid-000-00-maionese-ajustadas> a onto:Keyword ;
+    rdfs:label "maionese ajustadas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-000-01-tampas-potes> a onto:Keyword ;
+    rdfs:label "tampas potes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-000-02-ajustadas-abertura> a onto:Keyword ;
+    rdfs:label "ajustadas abertura"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-000-03-garrafas-plasticas> a onto:Keyword ;
+    rdfs:label "garrafas plasticas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:101#evid-000-04-usar> a onto:Keyword ;
+    rdfs:label "usar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-000-05-usar> a onto:Keyword ;
+    rdfs:label "usar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:101#evid-000-06-usar-duas-garrafas> a onto:Keyword ;
+    rdfs:label "usar duas garrafas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:101#evid-000-07-unir-gargalos> a onto:Keyword ;
+    rdfs:label "unir gargalos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-000-08-usar-duas-garrafas-plasticas-e-d> a onto:DiscursiveStrategy ;
+    rdfs:label "Usar duas garrafas plasticas e duas tampas de potes de creme ou maionese ajustadas a abertura das garrafas. Papel-cartao resistente, com um circulo pequeno. …"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-001-00-procurar-modelo> a onto:Keyword ;
+    rdfs:label "procurar modelo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-001-01-ilustracao> a onto:Keyword ;
+    rdfs:label "ilustracao"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:101#evid-001-02-areia-fina-colorida-com-anilina> a onto:ContextObject ;
+    rdfs:label "areia fina, colorida com anilina"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#evid-001-03-ilustracao> a onto:ContextObject ;
+    rdfs:label "ilustracao"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:101#evid-002-00-observar> a onto:Keyword ;
+    rdfs:label "observar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#evid-002-01-usada-marcar> a onto:Keyword ;
+    rdfs:label "usada marcar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-002-02-observar-passagem> a onto:Keyword ;
+    rdfs:label "observar passagem"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#evid-002-03-marcar-tempo> a onto:Keyword ;
+    rdfs:label "marcar tempo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-002-04-marcar-tempo> a onto:Keyword ;
+    rdfs:label "marcar tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#evid-002-05-associando-esse-tempo> a onto:Keyword ;
+    rdfs:label "associando esse tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#evid-002-06-ampulheta> a onto:Keyword ;
+    rdfs:label "ampulheta"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:101#evid-002-07-os-alunos-devem-observar-a-passa> a onto:DiscursiveStrategy ;
+    rdfs:label "os alunos devem observar a passagem da areia de uma metade da garrafa para outra"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#evid-003-00-mostrar-quantos-pingos> a onto:Keyword ;
+    rdfs:label "mostrar quantos pingos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:101#evid-003-01-pingos-caem> a onto:Keyword ;
+    rdfs:label "pingos caem"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:101#evid-003-02-espaco-tempo> a onto:Keyword ;
+    rdfs:label "espaco tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#evid-003-03-ampulhetas-vidro> a onto:Keyword ;
+    rdfs:label "ampulhetas vidro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#evid-003-04-mostrar-quantos-pingos-caem-de-u> a onto:DiscursiveStrategy ;
+    rdfs:label "Mostrar quantos pingos caem de uma torneira semifechada em um espaco de tempo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:101#evid-003-05-mostrar-quantos-pingos-caem-de-u> a onto:DiscursiveStrategy ;
+    rdfs:label "Mostrar quantos pingos caem de uma torneira semifechada em um espaco de tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#evid-003-06-ampulhetas-de-vidro> a onto:ContextObject ;
+    rdfs:label "ampulhetas de vidro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:101#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Usar duas garrafas plasticas e duas tampas de potes de creme ou maionese ajustadas a abertura das garrafas. Papel-cartao resistente, com um circulo pequeno. Cortar as garrafas no sentido horizontal, unir os gargalos, colocando entre eles um circulo de cartao perfurado."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:101> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:101#evid-000-00-maionese-ajustadas>,
+        <urn:doc:101#evid-000-01-tampas-potes>,
+        <urn:doc:101#evid-000-02-ajustadas-abertura>,
+        <urn:doc:101#evid-000-03-garrafas-plasticas>,
+        <urn:doc:101#evid-000-04-usar>,
+        <urn:doc:101#evid-000-05-usar>,
+        <urn:doc:101#evid-000-06-usar-duas-garrafas>,
+        <urn:doc:101#evid-000-07-unir-gargalos>,
+        <urn:doc:101#evid-000-08-usar-duas-garrafas-plasticas-e-d> .
+
+<urn:doc:101#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Colocar areia fina, colorida com anilina, formando uma ampulheta (procurar um modelo em uma ilustracao)."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:101> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:101#evid-001-00-procurar-modelo>,
+        <urn:doc:101#evid-001-01-ilustracao>,
+        <urn:doc:101#evid-001-02-areia-fina-colorida-com-anilina>,
+        <urn:doc:101#evid-001-03-ilustracao> .
+
+<urn:doc:101#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Essa ampulheta deve ser usada para marcar o tempo e os alunos devem observar a passagem da areia de uma metade da garrafa para outra, associando esse tempo com atividades que estao desenvolvendo. Leva-los a associar o tempo as divisoes do dia e da noite."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:101> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:101#evid-002-00-observar>,
+        <urn:doc:101#evid-002-01-usada-marcar>,
+        <urn:doc:101#evid-002-02-observar-passagem>,
+        <urn:doc:101#evid-002-03-marcar-tempo>,
+        <urn:doc:101#evid-002-04-marcar-tempo>,
+        <urn:doc:101#evid-002-05-associando-esse-tempo>,
+        <urn:doc:101#evid-002-06-ampulheta>,
+        <urn:doc:101#evid-002-07-os-alunos-devem-observar-a-passa> .
+
+<urn:doc:101#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Mostrar quantos pingos caem de uma torneira semifechada em um espaco de tempo e outras multiplas atividades. (Existe no comercio -- ampulhetas de vidro podem ser adquiridas em lojas de decoracao.)"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:101> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:101#evid-003-00-mostrar-quantos-pingos>,
+        <urn:doc:101#evid-003-01-pingos-caem>,
+        <urn:doc:101#evid-003-02-espaco-tempo>,
+        <urn:doc:101#evid-003-03-ampulhetas-vidro>,
+        <urn:doc:101#evid-003-04-mostrar-quantos-pingos-caem-de-u>,
+        <urn:doc:101#evid-003-05-mostrar-quantos-pingos-caem-de-u>,
+        <urn:doc:101#evid-003-06-ampulhetas-de-vidro> .
+
+<urn:doc:101> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:101#frag-000>,
+        <urn:doc:101#frag-001>,
+        <urn:doc:101#frag-002>,
+        <urn:doc:101#frag-003> .
+

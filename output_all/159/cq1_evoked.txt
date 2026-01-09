@@ -1,0 +1,59 @@
+[Documento] urn:doc:159
+  - miVector: 12.60,19.87,4.64,1.37,10.62,4.18,0.00,46.71
+  - TOP (documento): Naturalist (score=0.4671)
+  - Ranking (top 3):
+      • Naturalist: 0.4671
+      • Logical-Mathematical: 0.1987
+      • Linguistic: 0.1260
+
+[Fragmento] Preparacao: Adquirir em casas de caca e pesca pios de aves em pecas de madeira. Esses pios costumam ser utilizados por cacadores para atrair aves. Utilizacao: Existe uma enorme multiplicidade para o uso do jogo.
+  - Bodily-Kinesthetic (via activation, score=0.3557)
+  - Interpersonal (via activation, score=0.1799)
+  - Naturalist (via activation, score=0.4644)
+  - Cinestésico-corporal (via activation, score=0.3557)
+  - Interpessoal (via activation, score=0.1799)
+  - Naturalista (via activation, score=0.4644)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Os alunos podem, por exemplo, ser levados a descobrir o habitat e os habitos da especie e identifi- car sua beleza.
+  - Naturalist (via activation, score=0.8004)
+  - Spatial (via activation, score=0.1996)
+  - Espacial-visual (via activation, score=0.1996)
+  - Naturalista (via activation, score=0.8004)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Naturalista (via element)
+
+[Fragmento] Os pios podem abrigar progressivo dominio da diversidade dessas especies e a experiencia pode, em etapas mais avancadas, levar os alunos a identificar esses e outros sons em uma excursao por um bosque ou mesmo em uma visita a uma praca onde existam arvores e passaros.
+  - Bodily-Kinesthetic (via activation, score=0.1011)
+  - Logical-Mathematical (via activation, score=0.0963)
+  - Musical (via activation, score=0.0589)
+  - Naturalist (via activation, score=0.7436)
+  - Cinestésico-corporal (via activation, score=0.1011)
+  - Lógico-matemática (via activation, score=0.0963)
+  - Musical (via activation, score=0.0589)
+  - Naturalista (via activation, score=0.7436)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] (Existem pios em lojas que comerciam artigos de caca e pesca.)
+  - Linguistic (via activation, score=0.4168)
+  - Logical-Mathematical (via activation, score=0.5832)
+  - Linguística (via activation, score=0.4168)
+  - Lógico-matemática (via activation, score=0.5832)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)

@@ -1,0 +1,163 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:52#evid-000-00-representando-animais> a onto:Keyword ;
+    rdfs:label "representando animais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:52#evid-000-01-encaixam-nesses-espacos> a onto:Keyword ;
+    rdfs:label "encaixam nesses espacos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-000-02-figuras-vazadas> a onto:Keyword ;
+    rdfs:label "figuras vazadas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:52#evid-000-03-tabuleiro-figuras> a onto:Keyword ;
+    rdfs:label "tabuleiro figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:52#evid-000-04-pecas-que-se-encaixam-nesses-esp> a onto:ContextObject ;
+    rdfs:label "pecas que se encaixam nesses espacos, representando animais, como patos, borboletas e outros"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-000-05-pecas-que-se-encaixam-nesses-esp> a onto:ContextObject ;
+    rdfs:label "pecas que se encaixam nesses espacos, representando animais, como patos, borboletas e outros"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:52#evid-001-00-separar-animais-diferentes> a onto:Keyword ;
+    rdfs:label "separar animais diferentes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:52#evid-001-01-retirar> a onto:Keyword ;
+    rdfs:label "retirar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-001-02-animais-diferentes-conforme> a onto:Keyword ;
+    rdfs:label "animais diferentes conforme"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:52#evid-001-03-comparar-tamanhos> a onto:Keyword ;
+    rdfs:label "comparar tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:52#evid-001-04-pecas-tabuleiro> a onto:Keyword ;
+    rdfs:label "pecas tabuleiro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:52#evid-001-05-conforme-conjuntos> a onto:Keyword ;
+    rdfs:label "conforme conjuntos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:52#evid-001-06-retirar-pecas> a onto:Keyword ;
+    rdfs:label "retirar pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-001-07-tamanhos-indicar> a onto:Keyword ;
+    rdfs:label "tamanhos indicar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:52#evid-001-08-pecas-do-tabuleiro> a onto:ContextObject ;
+    rdfs:label "pecas do tabuleiro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:52#evid-002-00-serem-capazes> a onto:Keyword ;
+    rdfs:label "serem capazes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-002-01-observando-tamanhos> a onto:Keyword ;
+    rdfs:label "observando tamanhos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:52#evid-002-02-observando-tamanhos> a onto:Keyword ;
+    rdfs:label "observando tamanhos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-002-03-executar> a onto:Keyword ;
+    rdfs:label "executar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:52#evid-002-04-encaixar> a onto:Keyword ;
+    rdfs:label "encaixar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-002-05-medias> a onto:Keyword ;
+    rdfs:label "medias"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:52#evid-002-06-pecas> a onto:Keyword ;
+    rdfs:label "pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-002-07-encaixar-pecas> a onto:Keyword ;
+    rdfs:label "encaixar pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-002-08-encaixar-retirar> a onto:Keyword ;
+    rdfs:label "encaixar retirar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-002-09-tabuleiro-pecas> a onto:Keyword ;
+    rdfs:label "tabuleiro pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-002-10-tabuleiro-encaixe> a onto:Keyword ;
+    rdfs:label "tabuleiro encaixe"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#evid-002-11-tabuleiro-de-encaixe----uki-uki> a onto:ContextObject ;
+    rdfs:label "Tabuleiro de Encaixe -- Uki-Uki"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:52#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo e constituido de um tabuleiro com figuras vazadas e pecas que se encaixam nesses espacos, representando animais, como patos, borboletas e outros."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:52> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:52#evid-000-00-representando-animais>,
+        <urn:doc:52#evid-000-01-encaixam-nesses-espacos>,
+        <urn:doc:52#evid-000-02-figuras-vazadas>,
+        <urn:doc:52#evid-000-03-tabuleiro-figuras>,
+        <urn:doc:52#evid-000-04-pecas-que-se-encaixam-nesses-esp>,
+        <urn:doc:52#evid-000-05-pecas-que-se-encaixam-nesses-esp> .
+
+<urn:doc:52#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem retirar as pecas do tabuleiro, separar animais diferentes conforme seus conjuntos, comparar tamanhos e indicar os \"grandes\", \"pequenos\", e os \"medios\"."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:52> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:52#evid-001-00-separar-animais-diferentes>,
+        <urn:doc:52#evid-001-01-retirar>,
+        <urn:doc:52#evid-001-02-animais-diferentes-conforme>,
+        <urn:doc:52#evid-001-03-comparar-tamanhos>,
+        <urn:doc:52#evid-001-04-pecas-tabuleiro>,
+        <urn:doc:52#evid-001-05-conforme-conjuntos>,
+        <urn:doc:52#evid-001-06-retirar-pecas>,
+        <urn:doc:52#evid-001-07-tamanhos-indicar>,
+        <urn:doc:52#evid-001-08-pecas-do-tabuleiro> .
+
+<urn:doc:52#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Devem depois encaixar as pecas no tabuleiro, observando seus ta- manhos e serem capazes, mais tarde, de executar tarefas como as de encaixar ou retirar do tabuleiro as pecas \"medias\", \"grandes\" ou \"pequenas\". (Existe no mercado -- Tabuleiro de Encaixe -- Uki-Uki.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:52> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:52#evid-002-00-serem-capazes>,
+        <urn:doc:52#evid-002-01-observando-tamanhos>,
+        <urn:doc:52#evid-002-02-observando-tamanhos>,
+        <urn:doc:52#evid-002-03-executar>,
+        <urn:doc:52#evid-002-04-encaixar>,
+        <urn:doc:52#evid-002-05-medias>,
+        <urn:doc:52#evid-002-06-pecas>,
+        <urn:doc:52#evid-002-07-encaixar-pecas>,
+        <urn:doc:52#evid-002-08-encaixar-retirar>,
+        <urn:doc:52#evid-002-09-tabuleiro-pecas>,
+        <urn:doc:52#evid-002-10-tabuleiro-encaixe>,
+        <urn:doc:52#evid-002-11-tabuleiro-de-encaixe----uki-uki> .
+
+<urn:doc:52> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:52#frag-000>,
+        <urn:doc:52#frag-001>,
+        <urn:doc:52#frag-002> .
+

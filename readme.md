@@ -375,6 +375,12 @@ python run_batch.py --s2-graph instances
 python3 run_batch.py --source-dir source --out-dir output --lang-hint pt   --cleaners "ftfy,clean_text,pdf_breaks"   --lid-primary fasttext --lid-fallback none --languages "pt,en,es"   --nlp-size md --paragraph-min-chars 60 --lid-min-chars 60   --split-max-chars 900 --split-min-chars 250   --force-title --title-scan-k 5 --title-max-chars 160   --onto ontomi.ttl --s2-graph instances   --theta 0.75 --w-keyword 1.00 --w-context 1.25 --w-strategy 1.10   --s5-scope both --s5-norm l1 --s5-tau 1.0   --alpha-title 1.30 --alpha-body 1.00 --s5-vec-places 4   --s7-inference rdfs
 ```
 
+### 8) more lines
+
+```bash
+python3 run_batch.py --source-dir source --out-dir output --lang-hint pt   --cleaners "ftfy,clean_text,pdf_breaks"   --lid-primary fasttext --lid-fallback none --languages "pt,en,es"   --nlp-size md --paragraph-min-chars 20 --lid-min-chars 30   --split-max-chars 300 --split-min-chars 80   --force-title --title-scan-k 5 --title-max-chars 160   --onto ontomi.ttl --s2-graph instances   --theta 0.75 --w-keyword 1.00 --w-context 1.25 --w-strategy 1.10   --s5-scope both --s5-norm l1 --s5-tau 1.0   --alpha-title 1.30 --alpha-body 1.00 --s5-vec-places 4   --s7-inference rdfs
+```
+
 ---
 
 ## Outputs and telemetry

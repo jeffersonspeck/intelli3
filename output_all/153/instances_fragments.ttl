@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:153#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir ou improvisar uma serie de instrumentos musicais simples (pan- deiro, atabaque, surdo, ganza, chocalho e outros)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:153> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:153#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor pode criar uma historia simples, onde diferentes elementos da mesma deverao ser substituidos pela emissao de um som; assim ao ler a historia e pronunciar, por exemplo, bosque, o pandeiro deve ser brandido, a palavra lago corresponde ao som do chocalho e assim por diante."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:153> ;
+    dct:type "body" .
+
+<urn:doc:153#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Progressivamente a historia pode ir ganhando maior complexidade e participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical. (Existem instrumentos musicais no comercio.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:153> ;
+    dct:type "body" .
+
+<urn:doc:153> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:153#frag-000>,
+        <urn:doc:153#frag-001>,
+        <urn:doc:153#frag-002> .
+

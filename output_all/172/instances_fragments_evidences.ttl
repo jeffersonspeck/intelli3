@@ -1,0 +1,71 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:172#evid-000-00-textura-diferente> a onto:Keyword ;
+    rdfs:label "textura diferente"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:172#evid-000-01-preparar-dez-cartelas> a onto:Keyword ;
+    rdfs:label "preparar dez cartelas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:172#evid-000-02-cartelas-pares> a onto:Keyword ;
+    rdfs:label "cartelas pares"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:172#evid-000-03-olhos-vendados> a onto:Keyword ;
+    rdfs:label "olhos vendados"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:172#evid-000-04-procurar> a onto:Keyword ;
+    rdfs:label "procurar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:172#evid-000-05-cartelas> a onto:ContextObject ;
+    rdfs:label "cartelas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:172#evid-000-06-par> a onto:ContextObject ;
+    rdfs:label "par"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:172#evid-000-07-textura-diferente> a onto:ContextObject ;
+    rdfs:label "textura diferente"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:172#evid-001-00-conseguirem-maior-numero> a onto:Keyword ;
+    rdfs:label "conseguirem maior numero"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:172#evid-001-01-maior-numero-de-pontos> a onto:ContextObject ;
+    rdfs:label "maior numero de pontos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:172#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar dez cartelas, divididas em par, cada uma tendo ao fundo uma textura diferente. Algumas podem ser forradas de la, outras de seda, outras ainda de feltro, lixa ou outro material. Utilizacao: Os alunos, com os olhos vendados, devem procurar as cartelas pares."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:172> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:172#evid-000-00-textura-diferente>,
+        <urn:doc:172#evid-000-01-preparar-dez-cartelas>,
+        <urn:doc:172#evid-000-02-cartelas-pares>,
+        <urn:doc:172#evid-000-03-olhos-vendados>,
+        <urn:doc:172#evid-000-04-procurar>,
+        <urn:doc:172#evid-000-05-cartelas>,
+        <urn:doc:172#evid-000-06-par>,
+        <urn:doc:172#evid-000-07-textura-diferente> .
+
+<urn:doc:172#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Vence a equipe cujos componentes conseguirem maior numero de pontos."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:172> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:172#evid-001-00-conseguirem-maior-numero>,
+        <urn:doc:172#evid-001-01-maior-numero-de-pontos> .
+
+<urn:doc:172> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:172#frag-000>,
+        <urn:doc:172#frag-001> .
+

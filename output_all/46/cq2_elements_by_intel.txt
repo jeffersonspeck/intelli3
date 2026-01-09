@@ -1,0 +1,76 @@
+[Documento] urn:doc:46
+  - miVector: 0.00,10.84,29.47,0.00,41.38,0.00,18.30,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4138)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4138
+      • Spatial: 0.2947
+      • Intrapersonal: 0.1830
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: aneis devem estar espalhados fora do pino
+        • Keyword: diferentes aneis furados
+        • Keyword: improvisar pino
+        • Keyword: ser encaixados
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.8224
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: formar piramide
+        • Keyword: piramide aneis
+        • Keyword: piramide multiforme
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5354
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: Piramide de aneis / Piramide multiforme -- Coluna
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4646
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: crescente
+        • Keyword: diferentes tamanhos
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1802
+
+
+[Documento — Fragmentos] urn:doc:46
+
+[Fragmento] Preparacao: Improvisar um pino em uma base de madeira e diferentes aneis furados que devem ser encaixados. Esses aneis sao de diferentes tamanhos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: diferentes aneis furados
+        • Keyword: improvisar pino
+        • Keyword: ser encaixados
+    - Ativações:
+        • score=0.8224, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: diferentes tamanhos
+    - Ativações:
+        • score=0.1776, tipo=Secondary
+
+[Fragmento] Utilizacao: Os aneis devem estar espalhados fora do pino e a tarefa dos alunos sera a de encaixa-los, comparando os aneis entre si, identificando os "grandes" e os "pequenos" e formar uma piramide, encaixando os aneis em forma crescente.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: aneis devem estar espalhados fora do pino
+    - Ativações:
+        • score=0.5432, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: formar piramide
+    - Ativações:
+        • score=0.2766, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: crescente
+    - Ativações:
+        • score=0.1802, tipo=Secondary
+
+[Fragmento] (Existe no mercado -- Piramide de aneis / Piramide multiforme -- Coluna)
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: piramide aneis
+        • Keyword: piramide multiforme
+    - Ativações:
+        • score=0.5354, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: Piramide de aneis / Piramide multiforme -- Coluna
+    - Ativações:
+        • score=0.4646, tipo=Secondary

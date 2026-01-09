@@ -1,0 +1,9 @@
+Validation Report
+Conforms: False
+Results (1):
+Constraint Violation in OrConstraintComponent (http://www.w3.org/ns/shacl#OrConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: onto:ExplanationFragmentShape
+	Focus Node: <urn:doc:334#frag-003>
+	Value Node: <urn:doc:334#frag-003>
+	Message: ExplanationFragment deve possuir pelo menos uma ligação semântica (usesElement) ou uma ativação (hasActivation).

@@ -1,0 +1,157 @@
+[Documento] urn:doc:142
+  - miVector: 3.29,32.96,0.00,13.01,21.24,8.71,10.55,10.24
+  - TOP (documento): Logical-Mathematical (score=0.3296)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3296
+      • Bodily-Kinesthetic: 0.2124
+      • Musical: 0.1301
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Batidas com a mao aberta, com a mao fechada, com a baqueta, correndo os dedos sobre a pele do instrumento ou batendo com as unhas obtem-se grande variedade d…
+        • Keyword: baqueta
+        • Keyword: batidas
+        • Keyword: corpo madeira
+        • Keyword: correndo dedos
+        • Keyword: dominando identificando
+        • Keyword: improvisar surdo
+        • Keyword: instrumento batendo
+        • Keyword: mao aberta
+        • Keyword: mao fechada
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.7535
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: possivel improvisar-se um surdo
+        • Keyword: dominando identificando
+        • Keyword: escola dispor
+        • Keyword: tipos sons
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.1599
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: uma baqueta ou pedaco de pau para a percussao
+        • Keyword: tipos sons
+        • Keyword: variedade sons
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3717
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: descobrir
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1415
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: instrumento musical
+        • Keyword: olhos vendados amplia
+        • Keyword: uso
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=1.0000
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: diferentes tipos
+        • Keyword: musical percussao
+        • Keyword: obtidos instrumento
+        • Keyword: percussao
+        • Keyword: percussao constituido
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3545
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: animal plastica
+        • Keyword: pele animal
+        • Keyword: pele instrumento
+        • Keyword: recoberto
+        • Keyword: tecido lona
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3582
+
+
+[Documento — Fragmentos] urn:doc:142
+
+[Fragmento] Preparacao: A escola deve dispor de um surdo, instrumento musical de percussao consti- tuido de um corpo de madeira ou de metal de 40cm x 30cm, recoberto com uma pele animal ou plastica. Um pandeiro surte o mesmo efeito e com um tecido de lona e possivel improvisar-se um surdo.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: corpo madeira
+        • Keyword: improvisar surdo
+    - Ativações:
+        • score=0.1596, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: possivel improvisar-se um surdo
+        • Keyword: escola dispor
+    - Ativações:
+        • score=0.1599, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: instrumento musical
+    - Ativações:
+        • score=0.1171, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: musical percussao
+        • Keyword: percussao constituido
+    - Ativações:
+        • score=0.2051, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: animal plastica
+        • Keyword: pele animal
+        • Keyword: recoberto
+        • Keyword: tecido lona
+    - Ativações:
+        • score=0.3582, tipo=Primary
+
+[Fragmento] Uma baqueta ou pedaco de pau para a percussao. Utilizacao: Os alunos devem ser estimulados a "descobrir" os diferentes tipos de sons que podem ser obtidos do instrumento.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: tipos sons
+    - Ativações:
+        • score=0.1323, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: uma baqueta ou pedaco de pau para a percussao
+        • Keyword: tipos sons
+    - Ativações:
+        • score=0.3717, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: descobrir
+    - Ativações:
+        • score=0.1415, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: diferentes tipos
+        • Keyword: obtidos instrumento
+        • Keyword: percussao
+    - Ativações:
+        • score=0.3545, tipo=Secondary
+
+[Fragmento] Batidas com a mao aberta, com a mao fechada, com a baqueta, correndo os dedos sobre a pele do instrumento ou batendo com as unhas obtem-se grande variedade de sons que os alunos devem, progressivamente, ir dominando e identificando.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: Batidas com a mao aberta, com a mao fechada, com a baqueta, correndo os dedos sobre a pele do instrumento ou batendo com as unhas obtem-se grande variedade d…
+        • Keyword: baqueta
+        • Keyword: batidas
+        • Keyword: correndo dedos
+        • Keyword: dominando identificando
+        • Keyword: instrumento batendo
+        • Keyword: mao aberta
+        • Keyword: mao fechada
+    - Ativações:
+        • score=0.7535, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: dominando identificando
+    - Ativações:
+        • score=0.0823, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: variedade sons
+    - Ativações:
+        • score=0.0821, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: pele instrumento
+    - Ativações:
+        • score=0.0821, tipo=Secondary
+
+[Fragmento] O uso da atividade com os alunos com olhos vendados amplia o limite da experiencia. (Existe no comercio, de inumeros fabricantes.)
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: olhos vendados amplia
+        • Keyword: uso
+    - Ativações:
+        • score=1.0000, tipo=Primary

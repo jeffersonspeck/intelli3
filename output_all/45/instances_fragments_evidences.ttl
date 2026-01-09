@@ -1,0 +1,86 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:45#evid-000-00-jogo-cubos> a onto:Keyword ;
+    rdfs:label "jogo cubos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:45#evid-000-01-tentar-empilha-las> a onto:Keyword ;
+    rdfs:label "tentar empilha las"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:45#evid-000-02-enfileirar> a onto:Keyword ;
+    rdfs:label "enfileirar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:45#evid-000-03-observar-regras> a onto:Keyword ;
+    rdfs:label "observar regras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:45#evid-000-04-garrafas-de-plastico-de-tamanhos> a onto:ContextObject ;
+    rdfs:label "garrafas de plastico de tamanhos bem diferentes ou cubos de madeira"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:45#evid-001-00-posteriores-separar> a onto:Keyword ;
+    rdfs:label "posteriores separar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:45#evid-001-01-maiores-menores> a onto:Keyword ;
+    rdfs:label "maiores menores"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:45#evid-001-02-comparando-tamanhos> a onto:Keyword ;
+    rdfs:label "comparando tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:45#evid-001-03-separar-garrafas> a onto:Keyword ;
+    rdfs:label "separar garrafas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:45#evid-001-04-tamanhos-verbalizando> a onto:Keyword ;
+    rdfs:label "tamanhos verbalizando"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:45#evid-001-05-verbalizando-conceitos> a onto:Keyword ;
+    rdfs:label "verbalizando conceitos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:45#evid-001-06-cubos-encaixe> a onto:Keyword ;
+    rdfs:label "cubos encaixe"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:45#evid-001-07-6-cubos-de-encaixe> a onto:ContextObject ;
+    rdfs:label "6 Cubos de encaixe"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:45#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Nome Jogo dos cubos 5 a 6 garrafas de plastico de tamanhos bem diferentes ou cubos de madeira. Utilizacao: Os alunos deverao enfileirar as garrafas sem observar regras, tentar empi- lha-las."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:45> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:45#evid-000-00-jogo-cubos>,
+        <urn:doc:45#evid-000-01-tentar-empilha-las>,
+        <urn:doc:45#evid-000-02-enfileirar>,
+        <urn:doc:45#evid-000-03-observar-regras>,
+        <urn:doc:45#evid-000-04-garrafas-de-plastico-de-tamanhos> .
+
+<urn:doc:45#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Em oportunidades posteriores devem separar as garrafas maiores das menores, comparando os tamanhos e verbalizando os conceitos de \"grande\" e de \"pequeno\". (Existe no mercado -- Cubos [6 Cubos de encaixe e outros.)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:45> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:45#evid-001-00-posteriores-separar>,
+        <urn:doc:45#evid-001-01-maiores-menores>,
+        <urn:doc:45#evid-001-02-comparando-tamanhos>,
+        <urn:doc:45#evid-001-03-separar-garrafas>,
+        <urn:doc:45#evid-001-04-tamanhos-verbalizando>,
+        <urn:doc:45#evid-001-05-verbalizando-conceitos>,
+        <urn:doc:45#evid-001-06-cubos-encaixe>,
+        <urn:doc:45#evid-001-07-6-cubos-de-encaixe> .
+
+<urn:doc:45> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:45#frag-000>,
+        <urn:doc:45#frag-001> .
+

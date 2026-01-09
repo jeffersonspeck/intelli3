@@ -1,0 +1,116 @@
+[Documento] urn:doc:144
+  - miVector: 24.39,21.16,25.29,12.19,11.81,0.00,0.00,5.15
+  - TOP (documento): Spatial (score=0.2529)
+  - Ranking (top 3):
+      • Spatial: 0.2529
+      • Linguistic: 0.2439
+      • Logical-Mathematical: 0.2116
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: embalagens
+        • Keyword: materiais diferentes
+        • Keyword: misturar varias embalagens
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1796
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: formar, duas a duas, embalagens de filme com materiais diferentes. Colar uma letra ou um numero em cada uma das embalagens.
+        • Keyword: embalagens
+        • Keyword: embalagens filmes
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6419
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Procure depois em outra embalagem
+        • Keyword: procure
+        • Keyword: recurso auditivo
+        • Keyword: uso recurso
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.6339
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente ide…
+        • Keyword: conteudos embalagens
+        • Keyword: descobrir
+        • Keyword: descobrir conteudos
+        • Keyword: filmes fotografia
+        • Keyword: recurso auditivo
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4431
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: mesmo som
+        • Keyword: som produzido
+        • Keyword: uso instrumento
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3661
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente ide…
+        • Keyword: conteudos embalagens
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1701
+
+
+[Documento — Fragmentos] urn:doc:144
+
+[Fragmento] Preparacao: Oito a dez embalagens de filmes de fotografia, pregos, pedrinhas, grampos, botoes. Formar, duas a duas, embalagens de filme com materiais diferentes. Colar uma letra ou um numero em cada uma das embalagens.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: materiais diferentes
+    - Ativações:
+        • score=0.1617, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • DiscursiveStrategy: formar, duas a duas, embalagens de filme com materiais diferentes. Colar uma letra ou um numero em cada uma das embalagens.
+        • Keyword: embalagens
+        • Keyword: embalagens filmes
+    - Ativações:
+        • score=0.6419, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: filmes fotografia
+    - Ativações:
+        • score=0.1964, tipo=Secondary
+
+[Fragmento] Utilizacao: Os alunos, individualmente ou em dupla, devem descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente identificar o som produzido.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: embalagens
+        • Keyword: misturar varias embalagens
+    - Ativações:
+        • score=0.1796, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: recurso auditivo
+        • Keyword: uso recurso
+    - Ativações:
+        • score=0.1710, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente ide…
+        • Keyword: conteudos embalagens
+        • Keyword: descobrir
+        • Keyword: descobrir conteudos
+        • Keyword: recurso auditivo
+    - Ativações:
+        • score=0.4431, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: som produzido
+    - Ativações:
+        • score=0.0362, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente ide…
+        • Keyword: conteudos embalagens
+    - Ativações:
+        • score=0.1701, tipo=Secondary
+
+[Fragmento] Procure depois em outra embalagem que identifica o mesmo som. Existem inumeras etapas para a continuidade do uso do instrumento. O professor deve criar programas diferentes e anotar os resultados obtidos pelos alunos nessas diferentes etapas.
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: Procure depois em outra embalagem
+        • Keyword: procure
+    - Ativações:
+        • score=0.6339, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: mesmo som
+        • Keyword: uso instrumento
+    - Ativações:
+        • score=0.3661, tipo=Secondary

@@ -1,0 +1,35 @@
+[Documento] urn:doc:48
+  - miVector: 0.00,36.05,0.00,9.17,31.93,0.00,0.00,22.86
+  - TOP (documento): Logical-Mathematical (score=0.3605)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3605
+      • Bodily-Kinesthetic: 0.3193
+      • Naturalist: 0.2286
+
+[Fragmento] Preparacao: Selecionar oito garrafas de plastico, cortar a 1o com 15cm de altura, as ou- tras com 12,5cm, 10cm, 7cm, 5,25cm, 5cm, 4,0cm e 3,5cm. De acabamento com fitas colantes nas beiradas.
+  - Bodily-Kinesthetic (via activation, score=0.5649)
+  - Logical-Mathematical (via activation, score=0.1499)
+  - Musical (via activation, score=0.1622)
+  - Naturalist (via activation, score=0.1230)
+  - Cinestésico-corporal (via activation, score=0.5649)
+  - Lógico-matemática (via activation, score=0.1499)
+  - Musical (via activation, score=0.1622)
+  - Naturalista (via activation, score=0.1230)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Os alunos devem ordenar as garrafas em tamanho, formando diferentes composicoes, agrupando as de tamanhos quase iguais ou diferentes, ordenan- do-as em fileiras, da menor para a maior e da maior para a menor. (Existem no mercado jogos com pinos de madeira -- Coluna e outros.)
+  - Logical-Mathematical (via activation, score=0.6342)
+  - Naturalist (via activation, score=0.3658)
+  - Lógico-matemática (via activation, score=0.6342)
+  - Naturalista (via activation, score=0.3658)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

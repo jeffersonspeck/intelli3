@@ -1,0 +1,16 @@
+[Documento] urn:doc:254
+  - miVector: 0.00,0.00,0.00,18.54,0.00,34.70,0.00,46.76
+  - TOP (documento): Naturalist (score=0.4676)
+  - Ranking (top 3):
+      • Naturalist: 0.4676
+      • Interpersonal: 0.3470
+      • Musical: 0.1854
+
+
+[Documento — Fragmentos] urn:doc:254
+
+[Fragmento] Preparacao: O professor procurara reunir varios gravadores e dara uma fita a cada gru- po em uma excursao. Os grupos devem se distanciar uns dos outros e gravar naturais sons anotando suas possiveis origens.
+  > TOP: Naturalista (score=0.5736, tipo=Primary)
+
+[Fragmento] Utilizacao: Quando cada grupo trouxer sua fita, estabeleca trocas ce invente jogos para ao local das gravacoes e conferir os sons ao natural.
+  > TOP: Interpessoal (score=0.6140, tipo=Primary)

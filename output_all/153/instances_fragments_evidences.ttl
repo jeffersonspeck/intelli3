@@ -1,0 +1,153 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:153#evid-000-00-instrumentos-musicais-simples> a onto:Keyword ;
+    rdfs:label "instrumentos musicais simples"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-01-reunir-improvisar> a onto:Keyword ;
+    rdfs:label "reunir improvisar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:153#evid-000-02-improvisar-serie> a onto:Keyword ;
+    rdfs:label "improvisar serie"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:153#evid-000-03-serie-instrumentos> a onto:Keyword ;
+    rdfs:label "serie instrumentos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:153#evid-000-04-chocalho> a onto:Keyword ;
+    rdfs:label "chocalho"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-000-05-pandeiro-atabaque-surdo-ganza-ch> a onto:ContextObject ;
+    rdfs:label "(pandeiro, atabaque, surdo, ganza, chocalho e outros)"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-001-00-palavra-lago-corresponde> a onto:Keyword ;
+    rdfs:label "palavra lago corresponde"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:153#evid-001-01-historia-simples> a onto:Keyword ;
+    rdfs:label "historia simples"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:153#evid-001-02-diferentes-elementos> a onto:Keyword ;
+    rdfs:label "diferentes elementos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:153#evid-001-03-pode-criar> a onto:Keyword ;
+    rdfs:label "pode criar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:153#evid-001-04-ser-substituidos> a onto:Keyword ;
+    rdfs:label "ser substituidos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:153#evid-001-05-substituidos-pela-emissao> a onto:Keyword ;
+    rdfs:label "substituidos pela emissao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:153#evid-001-06-historia-pronunciar> a onto:Keyword ;
+    rdfs:label "historia pronunciar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:153#evid-001-07-som-chocalho> a onto:Keyword ;
+    rdfs:label "som chocalho"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-001-08-criar-historia> a onto:Keyword ;
+    rdfs:label "criar historia"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:153#evid-001-09-ler-historia> a onto:Keyword ;
+    rdfs:label "ler historia"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:153#evid-001-10-corresponde-som> a onto:Keyword ;
+    rdfs:label "corresponde som"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-001-11-brandido> a onto:Keyword ;
+    rdfs:label "brandido"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:153#evid-002-00-oral-pela-musical> a onto:Keyword ;
+    rdfs:label "oral pela musical"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-002-01-participacao-integral> a onto:Keyword ;
+    rdfs:label "participacao integral"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:153#evid-002-02-existem-instrumentos-musicais> a onto:Keyword ;
+    rdfs:label "existem instrumentos musicais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:153#evid-002-03-musicais-comercio> a onto:Keyword ;
+    rdfs:label "musicais comercio"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-002-04-participacao-integral-dos-alunos> a onto:DiscursiveStrategy ;
+    rdfs:label "participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:153#evid-002-05-participacao-integral-dos-alunos> a onto:DiscursiveStrategy ;
+    rdfs:label "participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:153#evid-002-06-instrumentos-musicais-no-comerci> a onto:ContextObject ;
+    rdfs:label "instrumentos musicais no comercio"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:153#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Reunir ou improvisar uma serie de instrumentos musicais simples (pan- deiro, atabaque, surdo, ganza, chocalho e outros)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:153> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:153#evid-000-00-instrumentos-musicais-simples>,
+        <urn:doc:153#evid-000-01-reunir-improvisar>,
+        <urn:doc:153#evid-000-02-improvisar-serie>,
+        <urn:doc:153#evid-000-03-serie-instrumentos>,
+        <urn:doc:153#evid-000-04-chocalho>,
+        <urn:doc:153#evid-000-05-pandeiro-atabaque-surdo-ganza-ch> .
+
+<urn:doc:153#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor pode criar uma historia simples, onde diferentes elementos da mesma deverao ser substituidos pela emissao de um som; assim ao ler a historia e pronunciar, por exemplo, bosque, o pandeiro deve ser brandido, a palavra lago corresponde ao som do chocalho e assim por diante."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:153> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:153#evid-001-00-palavra-lago-corresponde>,
+        <urn:doc:153#evid-001-01-historia-simples>,
+        <urn:doc:153#evid-001-02-diferentes-elementos>,
+        <urn:doc:153#evid-001-03-pode-criar>,
+        <urn:doc:153#evid-001-04-ser-substituidos>,
+        <urn:doc:153#evid-001-05-substituidos-pela-emissao>,
+        <urn:doc:153#evid-001-06-historia-pronunciar>,
+        <urn:doc:153#evid-001-07-som-chocalho>,
+        <urn:doc:153#evid-001-08-criar-historia>,
+        <urn:doc:153#evid-001-09-ler-historia>,
+        <urn:doc:153#evid-001-10-corresponde-som>,
+        <urn:doc:153#evid-001-11-brandido> .
+
+<urn:doc:153#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Progressivamente a historia pode ir ganhando maior complexidade e participacao integral dos alunos em sua estrutura, chegando-se a substituicao da linguagem oral pela musical. (Existem instrumentos musicais no comercio.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:153> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:153#evid-002-00-oral-pela-musical>,
+        <urn:doc:153#evid-002-01-participacao-integral>,
+        <urn:doc:153#evid-002-02-existem-instrumentos-musicais>,
+        <urn:doc:153#evid-002-03-musicais-comercio>,
+        <urn:doc:153#evid-002-04-participacao-integral-dos-alunos>,
+        <urn:doc:153#evid-002-05-participacao-integral-dos-alunos>,
+        <urn:doc:153#evid-002-06-instrumentos-musicais-no-comerci> .
+
+<urn:doc:153> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:153#frag-000>,
+        <urn:doc:153#frag-001>,
+        <urn:doc:153#frag-002> .
+

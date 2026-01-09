@@ -1,0 +1,35 @@
+[Documento] urn:doc:160
+  - miVector: 6.38,0.00,0.00,25.94,25.87,0.00,0.00,41.81
+  - TOP (documento): Naturalist (score=0.4181)
+  - Ranking (top 3):
+      • Naturalist: 0.4181
+      • Musical: 0.2594
+      • Bodily-Kinesthetic: 0.2587
+
+[Fragmento] Utilizacao: Mostrar aos alunos o compasso existente no tique-taque de um desperta- dor, nas batidas de uma construcao ou do deslocamento de um trem. Procurar mostrar esse compasso com uma sineta, imitando com a mesma o tique-taque do relogio e outros compassos.
+  - Linguistic (via activation, score=0.1468)
+  - Musical (via activation, score=0.4127)
+  - Naturalist (via activation, score=0.4405)
+  - Linguística (via activation, score=0.1468)
+  - Musical (via activation, score=0.4127)
+  - Naturalista (via activation, score=0.4405)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Linguística (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] Solicitar aos alunos que imitem com a sineta esses compassos. (Existem sinetas em casas de comercio.) 147
+  - Bodily-Kinesthetic (via activation, score=0.4577)
+  - Musical (via activation, score=0.1414)
+  - Naturalist (via activation, score=0.4009)
+  - Cinestésico-corporal (via activation, score=0.4577)
+  - Musical (via activation, score=0.1414)
+  - Naturalista (via activation, score=0.4009)
+  - Bodily-Kinesthetic (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Musical (via element)
+  - Naturalista (via element)

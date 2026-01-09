@@ -1,0 +1,103 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:124#evid-000-00-preparar-ilustracoes> a onto:Keyword ;
+    rdfs:label "preparar ilustracoes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:124#evid-000-01-unam-atraves> a onto:Keyword ;
+    rdfs:label "unam atraves"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:124#evid-000-02-recorta-las-maneira> a onto:Keyword ;
+    rdfs:label "recorta las maneira"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:124#evid-000-03-encaixe> a onto:Keyword ;
+    rdfs:label "encaixe"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:124#evid-000-04-cartoes-com-muitas-associacoes-1> a onto:ContextObject ;
+    rdfs:label "cartoes com muitas associacoes (15cm x 10cm) lado a lado (por exemplo: vaso / regador -- ninho / passarinho -- abelha / colmeia e outras)"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:124#evid-001-00-encaixe-vaso> a onto:Keyword ;
+    rdfs:label "encaixe vaso"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:124#evid-001-01-preparar> a onto:Keyword ;
+    rdfs:label "preparar"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:124#evid-001-02-preparar-mais-de-um-encaixe-para> a onto:DiscursiveStrategy ;
+    rdfs:label "Preparar mais de um encaixe para essas situacoes, de maneira que seja possivel, por exemplo, o encaixe vaso / ninho e outros. A atividade dos alunos, individ…"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:124#evid-001-03-encaixe-vaso--ninho> a onto:ContextObject ;
+    rdfs:label "encaixe vaso / ninho"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:124#evid-002-00-desenvolver-sentido> a onto:Keyword ;
+    rdfs:label "desenvolver sentido"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:124#evid-002-01-estimulando-relato> a onto:Keyword ;
+    rdfs:label "estimulando relato"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:124#evid-002-02-relato-diferentes> a onto:Keyword ;
+    rdfs:label "relato diferentes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:124#evid-002-03-corretas-encaixes> a onto:Keyword ;
+    rdfs:label "corretas encaixes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:124#evid-002-04-desenvolver-o-sentido-dessas-ass> a onto:DiscursiveStrategy ;
+    rdfs:label "desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:124#evid-002-05-desenvolver-o-sentido-dessas-ass> a onto:DiscursiveStrategy ;
+    rdfs:label "desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:124#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar com ilustracoes de revistas uma serie de cartoes com muitas associacoes (15cm x 10cm) lado a lado (por exemplo: vaso / regador -- ninho / passarinho -- abelha / colmeia e outras) e recorta-las de maneira a permitir que as duas partes se unam atraves de um encaixe."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:124> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:124#evid-000-00-preparar-ilustracoes>,
+        <urn:doc:124#evid-000-01-unam-atraves>,
+        <urn:doc:124#evid-000-02-recorta-las-maneira>,
+        <urn:doc:124#evid-000-03-encaixe>,
+        <urn:doc:124#evid-000-04-cartoes-com-muitas-associacoes-1> .
+
+<urn:doc:124#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Preparar mais de um encaixe para essas situacoes, de maneira que seja possivel, por exemplo, o encaixe vaso / ninho e outros. Utilizacao: A atividade dos alunos, individualmente ou em duplas ou trios, e unir as pecas construindo associacoes."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:124> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:124#evid-001-00-encaixe-vaso>,
+        <urn:doc:124#evid-001-01-preparar>,
+        <urn:doc:124#evid-001-02-preparar-mais-de-um-encaixe-para>,
+        <urn:doc:124#evid-001-03-encaixe-vaso--ninho> .
+
+<urn:doc:124#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Como essas construcoes sao possiveis com associa- coes corretas e encaixes em situacoes nao corretas, desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las. (Existem no comercio: jogos e dominos para associacao de ideias.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:124> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:124#evid-002-00-desenvolver-sentido>,
+        <urn:doc:124#evid-002-01-estimulando-relato>,
+        <urn:doc:124#evid-002-02-relato-diferentes>,
+        <urn:doc:124#evid-002-03-corretas-encaixes>,
+        <urn:doc:124#evid-002-04-desenvolver-o-sentido-dessas-ass>,
+        <urn:doc:124#evid-002-05-desenvolver-o-sentido-dessas-ass> .
+
+<urn:doc:124> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:124#frag-000>,
+        <urn:doc:124#frag-001>,
+        <urn:doc:124#frag-002> .
+

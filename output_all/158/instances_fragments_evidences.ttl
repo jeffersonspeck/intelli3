@@ -1,0 +1,166 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:158#evid-000-00-coco-unidas> a onto:Keyword ;
+    rdfs:label "coco unidas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:158#evid-000-01-instrumento-simples> a onto:Keyword ;
+    rdfs:label "instrumento simples"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:158#evid-000-02-instrumento-simples> a onto:Keyword ;
+    rdfs:label "instrumento simples"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:158#evid-000-03-improvisar> a onto:Keyword ;
+    rdfs:label "improvisar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:158#evid-000-04-barbante-instrumento> a onto:Keyword ;
+    rdfs:label "barbante instrumento"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:158#evid-000-05-associar-som> a onto:Keyword ;
+    rdfs:label "associar som"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:158#evid-000-06-associar-som> a onto:Keyword ;
+    rdfs:label "associar som"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:158#evid-000-07-ritmo-caminhar> a onto:Keyword ;
+    rdfs:label "ritmo caminhar"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:158#evid-000-08-ritmo-caminhar> a onto:Keyword ;
+    rdfs:label "ritmo caminhar"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:158#evid-000-09-movimentos-cinestesicos> a onto:Keyword ;
+    rdfs:label "movimentos cinestesicos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:158#evid-000-10-movimentos-cinestesicos> a onto:Keyword ;
+    rdfs:label "movimentos cinestesicos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:158#evid-000-11-movimentos-cinestesicos> a onto:Keyword ;
+    rdfs:label "movimentos cinestesicos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:158#evid-000-12-marchar> a onto:Keyword ;
+    rdfs:label "marchar"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:158#evid-000-13-correr> a onto:Keyword ;
+    rdfs:label "correr"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:158#evid-000-14-acompanham-ritmo> a onto:Keyword ;
+    rdfs:label "acompanham ritmo"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:158#evid-000-15-acompanham-ritmo> a onto:Keyword ;
+    rdfs:label "acompanham ritmo"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:158#evid-000-16-saltar> a onto:Keyword ;
+    rdfs:label "saltar"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:158#evid-000-17-improvisar-com-duas-metades-de-u> a onto:DiscursiveStrategy ;
+    rdfs:label "Improvisar com duas metades de um coco unidas por um barbante um instrumento simples."@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:158#evid-000-18-improvisar-com-duas-metades-de-u> a onto:DiscursiveStrategy ;
+    rdfs:label "Improvisar com duas metades de um coco unidas por um barbante um instrumento simples."@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:158#evid-000-19-improvisar-com-duas-metades-de-u> a onto:DiscursiveStrategy ;
+    rdfs:label "Improvisar com duas metades de um coco unidas por um barbante um instrumento simples."@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:158#evid-000-20-duas-metades-de-um-coco-unidas-p> a onto:ContextObject ;
+    rdfs:label "duas metades de um coco unidas por um barbante"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:158#evid-001-00-movimentos-corporais> a onto:Keyword ;
+    rdfs:label "movimentos corporais"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:158#evid-001-01-linguagem-sonora> a onto:Keyword ;
+    rdfs:label "linguagem sonora"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:158#evid-001-02-linguagem-sonora> a onto:Keyword ;
+    rdfs:label "linguagem sonora"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:158#evid-001-03-identificando-essa-linguagem> a onto:Keyword ;
+    rdfs:label "identificando essa linguagem"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:158#evid-001-04-identificando-essa-linguagem> a onto:Keyword ;
+    rdfs:label "identificando essa linguagem"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:158#evid-001-05-descobrindo> a onto:Keyword ;
+    rdfs:label "descobrindo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:158#evid-001-06-descobrindo> a onto:Keyword ;
+    rdfs:label "descobrindo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:158#evid-001-07-sentido> a onto:Keyword ;
+    rdfs:label "sentido"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:158#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Improvisar com duas metades de um coco unidas por um barbante um instrumento simples. Utilizacao: Associar o som do instrumento a movimentos que acompanham o ritmo do caminhar, marchar, correr, saltar e outros movimentos cinestesicos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:158> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:158#evid-000-00-coco-unidas>,
+        <urn:doc:158#evid-000-01-instrumento-simples>,
+        <urn:doc:158#evid-000-02-instrumento-simples>,
+        <urn:doc:158#evid-000-03-improvisar>,
+        <urn:doc:158#evid-000-04-barbante-instrumento>,
+        <urn:doc:158#evid-000-05-associar-som>,
+        <urn:doc:158#evid-000-06-associar-som>,
+        <urn:doc:158#evid-000-07-ritmo-caminhar>,
+        <urn:doc:158#evid-000-08-ritmo-caminhar>,
+        <urn:doc:158#evid-000-09-movimentos-cinestesicos>,
+        <urn:doc:158#evid-000-10-movimentos-cinestesicos>,
+        <urn:doc:158#evid-000-11-movimentos-cinestesicos>,
+        <urn:doc:158#evid-000-12-marchar>,
+        <urn:doc:158#evid-000-13-correr>,
+        <urn:doc:158#evid-000-14-acompanham-ritmo>,
+        <urn:doc:158#evid-000-15-acompanham-ritmo>,
+        <urn:doc:158#evid-000-16-saltar>,
+        <urn:doc:158#evid-000-17-improvisar-com-duas-metades-de-u>,
+        <urn:doc:158#evid-000-18-improvisar-com-duas-metades-de-u>,
+        <urn:doc:158#evid-000-19-improvisar-com-duas-metades-de-u>,
+        <urn:doc:158#evid-000-20-duas-metades-de-um-coco-unidas-p> .
+
+<urn:doc:158#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Progressiva- mente o aluno deve ir descobrindo todo o sentido de uma \"linguagem sonora\" e ir identificando essa linguagem a seus movimentos corporais. 146"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:158> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:158#evid-001-00-movimentos-corporais>,
+        <urn:doc:158#evid-001-01-linguagem-sonora>,
+        <urn:doc:158#evid-001-02-linguagem-sonora>,
+        <urn:doc:158#evid-001-03-identificando-essa-linguagem>,
+        <urn:doc:158#evid-001-04-identificando-essa-linguagem>,
+        <urn:doc:158#evid-001-05-descobrindo>,
+        <urn:doc:158#evid-001-06-descobrindo>,
+        <urn:doc:158#evid-001-07-sentido> .
+
+<urn:doc:158> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:158#frag-000>,
+        <urn:doc:158#frag-001> .
+

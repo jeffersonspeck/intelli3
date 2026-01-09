@@ -1,0 +1,136 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "colecionar figuras coloridas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8040828644369505,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "formando",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.746957688272756,
+      "relevance": 0.8574660633484164
+    },
+    {
+      "role": "Keyword",
+      "text": "pares",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.746957688272756,
+      "relevance": 0.8303167420814479
+    },
+    {
+      "role": "Keyword",
+      "text": "cartolina madeira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6679905565482234,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "madeira colar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6679905565482234,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "montar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6519084455725783,
+      "relevance": 0.8144796380090498
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras. As demais, repetidas, devem ser coladas cada uma em um cartao.",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras. As demais, repetidas, devem ser coladas cada uma em um cartao.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "sortear figuras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7828716966705006,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "monta las",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7666529780127596,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras cartoes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5536938174536598,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "nomea",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7075611963453852,
+      "relevance": 0.8157894736842105
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e indefinido para cada item.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e indefinido para cada item.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras dos cartoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9793233082706767
+    }
+  ],
+  "2": [
+    {
+      "role": "ContextObject",
+      "text": "Loto Mundo Variado",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[Documento] urn:doc:334
+  - miVector: 8.49,8.02,1.68,0.00,0.00,50.69,3.48,27.64
+  - TOP (documento): Interpersonal (score=0.5069)
+  - Ranking (top 3):
+      • Interpersonal: 0.5069
+      • Naturalist: 0.2764
+      • Linguistic: 0.0849
+
+
+[Documento — Fragmentos] urn:doc:334
+
+[Fragmento] Preparacao: Uma caixa de sapatos com uma abertura, que sera a caixa de correio. Os alunos sao trabalhados para que escrevam suas queixas e seus problemas e de- positem, anonimamente, na caixa de correio.
+  > TOP: Naturalista (score=0.4542, tipo=Primary)
+
+[Fragmento] Utilizacao: Periodicamente o professor abre a caixa de correio e le as queixas e os pro- blemas apresentados, colocando em debate eventuais propostas para solucio- na-los.
+  > TOP: Interpessoal (score=0.7958, tipo=Primary)
+
+[Fragmento] E importante que a atividade se desvie de queixas de natureza material para as de natureza emocional, propiciando um clima de mais agudo auto e he- teroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos e, eventualmente, seus professores EUR funcionarios administrativos da escola.
+  > TOP: Interpessoal (score=0.4338, tipo=Primary)

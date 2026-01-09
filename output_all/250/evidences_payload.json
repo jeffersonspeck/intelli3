@@ -1,0 +1,200 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "tais rochas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8006677086253011,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "facam colecoes",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7946876108065749,
+      "relevance": 0.8153409090909091
+    },
+    {
+      "role": "Keyword",
+      "text": "facam colecoes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7946876108065749,
+      "relevance": 0.8153409090909091
+    },
+    {
+      "role": "Keyword",
+      "text": "produtos naturais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7881371830715975,
+      "relevance": 0.7642045454545454
+    },
+    {
+      "role": "Keyword",
+      "text": "minerais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7708920692339389,
+      "relevance": 0.6590909090909092
+    },
+    {
+      "role": "Keyword",
+      "text": "folhas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7708920692339389,
+      "relevance": 0.6306818181818181
+    },
+    {
+      "role": "Keyword",
+      "text": "conchas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7708920692339389,
+      "relevance": 0.6079545454545454
+    },
+    {
+      "role": "Keyword",
+      "text": "colecoes produtos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.734615547974421,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colecoes produtos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.734615547974421,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cogumelos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.731484277503081,
+      "relevance": 0.5823863636363636
+    },
+    {
+      "role": "ContextObject",
+      "text": "rochas, minerais, folhas, conchas, cogumelos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.6818181818181819
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "arrumar caixas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.9806201550387597
+    },
+    {
+      "role": "Keyword",
+      "text": "caixas bem divididas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.9496124031007752
+    },
+    {
+      "role": "Keyword",
+      "text": "classificar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.689922480620155
+    },
+    {
+      "role": "Keyword",
+      "text": "classificar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.689922480620155
+    },
+    {
+      "role": "Keyword",
+      "text": "classificar criterio",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "criterio objetos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5703374137860785,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "caixas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9496124031007752
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "possam identificar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8025846536641282,
+      "relevance": 0.7102803738317758
+    },
+    {
+      "role": "Keyword",
+      "text": "possam identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8025846536641282,
+      "relevance": 0.7102803738317758
+    },
+    {
+      "role": "Keyword",
+      "text": "regras essenciais",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5796444720907593,
+      "relevance": 0.5771028037383177
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar pecas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8025846536641282,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar pecas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8025846536641282,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estabelecer regras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5796444720907593,
+      "relevance": 0.75
+    }
+  ]
+}

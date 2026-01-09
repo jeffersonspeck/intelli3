@@ -1,0 +1,94 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "compasso existente",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7393863019374023,
+      "relevance": 0.9574898785425101
+    },
+    {
+      "role": "Keyword",
+      "text": "procurar mostrar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7027745700541416,
+      "relevance": 0.7267206477732793
+    },
+    {
+      "role": "Keyword",
+      "text": "existente tique taque",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6952884704792107,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "batidas",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.48740390313323656,
+      "relevance": 0.8421052631578947
+    },
+    {
+      "role": "ContextObject",
+      "text": "compasso",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9574898785425101
+    },
+    {
+      "role": "ContextObject",
+      "text": "tique-taque do relogio",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.5850202429149798
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "imitem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7524305404414907,
+      "relevance": 0.8809523809523809
+    },
+    {
+      "role": "Keyword",
+      "text": "existem sinetas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.719896997218786,
+      "relevance": 0.7
+    },
+    {
+      "role": "Keyword",
+      "text": "compassos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5001024348172011,
+      "relevance": 0.7571428571428571
+    },
+    {
+      "role": "Keyword",
+      "text": "sineta esses compassos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6873559297261393,
+      "relevance": 0.819047619047619
+    },
+    {
+      "role": "ContextObject",
+      "text": "sinetas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.6619047619047619
+    }
+  ]
+}

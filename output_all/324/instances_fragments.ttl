@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:324#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Os alunos devem estar sentados em circulo e o professor escolhe um, depois outro e mais outros alunos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:324> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:324#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Estes recebem uma mensagem (escrita ou sussurrada pelo professor) e devem comunica-la a classe apenas usando o olhar (por exemplo: uma mosca voando, uma partida de tenis, um aviao pousando)."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:324> ;
+    dct:type "body" .
+
+<urn:doc:324#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem ser estimulados a utilizar-se de diferentes formas de expressoes nao verbais, descobrindo a mensagem. Progressivamente, as mensagens podem ir sendo amplia- das e, alem do olhar, outros atributos da comunicacao corporal podem e devem ser utiliza- dos."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:324> ;
+    dct:type "body" .
+
+<urn:doc:324#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "O professor deve explorar essas formas de comunicacao como instrumento para permitir que os alunos descubram que a linguagem oral e apenas uma das muitas formas de comunicacao utilizadas pelo ser humano."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:324> ;
+    dct:type "body" .
+
+<urn:doc:324> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:324#frag-000>,
+        <urn:doc:324#frag-001>,
+        <urn:doc:324#frag-002>,
+        <urn:doc:324#frag-003> .
+

@@ -1,0 +1,61 @@
+[Documento] urn:doc:10
+  - miVector: 34.03,6.23,0.00,4.03,20.92,30.08,0.00,4.70
+  - TOP (documento): Linguistic (score=0.3403)
+  - Ranking (top 3):
+      • Linguistic: 0.3403
+      • Interpersonal: 0.3008
+      • Bodily-Kinesthetic: 0.2092
+
+[Fragmento] Preparacao: Alunos divididos em grupos. Cada grupo escolhe alternativamente um representante. Um aluno fica com a funcao de cronometrar a participacao de cada aluno. Utilizacao: O professor inicia o dialogo com o aluno e deve, atraves de perguntas, induzi-lo a dizer a palavra nao.
+  - Bodily-Kinesthetic (via activation, score=0.3104)
+  - Interpersonal (via activation, score=0.2396)
+  - Linguistic (via activation, score=0.1655)
+  - Logical-Mathematical (via activation, score=0.1293)
+  - Naturalist (via activation, score=0.1552)
+  - Cinestésico-corporal (via activation, score=0.3104)
+  - Interpessoal (via activation, score=0.2396)
+  - Linguística (via activation, score=0.1655)
+  - Lógico-matemática (via activation, score=0.1293)
+  - Naturalista (via activation, score=0.1552)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] (Perguntas do tipo: Voce e casado? / E verdade que nasceu na Nigeria, etc.) Os alunos sao informados que nao devem omitir a verdade e que ao inves dessa palavra devem dizer negativo, de forma alguma ou outra expressao correspondente.
+  - Bodily-Kinesthetic (via activation, score=0.0764)
+  - Linguistic (via activation, score=0.7143)
+  - Logical-Mathematical (via activation, score=0.0764)
+  - Musical (via activation, score=0.1330)
+  - Cinestésico-corporal (via activation, score=0.0764)
+  - Linguística (via activation, score=0.7143)
+  - Lógico-matemática (via activation, score=0.0764)
+  - Musical (via activation, score=0.1330)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+
+[Fragmento] Cada aluno que mantiver um dialogo dinami- co e em 30 segundos nao disser a palavra nao ganha ponto para sua equipe. 53
+  - Bodily-Kinesthetic (via activation, score=0.2336)
+  - Interpersonal (via activation, score=0.5793)
+  - Linguistic (via activation, score=0.1872)
+  - Cinestésico-corporal (via activation, score=0.2336)
+  - Interpessoal (via activation, score=0.5793)
+  - Linguística (via activation, score=0.1872)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)

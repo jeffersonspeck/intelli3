@@ -1,0 +1,158 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "tamanhos diferentes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7976936200514633,
+      "relevance": 0.9444444444444444
+    },
+    {
+      "role": "Keyword",
+      "text": "aparar bolas arremessadas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7916490963363046,
+      "relevance": 0.6552287581699346
+    },
+    {
+      "role": "Keyword",
+      "text": "aparar bola usando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7916490963363046,
+      "relevance": 0.5931372549019608
+    },
+    {
+      "role": "Keyword",
+      "text": "bolas arremessando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7399452513660132,
+      "relevance": 0.7336601307189543
+    },
+    {
+      "role": "Keyword",
+      "text": "obedecer regras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7059454883611407,
+      "relevance": 0.8709150326797386
+    },
+    {
+      "role": "Keyword",
+      "text": "perceber claramente",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7059454883611407,
+      "relevance": 0.8415032679738562
+    },
+    {
+      "role": "Keyword",
+      "text": "perceber claramente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7059454883611407,
+      "relevance": 0.8415032679738562
+    },
+    {
+      "role": "Keyword",
+      "text": "aprender",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7059454883611407,
+      "relevance": 0.8888888888888888
+    },
+    {
+      "role": "Keyword",
+      "text": "aprender obedecer",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7059454883611407,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "regras perceber",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7059454883611407,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estimulado usar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7059454883611407,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estimulado usar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7059454883611407,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.45014600661845294,
+      "relevance": 0.5147058823529411
+    },
+    {
+      "role": "ContextObject",
+      "text": "bolas de borracha de cinco a seis tamanhos diferentes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "treinar lateralidade",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7718668153377981,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "uso pes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7718668153377981,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "treinar a lateralidade com o uso dos pes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.6952380952380952
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "treinar a lateralidade com o uso dos pes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.6952380952380952
+    },
+    {
+      "role": "ContextObject",
+      "text": "pes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.519047619047619
+    }
+  ]
+}

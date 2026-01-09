@@ -1,0 +1,72 @@
+[Documento] urn:doc:170
+  - miVector: 0.00,5.57,0.00,0.00,51.46,7.10,0.00,35.87
+  - TOP (documento): Bodily-Kinesthetic (score=0.5146)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5146
+      • Naturalist: 0.3587
+      • Interpersonal: 0.0710
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: aprender a pular corda e progressivamente executar diferentes movimentos, saltitando ora com um pe, ora com o outro
+        • Keyword: aprender pular
+        • Keyword: corda pular
+        • Keyword: executar diferentes movimentos
+        • Keyword: progressivamente executar diferentes
+        • Keyword: pular corda
+        • Keyword: pular terminais
+        • Keyword: saltitando ora
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.8367
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: aprender
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1633
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: comprimento ideal
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0985
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: Corda para pular com terminais de madeira
+        • Keyword: adquirida lojas
+        • Keyword: lojas brinquedo
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6347
+
+
+[Documento — Fragmentos] urn:doc:170
+
+[Fragmento] Preparacao: Corda para pular com terminais de madeira, que pode ser adquirida em lojas de brinquedo ou fabricada em casa ou em uma oficina. Comprimento ideal de 2,30m a 2,50m.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: corda pular
+        • Keyword: pular terminais
+    - Ativações:
+        • score=0.2668, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: comprimento ideal
+    - Ativações:
+        • score=0.0985, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: Corda para pular com terminais de madeira
+        • Keyword: adquirida lojas
+        • Keyword: lojas brinquedo
+    - Ativações:
+        • score=0.6347, tipo=Primary
+
+[Fragmento] Utilizacao: O aluno deve aprender a pular corda e progressivamente executar diferen- tes movimentos, saltitando ora com um pe, ora com o outro. (Existe no comercio.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: aprender a pular corda e progressivamente executar diferentes movimentos, saltitando ora com um pe, ora com o outro
+        • Keyword: aprender pular
+        • Keyword: executar diferentes movimentos
+        • Keyword: progressivamente executar diferentes
+        • Keyword: pular corda
+        • Keyword: saltitando ora
+    - Ativações:
+        • score=0.8367, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: aprender
+    - Ativações:
+        • score=0.1633, tipo=Secondary

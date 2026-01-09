@@ -1,0 +1,158 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:175#evid-000-00-pintando-tres> a onto:Keyword ;
+    rdfs:label "pintando tres"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:175#evid-000-01-selecionar> a onto:Keyword ;
+    rdfs:label "selecionar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:175#evid-000-02-selecionar> a onto:Keyword ;
+    rdfs:label "selecionar"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:175#evid-000-03-selecionar-tampa> a onto:Keyword ;
+    rdfs:label "selecionar tampa"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:175#evid-000-04-tampa-caixa> a onto:Keyword ;
+    rdfs:label "tampa caixa"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:175#evid-000-05-cor-tres> a onto:Keyword ;
+    rdfs:label "cor tres"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:175#evid-000-06-simulando-entrada> a onto:Keyword ;
+    rdfs:label "simulando entrada"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:175#evid-000-07-pote> a onto:Keyword ;
+    rdfs:label "pote"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:175#evid-000-08-corte-pote> a onto:Keyword ;
+    rdfs:label "corte pote"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:175#evid-001-00-papel-aluminio-amassado> a onto:Keyword ;
+    rdfs:label "papel aluminio amassado"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:175#evid-001-01-preparar-bolinhas> a onto:Keyword ;
+    rdfs:label "preparar bolinhas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:175#evid-002-00-impulsionar-bolinha> a onto:Keyword ;
+    rdfs:label "impulsionar bolinha"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:175#evid-002-01-bolinha-toca> a onto:Keyword ;
+    rdfs:label "bolinha toca"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:175#evid-002-02-bolinha-toca> a onto:Keyword ;
+    rdfs:label "bolinha toca"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:175#evid-002-03-desenvolvida-equipe> a onto:Keyword ;
+    rdfs:label "desenvolvida equipe"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:175#evid-002-04-equipe-consiste> a onto:Keyword ;
+    rdfs:label "equipe consiste"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:175#evid-002-05-consiste-tentativa> a onto:Keyword ;
+    rdfs:label "consiste tentativa"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:175#evid-002-06-marca> a onto:Keyword ;
+    rdfs:label "marca"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:175#evid-002-07-passa-vcz> a onto:Keyword ;
+    rdfs:label "passa vcz"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:175#evid-002-08-conseguir> a onto:Keyword ;
+    rdfs:label "conseguir"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:175#evid-002-09-colega> a onto:Keyword ;
+    rdfs:label "colega"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:175#evid-002-10-impulsionar-a-bolinha-na-toca> a onto:DiscursiveStrategy ;
+    rdfs:label "impulsionar a bolinha na toca"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:175#evid-002-11-impulsionar-a-bolinha-na-toca> a onto:DiscursiveStrategy ;
+    rdfs:label "impulsionar a bolinha na toca"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:175#evid-002-12-impulsionar-a-bolinha-na-toca> a onto:DiscursiveStrategy ;
+    rdfs:label "impulsionar a bolinha na toca"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:175#evid-002-13-bolinha> a onto:ContextObject ;
+    rdfs:label "bolinha"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:175#evid-002-14-bolinha> a onto:ContextObject ;
+    rdfs:label "bolinha"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:175#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor deve selecionar uma tampa de caixa grande (mais ou menos de 60cm x 60cm): seis potes de iogurte, pintando tres de uma cor e tres de outra. Fazer um corte no pote, simulando a entrada de uma toca. Colocar em cada pote, no telhado, um numero de um a seis."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:175> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:175#evid-000-00-pintando-tres>,
+        <urn:doc:175#evid-000-01-selecionar>,
+        <urn:doc:175#evid-000-02-selecionar>,
+        <urn:doc:175#evid-000-03-selecionar-tampa>,
+        <urn:doc:175#evid-000-04-tampa-caixa>,
+        <urn:doc:175#evid-000-05-cor-tres>,
+        <urn:doc:175#evid-000-06-simulando-entrada>,
+        <urn:doc:175#evid-000-07-pote>,
+        <urn:doc:175#evid-000-08-corte-pote> .
+
+<urn:doc:175#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Preparar bolinhas com papel alu- minio amassado ou com feltro. Marcar entre as tocas o \"meio de campo\", assi- nalando um ponto onde deve ser colocada a bolinha antes de cada jogada."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:175> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:175#evid-001-00-papel-aluminio-amassado>,
+        <urn:doc:175#evid-001-01-preparar-bolinhas> .
+
+<urn:doc:175#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: A atividade pode ser desenvolvida em equipe e consiste na tentativa dos alunos, com um toque, impulsionar a bolinha na toca. Ao conseguir, o aluno marca pontos e passa a vcz para O colega."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:175> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:175#evid-002-00-impulsionar-bolinha>,
+        <urn:doc:175#evid-002-01-bolinha-toca>,
+        <urn:doc:175#evid-002-02-bolinha-toca>,
+        <urn:doc:175#evid-002-03-desenvolvida-equipe>,
+        <urn:doc:175#evid-002-04-equipe-consiste>,
+        <urn:doc:175#evid-002-05-consiste-tentativa>,
+        <urn:doc:175#evid-002-06-marca>,
+        <urn:doc:175#evid-002-07-passa-vcz>,
+        <urn:doc:175#evid-002-08-conseguir>,
+        <urn:doc:175#evid-002-09-colega>,
+        <urn:doc:175#evid-002-10-impulsionar-a-bolinha-na-toca>,
+        <urn:doc:175#evid-002-11-impulsionar-a-bolinha-na-toca>,
+        <urn:doc:175#evid-002-12-impulsionar-a-bolinha-na-toca>,
+        <urn:doc:175#evid-002-13-bolinha>,
+        <urn:doc:175#evid-002-14-bolinha> .
+
+<urn:doc:175> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:175#frag-000>,
+        <urn:doc:175#frag-001>,
+        <urn:doc:175#frag-002> .
+

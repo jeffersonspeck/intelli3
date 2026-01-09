@@ -1,0 +1,142 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "tres tamanhos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7639728923117493,
+      "relevance": 0.9619771863117871
+    },
+    {
+      "role": "Keyword",
+      "text": "tampas plasticas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7573278014218867,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "ninhos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7390620259747717,
+      "relevance": 0.8802281368821293
+    },
+    {
+      "role": "Keyword",
+      "text": "comparar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5112068917454865,
+      "relevance": 0.8326996197718631
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar maiores",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6434429092662435,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "comparar tres",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.4563187304561736,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tampas identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6024842390299108,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "comparar os tres tamanhos de tampas para identificar as maiores e as menores",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.8326996197718631
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "comparar os tres tamanhos de tampas para identificar as maiores e as menores",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8326996197718631
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "comparar os tres tamanhos de tampas para identificar as maiores e as menores",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8326996197718631
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "formar fileiras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.786656952643245,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "ordenando ninhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7543197372994253,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tamanho",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6924495251315091,
+      "relevance": 0.7752293577981652
+    },
+    {
+      "role": "Keyword",
+      "text": "ordem ninhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.626977616826338,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "encaixar ordem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6223115398170308,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "encaixar ordem",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6223115398170308,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "ninhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8623853211009174
+    }
+  ]
+}

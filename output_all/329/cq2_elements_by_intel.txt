@@ -1,0 +1,181 @@
+[Documento] urn:doc:329
+  - miVector: 8.72,17.15,8.27,12.80,7.55,29.45,0.00,16.06
+  - TOP (documento): Interpersonal (score=0.2945)
+  - Ranking (top 3):
+      • Interpersonal: 0.2945
+      • Logical-Mathematical: 0.1715
+      • Naturalist: 0.1606
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: colocar circulo
+        • Keyword: observar atentamente
+        • Keyword: proceder mudanca
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.2279
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: sala
+        • Keyword: centro circulo
+        • Keyword: sala
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.2614
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: chamar dois alunos para o centro do circulo
+        • DiscursiveStrategy: observando-se se ha progresso ce, consequentemente, aumento de dificuldades em se proceder mudanca de detalhes nao notados.
+        • DiscursiveStrategy: se colocar em circulo
+        • Keyword: observando
+        • Keyword: possam colocar
+        • Keyword: progresso
+        • Keyword: viram
+        • Keyword: viram costas
+    - Ativações (doc): n=4, primárias=2, secundárias=2, max=0.5511
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: se colocar em circulo
+        • Keyword: possam colocar
+        • Keyword: sinal
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2413
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: observando-se se ha progresso ce, consequentemente, aumento de dificuldades em se proceder mudanca de detalhes nao notados.
+        • Keyword: explora
+        • Keyword: explora percepcao
+        • Keyword: numero
+        • Keyword: observando
+        • Keyword: sinal
+        • Keyword: tentando descobrir
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=0.4255
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: atribuira
+        • Keyword: procedendo mesma
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.4489
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: alteracao feita
+        • Keyword: explora percepcao
+        • Keyword: identidade visual
+        • Keyword: mudanca detalhes
+        • Keyword: observar
+        • Keyword: observar atentamente
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3332
+
+
+[Documento — Fragmentos] urn:doc:329
+
+[Fragmento] Preparacao: Uma sala para que os alunos possam se colocar em circulo. Utilizacao: O professor atribuira um numero a cada aluno ate a metade dos compo- nentes. Inicia, depois, a mesma numeracao dos demais, de maneira a existir dois alunos de numero 1, dois de numero 2 e assim por diante.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: colocar circulo
+    - Ativações:
+        • score=0.1011, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: sala
+        • Keyword: sala
+    - Ativações:
+        • score=0.2614, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: se colocar em circulo
+        • Keyword: possam colocar
+    - Ativações:
+        • score=0.2211, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: se colocar em circulo
+        • Keyword: possam colocar
+    - Ativações:
+        • score=0.2211, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: numero
+    - Ativações:
+        • score=0.1006, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: atribuira
+    - Ativações:
+        • score=0.0946, tipo=Secondary
+
+[Fragmento] Cada aluno deve observar atentamente seu par por alguns segundos; a um sinal do profes- sor viram-se de costas para o centro do circulo e alteram um detalhe de si mes- mos (por exemplo: solta fio do sapato, tira uma correntinha, etc.).
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: observar atentamente
+    - Ativações:
+        • score=0.2279, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: centro circulo
+    - Ativações:
+        • score=0.1771, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: viram
+        • Keyword: viram costas
+    - Ativações:
+        • score=0.3671, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: observar atentamente
+    - Ativações:
+        • score=0.2279, tipo=Secondary
+
+[Fragmento] A um sinal do professor voltam a se observar, tentando descobrir qual a alteracao feita.
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: sinal
+    - Ativações:
+        • score=0.2413, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: sinal
+        • Keyword: tentando descobrir
+    - Ativações:
+        • score=0.4255, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: alteracao feita
+        • Keyword: observar
+    - Ativações:
+        • score=0.3332, tipo=Secondary
+
+[Fragmento] A atividade explora a percepcao e a identidade visual do outro e deve ser repetida varias vezes, observando-se se ha progresso ce, consequentemente, au- mento de dificuldades em se proceder mudanca de detalhes nao notados.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: proceder mudanca
+    - Ativações:
+        • score=0.0711, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: observando-se se ha progresso ce, consequentemente, aumento de dificuldades em se proceder mudanca de detalhes nao notados.
+        • Keyword: observando
+        • Keyword: progresso
+    - Ativações:
+        • score=0.2563, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: observando-se se ha progresso ce, consequentemente, aumento de dificuldades em se proceder mudanca de detalhes nao notados.
+        • Keyword: explora
+        • Keyword: explora percepcao
+        • Keyword: observando
+    - Ativações:
+        • score=0.3828, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: explora percepcao
+        • Keyword: identidade visual
+        • Keyword: mudanca detalhes
+    - Ativações:
+        • score=0.2898, tipo=Secondary
+
+[Fragmento] Uma outra forma e chamar dois alunos para o centro do circulo, procedendo-se a mesma experiencia. -- 255
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: chamar dois alunos para o centro do circulo
+    - Ativações:
+        • score=0.5511, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: procedendo mesma
+    - Ativações:
+        • score=0.4489, tipo=Secondary

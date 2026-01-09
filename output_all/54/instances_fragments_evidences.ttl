@@ -1,0 +1,93 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:54#evid-000-00-torna-necessario-colar> a onto:Keyword ;
+    rdfs:label "torna necessario colar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:54#evid-000-01-necessario-colar-fitas> a onto:Keyword ;
+    rdfs:label "necessario colar fitas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:54#evid-000-02-figuras-humanas> a onto:Keyword ;
+    rdfs:label "figuras humanas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:54#evid-000-03-recortar-papel-cartao> a onto:Keyword ;
+    rdfs:label "recortar papel cartao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:54#evid-000-04-geometricas> a onto:Keyword ;
+    rdfs:label "geometricas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:54#evid-001-00-formar> a onto:Keyword ;
+    rdfs:label "formar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:54#evid-001-01-etapas-posteriores-colocar> a onto:Keyword ;
+    rdfs:label "etapas posteriores colocar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:54#evid-001-02-etapas-posteriores-colocar> a onto:Keyword ;
+    rdfs:label "etapas posteriores colocar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:54#evid-001-03-formar-conjuntos> a onto:Keyword ;
+    rdfs:label "formar conjuntos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:54#evid-001-04-contornos-solicitados> a onto:Keyword ;
+    rdfs:label "contornos solicitados"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:54#evid-001-05-conforme-cor> a onto:Keyword ;
+    rdfs:label "conforme cor"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:54#evid-002-00-brincando-conjunto> a onto:Keyword ;
+    rdfs:label "brincando conjunto"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:54#evid-002-01-brincando-de-conjunto----uki-uki> a onto:ContextObject ;
+    rdfs:label "Brincando de Conjunto -- Uki-Uki."@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:54#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo exige uma preparacao trabalhosa. Torna-se necessario colar fitas em cartolina formando um circulo em uma, um triangulo em outra e um quadrado em uma terceira. Recortar em papel-cartao colorido silhuetas com formas de figuras humanas, frutas e formas geometricas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:54> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:54#evid-000-00-torna-necessario-colar>,
+        <urn:doc:54#evid-000-01-necessario-colar-fitas>,
+        <urn:doc:54#evid-000-02-figuras-humanas>,
+        <urn:doc:54#evid-000-03-recortar-papel-cartao>,
+        <urn:doc:54#evid-000-04-geometricas> .
+
+<urn:doc:54#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem formar conjuntos com diferentes formas e em etapas pos- teriores colocar esses conjuntos dentro dos contornos solicitados. Formam assim conjuntos de formas, conforme a cor, e trabalham com sua colocacao nos contornos."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:54> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:54#evid-001-00-formar>,
+        <urn:doc:54#evid-001-01-etapas-posteriores-colocar>,
+        <urn:doc:54#evid-001-02-etapas-posteriores-colocar>,
+        <urn:doc:54#evid-001-03-formar-conjuntos>,
+        <urn:doc:54#evid-001-04-contornos-solicitados>,
+        <urn:doc:54#evid-001-05-conforme-cor> .
+
+<urn:doc:54#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "(Existe no mercado -- Brincando de Conjunto -- Uki-Uki.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:54> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:54#evid-002-00-brincando-conjunto>,
+        <urn:doc:54#evid-002-01-brincando-de-conjunto----uki-uki> .
+
+<urn:doc:54> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:54#frag-000>,
+        <urn:doc:54#frag-001>,
+        <urn:doc:54#frag-002> .
+

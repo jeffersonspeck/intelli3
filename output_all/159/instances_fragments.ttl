@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:159#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Adquirir em casas de caca e pesca pios de aves em pecas de madeira. Esses pios costumam ser utilizados por cacadores para atrair aves. Utilizacao: Existe uma enorme multiplicidade para o uso do jogo."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:159> ;
+    dct:type "body" .
+
+<urn:doc:159#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Os alunos podem, por exemplo, ser levados a descobrir o habitat e os habitos da especie e identifi- car sua beleza."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:159> ;
+    dct:type "body" .
+
+<urn:doc:159#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Os pios podem abrigar progressivo dominio da diversidade dessas especies e a experiencia pode, em etapas mais avancadas, levar os alunos a identificar esses e outros sons em uma excursao por um bosque ou mesmo em uma visita a uma praca onde existam arvores e passaros."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:159> ;
+    dct:type "body" .
+
+<urn:doc:159#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "(Existem pios em lojas que comerciam artigos de caca e pesca.)"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:159> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:159> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:159#frag-000>,
+        <urn:doc:159#frag-001>,
+        <urn:doc:159#frag-002>,
+        <urn:doc:159#frag-003> .
+

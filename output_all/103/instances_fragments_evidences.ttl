@@ -1,0 +1,140 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:103#evid-000-00-desenhar-ilustracoes-mostrando> a onto:Keyword ;
+    rdfs:label "desenhar ilustracoes mostrando"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:103#evid-000-01-colecionar-gravuras> a onto:Keyword ;
+    rdfs:label "colecionar gravuras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:103#evid-000-02-diferentes-etapas> a onto:Keyword ;
+    rdfs:label "diferentes etapas"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:103#evid-000-03-mostrando-diferentes> a onto:Keyword ;
+    rdfs:label "mostrando diferentes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:103#evid-000-04-colecionar-gravuras-de-revistas-> a onto:DiscursiveStrategy ;
+    rdfs:label "Colecionar gravuras de revistas ou desenhar ilustracoes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:103#evid-000-05-colecionar-gravuras-de-revistas-> a onto:DiscursiveStrategy ;
+    rdfs:label "Colecionar gravuras de revistas ou desenhar ilustracoes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:103#evid-001-00-assistir-aula> a onto:Keyword ;
+    rdfs:label "assistir aula"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:103#evid-001-01-diferentes> a onto:Keyword ;
+    rdfs:label "diferentes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:103#evid-001-02-mostrar-diferentes> a onto:Keyword ;
+    rdfs:label "mostrar diferentes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:103#evid-002-00-evolucao-temporal> a onto:Keyword ;
+    rdfs:label "evolucao temporal"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:103#evid-002-01-gravuras-desenhos> a onto:Keyword ;
+    rdfs:label "gravuras desenhos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:103#evid-002-02-seriadas-pelos> a onto:Keyword ;
+    rdfs:label "seriadas pelos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:103#evid-002-03-desenvolvendo-observacao> a onto:Keyword ;
+    rdfs:label "desenvolvendo observacao"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:103#evid-002-04-desenvolvendo-observacao> a onto:Keyword ;
+    rdfs:label "desenvolvendo observacao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:103#evid-002-05-observacao-evolucao> a onto:Keyword ;
+    rdfs:label "observacao evolucao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:103#evid-003-00-figuras-representando-velas> a onto:Keyword ;
+    rdfs:label "figuras representando velas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:103#evid-003-01-representando-velas-acesas> a onto:Keyword ;
+    rdfs:label "representando velas acesas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:103#evid-003-02-feita-figuras> a onto:Keyword ;
+    rdfs:label "feita figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:103#evid-003-03-diferentes-tamanhos> a onto:Keyword ;
+    rdfs:label "diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:103#evid-003-04-representando-velas-acesas-em-di> a onto:DiscursiveStrategy ;
+    rdfs:label "representando velas acesas em diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:103#evid-003-05-figuras-representando-velas-aces> a onto:ContextObject ;
+    rdfs:label "figuras representando velas acesas em diferentes tamanhos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:103#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Colecionar gravuras de revistas ou desenhar ilustracoes mostrando as diferentes etapas do dia a dia de uma crianca e, se possivel, tambem de um adulto."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:103> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:103#evid-000-00-desenhar-ilustracoes-mostrando>,
+        <urn:doc:103#evid-000-01-colecionar-gravuras>,
+        <urn:doc:103#evid-000-02-diferentes-etapas>,
+        <urn:doc:103#evid-000-03-mostrando-diferentes>,
+        <urn:doc:103#evid-000-04-colecionar-gravuras-de-revistas->,
+        <urn:doc:103#evid-000-05-colecionar-gravuras-de-revistas-> .
+
+<urn:doc:103#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "O ideal e ilustrar o passar das horas e mostrar as diferentes atividades de uma crianca (acordar, tomar cafe, sair de casa, chegar a escola, assistir aula, participar do recreio, etc.)."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:103> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:103#evid-001-00-assistir-aula>,
+        <urn:doc:103#evid-001-01-diferentes>,
+        <urn:doc:103#evid-001-02-mostrar-diferentes> .
+
+<urn:doc:103#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Essas gravuras ou desenhos, coladas em cartolina, formarao pecas que deverao ser seriadas pelos alunos, desenvolvendo sua observacao da evolucao temporal. Em etapas mais elevadas, o exercicio pode prosseguir com as estacoes do ano e a sucessao dos meses."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:103> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:103#evid-002-00-evolucao-temporal>,
+        <urn:doc:103#evid-002-01-gravuras-desenhos>,
+        <urn:doc:103#evid-002-02-seriadas-pelos>,
+        <urn:doc:103#evid-002-03-desenvolvendo-observacao>,
+        <urn:doc:103#evid-002-04-desenvolvendo-observacao>,
+        <urn:doc:103#evid-002-05-observacao-evolucao> .
+
+<urn:doc:103#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Uma alternativa interessante pode ser feita com figuras representando velas acesas em diferentes tamanhos. (Existem no comercio inumeros jogos com a mesma finalidade, produzidos por diferentes fabricantes.)"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:103> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:103#evid-003-00-figuras-representando-velas>,
+        <urn:doc:103#evid-003-01-representando-velas-acesas>,
+        <urn:doc:103#evid-003-02-feita-figuras>,
+        <urn:doc:103#evid-003-03-diferentes-tamanhos>,
+        <urn:doc:103#evid-003-04-representando-velas-acesas-em-di>,
+        <urn:doc:103#evid-003-05-figuras-representando-velas-aces> .
+
+<urn:doc:103> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:103#frag-000>,
+        <urn:doc:103#frag-001>,
+        <urn:doc:103#frag-002>,
+        <urn:doc:103#frag-003> .
+

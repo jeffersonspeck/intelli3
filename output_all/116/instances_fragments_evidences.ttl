@@ -1,0 +1,121 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:116#evid-000-00-preparar-tabela> a onto:Keyword ;
+    rdfs:label "preparar tabela"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:116#evid-000-01-usadas-enfeites> a onto:Keyword ;
+    rdfs:label "usadas enfeites"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:116#evid-000-02-enfeites-geladeiras> a onto:Keyword ;
+    rdfs:label "enfeites geladeiras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:116#evid-000-03-tabela-metalica> a onto:Keyword ;
+    rdfs:label "tabela metalica"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:116#evid-000-04-metalica-adquirir> a onto:Keyword ;
+    rdfs:label "metalica adquirir"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:116#evid-000-05-adquirir-comercio> a onto:Keyword ;
+    rdfs:label "adquirir comercio"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:116#evid-000-06-bichinhos-flores> a onto:Keyword ;
+    rdfs:label "bichinhos flores"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:116#evid-000-07-similar> a onto:Keyword ;
+    rdfs:label "similar"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:116#evid-000-08-preparar-uma-tabela-metalica> a onto:DiscursiveStrategy ;
+    rdfs:label "Preparar uma tabela metalica"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:116#evid-000-09-bichinhos-e-flores-me-re-imantad> a onto:ContextObject ;
+    rdfs:label "bichinhos e flores me RE imantadas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:116#evid-001-00-montar> a onto:Keyword ;
+    rdfs:label "montar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:116#evid-001-01-identificando-conceitos> a onto:Keyword ;
+    rdfs:label "identificando conceitos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:116#evid-001-02-identificando-conceitos> a onto:Keyword ;
+    rdfs:label "identificando conceitos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:116#evid-001-03-direita> a onto:Keyword ;
+    rdfs:label "direita"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:116#evid-001-04-esquerda> a onto:Keyword ;
+    rdfs:label "esquerda"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:116#evid-001-05-embaixo> a onto:Keyword ;
+    rdfs:label "embaixo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:116#evid-001-06-montar-pecas> a onto:Keyword ;
+    rdfs:label "montar pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:116#evid-001-07-criar-historias-envolvendo> a onto:Keyword ;
+    rdfs:label "criar historias envolvendo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:116#evid-001-08-criar-historias-envolvendo> a onto:Keyword ;
+    rdfs:label "criar historias envolvendo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:116#evid-001-09-arrumacao-pecas> a onto:Keyword ;
+    rdfs:label "arrumacao pecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:116#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar uma tabela metalica e adquirir no comercio bichinhos e flores me RE imantadas, usadas como enfeites de geladeiras. Utilizacao: A atividade e similar a proposta com o flanelografo."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:116> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:116#evid-000-00-preparar-tabela>,
+        <urn:doc:116#evid-000-01-usadas-enfeites>,
+        <urn:doc:116#evid-000-02-enfeites-geladeiras>,
+        <urn:doc:116#evid-000-03-tabela-metalica>,
+        <urn:doc:116#evid-000-04-metalica-adquirir>,
+        <urn:doc:116#evid-000-05-adquirir-comercio>,
+        <urn:doc:116#evid-000-06-bichinhos-flores>,
+        <urn:doc:116#evid-000-07-similar>,
+        <urn:doc:116#evid-000-08-preparar-uma-tabela-metalica>,
+        <urn:doc:116#evid-000-09-bichinhos-e-flores-me-re-imantad> .
+
+<urn:doc:116#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Os alunos devem montar as pecas, identificando conceitos como \"direita\", \"esquerda\", \"em cima\", \"embaixo\" e outros. Criar historias envolvendo a arrumacao das pecas. (Existe no comercio: Magneto / Q.I.)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:116> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:116#evid-001-00-montar>,
+        <urn:doc:116#evid-001-01-identificando-conceitos>,
+        <urn:doc:116#evid-001-02-identificando-conceitos>,
+        <urn:doc:116#evid-001-03-direita>,
+        <urn:doc:116#evid-001-04-esquerda>,
+        <urn:doc:116#evid-001-05-embaixo>,
+        <urn:doc:116#evid-001-06-montar-pecas>,
+        <urn:doc:116#evid-001-07-criar-historias-envolvendo>,
+        <urn:doc:116#evid-001-08-criar-historias-envolvendo>,
+        <urn:doc:116#evid-001-09-arrumacao-pecas> .
+
+<urn:doc:116> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:116#frag-000>,
+        <urn:doc:116#frag-001> .
+

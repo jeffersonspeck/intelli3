@@ -1,0 +1,202 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "estar sentados",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7820680334328817,
+      "relevance": 0.9215686274509804
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "estar sentados em circulo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9215686274509804
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "recebem mensagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "escrita sussurrada",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5797858594185813,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "comunica",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.8052631578947369
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "expressoes nao verbais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.803567419097837,
+      "relevance": 0.866412213740458
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrindo mensagem",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7938861308300778,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrindo mensagem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7938861308300778,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estimulados utilizar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7686436349648491,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ser estimulados",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7453247112318561,
+      "relevance": 0.9694656488549618
+    },
+    {
+      "role": "Keyword",
+      "text": "alem olhar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7031628983777157,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "sendo ampliadas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6047033569114908,
+      "relevance": 0.6984732824427481
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao corporal",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6047033569114908,
+      "relevance": 0.5954198473282443
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao corporal",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6047033569114908,
+      "relevance": 0.5954198473282443
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "descubram",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7842922661807176,
+      "relevance": 0.7561576354679803
+    },
+    {
+      "role": "Keyword",
+      "text": "explorar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7842922661807176,
+      "relevance": 0.958128078817734
+    },
+    {
+      "role": "Keyword",
+      "text": "explorar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7842922661807176,
+      "relevance": 0.958128078817734
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumento permitir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7842922661807176,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumento permitir",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7842922661807176,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao utilizadas",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7822688719538717,
+      "relevance": 0.5960591133004927
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao utilizadas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7822688719538717,
+      "relevance": 0.5960591133004927
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao instrumento",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5411533799117518,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "comunicacao instrumento",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5411533799117518,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "linguagem oral",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.7167487684729064
+    }
+  ]
+}

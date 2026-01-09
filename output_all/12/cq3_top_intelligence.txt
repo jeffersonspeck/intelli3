@@ -1,0 +1,19 @@
+[Documento] urn:doc:12
+  - miVector: 3.88,12.71,11.07,0.00,32.95,0.00,0.00,39.39
+  - TOP (documento): Naturalist (score=0.3939)
+  - Ranking (top 3):
+      • Naturalist: 0.3939
+      • Bodily-Kinesthetic: 0.3295
+      • Logical-Mathematical: 0.1271
+
+
+[Documento — Fragmentos] urn:doc:12
+
+[Fragmento] Preparacao: Colecionar figuras coloridas de revistas, sempre em duplicata, formando 36 pares. Montar 4 cartelas em cartolina ou madeira e colar em cada cartela 6 figuras. As demais, repetidas, devem ser coladas cada uma em um cartao.
+  > TOP: Cinestésico-corporal (score=0.6053, tipo=Primary)
+
+[Fragmento] Utilizacao: Sortear as figuras dos cartoes entre as criancas, que devem monta-las sobre a original, depois de nomea-la. E indispensavel que utilizem o artigo definido e indefinido para cada item. Exemplo: O abacate verde, uma laranja amarela, etc. (Existem analogos no comercio.
+  > TOP: Cinestésico-corporal (score=0.4821, tipo=Primary)
+
+[Fragmento] Loto Mundo Variado [Coluna]) 54
+  > TOP: Naturalista (score=1.0000, tipo=Primary)

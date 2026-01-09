@@ -1,0 +1,176 @@
+[Documento] urn:doc:256
+  - miVector: 3.82,12.47,2.05,16.30,11.14,21.16,8.55,24.51
+  - TOP (documento): Naturalist (score=0.2451)
+  - Ranking (top 3):
+      • Naturalist: 0.2451
+      • Interpersonal: 0.2116
+      • Musical: 0.1630
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: fita com os sons gravados
+        • ContextObject: gravador e fita gravada
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2170
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: rota imaginaria
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0675
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: idealizar o roteiro da trilha a partir dos sons ouvidos
+        • DiscursiveStrategy: partilhar de uma rota imaginaria, da descoberta de uma trilha fantastica
+        • Keyword: anunciando cada som
+        • Keyword: convidados partilhar
+        • Keyword: estrategia facilita
+        • Keyword: facilita construcao
+        • Keyword: identificacao mesmos
+        • Keyword: ser convidados
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.2941
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: gravador e fita gravada
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2170
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: anunciando cada som
+        • Keyword: extraidas reportagens
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.0788
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: idealizar o roteiro da trilha a partir dos sons ouvidos
+        • Keyword: construcao dessa trilha
+        • Keyword: idealizar roteiro
+        • Keyword: roteiro trilha
+        • Keyword: televisao pode permitir
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2683
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: sons
+        • Keyword: gravada sons
+        • Keyword: grave diferentes
+        • Keyword: sons diferenciados
+        • Keyword: sons gravados
+        • Keyword: sons ouvidos
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.2114
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: idealizar o roteiro da trilha a partir dos sons ouvidos
+        • DiscursiveStrategy: partilhar de uma rota imaginaria, da descoberta de uma trilha fantastica
+        • Keyword: construcao dessa trilha
+        • Keyword: divagar pelo imaginario
+        • Keyword: idealizar roteiro
+        • Keyword: ondas mar
+        • Keyword: passaros animais
+        • Keyword: roteiro trilha
+        • Keyword: trilha fantastica
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=0.3221
+
+
+[Documento — Fragmentos] urn:doc:256
+
+[Fragmento] Preparacao: Gravador e fita gravada com sons diferenciados. Para tornar mais facil a identi- ficacao dos mesmos, o professor devera usar uma campainha para separar um som de outro. Fazer a gravacao captando sons de ventania, ondas do mar, passaros e ani- mais.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: gravador e fita gravada
+    - Ativações:
+        • score=0.2170, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: identificacao mesmos
+    - Ativações:
+        • score=0.1208, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: gravador e fita gravada
+    - Ativações:
+        • score=0.2170, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: gravada sons
+        • Keyword: sons diferenciados
+    - Ativações:
+        • score=0.2114, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: ondas mar
+        • Keyword: passaros animais
+    - Ativações:
+        • score=0.2338, tipo=Primary
+
+[Fragmento] A televisao pode permitir que se grave diferentes "cenas" extraidas de reporta- gens, exploracoes e outras. Utilizacao: Os alunos devem ser convidados a partilhar de uma rota imaginaria, da desco- berta de uma trilha fantastica e dispoem como unico elemento a fita com os sons gravados.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: fita com os sons gravados
+    - Ativações:
+        • score=0.0856, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: rota imaginaria
+    - Ativações:
+        • score=0.0675, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: partilhar de uma rota imaginaria, da descoberta de uma trilha fantastica
+        • Keyword: convidados partilhar
+        • Keyword: ser convidados
+    - Ativações:
+        • score=0.2941, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: extraidas reportagens
+    - Ativações:
+        • score=0.0788, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: televisao pode permitir
+    - Ativações:
+        • score=0.1432, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: grave diferentes
+        • Keyword: sons gravados
+    - Ativações:
+        • score=0.1481, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: partilhar de uma rota imaginaria, da descoberta de uma trilha fantastica
+        • Keyword: trilha fantastica
+    - Ativações:
+        • score=0.1828, tipo=Secondary
+
+[Fragmento] A classe pode estar organizada em grupos e cada grupo deve idealizar o roteiro da trilha a partir dos sons ouvidos. Uma estrategia que facilita a construcao dessa trilha e o divagar pelo imaginario e uma voz (pode ser do professor) anunci- ando cada som por seu numero.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: idealizar o roteiro da trilha a partir dos sons ouvidos
+        • Keyword: anunciando cada som
+        • Keyword: estrategia facilita
+        • Keyword: facilita construcao
+    - Ativações:
+        • score=0.2471, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: anunciando cada som
+    - Ativações:
+        • score=0.0474, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: idealizar o roteiro da trilha a partir dos sons ouvidos
+        • Keyword: construcao dessa trilha
+        • Keyword: idealizar roteiro
+        • Keyword: roteiro trilha
+    - Ativações:
+        • score=0.2683, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: sons
+        • Keyword: sons ouvidos
+    - Ativações:
+        • score=0.1150, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: idealizar o roteiro da trilha a partir dos sons ouvidos
+        • Keyword: construcao dessa trilha
+        • Keyword: divagar pelo imaginario
+        • Keyword: idealizar roteiro
+        • Keyword: roteiro trilha
+    - Ativações:
+        • score=0.3221, tipo=Primary

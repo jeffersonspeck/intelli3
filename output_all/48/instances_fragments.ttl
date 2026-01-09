@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:48#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Selecionar oito garrafas de plastico, cortar a 1o com 15cm de altura, as ou- tras com 12,5cm, 10cm, 7cm, 5,25cm, 5cm, 4,0cm e 3,5cm. De acabamento com fitas colantes nas beiradas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:48> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:48#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem ordenar as garrafas em tamanho, formando diferentes composicoes, agrupando as de tamanhos quase iguais ou diferentes, ordenan- do-as em fileiras, da menor para a maior e da maior para a menor. (Existem no mercado jogos com pinos de madeira -- Coluna e outros.)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:48> ;
+    dct:type "body" .
+
+<urn:doc:48> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:48#frag-000>,
+        <urn:doc:48#frag-001> .
+

@@ -1,0 +1,19 @@
+[Documento] urn:doc:146
+  - miVector: 15.00,11.43,3.67,11.98,47.27,1.57,0.00,9.08
+  - TOP (documento): Bodily-Kinesthetic (score=0.4727)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4727
+      • Linguistic: 0.1500
+      • Musical: 0.1198
+
+
+[Documento — Fragmentos] urn:doc:146
+
+[Fragmento] Preparacao: Reunir copinhos de iogurte (danoninho) e com grampeador e fita colante fazer chocalhos com feijao, milho ou pedrinhas dentro.
+  > TOP: Cinestésico-corporal (score=0.7694, tipo=Primary)
+
+[Fragmento] Utilizacao: Estabelecer associacoes entre as silabas das palavras pronunciadas pelo pro- fessor e o balancar do chocalho pelos alunos, acompanhando o ritmo da pala- vra, procurando dar o mesmo numero de batidas quantas forem as palavras pronunciadas.
+  > TOP: Lógico-matemática (score=0.3021, tipo=Primary)
+
+[Fragmento] Ir, progressivamente, aumentando o numero de silabas das pa- lavras e estimular os movimentos com o chocalho. O professor pode ser substi- tuido por alunos que, sorteando figuras, devem pronuncia-las para que os cole- gas movimentem o chocalho ritmicamente.
+  > TOP: Linguística (score=0.3127, tipo=Primary)

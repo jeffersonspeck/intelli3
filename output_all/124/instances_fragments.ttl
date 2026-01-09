@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:124#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar com ilustracoes de revistas uma serie de cartoes com muitas associacoes (15cm x 10cm) lado a lado (por exemplo: vaso / regador -- ninho / passarinho -- abelha / colmeia e outras) e recorta-las de maneira a permitir que as duas partes se unam atraves de um encaixe."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:124> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:124#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Preparar mais de um encaixe para essas situacoes, de maneira que seja possivel, por exemplo, o encaixe vaso / ninho e outros. Utilizacao: A atividade dos alunos, individualmente ou em duplas ou trios, e unir as pecas construindo associacoes."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:124> ;
+    dct:type "body" .
+
+<urn:doc:124#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Como essas construcoes sao possiveis com associa- coes corretas e encaixes em situacoes nao corretas, desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las. (Existem no comercio: jogos e dominos para associacao de ideias.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:124> ;
+    dct:type "body" .
+
+<urn:doc:124> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:124#frag-000>,
+        <urn:doc:124#frag-001>,
+        <urn:doc:124#frag-002> .
+

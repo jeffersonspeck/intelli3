@@ -1,0 +1,111 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:3#evid-000-00-montar-cartolina> a onto:Keyword ;
+    rdfs:label "montar cartolina"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:3#evid-000-01-desenhar-montar> a onto:Keyword ;
+    rdfs:label "desenhar montar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:3#evid-000-02-eventualmente-animais> a onto:Keyword ;
+    rdfs:label "eventualmente animais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:3#evid-000-03-teatro> a onto:Keyword ;
+    rdfs:label "teatro"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:3#evid-000-04-figuras-humanas> a onto:Keyword ;
+    rdfs:label "figuras humanas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:3#evid-000-05-recortar-revistas> a onto:Keyword ;
+    rdfs:label "recortar revistas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:3#evid-000-06-quantidade-figuras> a onto:Keyword ;
+    rdfs:label "quantidade figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:3#evid-000-07-revistas-montar> a onto:Keyword ;
+    rdfs:label "revistas montar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:3#evid-000-08-desenhar-ou-montar-em-cartolina-> a onto:DiscursiveStrategy ;
+    rdfs:label "Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quant…"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:3#evid-000-09-desenhar-ou-montar-em-cartolina-> a onto:DiscursiveStrategy ;
+    rdfs:label "Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quant…"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:3#evid-001-00-descrevendo-situacoes-diferentes> a onto:Keyword ;
+    rdfs:label "descrevendo situacoes diferentes"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:3#evid-001-01-descrevendo-situacoes-diferentes> a onto:Keyword ;
+    rdfs:label "descrevendo situacoes diferentes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:3#evid-001-02-inventar> a onto:Keyword ;
+    rdfs:label "inventar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:3#evid-001-03-historias> a onto:Keyword ;
+    rdfs:label "historias"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:3#evid-001-04-historias> a onto:Keyword ;
+    rdfs:label "historias"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:3#evid-001-05-escolhendo-personagens> a onto:Keyword ;
+    rdfs:label "escolhendo personagens"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:3#evid-001-06-propria-crianca> a onto:Keyword ;
+    rdfs:label "propria crianca"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:3#evid-001-07-estimulada-colecionar> a onto:Keyword ;
+    rdfs:label "estimulada colecionar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:3#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quantidade de figu- ras humanas, eventualmente animais, nas mais diversas situacoes."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:3> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:3#evid-000-00-montar-cartolina>,
+        <urn:doc:3#evid-000-01-desenhar-montar>,
+        <urn:doc:3#evid-000-02-eventualmente-animais>,
+        <urn:doc:3#evid-000-03-teatro>,
+        <urn:doc:3#evid-000-04-figuras-humanas>,
+        <urn:doc:3#evid-000-05-recortar-revistas>,
+        <urn:doc:3#evid-000-06-quantidade-figuras>,
+        <urn:doc:3#evid-000-07-revistas-montar>,
+        <urn:doc:3#evid-000-08-desenhar-ou-montar-em-cartolina->,
+        <urn:doc:3#evid-000-09-desenhar-ou-montar-em-cartolina-> .
+
+<urn:doc:3#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: A crianca, ou grupos de criancas, devem ser estimulados a \"inventar\" histo- rias, escolhendo seus personagens e descrevendo situacoes diferentes. O teatro pode ter, em etapas seguintes, um numero maior de atos e a pro- pria crianca deve ser estimulada a colecionar novos personagens. 49"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:3> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:3#evid-001-00-descrevendo-situacoes-diferentes>,
+        <urn:doc:3#evid-001-01-descrevendo-situacoes-diferentes>,
+        <urn:doc:3#evid-001-02-inventar>,
+        <urn:doc:3#evid-001-03-historias>,
+        <urn:doc:3#evid-001-04-historias>,
+        <urn:doc:3#evid-001-05-escolhendo-personagens>,
+        <urn:doc:3#evid-001-06-propria-crianca>,
+        <urn:doc:3#evid-001-07-estimulada-colecionar> .
+
+<urn:doc:3> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:3#frag-000>,
+        <urn:doc:3#frag-001> .
+

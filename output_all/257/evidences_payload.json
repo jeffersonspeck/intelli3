@@ -1,0 +1,216 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "forem convidados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5828085652864617,
+      "relevance": 0.8317307692307692
+    },
+    {
+      "role": "Keyword",
+      "text": "convidados trazer",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5714494417089081,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "trazer sacos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7912376885200267,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "sacos dormir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7912376885200267,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "dormir colchonetes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7912376885200267,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colchonetes passar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7912376885200267,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "trazer seus sacos de dormir ou colchonetes e passar uma noite na escola",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.7860576923076923
+    },
+    {
+      "role": "ContextObject",
+      "text": "sacos de dormir ou colchonetes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.7572115384615384
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "observar estrelas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7597240812106102,
+      "relevance": 0.9084821428571429
+    },
+    {
+      "role": "Keyword",
+      "text": "reunindo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6999154080386092,
+      "relevance": 0.8125
+    },
+    {
+      "role": "Keyword",
+      "text": "descreve las",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6999154080386092,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenhar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6553044134848671,
+      "relevance": 0.8638392857142857
+    },
+    {
+      "role": "Keyword",
+      "text": "constelacoes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6553044134848671,
+      "relevance": 0.84375
+    },
+    {
+      "role": "Keyword",
+      "text": "desenhar constelacoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6294428582733014,
+      "relevance": 0.8638392857142857
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "observar estrelas e desenhar constelacoes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9084821428571429
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "observar estrelas e desenhar constelacoes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9084821428571429
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "inventar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8009286250539217,
+      "relevance": 0.8284518828451883
+    },
+    {
+      "role": "Keyword",
+      "text": "recriar ideia",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7980507217780783,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "recriar ideia",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7980507217780783,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ideia astronomos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7980507217780783,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ideia astronomos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7980507217780783,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "constelacoes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7416182543876307,
+      "relevance": 0.7949790794979079
+    },
+    {
+      "role": "Keyword",
+      "text": "identificacao",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6116005325458534,
+      "relevance": 0.6464435146443515
+    },
+    {
+      "role": "Keyword",
+      "text": "identificacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6116005325458534,
+      "relevance": 0.6464435146443515
+    },
+    {
+      "role": "Keyword",
+      "text": "cardeais",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6116005325458534,
+      "relevance": 0.5941422594142259
+    },
+    {
+      "role": "ContextObject",
+      "text": "constelacoes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.7949790794979079
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[Documento] urn:doc:55
+  - miVector: 0.00,25.02,22.47,0.00,15.81,6.47,0.00,30.23
+  - TOP (documento): Naturalist (score=0.3023)
+  - Ranking (top 3):
+      • Naturalist: 0.3023
+      • Logical-Mathematical: 0.2502
+      • Spatial: 0.2247
+
+[Fragmento] Preparacao: O jogo e preparado com a confeccao de tres dados forrados de papel branco. O primeiro dado deve possuir circulos de cartolina cortados como em um dado co- mum. No segundo, seis cores diferentes, uma para cada lado, e, no ultimo, tres for- mas geometricas, cada uma repetida uma vez.
+  - Logical-Mathematical (via activation, score=0.6455)
+  - Spatial (via activation, score=0.3545)
+  - Espacial-visual (via activation, score=0.3545)
+  - Lógico-matemática (via activation, score=0.6455)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Recortar 60 triangulos iguais em seis cores (dez para cada cor), 60 quadrados divididos em seis cores e seis circulos iguais, tambem divididos em seis cores. Utilizacao: Os alunos devem formar equipes de quatro componentes.
+  - Bodily-Kinesthetic (via activation, score=0.2434)
+  - Interpersonal (via activation, score=0.2781)
+  - Logical-Mathematical (via activation, score=0.2284)
+  - Spatial (via activation, score=0.2501)
+  - Cinestésico-corporal (via activation, score=0.2434)
+  - Espacial-visual (via activation, score=0.2501)
+  - Interpessoal (via activation, score=0.2781)
+  - Lógico-matemática (via activation, score=0.2284)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Espalha-se sobre a mesa todas as formas (180) e os dados sao jogados, um de cada vez. O jogador seleciona as formas pela cor e pela quantidade e retira-as da mesa. O parceiro repete a operacao e, assim, sucessivamente, ate terminarem todas as formas.
+  - Bodily-Kinesthetic (via activation, score=0.4364)
+  - Logical-Mathematical (via activation, score=0.2022)
+  - Spatial (via activation, score=0.3615)
+  - Cinestésico-corporal (via activation, score=0.4364)
+  - Espacial-visual (via activation, score=0.3615)
+  - Lógico-matemática (via activation, score=0.2022)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Ganha o aluno que conseguir o maior numero de pecas e tambem o maior numero de formas e de cores. 81
+  - Naturalist (via activation, score=1.0000)
+  - Naturalista (via activation, score=1.0000)
+  - Naturalist (via element)
+  - Naturalista (via element)

@@ -1,0 +1,98 @@
+[Documento] urn:doc:249
+  - miVector: 0.00,43.27,0.00,0.00,21.91,14.02,0.00,20.80
+  - TOP (documento): Logical-Mathematical (score=0.4327)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.4327
+      • Bodily-Kinesthetic: 0.2191
+      • Naturalist: 0.2080
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: estimulando motricidade
+        • Keyword: executarem antecipadamente
+        • Keyword: interessante caminho estimulando
+        • Keyword: motricidade soltando
+        • Keyword: percorrera interessante caminho
+        • Keyword: remara rios
+        • Keyword: saltara cercas inexistentes
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5573
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: gincana de atividades
+        • DiscursiveStrategy: executarem tarefas antecipadamente planejadas
+        • Keyword: verdadeira gincana
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4626
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: executarem tarefas antecipadamente planejadas
+        • Keyword: antecipadamente planejadas
+        • Keyword: depende capacidade
+        • Keyword: jogo depende
+        • Keyword: sucesso jogo
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.8126
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: aventuras
+        • Keyword: imaginacao naturalista
+        • Keyword: naturalista
+        • Keyword: procurara tesouros ocultos
+        • Keyword: remara rios
+        • Keyword: rios imaginarios
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.4427
+
+
+[Documento — Fragmentos] urn:doc:249
+
+[Fragmento] Preparacao: E indispensavel darmos oportunidade aos alunos de executarem tarefas an- tecipadamente planejadas. O professor deve idealizar uma verdadeira gincana de atividades e cumprindo-as deve solicitar aos alunos que o facam.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: executarem antecipadamente
+    - Ativações:
+        • score=0.1658, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: gincana de atividades
+        • DiscursiveStrategy: executarem tarefas antecipadamente planejadas
+        • Keyword: verdadeira gincana
+    - Ativações:
+        • score=0.4626, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: executarem tarefas antecipadamente planejadas
+        • Keyword: antecipadamente planejadas
+    - Ativações:
+        • score=0.3716, tipo=Secondary
+
+[Fragmento] Utilizacao: O professor sera o "mestre" e executara a gincana estabelecida (saltara cer- cas inexistentes, remara por rios imaginarios, procurara tesouros ocultos) e as- sim percorrera interessante caminho estimulando a motricidade e soltando a imaginacao naturalista dos alunos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: estimulando motricidade
+        • Keyword: interessante caminho estimulando
+        • Keyword: motricidade soltando
+        • Keyword: percorrera interessante caminho
+        • Keyword: remara rios
+        • Keyword: saltara cercas inexistentes
+    - Ativações:
+        • score=0.5573, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: imaginacao naturalista
+        • Keyword: naturalista
+        • Keyword: procurara tesouros ocultos
+        • Keyword: remara rios
+        • Keyword: rios imaginarios
+    - Ativações:
+        • score=0.4427, tipo=Secondary
+
+[Fragmento] O sucesso do jogo depende da capacidade do professor em levar o aluno a partilhar dessas "aventuras". 200
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: depende capacidade
+        • Keyword: jogo depende
+        • Keyword: sucesso jogo
+    - Ativações:
+        • score=0.8126, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: aventuras
+    - Ativações:
+        • score=0.1874, tipo=Secondary

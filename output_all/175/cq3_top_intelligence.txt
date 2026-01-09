@@ -1,0 +1,19 @@
+[Documento] urn:doc:175
+  - miVector: 7.06,38.99,16.33,5.82,24.36,7.45,0.00,0.00
+  - TOP (documento): Logical-Mathematical (score=0.3899)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3899
+      • Bodily-Kinesthetic: 0.2436
+      • Spatial: 0.1633
+
+
+[Documento — Fragmentos] urn:doc:175
+
+[Fragmento] Preparacao: O professor deve selecionar uma tampa de caixa grande (mais ou menos de 60cm x 60cm): seis potes de iogurte, pintando tres de uma cor e tres de outra. Fazer um corte no pote, simulando a entrada de uma toca. Colocar em cada pote, no telhado, um numero de um a seis.
+  > TOP: Cinestésico-corporal (score=0.3941, tipo=Primary)
+
+[Fragmento] Preparar bolinhas com papel alu- minio amassado ou com feltro. Marcar entre as tocas o "meio de campo", assi- nalando um ponto onde deve ser colocada a bolinha antes de cada jogada.
+  > TOP: Lógico-matemática (score=1.0000, tipo=Primary)
+
+[Fragmento] Utilizacao: A atividade pode ser desenvolvida em equipe e consiste na tentativa dos alunos, com um toque, impulsionar a bolinha na toca. Ao conseguir, o aluno marca pontos e passa a vcz para O colega.
+  > TOP: Cinestésico-corporal (score=0.2915, tipo=Primary)

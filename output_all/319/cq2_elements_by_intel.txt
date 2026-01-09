@@ -1,0 +1,147 @@
+[Documento] urn:doc:319
+  - miVector: 11.43,31.67,0.00,9.43,26.57,17.60,1.31,1.99
+  - TOP (documento): Logical-Mathematical (score=0.3167)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3167
+      • Bodily-Kinesthetic: 0.2657
+      • Interpersonal: 0.1760
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: pessoas louras, morenas, pretas, ruivas, altas, baixas, magras, gordas, velhas, criancas, jovens, de pe, sentadas, deitadas
+        • Keyword: associar postura
+        • Keyword: colar cartolina
+        • Keyword: formar conjuntos
+        • Keyword: postura pessoas
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.4269
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: associar
+        • Keyword: atitudes
+        • Keyword: atitudes colocar
+        • Keyword: desassociando estercotipos
+        • Keyword: eur discutir
+        • Keyword: ouvindo
+        • Keyword: pessoas possiveis
+        • Keyword: possiveis atitudes
+        • Keyword: proprias conclusoes
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3937
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: proprias conclusoes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0431
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: atributos comuns
+        • Keyword: colocar discussao
+        • Keyword: conjuntos atributos
+        • Keyword: percebendo distincao
+        • Keyword: tipo fisico
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3113
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: antecipar julgamentos
+        • Keyword: discussao tendencia
+        • Keyword: mediador
+        • Keyword: reunir muitas revistas
+        • Keyword: revelamos antecipar
+        • Keyword: tendencia revelamos
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5731
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: atributos comuns
+        • Keyword: conjuntos atributos
+        • Keyword: percebendo distincao
+        • Keyword: tipo fisico
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3113
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: colocar discussao
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0658
+
+
+[Documento — Fragmentos] urn:doc:319
+
+[Fragmento] Preparacao: Reunir muitas revistas com gravuras representando seres humanos em di- ferentes tamanhos EUR posicoes, posturas, colar em cartolina.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: colar cartolina
+    - Ativações:
+        • score=0.4269, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: reunir muitas revistas
+    - Ativações:
+        • score=0.5731, tipo=Primary
+
+[Fragmento] Utilizacao: Os alunos devem ser estimulados a formar conjuntos com atributos co- muns, percebendo a distincao entre pessoas louras, morenas, pretas, ruivas, al- tas, baixas, magras, gordas, velhas, criancas, jovens, de pe, sentadas, deitadas, EUR discutir em classe o tipo fisico das pessoas, suas atitudes, desassociando esterco- tipos c trabalhando eventuais preconceitos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: pessoas louras, morenas, pretas, ruivas, altas, baixas, magras, gordas, velhas, criancas, jovens, de pe, sentadas, deitadas
+        • Keyword: formar conjuntos
+    - Ativações:
+        • score=0.1905, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: atitudes
+        • Keyword: desassociando estercotipos
+        • Keyword: eur discutir
+    - Ativações:
+        • score=0.1870, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: atributos comuns
+        • Keyword: conjuntos atributos
+        • Keyword: percebendo distincao
+        • Keyword: tipo fisico
+    - Ativações:
+        • score=0.3113, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: atributos comuns
+        • Keyword: conjuntos atributos
+        • Keyword: percebendo distincao
+        • Keyword: tipo fisico
+    - Ativações:
+        • score=0.3113, tipo=Secondary
+
+[Fragmento] Devem associar a postura das pes- soas a possiveis atitudes e colocar em discussao a tendencia que revelamos em antecipar julgamentos. E importante que o professor seja, em sala de aula, um mediador, ouvindo os alunos e permitindo que alcancem suas proprias conclu- sOEs.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: associar postura
+        • Keyword: postura pessoas
+    - Ativações:
+        • score=0.1315, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: associar
+        • Keyword: atitudes colocar
+        • Keyword: ouvindo
+        • Keyword: pessoas possiveis
+        • Keyword: possiveis atitudes
+        • Keyword: proprias conclusoes
+    - Ativações:
+        • score=0.3937, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: proprias conclusoes
+    - Ativações:
+        • score=0.0431, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: colocar discussao
+    - Ativações:
+        • score=0.0658, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: antecipar julgamentos
+        • Keyword: discussao tendencia
+        • Keyword: mediador
+        • Keyword: revelamos antecipar
+        • Keyword: tendencia revelamos
+    - Ativações:
+        • score=0.3002, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: colocar discussao
+    - Ativações:
+        • score=0.0658, tipo=Secondary

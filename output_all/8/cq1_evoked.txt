@@ -1,0 +1,41 @@
+[Documento] urn:doc:8
+  - miVector: 40.83,38.87,0.00,0.00,6.96,0.00,0.00,13.33
+  - TOP (documento): Linguistic (score=0.4083)
+  - Ranking (top 3):
+      • Linguistic: 0.4083
+      • Logical-Mathematical: 0.3887
+      • Naturalist: 0.1333
+
+[Fragmento] Preparacao: O desafio proposto pelo jogo e levar os alunos, reunidos em duplas, trios ou grupos maiores, a construir uma mensagem sobre o tema proposto, nao usando algumas palavras proibidas. Utilizacao: O professor idealiza um tema, circunscrito aos conteudos que esta traba- lhando.
+  - Bodily-Kinesthetic (via activation, score=0.1118)
+  - Linguistic (via activation, score=0.6707)
+  - Logical-Mathematical (via activation, score=0.2175)
+  - Cinestésico-corporal (via activation, score=0.1118)
+  - Linguística (via activation, score=0.6707)
+  - Lógico-matemática (via activation, score=0.2175)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Exemplo: "Os estados do clima no Brasil". Solicita que os alunos escre- vam sobre esse tema, desenvolvendo mensagens corretas, mas nao se utilizando de palavras-chave como clima, chuva, umidade, vento, pressao, calor, inverno, altitu- de, primavera.
+  - Bodily-Kinesthetic (via activation, score=0.0845)
+  - Linguistic (via activation, score=0.4756)
+  - Naturalist (via activation, score=0.4399)
+  - Cinestésico-corporal (via activation, score=0.0845)
+  - Linguística (via activation, score=0.4756)
+  - Naturalista (via activation, score=0.4399)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Naturalista (via element)
+
+[Fragmento] Os diferentes grupos preparam suas mensagens e devem apresen- ta-las aos demais. O professor ou eventualmente os proprios alunos julgam qua- is sao as respostas mais completas.
+  - Logical-Mathematical (via activation, score=1.0000)
+  - Lógico-matemática (via activation, score=1.0000)
+  - Logical-Mathematical (via element)
+  - Lógico-matemática (via element)

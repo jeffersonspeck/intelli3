@@ -1,0 +1,256 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "reunir muitas revistas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8079591951664962,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "colar cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8025846536641282,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "eur discutir",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8017746285487811,
+      "relevance": 0.6811797752808989
+    },
+    {
+      "role": "Keyword",
+      "text": "atributos comuns",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7957445179841753,
+      "relevance": 0.922752808988764
+    },
+    {
+      "role": "Keyword",
+      "text": "atributos comuns",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7957445179841753,
+      "relevance": 0.922752808988764
+    },
+    {
+      "role": "Keyword",
+      "text": "desassociando estercotipos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7957445179841753,
+      "relevance": 0.5898876404494382
+    },
+    {
+      "role": "Keyword",
+      "text": "percebendo distincao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7957445179841753,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "percebendo distincao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7957445179841753,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "formar conjuntos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7865437151002534,
+      "relevance": 0.952247191011236
+    },
+    {
+      "role": "Keyword",
+      "text": "tipo fisico",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7865437151002534,
+      "relevance": 0.6460674157303371
+    },
+    {
+      "role": "Keyword",
+      "text": "tipo fisico",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7865437151002534,
+      "relevance": 0.6460674157303371
+    },
+    {
+      "role": "Keyword",
+      "text": "conjuntos atributos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7865437151002534,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "conjuntos atributos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7865437151002534,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "atitudes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7340804791449262,
+      "relevance": 0.6039325842696629
+    },
+    {
+      "role": "ContextObject",
+      "text": "pessoas louras, morenas, pretas, ruivas, altas, baixas, magras, gordas, velhas, criancas, jovens, de pe, sentadas, deitadas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8567415730337079
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "associar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.9887640449438202
+    },
+    {
+      "role": "Keyword",
+      "text": "antecipar julgamentos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.7940074906367041
+    },
+    {
+      "role": "Keyword",
+      "text": "possiveis atitudes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.9269662921348315
+    },
+    {
+      "role": "Keyword",
+      "text": "associar postura",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "postura pessoas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pessoas possiveis",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "atitudes colocar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colocar discussao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colocar discussao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "discussao tendencia",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tendencia revelamos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "revelamos antecipar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "proprias conclusoes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7247991038469423,
+      "relevance": 0.5374531835205992
+    },
+    {
+      "role": "Keyword",
+      "text": "proprias conclusoes",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7247991038469423,
+      "relevance": 0.5374531835205992
+    },
+    {
+      "role": "Keyword",
+      "text": "ouvindo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7247991038469423,
+      "relevance": 0.6292134831460674
+    },
+    {
+      "role": "Keyword",
+      "text": "mediador",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.4573589324113113,
+      "relevance": 0.6479400749063671
+    }
+  ]
+}

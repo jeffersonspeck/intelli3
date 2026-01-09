@@ -1,0 +1,324 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "possam estar sentados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7630853599780124,
+      "relevance": 0.8923076923076922
+    },
+    {
+      "role": "Keyword",
+      "text": "divide",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6519551226216209,
+      "relevance": 0.7153846153846154
+    },
+    {
+      "role": "Keyword",
+      "text": "componentes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5859368621608416,
+      "relevance": 0.5461538461538462
+    },
+    {
+      "role": "ContextObject",
+      "text": "sala",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.9846153846153847
+    },
+    {
+      "role": "ContextObject",
+      "text": "sala",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9846153846153847
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "pequeno texto positivo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8091812077218313,
+      "relevance": 0.7390510948905109
+    },
+    {
+      "role": "Keyword",
+      "text": "passa tantas meias",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8028242536551449,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmo escrevam",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8000174335980177,
+      "relevance": 0.7718978102189781
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmo escrevam",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8000174335980177,
+      "relevance": 0.7718978102189781
+    },
+    {
+      "role": "Keyword",
+      "text": "participantes quantos forem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8000174335980177,
+      "relevance": 0.9051094890510949
+    },
+    {
+      "role": "Keyword",
+      "text": "escrevam pequeno",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8000174335980177,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "escrevam pequeno",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8000174335980177,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "meias folhas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7977668045258388,
+      "relevance": 0.9762773722627738
+    },
+    {
+      "role": "Keyword",
+      "text": "folhas papel",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.780571049164813,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "forem integrantes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.780571049164813,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "explore",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7290635787290417,
+      "relevance": 0.6879562043795621
+    },
+    {
+      "role": "Keyword",
+      "text": "folha",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7130011604149663,
+      "relevance": 0.9653284671532847
+    },
+    {
+      "role": "ContextObject",
+      "text": "tantas meias folhas de papel",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9890510948905109
+    },
+    {
+      "role": "ContextObject",
+      "text": "tantas meias folhas de papel",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9890510948905109
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "texto nao",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5227844464969369,
+      "relevance": 0.9545454545454546
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.70603798334732,
+      "relevance": 0.8916083916083917
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.70603798334732,
+      "relevance": 0.8916083916083917
+    },
+    {
+      "role": "Keyword",
+      "text": "redator texto",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.4744061218166429,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "textos sao abertos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.47271496748690894,
+      "relevance": 0.7482517482517482
+    },
+    {
+      "role": "Keyword",
+      "text": "reunir",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5943280715870158,
+      "relevance": 0.618881118881119
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "reunir todos que a ele se referem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.618881118881119
+    },
+    {
+      "role": "ContextObject",
+      "text": "textos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.49725,
+      "relevance": 0.7482517482517482
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "apos leitura",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.572445066216197,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mensagens recebidas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7924657699024645,
+      "relevance": 0.9640151515151515
+    },
+    {
+      "role": "Keyword",
+      "text": "considera las identificadoras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7816261043747441,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "considera las identificadoras",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7816261043747441,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificadoras nao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7816261043747441,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "leitura mensagens",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7427903385638355,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "discussao mensagens",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7427903385638355,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "coloca discussao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.5238047647999868,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "mensagens recebidas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9640151515151515
+    }
+  ],
+  "4": [
+    {
+      "role": "Keyword",
+      "text": "apos longo processo",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.5818570058437736,
+      "relevance": 0.9662576687116564
+    },
+    {
+      "role": "Keyword",
+      "text": "processo alfabetizacao",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "julgar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7208772831724879,
+      "relevance": 0.99079754601227
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "doc_id": "urn:doc:7",
+  "paragraphs": [
+    {
+      "k": 0,
+      "text": "Preparacao: Uma caixa com uma serie de figuras extraidas de revistas, contendo pala- vras que ja fazem parte do universo vocabular da crianca. Colar essas figuras em cartolina e, eventualmente, plastifica-las.",
+      "lang": "pt",
+      "is_title_or_abstract": true
+    },
+    {
+      "k": 1,
+      "text": "Utilizacao: O professor deve retirar a figura da caixa, apresenta-la aos alunos e marcar na lousa o numero de letras necessarias para escreve-la. Os alunos, sortea- dos pelo professor, devem escolher as letras corretas e estas serem anotadas.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    },
+    {
+      "k": 2,
+      "text": "Coletivamente a classe vai construindo palavras, evoluindo das mais simples para as mais complexas. A cada letra errada, o espaco que deveria ser ocupado pela mesma e ocupado por um boneco na forca.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    }
+  ]
+}

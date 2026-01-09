@@ -1,0 +1,78 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "ordenar associacoes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir ordenar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir ordenar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "associacoes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.56
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "colecionem figuras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8071991370682046,
+      "relevance": 0.8825757575757576
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolva essa habilidade",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.7424242424242424
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras revistas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5721290866958029,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "colecionem figuras de revistas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8825757575757576
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras de revistas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.49725,
+      "relevance": 0.8617424242424243
+    }
+  ]
+}

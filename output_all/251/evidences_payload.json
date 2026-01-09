@@ -1,0 +1,110 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "definir serie",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7994254936158128,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "casas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7939430020037256,
+      "relevance": 0.875
+    },
+    {
+      "role": "Keyword",
+      "text": "pensarem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7719745134829221,
+      "relevance": 0.915948275862069
+    },
+    {
+      "role": "Keyword",
+      "text": "pesquisem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7677635929782847,
+      "relevance": 0.6918103448275862
+    },
+    {
+      "role": "Keyword",
+      "text": "moram animais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7623785943495461,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "natureza",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7110263488447298,
+      "relevance": 0.5689655172413793
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "apresentar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8002655540100023,
+      "relevance": 0.8678861788617886
+    },
+    {
+      "role": "Keyword",
+      "text": "recortes desenhos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7948041910402482,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estabelecera regras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5566715603535474,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "regras pesquisa",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7707760066433733,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "casa formigas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6675497631456553,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "descoberta natureza",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6675497631456553,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "casa das formigas, dos passaros, dos cupins e outros",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.733739837398374
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "montasse",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.8722627737226277
+    },
+    {
+      "role": "Keyword",
+      "text": "montasse mural",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mural sala",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "contendo retrato",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "contendo retrato",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "abaixo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5703374137860785,
+      "relevance": 0.5912408759124088
+    },
+    {
+      "role": "Keyword",
+      "text": "abaixo mesmo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5703374137860785,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "interessante",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6992904790342168,
+      "relevance": 0.9781021897810219
+    },
+    {
+      "role": "ContextObject",
+      "text": "retrato de cada um dos alunos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.708029197080292
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "figuras geometricas sejam",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8078520294612194,
+      "relevance": 0.588477366255144
+    },
+    {
+      "role": "Keyword",
+      "text": "geometricas sejam fixadas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8078520294612194,
+      "relevance": 0.5720164609053497
+    },
+    {
+      "role": "Keyword",
+      "text": "geometricas sejam fixadas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8078520294612194,
+      "relevance": 0.5720164609053497
+    },
+    {
+      "role": "Keyword",
+      "text": "cores verde",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5777008948326345,
+      "relevance": 0.8847736625514403
+    },
+    {
+      "role": "Keyword",
+      "text": "revestido feltro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.79989354669134,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "entao taxinhas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5741541911427173,
+      "relevance": 0.6502057613168724
+    },
+    {
+      "role": "Keyword",
+      "text": "circulos cores",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7949827261976086,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mural caixa",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7482245425232351,
+      "relevance": 0.75
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "ser orientados",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9755351681957186
+    },
+    {
+      "role": "Keyword",
+      "text": "orientados perceber",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "orientados perceber",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "perceber estados",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estados cmocao",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cores caixa",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5771917527041672,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "cores da caixa",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.827217125382263
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "dependendo grau",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7998090781683016,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "independentemente cor",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7998090781683016,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ampla liberdade",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7948603865056336,
+      "relevance": 0.9665354330708661
+    },
+    {
+      "role": "Keyword",
+      "text": "grau afetividade",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7948603865056336,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "liberdade falar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7944291416187681,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "estado emocional",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.789830449019099,
+      "relevance": 0.8858267716535433
+    },
+    {
+      "role": "Keyword",
+      "text": "estado emocao",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.5619132887464104,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "procura los",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7417401463819324,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "falar desse estado",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7362240111833722,
+      "relevance": 0.5570866141732284
+    },
+    {
+      "role": "ContextObject",
+      "text": "estado emocional",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8858267716535433
+    }
+  ],
+  "4": [
+    {
+      "role": "Keyword",
+      "text": "vermelhos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7648729717220949,
+      "relevance": 0.9130434782608696
+    },
+    {
+      "role": "Keyword",
+      "text": "forjarem situacoes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7593337414849883,
+      "relevance": 0.682608695652174
+    },
+    {
+      "role": "Keyword",
+      "text": "serem notados",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.751413136199976,
+      "relevance": 0.5782608695652174
+    },
+    {
+      "role": "Keyword",
+      "text": "procurar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6747143879347625,
+      "relevance": 1.0
+    }
+  ]
+}

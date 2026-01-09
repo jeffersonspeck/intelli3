@@ -1,0 +1,190 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:142#evid-000-00-instrumento-musical> a onto:Keyword ;
+    rdfs:label "instrumento musical"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:142#evid-000-01-animal-plastica> a onto:Keyword ;
+    rdfs:label "animal plastica"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:142#evid-000-02-percussao-constituido> a onto:Keyword ;
+    rdfs:label "percussao constituido"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:142#evid-000-03-pele-animal> a onto:Keyword ;
+    rdfs:label "pele animal"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:142#evid-000-04-escola-dispor> a onto:Keyword ;
+    rdfs:label "escola dispor"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:142#evid-000-05-musical-percussao> a onto:Keyword ;
+    rdfs:label "musical percussao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:142#evid-000-06-corpo-madeira> a onto:Keyword ;
+    rdfs:label "corpo madeira"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-000-07-improvisar-surdo> a onto:Keyword ;
+    rdfs:label "improvisar surdo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-000-08-recoberto> a onto:Keyword ;
+    rdfs:label "recoberto"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:142#evid-000-09-tecido-lona> a onto:Keyword ;
+    rdfs:label "tecido lona"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:142#evid-000-10-possivel-improvisar-se-um-surdo> a onto:DiscursiveStrategy ;
+    rdfs:label "possivel improvisar-se um surdo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:142#evid-001-00-percussao> a onto:Keyword ;
+    rdfs:label "percussao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:142#evid-001-01-descobrir> a onto:Keyword ;
+    rdfs:label "descobrir"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:142#evid-001-02-obtidos-instrumento> a onto:Keyword ;
+    rdfs:label "obtidos instrumento"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:142#evid-001-03-diferentes-tipos> a onto:Keyword ;
+    rdfs:label "diferentes tipos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:142#evid-001-04-tipos-sons> a onto:Keyword ;
+    rdfs:label "tipos sons"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:142#evid-001-05-tipos-sons> a onto:Keyword ;
+    rdfs:label "tipos sons"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:142#evid-001-06-uma-baqueta-ou-pedaco-de-pau-par> a onto:ContextObject ;
+    rdfs:label "uma baqueta ou pedaco de pau para a percussao"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:142#evid-002-00-mao-aberta> a onto:Keyword ;
+    rdfs:label "mao aberta"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-002-01-mao-fechada> a onto:Keyword ;
+    rdfs:label "mao fechada"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-002-02-correndo-dedos> a onto:Keyword ;
+    rdfs:label "correndo dedos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-002-03-dominando-identificando> a onto:Keyword ;
+    rdfs:label "dominando identificando"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:142#evid-002-04-dominando-identificando> a onto:Keyword ;
+    rdfs:label "dominando identificando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-002-05-pele-instrumento> a onto:Keyword ;
+    rdfs:label "pele instrumento"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:142#evid-002-06-instrumento-batendo> a onto:Keyword ;
+    rdfs:label "instrumento batendo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-002-07-variedade-sons> a onto:Keyword ;
+    rdfs:label "variedade sons"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:142#evid-002-08-batidas> a onto:Keyword ;
+    rdfs:label "batidas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-002-09-baqueta> a onto:Keyword ;
+    rdfs:label "baqueta"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-002-10-batidas-com-a-mao-aberta-com-a-m> a onto:DiscursiveStrategy ;
+    rdfs:label "Batidas com a mao aberta, com a mao fechada, com a baqueta, correndo os dedos sobre a pele do instrumento ou batendo com as unhas obtem-se grande variedade d…"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:142#evid-003-00-olhos-vendados-amplia> a onto:Keyword ;
+    rdfs:label "olhos vendados amplia"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:142#evid-003-01-uso> a onto:Keyword ;
+    rdfs:label "uso"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:142#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: A escola deve dispor de um surdo, instrumento musical de percussao consti- tuido de um corpo de madeira ou de metal de 40cm x 30cm, recoberto com uma pele animal ou plastica. Um pandeiro surte o mesmo efeito e com um tecido de lona e possivel improvisar-se um surdo."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:142> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:142#evid-000-00-instrumento-musical>,
+        <urn:doc:142#evid-000-01-animal-plastica>,
+        <urn:doc:142#evid-000-02-percussao-constituido>,
+        <urn:doc:142#evid-000-03-pele-animal>,
+        <urn:doc:142#evid-000-04-escola-dispor>,
+        <urn:doc:142#evid-000-05-musical-percussao>,
+        <urn:doc:142#evid-000-06-corpo-madeira>,
+        <urn:doc:142#evid-000-07-improvisar-surdo>,
+        <urn:doc:142#evid-000-08-recoberto>,
+        <urn:doc:142#evid-000-09-tecido-lona>,
+        <urn:doc:142#evid-000-10-possivel-improvisar-se-um-surdo> .
+
+<urn:doc:142#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Uma baqueta ou pedaco de pau para a percussao. Utilizacao: Os alunos devem ser estimulados a \"descobrir\" os diferentes tipos de sons que podem ser obtidos do instrumento."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:142> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:142#evid-001-00-percussao>,
+        <urn:doc:142#evid-001-01-descobrir>,
+        <urn:doc:142#evid-001-02-obtidos-instrumento>,
+        <urn:doc:142#evid-001-03-diferentes-tipos>,
+        <urn:doc:142#evid-001-04-tipos-sons>,
+        <urn:doc:142#evid-001-05-tipos-sons>,
+        <urn:doc:142#evid-001-06-uma-baqueta-ou-pedaco-de-pau-par> .
+
+<urn:doc:142#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Batidas com a mao aberta, com a mao fechada, com a baqueta, correndo os dedos sobre a pele do instrumento ou batendo com as unhas obtem-se grande variedade de sons que os alunos devem, progressivamente, ir dominando e identificando."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:142> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:142#evid-002-00-mao-aberta>,
+        <urn:doc:142#evid-002-01-mao-fechada>,
+        <urn:doc:142#evid-002-02-correndo-dedos>,
+        <urn:doc:142#evid-002-03-dominando-identificando>,
+        <urn:doc:142#evid-002-04-dominando-identificando>,
+        <urn:doc:142#evid-002-05-pele-instrumento>,
+        <urn:doc:142#evid-002-06-instrumento-batendo>,
+        <urn:doc:142#evid-002-07-variedade-sons>,
+        <urn:doc:142#evid-002-08-batidas>,
+        <urn:doc:142#evid-002-09-baqueta>,
+        <urn:doc:142#evid-002-10-batidas-com-a-mao-aberta-com-a-m> .
+
+<urn:doc:142#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "O uso da atividade com os alunos com olhos vendados amplia o limite da experiencia. (Existe no comercio, de inumeros fabricantes.)"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:142> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:142#evid-003-00-olhos-vendados-amplia>,
+        <urn:doc:142#evid-003-01-uso> .
+
+<urn:doc:142> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:142#frag-000>,
+        <urn:doc:142#frag-001>,
+        <urn:doc:142#frag-002>,
+        <urn:doc:142#frag-003> .
+

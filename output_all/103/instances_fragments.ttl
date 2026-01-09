@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:103#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Colecionar gravuras de revistas ou desenhar ilustracoes mostrando as diferentes etapas do dia a dia de uma crianca e, se possivel, tambem de um adulto."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:103> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:103#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "O ideal e ilustrar o passar das horas e mostrar as diferentes atividades de uma crianca (acordar, tomar cafe, sair de casa, chegar a escola, assistir aula, participar do recreio, etc.)."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:103> ;
+    dct:type "body" .
+
+<urn:doc:103#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Essas gravuras ou desenhos, coladas em cartolina, formarao pecas que deverao ser seriadas pelos alunos, desenvolvendo sua observacao da evolucao temporal. Em etapas mais elevadas, o exercicio pode prosseguir com as estacoes do ano e a sucessao dos meses."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:103> ;
+    dct:type "body" .
+
+<urn:doc:103#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Uma alternativa interessante pode ser feita com figuras representando velas acesas em diferentes tamanhos. (Existem no comercio inumeros jogos com a mesma finalidade, produzidos por diferentes fabricantes.)"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:103> ;
+    dct:type "body" .
+
+<urn:doc:103> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:103#frag-000>,
+        <urn:doc:103#frag-001>,
+        <urn:doc:103#frag-002>,
+        <urn:doc:103#frag-003> .
+

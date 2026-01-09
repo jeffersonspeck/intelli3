@@ -1,0 +1,128 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:10#evid-000-00-atraves-perguntas> a onto:Keyword ;
+    rdfs:label "atraves perguntas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-000-01-funcao-cronometrar> a onto:Keyword ;
+    rdfs:label "funcao cronometrar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:10#evid-000-02-funcao-cronometrar> a onto:Keyword ;
+    rdfs:label "funcao cronometrar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:10#evid-000-03-cronometrar-participacao> a onto:Keyword ;
+    rdfs:label "cronometrar participacao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:10#evid-000-04-induzi> a onto:Keyword ;
+    rdfs:label "induzi"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:10#evid-000-05-inicia> a onto:Keyword ;
+    rdfs:label "inicia"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:10#evid-000-06-dialogo> a onto:Keyword ;
+    rdfs:label "dialogo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:10#evid-001-00-voce-casado> a onto:Keyword ;
+    rdfs:label "voce casado"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-001-01-nasceu-nigeria> a onto:Keyword ;
+    rdfs:label "nasceu nigeria"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-001-02-verdade-nasceu> a onto:Keyword ;
+    rdfs:label "verdade nasceu"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-001-03-expressao-correspondente> a onto:Keyword ;
+    rdfs:label "expressao correspondente"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:10#evid-001-04-expressao-correspondente> a onto:Keyword ;
+    rdfs:label "expressao correspondente"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:10#evid-001-05-negativo> a onto:Keyword ;
+    rdfs:label "negativo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-001-06-dizer-negativo> a onto:DiscursiveStrategy ;
+    rdfs:label "dizer negativo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-001-07-dizer-negativo> a onto:DiscursiveStrategy ;
+    rdfs:label "dizer negativo"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:10#evid-002-00-dialogo-dinamico> a onto:Keyword ;
+    rdfs:label "dialogo dinamico"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:10#evid-002-01-mantiver> a onto:Keyword ;
+    rdfs:label "mantiver"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:10#evid-002-02-mantiver> a onto:Keyword ;
+    rdfs:label "mantiver"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:10#evid-002-03-disser-palavra> a onto:Keyword ;
+    rdfs:label "disser palavra"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:10#evid-002-04-equipe> a onto:Keyword ;
+    rdfs:label "equipe"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:10#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Alunos divididos em grupos. Cada grupo escolhe alternativamente um representante. Um aluno fica com a funcao de cronometrar a participacao de cada aluno. Utilizacao: O professor inicia o dialogo com o aluno e deve, atraves de perguntas, induzi-lo a dizer a palavra nao."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:10> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:10#evid-000-00-atraves-perguntas>,
+        <urn:doc:10#evid-000-01-funcao-cronometrar>,
+        <urn:doc:10#evid-000-02-funcao-cronometrar>,
+        <urn:doc:10#evid-000-03-cronometrar-participacao>,
+        <urn:doc:10#evid-000-04-induzi>,
+        <urn:doc:10#evid-000-05-inicia>,
+        <urn:doc:10#evid-000-06-dialogo> .
+
+<urn:doc:10#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "(Perguntas do tipo: Voce e casado? / E verdade que nasceu na Nigeria, etc.) Os alunos sao informados que nao devem omitir a verdade e que ao inves dessa palavra devem dizer negativo, de forma alguma ou outra expressao correspondente."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:10> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:10#evid-001-00-voce-casado>,
+        <urn:doc:10#evid-001-01-nasceu-nigeria>,
+        <urn:doc:10#evid-001-02-verdade-nasceu>,
+        <urn:doc:10#evid-001-03-expressao-correspondente>,
+        <urn:doc:10#evid-001-04-expressao-correspondente>,
+        <urn:doc:10#evid-001-05-negativo>,
+        <urn:doc:10#evid-001-06-dizer-negativo>,
+        <urn:doc:10#evid-001-07-dizer-negativo> .
+
+<urn:doc:10#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Cada aluno que mantiver um dialogo dinami- co e em 30 segundos nao disser a palavra nao ganha ponto para sua equipe. 53"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:10> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:10#evid-002-00-dialogo-dinamico>,
+        <urn:doc:10#evid-002-01-mantiver>,
+        <urn:doc:10#evid-002-02-mantiver>,
+        <urn:doc:10#evid-002-03-disser-palavra>,
+        <urn:doc:10#evid-002-04-equipe> .
+
+<urn:doc:10> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:10#frag-000>,
+        <urn:doc:10#frag-001>,
+        <urn:doc:10#frag-002> .
+

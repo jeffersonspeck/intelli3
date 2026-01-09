@@ -48,16 +48,15 @@ OLLAMA_HOST = "http://127.0.0.1:11434"
 # ============================================================
 
 INTELLIGENCES = [
+    "Linguistic",
     "Logical-Mathematical",
     "Spatial",
-    "Linguistic",
-    "Musical",
     "Bodily-Kinesthetic",
+    "Musical",
     "Interpersonal",
     "Intrapersonal",
-    "Naturalistic",
+    "Naturalist",
 ]
-
 
 # ============================================================
 # Generic TRIGGERS (fallback only; intentionally small)
@@ -65,40 +64,298 @@ INTELLIGENCES = [
 # ============================================================
 
 TRIGGERS: Dict[str, Dict[str, List[str]]] = {
+    # -------------------------
+    # Logical–Mathematical
+    # -------------------------
     "Logical-Mathematical": {
-        "pt": ["cálculo", "equação", "estatística", "proporção", "medição", "classificação", "ordenar", "comparar", "tabela", "gráfico"],
-        "en": ["calculation", "equation", "statistics", "proportion", "measurement", "classification", "sort", "compare", "table", "chart"],
+        "pt": [
+            # operações e raciocínio
+            "raciocínio lógico", "lógica", "dedução", "inferência", "argumento lógico",
+            "resolver problema", "solução", "estratégia de resolução", "analisar", "análise",
+            "hipótese", "testar hipótese", "conjectura", "provar", "demonstração",
+            "causa e efeito", "relações", "correlação", "padrão", "regularidade",
+
+            # matemática escolar
+            "cálculo", "calcular", "conta", "aritmética", "álgebra", "equação", "inequação",
+            "função", "expressão", "variável", "constante", "fórmula", "teorema",
+            "geometria analítica", "probabilidade", "estatística", "média", "mediana",
+            "moda", "desvio padrão", "amostra", "frequência", "percentual", "porcentagem",
+            "proporção", "razão", "fração", "regra de três",
+            "medição", "medir", "unidade de medida", "comprimento", "massa", "peso", "volume",
+            "tempo", "velocidade", "área", "perímetro",
+
+            # organização lógico-formal
+            "sequência", "seriação", "ordenar", "ordenação", "crescente", "decrescente",
+            "comparar", "comparação", "maior que", "menor que", "igual", "equivalente",
+            "classificar", "classificação", "categorizar", "agrupar", "critério",
+            "conjunto", "subconjunto", "pertence", "interseção", "união",
+
+            # representações e dados
+            "tabela", "gráfico", "diagrama de barras", "histograma", "linha do tempo",
+            "dados", "coletar dados", "analisar dados", "métrica", "medida", "estimativa",
+            "algoritmo", "procedimento", "passo a passo", "fluxo lógico", "regra",
+            "if", "então", "senão", "condição"
+        ],
+        "en": [
+            "logical reasoning", "logic", "deduction", "inference", "logical argument",
+            "problem solving", "solution", "strategy", "analyze", "analysis",
+            "hypothesis", "test a hypothesis", "conjecture", "proof", "demonstration",
+            "cause and effect", "relationships", "correlation", "pattern", "regularity",
+
+            "calculation", "calculate", "arithmetic", "algebra", "equation", "inequality",
+            "function", "expression", "variable", "constant", "formula", "theorem",
+            "analytic geometry", "probability", "statistics", "mean", "median", "mode",
+            "standard deviation", "sample", "frequency", "percentage", "ratio", "proportion",
+            "fraction", "rule of three",
+
+            "measurement", "measure", "unit of measure", "length", "mass", "weight", "volume",
+            "time", "speed", "area", "perimeter",
+
+            "sequence", "seriation", "sort", "ordering", "ascending", "descending",
+            "compare", "comparison", "greater than", "less than", "equal", "equivalent",
+            "classify", "classification", "categorize", "group", "criteria",
+            "set", "subset", "belongs to", "intersection", "union",
+
+            "table", "chart", "bar chart", "histogram", "timeline",
+            "data", "collect data", "data analysis", "metric", "estimate",
+            "algorithm", "procedure", "step by step", "rule",
+            "if", "then", "else", "condition"
+        ],
     },
+
+    # -------------------------
+    # Spatial (Espacial–visual)
+    # -------------------------
     "Spatial": {
-        "pt": ["mapa", "diagrama", "fluxograma", "geometria", "coordenadas", "orientação espacial", "representação visual", "visualização"],
-        "en": ["map", "diagram", "flowchart", "geometry", "coordinates", "spatial orientation", "visual representation", "visualization"],
+        "pt": [
+            "mapa", "mapear", "cartografia", "planta baixa", "croqui",
+            "diagrama", "fluxograma", "organograma", "esquema", "ilustração",
+            "gráfico", "infográfico", "desenho", "esboço", "projeção",
+            "geometria", "forma geométrica", "polígono", "sólidos geométricos",
+            "cubo", "esfera", "cilindro", "cone", "pirâmide",
+            "simetria", "assimetria", "perspectiva", "profundidade",
+            "coordenadas", "eixo", "plano cartesiano", "escala",
+            "orientação espacial", "direita", "esquerda", "acima", "abaixo",
+            "frente", "atrás", "norte", "sul", "leste", "oeste",
+            "visualizar", "visualização", "representação visual", "imagem mental",
+            "rotacionar", "girar", "virar", "dobrar", "espelhar", "reflexão",
+            "montagem espacial", "encaixe", "puzzle", "quebra-cabeça", "labirinto",
+            "cores", "formas", "contornos", "figura", "posição", "trajeto", "rota"
+        ],
+        "en": [
+            "map", "mapping", "cartography", "floor plan", "sketch",
+            "diagram", "flowchart", "org chart", "schema", "illustration",
+            "chart", "infographic", "drawing", "projection",
+            "geometry", "geometric shape", "polygon", "3D solids",
+            "cube", "sphere", "cylinder", "cone", "pyramid",
+            "symmetry", "asymmetry", "perspective", "depth",
+            "coordinates", "axis", "cartesian plane", "scale",
+            "spatial orientation", "right", "left", "up", "down", "above", "below",
+            "front", "back", "north", "south", "east", "west",
+            "visualize", "visualization", "visual representation", "mental image",
+            "rotate", "turn", "flip", "fold", "mirror", "reflection",
+            "spatial assembly", "fit", "puzzle", "maze",
+            "colors", "shapes", "outlines", "figure", "position", "path", "route"
+        ],
     },
+
+    # -------------------------
+    # Linguistic
+    # -------------------------
     "Linguistic": {
-        "pt": ["leitura", "interpretação de texto", "compreensão leitora", "escrita", "redação", "vocabulário", "gramática", "ortografia", "pontuação", "argumentação", "resumo", "paráfrase"],
-        "en": ["reading", "text interpretation", "reading comprehension", "writing", "essay", "vocabulary", "grammar", "spelling", "punctuation", "argumentation", "summary", "paraphrase"],
+        "pt": [
+            "leitura", "ler", "leitor", "compreensão leitora", "interpretação de texto",
+            "texto", "gênero textual", "narrativa", "conto", "crônica", "poema", "poesia",
+            "argumentação", "opinião", "debater ideias", "dissertar",
+            "escrita", "escrever", "redação", "reescrita", "produção textual",
+            "resumo", "paráfrase", "síntese", "resenha", "relatório", "artigo",
+            "vocabulário", "léxico", "semântica", "sinônimo", "antônimo",
+            "gramática", "morfologia", "sintaxe", "ortografia", "pontuação",
+            "coerência", "coesão", "concordância", "regência",
+            "pronúncia", "sonorização", "articulação", "fala", "oralidade",
+            "contar história", "storytelling", "rimar", "rima", "aliteração",
+            "definir", "explicar", "descrever", "interpretar", "analisar texto",
+            "comunicação", "expressão verbal", "apresentação oral", "seminário",
+            "dialogar", "entrevista", "questionário", "escrever cartas", "relatar"
+        ],
+        "en": [
+            "reading", "read", "reader", "reading comprehension", "text interpretation",
+            "text", "text genre", "narrative", "story", "chronicle", "poem", "poetry",
+            "argumentation", "opinion", "discuss ideas", "essay writing",
+            "writing", "rewrite", "text production",
+            "summary", "paraphrase", "synthesis", "review", "report", "article",
+            "vocabulary", "lexicon", "semantics", "synonym", "antonym",
+            "grammar", "morphology", "syntax", "spelling", "punctuation",
+            "coherence", "cohesion",
+            "pronunciation", "articulation", "speech", "orality",
+            "tell a story", "storytelling", "rhyme", "alliteration",
+            "define", "explain", "describe", "interpret", "text analysis",
+            "communication", "verbal expression", "oral presentation", "seminar",
+            "dialogue", "interview", "questionnaire", "write letters", "narrate"
+        ],
     },
+
+    # -------------------------
+    # Musical
+    # -------------------------
     "Musical": {
-        "pt": ["música", "melodia", "ritmo", "harmonia", "cantar"],
-        "en": ["music", "melody", "rhythm", "harmony", "sing"],
+        "pt": [
+            "música", "musical", "melodia", "ritmo", "harmonia", "cantar", "cantiga",
+            "canção", "instrumento", "violão", "flauta", "tambor", "percussão",
+            "batida", "compasso", "tempo", "andamento", "pulso",
+            "som", "sons", "auditivo", "ouvir", "escutar", "audição",
+            "timbre", "altura", "intensidade", "volume", "grave", "agudo",
+            "padrão sonoro", "repetição rítmica", "palmas", "bater palmas",
+            "rimar cantando", "jogo rítmico", "eco musical", "imitar sons",
+            "paisagem sonora", "sons da natureza", "sons do ambiente"
+        ],
+        "en": [
+            "music", "musical", "melody", "rhythm", "harmony", "sing", "song",
+            "instrument", "guitar", "flute", "drum", "percussion",
+            "beat", "meter", "tempo", "pulse",
+            "sound", "auditory", "listen", "hearing",
+            "timbre", "pitch", "intensity", "loudness", "volume", "bass", "treble",
+            "sound pattern", "rhythmic repetition", "clap", "clapping",
+            "rhythm game", "musical echo", "imitate sounds",
+            "soundscape", "sounds of nature", "ambient sounds"
+        ],
     },
+
+    # -------------------------
+    # Bodily–Kinesthetic
+    # -------------------------
     "Bodily-Kinesthetic": {
-        "pt": ["coordenação motora", "manipular", "recortar", "colar", "dobrar", "montar", "desmontar", "movimento", "atividade prática"],
-        "en": ["motor coordination", "manipulate", "cut", "glue", "fold", "assemble", "disassemble", "movement", "hands-on"],
+        "pt": [
+            "coordenação motora", "motricidade", "movimento", "corpo",
+            "manipular", "manusear", "pegar", "segurar", "apertar", "puxar",
+            "recortar", "colar", "dobrar", "rasgar", "pintar", "modelar",
+            "montar", "desmontar", "encaixar", "empilhar", "construir",
+            "cortar", "amassar", "moldar", "esculpir",
+            "gesto", "gestual", "mímica", "expressão corporal",
+            "dramatização", "teatro", "encenar", "role-play",
+            "dançar", "pular", "correr", "equilibrar", "coordenação",
+            "atividade prática", "mão na massa", "experimento prático",
+            "jogo físico", "brincadeira", "psicomotricidade"
+        ],
+        "en": [
+            "motor coordination", "motor skills", "movement", "body",
+            "manipulate", "handle", "grab", "hold", "press", "pull",
+            "cut", "glue", "fold", "tear", "paint", "model",
+            "assemble", "disassemble", "fit", "stack", "build",
+            "sculpt", "mold",
+            "gesture", "mime", "body expression",
+            "dramatization", "theater", "act out", "role-play",
+            "dance", "jump", "run", "balance", "coordination",
+            "hands-on", "practical activity", "physical game", "psychomotor"
+        ],
     },
+
+    # -------------------------
+    # Interpersonal
+    # -------------------------
     "Interpersonal": {
-        "pt": ["em grupo", "em dupla", "colaboração", "cooperação", "debate", "discussão em grupo", "negociação"],
-        "en": ["group work", "pair work", "collaboration", "cooperation", "debate", "group discussion", "negotiation"],
+        "pt": [
+            "em grupo", "em dupla", "trabalho em grupo", "trabalho colaborativo",
+            "colaboração", "cooperar", "cooperação", "ajuda mútua",
+            "negociação", "consenso", "mediação", "liderança",
+            "debate", "discussão", "roda de conversa", "argumentar em grupo",
+            "apresentar para a turma", "apresentação coletiva",
+            "papéis", "papel no grupo", "responsabilidade compartilhada",
+            "dinâmica de grupo", "atividade coletiva", "interação social",
+            "ouvir o colega", "feedback", "peer feedback", "avaliar pares"
+        ],
+        "en": [
+            "group work", "pair work", "teamwork", "collaborative work",
+            "collaboration", "cooperate", "cooperation", "mutual help",
+            "negotiation", "consensus", "mediation", "leadership",
+            "debate", "discussion", "circle time",
+            "present to the class", "group presentation",
+            "roles", "group roles", "shared responsibility",
+            "group dynamics", "collective activity", "social interaction",
+            "listen to peers", "feedback", "peer feedback", "peer assessment"
+        ],
     },
+
+    # -------------------------
+    # Intrapersonal
+    # -------------------------
     "Intrapersonal": {
-        "pt": ["reflexão pessoal", "autoavaliação", "autoconhecimento", "autorregulação", "emoção", "sentimento"],
-        "en": ["personal reflection", "self-assessment", "self-knowledge", "self-regulation", "emotion", "feeling"],
+        "pt": [
+            "reflexão pessoal", "refletir", "autoavaliação", "autoconhecimento",
+            "autorregulação", "metacognição", "metacognitivo",
+            "diário", "diário de bordo", "portfólio", "processo", "autoria",
+            "metas pessoais", "objetivos pessoais", "monitorar progresso",
+            "emoção", "sentimento", "motivação", "interesse", "valores",
+            "tomada de decisão", "escolha pessoal", "autonomia",
+            "mindfulness", "atenção plena", "consciência", "identidade"
+        ],
+        "en": [
+            "personal reflection", "reflect", "self-assessment", "self-knowledge",
+            "self-regulation", "metacognition", "metacognitive",
+            "journal", "learning journal", "portfolio", "process", "authorship",
+            "personal goals", "track progress",
+            "emotion", "feeling", "motivation", "interest", "values",
+            "decision making", "personal choice", "autonomy",
+            "mindfulness", "self-awareness", "identity"
+        ],
     },
-    "Naturalistic": {
-        "pt": ["ecossistema", "meio ambiente", "bioma", "habitat", "biodiversidade", "espécies", "classificação biológica"],
-        "en": ["ecosystem", "environment", "biome", "habitat", "biodiversity", "species", "biological classification"],
+
+    # -------------------------
+    # Naturalist
+    # -------------------------
+    "Naturalist": {
+        "pt": [
+            # seres vivos e classificação
+            "animal", "animais", "planta", "plantas", "árvore", "árvores",
+            "flor", "flores", "folha", "folhas", "semente", "sementes",
+            "inseto", "insetos", "ave", "aves", "mamífero", "mamíferos",
+            "réptil", "répteis", "anfíbio", "anfíbios", "peixe", "peixes",
+            "fauna", "flora", "ser vivo", "seres vivos", "organismo", "organismos",
+            "espécie", "espécies", "classificação biológica", "taxonomia",
+            "gênero", "família", "reino", "identificar espécies", "catalogar",
+
+            # ecologia e ambiente
+            "natureza", "meio ambiente", "ambiental", "ecossistema", "bioma",
+            "habitat", "nicho ecológico", "cadeia alimentar", "teia alimentar",
+            "biodiversidade", "conservação", "preservação", "sustentabilidade",
+            "poluição", "reciclagem", "reuso", "lixo", "resíduos",
+            "clima", "tempo", "chuva", "temperatura", "solo", "rocha", "mineral",
+            "água", "rios", "mar", "oceano", "lago", "floresta", "mata",
+            "campo", "cerrado", "pantanal", "amazônia", "atlântico",
+
+            # práticas típicas (observação/coleta)
+            "observar", "observação da natureza", "coletar", "coleta", "amostra",
+            "classificar plantas", "classificar animais", "identificar", "categorizar seres vivos",
+            "horta", "jardinagem", "plantio", "cultivar", "compostagem",
+            "trilha", "saída de campo", "campo", "exploração", "investigação ambiental",
+
+             "naturalista", "naturalistas",
+             "produto natural", "produtos naturais", "produto da natureza", "produtos da natureza",
+             "coleção de produtos naturais", "coleções de produtos naturais",
+             "coleta de produtos naturais", "coleta na natureza",
+             "geologia", "geológico", "geologica", "geológicas", "elementos da natureza",
+        ],
+        "en": [
+            "animal", "animals", "plant", "plants", "tree", "trees",
+            "flower", "flowers", "leaf", "leaves", "seed", "seeds",
+            "insect", "insects", "bird", "birds", "mammal", "mammals",
+            "reptile", "reptiles", "amphibian", "amphibians", "fish", "fishes",
+            "fauna", "flora", "living being", "living beings", "organism", "organisms",
+            "species", "biological classification", "taxonomy", "genus", "family", "kingdom",
+            "identify species", "catalog",
+
+            "nature", "environment", "environmental", "ecosystem", "biome",
+            "habitat", "ecological niche", "food chain", "food web",
+            "biodiversity", "conservation", "preservation", "sustainability",
+            "pollution", "recycling", "reuse", "waste", "residue",
+            "climate", "weather", "rain", "temperature", "soil", "rock", "mineral",
+            "water", "rivers", "sea", "ocean", "lake", "forest",
+            "field trip", "outdoor observation", "collect", "collection", "sample",
+            "garden", "gardening", "planting", "cultivate", "composting",
+            "exploration", "environmental investigation"
+        ],
     },
 }
-
 
 # ============================================================
 # Stop tokens (generic; used only to reduce YAKE junk)
@@ -110,6 +367,15 @@ STOP_TOKENS = set(
         "de","da","do","das","dos","a","o","as","os","e","em","no","na","nos","nas",
         "para","por","com","sem","um","uma","uns","umas","ao","aos","à","às",
         "que","se","sua","seu","suas","seus","ou","como",
+        "preparacao","utilizacao",
+        "professor","professora","aluno","alunos","aluna","alunas",
+        "deve","devem","devera","deverao","deveria",
+        "estimular","estimula","estimulo","estimulos",
+        "atividade","atividades","tarefa","tarefas",
+        "grupo","grupos","classe","turma",
+        "planejar","planeja","planejado","planejada","planejamento",
+        "solicitar","solicite","fazer","faz","faca","facao","feito",
+        "possivel","sempre","antes","depois","durante","todo","toda",        
         # EN function words
         "the","a","an","and","or","of","to","in","on","for","with","without","as","by","from","at","is","are","be","been",
     ]
@@ -131,7 +397,8 @@ def clean_for_extraction(text: str) -> str:
     - normalizes spaces
     """
     t = (text or "")
-
+    # remove rótulos muito frequentes que poluem YAKE/LLM
+    t = re.sub(r"\b(Preparação|Preparacao|Utilização|Utilizacao)\s*:\s*", " ", t, flags=re.IGNORECASE)
     # join hyphenation across whitespace/newlines
     t = re.sub(r"(\w)-\s+(\w)", r"\1\2", t, flags=re.UNICODE)
 
@@ -390,6 +657,13 @@ def _matches_any(text_norm: str, triggers: List[str]) -> bool:
         tn = _norm(t)
         if not tn:
             continue
+
+        # token único: aceita flexões (prefixo)
+        if " " not in tn and "-" not in tn and len(tn) >= 5:
+            if re.search(rf"\b{re.escape(tn)}\w*\b", text_norm):
+                return True
+
+        # frase: match mais literal
         if re.search(rf"(^|\W){re.escape(tn)}($|\W)", text_norm):
             return True
         if tn in text_norm and len(tn) >= 5:
@@ -413,17 +687,72 @@ def ensure_nonempty_intelligences(text: str) -> List[str]:
     """
     Very light safety net:
     only returns something for strong signals. Otherwise returns [].
+
+    Important: this runs on _norm(text) (lower + unidecode).
     """
     t = _norm(text)
-    # math-ish
-    if re.search(r"\b(calcul|equac|estat|propor|medid|tabel|compar|orden|classific|algoritm)\b", t):
+
+    # -----------------------------
+    # Naturalist (seres vivos / ambiente)
+    # -----------------------------
+    if re.search(r"\b("
+             r"animais?|planta(s)?|flora|fauna|ser(es)? vivo(s)?|organism|"
+             r"especi|taxonom|biolog|ecossistem|bioma|habitat|"
+             r"naturez|ambient|ecolog|biodivers|conserv|preserv|sustent|poluic|recicl|"
+             r"naturalist(a|ic)(s)?|produt(o|os) natural(is)?|"
+             r"solo|rocha(s)?|mineral|minerai(s)?|concha(s)?|cogumelo(s)?|folha(s)?|"
+             r"rio(s)?|riach(o|os)?|oceano|mar|florest|mata|cerrad|pantanal|amazoni|"
+             r"geolog"
+             r")\b", t):
+        return ["Naturalist"]
+
+    # -----------------------------
+    # Logical–Mathematical
+    # -----------------------------
+    if re.search(r"\b(calcul|equac|inequ|estat|probab|media|median|moda|desvio|amostr|frequenc|porcent|percent|propor|razao|frac|regra de tres|medid|unidade de medida|tabel|graf|compar|orden|seriac|sequenc|padrao|classific|categori|agrupar|criteri|conjunt|algoritm|proced|passo a passo|condic|se entao|if then)\b", t):
         return ["Logical-Mathematical"]
-    # explicit language-learning objective
-    if re.search(r"\b(leitur|escrit|redac|vocabul|gramat|ortograf|pontuac|argument|resum|parafras)\b", t):
+
+    # -----------------------------
+    # Linguistic (saída verbal/escrita explícita)
+    # -----------------------------
+    if re.search(r"\b(ler|leitur|escrev|redac|reescrit|relat|descrev|explic|justific|argument|"
+                r"apresent|seminar|dialog|entrevist|questionari|"
+                r"nome(a|ar|ando|ie|iem)|"
+                r"verbaliz(a|ar|ando)|"
+                r"pronunc(i|ia|iar|iando)|"
+                r"dizer|responder|indag|pergunt)\b", t):
         return ["Linguistic"]
-    # strong spatial artifacts (avoid "figura/gravura" generic)
-    if re.search(r"\b(mapa|diagrama|fluxogram|geometr|coordenad|orientacao espacial|visualizacao|representacao visual)\b", t):
+
+    # -----------------------------
+    # Spatial (artefatos/ações visuais-espaciais fortes)
+    # -----------------------------
+    if re.search(r"\b(mapa|cartograf|planta baixa|croqui|diagram|fluxogram|organogram|esquem|ilustr|infograf|desenh|esboc|projec|geometr|poligon|coordenad|eixo|plano cartesian|escala|orientacao espacial|direita|esquerda|acima|abaixo|frente|atras|norte|sul|leste|oeste|simetri|perspect|profund|visualiz|representacao visual|imagem mental|rotacion|girar|virar|dobrar|espelhar|reflexa|puzzle|quebra[- ]cabec|labirint)\b", t):
         return ["Spatial"]
+
+    # -----------------------------
+    # Musical (sinal auditivo/ritmo/melodia forte)
+    # -----------------------------
+    if re.search(r"\b(music|melod|ritm|harmon|cantar|cancao|cantig|instrument|percuss|batid|compass|andament|pulso|som\b|sons\b|auditiv|ouvir|escut|audi(c|)a(o|)|timbre|altura|intensidad|volume|grave|agud|padrao sonor|palmas|bater palmas|eco musical|imitar sons|paisagem sonor)\b", t):
+        return ["Musical"]
+
+    # -----------------------------
+    # Bodily–Kinesthetic (manipulação/movimento físico)
+    # -----------------------------
+    if re.search(r"\b(coordenacao motora|motric|psicomotric|moviment|corpo|manipul|manuse|pegar|segur|apert|puxar|recort|colar|dobr|rasg|pintar|modelar|moldar|esculp|montar|desmont|encaix|empilh|constru|dramatiz|teatr|encen|mimic|gest|expressao corporal|dancar|pular|correr|equilibr|mao na massa|hands[- ]on|atividade pratica|experimento pratic|jogo fisic|brincadeir)\b", t):
+        return ["Bodily-Kinesthetic"]
+
+    # -----------------------------
+    # Interpersonal (interação social/colaboração)
+    # -----------------------------
+    if re.search(r"\b(em grupo|trabalho em grupo|em dupla|duplas\b|colabor|cooper|ajuda mutua|negoci|consens|mediac|lider|debate|discussa(o|) em grupo|roda de conversa|atividade coletiva|interacao social|ouvir o colega|feedback|peer feedback|avaliar pares|peer assessment|papel no grupo|responsabilidade compartilh)\b", t):
+        return ["Interpersonal"]
+
+    # -----------------------------
+    # Intrapersonal (reflexão/autoavaliação/metacognição)
+    # -----------------------------
+    if re.search(r"\b(reflexa(o|) pessoal|reflet|autoavali|autoconhec|autorregul|metacogn|diario|diario de bordo|portfolio|metas pessoais|objetivos pessoais|monitorar progresso|emoc(a|)o|sentiment|motivac|valores|tomada de decisao|escolha pessoal|autonom|mindful|atencao plena|conscienc|identidad)\b", t):
+        return ["Intrapersonal"]
+
     return []
 
 
@@ -486,7 +815,7 @@ def normalize_items_with_intelligence(items: List[Dict[str, Any]], lang: str = "
 
         conf = _clip01(base_conf * _assign_confidence(assign_src or "trigger"))
 
-        for lab in labels[:2]:
+        for lab in labels:
             key = (role, text.lower(), lab)
             rec = out_map.get(key)
             if rec is None:
@@ -516,7 +845,7 @@ def call_llm_assign_for_keywords(
     allow_zero: bool = False,
 ) -> Dict[str, List[int]]:
     """
-    Returns: {keyword -> [mi_idx,...]} (max 2)
+    Returns: {keyword -> [mi_idx,...]} (max 0..8)
     - Uses paragraph context to reduce "resource != objective" mistakes.
     - If allow_zero=True, LLM may return [] for ambiguous/support terms.
     """
@@ -528,15 +857,27 @@ def call_llm_assign_for_keywords(
 
     opts = [{"idx": i, "label": lab} for i, lab in enumerate(INTELLIGENCES)]
 
+    # sys_msg = (
+    #     "Você classifica cada item (ROLE::texto) em qualquer quantidade de inteligências (0..8), usando o CONTEXTO."
+    #     "Regra geral: só atribua uma inteligência quando houver ativação cognitiva clara (objetivo/tarefa), não por metadiscurso."
+    #     "Se o item for editorial, rótulo, descrição neutra, ou apenas nome de material sem uso cognitivo, retorne []."
+    #     "Se retornar múltiplos índices, ordene do mais relevante (primário) ao menos relevante."
+    #     "Responda apenas em JSON."
+    # )
+
     sys_msg = (
-        "Você é um classificador de evidências pedagógicas. "
-        "Sua função é analisar keywords dentro de um contexto educacional e determinar "
-        "quais inteligências de Gardner são ativadas pelo USO dessas keywords. "
-        "Responda estritamente em JSON."
+    "Você deve classificar cada item recebido (ROLE::texto) em 0..N inteligências, "
+    "usando o CONTEXTO do parágrafo. "
+    "IMPORTANTE: existem exatamente 8 inteligências, índices 0..7. "
+    "Regra geral: só atribua inteligências quando houver ativação cognitiva clara (objetivo/tarefa), "
+    "não por metadiscurso (título, preparação, observação editorial, catálogo, etc.). "
+    "Se o item for apenas material/recurso/objeto sem uso cognitivo explícito, retorne []. "
+    "Saída: JSON estrito, sem texto extra."
     )
 
-    contract = {"items": [{"text": "keyword_exata", "mi_idx": [2]}]}
-
+    # contract = {"items": [{"text": "keyword_exata", "mi_idx": [2]}]}
+    # contract = {"items": [{"text": "keyword_exata", "mi_idx": [2,0,4]}]}
+    contract = {"items": [{"text": "ROLE::texto_exato", "mi_idx": [0,4]}]}    
 
     allow_rule = (
         "- Você PODE retornar mi_idx vazio [] se a keyword for apenas recurso/material ou for ambígua."
@@ -545,34 +886,97 @@ def call_llm_assign_for_keywords(
     )
 
     user_msg = f"""
-CONTEXTO:
-"{paragraph}"
+CONTEXTO EDUCACIONAL (para desambiguar intenção vs recurso):
+\"\"\"{paragraph}\"\"\"
 
-LISTA DE KEYWORDS PARA ANALISAR:
+ITENS PARA MAPEAMENTO (retorne EXATAMENTE cada string como enviada; mesma ordem; mesma quantidade):
 {json.dumps(keywords, ensure_ascii=False)}
 
-OPÇÕES DE INTELIGÊNCIAS:
-{json.dumps(opts)}
+INTELIGÊNCIAS (índices 0..7):
+{json.dumps(opts, ensure_ascii=False)}
 
-### DIRETRIZES DE ANÁLISE:
-1. **Evite o 'Falso Positivo de Recurso'**: Se a keyword é apenas um objeto passivo (ex: "papel", "caneta"), o mi_idx deve ser []. Ela só ganha MI se o contexto descrever uma ação específica com ela.
-2. **Priorize a Ação**: 
-   - "Enfileirar" ou "Empilhar" -> Cinestésico-Corporal (Manipulação física).
-   - "Comparar tamanhos" ou "Classificar" -> Lógico-Matemática.
-   - "Identificar formas" ou "Visualizar" -> Espacial-Visual.
-3. **Hierarquia de Relevância**:
-   - **Primária**: A keyword é central para o exercício.
-   - **Secundária**: A keyword apoia a atividade principal.
+========================
+REGRAS GERAIS
+========================
+- Você pode retornar mi_idx vazio [] se o item for apenas:
+  * editorial/metadiscurso (preparação, utilização, existe no mercado, observação, número de página)
+  * rótulo/cabeçalho
+  * nome de material/objeto sem operação cognitiva explícita
+- Se retornar múltiplos índices, ordene por centralidade (primário primeiro).
+- Evite “chute”: se não houver evidência, prefira [].
 
-### REGRAS ESPECÍFICAS:
-{allow_rule}
-- Máximo 2 índices por keyword.
-- Se a keyword for um termo matemático (números, medidas, formas geométricas sendo comparadas), use Lógico-Matemática (idx 0).
-- Se a keyword envolver expressão verbal/escrita (ex: "verbalizando", "narrando"), use Linguística (idx 2).
-- Mantenha o texto da keyword EXATAMENTE como fornecido na lista.
+========================
+ROLE-AWARE (COMO DECIDIR)
+========================
 
-CONTRACT (Responda APENAS este JSON):
-{json.dumps(contract, indent=2)}
+1) Keyword::...
+- Só marque MI se o termo indicar uma OPERAÇÃO/OBJETIVO cognitivo por si:
+  Ex.: "ordem crescente", "comparar tamanhos", "classificar por cor", "medir", "sequência", "padrão", "tabela", "gráfico".
+- Se for só nome de coisa ("cartões", "figuras", "saco plástico", "anéis"), prefira [].
+  Exceção: objetos intrinsecamente visuais/espaciais ("mapa", "diagrama", "labirinto") podem ser Spatial.
+
+2) DiscursiveStrategy::...
+- Este é o sinal mais forte. Classifique pela ação principal do aluno.
+- NÃO marque Logical só porque aparece "identificar" ou "classificar" de forma vaga.
+  Logical-Mathematical (1) só quando houver CRITÉRIO explícito/forma de raciocínio:
+  (maior/menor, ordem, sequência, por tamanho, por número, contagem, medida, regra, padrão, comparação objetiva, tabela/gráfico, algoritmo).
+- Se a ação for “dizer o nome”, “verbalizar”, “pronunciar”, “sonorizar”, isso é Linguistic (0), não Logical.
+
+3) ContextObject::...
+- Objetos só ganham MI quando o objeto implica claramente uma inteligência no CONTEXTO.
+  Ex.: "mapa/diagrama" -> Spatial; "instrumento/ritmo" -> Musical; "montar/encaixar" -> Bodily.
+- Caso contrário, retorne [].
+
+========================
+NATURALIST (7) — REGRAS IMPORTANTES
+========================
+- Naturalist (7) entra quando o FOCO cognitivo é natureza/seres vivos/ambiente:
+  observar/identificar espécies, flora/fauna, habitat, ecossistema, cadeia alimentar,
+  classificação biológica (espécie/gênero/família), conservação/sustentabilidade etc.
+- REGRA DE DOMÍNIO (IMPORTANTE):
+  Se o item (Keyword/ContextObject/DiscursiveStrategy) contém entidades naturais explícitas
+  (ex.: rochas, minerais, folhas, conchas, cogumelos, rios, plantas, animais, ecossistema),
+  então Naturalist (7) PODE ser atribuído mesmo quando parece “material”,
+  porque essas entidades são o CONTEÚDO da aprendizagem (não só ferramenta).  
+- Se "animais" aparecerem apenas como FIGURAS/EXEMPLOS para treino de linguagem ou memória,
+  Naturalist pode ser [] ou, no máximo, secundária — não force.
+
+========================
+BODILY vs LOGICAL (3 vs 1)
+========================
+- Bodily-Kinesthetic (3) quando há manipulação física (encaixar, montar, recortar, colar, empilhar, mover).
+- Se houver manipulação + critério explícito (ex.: ordenar por tamanho enquanto encaixa),
+  pode retornar [1,3] ou [3,1] conforme a centralidade (critério vs movimento).
+
+========================
+LINGUÍSTICA (0) — REGRA RESTRITIVA
+========================
+- Linguistic (0) entra quando há PRODUÇÃO/COMUNICAÇÃO como parte explícita da tarefa:
+  relatar, descrever, explicar, justificar, argumentar, registrar por escrito, apresentar oralmente,
+  discutir ideias, produzir resumo/síntese.
+- Se o objetivo principal for outro (ex.: ordenar, comparar, classificar), Linguistic (0) pode aparecer
+  como SECUNDÁRIA (depois da MI principal), porque é o “canal de saída”/evidência.
+- NÃO marque Linguistic quando o item for apenas editorial/metadiscurso (preparação, utilização, catálogo),
+  ou quando “linguagem” está implícita apenas por existir texto.
+
+========================
+ANTI-METADISCURSO (RETORNE [])
+========================
+Se o item for meta/editorial como:
+"descreve", "apresenta", "menciona", "existe no mercado", "nome", "preparação",
+"utilização", "material", "título", "página", "capítulo"
+→ retorne [].
+
+========================
+FORMATO DE SAÍDA (JSON ESTRITO)
+========================
+- Retorne um objeto JSON com a chave "items".
+- Deve haver exatamente o mesmo número de itens que a lista de entrada.
+- Cada item deve ter:
+  {{"text": "<string_exata_do_item_de_entrada>", "mi_idx": [<idx...>]}}
+
+CONTRACT (exemplo de forma; não copie textos do exemplo):
+{json.dumps(contract, ensure_ascii=False, indent=2)}
 """
 
     try:
@@ -620,9 +1024,10 @@ CONTRACT (Responda APENAS este JSON):
                     xi = int(x)
                 except Exception:
                     continue
-                if 0 <= xi < len(INTELLIGENCES):
+                if 0 <= xi < len(INTELLIGENCES) and xi not in fixed:
                     fixed.append(xi)
-        tmp[text] = fixed[:2]
+        # tmp[text] = fixed[:2]
+        tmp[text] = fixed
 
     out: Dict[str, List[int]] = {}
     for kw in keywords:
@@ -637,6 +1042,7 @@ CONTRACT (Responda APENAS este JSON):
 def call_llm_discourse_and_context(
     paragraph: str,
     lang_hint: str = "pt",
+    map_mi: bool = True,    
 ) -> List[Dict[str, Any]]:
     """
     Returns raw items:
@@ -651,46 +1057,97 @@ def call_llm_discourse_and_context(
     opts = [{"idx": i, "label": lab} for i, lab in enumerate(INTELLIGENCES)]
 
     sys_msg = (
-        "Você é um especialista em psicopedagogia e na Teoria das Inteligências Múltiplas de Howard Gardner. "
-        "Sua tarefa é analisar fragmentos de atividades educacionais para identificar "
-        "COMO a aprendizagem ocorre (DiscursiveStrategy) e COM O QUÊ ela ocorre (ContextObject), "
-        "classificando-os nos domínios cognitivos corretos. "
+        "Você é um analista de dinâmicas de aprendizagem. "
+        "Tarefa: decompor um parágrafo pedagógico em (1) DiscursiveStrategy (ações do aluno) "
+        "e (2) ContextObject (recursos/materiais). "
+        "REGRA CRÍTICA: NÃO INVENTE NADA. Cada 'text' deve ser uma SUBSTRING LITERAL do parágrafo "
+        "(copie exatamente as palavras como aparecem). "
+        "Não parafraseie, não resuma, não traga exemplos. "
+        "Se não houver evidência literal, não retorne o item. "
+        "Responda estritamente em JSON."
+        if not map_mi else
+        "Você é um analista de dinâmicas de aprendizagem especializado na teoria de Gardner. "
+        "Tarefa: decompor um parágrafo pedagógico em (1) DiscursiveStrategy (ações do aluno) "
+        "e (2) ContextObject (recursos/materiais) e atribuir mi_idx (0..7) quando houver ativação clara. "
+        "REGRA CRÍTICA: NÃO INVENTE NADA. Cada 'text' deve ser uma SUBSTRING LITERAL do parágrafo "
+        "(copie exatamente as palavras como aparecem). "
+        "Não parafraseie, não resuma, não traga exemplos. "
+        "Se não houver evidência literal, não retorne o item. "
         "Responda estritamente em JSON."
     )
 
-    contract = {
-        "items": [
-            {"role": "DiscursiveStrategy", "text": "estratégia", "mi_idx": [2]},
-            {"role": "ContextObject", "text": "objeto", "mi_idx": [1]},
-        ]
-    }
+    contract = (
+        {"items": [{"role": "DiscursiveStrategy", "text": "estratégia"},
+                   {"role": "ContextObject", "text": "objeto"}]}
+        if not map_mi else
+        {"items": [{"role": "DiscursiveStrategy", "text": "estratégia", "mi_idx": [2]},
+                   {"role": "ContextObject", "text": "objeto", "mi_idx": [1]}]}
+    )    
 
     user_msg = f"""
-Analise o parágrafo abaixo e extraia elementos estruturantes da atividade.
+Analise o parágrafo e extraia a estrutura da atividade pedagógica.
 
-PARÁGRAFO: "{paragraph}"
-IDIOMA: {lang_hint}
-OPÇÕES DE INTELIGÊNCIAS: {json.dumps(opts)}
+PARÁGRAFO (fonte única da verdade):
+\"\"\"{paragraph}\"\"\"
 
-### CRITÉRIOS DE CLASSIFICAÇÃO (mi_idx):
-1. **Linguística**: Uso de palavras, leitura, escrita, narração ou verbalização de conceitos.
-2. **Lógico-Matemática**: Raciocínio abstrato, comparação de grandezas, sequenciação lógica, cálculos ou classificação por atributos.
-3. **Espacial-Visual**: Manipulação de formas, orientação no espaço, visualização mental ou percepção de dimensões/cores.
-4. **Cinestésico-Corporal**: Movimento físico, manipulação tátil de objetos, coordenação motora fina ou grossa.
-5. **Interpessoal**: Cooperação, jogos em grupo, troca de turnos ou mediação social.
-6. **Intrapessoal**: Reflexão sobre sentimentos próprios, escolhas individuais ou autoconhecimento.
-7. **Musical**: Ritmo, sons, tons ou padrões auditivos.
-8. **Naturalista**: Classificação de elementos da natureza ou percepção de padrões biológicos.
+OPÇÕES DE INTELIGÊNCIAS (índices 0..7):
+{json.dumps(opts, ensure_ascii=False)}
 
-### REGRAS DE EXTRAÇÃO:
-- **DiscursiveStrategy**: Extraia a ação pedagógica (o verbo/processo). Ex: "comparar tamanhos", "enfileirar sem regras", "verbalizar conceitos".
-- **ContextObject**: Extraia o artefato físico ou mediador da ação. Ex: "garrafas de plástico", "cubos de madeira", "espaço da sala".
-- **Vínculo (mi_idx)**: Um item só deve ter índice se ele for o motor principal daquela inteligência. 
-  - Ex: "Garrafas" por si só é []. "Garrafas de tamanhos diferentes para comparação" é [Índice da Espacial].
-  - Estratégias de fala (verbalizar) devem apontar para Linguística.
+========================
+O QUE EXTRAIR (FOCO EM AÇÕES DO ALUNO)
+========================
 
-CONTRACT (Responda APENAS este JSON):
-{json.dumps(contract, indent=2)}
+1) DiscursiveStrategy (AÇÃO/TAREFA DO ALUNO)
+- Extraia ações observáveis que o aluno deve executar.
+- Deve ser curta e concreta, com 1 verbo principal E, quando houver, o complemento/objeto direto (até ~30 palavras),
+  ex.: "descobrirem os elementos da natureza", "relatarem os elementos da natureza", "registrar essas sensibilidades".
+- O campo "text" DEVE ser uma SUBSTRING LITERAL do parágrafo (copie exatamente).
+- NÃO retorne itens editoriais/metadiscursivos como: "preparação", "utilização", "existe no mercado", "apresenta", "menciona", "descrição".
+- Se não houver ação do aluno no parágrafo, retorne 0 DiscursiveStrategy.
+
+2) ContextObject (RECURSO/MATERIAL)
+- Extraia itens físicos/recursos citados e usados na atividade (ex.: cartões, figuras, saco plástico, etc.).
+- O campo "text" DEVE ser uma SUBSTRING LITERAL do parágrafo (copie exatamente).
+- Se o parágrafo não mencionar recurso/material de forma explícita, retorne 0 ContextObject.
+
+========================
+REGRAS IMPORTANTES (ANTI-ALUCINAÇÃO / ANTI-METADISCURSO)
+========================
+- NÃO invente ações/objetos que não estão no parágrafo.
+- NÃO copie exemplos do enunciado: use apenas trechos do PARÁGRAFO.
+- NÃO parafraseie: copie literalmente.
+- NÃO repita itens: evite duplicatas.
+- Se o trecho for apenas editorial/catálogo (ex.: "Existe no comércio..."), retorne 0 DiscursiveStrategy.
+  Retorne ContextObject apenas se houver um objeto literal e relevante no texto.
+
+========================
+DIRETRIZES DE MAPEAMENTO (mi_idx) — SOMENTE SE map_mi=True
+========================
+- Use mi_idx apenas quando houver ativação cognitiva clara associada ao item.
+- Se estiver incerto, retorne mi_idx [].
+- Lembrete de índices: 0=Linguistic, 1=Logical-Mathematical, 2=Spatial, 3=Bodily-Kinesthetic, 4=Musical, 5=Interpersonal, 6=Intrapersonal, 7=Naturalist.
+
+Heurísticas seguras:
+- Logical-Mathematical (1): quando a ação envolve critério explícito (ordenar por tamanho, comparar, medir, contar, sequência/padrão, tabela/gráfico).
+- Linguistic (0): quando a ação envolve linguagem como objetivo (ler, escrever, dizer nomes, pronunciar, verbalizar, sonorizar).
+- Bodily-Kinesthetic (3): quando há manipulação/movimento (pegar, tirar, encaixar, montar, recortar, colar).
+- Spatial (2): quando envolve forma/organização espacial (mapa, diagrama, labirinto, formas, posição/orientação).
+- Musical (4): quando envolve ritmo/melodia/canto/sons como foco.
+- Interpersonal (5): quando há dinâmica social explícita (em dupla/grupo, debater, negociar, colaborar).
+- Intrapersonal (6): quando há reflexão/autoavaliação/autoconhecimento explícito.
+- Naturalist (7): quando o FOCO cognitivo é natureza/seres vivos/ambiente (espécies, habitat, ecossistema, observação da natureza).
+
+========================
+FORMATO DE SAÍDA (JSON ESTRITO)
+========================
+Retorne um objeto JSON com a chave "items".
+- Se map_mi=False: cada item tem apenas "role" e "text".
+- Se map_mi=True: cada item tem "role", "text" e "mi_idx".
+- "role" deve ser exatamente "DiscursiveStrategy" ou "ContextObject".
+- "text" deve ser literal do parágrafo.
+
+CONTRACT:
+{json.dumps(contract, ensure_ascii=False, indent=2)}
 """
 
     try:
@@ -725,12 +1182,16 @@ CONTRACT (Responda APENAS este JSON):
 
     items = parsed.get("items", []) if isinstance(parsed, dict) else []
     out: List[Dict[str, Any]] = []
+    par_low = (paragraph or "").lower()
 
     for it in items:
         role = str(it.get("role", "")).strip()
         text = str(it.get("text", "")).strip()
         if role not in ("DiscursiveStrategy", "ContextObject") or not text:
             continue
+        # anti-alucinação residual: exige substring literal do parágrafo
+        if text.lower() not in par_low:
+            continue            
 
         mi_idx = it.get("mi_idx", [])
         fixed: List[int] = []
@@ -740,10 +1201,13 @@ CONTRACT (Responda APENAS este JSON):
                     xi = int(x)
                 except Exception:
                     continue
-                if 0 <= xi < len(INTELLIGENCES):
-                    fixed.append(xi)
+                # if 0 <= xi < len(INTELLIGENCES):
+                #     fixed.append(xi)
+                if 0 <= xi < len(INTELLIGENCES) and xi not in fixed:
+                    fixed.append(xi)                    
 
-        out.append({"role": role, "text": text, "mi_idx": fixed[:2]})
+        # out.append({"role": role, "text": text, "mi_idx": fixed[:2]})
+        out.append({"role": role, "text": text, "mi_idx": fixed})
 
     return out
 
@@ -779,29 +1243,66 @@ def annotate_one_paragraph_keywords_with_llm(
     ]
 
     kws_scored.sort(key=lambda x: x[1])     # menor score primeiro
-    keywords_meta_raw = kws_scored[:30]     # pega 30 melhores SEM threshold
-    keywords_meta = reduce_keyword_overlaps(keywords_meta_raw, max_keep=12)
-    keywords = [t for (t, _, _) in keywords_meta]
+    keywords_meta_raw = kws_scored[:160]     # pega 30 melhores
 
-    llm_map: Dict[str, List[int]] = {}
-    if keywords and llm_available:
-        llm_map = call_llm_assign_for_keywords(
-            keywords=keywords,
+    # aplica min_score só se não matar tudo (YAKE pode variar bastante)
+    if isinstance(min_score, (int, float)):
+        filtered = [x for x in keywords_meta_raw if float(x[1]) <= float(min_score)]
+        if len(filtered) >= 10:
+            keywords_meta_raw = filtered
+
+    keywords_meta = reduce_keyword_overlaps(keywords_meta_raw, max_keep=40)
+
+    # 2) extrai DiscursiveStrategy/ContextObject SEM MI (fase A neutra)
+    dc_no_mi: List[Dict[str, Any]] = []
+    if llm_available:
+        dc_no_mi = call_llm_discourse_and_context(paragraph=paragraph, lang_hint=lang, map_mi=False)
+
+    # 3) classifica TODOS os itens (keywords + DS/CO) com 1 chamada LLM (fase B)
+    candidates: List[str] = []
+    def _add_candidate(s: str):
+        if s and s not in candidates:
+            candidates.append(s)
+
+    for kw, _kw_score, _kw_n in keywords_meta:
+        _add_candidate(f"Keyword::{kw}")
+
+    for it in dc_no_mi:
+        role = (it.get("role") or "").strip()
+        t = (it.get("text") or "").strip()
+        if role in ("DiscursiveStrategy", "ContextObject") and t:
+            _add_candidate(f"{role}::{t}")
+
+    llm_map_all: Dict[str, List[int]] = {}
+    if llm_available and candidates:
+        llm_map_all = call_llm_assign_for_keywords(
+            keywords=candidates,
             paragraph=paragraph,
             lang_hint=lang,
-            allow_zero=allow_keyword_zero_mi,
+            allow_zero=True,  # aqui queremos permitir "nenhuma MI" com mais liberdade
         )
     else:
-        llm_map = {kw: [] for kw in keywords}
+        llm_map_all = {c: [] for c in candidates}
 
+     # 4) monta itens finais (um MI por registro)
     for kw, kw_score, _kw_n in keywords_meta:
-        idxs = llm_map.get(kw, []) or []
+        key_txt = f"Keyword::{kw}"
+        idxs = llm_map_all.get(key_txt, []) or []
+
+        # BOOST Naturalist se houver gatilho forte no termo (mesmo que a LLM tenha retornado outra MI)
+        boost_labs = map_text_to_intelligences_trigger(kw, lang_hint=lang)
+        if "Naturalist" in boost_labs:
+            idx_nat = INTELLIGENCES.index("Naturalist")  # 7
+            if idx_nat not in idxs:
+                idxs.append(idx_nat)
+
         assign_src = "llm" if idxs else ""
 
         # fallback triggers only if empty
         if not idxs:
             labs = map_text_to_intelligences_trigger(kw, lang_hint=lang)
-            idxs = [INTELLIGENCES.index(l) for l in labs if l in INTELLIGENCES][:2]
+            # idxs = [INTELLIGENCES.index(l) for l in labs if l in INTELLIGENCES][:2]
+            idxs = [INTELLIGENCES.index(l) for l in labs if l in INTELLIGENCES]            
             if idxs:
                 assign_src = "trigger"
 
@@ -818,7 +1319,8 @@ def annotate_one_paragraph_keywords_with_llm(
         conf = _clip01(_yake_confidence(kw_score) * _assign_confidence(assign_src or "trigger"))
         rel = _pos_relevance(paragraph, kw)
 
-        for idx_mi in idxs[:2]:
+        # for idx_mi in idxs[:2]:
+        for idx_mi in idxs:        
             if 0 <= idx_mi < len(INTELLIGENCES):
                 entry = {
                     "role": "Keyword",
@@ -833,23 +1335,51 @@ def annotate_one_paragraph_keywords_with_llm(
                     items_raw.append(entry)
                     seen.add(key)
 
-    # 2) DISCURSIVE / CONTEXT (LLM)
-    if llm_available:
-        dc = call_llm_discourse_and_context(paragraph=paragraph, lang_hint=lang)
-        for it in dc:
-            role = (it.get("role") or "").strip()
-            t = (it.get("text") or "").strip()
-            if not role or not t:
-                continue
+    # 5) Discursive/Context agora também passam pela mesma classificação (fase B)
+    for it in dc_no_mi:
+        role = (it.get("role") or "").strip()
+        t = (it.get("text") or "").strip()
+        if role not in ("DiscursiveStrategy", "ContextObject") or not t:
+            continue
+        key_txt = f"{role}::{t}"
+        idxs = llm_map_all.get(key_txt, []) or []
+
+        boost_labs = map_text_to_intelligences_trigger(t, lang_hint=lang)
+        if "Naturalist" in boost_labs:
+            idx_nat = INTELLIGENCES.index("Naturalist")
+            if idx_nat not in idxs:
+                idxs.append(idx_nat)
+
+        assign_src = "llm" if idxs else ""
+
+        if not idxs:
+            labs = map_text_to_intelligences_trigger(t, lang_hint=lang)
+            # idxs = [INTELLIGENCES.index(l) for l in labs if l in INTELLIGENCES][:2]
+            idxs = [INTELLIGENCES.index(l) for l in labs if l in INTELLIGENCES]            
+            if idxs:
+                assign_src = "trigger"
+
+        if not idxs:
+            continue
+
+        base_conf = 0.85
+        conf = _clip01(base_conf * _assign_confidence(assign_src or "trigger"))
+        rel = _pos_relevance(paragraph, t)
+
+        # for idx_mi in idxs[:2]:
+        for idx_mi in idxs:        
             entry = {
                 "role": role,
                 "text": t,
                 "lang": lang,
-                "mi_idx": it.get("mi_idx", []),
-                "confidence": 0.85,
-                "relevance": _pos_relevance(paragraph, t),
+                "mi_idx": [idx_mi],
+                "confidence": conf,
+                "relevance": rel,
             }
-            items_raw.append(entry)
+            key = (entry["role"], entry["text"].lower(), idx_mi)
+            if key not in seen:
+                items_raw.append(entry)
+                seen.add(key)
 
     # 3) Normalize -> one MI per record
     items = normalize_items_with_intelligence(items_raw, lang=lang)
@@ -860,7 +1390,7 @@ def annotate_one_paragraph_keywords_with_llm(
 def annotate_doc_keywords_with_llm(
     doc: Dict[str, Any],
     use_n_1_3: bool = True,
-    min_score: float = 0.35,
+    min_score: float = 0.60,
     use_llm: bool = True
 ) -> Dict[int, List[Dict[str, Any]]]:
     out: Dict[int, List[Dict[str, Any]]] = {}

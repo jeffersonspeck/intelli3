@@ -1,0 +1,39 @@
+[Documento] urn:doc:178
+  - miVector: 6.17,9.53,1.27,0.00,50.27,32.77,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5027)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5027
+      • Interpersonal: 0.3277
+      • Logical-Mathematical: 0.0953
+
+[Fragmento] Preparacao: Bolas de borracha de cinco a seis tamanhos diferentes. Utilizacao: O aluno deve aprender a obedecer regras e perceber claramente os limites, mas deve ser estimulado a usar as bolas arremessando-as a outros, contra paredes, aparar bolas arremessadas por outros, aparar bola usando uma das maos, a direita ou a esquerda.
+  - Bodily-Kinesthetic (via activation, score=0.3969)
+  - Interpersonal (via activation, score=0.2128)
+  - Linguistic (via activation, score=0.1418)
+  - Logical-Mathematical (via activation, score=0.2193)
+  - Spatial (via activation, score=0.0292)
+  - Cinestésico-corporal (via activation, score=0.3969)
+  - Espacial-visual (via activation, score=0.0292)
+  - Interpessoal (via activation, score=0.2128)
+  - Linguística (via activation, score=0.1418)
+  - Lógico-matemática (via activation, score=0.2193)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Em etapas seguintes, apos explorar todas as tentativas manuais, treinar a lateralidade com o uso dos pes.
+  - Bodily-Kinesthetic (via activation, score=0.5840)
+  - Interpersonal (via activation, score=0.4160)
+  - Cinestésico-corporal (via activation, score=0.5840)
+  - Interpessoal (via activation, score=0.4160)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)

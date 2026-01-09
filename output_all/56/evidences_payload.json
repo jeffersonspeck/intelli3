@@ -1,0 +1,102 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "jogo exige",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.796621905233772,
+      "relevance": 0.9955947136563876
+    },
+    {
+      "role": "Keyword",
+      "text": "revistas enrolar tiras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7692561895324678,
+      "relevance": 0.8546255506607929
+    },
+    {
+      "role": "Keyword",
+      "text": "revistas enrolar tiras",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7692561895324678,
+      "relevance": 0.8546255506607929
+    },
+    {
+      "role": "Keyword",
+      "text": "colar extremidade",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7084385422239776,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "instrumento contagem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7937001226613928,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "formacao conjuntos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7937001226613928,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "elaboracao sequencias",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7861061755968094,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "material instrumento",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5296630019574508,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "raciocinio logico",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7030051678120439,
+      "relevance": 0.5445544554455446
+    },
+    {
+      "role": "Keyword",
+      "text": "criem brincadeiras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.4824575713671109,
+      "relevance": 0.6683168316831682
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Utilizar o material como instrumento de contagem, para elaboracao de sequencias e ainda formacao de conjuntos.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Sugerir aos alunos que criem brincadeiras com o material, explorando seu raciocinio logico.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.7252475247524752
+    }
+  ]
+}

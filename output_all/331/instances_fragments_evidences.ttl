@@ -1,0 +1,128 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:331#evid-000-00-diferentes-pessoas> a onto:Keyword ;
+    rdfs:label "diferentes pessoas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-000-01-envolva-detalhes> a onto:Keyword ;
+    rdfs:label "envolva detalhes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-000-02-detalhes-diferentes> a onto:Keyword ;
+    rdfs:label "detalhes diferentes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-000-03-briga-transito> a onto:Keyword ;
+    rdfs:label "briga transito"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:331#evid-000-04-briga-transito> a onto:Keyword ;
+    rdfs:label "briga transito"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-000-05-se-retirem-da-sala> a onto:DiscursiveStrategy ;
+    rdfs:label "se retirem da sala"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-000-06-quatro-alunos> a onto:ContextObject ;
+    rdfs:label "quatro alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-001-00-solicitando-atencao> a onto:Keyword ;
+    rdfs:label "solicitando atencao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:331#evid-001-01-pois-escolhera> a onto:Keyword ;
+    rdfs:label "pois escolhera"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:331#evid-001-02-presentes-relata> a onto:Keyword ;
+    rdfs:label "presentes relata"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:331#evid-001-03-passar-lhe-esse-conteudo> a onto:Keyword ;
+    rdfs:label "passar lhe esse conteudo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:331#evid-001-04-escolhe-alguem> a onto:Keyword ;
+    rdfs:label "escolhe alguem"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-001-05-chama> a onto:Keyword ;
+    rdfs:label "chama"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-001-06-le-a-historia-solicitando-atenca> a onto:DiscursiveStrategy ;
+    rdfs:label "Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara."@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:331#evid-001-07-le-a-historia-solicitando-atenca> a onto:DiscursiveStrategy ;
+    rdfs:label "Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara."@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-002-00-contar-histonia> a onto:Keyword ;
+    rdfs:label "contar histonia"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:331#evid-002-01-constituem-excelente-experimento> a onto:Keyword ;
+    rdfs:label "constituem excelente experimento"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:331#evid-002-02-comunicacao-interpessoal> a onto:Keyword ;
+    rdfs:label "comunicacao interpessoal"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#evid-002-03-alteracoes-supressoes> a onto:Keyword ;
+    rdfs:label "alteracoes supressoes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:331#evid-002-04-abra-discussao> a onto:Keyword ;
+    rdfs:label "abra discussao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:331#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma pequena historia que envolva detalhes e diferentes pessoas. Uma noticia sobre uma briga de transito ou um mal-entendido se presta bem a essa atividade. Utilizacao: O professor solicita que quatro alunos se retirem da sala, mantendo-se em local facil de ser chamados."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:331> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:331#evid-000-00-diferentes-pessoas>,
+        <urn:doc:331#evid-000-01-envolva-detalhes>,
+        <urn:doc:331#evid-000-02-detalhes-diferentes>,
+        <urn:doc:331#evid-000-03-briga-transito>,
+        <urn:doc:331#evid-000-04-briga-transito>,
+        <urn:doc:331#evid-000-05-se-retirem-da-sala>,
+        <urn:doc:331#evid-000-06-quatro-alunos> .
+
+<urn:doc:331#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Le a historia, solicitando atencao geral, pois escolhera um dos alunos presentes para relata-la a um dos ausentes, que em seguida chamara. Chama um dos alunos que nao ouviu a historia e escolhe alguem do grupo para passar-lhe esse conteudo."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:331> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:331#evid-001-00-solicitando-atencao>,
+        <urn:doc:331#evid-001-01-pois-escolhera>,
+        <urn:doc:331#evid-001-02-presentes-relata>,
+        <urn:doc:331#evid-001-03-passar-lhe-esse-conteudo>,
+        <urn:doc:331#evid-001-04-escolhe-alguem>,
+        <urn:doc:331#evid-001-05-chama>,
+        <urn:doc:331#evid-001-06-le-a-historia-solicitando-atenca>,
+        <urn:doc:331#evid-001-07-le-a-historia-solicitando-atenca> .
+
+<urn:doc:331#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Esse aluno ficara encarregado de, diante de todo grupo, contar a histonia a outro ausente que e chamado e assim por diante. As enormes alteracoes ou supressoes que \"transformam\" a historia oniginal constituem excelente experimento para que se abra uma discussao sobre a comunicacao interpessoal."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:331> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:331#evid-002-00-contar-histonia>,
+        <urn:doc:331#evid-002-01-constituem-excelente-experimento>,
+        <urn:doc:331#evid-002-02-comunicacao-interpessoal>,
+        <urn:doc:331#evid-002-03-alteracoes-supressoes>,
+        <urn:doc:331#evid-002-04-abra-discussao> .
+
+<urn:doc:331> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:331#frag-000>,
+        <urn:doc:331#frag-001>,
+        <urn:doc:331#frag-002> .
+

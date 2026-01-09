@@ -1,0 +1,118 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:57#evid-000-00-agrupar> a onto:Keyword ;
+    rdfs:label "agrupar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:57#evid-000-01-agrupar-quantidades> a onto:Keyword ;
+    rdfs:label "agrupar quantidades"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:57#evid-000-02-vertical-horizontal> a onto:Keyword ;
+    rdfs:label "vertical horizontal"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:57#evid-000-03-tampinhas-colocando> a onto:Keyword ;
+    rdfs:label "tampinhas colocando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:57#evid-000-04-sequencia-vertical> a onto:Keyword ;
+    rdfs:label "sequencia vertical"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:57#evid-000-05-agrupar-quantidades-de-1-a-5-tam> a onto:DiscursiveStrategy ;
+    rdfs:label "agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:57#evid-000-06-agrupar-quantidades-de-1-a-5-tam> a onto:DiscursiveStrategy ;
+    rdfs:label "agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:57#evid-001-00-colocando-diferentes> a onto:Keyword ;
+    rdfs:label "colocando diferentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:57#evid-001-01-vazadas> a onto:Keyword ;
+    rdfs:label "vazadas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:57#evid-001-02-geometricas> a onto:Keyword ;
+    rdfs:label "geometricas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:57#evid-001-03-sequencias> a onto:Keyword ;
+    rdfs:label "sequencias"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:57#evid-001-04-colocando-diferentes-grupos-de-t> a onto:DiscursiveStrategy ;
+    rdfs:label "colocando diferentes grupos de tampinhas em formas geometricas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:57#evid-001-05-colocando-diferentes-grupos-de-t> a onto:DiscursiveStrategy ;
+    rdfs:label "colocando diferentes grupos de tampinhas em formas geometricas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:57#evid-002-00-encaixes-diferentes> a onto:Keyword ;
+    rdfs:label "encaixes diferentes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:57#evid-002-01-escada-bolas> a onto:Keyword ;
+    rdfs:label "escada bolas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:57#evid-002-02-bolas-furadas> a onto:Keyword ;
+    rdfs:label "bolas furadas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:57#evid-002-03-furadas-encaixes> a onto:Keyword ;
+    rdfs:label "furadas encaixes"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:57#evid-002-04-jogos-com-uma-base-com-pinos-e-b> a onto:ContextObject ;
+    rdfs:label "jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:57#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo utiliza tampinhas de pasta de dente (ou outras) coloridas. Utilizacao: Os alunos devem agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:57> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:57#evid-000-00-agrupar>,
+        <urn:doc:57#evid-000-01-agrupar-quantidades>,
+        <urn:doc:57#evid-000-02-vertical-horizontal>,
+        <urn:doc:57#evid-000-03-tampinhas-colocando>,
+        <urn:doc:57#evid-000-04-sequencia-vertical>,
+        <urn:doc:57#evid-000-05-agrupar-quantidades-de-1-a-5-tam>,
+        <urn:doc:57#evid-000-06-agrupar-quantidades-de-1-a-5-tam> .
+
+<urn:doc:57#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "E interessante associar este jogo ao \"Formas Vazadas\", com os alunos colocando diferentes grupos de tampinhas em formas geometricas. As sequencias devem ser repetidas muitas vezes e e im- portante que os conceitos estejam claramente fixados para todos."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:57> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:57#evid-001-00-colocando-diferentes>,
+        <urn:doc:57#evid-001-01-vazadas>,
+        <urn:doc:57#evid-001-02-geometricas>,
+        <urn:doc:57#evid-001-03-sequencias>,
+        <urn:doc:57#evid-001-04-colocando-diferentes-grupos-de-t>,
+        <urn:doc:57#evid-001-05-colocando-diferentes-grupos-de-t> .
+
+<urn:doc:57#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "(Existem no mercado jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:57> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:57#evid-002-00-encaixes-diferentes>,
+        <urn:doc:57#evid-002-01-escada-bolas>,
+        <urn:doc:57#evid-002-02-bolas-furadas>,
+        <urn:doc:57#evid-002-03-furadas-encaixes>,
+        <urn:doc:57#evid-002-04-jogos-com-uma-base-com-pinos-e-b> .
+
+<urn:doc:57> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:57#frag-000>,
+        <urn:doc:57#frag-001>,
+        <urn:doc:57#frag-002> .
+

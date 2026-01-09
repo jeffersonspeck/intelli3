@@ -1,0 +1,128 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "voce",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7028538467873205,
+      "relevance": 0.7293577981651376
+    },
+    {
+      "role": "Keyword",
+      "text": "voce mora",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6518335672440343,
+      "relevance": 0.7293577981651376
+    },
+    {
+      "role": "Keyword",
+      "text": "papeis perguntas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.45063455390774954,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "voce estuda",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6171803299224993,
+      "relevance": 0.6880733944954128
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Alunos divididos em dois grupos, sentados em circulos.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Alunos divididos em dois grupos, sentados em circulos.",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "papeis com perguntas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.49725,
+      "relevance": 0.8119266055045872
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "descobriu america",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7979449005662055,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "questoes respondem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7717454353589001,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "respondem essas perguntas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6908973970214933,
+      "relevance": 0.8610038610038611
+    },
+    {
+      "role": "Keyword",
+      "text": "pergunta",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6608406140899703,
+      "relevance": 0.8301158301158301
+    },
+    {
+      "role": "Keyword",
+      "text": "imediatamente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.43790804807220807,
+      "relevance": 0.61003861003861
+    },
+    {
+      "role": "ContextObject",
+      "text": "jogo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.7876447876447876
+    }
+  ],
+  "2": [
+    {
+      "role": "DiscursiveStrategy",
+      "text": "revezam-se os grupos em suas funcoes de perguntar e de responder",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.674731182795699
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "revezam-se os grupos em suas funcoes de perguntar e de responder",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.674731182795699
+    }
+  ]
+}

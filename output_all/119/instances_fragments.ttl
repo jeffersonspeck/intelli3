@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:119#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar em uma cartolina branca um quadriculado (5cm x 5cm) com 25 casas. Com papel-cartao ou cartolina colorida produzir figuras geometricas que caibam nessas casas, recortando em cores diferentes triangulos, losangos, hexago- nos, quadrados e outros."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:119> ;
+    dct:type "body" .
+
+<urn:doc:119#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor deve explicar as regras do jogo para os alunos e determinar as sequencias que pretende. Em etapas mais avancadas, pode organizar sequencias logicas em que falta uma peca e solicitar ao aluno que a encontre, colocando na casa correspondente."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:119> ;
+    dct:type "body" .
+
+<urn:doc:119#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "A tarefa do aluno sera a de ordenar figuras na sequencia solicitada pelo professor."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:119> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:119> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:119#frag-000>,
+        <urn:doc:119#frag-001>,
+        <urn:doc:119#frag-002> .
+

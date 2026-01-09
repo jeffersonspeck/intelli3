@@ -1,0 +1,95 @@
+[Documento] urn:doc:178
+  - miVector: 6.17,9.53,1.27,0.00,50.27,32.77,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5027)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5027
+      • Interpersonal: 0.3277
+      • Logical-Mathematical: 0.0953
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: bolas de borracha de cinco a seis tamanhos diferentes
+        • ContextObject: pes
+        • DiscursiveStrategy: treinar a lateralidade com o uso dos pes
+        • Keyword: aparar bola usando
+        • Keyword: aparar bolas arremessadas
+        • Keyword: bolas arremessando
+        • Keyword: tamanhos diferentes
+        • Keyword: uso pes
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.5840
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: esquerda
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0292
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: treinar a lateralidade com o uso dos pes
+        • Keyword: aprender
+        • Keyword: aprender obedecer
+        • Keyword: estimulado usar
+        • Keyword: treinar lateralidade
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.4160
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: estimulado usar
+        • Keyword: perceber claramente
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1418
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: obedecer regras
+        • Keyword: perceber claramente
+        • Keyword: regras perceber
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2193
+
+
+[Documento — Fragmentos] urn:doc:178
+
+[Fragmento] Preparacao: Bolas de borracha de cinco a seis tamanhos diferentes. Utilizacao: O aluno deve aprender a obedecer regras e perceber claramente os limites, mas deve ser estimulado a usar as bolas arremessando-as a outros, contra paredes, aparar bolas arremessadas por outros, aparar bola usando uma das maos, a direita ou a esquerda.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: bolas de borracha de cinco a seis tamanhos diferentes
+        • Keyword: aparar bola usando
+        • Keyword: aparar bolas arremessadas
+        • Keyword: bolas arremessando
+        • Keyword: tamanhos diferentes
+    - Ativações:
+        • score=0.3969, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: esquerda
+    - Ativações:
+        • score=0.0292, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: aprender
+        • Keyword: aprender obedecer
+        • Keyword: estimulado usar
+    - Ativações:
+        • score=0.2128, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: estimulado usar
+        • Keyword: perceber claramente
+    - Ativações:
+        • score=0.1418, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: obedecer regras
+        • Keyword: perceber claramente
+        • Keyword: regras perceber
+    - Ativações:
+        • score=0.2193, tipo=Secondary
+
+[Fragmento] Em etapas seguintes, apos explorar todas as tentativas manuais, treinar a lateralidade com o uso dos pes.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: pes
+        • DiscursiveStrategy: treinar a lateralidade com o uso dos pes
+        • Keyword: uso pes
+    - Ativações:
+        • score=0.5840, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: treinar a lateralidade com o uso dos pes
+        • Keyword: treinar lateralidade
+    - Ativações:
+        • score=0.4160, tipo=Secondary

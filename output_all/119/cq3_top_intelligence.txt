@@ -1,0 +1,19 @@
+[Documento] urn:doc:119
+  - miVector: 0.00,29.59,12.88,11.08,46.44,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4644)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4644
+      • Logical-Mathematical: 0.2959
+      • Spatial: 0.1288
+
+
+[Documento — Fragmentos] urn:doc:119
+
+[Fragmento] Preparacao: Preparar em uma cartolina branca um quadriculado (5cm x 5cm) com 25 casas. Com papel-cartao ou cartolina colorida produzir figuras geometricas que caibam nessas casas, recortando em cores diferentes triangulos, losangos, hexago- nos, quadrados e outros.
+  > TOP: Espacial-visual (score=0.4252, tipo=Primary)
+
+[Fragmento] Utilizacao: O professor deve explicar as regras do jogo para os alunos e determinar as sequencias que pretende. Em etapas mais avancadas, pode organizar sequencias logicas em que falta uma peca e solicitar ao aluno que a encontre, colocando na casa correspondente.
+  > TOP: Lógico-matemática (score=0.5176, tipo=Primary)
+
+[Fragmento] A tarefa do aluno sera a de ordenar figuras na sequencia solicitada pelo professor.
+  > TOP: Cinestésico-corporal (score=0.8619, tipo=Primary)

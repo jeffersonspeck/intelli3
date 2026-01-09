@@ -1,0 +1,16 @@
+[Documento] urn:doc:2
+  - miVector: 27.07,0.00,10.34,0.00,48.14,14.45,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4814)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4814
+      • Linguistic: 0.2707
+      • Interpersonal: 0.1445
+
+
+[Documento — Fragmentos] urn:doc:2
+
+[Fragmento] Preparacao: Desenhar ou montar em cartolina uma cozinha, um quarto ou a estrutura interna de uma casa. Construir em cartolina pecas que completem esse aposento, como sofas, camas, mesas, espelhos, armarios, panelas e outros objetos.
+  > TOP: Cinestésico-corporal (score=0.5614, tipo=Primary)
+
+[Fragmento] Utilizacao: Ao receber as pecas do jogo, a crianca devera nomear o objeto, montan- do-o sobre a estrutura. O jogo pode ser desenvolvido em grupo e, nas etapas seguintes, devera no- mear, dizer as cores ou contar historias que envolvam essa montagem.
+  > TOP: Linguística (score=0.6227, tipo=Primary)

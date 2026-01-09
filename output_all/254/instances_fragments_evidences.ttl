@@ -1,0 +1,56 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:254#evid-000-00-gravar-naturais-sons> a onto:Keyword ;
+    rdfs:label "gravar naturais sons"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:254#evid-000-01-naturais-sons-anotando> a onto:Keyword ;
+    rdfs:label "naturais sons anotando"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:254#evid-001-00-estabeleca-trocas> a onto:Keyword ;
+    rdfs:label "estabeleca trocas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:254#evid-001-01-sons-natural> a onto:Keyword ;
+    rdfs:label "sons natural"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:254#evid-001-02-invente-jogos> a onto:Keyword ;
+    rdfs:label "invente jogos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:254#evid-001-03-trocas-invente> a onto:Keyword ;
+    rdfs:label "trocas invente"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:254#evid-001-04-conferir-sons> a onto:Keyword ;
+    rdfs:label "conferir sons"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:254#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor procurara reunir varios gravadores e dara uma fita a cada gru- po em uma excursao. Os grupos devem se distanciar uns dos outros e gravar naturais sons anotando suas possiveis origens."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:254> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:254#evid-000-00-gravar-naturais-sons>,
+        <urn:doc:254#evid-000-01-naturais-sons-anotando> .
+
+<urn:doc:254#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Quando cada grupo trouxer sua fita, estabeleca trocas ce invente jogos para ao local das gravacoes e conferir os sons ao natural."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:254> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:254#evid-001-00-estabeleca-trocas>,
+        <urn:doc:254#evid-001-01-sons-natural>,
+        <urn:doc:254#evid-001-02-invente-jogos>,
+        <urn:doc:254#evid-001-03-trocas-invente>,
+        <urn:doc:254#evid-001-04-conferir-sons> .
+
+<urn:doc:254> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:254#frag-000>,
+        <urn:doc:254#frag-001> .
+

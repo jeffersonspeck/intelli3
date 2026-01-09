@@ -1,0 +1,200 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "apresentando sons diferentes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7960342851897626,
+      "relevance": 0.8582089552238806
+    },
+    {
+      "role": "Keyword",
+      "text": "fita apresentando sons",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5682386327341565,
+      "relevance": 0.8706467661691543
+    },
+    {
+      "role": "Keyword",
+      "text": "vozes conhecidas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7007865478303397,
+      "relevance": 0.6119402985074627
+    },
+    {
+      "role": "Keyword",
+      "text": "sons metalicos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.48948514906049045,
+      "relevance": 0.6990049751243781
+    },
+    {
+      "role": "Keyword",
+      "text": "trechos musica",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.47592626817517325,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "improvisar com sons metalicos, guturais, latidos, vozes conhecidas, trechos de musica e outros",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.736318407960199
+    },
+    {
+      "role": "ContextObject",
+      "text": "gravador com uma fita apresentando sons diferentes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.49725,
+      "relevance": 0.9129353233830846
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "olhos vendados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5704984447102228,
+      "relevance": 0.8745019920318725
+    },
+    {
+      "role": "Keyword",
+      "text": "irao percorrer",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.4582179522233774,
+      "relevance": 0.749003984063745
+    },
+    {
+      "role": "Keyword",
+      "text": "sons ouvidos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.4582179522233774,
+      "relevance": 0.6334661354581673
+    },
+    {
+      "role": "Keyword",
+      "text": "percorrer castelo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.4582179522233774,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "percorrer um castelo imaginario devendo memorizar os sons ouvidos para relaciona-los na ordem em que forem apresentados",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.7390438247011952
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "ordem correta",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.8755760368663594
+    },
+    {
+      "role": "Keyword",
+      "text": "vence equipe",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7979509914008818,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "equipe fizer",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "fizer relacao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "relacao mais completa",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.9377880184331797
+    },
+    {
+      "role": "Keyword",
+      "text": "dificuldade crescente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5234660194450139,
+      "relevance": 0.5506912442396313
+    },
+    {
+      "role": "Keyword",
+      "text": "colecionar fita",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7247991038469423,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo permite",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.69493671159956,
+      "relevance": 0.836405529953917
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo permite",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.69493671159956,
+      "relevance": 0.836405529953917
+    },
+    {
+      "role": "Keyword",
+      "text": "permite aplicacao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.69493671159956,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "permite aplicacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.69493671159956,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pode colecionar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.69493671159956,
+      "relevance": 0.6935483870967742
+    }
+  ]
+}

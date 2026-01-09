@@ -1,0 +1,65 @@
+[Documento] urn:doc:257
+  - miVector: 9.91,11.60,2.18,6.61,40.44,10.08,0.00,19.17
+  - TOP (documento): Bodily-Kinesthetic (score=0.4044)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4044
+      • Naturalist: 0.1917
+      • Logical-Mathematical: 0.1160
+
+[Fragmento] preparacao: Essa atividade e realizada a noite e, portanto, possivel se os alunos forem con- vidados a trazer seus sacos de dormir ou colchonetes e passar uma noite na escola. Em uma excursao a atividade e tambem possivel.
+  - Bodily-Kinesthetic (via activation, score=0.7986)
+  - Logical-Mathematical (via activation, score=0.2014)
+  - Cinestésico-corporal (via activation, score=0.7986)
+  - Lógico-matemática (via activation, score=0.2014)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Utilizacao: O professor devera estimular os alunos a observar estrelas e desenhar constela- coes, reunindo-se depois para descreve-las. Os alunos nao precisam se preocupar em desenhar ou descrever as constelacoes como se encontram no ceu.
+  - Bodily-Kinesthetic (via activation, score=0.2301)
+  - Interpersonal (via activation, score=0.2606)
+  - Linguistic (via activation, score=0.1088)
+  - Naturalist (via activation, score=0.4004)
+  - Cinestésico-corporal (via activation, score=0.2301)
+  - Interpessoal (via activation, score=0.2606)
+  - Linguística (via activation, score=0.1088)
+  - Naturalista (via activation, score=0.4004)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Naturalista (via element)
+
+[Fragmento] O professor pode recriar a ideia dos astronomos do passado, levando seus alunos a inventar "no- vas constelacoes". A noite tambem oferece interessante oportunidade para a identi- ficacao dos pontos cardeais a partir da lua ou das estrelas. 204
+  - Bodily-Kinesthetic (via activation, score=0.0662)
+  - Interpersonal (via activation, score=0.0721)
+  - Linguistic (via activation, score=0.2182)
+  - Logical-Mathematical (via activation, score=0.1210)
+  - Musical (via activation, score=0.2182)
+  - Naturalist (via activation, score=0.2322)
+  - Spatial (via activation, score=0.0721)
+  - Cinestésico-corporal (via activation, score=0.0662)
+  - Espacial-visual (via activation, score=0.0721)
+  - Interpessoal (via activation, score=0.0721)
+  - Linguística (via activation, score=0.2182)
+  - Lógico-matemática (via activation, score=0.1210)
+  - Musical (via activation, score=0.2182)
+  - Naturalista (via activation, score=0.2322)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)

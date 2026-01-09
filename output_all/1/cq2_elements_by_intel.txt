@@ -1,0 +1,116 @@
+[Documento] urn:doc:1
+  - miVector: 5.65,6.11,6.52,0.00,24.90,4.17,41.95,10.71
+  - TOP (documento): Intrapersonal (score=0.4195)
+  - Ranking (top 3):
+      • Intrapersonal: 0.4195
+      • Bodily-Kinesthetic: 0.2490
+      • Naturalist: 0.1071
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: encaixes
+        • DiscursiveStrategy: Recortar de maneira a deixar encaixes.
+        • Keyword: atraves encaixes
+        • Keyword: colar cartolina
+        • Keyword: deixar encaixes
+        • Keyword: maneira deixar
+        • Keyword: recortar maneira
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4788
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: formar figuras atraves dos encaixes,
+        • Keyword: formar figuras atraves
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1500
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: colar em cartolina
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0737
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: figuras
+        • DiscursiveStrategy: formar figuras atraves dos encaixes,
+        • Keyword: colecao figuras
+        • Keyword: figuras relacionem
+        • Keyword: formar figuras atraves
+        • Keyword: plantas produtos
+        • Keyword: produtos elaborados
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5566
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: nomeando os objetos que aparecem em cada figura.
+        • Keyword: crianca formar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1299
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: figuras relacionem
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1081
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: animais
+        • Keyword: plantas produtos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1895
+
+
+[Documento — Fragmentos] urn:doc:1
+
+[Fragmento] Preparacao: Utilizando gravura de revistas ou desenhando, fazer uma colecao de figuras que relacionem um elemento a outro, como por exemplo: homem x homem / homem x mulher / mulher x mulher / plantas x produtos elaborados / animais x suas casas EUR inumeros outros. Colar em cartolina.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: colar cartolina
+    - Ativações:
+        • score=0.0722, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: colar em cartolina
+    - Ativações:
+        • score=0.0737, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: figuras
+        • Keyword: colecao figuras
+        • Keyword: figuras relacionem
+        • Keyword: plantas produtos
+        • Keyword: produtos elaborados
+    - Ativações:
+        • score=0.5566, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: figuras relacionem
+    - Ativações:
+        • score=0.1081, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: animais
+        • Keyword: plantas produtos
+    - Ativações:
+        • score=0.1895, tipo=Secondary
+
+[Fragmento] Recortar de maneira a deixar encaixes. Utilizacao: A crianca deve formar figuras atraves dos encaixes, nomeando os objetos que aparecem em cada figura. Em uma etapa seguinte, devem verbalizar a cor dos objetos e, posterior- mente, para que servem. 48
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: encaixes
+        • DiscursiveStrategy: Recortar de maneira a deixar encaixes.
+        • Keyword: atraves encaixes
+        • Keyword: deixar encaixes
+        • Keyword: maneira deixar
+        • Keyword: recortar maneira
+    - Ativações:
+        • score=0.4788, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • DiscursiveStrategy: formar figuras atraves dos encaixes,
+        • Keyword: formar figuras atraves
+    - Ativações:
+        • score=0.1500, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: figuras
+        • DiscursiveStrategy: formar figuras atraves dos encaixes,
+        • Keyword: formar figuras atraves
+    - Ativações:
+        • score=0.2413, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: nomeando os objetos que aparecem em cada figura.
+        • Keyword: crianca formar
+    - Ativações:
+        • score=0.1299, tipo=Secondary

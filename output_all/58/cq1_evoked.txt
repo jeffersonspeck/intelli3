@@ -1,0 +1,35 @@
+[Documento] urn:doc:58
+  - miVector: 0.00,46.28,0.00,0.00,27.00,0.00,0.00,26.72
+  - TOP (documento): Logical-Mathematical (score=0.4628)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.4628
+      • Bodily-Kinesthetic: 0.2700
+      • Naturalist: 0.2672
+
+[Fragmento] Preparacao: O jogo de domino e um excelente recurso para fixar conceitos sobre sistemas de numeracao. Para torna-lo mais atrativo, o professor pode preparar, em cartolina ou papel-cartao, dominos com formatos de animais ou pessoas.
+  - Bodily-Kinesthetic (via activation, score=0.2824)
+  - Logical-Mathematical (via activation, score=0.4003)
+  - Naturalist (via activation, score=0.3173)
+  - Cinestésico-corporal (via activation, score=0.2824)
+  - Lógico-matemática (via activation, score=0.4003)
+  - Naturalista (via activation, score=0.3173)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Na verdade o que importa e o numero de pontos que indica as caracteristicas do jogo. Utilizacao: Os alunos devem seguir as regras do jogo de domino e, desta maneira, jogar em duplas, trios ou grupos maiores. (Existe no mercado -- Domino Joaninha, Trimino e outros -- Uki-Uki.)
+  - Bodily-Kinesthetic (via activation, score=0.2540)
+  - Logical-Mathematical (via activation, score=0.5441)
+  - Naturalist (via activation, score=0.2020)
+  - Cinestésico-corporal (via activation, score=0.2540)
+  - Lógico-matemática (via activation, score=0.5441)
+  - Naturalista (via activation, score=0.2020)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

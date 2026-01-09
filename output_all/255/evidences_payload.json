@@ -1,0 +1,200 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "possam descobri",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7624367024981319,
+      "relevance": 0.5467980295566502
+    },
+    {
+      "role": "Keyword",
+      "text": "invente",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7568203730204229,
+      "relevance": 0.9187192118226601
+    },
+    {
+      "role": "Keyword",
+      "text": "invente",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7568203730204229,
+      "relevance": 0.9187192118226601
+    },
+    {
+      "role": "Keyword",
+      "text": "monstro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7568203730204229,
+      "relevance": 0.8866995073891626
+    },
+    {
+      "role": "Keyword",
+      "text": "cacada",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7242190929106229,
+      "relevance": 0.7733990147783252
+    },
+    {
+      "role": "Keyword",
+      "text": "estimule",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7174138341721558,
+      "relevance": 0.8497536945812808
+    },
+    {
+      "role": "Keyword",
+      "text": "pistas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6705784091819228,
+      "relevance": 0.6133004926108374
+    },
+    {
+      "role": "Keyword",
+      "text": "contar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.4437968091711899,
+      "relevance": 0.7413793103448276
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "descobri-lo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.5295566502463054
+    },
+    {
+      "role": "ContextObject",
+      "text": "monstro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8866995073891626
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "planta exotica",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7820209156719252,
+      "relevance": 0.8314814814814815
+    },
+    {
+      "role": "Keyword",
+      "text": "procurar encontra",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7342809722725775,
+      "relevance": 0.5388888888888889
+    },
+    {
+      "role": "Keyword",
+      "text": "procurar encontra",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7342809722725775,
+      "relevance": 0.5388888888888889
+    },
+    {
+      "role": "Keyword",
+      "text": "monstro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.730957603635952,
+      "relevance": 0.9666666666666667
+    },
+    {
+      "role": "Keyword",
+      "text": "arvore",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7184186106824,
+      "relevance": 0.8592592592592593
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "procurar encontra-lo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.5388888888888889
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "procurar encontra-lo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.5388888888888889
+    },
+    {
+      "role": "ContextObject",
+      "text": "monstro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9666666666666667
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "muitas informacoes naturais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8041990181549725,
+      "relevance": 0.92578125
+    },
+    {
+      "role": "Keyword",
+      "text": "agucem audicao",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5709461914743992,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "sensibilidade olfativa",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7816431368387415,
+      "relevance": 0.82421875
+    },
+    {
+      "role": "Keyword",
+      "text": "naturais agucem",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7816431368387415,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "varias sugestoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5429122978186194,
+      "relevance": 0.541015625
+    },
+    {
+      "role": "Keyword",
+      "text": "espirito brincadeira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.4970377301877555,
+      "relevance": 0.75
+    }
+  ]
+}

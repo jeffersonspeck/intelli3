@@ -1,0 +1,112 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "torna necessario colar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7824873617709212,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "necessario colar fitas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7748532251738377,
+      "relevance": 0.9089219330855018
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras humanas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5032564304923868,
+      "relevance": 0.5836431226765799
+    },
+    {
+      "role": "Keyword",
+      "text": "recortar papel cartao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5032564304923868,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "geometricas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.4367370572049829,
+      "relevance": 0.5223048327137547
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "formar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8033189671217795,
+      "relevance": 0.9653679653679653
+    },
+    {
+      "role": "Keyword",
+      "text": "etapas posteriores colocar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8033189671217795,
+      "relevance": 0.8701298701298701
+    },
+    {
+      "role": "Keyword",
+      "text": "etapas posteriores colocar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8033189671217795,
+      "relevance": 0.8701298701298701
+    },
+    {
+      "role": "Keyword",
+      "text": "formar conjuntos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7943149321497232,
+      "relevance": 0.9653679653679653
+    },
+    {
+      "role": "Keyword",
+      "text": "contornos solicitados",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7703438488547749,
+      "relevance": 0.7532467532467533
+    },
+    {
+      "role": "Keyword",
+      "text": "conforme cor",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7102673694592233,
+      "relevance": 0.75
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "brincando conjunto",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5806770442851147,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "Brincando de Conjunto -- Uki-Uki.",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8035714285714286
+    }
+  ]
+}

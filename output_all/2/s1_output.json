@@ -1,0 +1,17 @@
+{
+  "doc_id": "urn:doc:2",
+  "paragraphs": [
+    {
+      "k": 0,
+      "text": "Preparacao: Desenhar ou montar em cartolina uma cozinha, um quarto ou a estrutura interna de uma casa. Construir em cartolina pecas que completem esse aposento, como sofas, camas, mesas, espelhos, armarios, panelas e outros objetos.",
+      "lang": "pt",
+      "is_title_or_abstract": true
+    },
+    {
+      "k": 1,
+      "text": "Utilizacao: Ao receber as pecas do jogo, a crianca devera nomear o objeto, montan- do-o sobre a estrutura. O jogo pode ser desenvolvido em grupo e, nas etapas seguintes, devera no- mear, dizer as cores ou contar historias que envolvam essa montagem.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    }
+  ]
+}

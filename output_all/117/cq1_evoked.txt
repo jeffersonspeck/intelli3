@@ -1,0 +1,53 @@
+[Documento] urn:doc:117
+  - miVector: 4.32,1.57,11.17,0.00,19.35,56.71,0.00,6.88
+  - TOP (documento): Interpersonal (score=0.5671)
+  - Ranking (top 3):
+      • Interpersonal: 0.5671
+      • Bodily-Kinesthetic: 0.1935
+      • Spatial: 0.1117
+
+[Fragmento] Preparacao: O jogo existe no comercio e e muito popular. O importante e dar ao mes- mo, ao lado de sua finalidade recreativa, opcoes educacionais. Isto e possivel, criando inumeras situacoes que envolvam posicionamento das pecas e sua tca- tralizacao com a consequente verbalizacao.
+  - Bodily-Kinesthetic (via activation, score=0.4932)
+  - Interpersonal (via activation, score=0.2047)
+  - Linguistic (via activation, score=0.0750)
+  - Naturalist (via activation, score=0.2271)
+  - Cinestésico-corporal (via activation, score=0.4932)
+  - Interpessoal (via activation, score=0.2047)
+  - Linguística (via activation, score=0.0750)
+  - Naturalista (via activation, score=0.2271)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: O aluno (individualmente ou em grupo) deve ser estimulado a posicionar pecas (trabalhando nocoes de direita, esquerda, leste, oeste e outras) e tambem criar cenas que reproduzam fatos do cotidiano do aluno ou circunstancias imaginadas.
+  - Bodily-Kinesthetic (via activation, score=0.1454)
+  - Interpersonal (via activation, score=0.3667)
+  - Linguistic (via activation, score=0.0677)
+  - Logical-Mathematical (via activation, score=0.0517)
+  - Spatial (via activation, score=0.3685)
+  - Cinestésico-corporal (via activation, score=0.1454)
+  - Espacial-visual (via activation, score=0.3685)
+  - Interpessoal (via activation, score=0.3667)
+  - Linguística (via activation, score=0.0677)
+  - Lógico-matemática (via activation, score=0.0517)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] E interessante a interatividade entre essas historias envolvendo va- rios alunos. (Existem no mercado: "Playmobil": [Trol] e muitos outros.)
+  - Interpersonal (via activation, score=1.0000)
+  - Interpessoal (via activation, score=1.0000)
+  - Interpersonal (via element)
+  - Interpessoal (via element)

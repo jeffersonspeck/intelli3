@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:10#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Alunos divididos em grupos. Cada grupo escolhe alternativamente um representante. Um aluno fica com a funcao de cronometrar a participacao de cada aluno. Utilizacao: O professor inicia o dialogo com o aluno e deve, atraves de perguntas, induzi-lo a dizer a palavra nao."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:10> ;
+    dct:type "body" .
+
+<urn:doc:10#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "(Perguntas do tipo: Voce e casado? / E verdade que nasceu na Nigeria, etc.) Os alunos sao informados que nao devem omitir a verdade e que ao inves dessa palavra devem dizer negativo, de forma alguma ou outra expressao correspondente."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:10> ;
+    dct:type "body" .
+
+<urn:doc:10#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Cada aluno que mantiver um dialogo dinami- co e em 30 segundos nao disser a palavra nao ganha ponto para sua equipe. 53"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:10> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:10> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:10#frag-000>,
+        <urn:doc:10#frag-001>,
+        <urn:doc:10#frag-002> .
+

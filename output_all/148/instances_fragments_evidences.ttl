@@ -1,0 +1,148 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:148#evid-000-00-apresentando-sons-diferentes> a onto:Keyword ;
+    rdfs:label "apresentando sons diferentes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:148#evid-000-01-fita-apresentando-sons> a onto:Keyword ;
+    rdfs:label "fita apresentando sons"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:148#evid-000-02-vozes-conhecidas> a onto:Keyword ;
+    rdfs:label "vozes conhecidas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:148#evid-000-03-sons-metalicos> a onto:Keyword ;
+    rdfs:label "sons metalicos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:148#evid-000-04-trechos-musica> a onto:Keyword ;
+    rdfs:label "trechos musica"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:148#evid-000-05-improvisar-com-sons-metalicos-gu> a onto:DiscursiveStrategy ;
+    rdfs:label "improvisar com sons metalicos, guturais, latidos, vozes conhecidas, trechos de musica e outros"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:148#evid-000-06-gravador-com-uma-fita-apresentan> a onto:ContextObject ;
+    rdfs:label "gravador com uma fita apresentando sons diferentes"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:148#evid-001-00-olhos-vendados> a onto:Keyword ;
+    rdfs:label "olhos vendados"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:148#evid-001-01-irao-percorrer> a onto:Keyword ;
+    rdfs:label "irao percorrer"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:148#evid-001-02-sons-ouvidos> a onto:Keyword ;
+    rdfs:label "sons ouvidos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:148#evid-001-03-percorrer-castelo> a onto:Keyword ;
+    rdfs:label "percorrer castelo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:148#evid-001-04-percorrer-um-castelo-imaginario-> a onto:DiscursiveStrategy ;
+    rdfs:label "percorrer um castelo imaginario devendo memorizar os sons ouvidos para relaciona-los na ordem em que forem apresentados"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:148#evid-002-00-ordem-correta> a onto:Keyword ;
+    rdfs:label "ordem correta"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:148#evid-002-01-vence-equipe> a onto:Keyword ;
+    rdfs:label "vence equipe"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:148#evid-002-02-equipe-fizer> a onto:Keyword ;
+    rdfs:label "equipe fizer"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:148#evid-002-03-fizer-relacao> a onto:Keyword ;
+    rdfs:label "fizer relacao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:148#evid-002-04-relacao-mais-completa> a onto:Keyword ;
+    rdfs:label "relacao mais completa"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:148#evid-002-05-dificuldade-crescente> a onto:Keyword ;
+    rdfs:label "dificuldade crescente"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:148#evid-002-06-colecionar-fita> a onto:Keyword ;
+    rdfs:label "colecionar fita"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:148#evid-002-07-jogo-permite> a onto:Keyword ;
+    rdfs:label "jogo permite"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:148#evid-002-08-jogo-permite> a onto:Keyword ;
+    rdfs:label "jogo permite"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:148#evid-002-09-permite-aplicacao> a onto:Keyword ;
+    rdfs:label "permite aplicacao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:148#evid-002-10-permite-aplicacao> a onto:Keyword ;
+    rdfs:label "permite aplicacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:148#evid-002-11-pode-colecionar> a onto:Keyword ;
+    rdfs:label "pode colecionar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:148#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O ideal e o professor dispor de um gravador com uma fita apresentando sons diferentes. Em sua falta, pode improvisar com sons metalicos, guturais, latidos, vozes conhecidas, trechos de musica e outros."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:148> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:148#evid-000-00-apresentando-sons-diferentes>,
+        <urn:doc:148#evid-000-01-fita-apresentando-sons>,
+        <urn:doc:148#evid-000-02-vozes-conhecidas>,
+        <urn:doc:148#evid-000-03-sons-metalicos>,
+        <urn:doc:148#evid-000-04-trechos-musica>,
+        <urn:doc:148#evid-000-05-improvisar-com-sons-metalicos-gu>,
+        <urn:doc:148#evid-000-06-gravador-com-uma-fita-apresentan> .
+
+<urn:doc:148#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos sao divididos em duas equipes e todos devem ter seus olhos vendados. Iniciando a atividade, o professor informa que irao percorrer um castelo imaginario devendo memorizar os sons ouvidos para relaciona-los na ordem em que forem apresentados."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:148> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:148#evid-001-00-olhos-vendados>,
+        <urn:doc:148#evid-001-01-irao-percorrer>,
+        <urn:doc:148#evid-001-02-sons-ouvidos>,
+        <urn:doc:148#evid-001-03-percorrer-castelo>,
+        <urn:doc:148#evid-001-04-percorrer-um-castelo-imaginario-> .
+
+<urn:doc:148#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Vence a equipe que fizer a relacao mais completa e na ordem correta. O jogo permite sua aplicacao em diferentes niveis e o professor pode colecionar a fita 1, 2, 3 e assim por diante com grau de dificuldade crescente."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:148> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:148#evid-002-00-ordem-correta>,
+        <urn:doc:148#evid-002-01-vence-equipe>,
+        <urn:doc:148#evid-002-02-equipe-fizer>,
+        <urn:doc:148#evid-002-03-fizer-relacao>,
+        <urn:doc:148#evid-002-04-relacao-mais-completa>,
+        <urn:doc:148#evid-002-05-dificuldade-crescente>,
+        <urn:doc:148#evid-002-06-colecionar-fita>,
+        <urn:doc:148#evid-002-07-jogo-permite>,
+        <urn:doc:148#evid-002-08-jogo-permite>,
+        <urn:doc:148#evid-002-09-permite-aplicacao>,
+        <urn:doc:148#evid-002-10-permite-aplicacao>,
+        <urn:doc:148#evid-002-11-pode-colecionar> .
+
+<urn:doc:148> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:148#frag-000>,
+        <urn:doc:148#frag-001>,
+        <urn:doc:148#frag-002> .
+

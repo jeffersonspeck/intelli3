@@ -1,0 +1,19 @@
+[Documento] urn:doc:10
+  - miVector: 34.03,6.23,0.00,4.03,20.92,30.08,0.00,4.70
+  - TOP (documento): Linguistic (score=0.3403)
+  - Ranking (top 3):
+      • Linguistic: 0.3403
+      • Interpersonal: 0.3008
+      • Bodily-Kinesthetic: 0.2092
+
+
+[Documento — Fragmentos] urn:doc:10
+
+[Fragmento] Preparacao: Alunos divididos em grupos. Cada grupo escolhe alternativamente um representante. Um aluno fica com a funcao de cronometrar a participacao de cada aluno. Utilizacao: O professor inicia o dialogo com o aluno e deve, atraves de perguntas, induzi-lo a dizer a palavra nao.
+  > TOP: Cinestésico-corporal (score=0.3104, tipo=Primary)
+
+[Fragmento] (Perguntas do tipo: Voce e casado? / E verdade que nasceu na Nigeria, etc.) Os alunos sao informados que nao devem omitir a verdade e que ao inves dessa palavra devem dizer negativo, de forma alguma ou outra expressao correspondente.
+  > TOP: Linguística (score=0.7143, tipo=Primary)
+
+[Fragmento] Cada aluno que mantiver um dialogo dinami- co e em 30 segundos nao disser a palavra nao ganha ponto para sua equipe. 53
+  > TOP: Interpessoal (score=0.5793, tipo=Primary)

@@ -1,0 +1,108 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:149#evid-000-00-pressupoe-existencia> a onto:Keyword ;
+    rdfs:label "pressupoe existencia"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#evid-000-01-jogo-pressupoe> a onto:Keyword ;
+    rdfs:label "jogo pressupoe"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#evid-000-02-disputa-entre-duas-ou-mais-equip> a onto:DiscursiveStrategy ;
+    rdfs:label "disputa entre duas ou mais equipes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:149#evid-001-00-tempo> a onto:Keyword ;
+    rdfs:label "tempo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:149#evid-001-01-tempo> a onto:Keyword ;
+    rdfs:label "tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:149#evid-001-02-arrumar-cadeiras> a onto:Keyword ;
+    rdfs:label "arrumar cadeiras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#evid-001-03-arrumar-cadeiras> a onto:Keyword ;
+    rdfs:label "arrumar cadeiras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:149#evid-001-04-ruido-causado> a onto:Keyword ;
+    rdfs:label "ruido causado"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:149#evid-001-05-ruido-causado> a onto:Keyword ;
+    rdfs:label "ruido causado"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:149#evid-001-06-equipe-arrumar> a onto:Keyword ;
+    rdfs:label "equipe arrumar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#evid-001-07-volume-ruido> a onto:Keyword ;
+    rdfs:label "volume ruido"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:149#evid-001-08-preparar> a onto:Keyword ;
+    rdfs:label "preparar"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:149#evid-001-09-vence-equipe> a onto:Keyword ;
+    rdfs:label "vence equipe"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:149#evid-001-10-cadeiras> a onto:ContextObject ;
+    rdfs:label "cadeiras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:149#evid-002-00-arrumacao> a onto:Keyword ;
+    rdfs:label "arrumacao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#evid-002-01-mesa> a onto:Keyword ;
+    rdfs:label "mesa"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:149#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo pressupoe a existencia de uma sala de aula vazia, com as carteiras desordenadas. Utilizacao: O jogo e uma disputa entre duas ou mais equipes em que o professor e eventualmente alguns alunos atuarao como arbitros."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:149> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:149#evid-000-00-pressupoe-existencia>,
+        <urn:doc:149#evid-000-01-jogo-pressupoe>,
+        <urn:doc:149#evid-000-02-disputa-entre-duas-ou-mais-equip> .
+
+<urn:doc:149#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "A tarefa de cada equipe e arrumar as cadeiras, no menor tempo possivel, com o menor volume de ruido causado. Vence a equipe que \"preparar\" a sala com menor ruido."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:149> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:149#evid-001-00-tempo>,
+        <urn:doc:149#evid-001-01-tempo>,
+        <urn:doc:149#evid-001-02-arrumar-cadeiras>,
+        <urn:doc:149#evid-001-03-arrumar-cadeiras>,
+        <urn:doc:149#evid-001-04-ruido-causado>,
+        <urn:doc:149#evid-001-05-ruido-causado>,
+        <urn:doc:149#evid-001-06-equipe-arrumar>,
+        <urn:doc:149#evid-001-07-volume-ruido>,
+        <urn:doc:149#evid-001-08-preparar>,
+        <urn:doc:149#evid-001-09-vence-equipe>,
+        <urn:doc:149#evid-001-10-cadeiras> .
+
+<urn:doc:149#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "E possivel desenvolver-se variacoes, como, por exemplo, a arrumacao de uma mesa e ou- tras com garrafas, pecas, campainhas e outras pecas. 141"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:149> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:149#evid-002-00-arrumacao>,
+        <urn:doc:149#evid-002-01-mesa> .
+
+<urn:doc:149> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:149#frag-000>,
+        <urn:doc:149#frag-001>,
+        <urn:doc:149#frag-002> .
+

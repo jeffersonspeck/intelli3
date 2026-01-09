@@ -1,0 +1,45 @@
+[Documento] urn:doc:7
+  - miVector: 30.30,10.61,20.36,0.00,11.97,8.56,0.00,18.20
+  - TOP (documento): Linguistic (score=0.3030)
+  - Ranking (top 3):
+      • Linguistic: 0.3030
+      • Spatial: 0.2036
+      • Naturalist: 0.1820
+
+[Fragmento] Preparacao: Uma caixa com uma serie de figuras extraidas de revistas, contendo pala- vras que ja fazem parte do universo vocabular da crianca. Colar essas figuras em cartolina e, eventualmente, plastifica-las.
+  - Bodily-Kinesthetic (via activation, score=0.2016)
+  - Naturalist (via activation, score=0.4619)
+  - Spatial (via activation, score=0.3365)
+  - Cinestésico-corporal (via activation, score=0.2016)
+  - Espacial-visual (via activation, score=0.3365)
+  - Naturalista (via activation, score=0.4619)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: O professor deve retirar a figura da caixa, apresenta-la aos alunos e marcar na lousa o numero de letras necessarias para escreve-la. Os alunos, sortea- dos pelo professor, devem escolher as letras corretas e estas serem anotadas.
+  - Bodily-Kinesthetic (via activation, score=0.1329)
+  - Interpersonal (via activation, score=0.2824)
+  - Logical-Mathematical (via activation, score=0.3501)
+  - Spatial (via activation, score=0.2345)
+  - Cinestésico-corporal (via activation, score=0.1329)
+  - Espacial-visual (via activation, score=0.2345)
+  - Interpessoal (via activation, score=0.2824)
+  - Lógico-matemática (via activation, score=0.3501)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Coletivamente a classe vai construindo palavras, evoluindo das mais simples para as mais complexas. A cada letra errada, o espaco que deveria ser ocupado pela mesma e ocupado por um boneco na forca.
+  - Linguistic (via activation, score=1.0000)
+  - Linguística (via activation, score=1.0000)
+  - Linguistic (via element)
+  - Linguística (via element)

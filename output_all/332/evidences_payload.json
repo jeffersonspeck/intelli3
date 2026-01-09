@@ -1,0 +1,298 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "anotar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.7911392405063291
+    },
+    {
+      "role": "Keyword",
+      "text": "folha papel",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "anotar alto",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "folha de papel em branco",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9873417721518988
+    },
+    {
+      "role": "ContextObject",
+      "text": "folha de papel em branco",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9873417721518988
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "conquistar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8081270026240888,
+      "relevance": 0.9545454545454546
+    },
+    {
+      "role": "Keyword",
+      "text": "colegas assimem",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.796257151885529,
+      "relevance": 0.648989898989899
+    },
+    {
+      "role": "Keyword",
+      "text": "espaco tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.796257151885529,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "folha",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7852827552039605,
+      "relevance": 0.9090909090909091
+    },
+    {
+      "role": "Keyword",
+      "text": "participantes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7448516407518939,
+      "relevance": 0.7247474747474747
+    },
+    {
+      "role": "Keyword",
+      "text": "pedindo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7448516407518939,
+      "relevance": 0.6868686868686869
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.9545454545454546
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9545454545454546
+    },
+    {
+      "role": "ContextObject",
+      "text": "folha",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9090909090909091
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "folhas maos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7866531562094463,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "inicia",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7761450264282577,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "encerra",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7236037678995574,
+      "relevance": 0.7844827586206897
+    },
+    {
+      "role": "Keyword",
+      "text": "autografos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.698448878804488,
+      "relevance": 0.6879310344827586
+    },
+    {
+      "role": "Keyword",
+      "text": "autografos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.698448878804488,
+      "relevance": 0.6879310344827586
+    },
+    {
+      "role": "Keyword",
+      "text": "termina",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6764167948020572,
+      "relevance": 0.9362068965517242
+    },
+    {
+      "role": "Keyword",
+      "text": "tempo estabelecido",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6709744412424948,
+      "relevance": 0.8189655172413793
+    },
+    {
+      "role": "Keyword",
+      "text": "passado tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6709744412424948,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "autografos obtidos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6654481702749965,
+      "relevance": 0.6879310344827586
+    },
+    {
+      "role": "Keyword",
+      "text": "autografos deram",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.630026867821829,
+      "relevance": 0.5293103448275862
+    },
+    {
+      "role": "Keyword",
+      "text": "solicita",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6264608296472326,
+      "relevance": 0.746551724137931
+    },
+    {
+      "role": "ContextObject",
+      "text": "folhas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8637931034482759
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "perceber casa",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8002945122821955,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "perceptivel existe",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7972298152624243,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "existe maior facilidade",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7972298152624243,
+      "relevance": 0.9685314685314685
+    },
+    {
+      "role": "Keyword",
+      "text": "ambientes damos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7972298152624243,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "receber autografos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7969357825803264,
+      "relevance": 0.7132867132867133
+    },
+    {
+      "role": "Keyword",
+      "text": "autografos perceber",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7787462353531567,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "recebemos mais autografos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7787462353531567,
+      "relevance": 0.5541958041958042
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7196408959376112,
+      "relevance": 0.916083916083916
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7196408959376112,
+      "relevance": 0.916083916083916
+    },
+    {
+      "role": "Keyword",
+      "text": "discussao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7196408959376112,
+      "relevance": 0.7622377622377623
+    }
+  ]
+}

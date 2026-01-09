@@ -1,0 +1,53 @@
+[Documento] urn:doc:254
+  - miVector: 0.00,0.00,0.00,18.54,0.00,34.70,0.00,46.76
+  - TOP (documento): Naturalist (score=0.4676)
+  - Ranking (top 3):
+      • Naturalist: 0.4676
+      • Interpersonal: 0.3470
+      • Musical: 0.1854
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: estabeleca trocas
+        • Keyword: invente jogos
+        • Keyword: trocas invente
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6140
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: gravar naturais sons
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4264
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: conferir sons
+        • Keyword: naturais sons anotando
+        • Keyword: sons natural
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5736
+
+
+[Documento — Fragmentos] urn:doc:254
+
+[Fragmento] Preparacao: O professor procurara reunir varios gravadores e dara uma fita a cada gru- po em uma excursao. Os grupos devem se distanciar uns dos outros e gravar naturais sons anotando suas possiveis origens.
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: gravar naturais sons
+    - Ativações:
+        • score=0.4264, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: naturais sons anotando
+    - Ativações:
+        • score=0.5736, tipo=Primary
+
+[Fragmento] Utilizacao: Quando cada grupo trouxer sua fita, estabeleca trocas ce invente jogos para ao local das gravacoes e conferir os sons ao natural.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: estabeleca trocas
+        • Keyword: invente jogos
+        • Keyword: trocas invente
+    - Ativações:
+        • score=0.6140, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: conferir sons
+        • Keyword: sons natural
+    - Ativações:
+        • score=0.3860, tipo=Secondary

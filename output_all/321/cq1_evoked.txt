@@ -1,0 +1,71 @@
+[Documento] urn:doc:321
+  - miVector: 1.28,4.54,10.71,0.00,14.88,50.37,9.04,9.18
+  - TOP (documento): Interpersonal (score=0.5037)
+  - Ranking (top 3):
+      • Interpersonal: 0.5037
+      • Bodily-Kinesthetic: 0.1488
+      • Spatial: 0.1071
+
+[Fragmento] Preparacao: Reunir uma grande quantidade de figuras humanas, mais ou menos do mesmo tamanho, de revistas, e cola-las em cartolina. Cortar as cabecas forman- do um conjunto a parte.
+  - Bodily-Kinesthetic (via activation, score=0.4637)
+  - Logical-Mathematical (via activation, score=0.1440)
+  - Spatial (via activation, score=0.3923)
+  - Cinestésico-corporal (via activation, score=0.4637)
+  - Espacial-visual (via activation, score=0.3923)
+  - Lógico-matemática (via activation, score=0.1440)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] A atividade explora muito mais profundamente o auto e heteroconhecimento quando a colecao incluir pessoas diferentes e diferentes expressoes. Pecas desenhadas cumprem muito bem esses objetivos.
+  - Bodily-Kinesthetic (via activation, score=0.1309)
+  - Interpersonal (via activation, score=0.2511)
+  - Intrapersonal (via activation, score=0.3888)
+  - Naturalist (via activation, score=0.2291)
+  - Cinestésico-corporal (via activation, score=0.1309)
+  - Interpessoal (via activation, score=0.2511)
+  - Intrapessoal (via activation, score=0.3888)
+  - Naturalista (via activation, score=0.2291)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Os alunos devem ser estimulados a criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras) e buscar compor pessoas a partir da uniao das cabecas com as expressoes correspondentes ao seu corpo.
+  - Bodily-Kinesthetic (via activation, score=0.0453)
+  - Interpersonal (via activation, score=0.6148)
+  - Linguistic (via activation, score=0.0551)
+  - Logical-Mathematical (via activation, score=0.0512)
+  - Naturalist (via activation, score=0.1655)
+  - Spatial (via activation, score=0.0681)
+  - Cinestésico-corporal (via activation, score=0.0453)
+  - Espacial-visual (via activation, score=0.0681)
+  - Interpessoal (via activation, score=0.6148)
+  - Linguística (via activation, score=0.0551)
+  - Lógico-matemática (via activation, score=0.0512)
+  - Naturalista (via activation, score=0.1655)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] A atividade visa estimular a identificacao e a legitimacao das emocoes.
+  - Interpersonal (via activation, score=1.0000)
+  - Interpessoal (via activation, score=1.0000)
+  - Interpersonal (via element)
+  - Interpessoal (via element)

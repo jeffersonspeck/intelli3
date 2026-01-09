@@ -1,0 +1,112 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "inteligencia cinestesico corporal",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7937796013120264,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ambiente natural",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6612561798243991,
+      "relevance": 0.5320754716981132
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "esconder as bolinhas em um determinado terreno, camuflando-as com produtos do ambiente natural",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.679245283018868
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "distribui las pelo terreno",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7224115567132768,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "bolinhas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7208772831724879,
+      "relevance": 0.8236842105263158
+    },
+    {
+      "role": "Keyword",
+      "text": "camuflagem",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6747143879347625,
+      "relevance": 0.9342105263157895
+    },
+    {
+      "role": "Keyword",
+      "text": "camuflagens",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6095554984337808,
+      "relevance": 0.5710526315789474
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Falar aos alunos sobre a camuflagem e dar exemplo, achando uma das bolinhas.",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "bolinhas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8236842105263158
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "expressiva operatoria",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5704984447102228,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mapa",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6747143879347625,
+      "relevance": 0.9869565217391304
+    },
+    {
+      "role": "Keyword",
+      "text": "bussola",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6747143879347625,
+      "relevance": 0.9391304347826087
+    },
+    {
+      "role": "ContextObject",
+      "text": "um mapa e uma bussola",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ]
+}

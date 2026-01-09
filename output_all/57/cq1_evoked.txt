@@ -1,0 +1,45 @@
+[Documento] urn:doc:57
+  - miVector: 0.00,18.01,34.62,0.00,47.37,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4737)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4737
+      • Spatial: 0.3462
+      • Logical-Mathematical: 0.1801
+
+[Fragmento] Preparacao: O jogo utiliza tampinhas de pasta de dente (ou outras) coloridas. Utilizacao: Os alunos devem agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal.
+  - Bodily-Kinesthetic (via activation, score=0.2879)
+  - Logical-Mathematical (via activation, score=0.4600)
+  - Spatial (via activation, score=0.2521)
+  - Cinestésico-corporal (via activation, score=0.2879)
+  - Espacial-visual (via activation, score=0.2521)
+  - Lógico-matemática (via activation, score=0.4600)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] E interessante associar este jogo ao "Formas Vazadas", com os alunos colocando diferentes grupos de tampinhas em formas geometricas. As sequencias devem ser repetidas muitas vezes e e im- portante que os conceitos estejam claramente fixados para todos.
+  - Bodily-Kinesthetic (via activation, score=0.3582)
+  - Logical-Mathematical (via activation, score=0.1344)
+  - Spatial (via activation, score=0.5074)
+  - Cinestésico-corporal (via activation, score=0.3582)
+  - Espacial-visual (via activation, score=0.5074)
+  - Lógico-matemática (via activation, score=0.1344)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] (Existem no mercado jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.)
+  - Bodily-Kinesthetic (via activation, score=0.7054)
+  - Spatial (via activation, score=0.2946)
+  - Cinestésico-corporal (via activation, score=0.7054)
+  - Espacial-visual (via activation, score=0.2946)
+  - Bodily-Kinesthetic (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)

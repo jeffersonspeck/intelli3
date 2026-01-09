@@ -1,0 +1,183 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:115#evid-000-00-caixa-contendo-arames> a onto:Keyword ;
+    rdfs:label "caixa contendo arames"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:115#evid-000-01-plasticos-coloridos> a onto:Keyword ;
+    rdfs:label "plasticos coloridos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:115#evid-000-02-varias-cores> a onto:Keyword ;
+    rdfs:label "varias cores"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:115#evid-000-03-tamanhos-variaveis> a onto:Keyword ;
+    rdfs:label "tamanhos variaveis"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:115#evid-000-04-cores-tamanhos> a onto:Keyword ;
+    rdfs:label "cores tamanhos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:115#evid-000-05-arames-revestidos> a onto:Keyword ;
+    rdfs:label "arames revestidos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-000-06-preparar-arames> a onto:Keyword ;
+    rdfs:label "preparar arames"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:115#evid-000-07-preparar-arames> a onto:Keyword ;
+    rdfs:label "preparar arames"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-000-08-arames-varias> a onto:Keyword ;
+    rdfs:label "arames varias"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:115#evid-001-00-geometricas-variadas> a onto:Keyword ;
+    rdfs:label "geometricas variadas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:115#evid-001-01-reproduzir-linhas> a onto:Keyword ;
+    rdfs:label "reproduzir linhas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-001-02-linhas-desenhos> a onto:Keyword ;
+    rdfs:label "linhas desenhos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:115#evid-001-03-letras-numeros> a onto:Keyword ;
+    rdfs:label "letras numeros"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:115#evid-001-04-produzir> a onto:Keyword ;
+    rdfs:label "produzir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-001-05-produzir> a onto:Keyword ;
+    rdfs:label "produzir"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:115#evid-001-06-produzir-formas-geometricas> a onto:Keyword ;
+    rdfs:label "produzir formas geometricas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:115#evid-001-07-relaciona-las-contando-historias> a onto:Keyword ;
+    rdfs:label "relaciona las contando historias"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:115#evid-001-08-oculos> a onto:Keyword ;
+    rdfs:label "oculos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-001-09-lacos> a onto:Keyword ;
+    rdfs:label "lacos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-001-10-flores> a onto:Keyword ;
+    rdfs:label "flores"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:115#evid-001-11-flores> a onto:Keyword ;
+    rdfs:label "flores"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:115#evid-001-12-colares> a onto:Keyword ;
+    rdfs:label "colares"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:115#evid-001-13-produzir-formas-geometricas-vari> a onto:DiscursiveStrategy ;
+    rdfs:label "produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:115#evid-001-14-produzir-formas-geometricas-vari> a onto:DiscursiveStrategy ;
+    rdfs:label "produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-001-15-produzir-formas-geometricas-vari> a onto:DiscursiveStrategy ;
+    rdfs:label "produzir formas geometricas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:115#evid-002-00-montar-cidades> a onto:Keyword ;
+    rdfs:label "montar cidades"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-002-01-jogos-montar> a onto:Keyword ;
+    rdfs:label "jogos montar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-002-02-amplia-estudo> a onto:Keyword ;
+    rdfs:label "amplia estudo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:115#evid-002-03-estudo-posicoes> a onto:Keyword ;
+    rdfs:label "estudo posicoes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:115#evid-002-04-montar-cidades-e-sitios-em-minia> a onto:DiscursiveStrategy ;
+    rdfs:label "montar cidades e sitios em miniatura"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#evid-002-05-jogos-de-montar-cidades-e-sitios> a onto:ContextObject ;
+    rdfs:label "jogos de montar cidades e sitios em miniatura"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:115#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Preparar com arames revestidos de plasticos coloridos (usados como cabos eletricos) uma caixa contendo arames de varias cores em tamanhos variaveis de 10 a 30 cm."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:115> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:115#evid-000-00-caixa-contendo-arames>,
+        <urn:doc:115#evid-000-01-plasticos-coloridos>,
+        <urn:doc:115#evid-000-02-varias-cores>,
+        <urn:doc:115#evid-000-03-tamanhos-variaveis>,
+        <urn:doc:115#evid-000-04-cores-tamanhos>,
+        <urn:doc:115#evid-000-05-arames-revestidos>,
+        <urn:doc:115#evid-000-06-preparar-arames>,
+        <urn:doc:115#evid-000-07-preparar-arames>,
+        <urn:doc:115#evid-000-08-arames-varias> .
+
+<urn:doc:115#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O aluno deve ser estimulado pelo professor a produzir formas geometri- cas variadas, reproduzir linhas e desenhos, fazer letras e numeros, fazer flores, oculos, lacos, colares e uma serie de outras pecas. Deve, em etapas posteriores, relaciona-las contando historias que as envolvam."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:115> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:115#evid-001-00-geometricas-variadas>,
+        <urn:doc:115#evid-001-01-reproduzir-linhas>,
+        <urn:doc:115#evid-001-02-linhas-desenhos>,
+        <urn:doc:115#evid-001-03-letras-numeros>,
+        <urn:doc:115#evid-001-04-produzir>,
+        <urn:doc:115#evid-001-05-produzir>,
+        <urn:doc:115#evid-001-06-produzir-formas-geometricas>,
+        <urn:doc:115#evid-001-07-relaciona-las-contando-historias>,
+        <urn:doc:115#evid-001-08-oculos>,
+        <urn:doc:115#evid-001-09-lacos>,
+        <urn:doc:115#evid-001-10-flores>,
+        <urn:doc:115#evid-001-11-flores>,
+        <urn:doc:115#evid-001-12-colares>,
+        <urn:doc:115#evid-001-13-produzir-formas-geometricas-vari>,
+        <urn:doc:115#evid-001-14-produzir-formas-geometricas-vari>,
+        <urn:doc:115#evid-001-15-produzir-formas-geometricas-vari> .
+
+<urn:doc:115#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "(Existem diversos jogos de montar cidades e sitios em miniatura. Uma rosa dos ventos amplia o estudo das posicoes e de suas referencias.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:115> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:115#evid-002-00-montar-cidades>,
+        <urn:doc:115#evid-002-01-jogos-montar>,
+        <urn:doc:115#evid-002-02-amplia-estudo>,
+        <urn:doc:115#evid-002-03-estudo-posicoes>,
+        <urn:doc:115#evid-002-04-montar-cidades-e-sitios-em-minia>,
+        <urn:doc:115#evid-002-05-jogos-de-montar-cidades-e-sitios> .
+
+<urn:doc:115> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:115#frag-000>,
+        <urn:doc:115#frag-001>,
+        <urn:doc:115#frag-002> .
+

@@ -1,0 +1,23 @@
+{
+  "doc_id": "urn:doc:5",
+  "paragraphs": [
+    {
+      "k": 0,
+      "text": "Preparacao: Cartolina, lapis de cor, tesoura, cola, regua, revistas. Utilizacao: Os alunos sao divididos em dois grupos e cada um deles deve selecionar em revistas diferentes figuras dentro de uma ordem estabelecida pelo professor, colando em cartolina e recortando-as de maneira a formar pequenas cartas de baralho.",
+      "lang": "pt",
+      "is_title_or_abstract": true
+    },
+    {
+      "k": 1,
+      "text": "Iniciado o jogo, cada aluno escolhe uma de suas cartas e mostra ao gru- po adversario que tera um minuto para encontrar uma palavra que forme duas rimas com a apresentada na carta. Conseguindo, ganha um ponto e e sua vez de escolhar a carta e propor aos adversarios igual problema.",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    },
+    {
+      "k": 2,
+      "text": "O professor vai regis- trando os pontos na lousa e, em determinado momento, pode passar de duas para tres ou dois montes, um para cada grupo, propondo mais rimas. Caso pre- fira, pode selecionar as cartas e fazer a sua apresentacao. 50",
+      "lang": "pt",
+      "is_title_or_abstract": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[Documento] urn:doc:144
+  - miVector: 24.39,21.16,25.29,12.19,11.81,0.00,0.00,5.15
+  - TOP (documento): Spatial (score=0.2529)
+  - Ranking (top 3):
+      • Spatial: 0.2529
+      • Linguistic: 0.2439
+      • Logical-Mathematical: 0.2116
+
+
+[Documento — Fragmentos] urn:doc:144
+
+[Fragmento] Preparacao: Oito a dez embalagens de filmes de fotografia, pregos, pedrinhas, grampos, botoes. Formar, duas a duas, embalagens de filme com materiais diferentes. Colar uma letra ou um numero em cada uma das embalagens.
+  > TOP: Espacial-visual (score=0.6419, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos, individualmente ou em dupla, devem descobrir os conteudos das embalagens apenas pelo uso do recurso auditivo. Misturar varias embalagens e solicitar ao aluno que sacuda a embalagem e tente identificar o som produzido.
+  > TOP: Lógico-matemática (score=0.4431, tipo=Primary)
+
+[Fragmento] Procure depois em outra embalagem que identifica o mesmo som. Existem inumeras etapas para a continuidade do uso do instrumento. O professor deve criar programas diferentes e anotar os resultados obtidos pelos alunos nessas diferentes etapas.
+  > TOP: Linguística (score=0.6339, tipo=Primary)

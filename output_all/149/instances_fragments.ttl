@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:149#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo pressupoe a existencia de uma sala de aula vazia, com as carteiras desordenadas. Utilizacao: O jogo e uma disputa entre duas ou mais equipes em que o professor e eventualmente alguns alunos atuarao como arbitros."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:149> ;
+    dct:type "body" .
+
+<urn:doc:149#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "A tarefa de cada equipe e arrumar as cadeiras, no menor tempo possivel, com o menor volume de ruido causado. Vence a equipe que \"preparar\" a sala com menor ruido."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:149> ;
+    dct:type "body" .
+
+<urn:doc:149#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "E possivel desenvolver-se variacoes, como, por exemplo, a arrumacao de uma mesa e ou- tras com garrafas, pecas, campainhas e outras pecas. 141"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:149> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:149> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:149#frag-000>,
+        <urn:doc:149#frag-001>,
+        <urn:doc:149#frag-002> .
+

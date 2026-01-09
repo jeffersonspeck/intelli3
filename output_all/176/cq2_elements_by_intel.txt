@@ -1,0 +1,61 @@
+[Documento] urn:doc:176
+  - miVector: 0.00,38.26,0.00,0.00,52.35,0.00,0.00,9.39
+  - TOP (documento): Bodily-Kinesthetic (score=0.5235)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5235
+      • Logical-Mathematical: 0.3826
+      • Naturalist: 0.0939
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: pega
+        • Keyword: pegando
+        • Keyword: pegar
+        • Keyword: pegar pecas
+        • Keyword: preparar cinco saquinhos
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.6729
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • ContextObject: milho, arroz ou feijao
+        • Keyword: arroz feijao
+        • Keyword: pecas sequencia
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5914
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: pecas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2160
+
+
+[Documento — Fragmentos] urn:doc:176
+
+[Fragmento] Preparacao: Preparar cinco saquinhos de pano nao transparente e deixar um dos lados aberto. Encher os saquinhos com milho, arroz ou feijao e fechar...
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: preparar cinco saquinhos
+    - Ativações:
+        • score=0.4086, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • ContextObject: milho, arroz ou feijao
+        • Keyword: arroz feijao
+    - Ativações:
+        • score=0.5914, tipo=Primary
+
+[Fragmento] Utilizacao: Os alunos, divididos em grupo ou integrando equipes, devem pegar as pecas na sequencia de um a cinco, atirando uma para cima e pegando as da mesa. Na primeira jogada, o aluno pega uma, na segunda pega duas pecas de cada vez e assim por diante.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: pega
+        • Keyword: pegando
+        • Keyword: pegar
+        • Keyword: pegar pecas
+    - Ativações:
+        • score=0.6729, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: pecas sequencia
+    - Ativações:
+        • score=0.1111, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: pecas
+    - Ativações:
+        • score=0.2160, tipo=Secondary

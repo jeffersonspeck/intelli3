@@ -1,0 +1,99 @@
+[Documento] urn:doc:3
+  - miVector: 11.95,6.10,3.96,5.96,34.33,19.46,0.00,18.24
+  - TOP (documento): Bodily-Kinesthetic (score=0.3433)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3433
+      • Interpersonal: 0.1946
+      • Naturalist: 0.1824
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quant…
+        • Keyword: desenhar montar
+        • Keyword: montar cartolina
+        • Keyword: recortar revistas
+        • Keyword: revistas montar
+        • Keyword: teatro
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6073
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: quantidade figuras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0700
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: escolhendo personagens
+        • Keyword: estimulada colecionar
+        • Keyword: historias
+        • Keyword: propria crianca
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4476
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: descrevendo situacoes diferentes
+        • Keyword: historias
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2748
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: inventar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1404
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: descrevendo situacoes diferentes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1371
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quant…
+        • Keyword: eventualmente animais
+        • Keyword: figuras humanas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3227
+
+
+[Documento — Fragmentos] urn:doc:3
+
+[Fragmento] Preparacao: Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quantidade de figu- ras humanas, eventualmente animais, nas mais diversas situacoes.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quant…
+        • Keyword: desenhar montar
+        • Keyword: montar cartolina
+        • Keyword: recortar revistas
+        • Keyword: revistas montar
+        • Keyword: teatro
+    - Ativações:
+        • score=0.6073, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: quantidade figuras
+    - Ativações:
+        • score=0.0700, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quant…
+        • Keyword: eventualmente animais
+        • Keyword: figuras humanas
+    - Ativações:
+        • score=0.3227, tipo=Secondary
+
+[Fragmento] Utilizacao: A crianca, ou grupos de criancas, devem ser estimulados a "inventar" histo- rias, escolhendo seus personagens e descrevendo situacoes diferentes. O teatro pode ter, em etapas seguintes, um numero maior de atos e a pro- pria crianca deve ser estimulada a colecionar novos personagens. 49
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: escolhendo personagens
+        • Keyword: estimulada colecionar
+        • Keyword: historias
+        • Keyword: propria crianca
+    - Ativações:
+        • score=0.4476, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: descrevendo situacoes diferentes
+        • Keyword: historias
+    - Ativações:
+        • score=0.2748, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: inventar
+    - Ativações:
+        • score=0.1404, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: descrevendo situacoes diferentes
+    - Ativações:
+        • score=0.1371, tipo=Secondary

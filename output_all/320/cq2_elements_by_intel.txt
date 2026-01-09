@@ -1,0 +1,148 @@
+[Documento] urn:doc:320
+  - miVector: 0.00,10.62,4.52,0.00,17.37,18.30,29.05,20.14
+  - TOP (documento): Intrapersonal (score=0.2905)
+  - Ranking (top 3):
+      • Intrapersonal: 0.2905
+      • Naturalist: 0.2014
+      • Interpersonal: 0.1830
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: circulos
+        • Keyword: bocas caras
+        • Keyword: circulos olhos
+        • Keyword: desenhar
+        • Keyword: desenhar circulos
+        • Keyword: lapis
+        • Keyword: nariz
+        • Keyword: orelhas
+        • Keyword: rosto luciana
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4374
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: circulos folhas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1147
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: sentimentos
+        • DiscursiveStrategy: faze-lo segundo estados de animo das pessoas, relatados pelo professor
+        • DiscursiveStrategy: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras
+        • Keyword: animo pessoas
+        • Keyword: estados animo
+        • Keyword: perceber proprias
+        • Keyword: pessoas
+        • Keyword: proprias emocoes
+        • Keyword: sentimentos
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3893
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: sentimentos
+        • DiscursiveStrategy: faze-lo segundo estados de animo das pessoas, relatados pelo professor
+        • DiscursiveStrategy: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras
+        • Keyword: animo pessoas
+        • Keyword: estados animo
+        • Keyword: leituras
+        • Keyword: luciana perdeu
+        • Keyword: objetivo essencial
+        • Keyword: perceber
+        • Keyword: perceber proprias
+        • Keyword: perdeu amigo
+        • Keyword: proprias emocoes
+        • Keyword: sentimentos
+        • Keyword: triste
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.6107
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: circulos folhas
+        • Keyword: desenhar circulos
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2696
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: folhas de papel sulfite
+        • Keyword: circulos folhas
+        • Keyword: folhas papel
+        • Keyword: papel sulfite
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5112
+
+
+[Documento — Fragmentos] urn:doc:320
+
+[Fragmento] Preparacao: Desenhar circulos em folhas de papel sulfite e deixar aos alunos lapis, lapis de cera ou canetas hidrocor.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: lapis
+    - Ativações:
+        • score=0.1045, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: circulos folhas
+    - Ativações:
+        • score=0.1147, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: circulos folhas
+        • Keyword: desenhar circulos
+    - Ativações:
+        • score=0.2696, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: folhas de papel sulfite
+        • Keyword: circulos folhas
+        • Keyword: folhas papel
+        • Keyword: papel sulfite
+    - Ativações:
+        • score=0.5112, tipo=Primary
+
+[Fragmento] Utilizacao: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras, mas faze-lo segundo estados de animo das pessoas, relatados pelo profes- sor (por exemplo: Luciana perdeu um amigo e esta triste, como seria o rosto de Luciana?), c muitas outras situacoes analogas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: circulos
+        • Keyword: bocas caras
+        • Keyword: circulos olhos
+        • Keyword: desenhar
+        • Keyword: desenhar circulos
+        • Keyword: nariz
+        • Keyword: orelhas
+        • Keyword: rosto luciana
+    - Ativações:
+        • score=0.4374, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: faze-lo segundo estados de animo das pessoas, relatados pelo professor
+        • DiscursiveStrategy: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras
+        • Keyword: animo pessoas
+        • Keyword: estados animo
+    - Ativações:
+        • score=0.2147, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • DiscursiveStrategy: faze-lo segundo estados de animo das pessoas, relatados pelo professor
+        • DiscursiveStrategy: Os alunos devem desenhar nos circulos os olhos, o nariz, as orelhas e as bocas nas caras
+        • Keyword: animo pessoas
+        • Keyword: estados animo
+        • Keyword: luciana perdeu
+        • Keyword: perdeu amigo
+        • Keyword: triste
+    - Ativações:
+        • score=0.3479, tipo=Secondary
+
+[Fragmento] O objetivo essencial da atividade e levar o aluno a perceber suas proprias emocoes e poder, progressivamente, fazer "leituras" de sentimentos em si mesmo e em outras pessoas. Tr cd E da dk : mm J =. E E a =
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: sentimentos
+        • Keyword: perceber proprias
+        • Keyword: pessoas
+        • Keyword: proprias emocoes
+        • Keyword: sentimentos
+    - Ativações:
+        • score=0.3893, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: sentimentos
+        • Keyword: leituras
+        • Keyword: objetivo essencial
+        • Keyword: perceber
+        • Keyword: perceber proprias
+        • Keyword: proprias emocoes
+        • Keyword: sentimentos
+    - Ativações:
+        • score=0.6107, tipo=Primary

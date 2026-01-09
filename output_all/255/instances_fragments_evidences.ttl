@@ -1,0 +1,148 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:255#evid-000-00-possam-descobri> a onto:Keyword ;
+    rdfs:label "possam descobri"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-000-01-invente> a onto:Keyword ;
+    rdfs:label "invente"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:255#evid-000-02-invente> a onto:Keyword ;
+    rdfs:label "invente"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:255#evid-000-03-monstro> a onto:Keyword ;
+    rdfs:label "monstro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-000-04-cacada> a onto:Keyword ;
+    rdfs:label "cacada"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:255#evid-000-05-estimule> a onto:Keyword ;
+    rdfs:label "estimule"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:255#evid-000-06-pistas> a onto:Keyword ;
+    rdfs:label "pistas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-000-07-contar> a onto:Keyword ;
+    rdfs:label "contar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:255#evid-000-08-descobri-lo> a onto:DiscursiveStrategy ;
+    rdfs:label "descobri-lo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-000-09-monstro> a onto:ContextObject ;
+    rdfs:label "monstro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-001-00-planta-exotica> a onto:Keyword ;
+    rdfs:label "planta exotica"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-001-01-procurar-encontra> a onto:Keyword ;
+    rdfs:label "procurar encontra"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:255#evid-001-02-procurar-encontra> a onto:Keyword ;
+    rdfs:label "procurar encontra"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:255#evid-001-03-monstro> a onto:Keyword ;
+    rdfs:label "monstro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-001-04-arvore> a onto:Keyword ;
+    rdfs:label "arvore"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-001-05-procurar-encontra-lo> a onto:DiscursiveStrategy ;
+    rdfs:label "procurar encontra-lo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:255#evid-001-06-procurar-encontra-lo> a onto:DiscursiveStrategy ;
+    rdfs:label "procurar encontra-lo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:255#evid-001-07-monstro> a onto:ContextObject ;
+    rdfs:label "monstro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-002-00-muitas-informacoes-naturais> a onto:Keyword ;
+    rdfs:label "muitas informacoes naturais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-002-01-agucem-audicao> a onto:Keyword ;
+    rdfs:label "agucem audicao"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:255#evid-002-02-sensibilidade-olfativa> a onto:Keyword ;
+    rdfs:label "sensibilidade olfativa"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-002-03-naturais-agucem> a onto:Keyword ;
+    rdfs:label "naturais agucem"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:255#evid-002-04-varias-sugestoes> a onto:Keyword ;
+    rdfs:label "varias sugestoes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:255#evid-002-05-espirito-brincadeira> a onto:Keyword ;
+    rdfs:label "espirito brincadeira"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:255#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: E indispensavel que o professor \"invente\" um \"monstro\" e que estimule seus alunos para essa cacada. Deve contar, com entusiasmo, uma historia e dar algumas \"pistas\" para que os alunos possam descobri-lo."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:255> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:255#evid-000-00-possam-descobri>,
+        <urn:doc:255#evid-000-01-invente>,
+        <urn:doc:255#evid-000-02-invente>,
+        <urn:doc:255#evid-000-03-monstro>,
+        <urn:doc:255#evid-000-04-cacada>,
+        <urn:doc:255#evid-000-05-estimule>,
+        <urn:doc:255#evid-000-06-pistas>,
+        <urn:doc:255#evid-000-07-contar>,
+        <urn:doc:255#evid-000-08-descobri-lo>,
+        <urn:doc:255#evid-000-09-monstro> .
+
+<urn:doc:255#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Considerando que \"monstro\" e um ser de conformacao extravagante, uma grande arvore, ou uma planta exotica pode ser o monstro. Os alunos nao devem saber quem e o monstro c nem onde fica, mas atraves de algumas pistas sugeridas pelo professor deverao procurar encontra-lo."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:255> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:255#evid-001-00-planta-exotica>,
+        <urn:doc:255#evid-001-01-procurar-encontra>,
+        <urn:doc:255#evid-001-02-procurar-encontra>,
+        <urn:doc:255#evid-001-03-monstro>,
+        <urn:doc:255#evid-001-04-arvore>,
+        <urn:doc:255#evid-001-05-procurar-encontra-lo>,
+        <urn:doc:255#evid-001-06-procurar-encontra-lo>,
+        <urn:doc:255#evid-001-07-monstro> .
+
+<urn:doc:255#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Essas pistas devem ser explicadas com muitas informacoes naturais que agucem a audicao, a sensibilidade olfativa e curio- sidade dos alunos. O professor devera manter durante todo o tempo o espirito da brincadeira, oferecendo aos alunos varias sugestoes. 203"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:255> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:255#evid-002-00-muitas-informacoes-naturais>,
+        <urn:doc:255#evid-002-01-agucem-audicao>,
+        <urn:doc:255#evid-002-02-sensibilidade-olfativa>,
+        <urn:doc:255#evid-002-03-naturais-agucem>,
+        <urn:doc:255#evid-002-04-varias-sugestoes>,
+        <urn:doc:255#evid-002-05-espirito-brincadeira> .
+
+<urn:doc:255> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:255#frag-000>,
+        <urn:doc:255#frag-001>,
+        <urn:doc:255#frag-002> .
+

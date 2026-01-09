@@ -1,0 +1,185 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:173#evid-000-00-fitas-adesivas-coloridas> a onto:Keyword ;
+    rdfs:label "fitas adesivas coloridas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:173#evid-000-01-confecciona> a onto:Keyword ;
+    rdfs:label "confecciona"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:173#evid-000-02-confecciona-jogo> a onto:Keyword ;
+    rdfs:label "confecciona jogo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:173#evid-000-03-confecciona-jogo> a onto:Keyword ;
+    rdfs:label "confecciona jogo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:173#evid-000-04-colantes-fitas> a onto:Keyword ;
+    rdfs:label "colantes fitas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:173#evid-000-05-garrafas-plasticas-descartaveis-> a onto:ContextObject ;
+    rdfs:label "garrafas plasticas descartaveis, cordao, argolas e fitas colantes ou fitas adesivas coloridas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:173#evid-001-00-juntar-partes-iguais> a onto:Keyword ;
+    rdfs:label "juntar partes iguais"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-001-01-passar-dois-fios> a onto:Keyword ;
+    rdfs:label "passar dois fios"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-001-02-argolas-extremidades> a onto:Keyword ;
+    rdfs:label "argolas extremidades"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-001-03-colocar-argolas> a onto:Keyword ;
+    rdfs:label "colocar argolas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-001-04-cortar-duas-garrafas> a onto:Keyword ;
+    rdfs:label "cortar duas garrafas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-001-05-metros-comprimento> a onto:Keyword ;
+    rdfs:label "metros comprimento"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:173#evid-001-06-comprimento-colocar> a onto:Keyword ;
+    rdfs:label "comprimento colocar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:173#evid-001-07-colar> a onto:Keyword ;
+    rdfs:label "colar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-001-08-cortar-duas-garrafas-ao-meio-jun> a onto:DiscursiveStrategy ;
+    rdfs:label "cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colorida, passar dois fios de cerca de tres metros de comp…"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:173#evid-001-09-cortar-duas-garrafas-ao-meio-jun> a onto:DiscursiveStrategy ;
+    rdfs:label "cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colorida, passar dois fios de cerca de tres metros de comp…"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-002-00-peca-permite-jogo> a onto:Keyword ;
+    rdfs:label "peca permite jogo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-002-01-jogo-duplas> a onto:Keyword ;
+    rdfs:label "jogo duplas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:173#evid-002-02-abrindo-bracos> a onto:Keyword ;
+    rdfs:label "abrindo bracos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-002-03-abrindo-bracos> a onto:Keyword ;
+    rdfs:label "abrindo bracos"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:173#evid-002-04-repete-operacao> a onto:Keyword ;
+    rdfs:label "repete operacao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:173#evid-002-05-extremidades-cordao> a onto:Keyword ;
+    rdfs:label "extremidades cordao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-002-06-bracos-arremessando> a onto:Keyword ;
+    rdfs:label "bracos arremessando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-002-07-bracos-arremessando> a onto:Keyword ;
+    rdfs:label "bracos arremessando"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:173#evid-002-08-arremessando-objeto> a onto:Keyword ;
+    rdfs:label "arremessando objeto"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:173#evid-002-09-impulso> a onto:Keyword ;
+    rdfs:label "impulso"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:173#evid-002-10-sucessivamente> a onto:Keyword ;
+    rdfs:label "sucessivamente"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:173#evid-003-00-errar> a onto:Keyword ;
+    rdfs:label "errar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:173#evid-003-01-sai-do-jogo-entrando-outro-parti> a onto:DiscursiveStrategy ;
+    rdfs:label "sai do jogo, entrando outro participante"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:173#evid-003-02-jogo> a onto:ContextObject ;
+    rdfs:label "jogo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:173#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O professor confecciona o jogo com garrafas plasticas descartaveis, cordao, argolas e fitas colantes ou fitas adesivas coloridas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:173> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:173#evid-000-00-fitas-adesivas-coloridas>,
+        <urn:doc:173#evid-000-01-confecciona>,
+        <urn:doc:173#evid-000-02-confecciona-jogo>,
+        <urn:doc:173#evid-000-03-confecciona-jogo>,
+        <urn:doc:173#evid-000-04-colantes-fitas>,
+        <urn:doc:173#evid-000-05-garrafas-plasticas-descartaveis-> .
+
+<urn:doc:173#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Deve cortar duas garrafas ao meio, juntar partes iguais, colar essas partes com fita adesiva ou colante colori- da, passar dois fios de cerca de tres metros de comprimento e colocar argolas nas extremidades."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:173> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:173#evid-001-00-juntar-partes-iguais>,
+        <urn:doc:173#evid-001-01-passar-dois-fios>,
+        <urn:doc:173#evid-001-02-argolas-extremidades>,
+        <urn:doc:173#evid-001-03-colocar-argolas>,
+        <urn:doc:173#evid-001-04-cortar-duas-garrafas>,
+        <urn:doc:173#evid-001-05-metros-comprimento>,
+        <urn:doc:173#evid-001-06-comprimento-colocar>,
+        <urn:doc:173#evid-001-07-colar>,
+        <urn:doc:173#evid-001-08-cortar-duas-garrafas-ao-meio-jun>,
+        <urn:doc:173#evid-001-09-cortar-duas-garrafas-ao-meio-jun> .
+
+<urn:doc:173#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: A peca permite jogo em duplas, em que cada aluno segura uma das extremidades do cordao e da um impulso, abrindo os bracos e arremessando o objeto para outro, que repete a operacao, e assim sucessivamente, ate que um dos alunos cometa um erro."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:173> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:173#evid-002-00-peca-permite-jogo>,
+        <urn:doc:173#evid-002-01-jogo-duplas>,
+        <urn:doc:173#evid-002-02-abrindo-bracos>,
+        <urn:doc:173#evid-002-03-abrindo-bracos>,
+        <urn:doc:173#evid-002-04-repete-operacao>,
+        <urn:doc:173#evid-002-05-extremidades-cordao>,
+        <urn:doc:173#evid-002-06-bracos-arremessando>,
+        <urn:doc:173#evid-002-07-bracos-arremessando>,
+        <urn:doc:173#evid-002-08-arremessando-objeto>,
+        <urn:doc:173#evid-002-09-impulso>,
+        <urn:doc:173#evid-002-10-sucessivamente> .
+
+<urn:doc:173#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Ao errar, sai do jogo, entrando outro participante."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:173> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:173#evid-003-00-errar>,
+        <urn:doc:173#evid-003-01-sai-do-jogo-entrando-outro-parti>,
+        <urn:doc:173#evid-003-02-jogo> .
+
+<urn:doc:173> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:173#frag-000>,
+        <urn:doc:173#frag-001>,
+        <urn:doc:173#frag-002>,
+        <urn:doc:173#frag-003> .
+

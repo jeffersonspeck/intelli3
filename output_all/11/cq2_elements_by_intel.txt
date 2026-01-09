@@ -1,0 +1,103 @@
+[Documento] urn:doc:11
+  - miVector: 9.78,37.43,12.35,0.00,0.00,10.04,0.00,30.40
+  - TOP (documento): Logical-Mathematical (score=0.3743)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3743
+      • Naturalist: 0.3040
+      • Spatial: 0.1235
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: frente frente
+        • Keyword: sentados frente
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.4077
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo
+        • Keyword: desenvolver argumento
+        • Keyword: entremcando perguntas
+        • Keyword: participante desenvolver
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3313
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo
+        • Keyword: desenvolver argumento
+        • Keyword: entremcando perguntas
+        • Keyword: falar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3226
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Alunos divididos em duplas, sentados frente a frente. Um aluno encarregado de cronometrar o debate.
+        • DiscursiveStrategy: ganha ponto um dos oponentes, ou os dois
+        • Keyword: debate
+        • Keyword: ganha
+        • Keyword: raciocinio
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5923
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: tempo
+        • ContextObject: tempo estabelecido (20 a 30 segundos)
+        • DiscursiveStrategy: desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo
+        • Keyword: apos tempo
+        • Keyword: marcacao tempo
+        • Keyword: mesmo tempo
+        • Keyword: tempo estabelecido
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.5054
+
+
+[Documento — Fragmentos] urn:doc:11
+
+[Fragmento] Preparacao: Alunos divididos em duplas, sentados frente a frente. Um aluno encarrega- do de cronometrar o debate. Utilizacao: O professor deve determinar os dois assuntos do debate, um para cada alu- no.
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: frente frente
+        • Keyword: sentados frente
+    - Ativações:
+        • score=0.4077, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: Alunos divididos em duplas, sentados frente a frente. Um aluno encarregado de cronometrar o debate.
+        • Keyword: debate
+    - Ativações:
+        • score=0.5923, tipo=Primary
+
+[Fragmento] Iniciada a marcacao do tempo, cada participante deve desenvolver seu argu- mento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo e o objetivo de cada aluno e manter a linha de raciocinio de seu tema, atrapalhando o colega.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo
+        • Keyword: desenvolver argumento
+        • Keyword: entremcando perguntas
+        • Keyword: participante desenvolver
+    - Ativações:
+        • score=0.3313, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo
+        • Keyword: desenvolver argumento
+        • Keyword: entremcando perguntas
+        • Keyword: falar
+    - Ativações:
+        • score=0.3226, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: tempo
+        • DiscursiveStrategy: desenvolver seu argumento, entremcando-o de perguntas feitas ao oponente. Devem falar ao mesmo tempo
+        • Keyword: marcacao tempo
+        • Keyword: mesmo tempo
+    - Ativações:
+        • score=0.3461, tipo=Primary
+
+[Fragmento] Ganha ponto um dos oponentes, ou os dois, apos o tem- po estabelecido (20 a 30 segundos) que nao "perder o fio" de seu raciocinio.
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: ganha ponto um dos oponentes, ou os dois
+        • Keyword: ganha
+        • Keyword: raciocinio
+    - Ativações:
+        • score=0.4946, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: tempo estabelecido (20 a 30 segundos)
+        • Keyword: apos tempo
+        • Keyword: tempo estabelecido
+    - Ativações:
+        • score=0.5054, tipo=Primary

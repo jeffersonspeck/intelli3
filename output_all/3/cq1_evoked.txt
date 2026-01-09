@@ -1,0 +1,39 @@
+[Documento] urn:doc:3
+  - miVector: 11.95,6.10,3.96,5.96,34.33,19.46,0.00,18.24
+  - TOP (documento): Bodily-Kinesthetic (score=0.3433)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3433
+      • Interpersonal: 0.1946
+      • Naturalist: 0.1824
+
+[Fragmento] Preparacao: Desenhar ou montar em cartolina o palco de um teatro, com muita cor, cortinas e outros elementos. Recortar de revistas e montar em cartolina uma grande quantidade de figu- ras humanas, eventualmente animais, nas mais diversas situacoes.
+  - Bodily-Kinesthetic (via activation, score=0.6073)
+  - Naturalist (via activation, score=0.3227)
+  - Spatial (via activation, score=0.0700)
+  - Cinestésico-corporal (via activation, score=0.6073)
+  - Espacial-visual (via activation, score=0.0700)
+  - Naturalista (via activation, score=0.3227)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: A crianca, ou grupos de criancas, devem ser estimulados a "inventar" histo- rias, escolhendo seus personagens e descrevendo situacoes diferentes. O teatro pode ter, em etapas seguintes, um numero maior de atos e a pro- pria crianca deve ser estimulada a colecionar novos personagens. 49
+  - Interpersonal (via activation, score=0.4476)
+  - Linguistic (via activation, score=0.2748)
+  - Logical-Mathematical (via activation, score=0.1404)
+  - Musical (via activation, score=0.1371)
+  - Interpessoal (via activation, score=0.4476)
+  - Linguística (via activation, score=0.2748)
+  - Lógico-matemática (via activation, score=0.1404)
+  - Musical (via activation, score=0.1371)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)

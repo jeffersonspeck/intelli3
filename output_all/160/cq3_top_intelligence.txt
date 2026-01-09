@@ -1,0 +1,16 @@
+[Documento] urn:doc:160
+  - miVector: 6.38,0.00,0.00,25.94,25.87,0.00,0.00,41.81
+  - TOP (documento): Naturalist (score=0.4181)
+  - Ranking (top 3):
+      • Naturalist: 0.4181
+      • Musical: 0.2594
+      • Bodily-Kinesthetic: 0.2587
+
+
+[Documento — Fragmentos] urn:doc:160
+
+[Fragmento] Utilizacao: Mostrar aos alunos o compasso existente no tique-taque de um desperta- dor, nas batidas de uma construcao ou do deslocamento de um trem. Procurar mostrar esse compasso com uma sineta, imitando com a mesma o tique-taque do relogio e outros compassos.
+  > TOP: Naturalista (score=0.4405, tipo=Primary)
+
+[Fragmento] Solicitar aos alunos que imitem com a sineta esses compassos. (Existem sinetas em casas de comercio.) 147
+  > TOP: Cinestésico-corporal (score=0.4577, tipo=Primary)

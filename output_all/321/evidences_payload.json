@@ -1,0 +1,218 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "figuras humanas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5704984447102228,
+      "relevance": 0.9036144578313253
+    },
+    {
+      "role": "Keyword",
+      "text": "cola las cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7899209234449238,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "quantidade figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cortar cabecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6860013772947977,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "formando conjunto",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.4582179522233774,
+      "relevance": 0.75
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "diferentes expressoes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5599005307865689,
+      "relevance": 0.6917098445595855
+    },
+    {
+      "role": "Keyword",
+      "text": "explora",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7667840171163562,
+      "relevance": 0.9689119170984456
+    },
+    {
+      "role": "Keyword",
+      "text": "profundamente auto",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7667840171163562,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "auto heteroconhecimento",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7667840171163562,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "colecao incluir pessoas diferentes e diferentes expressoes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.7875647668393783
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "envolvam emocoes diferenciadas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8079591951664962,
+      "relevance": 0.8875
+    },
+    {
+      "role": "Keyword",
+      "text": "buscar compor pessoas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8065686800181532,
+      "relevance": 0.70625
+    },
+    {
+      "role": "Keyword",
+      "text": "buscar compor pessoas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.8065686800181532,
+      "relevance": 0.70625
+    },
+    {
+      "role": "Keyword",
+      "text": "criar situacoes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.9291666666666667
+    },
+    {
+      "role": "Keyword",
+      "text": "expressoes correspondentes",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.5833333333333333
+    },
+    {
+      "role": "Keyword",
+      "text": "situacoes envolvam",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "uniao cabecas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5703374137860785,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "alegria",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7751849131059125,
+      "relevance": 0.8208333333333333
+    },
+    {
+      "role": "Keyword",
+      "text": "raiva",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7751849131059125,
+      "relevance": 0.8020833333333334
+    },
+    {
+      "role": "Keyword",
+      "text": "frustracao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7751849131059125,
+      "relevance": 0.7875
+    },
+    {
+      "role": "Keyword",
+      "text": "euforia",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7751849131059125,
+      "relevance": 0.7625
+    },
+    {
+      "role": "Keyword",
+      "text": "corpo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7392666354542629,
+      "relevance": 0.5125
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "criar situacoes que envolvam emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras)",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9291666666666667
+    },
+    {
+      "role": "ContextObject",
+      "text": "emocoes diferenciadas (alegria, raiva, frustracao, euforia, magoa e outras)",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.86875
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "legitimacao emocoes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "identificacao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.795774647887324
+    }
+  ]
+}

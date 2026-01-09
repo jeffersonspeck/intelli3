@@ -1,0 +1,215 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:332#evid-000-00-anotar> a onto:Keyword ;
+    rdfs:label "anotar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-000-01-folha-papel> a onto:Keyword ;
+    rdfs:label "folha papel"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-000-02-anotar-alto> a onto:Keyword ;
+    rdfs:label "anotar alto"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-000-03-folha-de-papel-em-branco> a onto:ContextObject ;
+    rdfs:label "folha de papel em branco"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:332#evid-000-04-folha-de-papel-em-branco> a onto:ContextObject ;
+    rdfs:label "folha de papel em branco"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-001-00-conquistar> a onto:Keyword ;
+    rdfs:label "conquistar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:332#evid-001-01-colegas-assimem> a onto:Keyword ;
+    rdfs:label "colegas assimem"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-001-02-espaco-tempo> a onto:Keyword ;
+    rdfs:label "espaco tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-001-03-folha> a onto:Keyword ;
+    rdfs:label "folha"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-001-04-participantes> a onto:Keyword ;
+    rdfs:label "participantes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-001-05-pedindo> a onto:Keyword ;
+    rdfs:label "pedindo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-001-06-conquistar-em-sua-folha-em-um-es> a onto:DiscursiveStrategy ;
+    rdfs:label "conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:332#evid-001-07-conquistar-em-sua-folha-em-um-es> a onto:DiscursiveStrategy ;
+    rdfs:label "conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-001-08-folha> a onto:ContextObject ;
+    rdfs:label "folha"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-002-00-folhas-maos> a onto:Keyword ;
+    rdfs:label "folhas maos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-002-01-inicia> a onto:Keyword ;
+    rdfs:label "inicia"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:332#evid-002-02-encerra> a onto:Keyword ;
+    rdfs:label "encerra"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:332#evid-002-03-autografos> a onto:Keyword ;
+    rdfs:label "autografos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:332#evid-002-04-autografos> a onto:Keyword ;
+    rdfs:label "autografos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-002-05-termina> a onto:Keyword ;
+    rdfs:label "termina"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:332#evid-002-06-tempo-estabelecido> a onto:Keyword ;
+    rdfs:label "tempo estabelecido"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-002-07-passado-tempo> a onto:Keyword ;
+    rdfs:label "passado tempo"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-002-08-autografos-obtidos> a onto:Keyword ;
+    rdfs:label "autografos obtidos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:332#evid-002-09-autografos-deram> a onto:Keyword ;
+    rdfs:label "autografos deram"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:332#evid-002-10-solicita> a onto:Keyword ;
+    rdfs:label "solicita"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:332#evid-002-11-folhas> a onto:ContextObject ;
+    rdfs:label "folhas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-003-00-perceber-casa> a onto:Keyword ;
+    rdfs:label "perceber casa"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-003-01-perceptivel-existe> a onto:Keyword ;
+    rdfs:label "perceptivel existe"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-003-02-existe-maior-facilidade> a onto:Keyword ;
+    rdfs:label "existe maior facilidade"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:332#evid-003-03-ambientes-damos> a onto:Keyword ;
+    rdfs:label "ambientes damos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:332#evid-003-04-receber-autografos> a onto:Keyword ;
+    rdfs:label "receber autografos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-003-05-autografos-perceber> a onto:Keyword ;
+    rdfs:label "autografos perceber"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-003-06-recebemos-mais-autografos> a onto:Keyword ;
+    rdfs:label "recebemos mais autografos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#evid-003-07-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:332#evid-003-08-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:332#evid-003-09-discussao> a onto:Keyword ;
+    rdfs:label "discussao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:332#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma folha de papel em branco distribuida a cada aluno, que devera anotar ao alto e com letra de forma o seu nome. Lapis ou caneta para todos os participantes."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:332> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:332#evid-000-00-anotar>,
+        <urn:doc:332#evid-000-01-folha-papel>,
+        <urn:doc:332#evid-000-02-anotar-alto>,
+        <urn:doc:332#evid-000-03-folha-de-papel-em-branco>,
+        <urn:doc:332#evid-000-04-folha-de-papel-em-branco> .
+
+<urn:doc:332#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos deverao conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes, pedindo que os colegas assimem seus nomes, de forma legivel, em sua folha."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:332> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:332#evid-001-00-conquistar>,
+        <urn:doc:332#evid-001-01-colegas-assimem>,
+        <urn:doc:332#evid-001-02-espaco-tempo>,
+        <urn:doc:332#evid-001-03-folha>,
+        <urn:doc:332#evid-001-04-participantes>,
+        <urn:doc:332#evid-001-05-pedindo>,
+        <urn:doc:332#evid-001-06-conquistar-em-sua-folha-em-um-es>,
+        <urn:doc:332#evid-001-07-conquistar-em-sua-folha-em-um-es>,
+        <urn:doc:332#evid-001-08-folha> .
+
+<urn:doc:332#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Inicia a atividade, lembrando que ao termina-la todos os alunos devem ter suas folhas em maos. Passado o tempo esta- belecido, encerra a atividade e solicita aos alunos que contem os autografos obtidos. Indaga a alguns alunos quantos autografos obtiveram e a outros, quantos autografos deram."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:332> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:332#evid-002-00-folhas-maos>,
+        <urn:doc:332#evid-002-01-inicia>,
+        <urn:doc:332#evid-002-02-encerra>,
+        <urn:doc:332#evid-002-03-autografos>,
+        <urn:doc:332#evid-002-04-autografos>,
+        <urn:doc:332#evid-002-05-termina>,
+        <urn:doc:332#evid-002-06-tempo-estabelecido>,
+        <urn:doc:332#evid-002-07-passado-tempo>,
+        <urn:doc:332#evid-002-08-autografos-obtidos>,
+        <urn:doc:332#evid-002-09-autografos-deram>,
+        <urn:doc:332#evid-002-10-solicita>,
+        <urn:doc:332#evid-002-11-folhas> .
+
+<urn:doc:332#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "E perceptivel que existe maior facilidade em se identificar as \"conquistas\" que as \"ofertas\" e essa situacao cria alternativas para uma discussao final sobre dar e receber autografos e perceber em casa, na escola e em outros ambientes se damos mais ou se recebemos mais autografos. 2517"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:332> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:332#evid-003-00-perceber-casa>,
+        <urn:doc:332#evid-003-01-perceptivel-existe>,
+        <urn:doc:332#evid-003-02-existe-maior-facilidade>,
+        <urn:doc:332#evid-003-03-ambientes-damos>,
+        <urn:doc:332#evid-003-04-receber-autografos>,
+        <urn:doc:332#evid-003-05-autografos-perceber>,
+        <urn:doc:332#evid-003-06-recebemos-mais-autografos>,
+        <urn:doc:332#evid-003-07-identificar>,
+        <urn:doc:332#evid-003-08-identificar>,
+        <urn:doc:332#evid-003-09-discussao> .
+
+<urn:doc:332> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:332#frag-000>,
+        <urn:doc:332#frag-001>,
+        <urn:doc:332#frag-002>,
+        <urn:doc:332#frag-003> .
+

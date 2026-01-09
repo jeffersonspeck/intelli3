@@ -1,0 +1,19 @@
+[Documento] urn:doc:257
+  - miVector: 9.91,11.60,2.18,6.61,40.44,10.08,0.00,19.17
+  - TOP (documento): Bodily-Kinesthetic (score=0.4044)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4044
+      • Naturalist: 0.1917
+      • Logical-Mathematical: 0.1160
+
+
+[Documento — Fragmentos] urn:doc:257
+
+[Fragmento] preparacao: Essa atividade e realizada a noite e, portanto, possivel se os alunos forem con- vidados a trazer seus sacos de dormir ou colchonetes e passar uma noite na escola. Em uma excursao a atividade e tambem possivel.
+  > TOP: Cinestésico-corporal (score=0.7986, tipo=Primary)
+
+[Fragmento] Utilizacao: O professor devera estimular os alunos a observar estrelas e desenhar constela- coes, reunindo-se depois para descreve-las. Os alunos nao precisam se preocupar em desenhar ou descrever as constelacoes como se encontram no ceu.
+  > TOP: Naturalista (score=0.4004, tipo=Primary)
+
+[Fragmento] O professor pode recriar a ideia dos astronomos do passado, levando seus alunos a inventar "no- vas constelacoes". A noite tambem oferece interessante oportunidade para a identi- ficacao dos pontos cardeais a partir da lua ou das estrelas. 204
+  > TOP: Naturalista (score=0.2322, tipo=Primary)

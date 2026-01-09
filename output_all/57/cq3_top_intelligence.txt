@@ -1,0 +1,19 @@
+[Documento] urn:doc:57
+  - miVector: 0.00,18.01,34.62,0.00,47.37,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4737)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4737
+      • Spatial: 0.3462
+      • Logical-Mathematical: 0.1801
+
+
+[Documento — Fragmentos] urn:doc:57
+
+[Fragmento] Preparacao: O jogo utiliza tampinhas de pasta de dente (ou outras) coloridas. Utilizacao: Os alunos devem agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal.
+  > TOP: Lógico-matemática (score=0.4600, tipo=Primary)
+
+[Fragmento] E interessante associar este jogo ao "Formas Vazadas", com os alunos colocando diferentes grupos de tampinhas em formas geometricas. As sequencias devem ser repetidas muitas vezes e e im- portante que os conceitos estejam claramente fixados para todos.
+  > TOP: Espacial-visual (score=0.5074, tipo=Primary)
+
+[Fragmento] (Existem no mercado jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.)
+  > TOP: Cinestésico-corporal (score=0.7054, tipo=Primary)

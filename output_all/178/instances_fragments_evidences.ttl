@@ -1,0 +1,116 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:178#evid-000-00-tamanhos-diferentes> a onto:Keyword ;
+    rdfs:label "tamanhos diferentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:178#evid-000-01-aparar-bolas-arremessadas> a onto:Keyword ;
+    rdfs:label "aparar bolas arremessadas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:178#evid-000-02-aparar-bola-usando> a onto:Keyword ;
+    rdfs:label "aparar bola usando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:178#evid-000-03-bolas-arremessando> a onto:Keyword ;
+    rdfs:label "bolas arremessando"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:178#evid-000-04-obedecer-regras> a onto:Keyword ;
+    rdfs:label "obedecer regras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:178#evid-000-05-perceber-claramente> a onto:Keyword ;
+    rdfs:label "perceber claramente"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:178#evid-000-06-perceber-claramente> a onto:Keyword ;
+    rdfs:label "perceber claramente"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:178#evid-000-07-aprender> a onto:Keyword ;
+    rdfs:label "aprender"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:178#evid-000-08-aprender-obedecer> a onto:Keyword ;
+    rdfs:label "aprender obedecer"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:178#evid-000-09-regras-perceber> a onto:Keyword ;
+    rdfs:label "regras perceber"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:178#evid-000-10-estimulado-usar> a onto:Keyword ;
+    rdfs:label "estimulado usar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:178#evid-000-11-estimulado-usar> a onto:Keyword ;
+    rdfs:label "estimulado usar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:178#evid-000-12-esquerda> a onto:Keyword ;
+    rdfs:label "esquerda"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:178#evid-000-13-bolas-de-borracha-de-cinco-a-sei> a onto:ContextObject ;
+    rdfs:label "bolas de borracha de cinco a seis tamanhos diferentes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:178#evid-001-00-treinar-lateralidade> a onto:Keyword ;
+    rdfs:label "treinar lateralidade"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:178#evid-001-01-uso-pes> a onto:Keyword ;
+    rdfs:label "uso pes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:178#evid-001-02-treinar-a-lateralidade-com-o-uso> a onto:DiscursiveStrategy ;
+    rdfs:label "treinar a lateralidade com o uso dos pes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:178#evid-001-03-treinar-a-lateralidade-com-o-uso> a onto:DiscursiveStrategy ;
+    rdfs:label "treinar a lateralidade com o uso dos pes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:178#evid-001-04-pes> a onto:ContextObject ;
+    rdfs:label "pes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:178#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Bolas de borracha de cinco a seis tamanhos diferentes. Utilizacao: O aluno deve aprender a obedecer regras e perceber claramente os limites, mas deve ser estimulado a usar as bolas arremessando-as a outros, contra paredes, aparar bolas arremessadas por outros, aparar bola usando uma das maos, a direita ou a esquerda."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:178> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:178#evid-000-00-tamanhos-diferentes>,
+        <urn:doc:178#evid-000-01-aparar-bolas-arremessadas>,
+        <urn:doc:178#evid-000-02-aparar-bola-usando>,
+        <urn:doc:178#evid-000-03-bolas-arremessando>,
+        <urn:doc:178#evid-000-04-obedecer-regras>,
+        <urn:doc:178#evid-000-05-perceber-claramente>,
+        <urn:doc:178#evid-000-06-perceber-claramente>,
+        <urn:doc:178#evid-000-07-aprender>,
+        <urn:doc:178#evid-000-08-aprender-obedecer>,
+        <urn:doc:178#evid-000-09-regras-perceber>,
+        <urn:doc:178#evid-000-10-estimulado-usar>,
+        <urn:doc:178#evid-000-11-estimulado-usar>,
+        <urn:doc:178#evid-000-12-esquerda>,
+        <urn:doc:178#evid-000-13-bolas-de-borracha-de-cinco-a-sei> .
+
+<urn:doc:178#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Em etapas seguintes, apos explorar todas as tentativas manuais, treinar a lateralidade com o uso dos pes."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:178> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:178#evid-001-00-treinar-lateralidade>,
+        <urn:doc:178#evid-001-01-uso-pes>,
+        <urn:doc:178#evid-001-02-treinar-a-lateralidade-com-o-uso>,
+        <urn:doc:178#evid-001-03-treinar-a-lateralidade-com-o-uso>,
+        <urn:doc:178#evid-001-04-pes> .
+
+<urn:doc:178> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:178#frag-000>,
+        <urn:doc:178#frag-001> .
+

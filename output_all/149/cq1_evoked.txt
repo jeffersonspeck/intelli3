@@ -1,0 +1,45 @@
+[Documento] urn:doc:149
+  - miVector: 2.65,8.35,0.00,4.24,63.94,11.16,0.00,9.67
+  - TOP (documento): Bodily-Kinesthetic (score=0.6394)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6394
+      • Interpersonal: 0.1116
+      • Naturalist: 0.0967
+
+[Fragmento] Preparacao: O jogo pressupoe a existencia de uma sala de aula vazia, com as carteiras desordenadas. Utilizacao: O jogo e uma disputa entre duas ou mais equipes em que o professor e eventualmente alguns alunos atuarao como arbitros.
+  - Bodily-Kinesthetic (via activation, score=0.6316)
+  - Interpersonal (via activation, score=0.3684)
+  - Cinestésico-corporal (via activation, score=0.6316)
+  - Interpessoal (via activation, score=0.3684)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+
+[Fragmento] A tarefa de cada equipe e arrumar as cadeiras, no menor tempo possivel, com o menor volume de ruido causado. Vence a equipe que "preparar" a sala com menor ruido.
+  - Bodily-Kinesthetic (via activation, score=0.1785)
+  - Linguistic (via activation, score=0.0873)
+  - Logical-Mathematical (via activation, score=0.2754)
+  - Musical (via activation, score=0.1398)
+  - Naturalist (via activation, score=0.3191)
+  - Cinestésico-corporal (via activation, score=0.1785)
+  - Linguística (via activation, score=0.0873)
+  - Lógico-matemática (via activation, score=0.2754)
+  - Musical (via activation, score=0.1398)
+  - Naturalista (via activation, score=0.3191)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] E possivel desenvolver-se variacoes, como, por exemplo, a arrumacao de uma mesa e ou- tras com garrafas, pecas, campainhas e outras pecas. 141
+  - Bodily-Kinesthetic (via activation, score=1.0000)
+  - Cinestésico-corporal (via activation, score=1.0000)
+  - Bodily-Kinesthetic (via element)
+  - Cinestésico-corporal (via element)

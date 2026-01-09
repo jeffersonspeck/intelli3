@@ -1,0 +1,193 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "sementes diversas constituem",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6840411733092844,
+      "relevance": 0.5953307392996109
+    },
+    {
+      "role": "Keyword",
+      "text": "mundo natural",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6501328472026382,
+      "relevance": 0.754863813229572
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6501328472026382,
+      "relevance": 0.7782101167315175
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6501328472026382,
+      "relevance": 0.7782101167315175
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir mundo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6501328472026382,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6051744834111779,
+      "relevance": 0.6614785992217899
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "descobrir o mundo natural e aprender a se encantar com seus movimentos",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.7782101167315175
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "descobrir o mundo natural e aprender a se encantar com seus movimentos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.7782101167315175
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "descobrir o mundo natural e aprender a se encantar com seus movimentos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.7782101167315175
+    },
+    {
+      "role": "ContextObject",
+      "text": "Remos, vara de pesca, sementes diversas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.6381322957198443
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "envolvimento naturalista",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7867508803736422,
+      "relevance": 0.9205426356589147
+    },
+    {
+      "role": "Keyword",
+      "text": "interessado quanto capaz",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6717114476371475,
+      "relevance": 0.7751937984496124
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "colher frutos silvestres",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8093030993752524,
+      "relevance": 0.8225490196078431
+    },
+    {
+      "role": "Keyword",
+      "text": "plantar hortalicas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8053641242207106,
+      "relevance": 0.8803921568627451
+    },
+    {
+      "role": "Keyword",
+      "text": "acender fogueira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8053641242207106,
+      "relevance": 0.8401960784313726
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar geleias",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8053641242207106,
+      "relevance": 0.7872549019607843
+    },
+    {
+      "role": "Keyword",
+      "text": "colher amostras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8035520012270951,
+      "relevance": 0.7205882352941176
+    },
+    {
+      "role": "Keyword",
+      "text": "movimentos vento",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5803340066142655,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "caminhar pelas aguas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8035393937735984,
+      "relevance": 0.6794117647058824
+    },
+    {
+      "role": "Keyword",
+      "text": "pretende desenvolver",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.8009964298441543,
+      "relevance": 0.9156862745098039
+    },
+    {
+      "role": "Keyword",
+      "text": "sementes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7530312872297604,
+      "relevance": 0.6892156862745098
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas para sentir os movimentos do vento, colher amostras de folhas ou de sementes, caminhar pelas aguas rasas de um regato)",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.9068627450980392
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "desenvolver com os alunos (plantar hortalicas, ensina-los a pescar, acender fogueira, colher frutos silvestres e, depois, preparar geleias, empinar pipas para sentir os movimentos do vento, colher amostras de folhas ou de sementes, caminhar pelas aguas rasas de um regato)",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9068627450980392
+    }
+  ],
+  "3": []
+}

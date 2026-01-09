@@ -1,0 +1,108 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:327#evid-000-00-olhem> a onto:Keyword ;
+    rdfs:label "olhem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:327#evid-000-01-olhos-vendados> a onto:Keyword ;
+    rdfs:label "olhos vendados"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:327#evid-000-02-olhem-percebam> a onto:Keyword ;
+    rdfs:label "olhem percebam"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:327#evid-000-03-percebam-detalhes> a onto:Keyword ;
+    rdfs:label "percebam detalhes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:327#evid-001-00-descobrir> a onto:Keyword ;
+    rdfs:label "descobrir"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:327#evid-001-01-descrevendo-caracteristicas> a onto:Keyword ;
+    rdfs:label "descrevendo caracteristicas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:327#evid-001-02-descrevendo-caracteristicas> a onto:Keyword ;
+    rdfs:label "descrevendo caracteristicas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:327#evid-001-03-capacidade-administracao> a onto:Keyword ;
+    rdfs:label "capacidade administracao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:327#evid-001-04-caracteristicas-fisicas> a onto:Keyword ;
+    rdfs:label "caracteristicas fisicas"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:327#evid-001-05-caracteristicas-fisicas> a onto:Keyword ;
+    rdfs:label "caracteristicas fisicas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:327#evid-001-06-temperamento> a onto:Keyword ;
+    rdfs:label "temperamento"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:327#evid-001-07-automotivacao> a onto:Keyword ;
+    rdfs:label "automotivacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:327#evid-001-08-aluno> a onto:ContextObject ;
+    rdfs:label "aluno"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:327#evid-001-09-aluno> a onto:ContextObject ;
+    rdfs:label "aluno"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:327#evid-002-00-circulo-debates> a onto:Keyword ;
+    rdfs:label "circulo debates"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:327#evid-002-01-atividade-no-heteroconhecimento> a onto:ContextObject ;
+    rdfs:label "atividade no heteroconhecimento"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:327#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Os alunos devem estar reunidos em uma sala, sentados em circulo. Utilizacao: Depois de solicitar que todos os alunos olhem-se e percebam os detalhes nas rou- pas e, sobretudo, nas expressoes de cada um, solicita que todos tenham seus olhos ven- dados."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:327> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:327#evid-000-00-olhem>,
+        <urn:doc:327#evid-000-01-olhos-vendados>,
+        <urn:doc:327#evid-000-02-olhem-percebam>,
+        <urn:doc:327#evid-000-03-percebam-detalhes> .
+
+<urn:doc:327#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Um aluno, silenciosamente, e retirado da sala pelo professor. A seguir as vendas devem ser tiradas e os alunos devem descobrir quem foi retirado da sala, descrevendo suas caracteristicas fisicas e elementos de seu temperamento, sua automotivacao, capa- cidade de administracao das emocoes e muito mais."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:327> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:327#evid-001-00-descobrir>,
+        <urn:doc:327#evid-001-01-descrevendo-caracteristicas>,
+        <urn:doc:327#evid-001-02-descrevendo-caracteristicas>,
+        <urn:doc:327#evid-001-03-capacidade-administracao>,
+        <urn:doc:327#evid-001-04-caracteristicas-fisicas>,
+        <urn:doc:327#evid-001-05-caracteristicas-fisicas>,
+        <urn:doc:327#evid-001-06-temperamento>,
+        <urn:doc:327#evid-001-07-automotivacao>,
+        <urn:doc:327#evid-001-08-aluno>,
+        <urn:doc:327#evid-001-09-aluno> .
+
+<urn:doc:327#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Um circulo de debates sobre a im- portancia da atividade no heteroconhecimento deve ser estimulada. 253"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:327> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:327#evid-002-00-circulo-debates>,
+        <urn:doc:327#evid-002-01-atividade-no-heteroconhecimento> .
+
+<urn:doc:327> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:327#frag-000>,
+        <urn:doc:327#frag-001>,
+        <urn:doc:327#frag-002> .
+

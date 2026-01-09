@@ -1,0 +1,234 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "maionese ajustadas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7726087500683471,
+      "relevance": 0.8810408921933086
+    },
+    {
+      "role": "Keyword",
+      "text": "tampas potes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7726087500683471,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ajustadas abertura",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7726087500683471,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "garrafas plasticas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7164781204633399,
+      "relevance": 0.9814126394052045
+    },
+    {
+      "role": "Keyword",
+      "text": "usar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7049402227036603,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "usar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7049402227036603,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "usar duas garrafas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6733036533937903,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "unir gargalos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6312006682592369,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Usar duas garrafas plasticas e duas tampas de potes de creme ou maionese ajustadas a abertura das garrafas. Papel-cartao resistente, com um circulo pequeno. Cortar as garrafas no sentido horizontal, unir os gargalos, colocando entre eles um circulo de cartao perfurado.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "procurar modelo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5761385165073614,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ilustracao",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5339147922725231,
+      "relevance": 0.5576923076923077
+    },
+    {
+      "role": "ContextObject",
+      "text": "areia fina, colorida com anilina",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9615384615384616
+    },
+    {
+      "role": "ContextObject",
+      "text": "ilustracao",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.49725,
+      "relevance": 0.5576923076923077
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "observar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8042286210087733,
+      "relevance": 0.8661417322834646
+    },
+    {
+      "role": "Keyword",
+      "text": "usada marcar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7817346660876409,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "observar passagem",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7817346660876409,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "marcar tempo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7254718624935437,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "marcar tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7254718624935437,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "associando esse tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7162845653891645,
+      "relevance": 0.7362204724409449
+    },
+    {
+      "role": "Keyword",
+      "text": "ampulheta",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6825056839968451,
+      "relevance": 0.9901574803149606
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "os alunos devem observar a passagem da areia de uma metade da garrafa para outra",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8976377952755905
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "mostrar quantos pingos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8010648767618042,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "pingos caem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7976194718130353,
+      "relevance": 0.9591836734693877
+    },
+    {
+      "role": "Keyword",
+      "text": "espaco tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7976194718130353,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ampulhetas vidro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7423804094245405,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Mostrar quantos pingos caem de uma torneira semifechada em um espaco de tempo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Mostrar quantos pingos caem de uma torneira semifechada em um espaco de tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "ampulhetas de vidro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.6632653061224489
+    }
+  ]
+}

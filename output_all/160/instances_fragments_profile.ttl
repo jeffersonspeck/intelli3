@@ -1,0 +1,648 @@
+@prefix bfo: <http://purl.obolibrary.org/obo/BFO_> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix iao: <http://purl.obolibrary.org/obo/IAO_> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+onto:DocumentFragmentBacklinkShape a sh:NodeShape ;
+    sh:message "Recomendação: todo fragmento listado em dct:hasPart deve apontar de volta para o documento via dct:isPartOf."@pt ;
+    sh:severity sh:Warning ;
+    sh:sparql [ sh:select """\r
+        PREFIX dct:  <http://purl.org/dc/terms/>\r
+        SELECT ?this WHERE {\r
+          ?this dct:hasPart ?frag .\r
+          FILTER NOT EXISTS { ?frag dct:isPartOf ?this . }\r
+        }\r
+      """ ] ;
+    sh:targetClass onto:ExplanationDocument .
+
+onto:ExplanationDocumentShape a sh:NodeShape ;
+    sh:property [ sh:message "ExplanationDocument deve possuir pelo menos um ExplanationFragment (via dct:hasPart)."@pt ;
+            sh:minCount 1 ;
+            sh:path dct:hasPart ],
+        [ sh:maxCount 1 ;
+            sh:message "ExplanationDocument deve possuir exatamente 1 MIProfileVector (via onto:hasProfileVector)."@pt ;
+            sh:minCount 1 ;
+            sh:path onto:hasProfileVector ] ;
+    sh:targetClass onto:ExplanationDocument .
+
+onto:ExplanationElementAdvisoryShape a sh:NodeShape ;
+    sh:message "Instanciação direta de ExplanationElement não recomendada; use Keyword, ContextObject ou DiscursiveStrategy."@pt ;
+    sh:severity sh:Warning ;
+    sh:targetClass onto:ExplanationElement .
+
+onto:ExplanationFragmentDocLinkShape a sh:NodeShape ;
+    sh:property [ sh:message "ExplanationFragment deve estar vinculado a um ExplanationDocument (via dct:isPartOf)."@pt ;
+            sh:minCount 1 ;
+            sh:path dct:isPartOf ] ;
+    sh:targetClass onto:ExplanationFragment .
+
+onto:ExplanationFragmentShape a sh:NodeShape ;
+    sh:message "ExplanationFragment deve possuir pelo menos uma ligação semântica (usesElement) ou uma ativação (hasActivation)."@pt ;
+    sh:or ( [ sh:property [ sh:minCount 1 ;
+                        sh:path onto:usesElement ] ] [ sh:property [ sh:minCount 1 ;
+                        sh:path onto:hasActivation ] ] ) ;
+    sh:property [ sh:maxCount 1 ;
+            sh:message "Cada fragmento deve ter no máximo uma ativação primária."@pt ;
+            sh:path onto:hasPrimaryActivation ] ;
+    sh:targetClass onto:ExplanationFragment .
+
+onto:Intelligence a owl:Class ;
+    rdfs:label "Intelligence"@en,
+        "Inteligência"@pt ;
+    rdfs:comment "Stable cognitive category in Gardner's Theory of Multiple Intelligences; modeled as a BFO disposition."@en,
+        "Categoria cognitiva estável segundo a Teoria das Inteligências Múltiplas de Gardner; modelada como uma disposição no BFO."@pt ;
+    rdfs:subClassOf bfo:0000016 .
+
+onto:IntelligenceActivationShape a sh:NodeShape ;
+    sh:property [ sh:in ( onto:Primary onto:Secondary ) ;
+            sh:message "IntelligenceActivation deve possuir um tipo válido (primária/secundária)."@pt ;
+            sh:minCount 1 ;
+            sh:path onto:hasActivationType ],
+        [ sh:datatype xsd:decimal ;
+            sh:maxInclusive 1.0 ;
+            sh:message "Scores de ativação devem estar em [0,1]."@pt ;
+            sh:minInclusive 0.0 ;
+            sh:path onto:hasActivationScore ] ;
+    sh:sparql [ sh:message "IntelligenceActivation deve apontar (via iao:is about) para instância de (sub)classe de IntelligenceDisposition OU para uma classe que seja subclasse de IntelligenceDisposition."@pt ;
+            sh:select """\r
+      PREFIX iao:  <http://purl.obolibrary.org/obo/IAO_>\r
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r
+      PREFIX onto: <https://techcoop.com.br/ontomi#>\r
+      SELECT ?this WHERE {\r
+        FILTER NOT EXISTS {\r
+          ?this iao:0000136 ?x .\r
+          {\r
+            ?x a/rdfs:subClassOf* onto:IntelligenceDisposition\r
+          }\r
+          UNION\r
+          {\r
+            ?x rdfs:subClassOf+ onto:IntelligenceDisposition\r
+          }\r
+        }\r
+      }\r
+    """ ],
+        [ sh:message "Ativação ligada por hasPrimaryActivation deve ter tipo Primary."@pt ;
+            sh:select """\r
+      PREFIX onto: <https://techcoop.com.br/ontomi#>\r
+      SELECT ?this WHERE {\r
+        ?frag onto:hasPrimaryActivation ?this .\r
+        FILTER NOT EXISTS { ?this onto:hasActivationType onto:Primary }\r
+      }\r
+    """ ],
+        [ sh:message "Ativação ligada por hasSecondaryActivation deve ter tipo Secondary."@pt ;
+            sh:select """\r
+      PREFIX onto: <https://techcoop.com.br/ontomi#>\r
+      SELECT ?this WHERE {\r
+        ?frag onto:hasSecondaryActivation ?this .\r
+        FILTER NOT EXISTS { ?this onto:hasActivationType onto:Secondary }\r
+      }\r
+    """ ] ;
+    sh:targetClass onto:IntelligenceActivation .
+
+onto:MIProfileVectorShape a sh:NodeShape ;
+    sh:or ( [ sh:property [ sh:minCount 1 ;
+                        sh:path onto:miVector ] ] [ sh:property [ sh:datatype xsd:decimal ;
+                        sh:maxInclusive 1.0 ;
+                        sh:minCount 1 ;
+                        sh:minInclusive 0.0 ;
+                        sh:path onto:hasLinguisticScore ],
+                    [ sh:datatype xsd:decimal ;
+                        sh:maxInclusive 1.0 ;
+                        sh:minCount 1 ;
+                        sh:minInclusive 0.0 ;
+                        sh:path onto:hasLogicalMathematicalScore ],
+                    [ sh:datatype xsd:decimal ;
+                        sh:maxInclusive 1.0 ;
+                        sh:minCount 1 ;
+                        sh:minInclusive 0.0 ;
+                        sh:path onto:hasSpatialScore ],
+                    [ sh:datatype xsd:decimal ;
+                        sh:maxInclusive 1.0 ;
+                        sh:minCount 1 ;
+                        sh:minInclusive 0.0 ;
+                        sh:path onto:hasBodilyKinestheticScore ],
+                    [ sh:datatype xsd:decimal ;
+                        sh:maxInclusive 1.0 ;
+                        sh:minCount 1 ;
+                        sh:minInclusive 0.0 ;
+                        sh:path onto:hasMusicalScore ],
+                    [ sh:datatype xsd:decimal ;
+                        sh:maxInclusive 1.0 ;
+                        sh:minCount 1 ;
+                        sh:minInclusive 0.0 ;
+                        sh:path onto:hasInterpersonalScore ],
+                    [ sh:datatype xsd:decimal ;
+                        sh:maxInclusive 1.0 ;
+                        sh:minCount 1 ;
+                        sh:minInclusive 0.0 ;
+                        sh:path onto:hasIntrapersonalScore ],
+                    [ sh:datatype xsd:decimal ;
+                        sh:maxInclusive 1.0 ;
+                        sh:minCount 1 ;
+                        sh:minInclusive 0.0 ;
+                        sh:path onto:hasNaturalistScore ] ] ) ;
+    sh:property [ sh:flags "i" ;
+            sh:message "miVector deve ter 8 valores numéricos separados por vírgulas (ex.: 18.29,46.34,35.37,0.00,0.00,0.00,0.00,0.00)."@pt ;
+            sh:path onto:miVector ;
+            sh:pattern "^[0-9]+(\\.[0-9]+)?(,[0-9]+(\\.[0-9]+)?){7}$" ;
+            sh:severity sh:Warning ] ;
+    sh:targetClass onto:MIProfileVector .
+
+onto:denotesProcess a owl:ObjectProperty ;
+    rdfs:label "denotesProcess"@en,
+        "denotaProcesso"@pt ;
+    rdfs:domain onto:IntelligenceActivation ;
+    rdfs:range onto:EvocationProcess .
+
+onto:evokesIntelligence a owl:ObjectProperty ;
+    rdfs:label "evokesIntelligence"@en,
+        "evocaInteligência"@pt ;
+    rdfs:domain onto:ExplanationElement ;
+    rdfs:range onto:IntelligenceDisposition ;
+    rdfs:subPropertyOf iao:0000136 .
+
+onto:hasSecondaryActivation a owl:ObjectProperty ;
+    rdfs:label "hasSecondaryActivation"@en,
+        "temAtivaçãoSecundária"@pt ;
+    rdfs:domain onto:ExplanationFragment ;
+    rdfs:range onto:IntelligenceActivation ;
+    rdfs:subPropertyOf onto:hasActivation .
+
+onto:hasWeight a owl:DatatypeProperty ;
+    rdfs:label "hasWeight"@en,
+        "temPeso"@pt ;
+    rdfs:domain onto:IntelligenceActivation ;
+    rdfs:range xsd:decimal .
+
+onto:isAboutFragment a owl:ObjectProperty ;
+    rdfs:label "isAboutFragment"@en,
+        "éSobreFragmento"@pt ;
+    rdfs:domain onto:IntelligenceActivation ;
+    rdfs:range onto:ExplanationFragment ;
+    rdfs:subPropertyOf iao:0000136 .
+
+onto:isActivationOf a owl:ObjectProperty ;
+    rdfs:label "isActivationOf"@en,
+        "éAtivaçãoDe"@pt ;
+    rdfs:domain onto:IntelligenceActivation ;
+    rdfs:range onto:ExplanationFragment ;
+    owl:inverseOf onto:hasActivation .
+
+onto:isFragmentOfDocument a owl:ObjectProperty ;
+    rdfs:label "isFragmentOfDocument"@en,
+        "éFragmentoDeDocumento"@pt ;
+    rdfs:comment "Inverse relation of hasFragment (fragment belongs to a document)."@en,
+        "Relação inversa de hasFragment (fragmento pertence a um documento)."@pt ;
+    rdfs:domain onto:ExplanationFragment ;
+    rdfs:range onto:ExplanationDocument ;
+    rdfs:subPropertyOf iao:0000136 ;
+    owl:inverseOf onto:hasFragment .
+
+bfo:0000015 rdfs:label "Process"@en .
+
+<https://techcoop.com.br/ontomi> a owl:Ontology ;
+    dct:created "2025-10-26"^^xsd:date ;
+    dct:creator "Jefferson Rodrigo Speck" ;
+    dct:isVersionOf <https://techcoop.com.br/ontomi> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2025-10-27"^^xsd:date ;
+    dct:publisher <https://orcid.org/0009-0009-3964-9185> ;
+    dct:source <https://techcoop.com.br/uploads/download/file/93/ontomi.ttl> ;
+    dct:title "OntoMI: Ontology for Multiple Intelligences in Educational Texts"@en,
+        "OntoMI: Ontologia para Inteligências Múltiplas em Textos Educacionais"@pt ;
+    vann:preferredNamespacePrefix "onto" ;
+    vann:preferredNamespaceUri "https://techcoop.com.br/ontomi#" ;
+    rdfs:comment "Núcleo alinhado a BFO (Disposition/Process) e IAO (ICE/is about). Validação por SHACL. Perfil sugerido: OWL 2 EL + SHACL."@pt ;
+    owl:imports <http://purl.obolibrary.org/obo/bfo.owl>,
+        <http://purl.obolibrary.org/obo/iao.owl> ;
+    owl:versionIRI <https://techcoop.com.br/ontomi/2025-10> ;
+    owl:versionInfo "1.1.0 (2025-10-27)" .
+
+onto:DiscursiveStrategy a owl:Class ;
+    rdfs:label "Discursive Strategy"@en,
+        "Estratégia discursiva"@pt ;
+    rdfs:comment "Rhetorical-pedagogical form (e.g., analogy, dramatization, simulation) used in the explanation."@en,
+        "Forma retórico-pedagógica (ex.: analogia, dramatização, simulação) utilizada na explicação."@pt ;
+    rdfs:subClassOf onto:ExplanationElement .
+
+onto:EvocationProcess a owl:Class ;
+    rdfs:label "Evocation Process"@en,
+        "Processo de evocação"@pt ;
+    rdfs:comment "Cognitive/interpretive event (occurrent) that can realize an intelligence disposition."@en,
+        "Evento cognitivo/interpretativo (ocorrente) que pode realizar uma disposição de inteligência."@pt ;
+    rdfs:subClassOf bfo:0000015 .
+
+onto:InterpersonalIntelligence a owl:Class ;
+    rdfs:label "Interpersonal"@en,
+        "Interpessoal"@pt ;
+    rdfs:comment "Disposition related to understanding others' intentions, emotions, and social cues."@en,
+        "Disposição relacionada à compreensão de intenções, emoções e sinais sociais de outras pessoas."@pt ;
+    rdfs:subClassOf onto:IntelligenceDisposition .
+
+onto:IntrapersonalIntelligence a owl:Class ;
+    rdfs:label "Intrapersonal"@en,
+        "Intrapessoal"@pt ;
+    rdfs:comment "Disposition related to self-knowledge, introspection, and regulation of one's own emotions."@en,
+        "Disposição relacionada ao autoconhecimento, introspecção e regulação das próprias emoções."@pt ;
+    rdfs:subClassOf onto:IntelligenceDisposition .
+
+onto:LogicalMathematicalIntelligence a owl:Class ;
+    rdfs:label "Logical-Mathematical"@en,
+        "Lógico-matemática"@pt ;
+    rdfs:comment "Disposition related to formal reasoning, logic, numbers, and abstract relations."@en,
+        "Disposição relacionada ao raciocínio formal, lógica, números e relações abstratas."@pt ;
+    rdfs:subClassOf onto:IntelligenceDisposition .
+
+onto:SpatialIntelligence a owl:Class ;
+    rdfs:label "Spatial"@en,
+        "Espacial-visual"@pt ;
+    rdfs:comment "Disposition related to mental imagery, spatial reasoning, and visual pattern handling."@en,
+        "Disposição relacionada à imagética mental, raciocínio espacial e manipulação de padrões visuais."@pt ;
+    rdfs:subClassOf onto:IntelligenceDisposition .
+
+onto:hasActivationScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "activation score"@en,
+        "escore de ativação"@pt ;
+    iao:0000115 "Intensidade da ativação inferida para uma instância de IntelligenceActivation (0..1, 0..100 ou escala definida pela aplicação)."@pt ;
+    rdfs:domain onto:IntelligenceActivation ;
+    rdfs:range xsd:decimal .
+
+onto:hasActivationType a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "hasActivationType"@en,
+        "temTipoDeAtivação"@pt ;
+    rdfs:domain onto:IntelligenceActivation ;
+    rdfs:range onto:ActivationType .
+
+onto:hasBodilyKinestheticScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain onto:MIProfileVector ;
+    rdfs:range xsd:decimal .
+
+onto:hasFragment a owl:ObjectProperty ;
+    rdfs:label "hasFragment"@en,
+        "temFragmento"@pt ;
+    rdfs:comment "Links an ExplanationDocument to its ExplanationFragments."@en,
+        "Liga um ExplanationDocument aos seus ExplanationFragments."@pt ;
+    rdfs:domain onto:ExplanationDocument ;
+    rdfs:range onto:ExplanationFragment ;
+    rdfs:subPropertyOf iao:0000136 .
+
+onto:hasInterpersonalScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain onto:MIProfileVector ;
+    rdfs:range xsd:decimal .
+
+onto:hasIntrapersonalScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain onto:MIProfileVector ;
+    rdfs:range xsd:decimal .
+
+onto:hasLinguisticScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain onto:MIProfileVector ;
+    rdfs:range xsd:decimal .
+
+onto:hasLogicalMathematicalScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain onto:MIProfileVector ;
+    rdfs:range xsd:decimal .
+
+onto:hasMusicalScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain onto:MIProfileVector ;
+    rdfs:range xsd:decimal .
+
+onto:hasNaturalistScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain onto:MIProfileVector ;
+    rdfs:range xsd:decimal .
+
+onto:hasProfileVector a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "hasProfileVector"@en,
+        "temVetorDePerfil"@pt ;
+    rdfs:comment "Links an ExplanationDocument or ExplanationFragment to its MIProfileVector."@en,
+        "Liga um ExplanationDocument ou ExplanationFragment ao seu MIProfileVector."@pt ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( onto:ExplanationDocument onto:ExplanationFragment ) ] ;
+    rdfs:range onto:MIProfileVector .
+
+onto:hasSpatialScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain onto:MIProfileVector ;
+    rdfs:range xsd:decimal .
+
+onto:usesElement a owl:ObjectProperty ;
+    rdfs:label "usesElement"@en,
+        "usaElemento"@pt ;
+    rdfs:domain onto:ExplanationFragment ;
+    rdfs:range onto:ExplanationElement ;
+    rdfs:subPropertyOf iao:0000136 .
+
+<urn:doc:160#act-000-LinguisticIntelligence> a onto:IntelligenceActivation ;
+    iao:0000136 onto:LinguisticIntelligence ;
+    onto:hasActivationScore 0.1468 ;
+    onto:hasActivationType onto:Secondary ;
+    onto:hasWeight 0.5107 ;
+    onto:isAboutFragment <urn:doc:160#frag-000> .
+
+<urn:doc:160#act-001-MusicalIntelligence> a onto:IntelligenceActivation ;
+    iao:0000136 onto:MusicalIntelligence ;
+    onto:hasActivationScore 0.1414 ;
+    onto:hasActivationType onto:Secondary ;
+    onto:hasWeight 0.3786 ;
+    onto:isAboutFragment <urn:doc:160#frag-001> .
+
+<urn:doc:160#evid-000-00-compasso-existente> a onto:Keyword ;
+    rdfs:label "compasso existente"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:160#evid-000-01-procurar-mostrar> a onto:Keyword ;
+    rdfs:label "procurar mostrar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:160#evid-000-02-existente-tique-taque> a onto:Keyword ;
+    rdfs:label "existente tique taque"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:160#evid-000-03-batidas> a onto:Keyword ;
+    rdfs:label "batidas"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:160#evid-000-04-compasso> a onto:ContextObject ;
+    rdfs:label "compasso"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:160#evid-000-05-tique-taque-do-relogio> a onto:ContextObject ;
+    rdfs:label "tique-taque do relogio"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:160#evid-001-00-imitem> a onto:Keyword ;
+    rdfs:label "imitem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:160#evid-001-01-existem-sinetas> a onto:Keyword ;
+    rdfs:label "existem sinetas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:160#evid-001-02-compassos> a onto:Keyword ;
+    rdfs:label "compassos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:160#evid-001-03-sineta-esses-compassos> a onto:Keyword ;
+    rdfs:label "sineta esses compassos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:160#evid-001-04-sinetas> a onto:ContextObject ;
+    rdfs:label "sinetas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:160#vec-doc> a onto:MIProfileVector ;
+    onto:hasBodilyKinestheticScore 0.2587 ;
+    onto:hasInterpersonalScore 0.0000 ;
+    onto:hasIntrapersonalScore 0.0000 ;
+    onto:hasLinguisticScore 0.0638 ;
+    onto:hasLogicalMathematicalScore 0.0000 ;
+    onto:hasMusicalScore 0.2594 ;
+    onto:hasNaturalistScore 0.4181 ;
+    onto:hasSpatialScore 0.0000 ;
+    onto:miVector "6.38,0.00,0.00,25.94,25.87,0.00,0.00,41.81"^^xsd:string .
+
+<urn:doc:160#vec-frag-000> a onto:MIProfileVector ;
+    onto:hasBodilyKinestheticScore 0.0000 ;
+    onto:hasInterpersonalScore 0.0000 ;
+    onto:hasIntrapersonalScore 0.0000 ;
+    onto:hasLinguisticScore 0.1468 ;
+    onto:hasLogicalMathematicalScore 0.0000 ;
+    onto:hasMusicalScore 0.4127 ;
+    onto:hasNaturalistScore 0.4405 ;
+    onto:hasSpatialScore 0.0000 ;
+    onto:miVector "14.68,0.00,0.00,41.27,0.00,0.00,0.00,44.05"^^xsd:string .
+
+<urn:doc:160#vec-frag-001> a onto:MIProfileVector ;
+    onto:hasBodilyKinestheticScore 0.4577 ;
+    onto:hasInterpersonalScore 0.0000 ;
+    onto:hasIntrapersonalScore 0.0000 ;
+    onto:hasLinguisticScore 0.0000 ;
+    onto:hasLogicalMathematicalScore 0.0000 ;
+    onto:hasMusicalScore 0.1414 ;
+    onto:hasNaturalistScore 0.4009 ;
+    onto:hasSpatialScore 0.0000 ;
+    onto:miVector "0.00,0.00,0.00,14.14,45.77,0.00,0.00,40.09"^^xsd:string .
+
+bfo:0000016 rdfs:label "Disposition"@en .
+
+onto:hasPrimaryActivation a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "hasPrimaryActivation"@en,
+        "temAtivaçãoPrimária"@pt ;
+    rdfs:domain onto:ExplanationFragment ;
+    rdfs:range onto:IntelligenceActivation ;
+    rdfs:subPropertyOf onto:hasActivation .
+
+onto:miVector a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "MI percentage vector (8D)"@en,
+        "Vetor percentual de IM (8D)"@pt ;
+    iao:0000115 "Resultado agregado das ativações por inteligência, representado como string com 8 valores percentuais, em ordem fixa: [Linguistic, Logical-Mathematical, Spatial-Visual, Bodily-Kinesthetic, Musical, Interpersonal, Intrapersonal, Naturalist]."@pt ;
+    iao:0000116 "Derivado dos escores em onto:hasActivationScore das ativações reificadas associadas; consumidores podem calcular sob demanda."@pt ;
+    rdfs:domain onto:MIProfileVector ;
+    rdfs:range xsd:string .
+
+<urn:doc:160> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:160#frag-000>,
+        <urn:doc:160#frag-001> ;
+    onto:hasProfileVector <urn:doc:160#vec-doc> .
+
+<urn:doc:160#act-000-MusicalIntelligence> a onto:IntelligenceActivation ;
+    iao:0000136 onto:MusicalIntelligence ;
+    onto:hasActivationScore 0.4127 ;
+    onto:hasActivationType onto:Secondary ;
+    onto:hasWeight 1.4354 ;
+    onto:isAboutFragment <urn:doc:160#frag-000> .
+
+<urn:doc:160#act-000-NaturalistIntelligence> a onto:IntelligenceActivation ;
+    iao:0000136 onto:NaturalistIntelligence ;
+    onto:hasActivationScore 0.4405 ;
+    onto:hasActivationType onto:Primary ;
+    onto:hasWeight 1.5320 ;
+    onto:isAboutFragment <urn:doc:160#frag-000> .
+
+<urn:doc:160#act-001-BodilyKinestheticIntelligence> a onto:IntelligenceActivation ;
+    iao:0000136 onto:BodilyKinestheticIntelligence ;
+    onto:hasActivationScore 0.4577 ;
+    onto:hasActivationType onto:Primary ;
+    onto:hasWeight 1.2258 ;
+    onto:isAboutFragment <urn:doc:160#frag-001> .
+
+<urn:doc:160#act-001-NaturalistIntelligence> a onto:IntelligenceActivation ;
+    iao:0000136 onto:NaturalistIntelligence ;
+    onto:hasActivationScore 0.4009 ;
+    onto:hasActivationType onto:Secondary ;
+    onto:hasWeight 1.0736 ;
+    onto:isAboutFragment <urn:doc:160#frag-001> .
+
+onto:ActivationType a owl:Class ;
+    rdfs:label "Activation Type"@en,
+        "Tipo de ativação"@pt ;
+    rdfs:comment "Controlled vocabulary to qualify activation salience (primary/secondary)."@en,
+        "Vocabulário controlado para qualificar a saliência da ativação (primária/secundária)."@pt .
+
+onto:LinguisticIntelligence a owl:Class ;
+    rdfs:label "Linguistic"@en,
+        "Linguística"@pt ;
+    rdfs:comment "Disposition related to sensitivity to language, word choice, and verbal reasoning."@en,
+        "Disposição relacionada à sensibilidade à linguagem, escolha de palavras e raciocínio verbal."@pt ;
+    rdfs:subClassOf onto:IntelligenceDisposition .
+
+onto:Primary a owl:NamedIndividual,
+        onto:ActivationType ;
+    rdfs:label "primary"@en,
+        "primária"@pt .
+
+onto:BodilyKinestheticIntelligence a owl:Class ;
+    rdfs:label "Bodily-Kinesthetic"@en,
+        "Cinestésico-corporal"@pt ;
+    rdfs:comment "Disposition related to motor control, tactile/kinesthetic learning, and embodied performance."@en,
+        "Disposição relacionada ao controle motor, aprendizagem tátil/cinestésica e performance corporal."@pt ;
+    rdfs:subClassOf onto:IntelligenceDisposition .
+
+onto:ContextObject a owl:Class ;
+    rdfs:label "Context Object"@en,
+        "Objeto de contexto"@pt ;
+    rdfs:comment "Physical/symbolic/situational object mentioned in the fragment that the content may be about."@en,
+        "Objeto físico/simbólico/situacional mencionado no fragmento sobre o qual o conteúdo pode ser."@pt ;
+    rdfs:subClassOf onto:ExplanationElement .
+
+onto:hasActivation a owl:ObjectProperty ;
+    rdfs:label "hasActivation"@en,
+        "temAtivação"@pt ;
+    rdfs:comment "Links a fragment to a reified activation assertion."@en,
+        "Liga um fragmento a uma asserção reificada de ativação."@pt ;
+    rdfs:domain onto:ExplanationFragment ;
+    rdfs:range onto:IntelligenceActivation .
+
+<urn:doc:160#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Mostrar aos alunos o compasso existente no tique-taque de um desperta- dor, nas batidas de uma construcao ou do deslocamento de um trem. Procurar mostrar esse compasso com uma sineta, imitando com a mesma o tique-taque do relogio e outros compassos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:160> ;
+    dct:type "body" ;
+    onto:hasActivation <urn:doc:160#act-000-LinguisticIntelligence>,
+        <urn:doc:160#act-000-MusicalIntelligence>,
+        <urn:doc:160#act-000-NaturalistIntelligence> ;
+    onto:hasPrimaryActivation <urn:doc:160#act-000-NaturalistIntelligence> ;
+    onto:hasProfileVector <urn:doc:160#vec-frag-000> ;
+    onto:hasSecondaryActivation <urn:doc:160#act-000-MusicalIntelligence> ;
+    onto:usesElement <urn:doc:160#evid-000-00-compasso-existente>,
+        <urn:doc:160#evid-000-01-procurar-mostrar>,
+        <urn:doc:160#evid-000-02-existente-tique-taque>,
+        <urn:doc:160#evid-000-03-batidas>,
+        <urn:doc:160#evid-000-04-compasso>,
+        <urn:doc:160#evid-000-05-tique-taque-do-relogio> .
+
+<urn:doc:160#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Solicitar aos alunos que imitem com a sineta esses compassos. (Existem sinetas em casas de comercio.) 147"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:160> ;
+    dct:type "title_or_abstract" ;
+    onto:hasActivation <urn:doc:160#act-001-BodilyKinestheticIntelligence>,
+        <urn:doc:160#act-001-MusicalIntelligence>,
+        <urn:doc:160#act-001-NaturalistIntelligence> ;
+    onto:hasPrimaryActivation <urn:doc:160#act-001-BodilyKinestheticIntelligence> ;
+    onto:hasProfileVector <urn:doc:160#vec-frag-001> ;
+    onto:hasSecondaryActivation <urn:doc:160#act-001-NaturalistIntelligence> ;
+    onto:usesElement <urn:doc:160#evid-001-00-imitem>,
+        <urn:doc:160#evid-001-01-existem-sinetas>,
+        <urn:doc:160#evid-001-02-compassos>,
+        <urn:doc:160#evid-001-03-sineta-esses-compassos>,
+        <urn:doc:160#evid-001-04-sinetas> .
+
+iao:0000030 rdfs:label "Information content entity"@en .
+
+iao:0000136 rdfs:label "is about"@en .
+
+onto:Secondary a owl:NamedIndividual,
+        onto:ActivationType ;
+    rdfs:label "secondary"@en,
+        "secundária"@pt .
+
+onto:ExplanationDocument a owl:Class ;
+    rdfs:label "Explanation Document"@en,
+        "Documento explicativo"@pt ;
+    rdfs:comment "Information content entity representing a full educational/explanatory text composed of one or more ExplanationFragments."@en,
+        "Entidade de conteúdo informacional que representa um texto educacional/explicativo completo composto por um ou mais ExplanationFragments."@pt ;
+    rdfs:subClassOf iao:0000030 .
+
+onto:ExplanationElement a owl:Class ;
+    rdfs:label "Explanation Element"@en,
+        "Elemento explicativo"@pt ;
+    rdfs:comment "Abstract container for elements that help evoke intelligences (e.g., Keyword, ContextObject, DiscursiveStrategy)."@en,
+        "Container abstrato para elementos que ajudam a evocar inteligências (ex.: Palavra-chave, Objeto de contexto, Estratégia discursiva)."@pt ;
+    rdfs:subClassOf iao:0000030 .
+
+onto:MusicalIntelligence a owl:Class ;
+    rdfs:label "Musical"@en,
+        "Musical"@pt ;
+    rdfs:comment "Disposition related to rhythm, melody, harmony, and auditory pattern recognition."@en,
+        "Disposição relacionada a ritmo, melodia, harmonia e reconhecimento de padrões auditivos."@pt ;
+    rdfs:subClassOf onto:IntelligenceDisposition .
+
+onto:NaturalistIntelligence a owl:Class ;
+    rdfs:label "Naturalist"@en,
+        "Naturalista"@pt ;
+    rdfs:comment "Disposition related to recognizing and classifying patterns in nature and the environment."@en,
+        "Disposição relacionada ao reconhecimento e classificação de padrões na natureza e no ambiente."@pt ;
+    rdfs:subClassOf onto:IntelligenceDisposition .
+
+onto:IntelligenceDisposition a owl:Class ;
+    rdfs:label "Intelligence Disposition"@en,
+        "Disposição de inteligência"@pt ;
+    iao:0000115 "Realizable cognitive disposition as per Gardner's MI; realizable entity in BFO."@en ;
+    rdfs:comment "Type of realizable cognitive disposition aligned with Gardner's MI; realizable entity in the BFO sense."@en,
+        "Tipo de disposição cognitiva realizável alinhada à TIM de Gardner; entidade realizável no sentido do BFO."@pt ;
+    rdfs:subClassOf bfo:0000016 .
+
+onto:Keyword a owl:Class ;
+    rdfs:label "Keyword"@en,
+        "Palavra-chave"@pt ;
+    rdfs:comment "Salient lexical item used as evidence in evocation analysis."@en,
+        "Item lexical saliente usado como evidência na análise de evocação."@pt ;
+    rdfs:subClassOf onto:ExplanationElement .
+
+onto:ExplanationFragment a owl:Class ;
+    rdfs:label "Explanation Fragment"@en,
+        "Fragmento explicativo"@pt ;
+    rdfs:comment "Textual unit of analysis (ICE) serving as the basis for heuristic inference."@en,
+        "Unidade textual de análise (ICE) que serve de base para a inferência heurística."@pt ;
+    rdfs:subClassOf iao:0000030 .
+
+onto:MIProfileVector a owl:Class ;
+    rdfs:label "MI Profile Vector"@en,
+        "Vetor de perfil MI"@pt ;
+    rdfs:comment "Informational representation (ICE) of aggregated activations across intelligences, as an 8D percentage vector."@en,
+        "Representação informacional (ICE) das ativações agregadas entre as inteligências, como vetor percentual 8D."@pt ;
+    rdfs:subClassOf iao:0000030 .
+
+onto:IntelligenceActivation a owl:Class ;
+    rdfs:label "Intelligence Activation"@en,
+        "Ativação de inteligência"@pt ;
+    rdfs:comment "Reified assertion (ICE) representing an inferred activation of an intelligence within a fragment."@en,
+        "Asserção reificada (ICE) que representa a ativação inferida de uma inteligência em um fragmento."@pt ;
+    rdfs:subClassOf iao:0000030 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty rdfs:comment ;
+    owl:annotatedSource onto:hasPrimaryActivation ;
+    owl:annotatedTarget "Convenção: toda ativação ligada por hasPrimaryActivation deve ter hasActivationType onto:Primary."@pt .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( onto:LinguisticIntelligence onto:LogicalMathematicalIntelligence onto:SpatialIntelligence onto:BodilyKinestheticIntelligence onto:MusicalIntelligence onto:InterpersonalIntelligence onto:IntrapersonalIntelligence onto:NaturalistIntelligence onto:Keyword onto:ContextObject onto:DiscursiveStrategy ) .
+

@@ -1,0 +1,136 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "pressupoe existencia",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5677433490421401,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "jogo pressupoe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5585260303132142,
+      "relevance": 0.9951690821256038
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "disputa entre duas ou mais equipes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.7560386473429952
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "tempo",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7909566774688794,
+      "relevance": 0.8271604938271605
+    },
+    {
+      "role": "Keyword",
+      "text": "tempo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7909566774688794,
+      "relevance": 0.8271604938271605
+    },
+    {
+      "role": "Keyword",
+      "text": "arrumar cadeiras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7909566774688794,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "arrumar cadeiras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7909566774688794,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ruido causado",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7742155127291318,
+      "relevance": 0.7098765432098766
+    },
+    {
+      "role": "Keyword",
+      "text": "ruido causado",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7742155127291318,
+      "relevance": 0.7098765432098766
+    },
+    {
+      "role": "Keyword",
+      "text": "equipe arrumar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7078818783310498,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "volume ruido",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7078818783310498,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "preparar",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.663250654925542,
+      "relevance": 0.6018518518518519
+    },
+    {
+      "role": "Keyword",
+      "text": "vence equipe",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6414576480955616,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "cadeiras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8858024691358025
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "arrumacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6872616700638273,
+      "relevance": 0.7928571428571428
+    },
+    {
+      "role": "Keyword",
+      "text": "mesa",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6872616700638273,
+      "relevance": 0.7321428571428572
+    }
+  ]
+}

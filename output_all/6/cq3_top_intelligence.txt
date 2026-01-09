@@ -1,0 +1,25 @@
+[Documento] urn:doc:6
+  - miVector: 17.53,19.15,0.00,13.88,10.67,8.46,17.52,12.78
+  - TOP (documento): Logical-Mathematical (score=0.1915)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.1915
+      • Linguistic: 0.1753
+      • Intrapersonal: 0.1752
+
+
+[Documento — Fragmentos] urn:doc:6
+
+[Fragmento] Preparacao: O professor deve reunir uma grande variedade de revistas de historias em quadrinhos ou tiras de historias publicadas em jornal.
+  > TOP: Cinestésico-corporal (score=0.3835, tipo=Primary)
+
+[Fragmento] Utilizacao: Com alunos que ainda nao sabem ler, o professor deve estimular o racioci- nio dedutivo, estimulando o aluno a observar as ilustracoes e buscar sentido na historia.
+  > TOP: Naturalista (score=0.2767, tipo=Primary)
+
+[Fragmento] Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao que sao obvios para alunos maiores. Por exemplo: que toda leitura se faz da esquerda para a direita e de cima para baixo.
+  > TOP: Musical (score=0.5000, tipo=Primary)
+
+[Fragmento] Para alunos que fazem a leitura, os gibis sao estimulos para a associacao en- tre os elementos pictoricos da ilustracao e os simbolos graficos das palavras.
+  > TOP: Intrapessoal (score=0.4851, tipo=Primary)
+
+[Fragmento] Inumeros jogos podem ser propostos, apagando-se baloes, sugerindo a coloca- cao em ordem dos quadrinhos antecipadamente desordenados, orientando os alunos para que transformem historias originais por outras de conteudo ligado ao que e aprendido e, finalmente, estimulando os grupos de alunos para que construam seus proprios gibis, criando personagens, desenvolvendo argumen- tos, estabelecendo roteiros e completando a arte final.
+  > TOP: Interpessoal (score=0.4484, tipo=Primary)

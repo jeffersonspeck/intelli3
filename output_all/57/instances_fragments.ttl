@@ -1,0 +1,28 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:57#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo utiliza tampinhas de pasta de dente (ou outras) coloridas. Utilizacao: Os alunos devem agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:57> ;
+    dct:type "body" .
+
+<urn:doc:57#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "E interessante associar este jogo ao \"Formas Vazadas\", com os alunos colocando diferentes grupos de tampinhas em formas geometricas. As sequencias devem ser repetidas muitas vezes e e im- portante que os conceitos estejam claramente fixados para todos."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:57> ;
+    dct:type "body" .
+
+<urn:doc:57#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "(Existem no mercado jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:57> ;
+    dct:type "title_or_abstract" .
+
+<urn:doc:57> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:57#frag-000>,
+        <urn:doc:57#frag-001>,
+        <urn:doc:57#frag-002> .
+

@@ -1,0 +1,89 @@
+[Documento] urn:doc:9
+  - miVector: 19.85,25.21,0.00,0.00,7.91,31.87,0.00,15.15
+  - TOP (documento): Interpersonal (score=0.3187)
+  - Ranking (top 3):
+      • Interpersonal: 0.3187
+      • Logical-Mathematical: 0.2521
+      • Linguistic: 0.1985
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Alunos divididos em dois grupos, sentados em circulos.
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2009
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: papeis com perguntas
+        • DiscursiveStrategy: Alunos divididos em dois grupos, sentados em circulos.
+        • DiscursiveStrategy: revezam-se os grupos em suas funcoes de perguntar e de responder
+        • Keyword: papeis perguntas
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.5000
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: pergunta
+        • Keyword: voce
+        • Keyword: voce estuda
+        • Keyword: voce mora
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3747
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • ContextObject: jogo
+        • Keyword: descobriu america
+        • Keyword: imediatamente
+        • Keyword: questoes respondem
+        • Keyword: respondem essas perguntas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.8320
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: revezam-se os grupos em suas funcoes de perguntar e de responder
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.5000
+
+
+[Documento — Fragmentos] urn:doc:9
+
+[Fragmento] Preparacao: Alunos divididos em dois grupos, sentados em circulos. Em uma caixa, uma serie de papeis com perguntas (Exemplo: Onde voce mora? / Onde voce estuda? Qual sua idade? / Que programa mais gosta na TV? / Voce tem namora- do?
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: Alunos divididos em dois grupos, sentados em circulos.
+    - Ativações:
+        • score=0.2009, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: papeis com perguntas
+        • DiscursiveStrategy: Alunos divididos em dois grupos, sentados em circulos.
+        • Keyword: papeis perguntas
+    - Ativações:
+        • score=0.4244, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: voce
+        • Keyword: voce estuda
+        • Keyword: voce mora
+    - Ativações:
+        • score=0.3747, tipo=Secondary
+
+[Fragmento] / Quem descobriu a America?) e em outra caixa uma seric de questoes que respondem essas perguntas. Utilizacao: Iniciado o jogo, o professor escolhe um aluno que fara uma pergunta em voz alta. Essa pergunta devera, imediatamente, ser respondida pelo aluno do grupo oposto.
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: pergunta
+    - Ativações:
+        • score=0.1680, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • ContextObject: jogo
+        • Keyword: descobriu america
+        • Keyword: imediatamente
+        • Keyword: questoes respondem
+        • Keyword: respondem essas perguntas
+    - Ativações:
+        • score=0.8320, tipo=Primary
+
+[Fragmento] Caso ocorram duas respostas simultaneas, o grupo das respostas perde um ponto. Apos uma serie de indagacoes e respostas, revezam-se os grupos em suas funcoes de perguntar e de responder.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: revezam-se os grupos em suas funcoes de perguntar e de responder
+    - Ativações:
+        • score=0.5000, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: revezam-se os grupos em suas funcoes de perguntar e de responder
+    - Ativações:
+        • score=0.5000, tipo=Secondary

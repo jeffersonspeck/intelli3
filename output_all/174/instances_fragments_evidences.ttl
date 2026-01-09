@@ -1,0 +1,106 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:174#evid-000-00-filmes-fotograficos> a onto:Keyword ;
+    rdfs:label "filmes fotograficos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:174#evid-000-01-filmes-fotograficos> a onto:Keyword ;
+    rdfs:label "filmes fotograficos"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:174#evid-000-02-diferentes-elementos> a onto:Keyword ;
+    rdfs:label "diferentes elementos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:174#evid-000-03-preenchidas-diferentes> a onto:Keyword ;
+    rdfs:label "preenchidas diferentes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:174#evid-000-04-caixas-plasticas> a onto:Keyword ;
+    rdfs:label "caixas plasticas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:174#evid-000-05-caixas-plasticas-ou-embalagens-d> a onto:ContextObject ;
+    rdfs:label "caixas plasticas ou embalagens de filmes fotograficos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:174#evid-000-06-diferentes-elementos-cercais-are> a onto:ContextObject ;
+    rdfs:label "diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros)"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:174#evid-001-00-procurar> a onto:Keyword ;
+    rdfs:label "procurar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:174#evid-001-01-pecas-pares> a onto:Keyword ;
+    rdfs:label "pecas pares"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:174#evid-001-02-som-produzido> a onto:Keyword ;
+    rdfs:label "som produzido"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:174#evid-001-03-som-produzido> a onto:Keyword ;
+    rdfs:label "som produzido"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:174#evid-001-04-chocalhando-ouvindo> a onto:Keyword ;
+    rdfs:label "chocalhando ouvindo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:174#evid-001-05-procurar-pecas> a onto:Keyword ;
+    rdfs:label "procurar pecas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:174#evid-001-06-ouvindo-som> a onto:Keyword ;
+    rdfs:label "ouvindo som"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:174#evid-001-07-ouvindo-som> a onto:Keyword ;
+    rdfs:label "ouvindo som"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:174#evid-001-08-ser-espalhadas> a onto:Keyword ;
+    rdfs:label "ser espalhadas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:174#evid-001-09-numero-acertos> a onto:Keyword ;
+    rdfs:label "numero acertos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:174#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Cinco a seis pares de caixas plasticas ou embalagens de filmes fotograficos, preenchidas com diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros)."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:174> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:174#evid-000-00-filmes-fotograficos>,
+        <urn:doc:174#evid-000-01-filmes-fotograficos>,
+        <urn:doc:174#evid-000-02-diferentes-elementos>,
+        <urn:doc:174#evid-000-03-preenchidas-diferentes>,
+        <urn:doc:174#evid-000-04-caixas-plasticas>,
+        <urn:doc:174#evid-000-05-caixas-plasticas-ou-embalagens-d>,
+        <urn:doc:174#evid-000-06-diferentes-elementos-cercais-are> .
+
+<urn:doc:174#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: As pecas devem ser espalhadas sobre uma mesa e os alunos devem procu- rar as pecas pares, chocalhando e ouvindo o som produzido. Os alunos podem estar reunidos em duplas e ganha a dupla que obtiver maior numero de acertos."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:174> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:174#evid-001-00-procurar>,
+        <urn:doc:174#evid-001-01-pecas-pares>,
+        <urn:doc:174#evid-001-02-som-produzido>,
+        <urn:doc:174#evid-001-03-som-produzido>,
+        <urn:doc:174#evid-001-04-chocalhando-ouvindo>,
+        <urn:doc:174#evid-001-05-procurar-pecas>,
+        <urn:doc:174#evid-001-06-ouvindo-som>,
+        <urn:doc:174#evid-001-07-ouvindo-som>,
+        <urn:doc:174#evid-001-08-ser-espalhadas>,
+        <urn:doc:174#evid-001-09-numero-acertos> .
+
+<urn:doc:174> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:174#frag-000>,
+        <urn:doc:174#frag-001> .
+

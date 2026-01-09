@@ -1,0 +1,362 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "preparar folhas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "folhas papel cartao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "papel cartao gravuras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "folhas de papel-cartao e gravuras",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9449152542372882
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "bolinha aparece acima",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8041723214299611,
+      "relevance": 0.7370689655172413
+    },
+    {
+      "role": "Keyword",
+      "text": "ora direita",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8021792356043492,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ora esquerda",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.798558934726599,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "abaixo figura",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7981355630266568,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda ilustracao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7926434104165497,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "retangulos exista",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7846088918804004,
+      "relevance": 0.9482758620689655
+    },
+    {
+      "role": "Keyword",
+      "text": "certas situacoes",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7846088918804004,
+      "relevance": 0.7780172413793103
+    },
+    {
+      "role": "Keyword",
+      "text": "exista bolinha",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7449152800580903,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "situacoes bolinha",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7449152800580903,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "tambem desenhado",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6979369586489312,
+      "relevance": 0.5646551724137931
+    },
+    {
+      "role": "Keyword",
+      "text": "desenhado cartolina",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6979369586489312,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "tabuleiro de 15x 15cm, tambem desenhado em cartolina",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.6142241379310345
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "colocar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8038292900293114,
+      "relevance": 0.9666666666666667
+    },
+    {
+      "role": "Keyword",
+      "text": "retangulos centro",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7955631608336962,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "retangulos centro",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7955631608336962,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colocar retangulos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7902040013207055,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "direita",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7803076552519732,
+      "relevance": 0.8895833333333334
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda tabuleiro",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7692329318527379,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda tabuleiro",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7692329318527379,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "acima",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7527258373265387,
+      "relevance": 0.7729166666666667
+    },
+    {
+      "role": "Keyword",
+      "text": "abaixo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7527258373265387,
+      "relevance": 0.7583333333333333
+    },
+    {
+      "role": "Keyword",
+      "text": "progressivo dominio",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6858090844666392,
+      "relevance": 0.5645833333333333
+    },
+    {
+      "role": "Keyword",
+      "text": "emprego desses conceitos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6858090844666392,
+      "relevance": 0.6291666666666667
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "colocar seus retangulos no centro, a direita, ou a esquerda do tabuleiro e, respectivamente, acima, abaixo, a esquerda ou a direita",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9666666666666667
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "explorar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8010648767618042,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "fiquem direita",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8010648767618042,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "acima abaixo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.8010648767618042,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mostrar ilustracoes",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7976194718130353,
+      "relevance": 0.9457547169811321
+    },
+    {
+      "role": "Keyword",
+      "text": "mostrar ilustracoes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7976194718130353,
+      "relevance": 0.9457547169811321
+    },
+    {
+      "role": "Keyword",
+      "text": "objetos fiquem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7976194718130353,
+      "relevance": 0.8561320754716981
+    },
+    {
+      "role": "Keyword",
+      "text": "ilustracoes situacoes",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7976194718130353,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ilustracoes situacoes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7976194718130353,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "situacoes onde objetos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7976194718130353,
+      "relevance": 0.8915094339622641
+    },
+    {
+      "role": "Keyword",
+      "text": "abaixo mesa",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7976194718130353,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "esquerda",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7436477409157691,
+      "relevance": 0.7900943396226415
+    },
+    {
+      "role": "Keyword",
+      "text": "flor",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6460014174270684,
+      "relevance": 0.5589622641509434
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Explorar a atividade e mostrar ilustracoes ou situacoes",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Explorar a atividade e mostrar ilustracoes ou situacoes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "objetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.8561320754716981
+    },
+    {
+      "role": "ContextObject",
+      "text": "objetos fiquem a direita, a esquerda, acima ou abaixo da mesa do professor",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8561320754716981
+    }
+  ]
+}

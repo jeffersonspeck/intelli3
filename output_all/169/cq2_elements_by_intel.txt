@@ -1,0 +1,99 @@
+[Documento] urn:doc:169
+  - miVector: 0.00,10.91,0.00,19.45,44.22,9.39,0.00,16.02
+  - TOP (documento): Bodily-Kinesthetic (score=0.4422)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4422
+      • Musical: 0.1945
+      • Naturalist: 0.1602
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de percussao, andar apenas de lado ou andar de cos…
+        • Keyword: andar
+        • Keyword: ande apoiando
+        • Keyword: construir cubos
+        • Keyword: cordas funcionem
+        • Keyword: cubos madeira
+        • Keyword: funcionem alcas
+        • Keyword: ponta pes
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.4690
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: andar
+        • Keyword: segurando cordas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1662
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: cordas funcionem
+        • Keyword: funcionem alcas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1931
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • ContextObject: instrumento de percussao
+        • Keyword: altura
+        • Keyword: deslocar som
+        • Keyword: instrumento percussao
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3529
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: instrumento de percussao
+        • Keyword: especie tamanco
+        • Keyword: instrumento percussao
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2397
+
+
+[Documento — Fragmentos] urn:doc:169
+
+[Fragmento] Preparacao: Construir com cubos de madeira de pouco mais de 20cm de altura e com cordas que funcionem como alcas, uma especie de tamanco. Utilizacao: O aluno devera andar sobre as pecas, segurando as cordas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: andar
+        • Keyword: construir cubos
+        • Keyword: cordas funcionem
+        • Keyword: cubos madeira
+        • Keyword: funcionem alcas
+    - Ativações:
+        • score=0.4690, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: andar
+        • Keyword: segurando cordas
+    - Ativações:
+        • score=0.1662, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: cordas funcionem
+        • Keyword: funcionem alcas
+    - Ativações:
+        • score=0.1931, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: altura
+    - Ativações:
+        • score=0.0726, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: especie tamanco
+    - Ativações:
+        • score=0.0991, tipo=Secondary
+
+[Fragmento] Apos o domi- nio de uma primeira fase de equilibrio, fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de per- cussao, andar apenas de lado ou andar de costas. (Existe no comercio -- Toc-Toc [Q. 1.].)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: fazer com que ande apoiando so a ponta dos pes ou apenas o calcanhar. Deslocar-se ao som de um instrumento de percussao, andar apenas de lado ou andar de cos…
+        • Keyword: ande apoiando
+        • Keyword: ponta pes
+    - Ativações:
+        • score=0.4074, tipo=Primary
+  > Inteligência: Musical
+    - Elementos:
+        • ContextObject: instrumento de percussao
+        • Keyword: deslocar som
+        • Keyword: instrumento percussao
+    - Ativações:
+        • score=0.3529, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: instrumento de percussao
+        • Keyword: instrumento percussao
+    - Ativações:
+        • score=0.2397, tipo=Secondary

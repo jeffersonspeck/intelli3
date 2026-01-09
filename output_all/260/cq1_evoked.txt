@@ -1,0 +1,59 @@
+[Documento] urn:doc:260
+  - miVector: 10.41,20.88,0.00,0.00,7.97,16.64,9.70,34.40
+  - TOP (documento): Naturalist (score=0.3440)
+  - Ranking (top 3):
+      • Naturalist: 0.3440
+      • Logical-Mathematical: 0.2088
+      • Interpersonal: 0.1664
+
+[Fragmento] Preparacao: As mesmas condicoes do jogo anterior ou uma sala ampla onde os alunos com olhos vendados possam circular com seguranca. Utilizacao: Os alunos devem circular pela sala com os olhos vendados e descobrir suas "presas" pelo olfato.
+  - Bodily-Kinesthetic (via activation, score=0.3428)
+  - Interpersonal (via activation, score=0.1033)
+  - Intrapersonal (via activation, score=0.4172)
+  - Logical-Mathematical (via activation, score=0.1367)
+  - Cinestésico-corporal (via activation, score=0.3428)
+  - Interpessoal (via activation, score=0.1033)
+  - Intrapessoal (via activation, score=0.4172)
+  - Lógico-matemática (via activation, score=0.1367)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Um algodao embebido de alcool, perfume, essencia, desodo- rante ou outro produto de odor caracteristico, acondicionado em um copo plastico, pode simbolizar a "presa" que, antes do jogo iniciar, teve esse olfato identificado por todos os alunos.
+  - Interpersonal (via activation, score=0.6122)
+  - Naturalist (via activation, score=0.3878)
+  - Interpessoal (via activation, score=0.6122)
+  - Naturalista (via activation, score=0.3878)
+  - Interpersonal (via element)
+  - Naturalist (via element)
+  - Interpessoal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Atividades analogas podem ser feitas tendo os alunos, com os olhos vendados, que identificar sua presa atraves do paladar, apos identificar um e depois descobri-lo entre muitos outros.
+  - Linguistic (via activation, score=0.4475)
+  - Logical-Mathematical (via activation, score=0.1233)
+  - Naturalist (via activation, score=0.4291)
+  - Linguística (via activation, score=0.4475)
+  - Lógico-matemática (via activation, score=0.1233)
+  - Naturalista (via activation, score=0.4291)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] A mistura de refrigerantes ou sodas, balas e condimentos em pequena proporcao podem constituir-se nos elementos materiais
+  - Logical-Mathematical (via activation, score=0.4906)
+  - Naturalist (via activation, score=0.5094)
+  - Lógico-matemática (via activation, score=0.4906)
+  - Naturalista (via activation, score=0.5094)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

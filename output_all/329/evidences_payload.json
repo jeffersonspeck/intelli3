@@ -1,0 +1,268 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "colocar circulo",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7864996292785922,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "possam colocar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.778208003029895,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "possam colocar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.778208003029895,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "numero",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6982211420691009,
+      "relevance": 0.8409961685823755
+    },
+    {
+      "role": "Keyword",
+      "text": "sala",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6760622288439374,
+      "relevance": 0.9923371647509579
+    },
+    {
+      "role": "Keyword",
+      "text": "atribuira",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6372571049394343,
+      "relevance": 0.8659003831417624
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "se colocar em circulo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9329501915708812
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "se colocar em circulo",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.9329501915708812
+    },
+    {
+      "role": "ContextObject",
+      "text": "sala",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.9923371647509579
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "observar atentamente",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9653679653679653
+    },
+    {
+      "role": "Keyword",
+      "text": "observar atentamente",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9653679653679653
+    },
+    {
+      "role": "Keyword",
+      "text": "viram",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.8051948051948052
+    },
+    {
+      "role": "Keyword",
+      "text": "viram costas",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "centro circulo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "tentando descobrir",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.7386363636363636
+    },
+    {
+      "role": "Keyword",
+      "text": "alteracao feita",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.5909090909090908
+    },
+    {
+      "role": "Keyword",
+      "text": "sinal",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9715909090909091
+    },
+    {
+      "role": "Keyword",
+      "text": "sinal",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9715909090909091
+    },
+    {
+      "role": "Keyword",
+      "text": "observar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7519853838782325,
+      "relevance": 0.7954545454545454
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "explora",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9727272727272728
+    },
+    {
+      "role": "Keyword",
+      "text": "identidade visual",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9181818181818182
+    },
+    {
+      "role": "Keyword",
+      "text": "proceder mudanca",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.5931818181818183
+    },
+    {
+      "role": "Keyword",
+      "text": "explora percepcao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "explora percepcao",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "mudanca detalhes",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "observando",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7519853838782325,
+      "relevance": 0.7795454545454545
+    },
+    {
+      "role": "Keyword",
+      "text": "observando",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7519853838782325,
+      "relevance": 0.7795454545454545
+    },
+    {
+      "role": "Keyword",
+      "text": "progresso",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7261115462556125,
+      "relevance": 0.7340909090909091
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "observando-se se ha progresso ce, consequentemente, aumento de dificuldades em se proceder mudanca de detalhes nao notados.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.7795454545454545
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "observando-se se ha progresso ce, consequentemente, aumento de dificuldades em se proceder mudanca de detalhes nao notados.",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.7795454545454545
+    }
+  ],
+  "4": [
+    {
+      "role": "Keyword",
+      "text": "procedendo mesma",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.751413136199976,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "chamar dois alunos para o centro do circulo",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.9134615384615384
+    }
+  ]
+}

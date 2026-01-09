@@ -1,0 +1,88 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:53#evid-000-00-usar-caixas> a onto:Keyword ;
+    rdfs:label "usar caixas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:53#evid-000-01-colocar> a onto:Keyword ;
+    rdfs:label "colocar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:53#evid-000-02-caixas-de-clipes-coloridos> a onto:ContextObject ;
+    rdfs:label "caixas de clipes coloridos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:53#evid-001-00-coordenadas-pelo> a onto:Keyword ;
+    rdfs:label "coordenadas pelo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:53#evid-001-01-operacoes-coordenadas> a onto:Keyword ;
+    rdfs:label "operacoes coordenadas"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:53#evid-001-02-elementos-comparacao> a onto:Keyword ;
+    rdfs:label "elementos comparacao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:53#evid-001-03-cores> a onto:Keyword ;
+    rdfs:label "cores"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:53#evid-001-04-etapa-cores> a onto:Keyword ;
+    rdfs:label "etapa cores"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:53#evid-001-05-pecas-da-caixa> a onto:ContextObject ;
+    rdfs:label "pecas da caixa"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:53#evid-002-00-jogos-pinos> a onto:Keyword ;
+    rdfs:label "jogos pinos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:53#evid-002-01-pinos-encaixe> a onto:Keyword ;
+    rdfs:label "pinos encaixe"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:53#evid-002-02-jogos-com-pinos-de-encaixe> a onto:ContextObject ;
+    rdfs:label "jogos com pinos de encaixe"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:53#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Usar caixas de clipes coloridos. Utilizacao: Os alunos devem formar grupos com \"muitas\" e com \"poucas\" pecas e estabelecer comparacoes entre esses grupos. Devem colocar \"todas\" as pecas na caixa e colocar \"algumas\" pecas na caixa."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:53> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:53#evid-000-00-usar-caixas>,
+        <urn:doc:53#evid-000-01-colocar>,
+        <urn:doc:53#evid-000-02-caixas-de-clipes-coloridos> .
+
+<urn:doc:53#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Em operacoes coordenadas pelo pro- fessor, retirar \"todas\", \"algumas\", \"a maior parte\", \"varias\" pecas da caixa. Em outra etapa as cores devem se constituir em elementos de comparacao: formar uma fila com \"alguns\" ou com \"muitos\" clipes e assim por diante."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:53> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:53#evid-001-00-coordenadas-pelo>,
+        <urn:doc:53#evid-001-01-operacoes-coordenadas>,
+        <urn:doc:53#evid-001-02-elementos-comparacao>,
+        <urn:doc:53#evid-001-03-cores>,
+        <urn:doc:53#evid-001-04-etapa-cores>,
+        <urn:doc:53#evid-001-05-pecas-da-caixa> .
+
+<urn:doc:53#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "(Existem no mercado jogos com pinos de encaixe que podem ser utilizados para o mesmo fim.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:53> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:53#evid-002-00-jogos-pinos>,
+        <urn:doc:53#evid-002-01-pinos-encaixe>,
+        <urn:doc:53#evid-002-02-jogos-com-pinos-de-encaixe> .
+
+<urn:doc:53> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:53#frag-000>,
+        <urn:doc:53#frag-001>,
+        <urn:doc:53#frag-002> .
+

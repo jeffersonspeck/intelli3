@@ -19,6 +19,12 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
 
+from openpyxl import Workbook
+from openpyxl.styles import Font, Alignment
+from openpyxl.utils import get_column_letter
+
+from rdflib import Graph, URIRef
+
 from s1_ingest import S1Ingestor, S1Params
 from s2_instantiate import instantiate_fragments_rdf, save_graph
 from s3_evidences import run_s3_from_files
@@ -29,6 +35,16 @@ from s7_shacl_validate import run_s7_shacl_validate_from_files
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
+INTELLIGENCES = [
+    "Linguistic",
+    "Logical-Mathematical",
+    "Spatial",
+    "Bodily-Kinesthetic",
+    "Musical",
+    "Interpersonal",
+    "Intrapersonal",
+    "Naturalist",
+]
 
 def slugify(name: str) -> str:
     name = name.strip()
@@ -47,6 +63,128 @@ def _iso_now() -> str:
 
 def _write_json(path: Path, obj: dict) -> None:
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+
+def _parse_mivector_string(s: str) -> List[float]:
+    """
+    Accepts formats like:
+      "54.22,0.00,5.34,0.00,40.44,0.00,0.00,0.00"
+    Returns list[float] length 8 when possible, else [].
+    """
+    if not s:
+        return []
+    parts = [p.strip() for p in str(s).split(",") if p.strip()]
+    vals: List[float] = []
+    for p in parts:
+        # tolerate percent sign if ever present
+        p2 = p.replace("%", "").strip()
+        try:
+            vals.append(float(p2))
+        except Exception:
+            return []
+    return vals
+
+
+def _extract_mivector_from_profile_ttl(ttl_path: Path, vector_uri: Optional[str]) -> Optional[str]:
+    """
+    Reads instances_fragments_profile.ttl and tries to extract onto:miVector
+    for the given doc_vector_uri. Returns the literal string or None.
+    """
+    if not ttl_path.exists() or not vector_uri:
+        return None
+
+    g = Graph()
+    g.parse(ttl_path.as_posix(), format="turtle")
+    subj = URIRef(vector_uri)
+
+    # find predicate whose localname is "miVector"
+    for p, o in g.predicate_objects(subj):
+        local = str(p)
+        if local.endswith("miVector") or local.split("#")[-1] == "miVector" or local.split("/")[-1] == "miVector":
+            return str(o)
+
+    # fallback: sometimes miVector might be attached to the doc itself (rare, but safe)
+    # try also doc_id URIRef(subject) if vector_uri looks absent/misleading
+    return None
+
+
+def write_batch_excel(out_dir: Path, batch_rows: List[dict]) -> Path:
+    """
+    Creates output/batch_summary.xlsx with 1 row per document:
+      doc_id, doc_slug, miVector, primary_mi, primary_score,
+      per-MI score columns, per-MI active columns.
+    """
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "batch"
+
+    header = ["doc_id", "doc_slug", "miVector", "primary_mi", "primary_score"]
+    for mi in INTELLIGENCES:
+        header.append(f"{mi}_score")
+    for mi in INTELLIGENCES:
+        header.append(f"{mi}_active")
+
+    ws.append(header)
+
+    # style header
+    for col_idx, name in enumerate(header, start=1):
+        cell = ws.cell(row=1, column=col_idx, value=name)
+        cell.font = Font(bold=True)
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+
+    ws.freeze_panes = "A2"
+    ws.auto_filter.ref = f"A1:{get_column_letter(len(header))}1"
+
+    for row in batch_rows:
+        doc_id = row.get("doc_id") or ""
+        doc_slug = row.get("doc_slug") or ""
+
+        profile_ttl = out_dir / doc_slug / "instances_fragments_profile.ttl"
+        s5 = (row.get("steps") or {}).get("s5") or {}
+        vector_uri = s5.get("doc_vector_uri")
+
+        mi_vector_str = _extract_mivector_from_profile_ttl(profile_ttl, vector_uri) or ""
+        scores = _parse_mivector_string(mi_vector_str)
+
+        # ensure length 8
+        if len(scores) != len(INTELLIGENCES):
+            scores = [None] * len(INTELLIGENCES)
+
+        # primary MI = maior score (ignorando None)
+        numeric = [(i, v) for i, v in enumerate(scores) if isinstance(v, (int, float))]
+        if numeric:
+            primary_idx, primary_score = max(numeric, key=lambda t: t[1])
+            # se tudo for 0, você pode preferir deixar vazio:
+            if float(primary_score) > 0.0:
+                primary_mi = INTELLIGENCES[primary_idx]
+            else:
+                primary_mi = ""
+                primary_score = None
+        else:
+            primary_mi = ""
+            primary_score = None
+
+        active = [(float(v) > 0.0) if isinstance(v, (int, float)) else None for v in scores]
+
+        line = [doc_id, doc_slug, mi_vector_str, primary_mi, primary_score]
+        line.extend(scores)
+        line.extend(active)
+        ws.append(line)
+
+    # basic column sizing
+    widths = {
+        "A": 22,  # doc_id
+        "B": 18,  # doc_slug
+        "C": 40,  # miVector
+        "D": 22,  # primary_mi
+        "E": 14,  # primary_score
+    }
+    for col in range(1, len(header) + 1):
+        letter = get_column_letter(col)
+        ws.column_dimensions[letter].width = widths.get(letter, 18)
+
+    xlsx_path = out_dir / "batch_summary.xlsx"
+    wb.save(xlsx_path.as_posix())
+    return xlsx_path
 
 
 # def process_one(txt_path: Path, out_root: Path, ingestor: S1Ingestor) -> Path:
@@ -528,6 +666,13 @@ def main(argv: Optional[List[str]] = None) -> int:
         "docs": batch_rows,
     }
     _write_json(out_dir / "batch_report.json", report)
+
+    # Excel resumo do batch (1 linha por doc)
+    try:
+        xlsx_path = write_batch_excel(out_dir, batch_rows)
+        print(f"[XLSX OK] -> {xlsx_path.as_posix()}")
+    except Exception as e:
+        print(f"[XLSX FALHOU] não consegui gerar batch_summary.xlsx: {e!r}")    
 
     print(f"\nConcluído. Sucesso: {len(txt_files) - failures} | Falhas: {failures} | Saída: {out_dir}")
     return 0 if failures == 0 else 2

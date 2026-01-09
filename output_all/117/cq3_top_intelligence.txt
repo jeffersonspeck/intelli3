@@ -1,0 +1,19 @@
+[Documento] urn:doc:117
+  - miVector: 4.32,1.57,11.17,0.00,19.35,56.71,0.00,6.88
+  - TOP (documento): Interpersonal (score=0.5671)
+  - Ranking (top 3):
+      • Interpersonal: 0.5671
+      • Bodily-Kinesthetic: 0.1935
+      • Spatial: 0.1117
+
+
+[Documento — Fragmentos] urn:doc:117
+
+[Fragmento] Preparacao: O jogo existe no comercio e e muito popular. O importante e dar ao mes- mo, ao lado de sua finalidade recreativa, opcoes educacionais. Isto e possivel, criando inumeras situacoes que envolvam posicionamento das pecas e sua tca- tralizacao com a consequente verbalizacao.
+  > TOP: Cinestésico-corporal (score=0.4932, tipo=Primary)
+
+[Fragmento] Utilizacao: O aluno (individualmente ou em grupo) deve ser estimulado a posicionar pecas (trabalhando nocoes de direita, esquerda, leste, oeste e outras) e tambem criar cenas que reproduzam fatos do cotidiano do aluno ou circunstancias imaginadas.
+  > TOP: Espacial-visual (score=0.3685, tipo=Primary)
+
+[Fragmento] E interessante a interatividade entre essas historias envolvendo va- rios alunos. (Existem no mercado: "Playmobil": [Trol] e muitos outros.)
+  > TOP: Interpessoal (score=1.0000, tipo=Primary)

@@ -1,0 +1,16 @@
+[Documento] urn:doc:174
+  - miVector: 8.38,19.05,16.06,8.38,24.40,0.00,0.00,23.72
+  - TOP (documento): Bodily-Kinesthetic (score=0.2440)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2440
+      • Naturalist: 0.2372
+      • Logical-Mathematical: 0.1905
+
+
+[Documento — Fragmentos] urn:doc:174
+
+[Fragmento] Preparacao: Cinco a seis pares de caixas plasticas ou embalagens de filmes fotograficos, preenchidas com diferentes elementos (cercais, areia, clipes metalicos, clipes plasticos e outros).
+  > TOP: Naturalista (score=0.4197, tipo=Primary)
+
+[Fragmento] Utilizacao: As pecas devem ser espalhadas sobre uma mesa e os alunos devem procu- rar as pecas pares, chocalhando e ouvindo o som produzido. Os alunos podem estar reunidos em duplas e ganha a dupla que obtiver maior numero de acertos.
+  > TOP: Lógico-matemática (score=0.2929, tipo=Primary)

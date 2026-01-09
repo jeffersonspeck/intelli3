@@ -1,0 +1,234 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "casas caca",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7767337360165834,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "caca pesca",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7767337360165834,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "aves pecas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6932417644520746,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "atrair aves",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6680560883145097,
+      "relevance": 0.6737967914438503
+    },
+    {
+      "role": "Keyword",
+      "text": "costumam ser utilizados",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6319411761323853,
+      "relevance": 0.7887700534759359
+    },
+    {
+      "role": "Keyword",
+      "text": "utilizados cacadores",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6319411761323853,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Adquirir em casas de caca e pesca pios de aves em pecas de madeira.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Adquirir em casas de caca e pesca pios de aves em pecas de madeira.",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "pios de aves em pecas de madeira",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9090909090909091
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "identificar beleza",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7977302536255774,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir habitat",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "descobrir habitat",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "habitos especie",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "especie identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "abrigar progressivo dominio",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8087050840535508,
+      "relevance": 0.9738805970149254
+    },
+    {
+      "role": "Keyword",
+      "text": "levar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.7742537313432836
+    },
+    {
+      "role": "Keyword",
+      "text": "arvores passaros",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.8027804207334203,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "existam arvores",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.5503731343283582
+    },
+    {
+      "role": "Keyword",
+      "text": "pios podem abrigar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9944029850746269
+    },
+    {
+      "role": "Keyword",
+      "text": "diversidade dessas especies",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.9160447761194029
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.7406716417910448
+    },
+    {
+      "role": "Keyword",
+      "text": "identificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7991885806673085,
+      "relevance": 0.7406716417910448
+    },
+    {
+      "role": "Keyword",
+      "text": "experiencia",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7261115462556125,
+      "relevance": 0.8563432835820896
+    },
+    {
+      "role": "Keyword",
+      "text": "sons",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5244138945179423,
+      "relevance": 0.6902985074626866
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "comerciam artigos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7383747053499854,
+      "relevance": 0.782258064516129
+    },
+    {
+      "role": "Keyword",
+      "text": "artigos caca",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.533270620530545,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "comerciam artigos de caca e pesca.",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.782258064516129
+    },
+    {
+      "role": "ContextObject",
+      "text": "artigos de caca e pesca",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.49725,
+      "relevance": 0.7016129032258065
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[Documento] urn:doc:332
+  - miVector: 16.96,17.53,0.00,4.49,2.31,14.44,7.38,36.88
+  - TOP (documento): Naturalist (score=0.3688)
+  - Ranking (top 3):
+      • Naturalist: 0.3688
+      • Logical-Mathematical: 0.1753
+      • Linguistic: 0.1696
+
+
+[Documento — Fragmentos] urn:doc:332
+
+[Fragmento] Preparacao: Uma folha de papel em branco distribuida a cada aluno, que devera anotar ao alto e com letra de forma o seu nome. Lapis ou caneta para todos os participantes.
+  > TOP: Naturalista (score=0.4116, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos deverao conquistar em sua folha, em um espaco de tempo de um a dois minutos, autografos dos demais participantes, pedindo que os colegas assimem seus nomes, de forma legivel, em sua folha.
+  > TOP: Naturalista (score=0.4791, tipo=Primary)
+
+[Fragmento] Inicia a atividade, lembrando que ao termina-la todos os alunos devem ter suas folhas em maos. Passado o tempo esta- belecido, encerra a atividade e solicita aos alunos que contem os autografos obtidos. Indaga a alguns alunos quantos autografos obtiveram e a outros, quantos autografos deram.
+  > TOP: Lógico-matemática (score=0.3714, tipo=Primary)
+
+[Fragmento] E perceptivel que existe maior facilidade em se identificar as "conquistas" que as "ofertas" e essa situacao cria alternativas para uma discussao final sobre dar e receber autografos e perceber em casa, na escola e em outros ambientes se damos mais ou se recebemos mais autografos. 2517
+  > TOP: Interpessoal (score=0.3543, tipo=Primary)

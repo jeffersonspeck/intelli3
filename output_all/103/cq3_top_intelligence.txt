@@ -1,0 +1,22 @@
+[Documento] urn:doc:103
+  - miVector: 4.01,26.77,12.92,25.38,4.49,10.48,4.08,11.86
+  - TOP (documento): Logical-Mathematical (score=0.2677)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.2677
+      • Musical: 0.2538
+      • Spatial: 0.1292
+
+
+[Documento — Fragmentos] urn:doc:103
+
+[Fragmento] Preparacao: Colecionar gravuras de revistas ou desenhar ilustracoes mostrando as diferentes etapas do dia a dia de uma crianca e, se possivel, tambem de um adulto.
+  > TOP: Lógico-matemática (score=0.3672, tipo=Primary)
+
+[Fragmento] O ideal e ilustrar o passar das horas e mostrar as diferentes atividades de uma crianca (acordar, tomar cafe, sair de casa, chegar a escola, assistir aula, participar do recreio, etc.).
+  > TOP: Musical (score=0.7193, tipo=Primary)
+
+[Fragmento] Utilizacao: Essas gravuras ou desenhos, coladas em cartolina, formarao pecas que deverao ser seriadas pelos alunos, desenvolvendo sua observacao da evolucao temporal. Em etapas mais elevadas, o exercicio pode prosseguir com as estacoes do ano e a sucessao dos meses.
+  > TOP: Naturalista (score=0.5101, tipo=Primary)
+
+[Fragmento] Uma alternativa interessante pode ser feita com figuras representando velas acesas em diferentes tamanhos. (Existem no comercio inumeros jogos com a mesma finalidade, produzidos por diferentes fabricantes.)
+  > TOP: Espacial-visual (score=0.4312, tipo=Primary)

@@ -1,0 +1,160 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "encaixe nesses furos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7817847357247713,
+      "relevance": 0.8972868217054264
+    },
+    {
+      "role": "Keyword",
+      "text": "diferentes encaixe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7650114089841208,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "placa perfurada",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7518643676796468,
+      "relevance": 0.9748062015503876
+    },
+    {
+      "role": "Keyword",
+      "text": "crie historias",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6525390557945059,
+      "relevance": 0.5290697674418605
+    },
+    {
+      "role": "Keyword",
+      "text": "mesmo pode montar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6271671373612236,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "monte figuras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6271671373612236,
+      "relevance": 0.560077519379845
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "explorem linhas verticais",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8056481619375327,
+      "relevance": 0.8200000000000001
+    },
+    {
+      "role": "Keyword",
+      "text": "montar figuras",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.9111111111111111
+    },
+    {
+      "role": "Keyword",
+      "text": "montar figuras",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.9111111111111111
+    },
+    {
+      "role": "Keyword",
+      "text": "reproduzir modelos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.8711111111111112
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras reproduzir",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "modelos explorem",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5614809841362277,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "geometricas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5206335934023524,
+      "relevance": 0.7133333333333334
+    },
+    {
+      "role": "Keyword",
+      "text": "pinos placas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6860013772947977,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "reproducao encaixando",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6344556261554457,
+      "relevance": 0.5933333333333333
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "montar figuras ou reproduzir modelos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9111111111111111
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "fixar tres pinos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7836970705691869,
+      "relevance": 0.8714285714285714
+    },
+    {
+      "role": "Keyword",
+      "text": "orientando encaixes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.9571428571428572
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Fazer ditados, orientando encaixes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ]
+}

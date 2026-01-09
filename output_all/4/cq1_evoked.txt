@@ -1,0 +1,51 @@
+[Documento] urn:doc:4
+  - miVector: 11.76,18.62,12.42,4.14,28.42,15.54,0.00,9.11
+  - TOP (documento): Bodily-Kinesthetic (score=0.2842)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.2842
+      • Logical-Mathematical: 0.1862
+      • Interpersonal: 0.1554
+
+[Fragmento] Preparacao: Utilizando gravuras de revistas, selecionando-as se possivel com a ajuda das criancas, organizar uma colecao de objetos mais ou menos do mesmo tama- nho, como frutas, brinquedos, transportes ou utensilios diversos.
+  - Bodily-Kinesthetic (via activation, score=0.2044)
+  - Interpersonal (via activation, score=0.2749)
+  - Logical-Mathematical (via activation, score=0.1986)
+  - Naturalist (via activation, score=0.1611)
+  - Spatial (via activation, score=0.1611)
+  - Cinestésico-corporal (via activation, score=0.2044)
+  - Espacial-visual (via activation, score=0.1611)
+  - Interpessoal (via activation, score=0.2749)
+  - Lógico-matemática (via activation, score=0.1986)
+  - Naturalista (via activation, score=0.1611)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: As pecas devem ser montadas como um Jogo de Dominos (28 pecas com 7 figuras combinadas) e suas regras devem ser seguidas com a crianca nomeando os objetos, dizendo sua cor, ou criando fatos sobre os mesmos. (Existem analogos no comercio).
+  - Bodily-Kinesthetic (via activation, score=0.3879)
+  - Linguistic (via activation, score=0.2706)
+  - Logical-Mathematical (via activation, score=0.1701)
+  - Musical (via activation, score=0.0952)
+  - Spatial (via activation, score=0.0762)
+  - Cinestésico-corporal (via activation, score=0.3879)
+  - Espacial-visual (via activation, score=0.0762)
+  - Linguística (via activation, score=0.2706)
+  - Lógico-matemática (via activation, score=0.1701)
+  - Musical (via activation, score=0.0952)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)

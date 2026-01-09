@@ -1,0 +1,98 @@
+[Documento] urn:doc:47
+  - miVector: 0.00,35.59,0.00,0.00,33.14,0.00,24.94,6.33
+  - TOP (documento): Logical-Mathematical (score=0.3559)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3559
+      • Bodily-Kinesthetic: 0.3314
+      • Intrapersonal: 0.2494
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: os alunos devem empilhar e enfileirar as latas sem observar regras
+        • Keyword: diferentes tamanhos
+        • Keyword: empilhar
+        • Keyword: empilhar enfileirar
+        • Keyword: formar torres
+        • Keyword: identificando torres
+        • Keyword: improvisar latas vazias
+        • Keyword: vazias diferentes
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.7503
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: Cubos Coloridos -- Uki-Uki
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6331
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: 77
+        • DiscursiveStrategy: os alunos devem empilhar e enfileirar as latas sem observar regras
+        • Keyword: diferentes sequencias
+        • Keyword: diferentes tamanhos
+        • Keyword: etapas subsequentes
+        • Keyword: latas observar
+        • Keyword: observar regras
+        • Keyword: tamanhos diversos
+        • Keyword: torres tamanhos
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4476
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: os alunos devem empilhar e enfileirar as latas sem observar regras
+        • Keyword: latas observar
+        • Keyword: observar regras
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2089
+
+
+[Documento — Fragmentos] urn:doc:47
+
+[Fragmento] Preparacao: Improvisar latas vazias de diferentes tamanhos. Pintar essas latas com cores diferentes.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: diferentes tamanhos
+        • Keyword: improvisar latas vazias
+        • Keyword: vazias diferentes
+    - Ativações:
+        • score=0.7503, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: diferentes tamanhos
+    - Ativações:
+        • score=0.2497, tipo=Secondary
+
+[Fragmento] Caixas de fosforo vazias e cubos de madeira tambem podem ser utilizados Utilizacao: Os alunos devem empilhar e enfileirar as latas sem observar regras e, em etapas subsequentes, formar torres de tamanhos diversos, identificando as torres "altas" e as "baixas" em diferentes sequencias.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: os alunos devem empilhar e enfileirar as latas sem observar regras
+        • Keyword: empilhar
+        • Keyword: empilhar enfileirar
+        • Keyword: formar torres
+        • Keyword: identificando torres
+    - Ativações:
+        • score=0.3434, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: os alunos devem empilhar e enfileirar as latas sem observar regras
+        • Keyword: diferentes sequencias
+        • Keyword: etapas subsequentes
+        • Keyword: latas observar
+        • Keyword: observar regras
+        • Keyword: tamanhos diversos
+        • Keyword: torres tamanhos
+    - Ativações:
+        • score=0.4476, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: os alunos devem empilhar e enfileirar as latas sem observar regras
+        • Keyword: latas observar
+        • Keyword: observar regras
+    - Ativações:
+        • score=0.2089, tipo=Secondary
+
+[Fragmento] (Existe no mercado -- Cubos Coloridos -- Uki-Uki) 77
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: Cubos Coloridos -- Uki-Uki
+    - Ativações:
+        • score=0.6331, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: 77
+    - Ativações:
+        • score=0.3669, tipo=Secondary

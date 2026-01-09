@@ -1,0 +1,193 @@
+[Documento] urn:doc:6
+  - miVector: 17.53,19.15,0.00,13.88,10.67,8.46,17.52,12.78
+  - TOP (documento): Logical-Mathematical (score=0.1915)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.1915
+      • Linguistic: 0.1753
+      • Intrapersonal: 0.1752
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: criando personagens
+        • Keyword: reunir
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3835
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: construam proprios
+        • Keyword: desenvolvendo argumentos
+        • Keyword: estabelecendo roteiros
+        • Keyword: estimulando
+        • Keyword: roteiros completando
+        • Keyword: transformem historias originais
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4484
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: gibis
+        • DiscursiveStrategy: observar as ilustracoes e buscar sentido na historia
+        • Keyword: elementos pictoricos
+        • Keyword: ilustracoes buscar
+        • Keyword: observar ilustracoes
+        • Keyword: pictoricos ilustracao
+        • Keyword: proprios gibis
+        • Keyword: quadrinhos antecipadamente desordenados
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.4851
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao
+        • Keyword: graficos palavras
+        • Keyword: leitura
+        • Keyword: mostrar passos
+        • Keyword: nao sabem ler
+        • Keyword: sentido historia
+        • Keyword: simbolos graficos
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3951
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: observar as ilustracoes e buscar sentido na historia
+        • Keyword: buscar sentido
+        • Keyword: colocacao ordem
+        • Keyword: iniciar contato
+        • Keyword: raciocinio dedutivo
+        • Keyword: simbolos graficos
+        • Keyword: variedade revistas
+    - Ativações (doc): n=5, primárias=0, secundárias=5, max=0.3083
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao
+        • Keyword: conteudo ligado
+        • Keyword: desenvolvendo argumentos
+        • Keyword: interpretacao sao
+        • Keyword: mostrar passos
+        • Keyword: transformem historias originais
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5000
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: observar as ilustracoes e buscar sentido na historia
+        • Keyword: observar ilustracoes
+        • Keyword: sentido historia
+        • Keyword: variedade revistas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.3083
+
+
+[Documento — Fragmentos] urn:doc:6
+
+[Fragmento] Preparacao: O professor deve reunir uma grande variedade de revistas de historias em quadrinhos ou tiras de historias publicadas em jornal.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: reunir
+    - Ativações:
+        • score=0.3835, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: variedade revistas
+    - Ativações:
+        • score=0.3083, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: variedade revistas
+    - Ativações:
+        • score=0.3083, tipo=Secondary
+
+[Fragmento] Utilizacao: Com alunos que ainda nao sabem ler, o professor deve estimular o racioci- nio dedutivo, estimulando o aluno a observar as ilustracoes e buscar sentido na historia.
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • DiscursiveStrategy: observar as ilustracoes e buscar sentido na historia
+        • Keyword: ilustracoes buscar
+        • Keyword: observar ilustracoes
+    - Ativações:
+        • score=0.2762, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: nao sabem ler
+        • Keyword: sentido historia
+    - Ativações:
+        • score=0.1856, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: observar as ilustracoes e buscar sentido na historia
+        • Keyword: buscar sentido
+        • Keyword: raciocinio dedutivo
+    - Ativações:
+        • score=0.2615, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: observar as ilustracoes e buscar sentido na historia
+        • Keyword: observar ilustracoes
+        • Keyword: sentido historia
+    - Ativações:
+        • score=0.2767, tipo=Primary
+
+[Fragmento] Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao que sao obvios para alunos maiores. Por exemplo: que toda leitura se faz da esquerda para a direita e de cima para baixo.
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao
+        • Keyword: mostrar passos
+    - Ativações:
+        • score=0.3483, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: iniciar contato
+    - Ativações:
+        • score=0.1517, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: Deve iniciar o contato do aluno com esse material, mostrar os passos de uma interpretacao
+        • Keyword: interpretacao sao
+        • Keyword: mostrar passos
+    - Ativações:
+        • score=0.5000, tipo=Primary
+
+[Fragmento] Para alunos que fazem a leitura, os gibis sao estimulos para a associacao en- tre os elementos pictoricos da ilustracao e os simbolos graficos das palavras.
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: gibis
+        • Keyword: elementos pictoricos
+        • Keyword: pictoricos ilustracao
+    - Ativações:
+        • score=0.4851, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: graficos palavras
+        • Keyword: leitura
+        • Keyword: simbolos graficos
+    - Ativações:
+        • score=0.3951, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: simbolos graficos
+    - Ativações:
+        • score=0.1198, tipo=Secondary
+
+[Fragmento] Inumeros jogos podem ser propostos, apagando-se baloes, sugerindo a coloca- cao em ordem dos quadrinhos antecipadamente desordenados, orientando os alunos para que transformem historias originais por outras de conteudo ligado ao que e aprendido e, finalmente, estimulando os grupos de alunos para que construam seus proprios gibis, criando personagens, desenvolvendo argumen- tos, estabelecendo roteiros e completando a arte final.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: criando personagens
+    - Ativações:
+        • score=0.0672, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: construam proprios
+        • Keyword: desenvolvendo argumentos
+        • Keyword: estabelecendo roteiros
+        • Keyword: estimulando
+        • Keyword: roteiros completando
+        • Keyword: transformem historias originais
+    - Ativações:
+        • score=0.4484, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: proprios gibis
+        • Keyword: quadrinhos antecipadamente desordenados
+    - Ativações:
+        • score=0.1673, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: colocacao ordem
+    - Ativações:
+        • score=0.0814, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: conteudo ligado
+        • Keyword: desenvolvendo argumentos
+        • Keyword: transformem historias originais
+    - Ativações:
+        • score=0.2357, tipo=Secondary

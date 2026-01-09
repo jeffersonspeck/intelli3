@@ -1,0 +1,66 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:48#evid-000-00-selecionar-oito-garrafas> a onto:Keyword ;
+    rdfs:label "selecionar oito garrafas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:48#evid-000-01-cortar> a onto:Keyword ;
+    rdfs:label "cortar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:48#evid-000-02-cortar> a onto:Keyword ;
+    rdfs:label "cortar"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:48#evid-000-03-altura> a onto:Keyword ;
+    rdfs:label "altura"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:48#evid-000-04-oito-garrafas-de-plastico> a onto:ContextObject ;
+    rdfs:label "oito garrafas de plastico"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:48#evid-000-05-fitas-colantes> a onto:ContextObject ;
+    rdfs:label "fitas colantes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:48#evid-001-00-ordenar> a onto:Keyword ;
+    rdfs:label "ordenar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:48#evid-001-01-tamanhos-quase-iguais> a onto:Keyword ;
+    rdfs:label "tamanhos quase iguais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:48#evid-001-02-ordenar-garrafas> a onto:Keyword ;
+    rdfs:label "ordenar garrafas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:48#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Selecionar oito garrafas de plastico, cortar a 1o com 15cm de altura, as ou- tras com 12,5cm, 10cm, 7cm, 5,25cm, 5cm, 4,0cm e 3,5cm. De acabamento com fitas colantes nas beiradas."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:48> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:48#evid-000-00-selecionar-oito-garrafas>,
+        <urn:doc:48#evid-000-01-cortar>,
+        <urn:doc:48#evid-000-02-cortar>,
+        <urn:doc:48#evid-000-03-altura>,
+        <urn:doc:48#evid-000-04-oito-garrafas-de-plastico>,
+        <urn:doc:48#evid-000-05-fitas-colantes> .
+
+<urn:doc:48#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem ordenar as garrafas em tamanho, formando diferentes composicoes, agrupando as de tamanhos quase iguais ou diferentes, ordenan- do-as em fileiras, da menor para a maior e da maior para a menor. (Existem no mercado jogos com pinos de madeira -- Coluna e outros.)"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:48> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:48#evid-001-00-ordenar>,
+        <urn:doc:48#evid-001-01-tamanhos-quase-iguais>,
+        <urn:doc:48#evid-001-02-ordenar-garrafas> .
+
+<urn:doc:48> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:48#frag-000>,
+        <urn:doc:48#frag-001> .
+

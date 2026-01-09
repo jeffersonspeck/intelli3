@@ -1,0 +1,158 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:257#evid-000-00-forem-convidados> a onto:Keyword ;
+    rdfs:label "forem convidados"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:257#evid-000-01-convidados-trazer> a onto:Keyword ;
+    rdfs:label "convidados trazer"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:257#evid-000-02-trazer-sacos> a onto:Keyword ;
+    rdfs:label "trazer sacos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-03-sacos-dormir> a onto:Keyword ;
+    rdfs:label "sacos dormir"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-04-dormir-colchonetes> a onto:Keyword ;
+    rdfs:label "dormir colchonetes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-05-colchonetes-passar> a onto:Keyword ;
+    rdfs:label "colchonetes passar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-06-trazer-seus-sacos-de-dormir-ou-c> a onto:DiscursiveStrategy ;
+    rdfs:label "trazer seus sacos de dormir ou colchonetes e passar uma noite na escola"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-000-07-sacos-de-dormir-ou-colchonetes> a onto:ContextObject ;
+    rdfs:label "sacos de dormir ou colchonetes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-001-00-observar-estrelas> a onto:Keyword ;
+    rdfs:label "observar estrelas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:257#evid-001-01-reunindo> a onto:Keyword ;
+    rdfs:label "reunindo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:257#evid-001-02-descreve-las> a onto:Keyword ;
+    rdfs:label "descreve las"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:257#evid-001-03-desenhar> a onto:Keyword ;
+    rdfs:label "desenhar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-001-04-constelacoes> a onto:Keyword ;
+    rdfs:label "constelacoes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:257#evid-001-05-desenhar-constelacoes> a onto:Keyword ;
+    rdfs:label "desenhar constelacoes"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-001-06-observar-estrelas-e-desenhar-con> a onto:DiscursiveStrategy ;
+    rdfs:label "observar estrelas e desenhar constelacoes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:257#evid-001-07-observar-estrelas-e-desenhar-con> a onto:DiscursiveStrategy ;
+    rdfs:label "observar estrelas e desenhar constelacoes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:257#evid-002-00-inventar> a onto:Keyword ;
+    rdfs:label "inventar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:257#evid-002-01-recriar-ideia> a onto:Keyword ;
+    rdfs:label "recriar ideia"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:257#evid-002-02-recriar-ideia> a onto:Keyword ;
+    rdfs:label "recriar ideia"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:257#evid-002-03-ideia-astronomos> a onto:Keyword ;
+    rdfs:label "ideia astronomos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:257#evid-002-04-ideia-astronomos> a onto:Keyword ;
+    rdfs:label "ideia astronomos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:257#evid-002-05-constelacoes> a onto:Keyword ;
+    rdfs:label "constelacoes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:257#evid-002-06-identificacao> a onto:Keyword ;
+    rdfs:label "identificacao"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:257#evid-002-07-identificacao> a onto:Keyword ;
+    rdfs:label "identificacao"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:257#evid-002-08-cardeais> a onto:Keyword ;
+    rdfs:label "cardeais"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:257#evid-002-09-constelacoes> a onto:ContextObject ;
+    rdfs:label "constelacoes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:257#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "preparacao: Essa atividade e realizada a noite e, portanto, possivel se os alunos forem con- vidados a trazer seus sacos de dormir ou colchonetes e passar uma noite na escola. Em uma excursao a atividade e tambem possivel."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:257> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:257#evid-000-00-forem-convidados>,
+        <urn:doc:257#evid-000-01-convidados-trazer>,
+        <urn:doc:257#evid-000-02-trazer-sacos>,
+        <urn:doc:257#evid-000-03-sacos-dormir>,
+        <urn:doc:257#evid-000-04-dormir-colchonetes>,
+        <urn:doc:257#evid-000-05-colchonetes-passar>,
+        <urn:doc:257#evid-000-06-trazer-seus-sacos-de-dormir-ou-c>,
+        <urn:doc:257#evid-000-07-sacos-de-dormir-ou-colchonetes> .
+
+<urn:doc:257#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: O professor devera estimular os alunos a observar estrelas e desenhar constela- coes, reunindo-se depois para descreve-las. Os alunos nao precisam se preocupar em desenhar ou descrever as constelacoes como se encontram no ceu."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:257> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:257#evid-001-00-observar-estrelas>,
+        <urn:doc:257#evid-001-01-reunindo>,
+        <urn:doc:257#evid-001-02-descreve-las>,
+        <urn:doc:257#evid-001-03-desenhar>,
+        <urn:doc:257#evid-001-04-constelacoes>,
+        <urn:doc:257#evid-001-05-desenhar-constelacoes>,
+        <urn:doc:257#evid-001-06-observar-estrelas-e-desenhar-con>,
+        <urn:doc:257#evid-001-07-observar-estrelas-e-desenhar-con> .
+
+<urn:doc:257#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "O professor pode recriar a ideia dos astronomos do passado, levando seus alunos a inventar \"no- vas constelacoes\". A noite tambem oferece interessante oportunidade para a identi- ficacao dos pontos cardeais a partir da lua ou das estrelas. 204"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:257> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:257#evid-002-00-inventar>,
+        <urn:doc:257#evid-002-01-recriar-ideia>,
+        <urn:doc:257#evid-002-02-recriar-ideia>,
+        <urn:doc:257#evid-002-03-ideia-astronomos>,
+        <urn:doc:257#evid-002-04-ideia-astronomos>,
+        <urn:doc:257#evid-002-05-constelacoes>,
+        <urn:doc:257#evid-002-06-identificacao>,
+        <urn:doc:257#evid-002-07-identificacao>,
+        <urn:doc:257#evid-002-08-cardeais>,
+        <urn:doc:257#evid-002-09-constelacoes> .
+
+<urn:doc:257> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:257#frag-000>,
+        <urn:doc:257#frag-001>,
+        <urn:doc:257#frag-002> .
+

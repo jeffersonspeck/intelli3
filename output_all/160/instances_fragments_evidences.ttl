@@ -1,0 +1,76 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:160#evid-000-00-compasso-existente> a onto:Keyword ;
+    rdfs:label "compasso existente"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:160#evid-000-01-procurar-mostrar> a onto:Keyword ;
+    rdfs:label "procurar mostrar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:160#evid-000-02-existente-tique-taque> a onto:Keyword ;
+    rdfs:label "existente tique taque"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:160#evid-000-03-batidas> a onto:Keyword ;
+    rdfs:label "batidas"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:160#evid-000-04-compasso> a onto:ContextObject ;
+    rdfs:label "compasso"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:160#evid-000-05-tique-taque-do-relogio> a onto:ContextObject ;
+    rdfs:label "tique-taque do relogio"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:160#evid-001-00-imitem> a onto:Keyword ;
+    rdfs:label "imitem"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:160#evid-001-01-existem-sinetas> a onto:Keyword ;
+    rdfs:label "existem sinetas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:160#evid-001-02-compassos> a onto:Keyword ;
+    rdfs:label "compassos"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:160#evid-001-03-sineta-esses-compassos> a onto:Keyword ;
+    rdfs:label "sineta esses compassos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:160#evid-001-04-sinetas> a onto:ContextObject ;
+    rdfs:label "sinetas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:160#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Mostrar aos alunos o compasso existente no tique-taque de um desperta- dor, nas batidas de uma construcao ou do deslocamento de um trem. Procurar mostrar esse compasso com uma sineta, imitando com a mesma o tique-taque do relogio e outros compassos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:160> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:160#evid-000-00-compasso-existente>,
+        <urn:doc:160#evid-000-01-procurar-mostrar>,
+        <urn:doc:160#evid-000-02-existente-tique-taque>,
+        <urn:doc:160#evid-000-03-batidas>,
+        <urn:doc:160#evid-000-04-compasso>,
+        <urn:doc:160#evid-000-05-tique-taque-do-relogio> .
+
+<urn:doc:160#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Solicitar aos alunos que imitem com a sineta esses compassos. (Existem sinetas em casas de comercio.) 147"@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:160> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:160#evid-001-00-imitem>,
+        <urn:doc:160#evid-001-01-existem-sinetas>,
+        <urn:doc:160#evid-001-02-compassos>,
+        <urn:doc:160#evid-001-03-sineta-esses-compassos>,
+        <urn:doc:160#evid-001-04-sinetas> .
+
+<urn:doc:160> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:160#frag-000>,
+        <urn:doc:160#frag-001> .
+

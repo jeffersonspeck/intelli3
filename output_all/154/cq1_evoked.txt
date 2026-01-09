@@ -1,0 +1,39 @@
+[Documento] urn:doc:154
+  - miVector: 0.00,17.65,0.00,23.98,7.85,0.00,8.42,42.10
+  - TOP (documento): Naturalist (score=0.4210)
+  - Ranking (top 3):
+      • Naturalist: 0.4210
+      • Musical: 0.2398
+      • Logical-Mathematical: 0.1765
+
+[Fragmento] preparacao: A escola, ou o professor, necessita dispor de um surdo e um triangulo, podendo facilmente substituir esses instrumentos por objetos que emitam sons graves (surdo) e agudos (triangulo).
+  - Bodily-Kinesthetic (via activation, score=0.1389)
+  - Intrapersonal (via activation, score=0.1490)
+  - Logical-Mathematical (via activation, score=0.3122)
+  - Musical (via activation, score=0.2541)
+  - Naturalist (via activation, score=0.1457)
+  - Cinestésico-corporal (via activation, score=0.1389)
+  - Intrapessoal (via activation, score=0.1490)
+  - Lógico-matemática (via activation, score=0.3122)
+  - Musical (via activation, score=0.2541)
+  - Naturalista (via activation, score=0.1457)
+  - Bodily-Kinesthetic (via element)
+  - Intrapersonal (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Intrapessoal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Os alunos, ao ouvirem os instrumentos, atentamente devem ir sentindo as diferencas de timbre que permitam o desenvolvimento da habilidade de clas- sificar sons graves e sons agudos. 144
+  - Musical (via activation, score=0.2212)
+  - Naturalist (via activation, score=0.7788)
+  - Musical (via activation, score=0.2212)
+  - Naturalista (via activation, score=0.7788)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Musical (via element)
+  - Naturalista (via element)

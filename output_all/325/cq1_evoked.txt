@@ -1,0 +1,71 @@
+[Documento] urn:doc:325
+  - miVector: 11.39,35.12,0.00,0.00,13.76,22.02,15.73,1.97
+  - TOP (documento): Logical-Mathematical (score=0.3512)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3512
+      • Interpersonal: 0.2202
+      • Intrapersonal: 0.1573
+
+[Fragmento] Preparacao: Organizar um conjunto de mensagens para serem transmitidas pelos alunos, que envolvam manifestacoes corporais (por exemplo: andar a cavalo), mas tambem situacoes emocionais diversas (raiva, alegria, entusiasmo, tristeza, etc.).
+  - Bodily-Kinesthetic (via activation, score=0.1627)
+  - Interpersonal (via activation, score=0.2529)
+  - Intrapersonal (via activation, score=0.2518)
+  - Logical-Mathematical (via activation, score=0.3326)
+  - Cinestésico-corporal (via activation, score=0.1627)
+  - Interpessoal (via activation, score=0.2529)
+  - Intrapessoal (via activation, score=0.2518)
+  - Lógico-matemática (via activation, score=0.3326)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Logical-Mathematical (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Escrever es- sas mensagens em uma tira de papel e reunir em uma sacola de plastico ou pano. Utilizacao: A tarefa dos alunos ao sortear sua mensagem e transmiti-la aos demais, levan- do-os a possivel descoberta, sem o uso da palavra.
+  - Bodily-Kinesthetic (via activation, score=0.3802)
+  - Logical-Mathematical (via activation, score=0.5349)
+  - Naturalist (via activation, score=0.0849)
+  - Cinestésico-corporal (via activation, score=0.3802)
+  - Lógico-matemática (via activation, score=0.5349)
+  - Naturalista (via activation, score=0.0849)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)
+
+[Fragmento] A atividade tem como principal objetivo a comunicacao interpessoal e, depois de uma primeira experiencia, outras mais complexas podem ir progressivamente sendo propostas.
+  - Interpersonal (via activation, score=0.4157)
+  - Linguistic (via activation, score=0.3221)
+  - Logical-Mathematical (via activation, score=0.2622)
+  - Interpessoal (via activation, score=0.4157)
+  - Linguística (via activation, score=0.3221)
+  - Lógico-matemática (via activation, score=0.2622)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] E interessante encer- rar a atividade com um circulo de debates com os alunos sobre as muitas formas de comunicacao e sua importancia no auto e heteroconhecimento.
+  - Interpersonal (via activation, score=0.2026)
+  - Intrapersonal (via activation, score=0.3491)
+  - Linguistic (via activation, score=0.1677)
+  - Logical-Mathematical (via activation, score=0.2806)
+  - Interpessoal (via activation, score=0.2026)
+  - Intrapessoal (via activation, score=0.3491)
+  - Linguística (via activation, score=0.1677)
+  - Lógico-matemática (via activation, score=0.2806)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)

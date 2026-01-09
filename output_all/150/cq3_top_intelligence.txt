@@ -1,0 +1,16 @@
+[Documento] urn:doc:150
+  - miVector: 13.89,19.74,4.40,29.59,4.58,0.00,0.00,27.80
+  - TOP (documento): Musical (score=0.2959)
+  - Ranking (top 3):
+      • Musical: 0.2959
+      • Naturalist: 0.2780
+      • Logical-Mathematical: 0.1974
+
+
+[Documento — Fragmentos] urn:doc:150
+
+[Fragmento] Preparacao: Recortar de revistas figuras cujos nomes tenham a mesma terminacao e outras cujos nomes apresentam a mesma silaba inicial (Exemplos: Gato, Rato, Mato, Sapato, ou Bolacha, Bola, Botao, Boliche, ctc.). Incluir outras gravuras que iniciem e terminem com outros fonemas.
+  > TOP: Naturalista (score=0.4919, tipo=Primary)
+
+[Fragmento] Utilizacao: Existe uma enorme multiplicidade para o uso do jogo. Os alunos podem, por exemplo, reunir palavras com o mesmo fonema inicial, agrupar outros com a mesma terminacao. O professor pode ir retirando as gravuras de uma caixa e solicitando dos alunos a identificacao do fonema.
+  > TOP: Musical (score=0.6805, tipo=Primary)

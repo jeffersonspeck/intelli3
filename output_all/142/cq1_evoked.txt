@@ -1,0 +1,71 @@
+[Documento] urn:doc:142
+  - miVector: 3.29,32.96,0.00,13.01,21.24,8.71,10.55,10.24
+  - TOP (documento): Logical-Mathematical (score=0.3296)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3296
+      • Bodily-Kinesthetic: 0.2124
+      • Musical: 0.1301
+
+[Fragmento] Preparacao: A escola deve dispor de um surdo, instrumento musical de percussao consti- tuido de um corpo de madeira ou de metal de 40cm x 30cm, recoberto com uma pele animal ou plastica. Um pandeiro surte o mesmo efeito e com um tecido de lona e possivel improvisar-se um surdo.
+  - Bodily-Kinesthetic (via activation, score=0.1596)
+  - Interpersonal (via activation, score=0.1599)
+  - Logical-Mathematical (via activation, score=0.1171)
+  - Musical (via activation, score=0.2051)
+  - Naturalist (via activation, score=0.3582)
+  - Cinestésico-corporal (via activation, score=0.1596)
+  - Interpessoal (via activation, score=0.1599)
+  - Lógico-matemática (via activation, score=0.1171)
+  - Musical (via activation, score=0.2051)
+  - Naturalista (via activation, score=0.3582)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)
+  - Naturalista (via element)
+
+[Fragmento] Uma baqueta ou pedaco de pau para a percussao. Utilizacao: Os alunos devem ser estimulados a "descobrir" os diferentes tipos de sons que podem ser obtidos do instrumento.
+  - Interpersonal (via activation, score=0.1323)
+  - Intrapersonal (via activation, score=0.3717)
+  - Linguistic (via activation, score=0.1415)
+  - Musical (via activation, score=0.3545)
+  - Interpessoal (via activation, score=0.1323)
+  - Intrapessoal (via activation, score=0.3717)
+  - Linguística (via activation, score=0.1415)
+  - Musical (via activation, score=0.3545)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Linguística (via element)
+  - Musical (via element)
+
+[Fragmento] Batidas com a mao aberta, com a mao fechada, com a baqueta, correndo os dedos sobre a pele do instrumento ou batendo com as unhas obtem-se grande variedade de sons que os alunos devem, progressivamente, ir dominando e identificando.
+  - Bodily-Kinesthetic (via activation, score=0.7535)
+  - Interpersonal (via activation, score=0.0823)
+  - Intrapersonal (via activation, score=0.0821)
+  - Naturalist (via activation, score=0.0821)
+  - Cinestésico-corporal (via activation, score=0.7535)
+  - Interpessoal (via activation, score=0.0823)
+  - Intrapessoal (via activation, score=0.0821)
+  - Naturalista (via activation, score=0.0821)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Intrapersonal (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Interpessoal (via element)
+  - Intrapessoal (via element)
+  - Naturalista (via element)
+
+[Fragmento] O uso da atividade com os alunos com olhos vendados amplia o limite da experiencia. (Existe no comercio, de inumeros fabricantes.)
+  - Logical-Mathematical (via activation, score=1.0000)
+  - Lógico-matemática (via activation, score=1.0000)
+  - Logical-Mathematical (via element)
+  - Lógico-matemática (via element)

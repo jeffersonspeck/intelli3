@@ -1,0 +1,178 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "tres dados forrados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5458241691555658,
+      "relevance": 0.9316546762589928
+    },
+    {
+      "role": "ContextObject",
+      "text": "tres dados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.49725,
+      "relevance": 0.9316546762589928
+    },
+    {
+      "role": "ContextObject",
+      "text": "seis cores diferentes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.49725,
+      "relevance": 0.6942446043165468
+    },
+    {
+      "role": "ContextObject",
+      "text": "tres formas geometricas",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.49725,
+      "relevance": 0.591726618705036
+    },
+    {
+      "role": "ContextObject",
+      "text": "tres formas geometricas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.49725,
+      "relevance": 0.591726618705036
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "triangulos iguais",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7904758292539282,
+      "relevance": 0.9715639810426541
+    },
+    {
+      "role": "Keyword",
+      "text": "cores",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7709612970887448,
+      "relevance": 0.909952606635071
+    },
+    {
+      "role": "Keyword",
+      "text": "recortar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7476353928863191,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "formar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.726597592912489,
+      "relevance": 0.5876777251184835
+    },
+    {
+      "role": "Keyword",
+      "text": "formar equipes",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.726597592912489,
+      "relevance": 0.5876777251184835
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "dados sao jogados",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.8074091948595448,
+      "relevance": 0.898
+    },
+    {
+      "role": "Keyword",
+      "text": "dados sao jogados",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8074091948595448,
+      "relevance": 0.898
+    },
+    {
+      "role": "Keyword",
+      "text": "espalha",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7249766592617108,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "mesa",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7075741197881363,
+      "relevance": 0.962
+    },
+    {
+      "role": "Keyword",
+      "text": "jogador seleciona",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6809161959026192,
+      "relevance": 0.8240000000000001
+    },
+    {
+      "role": "Keyword",
+      "text": "quantidade retira",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6809161959026192,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "quantidade retira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6809161959026192,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "parceiro repete",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6140179552375845,
+      "relevance": 0.6679999999999999
+    },
+    {
+      "role": "Keyword",
+      "text": "repete operacao",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6140179552375845,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "formas (180)",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.9339999999999999
+    }
+  ],
+  "3": [
+    {
+      "role": "Keyword",
+      "text": "cores",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7199710548028433,
+      "relevance": 0.5449999999999999
+    }
+  ]
+}

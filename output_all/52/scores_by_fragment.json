@@ -1,0 +1,17 @@
+{
+  "0": {
+    "NaturalistIntelligence": 1.2418591084189963,
+    "BodilyKinestheticIntelligence": 1.3062440217439262,
+    "SpatialIntelligence": 0.9322406269004806
+  },
+  "1": {
+    "NaturalistIntelligence": 2.7639544582238322,
+    "BodilyKinestheticIntelligence": 1.3693561562460776,
+    "LogicalMathematicalIntelligence": 1.5990613656103867
+  },
+  "2": {
+    "BodilyKinestheticIntelligence": 5.166518966484321,
+    "SpatialIntelligence": 0.5911744504628631,
+    "LogicalMathematicalIntelligence": 0.9892539947384957
+  }
+}

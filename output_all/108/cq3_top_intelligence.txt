@@ -1,0 +1,19 @@
+[Documento] urn:doc:108
+  - miVector: 10.18,25.67,4.88,5.83,32.41,5.83,0.00,15.19
+  - TOP (documento): Bodily-Kinesthetic (score=0.3241)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3241
+      • Logical-Mathematical: 0.2567
+      • Naturalist: 0.1519
+
+
+[Documento — Fragmentos] urn:doc:108
+
+[Fragmento] Preparacao: Folhas de papel-cartao de cor clara, regua, tesoura, lapiseira e canetas hidro- graficas para desenhar o tabuleiro. Massa plastica ou argila colorida permitem a construcao das pecas do jogo.
+  > TOP: Cinestésico-corporal (score=0.3494, tipo=Primary)
+
+[Fragmento] Utilizacao: Os alunos devem ser convocados para confeccionar as pecas e os tabuleiros e para as primeiras e bastante valido o exercicio da criatividade de cada aluno.
+  > TOP: Cinestésico-corporal (score=0.6153, tipo=Primary)
+
+[Fragmento] Com o jogo preparado, e importante a orientacao sobre suas regras e a aceitacao das mesmas favorece a nocao de limites por parte do aluno. O objetivo princi- pal e eliminar as pecas do adversario e atingir o extremo do tabuleiro. (Existem diferentes modalidades de jogos de damas no comercio.)
+  > TOP: Lógico-matemática (score=0.6597, tipo=Primary)

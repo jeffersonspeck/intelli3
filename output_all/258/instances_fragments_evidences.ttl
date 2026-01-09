@@ -1,0 +1,140 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:258#evid-000-00-olhos-vendados> a onto:Keyword ;
+    rdfs:label "olhos vendados"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:258#evid-000-01-proury> a onto:Keyword ;
+    rdfs:label "proury"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:258#evid-000-02-pronunciando-palavra> a onto:Keyword ;
+    rdfs:label "pronunciando palavra"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:258#evid-000-03-sala-completamente-escura-ou-alu> a onto:ContextObject ;
+    rdfs:label "sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-000-04-sala-completamente-escura-ou-alu> a onto:ContextObject ;
+    rdfs:label "sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:258#evid-001-00-caso-ouca> a onto:Keyword ;
+    rdfs:label "caso ouca"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:258#evid-001-01-fazendo-novos-contatos> a onto:Keyword ;
+    rdfs:label "fazendo novos contatos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:258#evid-001-02-ouca-resposta> a onto:Keyword ;
+    rdfs:label "ouca resposta"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:258#evid-001-03-procurar> a onto:Keyword ;
+    rdfs:label "procurar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-001-04-mao-dessa-pessoa> a onto:Keyword ;
+    rdfs:label "mao dessa pessoa"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-002-00-caminhar-tatilmente-ate> a onto:Keyword ;
+    rdfs:label "caminhar tatilmente ate"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-002-01-indagacao-esteja> a onto:Keyword ;
+    rdfs:label "indagacao esteja"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:258#evid-002-02-caso-pessoa> a onto:Keyword ;
+    rdfs:label "caso pessoa"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:258#evid-002-03-pessoas-segurar> a onto:Keyword ;
+    rdfs:label "pessoas segurar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-002-04-segurar-mao> a onto:Keyword ;
+    rdfs:label "segurar mao"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-002-05-caminhar-tatilmente-ate-o-extrem> a onto:DiscursiveStrategy ;
+    rdfs:label "caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:258#evid-003-00-iniciar-jogo> a onto:Keyword ;
+    rdfs:label "iniciar jogo"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:258#evid-003-01-responder-chamada> a onto:Keyword ;
+    rdfs:label "responder chamada"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:258#evid-003-02-responder-chamada> a onto:Keyword ;
+    rdfs:label "responder chamada"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:258#evid-003-03-nao-responder> a onto:Keyword ;
+    rdfs:label "nao responder"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:258#evid-003-04-nao-responder-a-chamada> a onto:DiscursiveStrategy ;
+    rdfs:label "nao responder a chamada"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:258#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Sala completamente escura ou alunos com olhos vendados e um grupo de mais de dez e menos de trinta alunos. Utilizacao: Os alunos devem circular pela sala escura com extremo cuidado e, encontrando alguem, toca-lo levemente, pronunciando a palavra \"Proury\"."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:258> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:258#evid-000-00-olhos-vendados>,
+        <urn:doc:258#evid-000-01-proury>,
+        <urn:doc:258#evid-000-02-pronunciando-palavra>,
+        <urn:doc:258#evid-000-03-sala-completamente-escura-ou-alu>,
+        <urn:doc:258#evid-000-04-sala-completamente-escura-ou-alu> .
+
+<urn:doc:258#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Caso ouca como respos- ta a mesma palavra, continuar circulando e fazendo novos contatos. Ao tocar em al- guem que nao responda ao seu pronunciamento, devera procurar a mao dessa pessoa. Se estiver livre, segura-la e nao mais responder quando tocado."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:258> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:258#evid-001-00-caso-ouca>,
+        <urn:doc:258#evid-001-01-fazendo-novos-contatos>,
+        <urn:doc:258#evid-001-02-ouca-resposta>,
+        <urn:doc:258#evid-001-03-procurar>,
+        <urn:doc:258#evid-001-04-mao-dessa-pessoa> .
+
+<urn:doc:258#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Caso a pessoa que nao respondeu a sua indagacao esteja de maos dadas, caminhar tatilmente ate o extremo da corrente de pessoas e segurar a mao que estiver livre. Ao perceber que nao mais exis- tem sussurros pela sala, a luz deve ser acesa."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:258> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:258#evid-002-00-caminhar-tatilmente-ate>,
+        <urn:doc:258#evid-002-01-indagacao-esteja>,
+        <urn:doc:258#evid-002-02-caso-pessoa>,
+        <urn:doc:258#evid-002-03-pessoas-segurar>,
+        <urn:doc:258#evid-002-04-segurar-mao>,
+        <urn:doc:258#evid-002-05-caminhar-tatilmente-ate-o-extrem> .
+
+<urn:doc:258#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "Antes de iniciar o jogo, avisar a um partici- pante para nao responder a chamada, iniciando a formacao da corrente."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:258> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:258#evid-003-00-iniciar-jogo>,
+        <urn:doc:258#evid-003-01-responder-chamada>,
+        <urn:doc:258#evid-003-02-responder-chamada>,
+        <urn:doc:258#evid-003-03-nao-responder>,
+        <urn:doc:258#evid-003-04-nao-responder-a-chamada> .
+
+<urn:doc:258> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:258#frag-000>,
+        <urn:doc:258#frag-001>,
+        <urn:doc:258#frag-002>,
+        <urn:doc:258#frag-003> .
+

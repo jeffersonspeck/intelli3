@@ -1,0 +1,130 @@
+[Documento] urn:doc:334
+  - miVector: 8.49,8.02,1.68,0.00,0.00,50.69,3.48,27.64
+  - TOP (documento): Interpersonal (score=0.5069)
+  - Ranking (top 3):
+      • Interpersonal: 0.5069
+      • Naturalist: 0.2764
+      • Linguistic: 0.0849
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: propiciando clima
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0505
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • ContextObject: relacoes interpessoais entre os alunos e, eventualmente, seus professores EUR funcionarios administrativos da escola
+        • DiscursiveStrategy: propiciando um clima de mais agudo auto e heteroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos
+        • Keyword: aberta discussao
+        • Keyword: colocando debate
+        • Keyword: debate eventuais propostas
+        • Keyword: discussao sobre problemas
+        • Keyword: eur funcionarios administrativos
+        • Keyword: natureza emocional
+        • Keyword: problemas apresentados
+        • Keyword: professores eur funcionarios
+        • Keyword: propiciando clima
+        • Keyword: propostas soluciona los
+        • Keyword: relacoes interpessoais
+        • Keyword: sao trabalhados
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=0.7958
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • Keyword: agudo auto
+        • Keyword: auto heteroconhecimento
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1045
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: escrevam queixas
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2547
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: envolvem relacoes
+        • Keyword: propostas soluciona los
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2042
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: caixa de sapatos com uma abertura, que sera a caixa de correio.
+        • DiscursiveStrategy: propiciando um clima de mais agudo auto e heteroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos
+        • Keyword: aberta discussao
+        • Keyword: discussao sobre problemas
+        • Keyword: natureza emocional
+        • Keyword: natureza material
+        • Keyword: propiciando clima
+        • Keyword: queixas natureza
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4542
+
+
+[Documento — Fragmentos] urn:doc:334
+
+[Fragmento] Preparacao: Uma caixa de sapatos com uma abertura, que sera a caixa de correio. Os alunos sao trabalhados para que escrevam suas queixas e seus problemas e de- positem, anonimamente, na caixa de correio.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: sao trabalhados
+    - Ativações:
+        • score=0.2911, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: escrevam queixas
+    - Ativações:
+        • score=0.2547, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: caixa de sapatos com uma abertura, que sera a caixa de correio.
+    - Ativações:
+        • score=0.4542, tipo=Primary
+
+[Fragmento] Utilizacao: Periodicamente o professor abre a caixa de correio e le as queixas e os pro- blemas apresentados, colocando em debate eventuais propostas para solucio- na-los.
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: colocando debate
+        • Keyword: debate eventuais propostas
+        • Keyword: problemas apresentados
+        • Keyword: propostas soluciona los
+    - Ativações:
+        • score=0.7958, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: propostas soluciona los
+    - Ativações:
+        • score=0.2042, tipo=Secondary
+
+[Fragmento] E importante que a atividade se desvie de queixas de natureza material para as de natureza emocional, propiciando um clima de mais agudo auto e he- teroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos e, eventualmente, seus professores EUR funcionarios administrativos da escola.
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: propiciando clima
+    - Ativações:
+        • score=0.0505, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • ContextObject: relacoes interpessoais entre os alunos e, eventualmente, seus professores EUR funcionarios administrativos da escola
+        • DiscursiveStrategy: propiciando um clima de mais agudo auto e heteroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos
+        • Keyword: aberta discussao
+        • Keyword: discussao sobre problemas
+        • Keyword: eur funcionarios administrativos
+        • Keyword: natureza emocional
+        • Keyword: professores eur funcionarios
+        • Keyword: propiciando clima
+        • Keyword: relacoes interpessoais
+    - Ativações:
+        • score=0.4338, tipo=Primary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • Keyword: agudo auto
+        • Keyword: auto heteroconhecimento
+    - Ativações:
+        • score=0.1045, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: envolvem relacoes
+    - Ativações:
+        • score=0.0363, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • DiscursiveStrategy: propiciando um clima de mais agudo auto e heteroconhecimento e para uma aberta discussao sobre problemas que envolvem as relacoes interpessoais entre os alunos
+        • Keyword: aberta discussao
+        • Keyword: discussao sobre problemas
+        • Keyword: natureza emocional
+        • Keyword: natureza material
+        • Keyword: propiciando clima
+        • Keyword: queixas natureza
+    - Ativações:
+        • score=0.3749, tipo=Secondary

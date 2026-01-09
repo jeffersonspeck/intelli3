@@ -1,0 +1,68 @@
+[Documento] urn:doc:48
+  - miVector: 0.00,36.05,0.00,9.17,31.93,0.00,0.00,22.86
+  - TOP (documento): Logical-Mathematical (score=0.3605)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3605
+      • Bodily-Kinesthetic: 0.3193
+      • Naturalist: 0.2286
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: oito garrafas de plastico
+        • Keyword: cortar
+        • Keyword: selecionar oito garrafas
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.5649
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: altura
+        • Keyword: ordenar
+        • Keyword: ordenar garrafas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.6342
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: cortar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1622
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: fitas colantes
+        • Keyword: tamanhos quase iguais
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.3658
+
+
+[Documento — Fragmentos] urn:doc:48
+
+[Fragmento] Preparacao: Selecionar oito garrafas de plastico, cortar a 1o com 15cm de altura, as ou- tras com 12,5cm, 10cm, 7cm, 5,25cm, 5cm, 4,0cm e 3,5cm. De acabamento com fitas colantes nas beiradas.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: oito garrafas de plastico
+        • Keyword: cortar
+        • Keyword: selecionar oito garrafas
+    - Ativações:
+        • score=0.5649, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: altura
+    - Ativações:
+        • score=0.1499, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: cortar
+    - Ativações:
+        • score=0.1622, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: fitas colantes
+    - Ativações:
+        • score=0.1230, tipo=Secondary
+
+[Fragmento] Utilizacao: Os alunos devem ordenar as garrafas em tamanho, formando diferentes composicoes, agrupando as de tamanhos quase iguais ou diferentes, ordenan- do-as em fileiras, da menor para a maior e da maior para a menor. (Existem no mercado jogos com pinos de madeira -- Coluna e outros.)
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: ordenar
+        • Keyword: ordenar garrafas
+    - Ativações:
+        • score=0.6342, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: tamanhos quase iguais
+    - Ativações:
+        • score=0.3658, tipo=Secondary

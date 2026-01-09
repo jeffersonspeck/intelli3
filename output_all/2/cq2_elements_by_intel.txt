@@ -1,0 +1,70 @@
+[Documento] urn:doc:2
+  - miVector: 27.07,0.00,10.34,0.00,48.14,14.45,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4814)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4814
+      • Linguistic: 0.2707
+      • Interpersonal: 0.1445
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: cartolina pecas
+        • Keyword: construir cartolina
+        • Keyword: desenhar montar
+        • Keyword: montando
+        • Keyword: montar cartolina
+        • Keyword: pecas jogo
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5614
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • Keyword: estrutura interna
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1830
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: completem esse aposento
+        • Keyword: pecas completem
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2556
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: nomear o objeto, montando-o sobre a estrutura
+        • Keyword: crianca nomear
+        • Keyword: nomear objeto
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.6227
+
+
+[Documento — Fragmentos] urn:doc:2
+
+[Fragmento] Preparacao: Desenhar ou montar em cartolina uma cozinha, um quarto ou a estrutura interna de uma casa. Construir em cartolina pecas que completem esse aposento, como sofas, camas, mesas, espelhos, armarios, panelas e outros objetos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: cartolina pecas
+        • Keyword: construir cartolina
+        • Keyword: desenhar montar
+        • Keyword: montar cartolina
+    - Ativações:
+        • score=0.5614, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: estrutura interna
+    - Ativações:
+        • score=0.1830, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: completem esse aposento
+        • Keyword: pecas completem
+    - Ativações:
+        • score=0.2556, tipo=Secondary
+
+[Fragmento] Utilizacao: Ao receber as pecas do jogo, a crianca devera nomear o objeto, montan- do-o sobre a estrutura. O jogo pode ser desenvolvido em grupo e, nas etapas seguintes, devera no- mear, dizer as cores ou contar historias que envolvam essa montagem.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: montando
+        • Keyword: pecas jogo
+    - Ativações:
+        • score=0.3773, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: nomear o objeto, montando-o sobre a estrutura
+        • Keyword: crianca nomear
+        • Keyword: nomear objeto
+    - Ativações:
+        • score=0.6227, tipo=Primary

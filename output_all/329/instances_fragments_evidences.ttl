@@ -1,0 +1,202 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:329#evid-000-00-colocar-circulo> a onto:Keyword ;
+    rdfs:label "colocar circulo"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-000-01-possam-colocar> a onto:Keyword ;
+    rdfs:label "possam colocar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:329#evid-000-02-possam-colocar> a onto:Keyword ;
+    rdfs:label "possam colocar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-000-03-numero> a onto:Keyword ;
+    rdfs:label "numero"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:329#evid-000-04-sala> a onto:Keyword ;
+    rdfs:label "sala"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:329#evid-000-05-atribuira> a onto:Keyword ;
+    rdfs:label "atribuira"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:329#evid-000-06-se-colocar-em-circulo> a onto:DiscursiveStrategy ;
+    rdfs:label "se colocar em circulo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-000-07-se-colocar-em-circulo> a onto:DiscursiveStrategy ;
+    rdfs:label "se colocar em circulo"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:329#evid-000-08-sala> a onto:ContextObject ;
+    rdfs:label "sala"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:329#evid-001-00-observar-atentamente> a onto:Keyword ;
+    rdfs:label "observar atentamente"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-001-01-observar-atentamente> a onto:Keyword ;
+    rdfs:label "observar atentamente"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:329#evid-001-02-viram> a onto:Keyword ;
+    rdfs:label "viram"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-001-03-viram-costas> a onto:Keyword ;
+    rdfs:label "viram costas"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-001-04-centro-circulo> a onto:Keyword ;
+    rdfs:label "centro circulo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:329#evid-002-00-tentando-descobrir> a onto:Keyword ;
+    rdfs:label "tentando descobrir"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:329#evid-002-01-alteracao-feita> a onto:Keyword ;
+    rdfs:label "alteracao feita"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:329#evid-002-02-sinal> a onto:Keyword ;
+    rdfs:label "sinal"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:329#evid-002-03-sinal> a onto:Keyword ;
+    rdfs:label "sinal"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:329#evid-002-04-observar> a onto:Keyword ;
+    rdfs:label "observar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:329#evid-003-00-explora> a onto:Keyword ;
+    rdfs:label "explora"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:329#evid-003-01-identidade-visual> a onto:Keyword ;
+    rdfs:label "identidade visual"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:329#evid-003-02-proceder-mudanca> a onto:Keyword ;
+    rdfs:label "proceder mudanca"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:329#evid-003-03-explora-percepcao> a onto:Keyword ;
+    rdfs:label "explora percepcao"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:329#evid-003-04-explora-percepcao> a onto:Keyword ;
+    rdfs:label "explora percepcao"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:329#evid-003-05-mudanca-detalhes> a onto:Keyword ;
+    rdfs:label "mudanca detalhes"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:329#evid-003-06-observando> a onto:Keyword ;
+    rdfs:label "observando"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:329#evid-003-07-observando> a onto:Keyword ;
+    rdfs:label "observando"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-003-08-progresso> a onto:Keyword ;
+    rdfs:label "progresso"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-003-09-observando-se-se-ha-progresso-ce> a onto:DiscursiveStrategy ;
+    rdfs:label "observando-se se ha progresso ce, consequentemente, aumento de dificuldades em se proceder mudanca de detalhes nao notados."@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:329#evid-003-10-observando-se-se-ha-progresso-ce> a onto:DiscursiveStrategy ;
+    rdfs:label "observando-se se ha progresso ce, consequentemente, aumento de dificuldades em se proceder mudanca de detalhes nao notados."@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#evid-004-00-procedendo-mesma> a onto:Keyword ;
+    rdfs:label "procedendo mesma"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:329#evid-004-01-chamar-dois-alunos-para-o-centro> a onto:DiscursiveStrategy ;
+    rdfs:label "chamar dois alunos para o centro do circulo"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:329#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Uma sala para que os alunos possam se colocar em circulo. Utilizacao: O professor atribuira um numero a cada aluno ate a metade dos compo- nentes. Inicia, depois, a mesma numeracao dos demais, de maneira a existir dois alunos de numero 1, dois de numero 2 e assim por diante."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:329> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:329#evid-000-00-colocar-circulo>,
+        <urn:doc:329#evid-000-01-possam-colocar>,
+        <urn:doc:329#evid-000-02-possam-colocar>,
+        <urn:doc:329#evid-000-03-numero>,
+        <urn:doc:329#evid-000-04-sala>,
+        <urn:doc:329#evid-000-05-atribuira>,
+        <urn:doc:329#evid-000-06-se-colocar-em-circulo>,
+        <urn:doc:329#evid-000-07-se-colocar-em-circulo>,
+        <urn:doc:329#evid-000-08-sala> .
+
+<urn:doc:329#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Cada aluno deve observar atentamente seu par por alguns segundos; a um sinal do profes- sor viram-se de costas para o centro do circulo e alteram um detalhe de si mes- mos (por exemplo: solta fio do sapato, tira uma correntinha, etc.)."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:329> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:329#evid-001-00-observar-atentamente>,
+        <urn:doc:329#evid-001-01-observar-atentamente>,
+        <urn:doc:329#evid-001-02-viram>,
+        <urn:doc:329#evid-001-03-viram-costas>,
+        <urn:doc:329#evid-001-04-centro-circulo> .
+
+<urn:doc:329#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "A um sinal do professor voltam a se observar, tentando descobrir qual a alteracao feita."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:329> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:329#evid-002-00-tentando-descobrir>,
+        <urn:doc:329#evid-002-01-alteracao-feita>,
+        <urn:doc:329#evid-002-02-sinal>,
+        <urn:doc:329#evid-002-03-sinal>,
+        <urn:doc:329#evid-002-04-observar> .
+
+<urn:doc:329#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "A atividade explora a percepcao e a identidade visual do outro e deve ser repetida varias vezes, observando-se se ha progresso ce, consequentemente, au- mento de dificuldades em se proceder mudanca de detalhes nao notados."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:329> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:329#evid-003-00-explora>,
+        <urn:doc:329#evid-003-01-identidade-visual>,
+        <urn:doc:329#evid-003-02-proceder-mudanca>,
+        <urn:doc:329#evid-003-03-explora-percepcao>,
+        <urn:doc:329#evid-003-04-explora-percepcao>,
+        <urn:doc:329#evid-003-05-mudanca-detalhes>,
+        <urn:doc:329#evid-003-06-observando>,
+        <urn:doc:329#evid-003-07-observando>,
+        <urn:doc:329#evid-003-08-progresso>,
+        <urn:doc:329#evid-003-09-observando-se-se-ha-progresso-ce>,
+        <urn:doc:329#evid-003-10-observando-se-se-ha-progresso-ce> .
+
+<urn:doc:329#frag-004> a onto:ExplanationFragment ;
+    rdfs:label "Uma outra forma e chamar dois alunos para o centro do circulo, procedendo-se a mesma experiencia. -- 255"@pt ;
+    dct:identifier 4 ;
+    dct:isPartOf <urn:doc:329> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:329#evid-004-00-procedendo-mesma>,
+        <urn:doc:329#evid-004-01-chamar-dois-alunos-para-o-centro> .
+
+<urn:doc:329> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:329#frag-000>,
+        <urn:doc:329#frag-001>,
+        <urn:doc:329#frag-002>,
+        <urn:doc:329#frag-003>,
+        <urn:doc:329#frag-004> .
+

@@ -1,0 +1,122 @@
+[Documento] urn:doc:10
+  - miVector: 34.03,6.23,0.00,4.03,20.92,30.08,0.00,4.70
+  - TOP (documento): Linguistic (score=0.3403)
+  - Ranking (top 3):
+      • Linguistic: 0.3403
+      • Interpersonal: 0.3008
+      • Bodily-Kinesthetic: 0.2092
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: cronometrar participacao
+        • Keyword: expressao correspondente
+        • Keyword: funcao cronometrar
+        • Keyword: mantiver
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.3104
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: dialogo
+        • Keyword: dialogo dinamico
+        • Keyword: equipe
+        • Keyword: induzi
+        • Keyword: mantiver
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5793
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: dizer negativo
+        • Keyword: atraves perguntas
+        • Keyword: disser palavra
+        • Keyword: nasceu nigeria
+        • Keyword: negativo
+        • Keyword: verdade nasceu
+        • Keyword: voce casado
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7143
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: expressao correspondente
+        • Keyword: inicia
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1293
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: dizer negativo
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1330
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • Keyword: funcao cronometrar
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1552
+
+
+[Documento — Fragmentos] urn:doc:10
+
+[Fragmento] Preparacao: Alunos divididos em grupos. Cada grupo escolhe alternativamente um representante. Um aluno fica com a funcao de cronometrar a participacao de cada aluno. Utilizacao: O professor inicia o dialogo com o aluno e deve, atraves de perguntas, induzi-lo a dizer a palavra nao.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: cronometrar participacao
+        • Keyword: funcao cronometrar
+    - Ativações:
+        • score=0.3104, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: dialogo
+        • Keyword: induzi
+    - Ativações:
+        • score=0.2396, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: atraves perguntas
+    - Ativações:
+        • score=0.1655, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: inicia
+    - Ativações:
+        • score=0.1293, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: funcao cronometrar
+    - Ativações:
+        • score=0.1552, tipo=Secondary
+
+[Fragmento] (Perguntas do tipo: Voce e casado? / E verdade que nasceu na Nigeria, etc.) Os alunos sao informados que nao devem omitir a verdade e que ao inves dessa palavra devem dizer negativo, de forma alguma ou outra expressao correspondente.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: expressao correspondente
+    - Ativações:
+        • score=0.0764, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • DiscursiveStrategy: dizer negativo
+        • Keyword: nasceu nigeria
+        • Keyword: negativo
+        • Keyword: verdade nasceu
+        • Keyword: voce casado
+    - Ativações:
+        • score=0.7143, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: expressao correspondente
+    - Ativações:
+        • score=0.0764, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: dizer negativo
+    - Ativações:
+        • score=0.1330, tipo=Secondary
+
+[Fragmento] Cada aluno que mantiver um dialogo dinami- co e em 30 segundos nao disser a palavra nao ganha ponto para sua equipe. 53
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: mantiver
+    - Ativações:
+        • score=0.2336, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: dialogo dinamico
+        • Keyword: equipe
+        • Keyword: mantiver
+    - Ativações:
+        • score=0.5793, tipo=Primary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: disser palavra
+    - Ativações:
+        • score=0.1872, tipo=Secondary

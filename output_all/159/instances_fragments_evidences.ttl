@@ -1,0 +1,175 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:159#evid-000-00-casas-caca> a onto:Keyword ;
+    rdfs:label "casas caca"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:159#evid-000-01-caca-pesca> a onto:Keyword ;
+    rdfs:label "caca pesca"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:159#evid-000-02-aves-pecas> a onto:Keyword ;
+    rdfs:label "aves pecas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-000-03-atrair-aves> a onto:Keyword ;
+    rdfs:label "atrair aves"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-000-04-costumam-ser-utilizados> a onto:Keyword ;
+    rdfs:label "costumam ser utilizados"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:159#evid-000-05-utilizados-cacadores> a onto:Keyword ;
+    rdfs:label "utilizados cacadores"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:159#evid-000-06-adquirir-em-casas-de-caca-e-pesc> a onto:DiscursiveStrategy ;
+    rdfs:label "Adquirir em casas de caca e pesca pios de aves em pecas de madeira."@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:159#evid-000-07-adquirir-em-casas-de-caca-e-pesc> a onto:DiscursiveStrategy ;
+    rdfs:label "Adquirir em casas de caca e pesca pios de aves em pecas de madeira."@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-000-08-pios-de-aves-em-pecas-de-madeira> a onto:ContextObject ;
+    rdfs:label "pios de aves em pecas de madeira"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-001-00-identificar-beleza> a onto:Keyword ;
+    rdfs:label "identificar beleza"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-001-01-descobrir-habitat> a onto:Keyword ;
+    rdfs:label "descobrir habitat"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:159#evid-001-02-descobrir-habitat> a onto:Keyword ;
+    rdfs:label "descobrir habitat"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-001-03-habitos-especie> a onto:Keyword ;
+    rdfs:label "habitos especie"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-001-04-especie-identificar> a onto:Keyword ;
+    rdfs:label "especie identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-002-00-abrigar-progressivo-dominio> a onto:Keyword ;
+    rdfs:label "abrigar progressivo dominio"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-002-01-levar> a onto:Keyword ;
+    rdfs:label "levar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:159#evid-002-02-arvores-passaros> a onto:Keyword ;
+    rdfs:label "arvores passaros"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-002-03-existam-arvores> a onto:Keyword ;
+    rdfs:label "existam arvores"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-002-04-pios-podem-abrigar> a onto:Keyword ;
+    rdfs:label "pios podem abrigar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-002-05-diversidade-dessas-especies> a onto:Keyword ;
+    rdfs:label "diversidade dessas especies"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-002-06-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:159#evid-002-07-identificar> a onto:Keyword ;
+    rdfs:label "identificar"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-002-08-experiencia> a onto:Keyword ;
+    rdfs:label "experiencia"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:159#evid-002-09-sons> a onto:Keyword ;
+    rdfs:label "sons"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:159#evid-003-00-comerciam-artigos> a onto:Keyword ;
+    rdfs:label "comerciam artigos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:159#evid-003-01-artigos-caca> a onto:Keyword ;
+    rdfs:label "artigos caca"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:159#evid-003-02-comerciam-artigos-de-caca-e-pesc> a onto:DiscursiveStrategy ;
+    rdfs:label "comerciam artigos de caca e pesca."@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:159#evid-003-03-artigos-de-caca-e-pesca> a onto:ContextObject ;
+    rdfs:label "artigos de caca e pesca"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:159#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Adquirir em casas de caca e pesca pios de aves em pecas de madeira. Esses pios costumam ser utilizados por cacadores para atrair aves. Utilizacao: Existe uma enorme multiplicidade para o uso do jogo."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:159> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:159#evid-000-00-casas-caca>,
+        <urn:doc:159#evid-000-01-caca-pesca>,
+        <urn:doc:159#evid-000-02-aves-pecas>,
+        <urn:doc:159#evid-000-03-atrair-aves>,
+        <urn:doc:159#evid-000-04-costumam-ser-utilizados>,
+        <urn:doc:159#evid-000-05-utilizados-cacadores>,
+        <urn:doc:159#evid-000-06-adquirir-em-casas-de-caca-e-pesc>,
+        <urn:doc:159#evid-000-07-adquirir-em-casas-de-caca-e-pesc>,
+        <urn:doc:159#evid-000-08-pios-de-aves-em-pecas-de-madeira> .
+
+<urn:doc:159#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Os alunos podem, por exemplo, ser levados a descobrir o habitat e os habitos da especie e identifi- car sua beleza."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:159> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:159#evid-001-00-identificar-beleza>,
+        <urn:doc:159#evid-001-01-descobrir-habitat>,
+        <urn:doc:159#evid-001-02-descobrir-habitat>,
+        <urn:doc:159#evid-001-03-habitos-especie>,
+        <urn:doc:159#evid-001-04-especie-identificar> .
+
+<urn:doc:159#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Os pios podem abrigar progressivo dominio da diversidade dessas especies e a experiencia pode, em etapas mais avancadas, levar os alunos a identificar esses e outros sons em uma excursao por um bosque ou mesmo em uma visita a uma praca onde existam arvores e passaros."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:159> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:159#evid-002-00-abrigar-progressivo-dominio>,
+        <urn:doc:159#evid-002-01-levar>,
+        <urn:doc:159#evid-002-02-arvores-passaros>,
+        <urn:doc:159#evid-002-03-existam-arvores>,
+        <urn:doc:159#evid-002-04-pios-podem-abrigar>,
+        <urn:doc:159#evid-002-05-diversidade-dessas-especies>,
+        <urn:doc:159#evid-002-06-identificar>,
+        <urn:doc:159#evid-002-07-identificar>,
+        <urn:doc:159#evid-002-08-experiencia>,
+        <urn:doc:159#evid-002-09-sons> .
+
+<urn:doc:159#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "(Existem pios em lojas que comerciam artigos de caca e pesca.)"@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:159> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:159#evid-003-00-comerciam-artigos>,
+        <urn:doc:159#evid-003-01-artigos-caca>,
+        <urn:doc:159#evid-003-02-comerciam-artigos-de-caca-e-pesc>,
+        <urn:doc:159#evid-003-03-artigos-de-caca-e-pesca> .
+
+<urn:doc:159> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:159#frag-000>,
+        <urn:doc:159#frag-001>,
+        <urn:doc:159#frag-002>,
+        <urn:doc:159#frag-003> .
+

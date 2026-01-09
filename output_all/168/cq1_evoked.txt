@@ -1,0 +1,39 @@
+[Documento] urn:doc:168
+  - miVector: 0.00,8.59,3.26,8.73,50.70,12.81,15.92,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.5070)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.5070
+      • Intrapersonal: 0.1592
+      • Interpersonal: 0.1281
+
+[Fragmento] Preparacao: Montar um trilho de cerca de 10 a 15cm de largura, apoiado em duas bases de madeira ou tijolos, a cerca de 20cm do chao. Utilizacao: Mostrar aos alunos como proceder e faze-los caminhar sobre o trilho, de frente, depois de costas e de lado.
+  - Bodily-Kinesthetic (via activation, score=0.7158)
+  - Interpersonal (via activation, score=0.2266)
+  - Spatial (via activation, score=0.0576)
+  - Cinestésico-corporal (via activation, score=0.7158)
+  - Espacial-visual (via activation, score=0.0576)
+  - Interpessoal (via activation, score=0.2266)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+
+[Fragmento] Em etapas mais avancadas, repetir a experien- cia com o aluno, tendo seus olhos vendados. Aproveitar o recurso para que o aluno tambem de saltos. Dividir, posteriormente, o trilho em partes e levar os alunos a saltarem de uma para outra parte. (Existe no comercio -- Trilho [Q.I.].)
+  - Bodily-Kinesthetic (via activation, score=0.2355)
+  - Intrapersonal (via activation, score=0.3662)
+  - Logical-Mathematical (via activation, score=0.1976)
+  - Musical (via activation, score=0.2007)
+  - Cinestésico-corporal (via activation, score=0.2355)
+  - Intrapessoal (via activation, score=0.3662)
+  - Lógico-matemática (via activation, score=0.1976)
+  - Musical (via activation, score=0.2007)
+  - Bodily-Kinesthetic (via element)
+  - Intrapersonal (via element)
+  - Logical-Mathematical (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Intrapessoal (via element)
+  - Lógico-matemática (via element)
+  - Musical (via element)

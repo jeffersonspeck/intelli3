@@ -1,0 +1,110 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "diferentes espessuras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7877978399478209,
+      "relevance": 0.962962962962963
+    },
+    {
+      "role": "Keyword",
+      "text": "corda diferentes",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7680008050805782,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pedacos corda",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.7588505526095722,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "comparar pedacos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.720242314993515,
+      "relevance": 0.8222222222222222
+    },
+    {
+      "role": "ContextObject",
+      "text": "pedacos de corda de diferentes espessuras, lapis e canetas, linhas e las",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "comparar espessuras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.785586063207957,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "grossos finos",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.785586063207957,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "formar conjuntos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7707760066433733,
+      "relevance": 0.8877551020408163
+    },
+    {
+      "role": "Keyword",
+      "text": "objetos grossos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7707760066433733,
+      "relevance": 0.7857142857142857
+    },
+    {
+      "role": "Keyword",
+      "text": "espessuras formar",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7707760066433733,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "conjuntos objetos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7707760066433733,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Comparar espessuras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "objetos grossos e finos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.7857142857142857
+    }
+  ]
+}

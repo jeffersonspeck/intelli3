@@ -1,0 +1,62 @@
+[Documento] urn:doc:113
+  - miVector: 0.00,0.00,56.01,0.00,0.00,0.00,0.00,43.99
+  - TOP (documento): Spatial (score=0.5601)
+  - Ranking (top 3):
+      • Spatial: 0.5601
+      • Naturalist: 0.4399
+      • Linguistic: 0.0000
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: encontrar a metade de sua figura e formar o par
+        • Keyword: ajusta figura
+        • Keyword: cola varias figuras
+        • Keyword: encontrar metade
+        • Keyword: figura formar
+        • Keyword: formar par
+        • Keyword: intelicencia espacial
+        • Keyword: melhor ajusta
+        • Keyword: mesmas figuras
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.7658
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: sua figura
+        • Keyword: figura original
+        • Keyword: obtidas revistas
+        • Keyword: varias figuras obtidas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.5981
+
+
+[Documento — Fragmentos] urn:doc:113
+
+[Fragmento] Preparacao: O papel-cartao e dividido ao meio em duas partes. Em uma das partes o professor cola varias figuras obtidas em revistas ou em Cliparts de computa- dor; na outra metade, essas mesmas figuras, porem incompletas, faltando uma pequena parte.
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: cola varias figuras
+        • Keyword: mesmas figuras
+    - Ativações:
+        • score=0.4019, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • Keyword: obtidas revistas
+        • Keyword: varias figuras obtidas
+    - Ativações:
+        • score=0.5981, tipo=Primary
+
+[Fragmento] Utilizacao: A tarefa dos alunos sera encontrar a metade de sua figura e formar o par, identificando entre as opcoes existentes, e naturalmente incompletas, a que me- lhor se ajusta a figura original. :r.03-B Intelicencia Espacial
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • DiscursiveStrategy: encontrar a metade de sua figura e formar o par
+        • Keyword: ajusta figura
+        • Keyword: encontrar metade
+        • Keyword: figura formar
+        • Keyword: formar par
+        • Keyword: intelicencia espacial
+        • Keyword: melhor ajusta
+    - Ativações:
+        • score=0.7658, tipo=Primary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: sua figura
+        • Keyword: figura original
+    - Ativações:
+        • score=0.2342, tipo=Secondary

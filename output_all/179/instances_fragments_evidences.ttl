@@ -1,0 +1,113 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:179#evid-000-00-usar-petecas> a onto:Keyword ;
+    rdfs:label "usar petecas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:179#evid-000-01-jogar> a onto:Keyword ;
+    rdfs:label "jogar"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:179#evid-000-02-recebe> a onto:Keyword ;
+    rdfs:label "recebe"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:179#evid-000-03-aumentar-progressivamente> a onto:Keyword ;
+    rdfs:label "aumentar progressivamente"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:179#evid-000-04-distancias-arremessos> a onto:Keyword ;
+    rdfs:label "distancias arremessos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:179#evid-000-05-usar-petecas-e-estimular-diferen> a onto:DiscursiveStrategy ;
+    rdfs:label "Usar petecas e estimular diferentes formas de uso. O aluno devera jogar a peteca, recebe-la com uma e com outra mao. Aumentar progressivamente as distancias …"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:179#evid-001-00-estabelecer-claros-limites> a onto:Keyword ;
+    rdfs:label "estabelecer claros limites"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:179#evid-001-01-limites-discutir> a onto:Keyword ;
+    rdfs:label "limites discutir"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:179#evid-001-02-novas-regras> a onto:Keyword ;
+    rdfs:label "novas regras"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:179#evid-001-03-discutir-com-os-alunos-novas-reg> a onto:DiscursiveStrategy ;
+    rdfs:label "discutir com os alunos novas regras e novos jogos"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:179#evid-001-04-novas-regras-e-novos-jogos> a onto:ContextObject ;
+    rdfs:label "novas regras e novos jogos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:179#evid-002-00-representa-tambem-excelente> a onto:Keyword ;
+    rdfs:label "representa tambem excelente"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:179#evid-002-01-tambem-excelente-recurso> a onto:Keyword ;
+    rdfs:label "tambem excelente recurso"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:179#evid-002-02-recurso-exercicios> a onto:Keyword ;
+    rdfs:label "recurso exercicios"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:179#evid-002-03-um-brinquedo-plic-ploc----fabric> a onto:ContextObject ;
+    rdfs:label "Um brinquedo (Plic-Ploc -- fabricado por Stelco)"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:179#evid-002-04-cesta-conica-com-cabo-e-alavanca> a onto:ContextObject ;
+    rdfs:label "cesta conica com cabo e alavanca arremessadora de bola plastica"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:179#evid-002-05-cesta-conica-com-cabo-e-alavanca> a onto:ContextObject ;
+    rdfs:label "cesta conica com cabo e alavanca arremessadora de bola plastica"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:179#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Usar petecas e estimular diferentes formas de uso. Utilizacao: O aluno devera jogar a peteca, recebe-la com uma e com outra mao. Au- mentar progressivamente as distancias dos arremessos."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:179> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:179#evid-000-00-usar-petecas>,
+        <urn:doc:179#evid-000-01-jogar>,
+        <urn:doc:179#evid-000-02-recebe>,
+        <urn:doc:179#evid-000-03-aumentar-progressivamente>,
+        <urn:doc:179#evid-000-04-distancias-arremessos>,
+        <urn:doc:179#evid-000-05-usar-petecas-e-estimular-diferen> .
+
+<urn:doc:179#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Estabelecer claros limites e discutir com os alunos novas regras e novos jogos, usando sempre esse recur- so."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:179> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:179#evid-001-00-estabelecer-claros-limites>,
+        <urn:doc:179#evid-001-01-limites-discutir>,
+        <urn:doc:179#evid-001-02-novas-regras>,
+        <urn:doc:179#evid-001-03-discutir-com-os-alunos-novas-reg>,
+        <urn:doc:179#evid-001-04-novas-regras-e-novos-jogos> .
+
+<urn:doc:179#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Um brinquedo (Plic-Ploc -- fabricado por Stelco) constituido por uma cesta conica com cabo e alavanca arremessadora de bola plastica representa tambem excelente recurso para exercicios analogos. (Existem no comercio diversas marcas.)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:179> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:179#evid-002-00-representa-tambem-excelente>,
+        <urn:doc:179#evid-002-01-tambem-excelente-recurso>,
+        <urn:doc:179#evid-002-02-recurso-exercicios>,
+        <urn:doc:179#evid-002-03-um-brinquedo-plic-ploc----fabric>,
+        <urn:doc:179#evid-002-04-cesta-conica-com-cabo-e-alavanca>,
+        <urn:doc:179#evid-002-05-cesta-conica-com-cabo-e-alavanca> .
+
+<urn:doc:179> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:179#frag-000>,
+        <urn:doc:179#frag-001>,
+        <urn:doc:179#frag-002> .
+

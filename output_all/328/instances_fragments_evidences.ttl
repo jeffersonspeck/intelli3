@@ -1,0 +1,232 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:328#evid-000-00-montasse> a onto:Keyword ;
+    rdfs:label "montasse"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:328#evid-000-01-montasse-mural> a onto:Keyword ;
+    rdfs:label "montasse mural"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:328#evid-000-02-mural-sala> a onto:Keyword ;
+    rdfs:label "mural sala"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:328#evid-000-03-contendo-retrato> a onto:Keyword ;
+    rdfs:label "contendo retrato"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:328#evid-000-04-contendo-retrato> a onto:Keyword ;
+    rdfs:label "contendo retrato"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:328#evid-000-05-abaixo> a onto:Keyword ;
+    rdfs:label "abaixo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-000-06-abaixo-mesmo> a onto:Keyword ;
+    rdfs:label "abaixo mesmo"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-000-07-interessante> a onto:Keyword ;
+    rdfs:label "interessante"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:328#evid-000-08-retrato-de-cada-um-dos-alunos> a onto:ContextObject ;
+    rdfs:label "retrato de cada um dos alunos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:328#evid-001-00-figuras-geometricas-sejam> a onto:Keyword ;
+    rdfs:label "figuras geometricas sejam"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:328#evid-001-01-geometricas-sejam-fixadas> a onto:Keyword ;
+    rdfs:label "geometricas sejam fixadas"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:328#evid-001-02-geometricas-sejam-fixadas> a onto:Keyword ;
+    rdfs:label "geometricas sejam fixadas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:328#evid-001-03-cores-verde> a onto:Keyword ;
+    rdfs:label "cores verde"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-001-04-revestido-feltro> a onto:Keyword ;
+    rdfs:label "revestido feltro"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:328#evid-001-05-entao-taxinhas> a onto:Keyword ;
+    rdfs:label "entao taxinhas"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:328#evid-001-06-circulos-cores> a onto:Keyword ;
+    rdfs:label "circulos cores"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:328#evid-001-07-mural-caixa> a onto:Keyword ;
+    rdfs:label "mural caixa"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:328#evid-002-00-ser-orientados> a onto:Keyword ;
+    rdfs:label "ser orientados"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-002-01-orientados-perceber> a onto:Keyword ;
+    rdfs:label "orientados perceber"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-002-02-orientados-perceber> a onto:Keyword ;
+    rdfs:label "orientados perceber"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-002-03-perceber-estados> a onto:Keyword ;
+    rdfs:label "perceber estados"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-002-04-estados-cmocao> a onto:Keyword ;
+    rdfs:label "estados cmocao"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-002-05-cores-caixa> a onto:Keyword ;
+    rdfs:label "cores caixa"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:328#evid-002-06-cores-da-caixa> a onto:ContextObject ;
+    rdfs:label "cores da caixa"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:328#evid-003-00-dependendo-grau> a onto:Keyword ;
+    rdfs:label "dependendo grau"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:328#evid-003-01-independentemente-cor> a onto:Keyword ;
+    rdfs:label "independentemente cor"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-003-02-ampla-liberdade> a onto:Keyword ;
+    rdfs:label "ampla liberdade"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-003-03-grau-afetividade> a onto:Keyword ;
+    rdfs:label "grau afetividade"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:328#evid-003-04-liberdade-falar> a onto:Keyword ;
+    rdfs:label "liberdade falar"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-003-05-estado-emocional> a onto:Keyword ;
+    rdfs:label "estado emocional"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-003-06-estado-emocao> a onto:Keyword ;
+    rdfs:label "estado emocao"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-003-07-procura-los> a onto:Keyword ;
+    rdfs:label "procura los"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-003-08-falar-desse-estado> a onto:Keyword ;
+    rdfs:label "falar desse estado"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-003-09-estado-emocional> a onto:ContextObject ;
+    rdfs:label "estado emocional"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:328#evid-004-00-vermelhos> a onto:Keyword ;
+    rdfs:label "vermelhos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:328#evid-004-01-forjarem-situacoes> a onto:Keyword ;
+    rdfs:label "forjarem situacoes"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-004-02-serem-notados> a onto:Keyword ;
+    rdfs:label "serem notados"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:328#evid-004-03-procurar> a onto:Keyword ;
+    rdfs:label "procurar"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:328#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Seria interessante que o professor montasse um mural na sala de aula contendo o retrato de cada um dos alunos c abaixo do mesmo seu nome."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:328> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:328#evid-000-00-montasse>,
+        <urn:doc:328#evid-000-01-montasse-mural>,
+        <urn:doc:328#evid-000-02-mural-sala>,
+        <urn:doc:328#evid-000-03-contendo-retrato>,
+        <urn:doc:328#evid-000-04-contendo-retrato>,
+        <urn:doc:328#evid-000-05-abaixo>,
+        <urn:doc:328#evid-000-06-abaixo-mesmo>,
+        <urn:doc:328#evid-000-07-interessante>,
+        <urn:doc:328#evid-000-08-retrato-de-cada-um-dos-alunos> .
+
+<urn:doc:328#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Ao lado desse mural uma caixa com inumeros circulos nas cores verde, amarela ec vermelha, com lixas no verso para sua fixacao no mural (caso seja revesti- do de feltro) ou entao taxinhas para que essas figuras geometricas sejam fi- xadas no mural."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:328> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:328#evid-001-00-figuras-geometricas-sejam>,
+        <urn:doc:328#evid-001-01-geometricas-sejam-fixadas>,
+        <urn:doc:328#evid-001-02-geometricas-sejam-fixadas>,
+        <urn:doc:328#evid-001-03-cores-verde>,
+        <urn:doc:328#evid-001-04-revestido-feltro>,
+        <urn:doc:328#evid-001-05-entao-taxinhas>,
+        <urn:doc:328#evid-001-06-circulos-cores>,
+        <urn:doc:328#evid-001-07-mural-caixa> .
+
+<urn:doc:328#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Os alunos devem ser orientados a perceber seus estados de cmocao e, todo dia, ao entrar na sala escolham uma das cores da caixa para fixar embaixo de seu nome (verde = estou otimo, feliz, entusiasmado; amarelo = estou com uma sensacao de apatia, indiferenca, conformismo; vermelho = estou muito aborre- cido, chateado, inseguro)."@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:328> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:328#evid-002-00-ser-orientados>,
+        <urn:doc:328#evid-002-01-orientados-perceber>,
+        <urn:doc:328#evid-002-02-orientados-perceber>,
+        <urn:doc:328#evid-002-03-perceber-estados>,
+        <urn:doc:328#evid-002-04-estados-cmocao>,
+        <urn:doc:328#evid-002-05-cores-caixa>,
+        <urn:doc:328#evid-002-06-cores-da-caixa> .
+
+<urn:doc:328#frag-003> a onto:ExplanationFragment ;
+    rdfs:label "O aluno deve ter ampla liberdade para falar ou nao de seu estado emocional e o professor, dependendo do grau de afetividade com que se relaciona com os alunos, pode procura-los, independentemente da cor colada ao mural, para falar desse estado de emocao."@pt ;
+    dct:identifier 3 ;
+    dct:isPartOf <urn:doc:328> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:328#evid-003-00-dependendo-grau>,
+        <urn:doc:328#evid-003-01-independentemente-cor>,
+        <urn:doc:328#evid-003-02-ampla-liberdade>,
+        <urn:doc:328#evid-003-03-grau-afetividade>,
+        <urn:doc:328#evid-003-04-liberdade-falar>,
+        <urn:doc:328#evid-003-05-estado-emocional>,
+        <urn:doc:328#evid-003-06-estado-emocao>,
+        <urn:doc:328#evid-003-07-procura-los>,
+        <urn:doc:328#evid-003-08-falar-desse-estado>,
+        <urn:doc:328#evid-003-09-estado-emocional> .
+
+<urn:doc:328#frag-004> a onto:ExplanationFragment ;
+    rdfs:label "Procurar apenas os \"verme- lhos\" pode atrair uma atencao especial e alunos forjarem situacoes para serem notados. 254"@pt ;
+    dct:identifier 4 ;
+    dct:isPartOf <urn:doc:328> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:328#evid-004-00-vermelhos>,
+        <urn:doc:328#evid-004-01-forjarem-situacoes>,
+        <urn:doc:328#evid-004-02-serem-notados>,
+        <urn:doc:328#evid-004-03-procurar> .
+
+<urn:doc:328> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:328#frag-000>,
+        <urn:doc:328#frag-001>,
+        <urn:doc:328#frag-002>,
+        <urn:doc:328#frag-003>,
+        <urn:doc:328#frag-004> .
+

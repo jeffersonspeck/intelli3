@@ -1,0 +1,93 @@
+[Documento] urn:doc:57
+  - miVector: 0.00,18.01,34.62,0.00,47.37,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.4737)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.4737
+      • Spatial: 0.3462
+      • Logical-Mathematical: 0.1801
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.
+        • DiscursiveStrategy: agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal
+        • DiscursiveStrategy: colocando diferentes grupos de tampinhas em formas geometricas
+        • Keyword: bolas furadas
+        • Keyword: colocando diferentes
+        • Keyword: escada bolas
+        • Keyword: tampinhas colocando
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7054
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: colocando diferentes grupos de tampinhas em formas geometricas
+        • Keyword: encaixes diferentes
+        • Keyword: furadas encaixes
+        • Keyword: geometricas
+        • Keyword: sequencia vertical
+        • Keyword: vazadas
+        • Keyword: vertical horizontal
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.5074
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal
+        • Keyword: agrupar
+        • Keyword: agrupar quantidades
+        • Keyword: sequencias
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=0.4600
+
+
+[Documento — Fragmentos] urn:doc:57
+
+[Fragmento] Preparacao: O jogo utiliza tampinhas de pasta de dente (ou outras) coloridas. Utilizacao: Os alunos devem agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal
+        • Keyword: tampinhas colocando
+    - Ativações:
+        • score=0.2879, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: sequencia vertical
+        • Keyword: vertical horizontal
+    - Ativações:
+        • score=0.2521, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • DiscursiveStrategy: agrupar quantidades de 1 a 5 tampinhas colocando-as em uma sequencia vertical ou horizontal
+        • Keyword: agrupar
+        • Keyword: agrupar quantidades
+    - Ativações:
+        • score=0.4600, tipo=Primary
+
+[Fragmento] E interessante associar este jogo ao "Formas Vazadas", com os alunos colocando diferentes grupos de tampinhas em formas geometricas. As sequencias devem ser repetidas muitas vezes e e im- portante que os conceitos estejam claramente fixados para todos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: colocando diferentes grupos de tampinhas em formas geometricas
+        • Keyword: colocando diferentes
+    - Ativações:
+        • score=0.3582, tipo=Secondary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • DiscursiveStrategy: colocando diferentes grupos de tampinhas em formas geometricas
+        • Keyword: geometricas
+        • Keyword: vazadas
+    - Ativações:
+        • score=0.5074, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: sequencias
+    - Ativações:
+        • score=0.1344, tipo=Secondary
+
+[Fragmento] (Existem no mercado jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: jogos com uma base com pinos e bolas furadas para encaixes diferentes -- Escada de Bolas [Acrilu] e outros.
+        • Keyword: bolas furadas
+        • Keyword: escada bolas
+    - Ativações:
+        • score=0.7054, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: encaixes diferentes
+        • Keyword: furadas encaixes
+    - Ativações:
+        • score=0.2946, tipo=Secondary

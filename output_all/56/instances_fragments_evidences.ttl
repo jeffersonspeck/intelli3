@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:56#evid-000-00-jogo-exige> a onto:Keyword ;
+    rdfs:label "jogo exige"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#evid-000-01-revistas-enrolar-tiras> a onto:Keyword ;
+    rdfs:label "revistas enrolar tiras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:56#evid-000-02-revistas-enrolar-tiras> a onto:Keyword ;
+    rdfs:label "revistas enrolar tiras"@pt ;
+    onto:evokesIntelligence onto:IntrapersonalIntelligence .
+
+<urn:doc:56#evid-000-03-colar-extremidade> a onto:Keyword ;
+    rdfs:label "colar extremidade"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:56#evid-001-00-instrumento-contagem> a onto:Keyword ;
+    rdfs:label "instrumento contagem"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#evid-001-01-formacao-conjuntos> a onto:Keyword ;
+    rdfs:label "formacao conjuntos"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#evid-001-02-elaboracao-sequencias> a onto:Keyword ;
+    rdfs:label "elaboracao sequencias"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#evid-001-03-material-instrumento> a onto:Keyword ;
+    rdfs:label "material instrumento"@pt ;
+    onto:evokesIntelligence onto:MusicalIntelligence .
+
+<urn:doc:56#evid-001-04-raciocinio-logico> a onto:Keyword ;
+    rdfs:label "raciocinio logico"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#evid-001-05-criem-brincadeiras> a onto:Keyword ;
+    rdfs:label "criem brincadeiras"@pt ;
+    onto:evokesIntelligence onto:BodilyKinestheticIntelligence .
+
+<urn:doc:56#evid-001-06-utilizar-o-material-como-instrum> a onto:DiscursiveStrategy ;
+    rdfs:label "Utilizar o material como instrumento de contagem, para elaboracao de sequencias e ainda formacao de conjuntos."@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#evid-001-07-sugerir-aos-alunos-que-criem-bri> a onto:DiscursiveStrategy ;
+    rdfs:label "Sugerir aos alunos que criem brincadeiras com o material, explorando seu raciocinio logico."@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:56#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: O jogo exige uma preparacao trabalhosa. Com auxilio de um lapis e revistas enrolar tiras de papel de 2cm de largura. Colar a extremidade. Usar canudinhos de refrigerantes como varetas, passando cola para dar maior consistencia."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:56> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:56#evid-000-00-jogo-exige>,
+        <urn:doc:56#evid-000-01-revistas-enrolar-tiras>,
+        <urn:doc:56#evid-000-02-revistas-enrolar-tiras>,
+        <urn:doc:56#evid-000-03-colar-extremidade> .
+
+<urn:doc:56#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Utilizar o material como instrumento de contagem, para elaboracao de se- quencias e ainda formacao de conjuntos. Sugerir aos alunos que criem brincadei- ras com o material, explorando seu raciocinio logico."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:56> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:56#evid-001-00-instrumento-contagem>,
+        <urn:doc:56#evid-001-01-formacao-conjuntos>,
+        <urn:doc:56#evid-001-02-elaboracao-sequencias>,
+        <urn:doc:56#evid-001-03-material-instrumento>,
+        <urn:doc:56#evid-001-04-raciocinio-logico>,
+        <urn:doc:56#evid-001-05-criem-brincadeiras>,
+        <urn:doc:56#evid-001-06-utilizar-o-material-como-instrum>,
+        <urn:doc:56#evid-001-07-sugerir-aos-alunos-que-criem-bri> .
+
+<urn:doc:56> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:56#frag-000>,
+        <urn:doc:56#frag-001> .
+

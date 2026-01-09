@@ -1,0 +1,98 @@
+[Documento] urn:doc:149
+  - miVector: 2.65,8.35,0.00,4.24,63.94,11.16,0.00,9.67
+  - TOP (documento): Bodily-Kinesthetic (score=0.6394)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.6394
+      • Interpersonal: 0.1116
+      • Naturalist: 0.0967
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • Keyword: arrumacao
+        • Keyword: arrumar cadeiras
+        • Keyword: equipe arrumar
+        • Keyword: jogo pressupoe
+        • Keyword: mesa
+        • Keyword: pressupoe existencia
+    - Ativações (doc): n=3, primárias=2, secundárias=1, max=1.0000
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: disputa entre duas ou mais equipes
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.3684
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: ruido causado
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.0873
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: ruido causado
+        • Keyword: tempo
+        • Keyword: volume ruido
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2754
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • Keyword: preparar
+        • Keyword: vence equipe
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1398
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: cadeiras
+        • Keyword: arrumar cadeiras
+        • Keyword: tempo
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3191
+
+
+[Documento — Fragmentos] urn:doc:149
+
+[Fragmento] Preparacao: O jogo pressupoe a existencia de uma sala de aula vazia, com as carteiras desordenadas. Utilizacao: O jogo e uma disputa entre duas ou mais equipes em que o professor e eventualmente alguns alunos atuarao como arbitros.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: jogo pressupoe
+        • Keyword: pressupoe existencia
+    - Ativações:
+        • score=0.6316, tipo=Primary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: disputa entre duas ou mais equipes
+    - Ativações:
+        • score=0.3684, tipo=Secondary
+
+[Fragmento] A tarefa de cada equipe e arrumar as cadeiras, no menor tempo possivel, com o menor volume de ruido causado. Vence a equipe que "preparar" a sala com menor ruido.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: arrumar cadeiras
+        • Keyword: equipe arrumar
+    - Ativações:
+        • score=0.1785, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: ruido causado
+    - Ativações:
+        • score=0.0873, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: ruido causado
+        • Keyword: tempo
+        • Keyword: volume ruido
+    - Ativações:
+        • score=0.2754, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • Keyword: preparar
+        • Keyword: vence equipe
+    - Ativações:
+        • score=0.1398, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: cadeiras
+        • Keyword: arrumar cadeiras
+        • Keyword: tempo
+    - Ativações:
+        • score=0.3191, tipo=Primary
+
+[Fragmento] E possivel desenvolver-se variacoes, como, por exemplo, a arrumacao de uma mesa e ou- tras com garrafas, pecas, campainhas e outras pecas. 141
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: arrumacao
+        • Keyword: mesa
+    - Ativações:
+        • score=1.0000, tipo=Primary

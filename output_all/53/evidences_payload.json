@@ -1,0 +1,104 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "usar caixas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7326267186622974,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "colocar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6426795488423094,
+      "relevance": 0.658256880733945
+    },
+    {
+      "role": "ContextObject",
+      "text": "caixas de clipes coloridos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.9885321100917431
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "coordenadas pelo",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5762979382339702,
+      "relevance": 0.9744094488188977
+    },
+    {
+      "role": "Keyword",
+      "text": "operacoes coordenadas",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5721290866958029,
+      "relevance": 0.9940944881889764
+    },
+    {
+      "role": "Keyword",
+      "text": "elementos comparacao",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7247991038469423,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "cores",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5018987361552377,
+      "relevance": 0.7460629921259843
+    },
+    {
+      "role": "Keyword",
+      "text": "etapa cores",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5018987361552377,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "pecas da caixa",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.812992125984252
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "jogos pinos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7383747053499854,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "pinos encaixe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7383747053499854,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "jogos com pinos de encaixe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.8888888888888888
+    }
+  ]
+}

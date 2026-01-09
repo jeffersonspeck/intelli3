@@ -1,0 +1,280 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "sons diferenciados",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.532889343504633,
+      "relevance": 0.9426229508196722
+    },
+    {
+      "role": "Keyword",
+      "text": "identificacao mesmos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6389864783298588,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "gravada sons",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.4485782404558893,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "ondas mar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6184219023331933,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "passaros animais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6184219023331933,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "gravador e fita gravada",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "gravador e fita gravada",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "extraidas reportagens",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.5791165108341533,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "grave diferentes",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5762979382339702,
+      "relevance": 0.9388888888888889
+    },
+    {
+      "role": "Keyword",
+      "text": "televisao pode permitir",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7921787354249579,
+      "relevance": 0.9962962962962963
+    },
+    {
+      "role": "Keyword",
+      "text": "rota imaginaria",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.5234660194450139,
+      "relevance": 0.7111111111111111
+    },
+    {
+      "role": "Keyword",
+      "text": "sons gravados",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5234660194450139,
+      "relevance": 0.5259259259259259
+    },
+    {
+      "role": "Keyword",
+      "text": "trilha fantastica",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.69493671159956,
+      "relevance": 0.6407407407407407
+    },
+    {
+      "role": "Keyword",
+      "text": "ser convidados",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.69493671159956,
+      "relevance": 0.7740740740740741
+    },
+    {
+      "role": "Keyword",
+      "text": "convidados partilhar",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.69493671159956,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "partilhar de uma rota imaginaria, da descoberta de uma trilha fantastica",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.7425925925925926
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "partilhar de uma rota imaginaria, da descoberta de uma trilha fantastica",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.7425925925925926
+    },
+    {
+      "role": "ContextObject",
+      "text": "fita com os sons gravados",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.5481481481481482
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "sons ouvidos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5734316407800233,
+      "relevance": 0.8089887640449438
+    },
+    {
+      "role": "Keyword",
+      "text": "idealizar roteiro",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7865067488979248,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "idealizar roteiro",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7865067488979248,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "roteiro trilha",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.720001255524099,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "roteiro trilha",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.720001255524099,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "anunciando cada som",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.7043799242857,
+      "relevance": 0.5655430711610487
+    },
+    {
+      "role": "Keyword",
+      "text": "anunciando cada som",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7043799242857,
+      "relevance": 0.5655430711610487
+    },
+    {
+      "role": "Keyword",
+      "text": "estrategia facilita",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6696951429508027,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "facilita construcao",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6696951429508027,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "divagar pelo imaginario",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6696951429508027,
+      "relevance": 0.6741573033707865
+    },
+    {
+      "role": "Keyword",
+      "text": "construcao dessa trilha",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6211164029171874,
+      "relevance": 0.7265917602996255
+    },
+    {
+      "role": "Keyword",
+      "text": "construcao dessa trilha",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6211164029171874,
+      "relevance": 0.7265917602996255
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "idealizar o roteiro da trilha a partir dos sons ouvidos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.6885,
+      "relevance": 0.8895131086142322
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "idealizar o roteiro da trilha a partir dos sons ouvidos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8895131086142322
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "idealizar o roteiro da trilha a partir dos sons ouvidos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 0.8895131086142322
+    },
+    {
+      "role": "ContextObject",
+      "text": "sons",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.49725,
+      "relevance": 0.8089887640449438
+    }
+  ]
+}

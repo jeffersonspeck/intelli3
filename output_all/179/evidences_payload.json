@@ -1,0 +1,144 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "usar petecas",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7462001523204187,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "jogar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5878319284288563,
+      "relevance": 0.8081395348837209
+    },
+    {
+      "role": "Keyword",
+      "text": "recebe",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5770687758522471,
+      "relevance": 0.7616279069767442
+    },
+    {
+      "role": "Keyword",
+      "text": "aumentar progressivamente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5539059205497285,
+      "relevance": 0.6598837209302326
+    },
+    {
+      "role": "Keyword",
+      "text": "distancias arremessos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.5539059205497285,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Usar petecas e estimular diferentes formas de uso. O aluno devera jogar a peteca, recebe-la com uma e com outra mao. Aumentar progressivamente as distancias dos arremessos.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "estabelecer claros limites",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.8079591951664962,
+      "relevance": 1.0
+    },
+    {
+      "role": "Keyword",
+      "text": "limites discutir",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "novas regras",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7896979575499548,
+      "relevance": 0.7570093457943925
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "discutir com os alunos novas regras e novos jogos",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8644859813084113
+    },
+    {
+      "role": "ContextObject",
+      "text": "novas regras e novos jogos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.49725,
+      "relevance": 0.7570093457943925
+    }
+  ],
+  "2": [
+    {
+      "role": "Keyword",
+      "text": "representa tambem excelente",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.802773688241479,
+      "relevance": 0.7145922746781116
+    },
+    {
+      "role": "Keyword",
+      "text": "tambem excelente recurso",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.802773688241479,
+      "relevance": 0.6909871244635193
+    },
+    {
+      "role": "Keyword",
+      "text": "recurso exercicios",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7774352088040076,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "Um brinquedo (Plic-Ploc -- fabricado por Stelco)",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "cesta conica com cabo e alavanca arremessadora de bola plastica",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.851931330472103
+    },
+    {
+      "role": "ContextObject",
+      "text": "cesta conica com cabo e alavanca arremessadora de bola plastica",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.851931330472103
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[Documento] urn:doc:101
+  - miVector: 2.80,11.24,15.70,0.00,30.53,0.00,0.00,39.73
+  - TOP (documento): Naturalist (score=0.3973)
+  - Ranking (top 3):
+      • Naturalist: 0.3973
+      • Bodily-Kinesthetic: 0.3053
+      • Spatial: 0.1570
+
+[Fragmento] Preparacao: Usar duas garrafas plasticas e duas tampas de potes de creme ou maionese ajustadas a abertura das garrafas. Papel-cartao resistente, com um circulo pequeno. Cortar as garrafas no sentido horizontal, unir os gargalos, colocando entre eles um circulo de cartao perfurado.
+  - Bodily-Kinesthetic (via activation, score=0.6446)
+  - Linguistic (via activation, score=0.1204)
+  - Spatial (via activation, score=0.2350)
+  - Cinestésico-corporal (via activation, score=0.6446)
+  - Espacial-visual (via activation, score=0.2350)
+  - Linguística (via activation, score=0.1204)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+
+[Fragmento] Colocar areia fina, colorida com anilina, formando uma ampulheta (procurar um modelo em uma ilustracao).
+  - Bodily-Kinesthetic (via activation, score=0.2269)
+  - Naturalist (via activation, score=0.4346)
+  - Spatial (via activation, score=0.3384)
+  - Cinestésico-corporal (via activation, score=0.2269)
+  - Espacial-visual (via activation, score=0.3384)
+  - Naturalista (via activation, score=0.4346)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Naturalista (via element)
+
+[Fragmento] Utilizacao: Essa ampulheta deve ser usada para marcar o tempo e os alunos devem observar a passagem da areia de uma metade da garrafa para outra, associando esse tempo com atividades que estao desenvolvendo. Leva-los a associar o tempo as divisoes do dia e da noite.
+  - Bodily-Kinesthetic (via activation, score=0.3732)
+  - Naturalist (via activation, score=0.6268)
+  - Cinestésico-corporal (via activation, score=0.3732)
+  - Naturalista (via activation, score=0.6268)
+  - Bodily-Kinesthetic (via element)
+  - Naturalist (via element)
+  - Cinestésico-corporal (via element)
+  - Naturalista (via element)
+
+[Fragmento] Mostrar quantos pingos caem de uma torneira semifechada em um espaco de tempo e outras multiplas atividades. (Existe no comercio -- ampulhetas de vidro podem ser adquiridas em lojas de decoracao.)
+  - Logical-Mathematical (via activation, score=0.4834)
+  - Naturalist (via activation, score=0.5166)
+  - Lógico-matemática (via activation, score=0.4834)
+  - Naturalista (via activation, score=0.5166)
+  - Logical-Mathematical (via element)
+  - Naturalist (via element)
+  - Lógico-matemática (via element)
+  - Naturalista (via element)

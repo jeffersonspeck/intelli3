@@ -1,0 +1,126 @@
+[Documento] urn:doc:175
+  - miVector: 7.06,38.99,16.33,5.82,24.36,7.45,0.00,0.00
+  - TOP (documento): Logical-Mathematical (score=0.3899)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3899
+      • Bodily-Kinesthetic: 0.2436
+      • Spatial: 0.1633
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: bolinha
+        • DiscursiveStrategy: impulsionar a bolinha na toca
+        • Keyword: bolinha toca
+        • Keyword: corte pote
+        • Keyword: impulsionar bolinha
+        • Keyword: pote
+        • Keyword: simulando entrada
+        • Keyword: tampa caixa
+    - Ativações (doc): n=2, primárias=2, secundárias=0, max=0.3941
+  > Inteligência (doc): Espacial-visual
+    - Elementos (agregado no doc):
+        • ContextObject: bolinha
+        • DiscursiveStrategy: impulsionar a bolinha na toca
+        • Keyword: bolinha toca
+        • Keyword: selecionar
+        • Keyword: selecionar tampa
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.2465
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • Keyword: colega
+        • Keyword: desenvolvida equipe
+        • Keyword: equipe consiste
+        • Keyword: passa vcz
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.2457
+  > Inteligência (doc): Linguística
+    - Elementos (agregado no doc):
+        • Keyword: marca
+        • Keyword: selecionar
+    - Ativações (doc): n=2, primárias=0, secundárias=2, max=0.1389
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • Keyword: cor tres
+        • Keyword: papel aluminio amassado
+        • Keyword: pintando tres
+        • Keyword: preparar bolinhas
+    - Ativações (doc): n=2, primárias=1, secundárias=1, max=1.0000
+  > Inteligência (doc): Musical
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: impulsionar a bolinha na toca
+        • Keyword: conseguir
+        • Keyword: consiste tentativa
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1922
+
+
+[Documento — Fragmentos] urn:doc:175
+
+[Fragmento] Preparacao: O professor deve selecionar uma tampa de caixa grande (mais ou menos de 60cm x 60cm): seis potes de iogurte, pintando tres de uma cor e tres de outra. Fazer um corte no pote, simulando a entrada de uma toca. Colocar em cada pote, no telhado, um numero de um a seis.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: corte pote
+        • Keyword: pote
+        • Keyword: simulando entrada
+        • Keyword: tampa caixa
+    - Ativações:
+        • score=0.3941, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • Keyword: selecionar
+        • Keyword: selecionar tampa
+    - Ativações:
+        • score=0.2465, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: selecionar
+    - Ativações:
+        • score=0.1389, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: cor tres
+        • Keyword: pintando tres
+    - Ativações:
+        • score=0.2204, tipo=Secondary
+
+[Fragmento] Preparar bolinhas com papel alu- minio amassado ou com feltro. Marcar entre as tocas o "meio de campo", assi- nalando um ponto onde deve ser colocada a bolinha antes de cada jogada.
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: papel aluminio amassado
+        • Keyword: preparar bolinhas
+    - Ativações:
+        • score=1.0000, tipo=Primary
+
+[Fragmento] Utilizacao: A atividade pode ser desenvolvida em equipe e consiste na tentativa dos alunos, com um toque, impulsionar a bolinha na toca. Ao conseguir, o aluno marca pontos e passa a vcz para O colega.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: bolinha
+        • DiscursiveStrategy: impulsionar a bolinha na toca
+        • Keyword: bolinha toca
+        • Keyword: impulsionar bolinha
+    - Ativações:
+        • score=0.2915, tipo=Primary
+  > Inteligência: Espacial-visual
+    - Elementos:
+        • ContextObject: bolinha
+        • DiscursiveStrategy: impulsionar a bolinha na toca
+        • Keyword: bolinha toca
+    - Ativações:
+        • score=0.2183, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • Keyword: colega
+        • Keyword: desenvolvida equipe
+        • Keyword: equipe consiste
+        • Keyword: passa vcz
+    - Ativações:
+        • score=0.2457, tipo=Secondary
+  > Inteligência: Linguística
+    - Elementos:
+        • Keyword: marca
+    - Ativações:
+        • score=0.0523, tipo=Secondary
+  > Inteligência: Musical
+    - Elementos:
+        • DiscursiveStrategy: impulsionar a bolinha na toca
+        • Keyword: conseguir
+        • Keyword: consiste tentativa
+    - Ativações:
+        • score=0.1922, tipo=Secondary

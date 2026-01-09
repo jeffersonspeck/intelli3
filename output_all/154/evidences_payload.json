@@ -1,0 +1,158 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "emitam sons graves",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5826572471824196,
+      "relevance": 0.6304347826086957
+    },
+    {
+      "role": "Keyword",
+      "text": "necessita dispor",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7934012312905073,
+      "relevance": 0.9293478260869565
+    },
+    {
+      "role": "Keyword",
+      "text": "substituir esses instrumentos",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7828544818302647,
+      "relevance": 0.7554347826086957
+    },
+    {
+      "role": "Keyword",
+      "text": "substituir esses instrumentos",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7828544818302647,
+      "relevance": 0.7554347826086957
+    },
+    {
+      "role": "Keyword",
+      "text": "instrumentos objetos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5653949035440802,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "triangulo",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7578551613872203,
+      "relevance": 0.8369565217391304
+    },
+    {
+      "role": "Keyword",
+      "text": "agudos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.5261076465515236,
+      "relevance": 0.5516304347826086
+    },
+    {
+      "role": "Keyword",
+      "text": "surdo",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7154899147158036,
+      "relevance": 0.8668478260869565
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "classificar sons graves",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7954668247421336,
+      "relevance": 0.6147540983606558
+    },
+    {
+      "role": "Keyword",
+      "text": "ouvirem instrumentos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.7834453794665905,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "sons agudos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.775914438528663,
+      "relevance": 0.5437158469945356
+    },
+    {
+      "role": "Keyword",
+      "text": "sentindo diferencas",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7675215288957414,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "diferencas timbre",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7675215288957414,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "timbre permitam",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7675215288957414,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "permitam desenvolvimento",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7675215288957414,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "desenvolvimento habilidade",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7675215288957414,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "habilidade classificar",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7675215288957414,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "graves sons",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.702592626143994,
+      "relevance": 0.75
+    },
+    {
+      "role": "ContextObject",
+      "text": "instrumentos",
+      "lang": "pt",
+      "intelligence": "Musical",
+      "confidence": 0.6885,
+      "relevance": 0.9316939890710383
+    }
+  ]
+}

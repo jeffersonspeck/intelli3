@@ -1,0 +1,45 @@
+[Documento] urn:doc:124
+  - miVector: 10.88,8.43,14.31,32.12,34.26,0.00,0.00,0.00
+  - TOP (documento): Bodily-Kinesthetic (score=0.3426)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3426
+      • Musical: 0.3212
+      • Spatial: 0.1431
+
+[Fragmento] Preparacao: Preparar com ilustracoes de revistas uma serie de cartoes com muitas associacoes (15cm x 10cm) lado a lado (por exemplo: vaso / regador -- ninho / passarinho -- abelha / colmeia e outras) e recorta-las de maneira a permitir que as duas partes se unam atraves de um encaixe.
+  - Bodily-Kinesthetic (via activation, score=0.5085)
+  - Logical-Mathematical (via activation, score=0.2141)
+  - Spatial (via activation, score=0.2774)
+  - Cinestésico-corporal (via activation, score=0.5085)
+  - Espacial-visual (via activation, score=0.2774)
+  - Lógico-matemática (via activation, score=0.2141)
+  - Bodily-Kinesthetic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Preparar mais de um encaixe para essas situacoes, de maneira que seja possivel, por exemplo, o encaixe vaso / ninho e outros. Utilizacao: A atividade dos alunos, individualmente ou em duplas ou trios, e unir as pecas construindo associacoes.
+  - Bodily-Kinesthetic (via activation, score=0.4694)
+  - Musical (via activation, score=0.5306)
+  - Cinestésico-corporal (via activation, score=0.4694)
+  - Musical (via activation, score=0.5306)
+  - Bodily-Kinesthetic (via element)
+  - Musical (via element)
+  - Cinestésico-corporal (via element)
+  - Musical (via element)
+
+[Fragmento] Como essas construcoes sao possiveis com associa- coes corretas e encaixes em situacoes nao corretas, desenvolver o sentido dessas associacoes, estimulando o relato de diferentes situacoes que possam envolve-las. (Existem no comercio: jogos e dominos para associacao de ideias.)
+  - Linguistic (via activation, score=0.3591)
+  - Musical (via activation, score=0.5294)
+  - Spatial (via activation, score=0.1115)
+  - Espacial-visual (via activation, score=0.1115)
+  - Linguística (via activation, score=0.3591)
+  - Musical (via activation, score=0.5294)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Spatial (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Musical (via element)

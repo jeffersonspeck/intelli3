@@ -1,0 +1,53 @@
+[Documento] urn:doc:175
+  - miVector: 7.06,38.99,16.33,5.82,24.36,7.45,0.00,0.00
+  - TOP (documento): Logical-Mathematical (score=0.3899)
+  - Ranking (top 3):
+      • Logical-Mathematical: 0.3899
+      • Bodily-Kinesthetic: 0.2436
+      • Spatial: 0.1633
+
+[Fragmento] Preparacao: O professor deve selecionar uma tampa de caixa grande (mais ou menos de 60cm x 60cm): seis potes de iogurte, pintando tres de uma cor e tres de outra. Fazer um corte no pote, simulando a entrada de uma toca. Colocar em cada pote, no telhado, um numero de um a seis.
+  - Bodily-Kinesthetic (via activation, score=0.3941)
+  - Linguistic (via activation, score=0.1389)
+  - Logical-Mathematical (via activation, score=0.2204)
+  - Spatial (via activation, score=0.2465)
+  - Cinestésico-corporal (via activation, score=0.3941)
+  - Espacial-visual (via activation, score=0.2465)
+  - Linguística (via activation, score=0.1389)
+  - Lógico-matemática (via activation, score=0.2204)
+  - Bodily-Kinesthetic (via element)
+  - Linguistic (via element)
+  - Logical-Mathematical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Linguística (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Preparar bolinhas com papel alu- minio amassado ou com feltro. Marcar entre as tocas o "meio de campo", assi- nalando um ponto onde deve ser colocada a bolinha antes de cada jogada.
+  - Logical-Mathematical (via activation, score=1.0000)
+  - Lógico-matemática (via activation, score=1.0000)
+  - Logical-Mathematical (via element)
+  - Lógico-matemática (via element)
+
+[Fragmento] Utilizacao: A atividade pode ser desenvolvida em equipe e consiste na tentativa dos alunos, com um toque, impulsionar a bolinha na toca. Ao conseguir, o aluno marca pontos e passa a vcz para O colega.
+  - Bodily-Kinesthetic (via activation, score=0.2915)
+  - Interpersonal (via activation, score=0.2457)
+  - Linguistic (via activation, score=0.0523)
+  - Musical (via activation, score=0.1922)
+  - Spatial (via activation, score=0.2183)
+  - Cinestésico-corporal (via activation, score=0.2915)
+  - Espacial-visual (via activation, score=0.2183)
+  - Interpessoal (via activation, score=0.2457)
+  - Linguística (via activation, score=0.0523)
+  - Musical (via activation, score=0.1922)
+  - Bodily-Kinesthetic (via element)
+  - Interpersonal (via element)
+  - Linguistic (via element)
+  - Musical (via element)
+  - Spatial (via element)
+  - Cinestésico-corporal (via element)
+  - Espacial-visual (via element)
+  - Interpessoal (via element)
+  - Linguística (via element)
+  - Musical (via element)

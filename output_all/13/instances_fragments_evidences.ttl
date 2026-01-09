@@ -1,0 +1,143 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix onto: <https://techcoop.com.br/ontomi#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:13#evid-000-00-colecionar-figuras-coloridas> a onto:Keyword ;
+    rdfs:label "colecionar figuras coloridas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-000-01-oculos-frutas> a onto:Keyword ;
+    rdfs:label "oculos frutas"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-000-02-coloridas-objetos> a onto:Keyword ;
+    rdfs:label "coloridas objetos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-000-03-animais> a onto:Keyword ;
+    rdfs:label "animais"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-000-04-formando> a onto:Keyword ;
+    rdfs:label "formando"@pt ;
+    onto:evokesIntelligence onto:InterpersonalIntelligence .
+
+<urn:doc:13#evid-001-00-participantes-sortcar> a onto:Keyword ;
+    rdfs:label "participantes sortcar"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:13#evid-001-01-sortcar-papeis> a onto:Keyword ;
+    rdfs:label "sortcar papeis"@pt ;
+    onto:evokesIntelligence onto:LogicalMathematicalIntelligence .
+
+<urn:doc:13#evid-001-02-distribuir-figuras> a onto:Keyword ;
+    rdfs:label "distribuir figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:13#evid-001-03-distribuir-figuras> a onto:Keyword ;
+    rdfs:label "distribuir figuras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-001-04-observando-concordancia> a onto:Keyword ;
+    rdfs:label "observando concordancia"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:13#evid-001-05-substantivos-adjetivos> a onto:Keyword ;
+    rdfs:label "substantivos adjetivos"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:13#evid-001-06-apresenta-nomeando> a onto:Keyword ;
+    rdfs:label "apresenta nomeando"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:13#evid-001-07-concordancia-genero> a onto:Keyword ;
+    rdfs:label "concordancia genero"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:13#evid-001-08-concordancia-genero> a onto:Keyword ;
+    rdfs:label "concordancia genero"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-001-09-genero-substantivos> a onto:Keyword ;
+    rdfs:label "genero substantivos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-001-10-camisa-branca> a onto:Keyword ;
+    rdfs:label "camisa branca"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-001-11-pente-azul> a onto:Keyword ;
+    rdfs:label "pente azul"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-001-12-figura-apresenta> a onto:Keyword ;
+    rdfs:label "figura apresenta"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:13#evid-001-13-figura-apresenta> a onto:Keyword ;
+    rdfs:label "figura apresenta"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-001-14-qualidades> a onto:Keyword ;
+    rdfs:label "qualidades"@pt ;
+    onto:evokesIntelligence onto:LinguisticIntelligence .
+
+<urn:doc:13#evid-001-15-figuras> a onto:ContextObject ;
+    rdfs:label "figuras"@pt ;
+    onto:evokesIntelligence onto:SpatialIntelligence .
+
+<urn:doc:13#evid-001-16-figuras> a onto:ContextObject ;
+    rdfs:label "figuras"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#evid-002-00-existem-diversos-analogos> a onto:Keyword ;
+    rdfs:label "existem diversos analogos"@pt ;
+    onto:evokesIntelligence onto:NaturalistIntelligence .
+
+<urn:doc:13#frag-000> a onto:ExplanationFragment ;
+    rdfs:label "Preparacao: Colecionar figuras coloridas de objetos variados de revistas, como por exemplo blusa, sapato, oculos ou frutas ou ainda animais. Colar essas figuras em cartolina, formando 36 fichas. Em uma caixa, papeizinhos dobrados (tombo- las) com os nomes das figuras."@pt ;
+    dct:identifier 0 ;
+    dct:isPartOf <urn:doc:13> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:13#evid-000-00-colecionar-figuras-coloridas>,
+        <urn:doc:13#evid-000-01-oculos-frutas>,
+        <urn:doc:13#evid-000-02-coloridas-objetos>,
+        <urn:doc:13#evid-000-03-animais>,
+        <urn:doc:13#evid-000-04-formando> .
+
+<urn:doc:13#frag-001> a onto:ExplanationFragment ;
+    rdfs:label "Utilizacao: Distribuir as figuras entre os participantes e sortcar os papeis com seus no- mes. A crianca que estiver com a figura deve apresenta-la nomeando-a com suas qualidades, observando a concordancia em genero dos substantivos e ad- jetivos. Exemplo: a camisa branca, o pente azul; etc."@pt ;
+    dct:identifier 1 ;
+    dct:isPartOf <urn:doc:13> ;
+    dct:type "body" ;
+    onto:usesElement <urn:doc:13#evid-001-00-participantes-sortcar>,
+        <urn:doc:13#evid-001-01-sortcar-papeis>,
+        <urn:doc:13#evid-001-02-distribuir-figuras>,
+        <urn:doc:13#evid-001-03-distribuir-figuras>,
+        <urn:doc:13#evid-001-04-observando-concordancia>,
+        <urn:doc:13#evid-001-05-substantivos-adjetivos>,
+        <urn:doc:13#evid-001-06-apresenta-nomeando>,
+        <urn:doc:13#evid-001-07-concordancia-genero>,
+        <urn:doc:13#evid-001-08-concordancia-genero>,
+        <urn:doc:13#evid-001-09-genero-substantivos>,
+        <urn:doc:13#evid-001-10-camisa-branca>,
+        <urn:doc:13#evid-001-11-pente-azul>,
+        <urn:doc:13#evid-001-12-figura-apresenta>,
+        <urn:doc:13#evid-001-13-figura-apresenta>,
+        <urn:doc:13#evid-001-14-qualidades>,
+        <urn:doc:13#evid-001-15-figuras>,
+        <urn:doc:13#evid-001-16-figuras> .
+
+<urn:doc:13#frag-002> a onto:ExplanationFragment ;
+    rdfs:label "(Existem diversos analogos no comercio)"@pt ;
+    dct:identifier 2 ;
+    dct:isPartOf <urn:doc:13> ;
+    dct:type "title_or_abstract" ;
+    onto:usesElement <urn:doc:13#evid-002-00-existem-diversos-analogos> .
+
+<urn:doc:13> a onto:ExplanationDocument ;
+    dct:hasPart <urn:doc:13#frag-000>,
+        <urn:doc:13#frag-001>,
+        <urn:doc:13#frag-002> .
+

@@ -1,0 +1,101 @@
+[Documento] urn:doc:179
+  - miVector: 0.00,25.18,0.00,0.00,38.60,15.73,5.50,14.99
+  - TOP (documento): Bodily-Kinesthetic (score=0.3860)
+  - Ranking (top 3):
+      • Bodily-Kinesthetic: 0.3860
+      • Logical-Mathematical: 0.2518
+      • Interpersonal: 0.1573
+  > Inteligência (doc): Cinestésico-corporal
+    - Elementos (agregado no doc):
+        • ContextObject: cesta conica com cabo e alavanca arremessadora de bola plastica
+        • DiscursiveStrategy: Usar petecas e estimular diferentes formas de uso. O aluno devera jogar a peteca, recebe-la com uma e com outra mao. Aumentar progressivamente as distancias …
+        • Keyword: estabelecer claros limites
+        • Keyword: jogar
+        • Keyword: recebe
+        • Keyword: usar petecas
+    - Ativações (doc): n=3, primárias=1, secundárias=2, max=0.7559
+  > Inteligência (doc): Interpessoal
+    - Elementos (agregado no doc):
+        • DiscursiveStrategy: discutir com os alunos novas regras e novos jogos
+        • Keyword: limites discutir
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.3993
+  > Inteligência (doc): Intrapessoal
+    - Elementos (agregado no doc):
+        • ContextObject: cesta conica com cabo e alavanca arremessadora de bola plastica
+    - Ativações (doc): n=1, primárias=0, secundárias=1, max=0.1816
+  > Inteligência (doc): Lógico-matemática
+    - Elementos (agregado no doc):
+        • ContextObject: novas regras e novos jogos
+        • Keyword: aumentar progressivamente
+        • Keyword: distancias arremessos
+        • Keyword: novas regras
+        • Keyword: representa tambem excelente
+    - Ativações (doc): n=3, primárias=0, secundárias=3, max=0.3421
+  > Inteligência (doc): Naturalista
+    - Elementos (agregado no doc):
+        • ContextObject: Um brinquedo (Plic-Ploc -- fabricado por Stelco)
+        • Keyword: recurso exercicios
+        • Keyword: tambem excelente recurso
+    - Ativações (doc): n=1, primárias=1, secundárias=0, max=0.4948
+
+
+[Documento — Fragmentos] urn:doc:179
+
+[Fragmento] Preparacao: Usar petecas e estimular diferentes formas de uso. Utilizacao: O aluno devera jogar a peteca, recebe-la com uma e com outra mao. Au- mentar progressivamente as distancias dos arremessos.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • DiscursiveStrategy: Usar petecas e estimular diferentes formas de uso. O aluno devera jogar a peteca, recebe-la com uma e com outra mao. Aumentar progressivamente as distancias …
+        • Keyword: jogar
+        • Keyword: recebe
+        • Keyword: usar petecas
+    - Ativações:
+        • score=0.7559, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: aumentar progressivamente
+        • Keyword: distancias arremessos
+    - Ativações:
+        • score=0.2441, tipo=Secondary
+
+[Fragmento] Estabelecer claros limites e discutir com os alunos novas regras e novos jogos, usando sempre esse recur- so.
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • Keyword: estabelecer claros limites
+    - Ativações:
+        • score=0.2587, tipo=Secondary
+  > Inteligência: Interpessoal
+    - Elementos:
+        • DiscursiveStrategy: discutir com os alunos novas regras e novos jogos
+        • Keyword: limites discutir
+    - Ativações:
+        • score=0.3993, tipo=Primary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • ContextObject: novas regras e novos jogos
+        • Keyword: novas regras
+    - Ativações:
+        • score=0.3421, tipo=Secondary
+
+[Fragmento] Um brinquedo (Plic-Ploc -- fabricado por Stelco) constituido por uma cesta conica com cabo e alavanca arremessadora de bola plastica representa tambem excelente recurso para exercicios analogos. (Existem no comercio diversas marcas.)
+  > Inteligência: Cinestésico-corporal
+    - Elementos:
+        • ContextObject: cesta conica com cabo e alavanca arremessadora de bola plastica
+    - Ativações:
+        • score=0.1816, tipo=Secondary
+  > Inteligência: Intrapessoal
+    - Elementos:
+        • ContextObject: cesta conica com cabo e alavanca arremessadora de bola plastica
+    - Ativações:
+        • score=0.1816, tipo=Secondary
+  > Inteligência: Lógico-matemática
+    - Elementos:
+        • Keyword: representa tambem excelente
+    - Ativações:
+        • score=0.1420, tipo=Secondary
+  > Inteligência: Naturalista
+    - Elementos:
+        • ContextObject: Um brinquedo (Plic-Ploc -- fabricado por Stelco)
+        • Keyword: recurso exercicios
+        • Keyword: tambem excelente recurso
+    - Ativações:
+        • score=0.4948, tipo=Primary

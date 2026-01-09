@@ -1,0 +1,190 @@
+{
+  "0": [
+    {
+      "role": "Keyword",
+      "text": "produtos elaborados",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7961381527449106,
+      "relevance": 0.652014652014652
+    },
+    {
+      "role": "Keyword",
+      "text": "plantas produtos",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7961381527449106,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "plantas produtos",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7961381527449106,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colecao figuras",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7918811459977094,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras relacionem",
+      "lang": "pt",
+      "intelligence": "Logical-Mathematical",
+      "confidence": 0.7918811459977094,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "figuras relacionem",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.7918811459977094,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "colar cartolina",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.5288730371010149,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "animais",
+      "lang": "pt",
+      "intelligence": "Naturalist",
+      "confidence": 0.7268335433444842,
+      "relevance": 0.6117216117216118
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8772893772893773
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "colar em cartolina",
+      "lang": "pt",
+      "intelligence": "Interpersonal",
+      "confidence": 0.6885,
+      "relevance": 0.5347985347985348
+    }
+  ],
+  "1": [
+    {
+      "role": "Keyword",
+      "text": "recortar maneira",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7814319183133489,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "maneira deixar",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7689786843352011,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "deixar encaixes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.7629508046309866,
+      "relevance": 0.9533898305084746
+    },
+    {
+      "role": "Keyword",
+      "text": "formar figuras atraves",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6326478127702503,
+      "relevance": 0.885593220338983
+    },
+    {
+      "role": "Keyword",
+      "text": "formar figuras atraves",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6326478127702503,
+      "relevance": 0.885593220338983
+    },
+    {
+      "role": "Keyword",
+      "text": "atraves encaixes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6310819324053913,
+      "relevance": 0.75
+    },
+    {
+      "role": "Keyword",
+      "text": "crianca formar",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.605772665709591,
+      "relevance": 0.75
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "Recortar de maneira a deixar encaixes.",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 1.0
+    },
+    {
+      "role": "ContextObject",
+      "text": "encaixes",
+      "lang": "pt",
+      "intelligence": "Bodily-Kinesthetic",
+      "confidence": 0.6885,
+      "relevance": 0.9385593220338984
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "formar figuras atraves dos encaixes,",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.885593220338983
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "formar figuras atraves dos encaixes,",
+      "lang": "pt",
+      "intelligence": "Spatial",
+      "confidence": 0.6885,
+      "relevance": 0.885593220338983
+    },
+    {
+      "role": "ContextObject",
+      "text": "figuras",
+      "lang": "pt",
+      "intelligence": "Intrapersonal",
+      "confidence": 0.6885,
+      "relevance": 0.8707627118644068
+    },
+    {
+      "role": "DiscursiveStrategy",
+      "text": "nomeando os objetos que aparecem em cada figura.",
+      "lang": "pt",
+      "intelligence": "Linguistic",
+      "confidence": 0.6885,
+      "relevance": 0.8072033898305084
+    }
+  ]
+}
