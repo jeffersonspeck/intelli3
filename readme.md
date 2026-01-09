@@ -70,9 +70,6 @@ This repository is part of my **M.Sc. research in Computer Science**, supervised
   Documentation files (module-by-module readmes and technical notes).  
   The main index is: **[`docs/README.md`](docs/README.md)**
 
-- **`PoC/`**  
-  Proof-of-concept materials demonstrating the pipeline running end-to-end.
-
 - **`source/`**  
   Input materials to be analyzed (texts and other supported resources you want the pipeline to process).
 
@@ -85,7 +82,6 @@ This repository is part of my **M.Sc. research in Computer Science**, supervised
 .
 ├── docs/
 ├── output/
-├── PoC/
 ├── source/
 ├── evidences_api.py
 ├── evidences_api_helpers.py
@@ -158,9 +154,6 @@ Planned per-file documentation pages (links you can keep in the main README):
 * Keep demonstration runs and reproducible examples in: **`PoC/`**
 * Keep all technical documentation in: **`docs/`**
 
----
-
-````md
 ---
 
 ## How to Use (Batch Pipeline)
