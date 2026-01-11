@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "output": "output",
+    "filename": "instances_fragments_profile.ttl",
+    "profile": "P10-TEC",
+    "profile_label": "Equilibrado – ciência e tecnologia",
+    "topk": 10,
+    "focus": null,
+    "mi_order": [
+      "Linguistic",
+      "Logical-Mathematical",
+      "Spatial",
+      "Musical",
+      "Bodily-Kinesthetic",
+      "Interpersonal",
+      "Intrapersonal",
+      "Naturalist"
+    ]
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "doc_id": "urn:doc:55#vec-doc",
+      "score": 0.8955304176557658
+    },
+    {
+      "rank": 2,
+      "doc_id": "urn:doc:11#vec-doc",
+      "score": 0.8700261203392841
+    },
+    {
+      "rank": 3,
+      "doc_id": "urn:doc:116#vec-doc",
+      "score": 0.8673100437290178
+    },
+    {
+      "rank": 4,
+      "doc_id": "urn:doc:120#vec-doc",
+      "score": 0.858365456084223
+    },
+    {
+      "rank": 5,
+      "doc_id": "urn:doc:144#vec-doc",
+      "score": 0.8408076305091169
+    },
+    {
+      "rank": 6,
+      "doc_id": "urn:doc:103#vec-doc",
+      "score": 0.840185236412383
+    },
+    {
+      "rank": 7,
+      "doc_id": "urn:doc:253#vec-doc",
+      "score": 0.8395824379536676
+    },
+    {
+      "rank": 8,
+      "doc_id": "urn:doc:174#vec-doc",
+      "score": 0.8294633277433928
+    },
+    {
+      "rank": 9,
+      "doc_id": "urn:doc:49#vec-doc",
+      "score": 0.8179719028765503
+    },
+    {
+      "rank": 10,
+      "doc_id": "urn:doc:330#vec-doc",
+      "score": 0.7991972588988748
+    }
+  ]
+}

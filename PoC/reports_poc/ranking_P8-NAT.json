@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "output": "output",
+    "filename": "instances_fragments_profile.ttl",
+    "profile": "P8-NAT",
+    "profile_label": "Predominante Naturalista",
+    "topk": 10,
+    "focus": null,
+    "mi_order": [
+      "Linguistic",
+      "Logical-Mathematical",
+      "Spatial",
+      "Musical",
+      "Bodily-Kinesthetic",
+      "Interpersonal",
+      "Intrapersonal",
+      "Naturalist"
+    ]
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "doc_id": "urn:doc:13#vec-doc",
+      "score": 0.9832490375230994
+    },
+    {
+      "rank": 2,
+      "doc_id": "urn:doc:152#vec-doc",
+      "score": 0.975268251825164
+    },
+    {
+      "rank": 3,
+      "doc_id": "urn:doc:251#vec-doc",
+      "score": 0.9624982745557777
+    },
+    {
+      "rank": 4,
+      "doc_id": "urn:doc:259#vec-doc",
+      "score": 0.953417164443026
+    },
+    {
+      "rank": 5,
+      "doc_id": "urn:doc:159#vec-doc",
+      "score": 0.9500012624074581
+    },
+    {
+      "rank": 6,
+      "doc_id": "urn:doc:255#vec-doc",
+      "score": 0.9498437221225677
+    },
+    {
+      "rank": 7,
+      "doc_id": "urn:doc:262#vec-doc",
+      "score": 0.906969974438183
+    },
+    {
+      "rank": 8,
+      "doc_id": "urn:doc:332#vec-doc",
+      "score": 0.8901012113553275
+    },
+    {
+      "rank": 9,
+      "doc_id": "urn:doc:154#vec-doc",
+      "score": 0.8857490186352589
+    },
+    {
+      "rank": 10,
+      "doc_id": "urn:doc:172#vec-doc",
+      "score": 0.8836788129642335
+    }
+  ]
+}

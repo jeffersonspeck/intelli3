@@ -1,0 +1,11 @@
+-rw-r--r-- 1 speck speck 331 Jan 11 11:00 reports_poc/ranking_P1-LING.csv
+-rw-r--r-- 1 speck speck 337 Jan 11 10:56 reports_poc/ranking_P10-TEC.csv
+-rw-r--r-- 1 speck speck 336 Jan 11 10:57 reports_poc/ranking_P11-GLOB.csv
+-rw-r--r-- 1 speck speck 337 Jan 11 11:05 reports_poc/ranking_P2-LOG.csv
+-rw-r--r-- 1 speck speck 338 Jan 11 11:00 reports_poc/ranking_P3-ESP.csv
+-rw-r--r-- 1 speck speck 335 Jan 11 10:56 reports_poc/ranking_P4-CORP.csv
+-rw-r--r-- 1 speck speck 340 Jan 11 10:56 reports_poc/ranking_P5-MUS.csv
+-rw-r--r-- 1 speck speck 338 Jan 11 10:56 reports_poc/ranking_P6-INTER.csv
+-rw-r--r-- 1 speck speck 335 Jan 11 10:56 reports_poc/ranking_P7-INTRA.csv
+-rw-r--r-- 1 speck speck 339 Jan 11 10:56 reports_poc/ranking_P8-NAT.csv
+-rw-r--r-- 1 speck speck 335 Jan 11 10:56 reports_poc/ranking_P9-HUM.csv

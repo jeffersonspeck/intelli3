@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "output": "output",
+    "filename": "instances_fragments_profile.ttl",
+    "profile": "P9-HUM",
+    "profile_label": "Equilibrado – humanidades",
+    "topk": 10,
+    "focus": null,
+    "mi_order": [
+      "Linguistic",
+      "Logical-Mathematical",
+      "Spatial",
+      "Musical",
+      "Bodily-Kinesthetic",
+      "Interpersonal",
+      "Intrapersonal",
+      "Naturalist"
+    ]
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "doc_id": "urn:doc:330#vec-doc",
+      "score": 0.8406195717957277
+    },
+    {
+      "rank": 2,
+      "doc_id": "urn:doc:6#vec-doc",
+      "score": 0.8318162715474468
+    },
+    {
+      "rank": 3,
+      "doc_id": "urn:doc:328#vec-doc",
+      "score": 0.7848021357067967
+    },
+    {
+      "rank": 4,
+      "doc_id": "urn:doc:10#vec-doc",
+      "score": 0.782847336567379
+    },
+    {
+      "rank": 5,
+      "doc_id": "urn:doc:326#vec-doc",
+      "score": 0.7649509965345075
+    },
+    {
+      "rank": 6,
+      "doc_id": "urn:doc:158#vec-doc",
+      "score": 0.7401184129706563
+    },
+    {
+      "rank": 7,
+      "doc_id": "urn:doc:325#vec-doc",
+      "score": 0.73723316007656
+    },
+    {
+      "rank": 8,
+      "doc_id": "urn:doc:320#vec-doc",
+      "score": 0.7281870407259072
+    },
+    {
+      "rank": 9,
+      "doc_id": "urn:doc:9#vec-doc",
+      "score": 0.7270552161795689
+    },
+    {
+      "rank": 10,
+      "doc_id": "urn:doc:329#vec-doc",
+      "score": 0.7213922524183376
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+usage: cli.py [-h] [--output OUTPUT] [--filename FILENAME] [--profile PROFILE]
+              [--profiles PROFILES] [--focus FOCUS] [--topk TOPK]
+              [--limit LIMIT] [--save] [--report-dir REPORT_DIR]
+
+Intelli3 Classifier CLI (rank documents by MI similarity)
+
+options:
+  -h, --help            show this help message and exit
+  --output OUTPUT       Diretório raiz com
+                        output/<id>/instances_fragments_profile.ttl
+  --filename FILENAME   Nome do TTL por documento
+  --profile PROFILE     Perfil (ex: P11-GLOB) ou 'list'.
+  --profiles PROFILES   Lista de perfis (ex: P1-LING,P2-LOG) para rodar em
+                        lote.
+  --focus FOCUS         Subconjunto de inteligências (ex: LOG,ESP,NAT).
+                        Opcional.
+  --topk TOPK           Top-K por perfil
+  --limit LIMIT         Limita N documentos (0=sem limite)
+  --save                Salva CSV/JSON em --report-dir
+  --report-dir REPORT_DIR
+                        Diretório para salvar relatórios

@@ -1,0 +1,76 @@
+==> reports_poc/ranking_P1-LING.csv <==
+rank,doc_id,score
+1,urn:doc:158#vec-doc,0.802600
+2,urn:doc:324#vec-doc,0.761667
+3,urn:doc:7#vec-doc,0.759560
+4,urn:doc:8#vec-doc,0.752077
+
+==> reports_poc/ranking_P10-TEC.csv <==
+rank,doc_id,score
+1,urn:doc:55#vec-doc,0.895530
+2,urn:doc:11#vec-doc,0.870026
+3,urn:doc:116#vec-doc,0.867310
+4,urn:doc:120#vec-doc,0.858365
+
+==> reports_poc/ranking_P11-GLOB.csv <==
+rank,doc_id,score
+1,urn:doc:6#vec-doc,0.906046
+2,urn:doc:330#vec-doc,0.888731
+3,urn:doc:256#vec-doc,0.861129
+4,urn:doc:116#vec-doc,0.840093
+
+==> reports_poc/ranking_P2-LOG.csv <==
+rank,doc_id,score
+1,urn:doc:56#vec-doc,0.997452
+2,urn:doc:173#vec-doc,0.997086
+3,urn:doc:178#vec-doc,0.995606
+4,urn:doc:250#vec-doc,0.994937
+
+==> reports_poc/ranking_P3-ESP.csv <==
+rank,doc_id,score
+1,urn:doc:46#vec-doc,0.628187
+2,urn:doc:107#vec-doc,0.562529
+3,urn:doc:103#vec-doc,0.532768
+4,urn:doc:175#vec-doc,0.516070
+
+==> reports_poc/ranking_P4-CORP.csv <==
+rank,doc_id,score
+1,urn:doc:177#vec-doc,0.985682
+2,urn:doc:114#vec-doc,0.978788
+3,urn:doc:149#vec-doc,0.974617
+4,urn:doc:53#vec-doc,0.963343
+
+==> reports_poc/ranking_P5-MUS.csv <==
+rank,doc_id,score
+1,urn:doc:153#vec-doc,0.834650
+2,urn:doc:156#vec-doc,0.832087
+3,urn:doc:157#vec-doc,0.773269
+4,urn:doc:103#vec-doc,0.726586
+
+==> reports_poc/ranking_P6-INTER.csv <==
+rank,doc_id,score
+1,urn:doc:326#vec-doc,0.979667
+2,urn:doc:321#vec-doc,0.952821
+3,urn:doc:333#vec-doc,0.949833
+4,urn:doc:117#vec-doc,0.919967
+
+==> reports_poc/ranking_P7-INTRA.csv <==
+rank,doc_id,score
+1,urn:doc:1#vec-doc,0.883430
+2,urn:doc:320#vec-doc,0.815439
+3,urn:doc:261#vec-doc,0.759218
+4,urn:doc:6#vec-doc,0.689222
+
+==> reports_poc/ranking_P8-NAT.csv <==
+rank,doc_id,score
+1,urn:doc:13#vec-doc,0.983249
+2,urn:doc:152#vec-doc,0.975268
+3,urn:doc:251#vec-doc,0.962498
+4,urn:doc:259#vec-doc,0.953417
+
+==> reports_poc/ranking_P9-HUM.csv <==
+rank,doc_id,score
+1,urn:doc:330#vec-doc,0.840620
+2,urn:doc:6#vec-doc,0.831816
+3,urn:doc:328#vec-doc,0.784802
+4,urn:doc:10#vec-doc,0.782847

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "output": "output",
+    "filename": "instances_fragments_profile.ttl",
+    "profile": "P4-CORP",
+    "profile_label": "Predominante Corporal-cinestésica",
+    "topk": 10,
+    "focus": null,
+    "mi_order": [
+      "Linguistic",
+      "Logical-Mathematical",
+      "Spatial",
+      "Musical",
+      "Bodily-Kinesthetic",
+      "Interpersonal",
+      "Intrapersonal",
+      "Naturalist"
+    ]
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "doc_id": "urn:doc:177#vec-doc",
+      "score": 0.9856823541331922
+    },
+    {
+      "rank": 2,
+      "doc_id": "urn:doc:114#vec-doc",
+      "score": 0.9787882104412131
+    },
+    {
+      "rank": 3,
+      "doc_id": "urn:doc:149#vec-doc",
+      "score": 0.9746169236747886
+    },
+    {
+      "rank": 4,
+      "doc_id": "urn:doc:53#vec-doc",
+      "score": 0.9633425742345595
+    },
+    {
+      "rank": 5,
+      "doc_id": "urn:doc:171#vec-doc",
+      "score": 0.9612796768705406
+    },
+    {
+      "rank": 6,
+      "doc_id": "urn:doc:180#vec-doc",
+      "score": 0.9595150587462569
+    },
+    {
+      "rank": 7,
+      "doc_id": "urn:doc:168#vec-doc",
+      "score": 0.9580023143589361
+    },
+    {
+      "rank": 8,
+      "doc_id": "urn:doc:146#vec-doc",
+      "score": 0.9353301285704025
+    },
+    {
+      "rank": 9,
+      "doc_id": "urn:doc:5#vec-doc",
+      "score": 0.9013790588447361
+    },
+    {
+      "rank": 10,
+      "doc_id": "urn:doc:2#vec-doc",
+      "score": 0.8987017600724608
+    }
+  ]
+}

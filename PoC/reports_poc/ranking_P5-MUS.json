@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "output": "output",
+    "filename": "instances_fragments_profile.ttl",
+    "profile": "P5-MUS",
+    "profile_label": "Predominante Musical",
+    "topk": 10,
+    "focus": null,
+    "mi_order": [
+      "Linguistic",
+      "Logical-Mathematical",
+      "Spatial",
+      "Musical",
+      "Bodily-Kinesthetic",
+      "Interpersonal",
+      "Intrapersonal",
+      "Naturalist"
+    ]
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "doc_id": "urn:doc:153#vec-doc",
+      "score": 0.8346502344358699
+    },
+    {
+      "rank": 2,
+      "doc_id": "urn:doc:156#vec-doc",
+      "score": 0.8320867023907773
+    },
+    {
+      "rank": 3,
+      "doc_id": "urn:doc:157#vec-doc",
+      "score": 0.7732687029899181
+    },
+    {
+      "rank": 4,
+      "doc_id": "urn:doc:103#vec-doc",
+      "score": 0.7265864658061009
+    },
+    {
+      "rank": 5,
+      "doc_id": "urn:doc:124#vec-doc",
+      "score": 0.7170098735796036
+    },
+    {
+      "rank": 6,
+      "doc_id": "urn:doc:150#vec-doc",
+      "score": 0.7105812450974733
+    },
+    {
+      "rank": 7,
+      "doc_id": "urn:doc:148#vec-doc",
+      "score": 0.6275371624013151
+    },
+    {
+      "rank": 8,
+      "doc_id": "urn:doc:256#vec-doc",
+      "score": 0.5739941330393018
+    },
+    {
+      "rank": 9,
+      "doc_id": "urn:doc:258#vec-doc",
+      "score": 0.5503490350820068
+    },
+    {
+      "rank": 10,
+      "doc_id": "urn:doc:154#vec-doc",
+      "score": 0.5501224634501737
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "output": "output",
+    "filename": "instances_fragments_profile.ttl",
+    "profile": "P6-INTER",
+    "profile_label": "Predominante Interpessoal",
+    "topk": 10,
+    "focus": null,
+    "mi_order": [
+      "Linguistic",
+      "Logical-Mathematical",
+      "Spatial",
+      "Musical",
+      "Bodily-Kinesthetic",
+      "Interpersonal",
+      "Intrapersonal",
+      "Naturalist"
+    ]
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "doc_id": "urn:doc:326#vec-doc",
+      "score": 0.9796673903053721
+    },
+    {
+      "rank": 2,
+      "doc_id": "urn:doc:321#vec-doc",
+      "score": 0.9528214090265507
+    },
+    {
+      "rank": 3,
+      "doc_id": "urn:doc:333#vec-doc",
+      "score": 0.9498327829266848
+    },
+    {
+      "rank": 4,
+      "doc_id": "urn:doc:117#vec-doc",
+      "score": 0.9199669713008385
+    },
+    {
+      "rank": 5,
+      "doc_id": "urn:doc:331#vec-doc",
+      "score": 0.9018533293621682
+    },
+    {
+      "rank": 6,
+      "doc_id": "urn:doc:334#vec-doc",
+      "score": 0.891475025180255
+    },
+    {
+      "rank": 7,
+      "doc_id": "urn:doc:329#vec-doc",
+      "score": 0.8144984590295845
+    },
+    {
+      "rank": 8,
+      "doc_id": "urn:doc:9#vec-doc",
+      "score": 0.7743528060038413
+    },
+    {
+      "rank": 9,
+      "doc_id": "urn:doc:330#vec-doc",
+      "score": 0.7723171483735212
+    },
+    {
+      "rank": 10,
+      "doc_id": "urn:doc:328#vec-doc",
+      "score": 0.7408603180221677
+    }
+  ]
+}

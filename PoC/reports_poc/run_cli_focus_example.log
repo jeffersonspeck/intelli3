@@ -1,0 +1,18 @@
+=== Intelli3 Classifier CLI ===
+[INFO] output='output'  docs=98  filename='instances_fragments_profile.ttl'
+[INFO] MI_ORDER: 0:Linguistic, 1:Logical-Mathematical, 2:Spatial, 3:Musical, 4:Bodily-Kinesthetic, 5:Interpersonal, 6:Intrapersonal, 7:Naturalist
+
+--- Ranking for P2-LOG (Predominante Lógico-matemática) ---
+[INFO] focus=LOG,ESP,MUS
+01. score=0.9975  doc=urn:doc:56#vec-doc
+02. score=0.9971  doc=urn:doc:173#vec-doc
+03. score=0.9956  doc=urn:doc:178#vec-doc
+04. score=0.9949  doc=urn:doc:250#vec-doc
+05. score=0.9949  doc=urn:doc:172#vec-doc
+06. score=0.9949  doc=urn:doc:14#vec-doc
+07. score=0.9949  doc=urn:doc:326#vec-doc
+08. score=0.9949  doc=urn:doc:45#vec-doc
+09. score=0.9949  doc=urn:doc:325#vec-doc
+10. score=0.9949  doc=urn:doc:251#vec-doc
+
+[OK] Relatórios salvos em: /home/speck/Python/Intelli3Test/intelli3/reports_poc

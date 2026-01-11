@@ -1,0 +1,11 @@
+rank,doc_id,score
+1,urn:doc:6#vec-doc,0.906046
+2,urn:doc:330#vec-doc,0.888731
+3,urn:doc:256#vec-doc,0.861129
+4,urn:doc:116#vec-doc,0.840093
+5,urn:doc:329#vec-doc,0.836916
+6,urn:doc:4#vec-doc,0.836074
+7,urn:doc:103#vec-doc,0.826148
+8,urn:doc:328#vec-doc,0.825797
+9,urn:doc:174#vec-doc,0.806944
+10,urn:doc:253#vec-doc,0.804466

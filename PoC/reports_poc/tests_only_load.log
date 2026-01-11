@@ -1,0 +1,17 @@
+=== Intelli3 PoC Tests ===
+[INFO] runs=1  outputs=['output']
+[INFO] filename='instances_fragments_profile.ttl'  limit=all
+[INFO] MI_ORDER: 0:Linguistic, 1:Logical-Mathematical, 2:Spatial, 3:Musical, 4:Bodily-Kinesthetic, 5:Interpersonal, 6:Intrapersonal, 7:Naturalist
+
+[RUN] output  docs=98
+  - P1-LING: mean_cos=0.254  stdev=0.183  top1=urn:doc:158#vec-doc
+  - P2-LOG: mean_cos=0.420  stdev=0.230  top1=urn:doc:56#vec-doc
+  - P3-ESP: mean_cos=0.274  stdev=0.160  top1=urn:doc:113#vec-doc
+  - P4-CORP: mean_cos=0.565  stdev=0.253  top1=urn:doc:177#vec-doc
+  - P5-MUS: mean_cos=0.272  stdev=0.179  top1=urn:doc:153#vec-doc
+  - P6-INTER: mean_cos=0.378  stdev=0.223  top1=urn:doc:326#vec-doc
+  - P7-INTRA: mean_cos=0.290  stdev=0.155  top1=urn:doc:1#vec-doc
+  - P8-NAT: mean_cos=0.524  stdev=0.256  top1=urn:doc:13#vec-doc
+  - P9-HUM: mean_cos=0.456  stdev=0.172  top1=urn:doc:330#vec-doc
+  - P10-TEC: mean_cos=0.596  stdev=0.148  top1=urn:doc:55#vec-doc
+  - P11-GLOB: mean_cos=0.666  stdev=0.103  top1=urn:doc:6#vec-doc
